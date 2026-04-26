@@ -36,6 +36,33 @@ execute if score @s STR_TOT matches ..-1 run data modify storage att2:dialog col
 function att2:gameplay/consciousness/insert/attribute_point with storage att2:dialog
 function att2:gameplay/consciousness/insert/attribute_add with storage att2:dialog
 
+## CRT
+#reset
+data modify storage att2:dialog point_data set value []
+##show crt point
+execute store result storage att2:dialog totalpoint int 1 run scoreboard players get @s CRT_TOT
+#base ui
+data modify storage att2:dialog attribute append value {label:{translate:consciousness.stat.icon.crt,font:"att2_font:consciousness",shadow_color:0},tooltip:{translate:consciousness.stat.crt.tip,color:green},action:{type:run_command,command:"trigger ScoreTrigger set 2310"},width:28}
+data modify storage att2:dialog attribute append value {label:{translate:consciousness.stat.crt,color:"#F7DC6F"},tooltip:{translate:consciousness.stat.crt.tip,color:green},action:{type:run_command,command:"trigger ScoreTrigger set 2310"},width:60}
+##different show + 
+data modify storage att2:dialog executeid set value 3529
+data modify storage att2:dialog requireid set value "CRT_UPGRADE_REQ"
+execute store result storage att2:dialog requirepoint int 1 run scoreboard players get @s CRT_UPGRADE_REQ
+##point show
+function att2:any_function/execute {function:['execute store result storage att2:dialog point int 1 run scoreboard players get @s CRT_BASE','data modify storage att2:dialog color set value "green"','data modify storage att2:dialog type set value "base"','function att2:gameplay/consciousness/insert/attribute_point_data with storage att2:dialog']}
+execute unless score @s CRT_EQ matches 0 run function att2:any_function/execute {function:['execute store result storage att2:dialog point int 1 run scoreboard players get @s CRT_EQ','execute if score @s CRT_EQ matches 1.. run data modify storage att2:dialog color set value "green"','execute if score @s CRT_EQ matches ..-1 run data modify storage att2:dialog color set value "red"','data modify storage att2:dialog type set value "equipment"','function att2:gameplay/consciousness/insert/attribute_point_data with storage att2:dialog']}
+execute unless score @s CRT_SP matches 0 run function att2:any_function/execute {function:['execute store result storage att2:dialog point int 1 run scoreboard players get @s CRT_SP','execute if score @s CRT_SP matches 1.. run data modify storage att2:dialog color set value "green"','execute if score @s CRT_SP matches ..-1 run data modify storage att2:dialog color set value "red"','data modify storage att2:dialog type set value "spell"','function att2:gameplay/consciousness/insert/attribute_point_data with storage att2:dialog']}
+execute unless score @s CRT_EH matches 0 run function att2:any_function/execute {function:['execute store result storage att2:dialog point int 1 run scoreboard players get @s CRT_EH','execute if score @s CRT_EH matches 1.. run data modify storage att2:dialog color set value "green"','execute if score @s CRT_EH matches ..-1 run data modify storage att2:dialog color set value "red"','data modify storage att2:dialog type set value "enchantment"','function att2:gameplay/consciousness/insert/attribute_point_data with storage att2:dialog']}
+execute unless score @s CRT_PO matches 0 run function att2:any_function/execute {function:['execute store result storage att2:dialog point int 1 run scoreboard players get @s CRT_PO','execute if score @s CRT_PO matches 1.. run data modify storage att2:dialog color set value "green"','execute if score @s CRT_PO matches ..-1 run data modify storage att2:dialog color set value "red"','data modify storage att2:dialog type set value "potion"','function att2:gameplay/consciousness/insert/attribute_point_data with storage att2:dialog']}
+execute unless score @s CRT_EXT matches 0 run function att2:any_function/execute {function:['execute store result storage att2:dialog point int 1 run scoreboard players get @s CRT_EXT','execute if score @s CRT_EXT matches 1.. run data modify storage att2:dialog color set value "green"','execute if score @s CRT_EXT matches ..-1 run data modify storage att2:dialog color set value "red"','data modify storage att2:dialog type set value "environment"','function att2:gameplay/consciousness/insert/attribute_point_data with storage att2:dialog']}
+execute unless score @s CRT_LE matches 0 run function att2:any_function/execute {function:['execute store result storage att2:dialog point int 1 run scoreboard players get @s CRT_LE','execute if score @s CRT_LE matches 1.. run data modify storage att2:dialog color set value "green"','execute if score @s CRT_LE matches ..-1 run data modify storage att2:dialog color set value "red"','data modify storage att2:dialog type set value "legendary"','function att2:gameplay/consciousness/insert/attribute_point_data with storage att2:dialog']}
+##insert
+execute if score @s CRT_TOT matches 1.. run data modify storage att2:dialog color set value "2"
+execute if score @s CRT_TOT matches 0 run data modify storage att2:dialog color set value "e"
+execute if score @s CRT_TOT matches ..-1 run data modify storage att2:dialog color set value "c"
+function att2:gameplay/consciousness/insert/attribute_point with storage att2:dialog
+function att2:gameplay/consciousness/insert/attribute_add with storage att2:dialog
+
 ## RES
 #reset
 data modify storage att2:dialog point_data set value []

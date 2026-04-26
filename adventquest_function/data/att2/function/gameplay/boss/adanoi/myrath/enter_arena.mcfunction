@@ -12,4 +12,4 @@ scoreboard players set @s MUSIC_BOSS 0
 bossbar set minecraft:myrath players @s
 
 ##show display_title
-function att2:gameplay/boss/adanoi/myrath/display_title
+execute if score SQ26 SIDEQUEST matches 6..99 run function att2:gameplay/boss/adanoi/myrath/display_title

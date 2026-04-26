@@ -181,7 +181,7 @@ scoreboard objectives remove BANK_OP
 # Shop
 scoreboard objectives remove ESC
 scoreboard objectives remove SHOP
-scoreboard objectives remove SHOP_OP1
+scoreboard objectives remove SHOP_OP
 scoreboard objectives remove GAMBLING
 scoreboard objectives remove MENDING
 

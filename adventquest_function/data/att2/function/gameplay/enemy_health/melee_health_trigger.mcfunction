@@ -27,7 +27,6 @@ function att2:gameplay/equipment/weapon/spear/hit_box_trigger
 ##Critical hit detection.
 function att2:gameplay/equipment/weapon/critical/detection
 
-
 ##absorption_health
 execute if score #reduce_health CAL matches 1.. unless score @s ENEMYABHEALTH matches ..0 run function att2:gameplay/enemy_health/absorption_health_trigger
 execute if score #absorption_health CAL matches 1.. run function att2:gameplay/enemy_health/show_absorption_health_reduce/melee

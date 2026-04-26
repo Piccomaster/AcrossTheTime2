@@ -18,7 +18,7 @@ scoreboard objectives add TOOLS_EPI dummy
 scoreboard objectives add TOOLS_ESC dummy
 scoreboard objectives add TOOLS_LEG dummy
 scoreboard objectives add TOOLS_ULT dummy
-scoreboard objectives add SHOP_OP1 dummy
+scoreboard objectives add SHOP_OP dummy
 
 scoreboard players set @s ESC 0
 scoreboard players set @s SHOP 0
@@ -36,12 +36,7 @@ scoreboard players set rar MENDING 0
 scoreboard players set epi_esc MENDING 0
 scoreboard players set epi MENDING 0
 scoreboard players set leg MENDING 0
-scoreboard players set 10 SHOP_OP1 10
-scoreboard players set 30 SHOP_OP1 30
-scoreboard players set 60 SHOP_OP1 60
-scoreboard players set 1000 SHOP_OP1 1000
-scoreboard players set 100000 SHOP_OP1 100000
 
-execute in minecraft:overworld positioned 787 81 796 run function att2:gameplay/shop/slot_management/summon_holder
-scoreboard players set @e[type=armor_stand,tag=ShotSlotHolder] SHOP_OP1 0
+#execute in minecraft:overworld positioned 787 81 796 run function att2:gameplay/shop/slot_management/summon_holder
+#scoreboard players set @e[type=armor_stand,tag=ShotSlotHolder] SHOP_OP 0
 function att2:gameplay/shop/slot_management/randomise

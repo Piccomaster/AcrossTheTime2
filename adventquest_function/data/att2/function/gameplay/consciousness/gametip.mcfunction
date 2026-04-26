@@ -20,7 +20,7 @@ data modify storage att2:dialog gametip append value {label:{translate:conscious
 #boss
 data modify storage att2:dialog gametip append value {label:{translate:consciousness.gametip.boss,color:gold},tooltip:[{translate:consciousness.gametip.tip,color:white},{translate:consciousness.gametip.boss,color:yellow}],action:{type:show_dialog,dialog:"att2:gametip/boss"},width:150}
 #bow
-data modify storage att2:dialog gametip append value {label:{translate:consciousness.gametip.bow,color:gold},tooltip:[{translate:consciousness.gametip.tip,color:white},{translate:consciousness.gametip.bow,color:yellow}],action:{type:show_dialog,dialog:"att2:gametip/bow"},width:150}
+#data modify storage att2:dialog gametip append value {label:{translate:consciousness.gametip.bow,color:gold},tooltip:[{translate:consciousness.gametip.tip,color:white},{translate:consciousness.gametip.bow,color:yellow}],action:{type:show_dialog,dialog:"att2:gametip/bow"},width:150}
 #dahal
 data modify storage att2:dialog gametip append value {label:{translate:consciousness.gametip.dahal,color:gold},tooltip:[{translate:consciousness.gametip.tip,color:white},{translate:consciousness.gametip.dahal,color:yellow}],action:{type:show_dialog,dialog:"att2:gametip/dahal"},width:150}
 #difficult
@@ -32,7 +32,7 @@ data modify storage att2:dialog gametip append value {label:{translate:conscious
 #gameplay
 data modify storage att2:dialog gametip append value {label:{translate:consciousness.gametip.gameplay,color:gold},tooltip:[{translate:consciousness.gametip.tip,color:white},{translate:consciousness.gametip.gameplay,color:yellow}],action:{type:show_dialog,dialog:"att2:gametip/gameplay"},width:150}
 #house
-data modify storage att2:dialog gametip append value {label:{translate:consciousness.gametip.house,color:gold},tooltip:[{translate:consciousness.gametip.tip,color:white},{translate:consciousness.gametip.house,color:yellow}],action:{type:show_dialog,dialog:"att2:gametip/house"},width:150}
+#data modify storage att2:dialog gametip append value {label:{translate:consciousness.gametip.house,color:gold},tooltip:[{translate:consciousness.gametip.tip,color:white},{translate:consciousness.gametip.house,color:yellow}],action:{type:show_dialog,dialog:"att2:gametip/house"},width:150}
 #item
 data modify storage att2:dialog gametip append value {label:{translate:consciousness.gametip.item,color:gold},tooltip:[{translate:consciousness.gametip.tip,color:white},{translate:consciousness.gametip.item,color:yellow}],action:{type:show_dialog,dialog:"att2:gametip/item"},width:150}
 #quest

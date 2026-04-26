@@ -5,42 +5,58 @@
 
 #execute in minecraft:overworld positioned 787 81 796 run function att2:gameplay/shop/slot_management/summon_holder
 
-execute store result score randomVALUE_Slot1 SHOP_OP1 run random value 0..999
+execute store result score #randomVALUE_Slot1 SHOP_OP run random value 0..999
 
-execute store result score randomVALUE_Slot2 SHOP_OP1 run random value 0..999
+execute store result score #randomVALUE_Slot2 SHOP_OP run random value 0..999
 
-execute store result score randomVALUE_Slot3 SHOP_OP1 run random value 0..999
+execute store result score #randomVALUE_Slot3 SHOP_OP run random value 0..999
 
-execute store result score randomVALUE_Slot4 SHOP_OP1 run random value 0..999
+execute store result score #randomVALUE_Slot4 SHOP_OP run random value 0..999
 
-execute store result score randomVALUE_Slot5 SHOP_OP1 run random value 0..999
+execute store result score #randomVALUE_Slot5 SHOP_OP run random value 0..999
 
-execute store result score randomVALUE_Slot6 SHOP_OP1 run random value 0..999
+execute store result score #randomVALUE_Slot6 SHOP_OP run random value 0..999
 
-execute store result score randomVALUE_Slot7 SHOP_OP1 run random value 0..999
+execute store result score #randomVALUE_Slot7 SHOP_OP run random value 0..999
 
-execute store result score randomVALUE_Slot8 SHOP_OP1 run random value 0..999
+execute store result score #randomVALUE_Slot8 SHOP_OP run random value 0..999
 
-execute store result score randomVALUE_Slot9 SHOP_OP1 run random value 0..999
+execute store result score #randomVALUE_Slot9 SHOP_OP run random value 0..999
 
-execute store result score randomVALUE_Slot10 SHOP_OP1 run random value 0..999
+execute store result score #randomVALUE_Slot10 SHOP_OP run random value 0..999
 
-execute store result score randomVALUE_Slot11 SHOP_OP1 run random value 0..999
+execute store result score #randomVALUE_Slot11 SHOP_OP run random value 0..999
 
-execute store result score randomVALUE_Slot12 SHOP_OP1 run random value 0..999
+execute store result score #randomVALUE_Slot12 SHOP_OP run random value 0..999
 
 #shop tip
-function att2:gameplay/shop/slot_management/value/carmine_mordan_shop_test
-function att2:gameplay/shop/slot_management/value/ramsay_tork_shop_test
-function att2:gameplay/shop/slot_management/value/rokar_borton_shop_test
-execute if score vulk_PNJ DIALOG matches 4..4 run function att2:gameplay/shop/slot_management/value/vulk_shop_test
-function att2:gameplay/shop/slot_management/value/wulk_shop_test
-function att2:gameplay/shop/slot_management/value/xoltan_zahav_shop_test
-function att2:gameplay/shop/slot_management/value/zirthan_shop_test
-function att2:gameplay/shop/slot_management/value/emera_palundra_shop_test
-function att2:gameplay/shop/slot_management/value/maria_shop_test
-function att2:gameplay/shop/slot_management/value/jabir_hayyan_shop_test
-function att2:gameplay/shop/slot_management/value/oswald_flamel_shop_test
-function att2:gameplay/shop/slot_management/value/sylvia_mornith_shop_test
+#00000000-0000-074a-0000-00000000074a
+function att2:gameplay/shop/slot_management/slot/carmine_mordan_shop
+#00000000-0000-051a-0000-00000000051a
+function att2:gameplay/shop/slot_management/slot/ramsay_tork_shop
+#00000000-0000-059a-0000-00000000059a
+function att2:gameplay/shop/slot_management/slot/rokar_borton_shop
+#00000000-0000-067a-0000-00000000067a
+execute if score vulk_PNJ DIALOG matches 4..4 run function att2:gameplay/shop/slot_management/slot/vulk_shop
+#00000000-0000-026a-0000-00000000026a
+function att2:gameplay/shop/slot_management/slot/wulk_shop
+#00000000-0000-106a-0000-00000000106a
+function att2:gameplay/shop/slot_management/slot/xoltan_zahav_shop
+#00000000-0000-122a-0000-00000000122a
+function att2:gameplay/shop/slot_management/slot/zirthan_shop
+
+#00000000-0000-112a-0000-00000000112a
+function att2:gameplay/shop/slot_management/slot/emera_palundra_shop
+#00000000-0000-103a-0000-00000000103a
+function att2:gameplay/shop/slot_management/slot/maria_shop
+
+#00000000-0000-110a-0000-00000000110a
+function att2:gameplay/shop/slot_management/slot/jabir_hayyan_shop
+#00000000-0000-018a-0000-00000000018a
+function att2:gameplay/shop/slot_management/slot/oswald_flamel_shop
+#00000000-0000-079a-0000-00000000079a
+function att2:gameplay/shop/slot_management/slot/sylvia_mornith_shop
+
 execute unless score Mainquest SIDEQUEST matches 1.. run return 0
+
 function att2:dialogs/gameplay/shop/showcase/timeshop_remaining

@@ -14,7 +14,7 @@ execute at 00000000-0000-075a-0000-00000000075a if entity @e[distance=..2,type=i
 execute in overworld positioned -4114 69 -5087 run function att2:summon/pnj/marc_aboth
 execute in overworld as 00000000-0000-075a-0000-00000000075a at @s run tp @s -4114 69 -5087 145 0
 execute unless entity 00000000-0000-075a-0000-00000000075a run return 0
-execute in overworld as 00000000-0000-075a-0000-00000000075a at @s run tag @s remove rotation_store
+execute in overworld as 00000000-0000-075a-0000-00000000075a at @s run data modify entity 00000000-0000-075a-0000-00000000075a data.rotation set value [145,0]
 ##summon interaction
 execute at 00000000-0000-075a-0000-00000000075a unless entity @e[distance=..2,type=interaction,tag=PNJ_TALK] run function att2:summon/pnj/_interaction
 ##spreadplayers competitors

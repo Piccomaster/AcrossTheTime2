@@ -24,3 +24,5 @@ item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_ench
 
 #sword attack trigger
 function att2:gameplay/equipment/weapon/sword/trigger
+#temperature trigger
+function att2:gameplay/enveffect/temperature/trigger/sword_attack

@@ -8,7 +8,7 @@ execute if score dahalburst ENCHANTMENT matches 1.. run function att2:gameplay/e
 execute if score dahalburst ENCHANTMENT matches 1.. run scoreboard players set add_progress ENCHANTMENT 1
 #reduce Materials
 $clear @s quartz[custom_data={EquipmentType:'misc',Rarity:'unk',Coin:'esc'}] $(esc_cost)
-scoreboard players operation stock RUNE_POWDER -= rune_cost ENCHANTMENT
+scoreboard players operation #stock RUNE_POWDER -= rune_cost ENCHANTMENT
 #dialogs
 function att2:dialogs/gameplay/enchantment/materials_reduce
 #advancement test

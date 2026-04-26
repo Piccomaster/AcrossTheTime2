@@ -1,96 +1,97 @@
 #################################################################
-#Made by Adventquest											#
-#Process the shop table of potion_sylvia_mornith    		    #
+#Made by Adventquest
+#Process the shop table of potion_sylvia_mornith
 #################################################################
-#set random value
-execute if entity @s[tag=ShotSlotHolder,tag=slot1] run scoreboard players operation @s SHOP_OP1 = potion_sylvia_mornith_slot1 SHOP_OP1
-execute if entity @s[tag=ShotSlotHolder,tag=slot2] run scoreboard players operation @s SHOP_OP1 = potion_sylvia_mornith_slot2 SHOP_OP1
-execute if entity @s[tag=ShotSlotHolder,tag=slot3] run scoreboard players operation @s SHOP_OP1 = potion_sylvia_mornith_slot3 SHOP_OP1
-execute if entity @s[tag=ShotSlotHolder,tag=slot4] run scoreboard players operation @s SHOP_OP1 = potion_sylvia_mornith_slot4 SHOP_OP1
-execute if entity @s[tag=ShotSlotHolder,tag=slot5] run scoreboard players operation @s SHOP_OP1 = potion_sylvia_mornith_slot5 SHOP_OP1
-execute if entity @s[tag=ShotSlotHolder,tag=slot6] run scoreboard players operation @s SHOP_OP1 = potion_sylvia_mornith_slot6 SHOP_OP1
-execute if entity @s[tag=ShotSlotHolder,tag=slot7] run scoreboard players operation @s SHOP_OP1 = potion_sylvia_mornith_slot7 SHOP_OP1
-execute if entity @s[tag=ShotSlotHolder,tag=slot8] run scoreboard players operation @s SHOP_OP1 = potion_sylvia_mornith_slot8 SHOP_OP1
-execute if entity @s[tag=ShotSlotHolder,tag=slot9] run scoreboard players operation @s SHOP_OP1 = potion_sylvia_mornith_slot9 SHOP_OP1
-execute if entity @s[tag=ShotSlotHolder,tag=slot10] run scoreboard players operation @s SHOP_OP1 = potion_sylvia_mornith_slot10 SHOP_OP1
-execute if entity @s[tag=ShotSlotHolder,tag=slot11] run scoreboard players operation @s SHOP_OP1 = potion_sylvia_mornith_slot11 SHOP_OP1
-execute if entity @s[tag=ShotSlotHolder,tag=slot12] run scoreboard players operation @s SHOP_OP1 = potion_sylvia_mornith_slot12 SHOP_OP1
 
-execute if score @s SHOP_OP matches 0..18 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_1
-execute if score @s SHOP_OP matches 19..36 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_2
-execute if score @s SHOP_OP matches 37..54 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_3
-execute if score @s SHOP_OP matches 55..72 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_4
-execute if score @s SHOP_OP matches 73..90 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_5
-execute if score @s SHOP_OP matches 91..108 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_6
-execute if score @s SHOP_OP matches 109..126 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_7
-execute if score @s SHOP_OP matches 127..144 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_8
-execute if score @s SHOP_OP matches 145..162 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_9
-execute if score @s SHOP_OP matches 163..180 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_10
-execute if score @s SHOP_OP matches 181..198 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_48
-execute if score @s SHOP_OP matches 199..216 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_49
-execute if score @s SHOP_OP matches 217..234 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_63
-execute if score @s SHOP_OP matches 235..252 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_64
-execute if score @s SHOP_OP matches 253..270 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_65
-execute if score @s SHOP_OP matches 271..288 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_66
-execute if score @s SHOP_OP matches 289..306 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_67
-execute if score @s SHOP_OP matches 307..324 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_68
-execute if score @s SHOP_OP matches 325..342 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_69
-execute if score @s SHOP_OP matches 343..360 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/splash_potion_30
-execute if score @s SHOP_OP matches 361..378 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/splash_potion_31
-execute if score @s SHOP_OP matches 379..396 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/splash_potion_32
-execute if score @s SHOP_OP matches 397..414 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/splash_potion_33
-execute if score @s SHOP_OP matches 415..429 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_11
-execute if score @s SHOP_OP matches 430..444 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_12
-execute if score @s SHOP_OP matches 445..459 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_13
-execute if score @s SHOP_OP matches 460..474 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_14
-execute if score @s SHOP_OP matches 475..489 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_15
-execute if score @s SHOP_OP matches 490..504 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_16
-execute if score @s SHOP_OP matches 505..519 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_17
-execute if score @s SHOP_OP matches 520..534 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_18
-execute if score @s SHOP_OP matches 535..549 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_50
-execute if score @s SHOP_OP matches 550..564 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_51
-execute if score @s SHOP_OP matches 565..579 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_70
-execute if score @s SHOP_OP matches 580..594 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_71
-execute if score @s SHOP_OP matches 595..609 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_72
-execute if score @s SHOP_OP matches 610..624 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_73
-execute if score @s SHOP_OP matches 625..639 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_74
-execute if score @s SHOP_OP matches 640..654 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_75
-execute if score @s SHOP_OP matches 655..669 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/splash_potion_34
-execute if score @s SHOP_OP matches 670..684 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/splash_potion_35
-execute if score @s SHOP_OP matches 685..699 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/splash_potion_56
-execute if score @s SHOP_OP matches 700..714 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/lingering_potion_40
-execute if score @s SHOP_OP matches 715..729 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/lingering_potion_41
-execute if score @s SHOP_OP matches 730..744 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/lingering_potion_60
-execute if score @s SHOP_OP matches 745..756 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/potion_19
-execute if score @s SHOP_OP matches 757..768 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/potion_20
-execute if score @s SHOP_OP matches 769..780 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/potion_21
-execute if score @s SHOP_OP matches 781..792 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/potion_52
-execute if score @s SHOP_OP matches 793..804 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/potion_53
-execute if score @s SHOP_OP matches 805..816 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/potion_76
-execute if score @s SHOP_OP matches 817..828 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/potion_77
-execute if score @s SHOP_OP matches 829..840 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/potion_78
-execute if score @s SHOP_OP matches 841..852 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/splash_potion_36
-execute if score @s SHOP_OP matches 853..864 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/splash_potion_37
-execute if score @s SHOP_OP matches 865..876 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/splash_potion_57
-execute if score @s SHOP_OP matches 877..888 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/lingering_potion_42
-execute if score @s SHOP_OP matches 889..900 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/lingering_potion_43
-execute if score @s SHOP_OP matches 901..912 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/lingering_potion_61
-execute if score @s SHOP_OP matches 913..919 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/potion_22
-execute if score @s SHOP_OP matches 920..926 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/potion_23
-execute if score @s SHOP_OP matches 927..933 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/potion_24
-execute if score @s SHOP_OP matches 934..940 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/potion_25
-execute if score @s SHOP_OP matches 941..947 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/potion_54
-execute if score @s SHOP_OP matches 948..954 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/potion_79
-execute if score @s SHOP_OP matches 955..961 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/potion_80
-execute if score @s SHOP_OP matches 962..967 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/splash_potion_38
-execute if score @s SHOP_OP matches 968..973 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/splash_potion_58
-execute if score @s SHOP_OP matches 974..979 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/lingering_potion_44
-execute if score @s SHOP_OP matches 980..985 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/lingering_potion_62
-execute if score @s SHOP_OP matches 986..987 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/leg/potion_27
-execute if score @s SHOP_OP matches 988..989 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/leg/potion_28
-execute if score @s SHOP_OP matches 990..991 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/leg/potion_29
-execute if score @s SHOP_OP matches 992..993 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/leg/potion_55
-execute if score @s SHOP_OP matches 994..995 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/leg/potion_83
-execute if score @s SHOP_OP matches 996..997 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/leg/potion_84
-execute if score @s SHOP_OP matches 998..998 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/leg/lingering_potion_45
-execute if score @s SHOP_OP matches 999..999 at @e[name="SYLVIA MORNITH"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/leg/splash_potion_59
+#set random value
+execute if score #slot SHOP_OP matches 1 run scoreboard players operation #value SHOP_OP = #potion_sylvia_mornith_slot1 SHOP_OP
+execute if score #slot SHOP_OP matches 2 run scoreboard players operation #value SHOP_OP = #potion_sylvia_mornith_slot2 SHOP_OP
+execute if score #slot SHOP_OP matches 3 run scoreboard players operation #value SHOP_OP = #potion_sylvia_mornith_slot3 SHOP_OP
+execute if score #slot SHOP_OP matches 4 run scoreboard players operation #value SHOP_OP = #potion_sylvia_mornith_slot4 SHOP_OP
+execute if score #slot SHOP_OP matches 5 run scoreboard players operation #value SHOP_OP = #potion_sylvia_mornith_slot5 SHOP_OP
+execute if score #slot SHOP_OP matches 6 run scoreboard players operation #value SHOP_OP = #potion_sylvia_mornith_slot6 SHOP_OP
+execute if score #slot SHOP_OP matches 7 run scoreboard players operation #value SHOP_OP = #potion_sylvia_mornith_slot7 SHOP_OP
+execute if score #slot SHOP_OP matches 8 run scoreboard players operation #value SHOP_OP = #potion_sylvia_mornith_slot8 SHOP_OP
+execute if score #slot SHOP_OP matches 9 run scoreboard players operation #value SHOP_OP = #potion_sylvia_mornith_slot9 SHOP_OP
+execute if score #slot SHOP_OP matches 10 run scoreboard players operation #value SHOP_OP = #potion_sylvia_mornith_slot10 SHOP_OP
+execute if score #slot SHOP_OP matches 11 run scoreboard players operation #value SHOP_OP = #potion_sylvia_mornith_slot11 SHOP_OP
+execute if score #slot SHOP_OP matches 12 run scoreboard players operation #value SHOP_OP = #potion_sylvia_mornith_slot12 SHOP_OP
+
+execute if score #value SHOP_OP matches 0..18 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_1
+execute if score #value SHOP_OP matches 19..36 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_2
+execute if score #value SHOP_OP matches 37..54 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_3
+execute if score #value SHOP_OP matches 55..72 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_4
+execute if score #value SHOP_OP matches 73..90 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_5
+execute if score #value SHOP_OP matches 91..108 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_6
+execute if score #value SHOP_OP matches 109..126 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_7
+execute if score #value SHOP_OP matches 127..144 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_8
+execute if score #value SHOP_OP matches 145..162 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_9
+execute if score #value SHOP_OP matches 163..180 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_10
+execute if score #value SHOP_OP matches 181..198 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_48
+execute if score #value SHOP_OP matches 199..216 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_49
+execute if score #value SHOP_OP matches 217..234 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_63
+execute if score #value SHOP_OP matches 235..252 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_64
+execute if score #value SHOP_OP matches 253..270 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_65
+execute if score #value SHOP_OP matches 271..288 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_66
+execute if score #value SHOP_OP matches 289..306 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_67
+execute if score #value SHOP_OP matches 307..324 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_68
+execute if score #value SHOP_OP matches 325..342 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/potion_69
+execute if score #value SHOP_OP matches 343..360 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/splash_potion_30
+execute if score #value SHOP_OP matches 361..378 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/splash_potion_31
+execute if score #value SHOP_OP matches 379..396 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/splash_potion_32
+execute if score #value SHOP_OP matches 397..414 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/com/splash_potion_33
+execute if score #value SHOP_OP matches 415..429 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_11
+execute if score #value SHOP_OP matches 430..444 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_12
+execute if score #value SHOP_OP matches 445..459 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_13
+execute if score #value SHOP_OP matches 460..474 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_14
+execute if score #value SHOP_OP matches 475..489 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_15
+execute if score #value SHOP_OP matches 490..504 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_16
+execute if score #value SHOP_OP matches 505..519 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_17
+execute if score #value SHOP_OP matches 520..534 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_18
+execute if score #value SHOP_OP matches 535..549 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_50
+execute if score #value SHOP_OP matches 550..564 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_51
+execute if score #value SHOP_OP matches 565..579 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_70
+execute if score #value SHOP_OP matches 580..594 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_71
+execute if score #value SHOP_OP matches 595..609 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_72
+execute if score #value SHOP_OP matches 610..624 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_73
+execute if score #value SHOP_OP matches 625..639 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_74
+execute if score #value SHOP_OP matches 640..654 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/potion_75
+execute if score #value SHOP_OP matches 655..669 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/splash_potion_34
+execute if score #value SHOP_OP matches 670..684 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/splash_potion_35
+execute if score #value SHOP_OP matches 685..699 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/splash_potion_56
+execute if score #value SHOP_OP matches 700..714 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/lingering_potion_40
+execute if score #value SHOP_OP matches 715..729 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/lingering_potion_41
+execute if score #value SHOP_OP matches 730..744 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/unc/lingering_potion_60
+execute if score #value SHOP_OP matches 745..756 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/potion_19
+execute if score #value SHOP_OP matches 757..768 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/potion_20
+execute if score #value SHOP_OP matches 769..780 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/potion_21
+execute if score #value SHOP_OP matches 781..792 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/potion_52
+execute if score #value SHOP_OP matches 793..804 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/potion_53
+execute if score #value SHOP_OP matches 805..816 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/potion_76
+execute if score #value SHOP_OP matches 817..828 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/potion_77
+execute if score #value SHOP_OP matches 829..840 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/potion_78
+execute if score #value SHOP_OP matches 841..852 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/splash_potion_36
+execute if score #value SHOP_OP matches 853..864 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/splash_potion_37
+execute if score #value SHOP_OP matches 865..876 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/splash_potion_57
+execute if score #value SHOP_OP matches 877..888 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/lingering_potion_42
+execute if score #value SHOP_OP matches 889..900 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/lingering_potion_43
+execute if score #value SHOP_OP matches 901..912 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/lingering_potion_61
+execute if score #value SHOP_OP matches 913..919 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/potion_22
+execute if score #value SHOP_OP matches 920..926 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/potion_23
+execute if score #value SHOP_OP matches 927..933 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/potion_24
+execute if score #value SHOP_OP matches 934..940 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/potion_25
+execute if score #value SHOP_OP matches 941..947 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/potion_54
+execute if score #value SHOP_OP matches 948..954 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/potion_79
+execute if score #value SHOP_OP matches 955..961 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/potion_80
+execute if score #value SHOP_OP matches 962..967 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/splash_potion_38
+execute if score #value SHOP_OP matches 968..973 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/splash_potion_58
+execute if score #value SHOP_OP matches 974..979 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/lingering_potion_44
+execute if score #value SHOP_OP matches 980..985 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/lingering_potion_62
+execute if score #value SHOP_OP matches 986..987 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/leg/potion_27
+execute if score #value SHOP_OP matches 988..989 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/leg/potion_28
+execute if score #value SHOP_OP matches 990..991 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/leg/potion_29
+execute if score #value SHOP_OP matches 992..993 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/leg/potion_55
+execute if score #value SHOP_OP matches 994..995 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/leg/potion_83
+execute if score #value SHOP_OP matches 996..997 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/leg/potion_84
+execute if score #value SHOP_OP matches 998..998 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/leg/lingering_potion_45
+execute if score #value SHOP_OP matches 999..999 at 00000000-0000-079a-0000-00000000079a as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/leg/splash_potion_59

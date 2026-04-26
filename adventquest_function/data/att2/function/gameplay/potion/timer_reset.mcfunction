@@ -3,5 +3,9 @@
 #Apply potion effect                             #
 ##################################################
 
-scoreboard players set @s TIMER_HUN_TOT 3
-scoreboard players set @s TIMER_HER_TOT 3
+scoreboard players add @s HER_VALUE 10000
+scoreboard players add @s HUN_VALUE 10000
+##temperature trigger
+function att2:gameplay/enveffect/temperature/trigger/drink_potion
+
+##advancement trigger

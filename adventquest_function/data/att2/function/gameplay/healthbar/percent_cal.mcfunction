@@ -4,7 +4,10 @@
 #################################################################
 
 #get atk_damage
-execute store result score attack_damage CAL run attribute @s attack_damage get
+execute if score level DIFFICULTY matches -1 store result score attack_damage CAL run attribute @s attack_damage get 0.75
+execute if score level DIFFICULTY matches 0..1 store result score attack_damage CAL run attribute @s attack_damage get
+execute if score level DIFFICULTY matches 2 store result score attack_damage CAL run attribute @s attack_damage get 1.5
+
 #get @s CLASSLEVEL
 scoreboard players operation classlevel CAL = @s CLASSLEVEL
 #get Max health

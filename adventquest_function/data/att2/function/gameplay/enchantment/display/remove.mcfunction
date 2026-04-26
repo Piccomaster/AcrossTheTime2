@@ -89,3 +89,5 @@ execute if score remove ENCHANTMENT matches 2 if score treasurehunter ENCHANTMEN
 execute if score remove ENCHANTMENT matches 2 if score wrath_accumulator ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/wrath_accumulator_remove
 #bloodreaver_remove
 execute if score remove ENCHANTMENT matches 2 if score bloodreaver ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/bloodreaver_remove
+#stand_breaking_remove
+execute if score remove ENCHANTMENT matches 2 if score stand_breaking ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/stand_breaking_remove

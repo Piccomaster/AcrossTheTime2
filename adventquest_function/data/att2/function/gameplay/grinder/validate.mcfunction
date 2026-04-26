@@ -4,7 +4,7 @@
 #############################################################
 
 function att2:gameplay/grinder/estimate
-scoreboard players operation stock RUNE_POWDER += total GRINDER
+scoreboard players operation #stock RUNE_POWDER += total GRINDER
 scoreboard players operation stock_total RUNE_POWDER += total GRINDER
 function att2:dialogs/gameplay/shop/runepowder_display
 function att2:sound/misc/grinder

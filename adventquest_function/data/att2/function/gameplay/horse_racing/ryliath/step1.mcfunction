@@ -11,7 +11,7 @@
 execute in overworld positioned -3902 86 -5825 run function att2:summon/pnj/helena_meli
 execute in overworld as 00000000-0000-027a-0000-00000000027a at @s run tp @s -3902 86 -5825 -100 0
 execute unless entity 00000000-0000-027a-0000-00000000027a run return 0
-execute in overworld as 00000000-0000-027a-0000-00000000027a at @s run tag @s remove rotation_store
+execute in overworld as 00000000-0000-027a-0000-00000000027a at @s run data modify entity 00000000-0000-027a-0000-00000000027a data.rotation set value [-100,0]
 ##summon interaction
 execute at 00000000-0000-027a-0000-00000000027a unless entity @e[distance=..2,type=interaction,tag=PNJ_TALK] run function att2:summon/pnj/_interaction
 ##spreadplayers competitors

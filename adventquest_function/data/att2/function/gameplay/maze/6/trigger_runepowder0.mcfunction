@@ -3,8 +3,8 @@
 #Buying trigger maze                                            #
 #################################################################
 
-execute if score stock RUNE_POWDER matches ..199 run function att2:dialogs/gameplay/shop/not_enough_runepowder
-execute if score stock RUNE_POWDER matches 200.. run function att2:gameplay/maze/6/loading
-execute if score stock RUNE_POWDER matches 200.. run scoreboard players set difficulty MAZE 0
-execute if score stock RUNE_POWDER matches 200.. run scoreboard players remove stock RUNE_POWDER 200
+execute if score #stock RUNE_POWDER matches ..199 run function att2:dialogs/gameplay/shop/not_enough_runepowder
+execute if score #stock RUNE_POWDER matches 200.. run function att2:gameplay/maze/6/loading
+execute if score #stock RUNE_POWDER matches 200.. run scoreboard players set difficulty MAZE 0
+execute if score #stock RUNE_POWDER matches 200.. run scoreboard players remove #stock RUNE_POWDER 200
 function att2:dialogs/gameplay/shop/runepowder_display

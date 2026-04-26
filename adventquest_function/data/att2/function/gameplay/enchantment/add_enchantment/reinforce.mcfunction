@@ -22,7 +22,7 @@ execute store result storage att2:enchantment durability_max int 1 run scoreboar
 data modify entity 0428dc94-000a-09dc-04a1-935c00000001 equipment.mainhand.components."minecraft:max_damage" set from storage att2:enchantment durability_max
 #reduce Materials
 $clear @s quartz[custom_data={EquipmentType:'misc',Rarity:'unk',Coin:'esc'}] $(esc_cost)
-scoreboard players operation stock RUNE_POWDER -= rune_cost ENCHANTMENT
+scoreboard players operation #stock RUNE_POWDER -= rune_cost ENCHANTMENT
 #dialogs
 function att2:dialogs/gameplay/enchantment/materials_reduce
 #advancement test

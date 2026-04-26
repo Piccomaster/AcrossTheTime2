@@ -6,12 +6,16 @@
 ##revoke test
 advancement revoke @s only att2_test:test_potion/trigger
 
+##drink trigger
+function att2:gameplay/potion/timer_reset
 
 ##store potion
 execute in overworld run function att2:gameplay/equipment/effect/po/store_potion
 ##get potion data
 execute in overworld run data modify storage att2:potion data set from block 0 0 0 Items[{Slot:0b}]
 
+##special potion Entropic Brew
+execute in overworld if items block 0 0 0 container.0 minecraft:potion[custom_name={"translate":"potion85.name"}] run return run function att2:gameplay/equipment/effect/po/entropic_brew
 ##get STAT / TIME
 execute store result score #STR CAL run data get storage att2:potion data.components."minecraft:custom_data".STR
 execute store result score #RES CAL run data get storage att2:potion data.components."minecraft:custom_data".RES
@@ -39,11 +43,12 @@ scoreboard players set 400 CAL 400
 scoreboard players operation #add_time CAL *= 400 CAL
 
 scoreboard players operation #reduce_time CAL = #BonusTimePotion RUNE
-scoreboard players set 200 CAL 200
-scoreboard players operation #reduce_time CAL *= 200 CAL
+scoreboard players set 400 CAL 400
+scoreboard players operation #reduce_time CAL *= 400 CAL
 
 ##reset time
-data modify storage att2:potion show_time set value [{translate:"att2.potion.show_time",with:[{"selector":"@s",color:"dark_red"},{storage:"att2:potion",nbt:"data.components.\"minecraft:custom_name\"",interpret:true}],hover_event:{action:show_item,id:"diamond",components:{}}}]
+data modify storage att2:potion show_time set value [{translate:"att2.potion.show_time",with:[{"selector":"@s",color:"dark_red"},{translate:"potion85.name"}],hover_event:{action:show_item,id:"diamond",components:{}}}]
+data modify storage att2:potion show_time[0].with[1] set from storage att2:potion data.components."minecraft:custom_name"
 data modify storage att2:potion show_time[0].hover_event.id set from storage att2:potion data.id
 data modify storage att2:potion show_time[0].hover_event.components set from storage att2:potion data.components
 tellraw @a [{storage:"att2:potion",nbt:"show_time",interpret:true}]

@@ -4,11 +4,11 @@
 #################################################################################
 
 #add player dropped coin
-execute store result score small CHRONOTON run clear @s gold_nugget[custom_data={EquipmentType:'misc',Rarity:'cur',Coin:'small',Action:'dropped'}]
-execute store result score big CHRONOTON run clear @s gold_ingot[custom_data={EquipmentType:'misc',Rarity:'cur',Coin:'big',Action:'dropped'}]
-execute store result score diamond CHRONOTON run clear @s diamond[custom_data={EquipmentType:'misc',Rarity:'cur',Coin:'diamond',Action:'dropped'}]
-execute store result score ruby CHRONOTON run clear @s copper_ingot[custom_data={EquipmentType:'misc',Rarity:'cur',Coin:'ruby',Action:'dropped'}]
-execute store result score amethyst CHRONOTON run clear @s glow_ink_sac[custom_data={EquipmentType:'misc',Rarity:'cur',Coin:'amethyst',Action:'dropped'}]
+execute store result score small CHRONOTON run clear @s gold_nugget[custom_data~{EquipmentType:'misc',Rarity:'cur',Coin:'small',Action:'dropped'}]
+execute store result score big CHRONOTON run clear @s gold_ingot[custom_data~{EquipmentType:'misc',Rarity:'cur',Coin:'big',Action:'dropped'}]
+execute store result score diamond CHRONOTON run clear @s diamond[custom_data~{EquipmentType:'misc',Rarity:'cur',Coin:'diamond',Action:'dropped'}]
+execute store result score ruby CHRONOTON run clear @s copper_ingot[custom_data~{EquipmentType:'misc',Rarity:'cur',Coin:'ruby',Action:'dropped'}]
+execute store result score amethyst CHRONOTON run clear @s glow_ink_sac[custom_data~{EquipmentType:'misc',Rarity:'cur',Coin:'amethyst',Action:'dropped'}]
 
 scoreboard players operation big CHRONOTON *= 5 CAL
 scoreboard players operation diamond CHRONOTON *= 50 CAL
@@ -22,11 +22,11 @@ scoreboard players operation @s CHRONOTON += amethyst CHRONOTON
 scoreboard players operation @s CHRONOTON += ruby CHRONOTON
 
 #add normal coin
-execute store result score small CHRONOTON run clear @s gold_nugget[custom_data={EquipmentType:'misc',Rarity:'cur',Coin:'small'}]
-execute store result score big CHRONOTON run clear @s gold_ingot[custom_data={EquipmentType:'misc',Rarity:'cur',Coin:'big'}]
-execute store result score diamond CHRONOTON run clear @s diamond[custom_data={EquipmentType:'misc',Rarity:'cur',Coin:'diamond'}]
-execute store result score ruby CHRONOTON run clear @s copper_ingot[custom_data={EquipmentType:'misc',Rarity:'cur',Coin:'ruby'}]
-execute store result score amethyst CHRONOTON run clear @s glow_ink_sac[custom_data={EquipmentType:'misc',Rarity:'cur',Coin:'amethyst'}]
+execute store result score small CHRONOTON run clear @s gold_nugget[custom_data~{EquipmentType:'misc',Rarity:'cur',Coin:'small'}]
+execute store result score big CHRONOTON run clear @s gold_ingot[custom_data~{EquipmentType:'misc',Rarity:'cur',Coin:'big'}]
+execute store result score diamond CHRONOTON run clear @s diamond[custom_data~{EquipmentType:'misc',Rarity:'cur',Coin:'diamond'}]
+execute store result score ruby CHRONOTON run clear @s copper_ingot[custom_data~{EquipmentType:'misc',Rarity:'cur',Coin:'ruby'}]
+execute store result score amethyst CHRONOTON run clear @s glow_ink_sac[custom_data~{EquipmentType:'misc',Rarity:'cur',Coin:'amethyst'}]
 #cal small coin
 scoreboard players operation cal CHRONOTON = #BonusChronoton RUNE
 scoreboard players operation cal CHRONOTON += 1 CAL

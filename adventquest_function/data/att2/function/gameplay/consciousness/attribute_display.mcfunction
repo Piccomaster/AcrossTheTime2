@@ -27,6 +27,13 @@ execute if score @s STR_DISPLAY matches 0 run function att2:any_function/execute
 execute if score @s STR_DISPLAY matches 1 run function att2:any_function/execute {function:['data modify storage att2:dialog color set value "green"','data modify storage att2:dialog id set value "str.stop"','data modify storage att2:dialog executeid set value "561"']}
 function att2:gameplay/consciousness/insert/attribute_display with storage att2:dialog
 
+#crt
+data modify storage att2:dialog attribute_display append value {label:{translate:consciousness.attribute_display.crt,color:gold},tooltip:{translate:consciousness.attribute_display.crt.tip,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 2322"},width:150}
+#difference
+execute if score @s crt_DISPLAY matches 0 run function att2:any_function/execute {function:['data modify storage att2:dialog color set value "red"','data modify storage att2:dialog id set value "crt.run"','data modify storage att2:dialog executeid set value "3527"']}
+execute if score @s crt_DISPLAY matches 1 run function att2:any_function/execute {function:['data modify storage att2:dialog color set value "green"','data modify storage att2:dialog id set value "crt.stop"','data modify storage att2:dialog executeid set value "3528"']}
+function att2:gameplay/consciousness/insert/attribute_display with storage att2:dialog
+
 #res
 data modify storage att2:dialog attribute_display append value {label:{translate:consciousness.attribute_display.res,color:gold},tooltip:{translate:consciousness.attribute_display.res.tip,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 2322"},width:150}
 #difference

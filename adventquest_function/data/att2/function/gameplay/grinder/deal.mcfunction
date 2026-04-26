@@ -8,7 +8,7 @@ execute as @e[type=item,distance=..3,predicate=att2_pre:grinder/runes] at @s run
 function att2:gameplay/grinder/validate
 
 #merge display
-execute store result storage att2:temp value_1 int 1 run scoreboard players get stock RUNE_POWDER
+execute store result storage att2:temp value_1 int 1 run scoreboard players get #stock RUNE_POWDER
 function att2:gameplay/runes/craft/runepowder_display with storage att2:temp
 #reset
 data remove storage att2:temp value_1

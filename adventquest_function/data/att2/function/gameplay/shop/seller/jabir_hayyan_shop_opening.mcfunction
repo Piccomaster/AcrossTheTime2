@@ -1,16 +1,26 @@
 #################################################################
-#Made by Adventquest											#
-#Use function to process the Jabir Hayyan shop 					#
+#Made by Adventquest
+#Use function to process the jabir_hayyan shop
 #################################################################
 
 function att2:sound/shop/opening
 
 function att2:dialogs/gameplay/shop/showcase/discount
+
 function att2:dialogs/gameplay/shop/items_selled_list/potion_list
-execute as @e[type=minecraft:armor_stand,tag=ShotSlotHolder,tag=slot8] run function att2:gameplay/shop/slot_management/showcase/potion_jabir_hayyan
-execute as @e[type=minecraft:armor_stand,tag=ShotSlotHolder,tag=slot7] run function att2:gameplay/shop/slot_management/showcase/potion_jabir_hayyan
-execute as @e[type=minecraft:armor_stand,tag=ShotSlotHolder,tag=slot6] run function att2:gameplay/shop/slot_management/showcase/potion_jabir_hayyan
-execute as @e[type=minecraft:armor_stand,tag=ShotSlotHolder,tag=slot5] run function att2:gameplay/shop/slot_management/showcase/potion_jabir_hayyan
-execute as @e[type=minecraft:armor_stand,tag=ShotSlotHolder,tag=slot4] run function att2:gameplay/shop/slot_management/showcase/potion_jabir_hayyan
-execute as @e[type=minecraft:armor_stand,tag=ShotSlotHolder,tag=slot3] run function att2:gameplay/shop/slot_management/showcase/potion_jabir_hayyan
-execute as @e[type=minecraft:armor_stand,tag=ShotSlotHolder,tag=slot2] run function att2:gameplay/shop/slot_management/showcase/potion_jabir_hayyan
+scoreboard players set #slot SHOP_OP 1
+function att2:gameplay/shop/slot_management/showcase/potion_jabir_hayyan
+scoreboard players set #slot SHOP_OP 2
+function att2:gameplay/shop/slot_management/showcase/potion_jabir_hayyan
+scoreboard players set #slot SHOP_OP 3
+function att2:gameplay/shop/slot_management/showcase/potion_jabir_hayyan
+scoreboard players set #slot SHOP_OP 4
+function att2:gameplay/shop/slot_management/showcase/potion_jabir_hayyan
+execute if score level statSMITH matches 1.. run scoreboard players set #slot SHOP_OP 5
+execute if score level statSMITH matches 1.. run function att2:gameplay/shop/slot_management/showcase/potion_jabir_hayyan
+execute if score level statSMITH matches 2.. run scoreboard players set #slot SHOP_OP 6
+execute if score level statSMITH matches 2.. run function att2:gameplay/shop/slot_management/showcase/potion_jabir_hayyan
+execute if score level statSMITH matches 3.. run scoreboard players set #slot SHOP_OP 7
+execute if score level statSMITH matches 3.. run function att2:gameplay/shop/slot_management/showcase/potion_jabir_hayyan
+execute if score level statSMITH matches 4.. run scoreboard players set #slot SHOP_OP 8
+execute if score level statSMITH matches 4.. run function att2:gameplay/shop/slot_management/showcase/potion_jabir_hayyan

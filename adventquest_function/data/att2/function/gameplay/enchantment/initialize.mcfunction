@@ -65,6 +65,7 @@ scoreboard objectives add SSCOMBO_STAT dummy
 scoreboard objectives add SSCOMBO dummy
 
 scoreboard objectives add WrathAccumulator dummy
+scoreboard objectives add StandBreaking dummy
 
 
 scoreboard players set rotation ENCHANTMENT 1

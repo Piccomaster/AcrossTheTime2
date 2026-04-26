@@ -8,7 +8,7 @@ execute if score 1000slay ENCHANTMENT matches 1.. run function att2:dialogs/game
 execute if score 1000slay ENCHANTMENT matches 1.. store result storage att2:enchantment 1000slay int 1 run scoreboard players get 1000slay ENCHANTMENT
 #cal and set Materials cost
 function att2:gameplay/enchantment/display/price_set/1000slay
-execute if score esc_count ENCHANTMENT >= esc_cost ENCHANTMENT if score stock RUNE_POWDER >= rune_cost ENCHANTMENT run scoreboard players set ready ENCHANTMENT 0
+execute if score esc_count ENCHANTMENT >= esc_cost ENCHANTMENT if score #stock RUNE_POWDER >= rune_cost ENCHANTMENT run scoreboard players set ready ENCHANTMENT 0
 #get esc/rune cost
 execute store result storage att2:enchantment esc_cost int 1 run scoreboard players get esc_cost ENCHANTMENT
 execute store result storage att2:enchantment rune_cost int 1 run scoreboard players get rune_cost ENCHANTMENT

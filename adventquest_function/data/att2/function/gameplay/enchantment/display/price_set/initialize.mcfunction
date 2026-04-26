@@ -301,3 +301,12 @@ scoreboard players set wrath_accumulator_esc_4 ENCHANTMENT_DATA 8
 scoreboard players set wrath_accumulator_rune_4 ENCHANTMENT_DATA 800
 scoreboard players set wrath_accumulator_esc_5 ENCHANTMENT_DATA 10
 scoreboard players set wrath_accumulator_rune_5 ENCHANTMENT_DATA 1000
+
+
+#stand_breaking
+scoreboard players set stand_breaking_esc_1 ENCHANTMENT_DATA 5
+scoreboard players set stand_breaking_rune_1 ENCHANTMENT_DATA 300
+scoreboard players set stand_breaking_esc_2 ENCHANTMENT_DATA 10
+scoreboard players set stand_breaking_rune_2 ENCHANTMENT_DATA 600
+scoreboard players set stand_breaking_esc_3 ENCHANTMENT_DATA 15
+scoreboard players set stand_breaking_rune_3 ENCHANTMENT_DATA 900

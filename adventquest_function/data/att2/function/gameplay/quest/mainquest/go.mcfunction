@@ -8,6 +8,9 @@ tp @e[type=minecraft:shulker,tag=MainObjective] ~ 0 ~
 tp @e[type=minecraft:shulker,tag=SideObjective] ~ 0 ~
 kill @e[type=minecraft:shulker,tag=MainObjective]
 kill @e[type=minecraft:shulker,tag=SideObjective]
+
+tellraw @s [{translate:att2.mainquest.progress,with:[{score:{name:"Mainquest",objective:"SIDEQUEST"},color:"green"},{text:"300",color:"yellow"}]}]
+
 execute if score Mainquest SIDEQUEST matches 1 run function att2:gameplay/quest/mainquest/step1
 execute if score Mainquest SIDEQUEST matches 2 run function att2:gameplay/quest/mainquest/step2
 execute if score Mainquest SIDEQUEST matches 3 run function att2:gameplay/quest/mainquest/step3

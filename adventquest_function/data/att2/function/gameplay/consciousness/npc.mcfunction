@@ -157,7 +157,7 @@ execute in minecraft:overworld positioned -5192 73 -5351 if entity @s[distance=.
 #soquai
 execute in minecraft:overworld positioned -4713 71 -5666 if entity @s[distance=..200,gamemode=adventure] run scoreboard players set #PosDetection CAL 1
 #color
-execute if score #PosDetection CAL matches 1 run data modify storage att2:dialog npc append value {label:{translate:consciousness.guide.npc.inn,color:gold},tooltip:{translate:consciousness.guide.npc.inn.soquai.tip,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 1131"},width:150}
+execute if score #PosDetection CAL matches 1 run data modify storage att2:dialog npc append value {label:{translate:consciousness.guide.npc.inn,color:gold},tooltip:{translate:consciousness.guide.npc.inn.tip,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 1131"},width:150}
 execute if score #PosDetection CAL matches 0 run data modify storage att2:dialog npc append value {label:{translate:consciousness.guide.npc.inn,color:red},tooltip:{translate:consciousness.guide.npc.error,color:red},action:{type:run_command,command:"trigger ScoreTrigger set 2868"},width:150}
 ##skill_reset
 #reset

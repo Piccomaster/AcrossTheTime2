@@ -12,7 +12,7 @@ scoreboard players remove @s HER_VALUE 10000
 execute store result score #health CAL run data get entity @s Health 100
 execute store result score #max_health CAL run attribute @s max_health get 100
 ##limit
-execute if score #health CAL >= #max_health CAL run return fail
+execute if score #health CAL >= #max_health CAL run return run scoreboard players add @s[scores={HER_VALUE=..100000}] HER_VALUE 10000
 #tellraw @a ["当前生命值",{score:{name:"#health",objective:"CAL"}}]
 #tellraw @a ["当前最大生命值",{score:{name:"#max_health",objective:"CAL"}}]
 #add health
