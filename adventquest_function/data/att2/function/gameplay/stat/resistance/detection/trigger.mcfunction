@@ -2,9 +2,9 @@
 #Made by Adventquest											#
 #auto_mending trigger                    						#
 #################################################################
-#execute store result storage att2:health max_health int 1 run scoreboard players get #max_health CAL
-#effect give @s instant_health 1 10 true
-
+#tellraw @a ["分数值",{score:{name:"@s",objective:"RES_DETECTION"}}]
+scoreboard players operation @s RES_DETECTION /= 10 CAL
+#tellraw @a ["掉血点数",{score:{name:"@s",objective:"RES_DETECTION"}}]
 ##enchantments trigger
 execute if items entity @s armor.chest *[enchantments~[{enchantments:"att2_enchantment:wrath_accumulator"}]] run function att2:gameplay/enchantment/wrath_accumulator/trigger
 #get health
@@ -16,19 +16,22 @@ execute store result score #absorption CAL run data get entity @s AbsorptionAmou
 scoreboard players operation #RES_TOT CAL = @s RES_TOT
 scoreboard players operation #RES_TOT CAL > -50 CAL
 execute if score #RES_TOT CAL matches ..0 run scoreboard players set #RES_TOT CAL 0
-scoreboard players operation #RES_TOT CAL *= -10 CAL
+scoreboard players operation #RES_TOT CAL *= -6 CAL
 scoreboard players operation #RES_TOT CAL += 100 CAL
 ##more reduce
 scoreboard players operation #Overflow CAL = @s RES_TOT
-scoreboard players operation #Overflow CAL -= 8 CAL
-scoreboard players operation #Overflow CAL *= 50 CAL
+scoreboard players operation #Overflow CAL *= 2 CAL
+#tellraw @a ["固定减少",{score:{name:"#Overflow",objective:"CAL"}}]
 execute if score #Overflow CAL matches 1.. run scoreboard players operation @s RES_DETECTION -= #Overflow CAL
 execute if score #Overflow CAL matches 1.. run scoreboard players operation @s RES_DETECTION > 1 CAL
+
+#tellraw @a ["减少之后",{score:{name:"@s",objective:"RES_DETECTION"}}]
 ##max reduce -80%
-scoreboard players operation #RES_TOT CAL > 20 CAL
+#scoreboard players operation #RES_TOT CAL > 20 CAL
+
 #remove health
 
-scoreboard players operation @s RES_DETECTION *= 10 CAL
+scoreboard players operation @s RES_DETECTION *= 100 CAL
 #resistance effect
 scoreboard players operation @s RES_DETECTION *= #RES_TOT CAL
 scoreboard players operation @s RES_DETECTION /= 100 CAL
@@ -40,16 +43,20 @@ execute if score @s RES_DETECTION matches 0.. run effect clear @s absorption
 execute unless score @s RES_DETECTION matches 0.. run function att2:gameplay/stat/resistance/detection/absorption_cal
 #remove health
 scoreboard players operation #Health CAL -= @s RES_DETECTION
+#tellraw @a ["当前生命值",{score:{name:"#Health",objective:"CAL"}}]
+#tellraw @a ["掉多少",{score:{name:"@s",objective:"RES_DETECTION"}}]
 scoreboard players operation #Health CAL *= 100 CAL
 scoreboard players operation #Health CAL /= #max_health CAL
-scoreboard players operation #Health CAL -= 100 CAL
+scoreboard players remove #Health CAL 100
+
+##tellraw @a ["减少百分比",{score:{name:"#Health",objective:"CAL"}}]
 execute store result storage att2:health reduce double 0.01 run scoreboard players get #Health CAL
 #get ehlvl
 execute store result score #eh_lvl CAL run data get entity @s equipment.chest.components."minecraft:enchantments"."att2_enchantment:heart_protection" 10
 ##get now health percent
-scoreboard players operation #Health CAL += 100 CAL
-#tellraw @a [{score:{name:"#Health",objective:"CAL"}}]
-#tellraw @a [{score:{name:"@s",objective:"RES_DETECTION"}}]
+scoreboard players add #Health CAL 100
+##tellraw @a [{score:{name:"#Health",objective:"CAL"}}]
+##tellraw @a [{score:{name:"@s",objective:"RES_DETECTION"}}]
 #back damage
 function att2:gameplay/stat/resistance/detection/reduce with storage att2:health
 #tigger
@@ -70,4 +77,4 @@ scoreboard players reset @s RES_DETECTION
 execute store result score #temp_health_2 CAL run data get entity @s Health
 
 scoreboard players operation #temp_health_1 CAL -= #temp_health_2 CAL
-#tellraw @a ["减少血量",{score:{name:"#temp_health_1",objective:"CAL"}}]
+##tellraw @a ["减少血量",{score:{name:"#temp_health_1",objective:"CAL"}}]

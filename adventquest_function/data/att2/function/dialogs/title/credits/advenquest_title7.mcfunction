@@ -47,3 +47,6 @@ title @a[scores={LANGUAGE=9}] title {text:"ᨑ ",color:"gray",extra:[{text:"आ�
 #PORTUGUESE LANGUAGE
 
 title @a[scores={LANGUAGE=10}] title {text:"ᨑ ",color:"gray",extra:[{text:"Dublagem e gravação",color:"dark_red"},{text:" ᨑ",color:"gray"}]}
+
+#Simplified Chinese
+title @a[scores={LANGUAGE=11}] title {text:"ᨑ ",color:"gray",extra:[{text:"配音和录音",color:"dark_red"},{text:" ᨑ",color:"gray"}]}

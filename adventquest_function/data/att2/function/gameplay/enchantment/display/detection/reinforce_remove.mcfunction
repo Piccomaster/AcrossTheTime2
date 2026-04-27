@@ -26,7 +26,7 @@ data modify entity 0428dc94-000a-09dc-04a1-935c00000001 equipment.mainhand.compo
 #dialogs
 function att2:gameplay/enchantment/esc_return with storage att2:enchantment
 #add rune
-scoreboard players operation stock RUNE_POWDER += rune_return ENCHANTMENT
+scoreboard players operation #stock RUNE_POWDER += rune_return ENCHANTMENT
 #return
 function att2:dialogs/gameplay/enchantment/materials_return
 #reset

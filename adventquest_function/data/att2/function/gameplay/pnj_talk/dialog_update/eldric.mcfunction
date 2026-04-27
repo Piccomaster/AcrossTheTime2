@@ -7,9 +7,9 @@ function att2:gameplay/pnj_talk/dialog_playsound/eldric
 
 scoreboard players set eldric_PNJ statDIALOG 1
 #test entity dialog
-execute if score eldric_PNJ DIALOG matches 3..3 run function att2:dialogs/other/eldric/dialog_3
-execute if score eldric_PNJ DIALOG matches 2..2 run function att2:dialogs/other/eldric/dialog_2
-execute if score eldric_PNJ DIALOG matches 1..1 run function att2:dialogs/other/eldric/dialog_1
+execute if score eldric_PNJ DIALOG matches 3..3 run function att2:dialogs/others/eldric/dialog_3
+execute if score eldric_PNJ DIALOG matches 2..2 run function att2:dialogs/others/eldric/dialog_2
+execute if score eldric_PNJ DIALOG matches 1..1 run function att2:dialogs/others/eldric/dialog_1
 
 #Activation entity head movement
 scoreboard players set 00000000-0000-160a-0000-00000000160a TALKING 1

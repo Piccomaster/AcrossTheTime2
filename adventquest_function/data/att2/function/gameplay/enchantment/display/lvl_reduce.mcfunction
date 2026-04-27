@@ -78,3 +78,5 @@ execute if score treasurehunter ENCHANTMENT matches 0.. run function att2:gamepl
 execute if score wrath_accumulator ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/wrath_accumulator_reduce
 #bloodreaver_reduce
 execute if score bloodreaver ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/bloodreaver_reduce
+#stand_breaking
+execute if score stand_breaking ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/stand_breaking_reduce

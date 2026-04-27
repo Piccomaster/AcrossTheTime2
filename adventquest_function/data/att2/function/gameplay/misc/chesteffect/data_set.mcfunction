@@ -21,7 +21,8 @@ execute store result score #C CAL as @s at @s run data get entity @s data.C
 execute store result score #T CAL run data get entity @s data.T
 ##get quest item
 execute store result score #Q CAL run data get entity @s data.Q
-
+##limit
+execute if score #Q CAL matches -100 run function att2:gameplay/maze/summon/normal_chest/update
 ##normal
 function att2:gameplay/misc/chesteffect/name/c_test
 ##ithax_name

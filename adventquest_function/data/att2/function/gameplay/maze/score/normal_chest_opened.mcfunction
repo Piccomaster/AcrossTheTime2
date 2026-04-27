@@ -3,8 +3,10 @@
 #Chest trapped opened                  								#
 #####################################################################
 
-setblock ~ ~3 ~ minecraft:air
-setblock ~ ~ ~ minecraft:air
+##reset score
+scoreboard players set #Q CAL 0
+setblock ~ ~1 ~ minecraft:air
+
 scoreboard players add normal_chest_opened MAZE 1
 
 playsound minecraft:block.vault.open_shutter ambient @a ~ ~ ~ 2 2

@@ -25,6 +25,8 @@ function att2:gameplay/enchantment/trigger_function/greatsword
 #groundslam
 #execute as @s[advancements={att2_test:enchantment/groundslam=true},scores={DAMAGE=1..}] run function att2:gameplay/enchantment/trigger_function/groundslam
 #execute as @s[advancements={att2_test:enchantment/forcepush=true},scores={DAMAGE=1..}] run function att2:gameplay/enchantment/trigger_function/armorbreak
+#stand_breaking
+execute if score @s StandBreaking matches 10.. run function att2:gameplay/enchantment/stand_breaking/go
 #combohit
 function att2:gameplay/enchantment/combohit/go
 #backstab

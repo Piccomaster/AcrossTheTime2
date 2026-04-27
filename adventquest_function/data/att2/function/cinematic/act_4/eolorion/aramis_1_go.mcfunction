@@ -4,7 +4,7 @@
 ##################################################
 
 execute if score Real0 TIMER matches 0 as 00000000-0000-087a-0000-00000000087a at @s run teleport @s ~ ~ ~ 0 0
-execute if score Real0 TIMER matches 0 run tag 00000000-0000-087a-0000-00000000087a remove rotation_store
+execute if score Real0 TIMER matches 0 run data modify entity 00000000-0000-087a-0000-00000000087a data.rotation set value [0,0]
 execute if score Real0 TIMER matches 1 run scoreboard players set Mainquest SIDEQUEST 94
 
 

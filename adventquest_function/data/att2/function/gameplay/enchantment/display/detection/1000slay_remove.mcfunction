@@ -20,7 +20,7 @@ scoreboard players operation rune_return ENCHANTMENT /= 100 CAL
 #dialogs
 function att2:gameplay/enchantment/esc_return with storage att2:enchantment
 #add rune
-scoreboard players operation stock RUNE_POWDER += rune_return ENCHANTMENT
+scoreboard players operation #stock RUNE_POWDER += rune_return ENCHANTMENT
 #return
 function att2:dialogs/gameplay/enchantment/materials_return
 #reset

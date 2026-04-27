@@ -11,7 +11,7 @@ playsound block.brewing_stand.brew player @s ~ ~ ~ 2 1.5
 
 ##get reduce health
 scoreboard players operation #health CAL = #reduce_health CAL
-tellraw @a [{score:{name:"#reduce_health",objective:"CAL"}}]
+#tellraw @a [{score:{name:"#reduce_health",objective:"CAL"}}]
 ##
 execute store result score #percent CAL run data get entity @s SelectedItem.components."minecraft:enchantments"."att2_enchantment:bloodreaver" 5
 ##add percent
@@ -30,4 +30,4 @@ execute store result storage att2:position pos[1] double 0.01 run scoreboard pla
 
 ##show more particle
 execute at @n[distance=..10,type=marker,tag=Temp,tag=ScytheWeakness] run function att2:gameplay/enchantment/bloodreaver/particle with storage att2:position
-tellraw @a [{score:{name:"#health",objective:"CAL"}}]
+#tellraw @a [{score:{name:"#health",objective:"CAL"}}]

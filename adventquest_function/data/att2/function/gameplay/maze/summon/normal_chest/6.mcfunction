@@ -3,8 +3,10 @@
 #Maze summon chest                  							    #
 #####################################################################
 
-execute if score chests MAZE matches 1 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg1/c9t9",CustomName:'{text:"Forgotten Chest",color:"#FF7321"}'}
-execute if score chests MAZE matches 2 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg2/c9t9",CustomName:'{text:"Forgotten Chest",color:"#FF7321"}'}
-execute if score chests MAZE matches 3 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg3/c9t9",CustomName:'{text:"Forgotten Chest",color:"#FF7321"}'}
-execute if score chests MAZE matches 4 run data merge block ~ ~ ~ {LootTable:"att2:chest/reg4/c9t9",CustomName:'{text:"Forgotten Chest",color:"#FF7321"}'}
-function att2:gameplay/maze/summon/trapped_chest_command_block
+##summon marker
+execute if score chests MAZE matches 1 run summon marker ~ ~ ~ {Tags:["ChestMarker"],Rotation:[0,0],data:{C:9,T:9,Q:-100,Dimension:1,type:"left",facing:"south",waterlogged:false,model:"treasure_single",customname:[{translate:att2.chest.c9.name,color:"#FF7321"}]}}
+execute if score chests MAZE matches 2 run summon marker ~ ~ ~ {Tags:["ChestMarker"],Rotation:[0,0],data:{C:9,T:9,Q:-100,Dimension:2,type:"left",facing:"south",waterlogged:false,model:"treasure_single",customname:[{translate:att2.chest.c9.name,color:"#FF7321"}]}}
+execute if score chests MAZE matches 3 run summon marker ~ ~ ~ {Tags:["ChestMarker"],Rotation:[0,0],data:{C:9,T:9,Q:-100,Dimension:3,type:"left",facing:"south",waterlogged:false,model:"treasure_single",customname:[{translate:att2.chest.c9.name,color:"#FF7321"}]}}
+execute if score chests MAZE matches 4 run summon marker ~ ~ ~ {Tags:["ChestMarker"],Rotation:[0,0],data:{C:9,T:9,Q:-100,Dimension:4,type:"left",facing:"south",waterlogged:false,model:"treasure_single",customname:[{translate:att2.chest.c9.name,color:"#FF7321"}]}}
+##set soul_lantern
+setblock ~ ~1 ~ minecraft:soul_lantern

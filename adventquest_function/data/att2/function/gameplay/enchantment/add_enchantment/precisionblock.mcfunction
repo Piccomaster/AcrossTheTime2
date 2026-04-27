@@ -10,7 +10,7 @@ execute if score precisionblock ENCHANTMENT matches 1.. run scoreboard players s
 data merge entity 0428dc94-000a-09dc-04a1-935c00000001 {equipment:{mainhand:{components:{"minecraft:blocks_attacks":{block_delay_seconds:0,disable_cooldown_scale:0,block_sound:{sound_id:""},item_damage:{base:1,factor:0,threshold:1}},"consumable":{animation:block,consume_seconds:0.5,has_consume_particles:false,sound:{sound_id:""}},"use_cooldown":{seconds:0.6}}}}}
 #reduce Materials
 $clear @s quartz[custom_data={EquipmentType:'misc',Rarity:'unk',Coin:'esc'}] $(esc_cost)
-scoreboard players operation stock RUNE_POWDER -= rune_cost ENCHANTMENT
+scoreboard players operation #stock RUNE_POWDER -= rune_cost ENCHANTMENT
 #dialogs
 function att2:dialogs/gameplay/enchantment/materials_reduce
 #advancement test

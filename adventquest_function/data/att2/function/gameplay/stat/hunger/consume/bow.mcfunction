@@ -23,3 +23,5 @@ item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_ench
 
 ##advancement trigger
 function att2:advancement/test_all/combat/bow
+#temperature trigger
+function att2:gameplay/enveffect/temperature/trigger/bow_attack

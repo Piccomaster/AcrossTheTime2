@@ -3,9 +3,8 @@
 #price = discount discount_calc * 100 / 100                     #
 #################################################################
 
-# All items (armors/weapons/potions) price
+##
 function att2:gameplay/shop/purchase/item_price
-
 #food
 scoreboard players set dried_kelp PRICES 1
 scoreboard players set apple PRICES 4

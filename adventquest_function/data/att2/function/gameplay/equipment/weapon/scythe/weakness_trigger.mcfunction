@@ -6,6 +6,8 @@
 ##distance detection
 execute on attacker unless entity @s[distance=..7,predicate=att2_pre:test_hold/hoe/mainhand] run return fail
 
+##score limit
+execute if score #ForceReplace ENEMYHEALTH matches 1.. run return fail
 ##test pos
 scoreboard players operation #id CAL = @s ENTITYID
 scoreboard players operation #id CAL += @s SPEAR_FATIGUE

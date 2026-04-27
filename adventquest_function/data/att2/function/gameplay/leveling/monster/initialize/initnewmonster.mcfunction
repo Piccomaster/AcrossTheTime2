@@ -31,7 +31,7 @@ function att2:gameplay/leveling/monster/initialize/initclass
 enchant @s minecraft:power 1
 # Set the level of the mob and set its data (hp and attack)
 scoreboard players set @s GAMELEVEL 0
-scoreboard players operation @s GAMELEVEL > @a GAMELEVEL
+scoreboard players operation @s GAMELEVEL > @a[distance=..100] GAMELEVEL
 # Game level
 # execute if score level DIFFICULTY matches -1 run scoreboard players remove @s GAMELEVEL 6
 # execute if score level DIFFICULTY matches 1 run scoreboard players add @s GAMELEVEL 6
@@ -60,7 +60,8 @@ scoreboard players add @s[scores={CLASSLEVEL=20}] GAMELEVEL 3
 execute if score level DIFFICULTY matches -1 if score @s CLASSLEVEL matches 2..21 run scoreboard players remove @s CLASSLEVEL 1
 execute if score level DIFFICULTY matches 1.. if score @s CLASSLEVEL matches 1..20 run scoreboard players add @s CLASSLEVEL 1
 # No class should be greater than 21
-execute as @s[scores={CLASSLEVEL=22..}] run scoreboard players set @s CLASSLEVEL 21
+scoreboard players operation @s CLASSLEVEL < 21 CAL
+scoreboard players operation @s GAMELEVEL < 65 CAL
 
 # Updating monster
 function att2:gameplay/leveling/monster/monsterupdate

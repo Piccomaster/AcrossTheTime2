@@ -4,10 +4,10 @@
 #########################################################################
 
 scoreboard players set move_lary_brett SQ26 -1
-execute positioned -3991 81 -5550.9 run function att2:summon/pnj/_interaction
+#execute positioned -3991 81 -5550.9 run function att2:summon/pnj/_interaction
 #summon minecraft:villager -3991 81 -5550.9 {Rotation:[0.0f,0.0f],Profession:5,Silent:1b,NoAI:1b,Invulnerable:1b,Silent:1b,PersistenceRequired:1,attributes:[{id:movement_speed,base:0.001},{id:max_health,base:1.0}],Health:1.0,active_effects:[{id:invisibility,amplifier:1,duration:-1,show_particles:false}]}
 execute positioned -3991 81 -5550 run function att2:summon/pnj/lary_brett
-tag 00000000-0000-069a-0000-00000000069a remove rotation_store
+data modify entity 00000000-0000-069a-0000-00000000069a data.rotation set value [0,0]
 execute in overworld as 00000000-0000-069a-0000-00000000069a at @s run tp @s -3991 81 -5550 0 0
 #return 1->make command block runing
 return 1

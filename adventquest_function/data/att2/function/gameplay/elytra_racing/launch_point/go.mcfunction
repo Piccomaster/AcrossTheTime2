@@ -12,7 +12,7 @@ execute unless score @s ElytraRacing matches 1.. run return run function att2:ga
 execute unless entity @p[distance=..50] run return fail
 
 ##
-execute if score tic TIMECOUNTER matches 1 run playsound item.elytra.flying ambient @a ~ ~ ~ 2 1
+execute if score tic TIMECOUNTER matches 1 run playsound item.elytra.flying ambient @a ~ ~ ~ 1 1
 
 ##normal particle
 particle dust{color:[1,1,1],scale:1.0} ~ ~2 ~ 1 1 1 0 10 normal

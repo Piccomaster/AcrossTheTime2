@@ -9,4 +9,4 @@ function att2:gameplay/stat/healthregen/add_health_maco with storage att2:score
 
 
 ##particle
-particle minecraft:heart ~ ~1.0 ~ 0.25 0.5 0.25 0 1 normal
+particle minecraft:heart ~ ~-0.2 ~ 0.25 0.25 0.25 0 1 normal

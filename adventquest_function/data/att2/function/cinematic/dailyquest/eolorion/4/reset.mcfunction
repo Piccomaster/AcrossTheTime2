@@ -11,4 +11,4 @@ scoreboard players reset eolorion_dailyquest_4_timer DAILYQUEST
 scoreboard players reset eolorion_dailyquest_4 DAILYQUEST
 
 ##Others: Black Market experience + 300
-##ESC + 20
+##Ecaille Souveraine du Chaos + 20

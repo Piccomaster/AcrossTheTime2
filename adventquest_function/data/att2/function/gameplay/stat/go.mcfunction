@@ -6,10 +6,10 @@
 
 function att2:gameplay/stat/dahalregen/go
 function att2:gameplay/stat/haste/go
+function att2:gameplay/stat/resistance/go
 function att2:gameplay/stat/healthregen/go
 function att2:gameplay/stat/hunger/go
 function att2:gameplay/stat/luck/go
-function att2:gameplay/stat/resistance/go
 function att2:gameplay/stat/speed/go
 function att2:gameplay/stat/strength/go
 

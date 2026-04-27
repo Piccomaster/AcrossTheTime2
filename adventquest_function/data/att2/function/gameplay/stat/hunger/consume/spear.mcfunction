@@ -24,3 +24,5 @@ item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_ench
 
 #spear attack trigger
 function att2:gameplay/equipment/weapon/spear/trigger
+#temperature trigger
+function att2:gameplay/enveffect/temperature/trigger/spear_attack

@@ -33,7 +33,11 @@ item modify entity @s weapon.mainhand [{function:set_enchantments,enchantments:{
 execute store result storage att2:temp damage int 1 run scoreboard players get #damage CAL
 function att2:gameplay/score/player
 #damage run
+scoreboard players set #durability_remove CAL 0
 execute at @s anchored eyes positioned ^ ^ ^4 positioned ~-2 ~-2 ~-2 as @e[dx=4,dy=4,dz=4,team=hostile,scores={GAMELEVEL=0..}] at @s anchored eyes positioned ^ ^ ^ run function att2:gameplay/enchantment/sscombo/damage with storage att2:temp
+##remove durability
+execute if items entity @s weapon.mainhand #minecraft:swords[enchantments~[{enchantment:"att2_enchantment:sscombo"}]] run item modify entity @s weapon.mainhand [{function:set_enchantments,enchantments:{"att2_enchantment:tick/durability/remove/mainhand":{type:score,target:{type:fixed,name:"#durability_remove"},score:"CAL"}}}]
+scoreboard players reset #durability_sscombo CAL
 
 particle minecraft:sweep_attack ^ ^ ^1 0.6 0.6 0.6 0.2 20 normal
 particle minecraft:sweep_attack ^ ^ ^2 0.6 0.6 0.6 0.2 20 normal
