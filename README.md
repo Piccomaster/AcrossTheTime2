@@ -6,10 +6,10 @@
 
 This repository contains the full datapack source code for the epic Minecraft adventure map created by Piccomaster and the Adventquest team. The code is made public for educational purposes, allowing players and aspiring creators to explore the complex mechanics that power this massive world.
 
-The current version is built for **Minecraft 1.21.5**.
+The current version is built for **Minecraft 1.21.11**.
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Piccomaster/AcrossTheTime2)](https://github.com/Piccomaster/AcrossTheTime2/releases)
-[![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21.5-green.svg)](https://www.minecraft.net/)
+[![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21.11-green.svg)](https://www.minecraft.net/)
 [![Official Website](https://img.shields.io/badge/Website-Adventquest-blue.svg)](https://adventquest.com/across-the-time-ii-time-for-regrets)
 [![CurseForge](https://img.shields.io/badge/CurseForge-Download-orange.svg)](https://www.curseforge.com/minecraft/worlds/across-the-time-2-time-for-regrets)
 
@@ -22,8 +22,8 @@ The current version is built for **Minecraft 1.21.5**.
 ### Key Features
 
 * **Massive Open World:** Explore over **12,000,000 m²** of diverse biomes and new dimensions.
-* **Deep RPG Mechanics:** A robust system featuring leveling, 25+ upgradeable spells, skills, and a reputation system that changes based on your choices.
-* **Epic Storyline:** Over **30 hours** of main quest gameplay (60+ hours for full completion) with an immersive story and more than 55,000 words of dialogue.
+* **Deep RPG Mechanics:** A robust system featuring leveling, ~30 upgradeable spells, skills, and a reputation system that changes based on your choices.
+* **Epic Storyline:** Over **40 hours** of main quest gameplay (80+ hours for full completion) with an immersive story and more than 55,000 words of dialogue.
 * **Custom Systems:**
     * Diablo-style loot system with hundreds of custom items.
     * Evolving enemies that scale with the player's level.
@@ -40,9 +40,9 @@ This repository is for the **datapack source code only**. To play the map, you m
 
 ### Requirements
 
-* **Minecraft Version:** `1.21.5` (Java Edition)
+* **Minecraft Version:** `1.21.11` (Java Edition)
 * **Game Mode:** Adventure
-* **Players:** 1-3 (Recommended),Supports unlimited players`(but avoid excessive numbers as more players increase performance load)`
+* **Players:** 1-5 (Recommended), Supports unlimited players`(but avoid excessive numbers as more players increase performance load)`
 * **Render Distance:** 12+ chunks
 * **Allocated RAM:** 4GB (Minimum), 6GB (Recommended for multiplayer)
 * **Resource Pack:** The official "Across The Time II - Resource Pack" must be enabled.

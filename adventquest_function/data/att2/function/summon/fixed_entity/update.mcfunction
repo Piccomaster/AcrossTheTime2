@@ -211,6 +211,6 @@ execute if score update_loop SYSTEM matches 200 in minecraft:the_nether run tp @
 execute if score update_loop SYSTEM matches 201 in minecraft:the_nether run tp @a 3398 38 3758
 
 #end
-execute if score update_loop SYSTEM matches 201.. run Over
+execute if score update_loop SYSTEM matches 201.. run say Over
 execute if score update_loop SYSTEM matches 201.. run schedule clear function att2:summon/fixed_entity/update
 execute if score update_loop SYSTEM matches 201.. run scoreboard players set update_loop SYSTEM 0
