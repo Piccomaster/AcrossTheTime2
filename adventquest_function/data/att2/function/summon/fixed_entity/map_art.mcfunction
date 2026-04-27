@@ -104,6 +104,8 @@ execute in overworld positioned -5108.5 106.5 -4952.5 run kill @e[distance=..2,t
 execute in overworld positioned -5110 106 -4957 run kill @e[distance=..2,type=minecraft:armor_stand]
 execute in overworld positioned -5108.5 113.5 -4954.5 run kill @e[distance=..2,type=minecraft:armor_stand]
 execute in overworld positioned -5110 119 -4955 run kill @e[distance=..2,type=minecraft:armor_stand]
+execute in overworld positioned -5110 119 -4955 run kill @e[distance=..2,type=minecraft:armor_stand]
+execute in overworld positioned -5109 104 -4954 run kill @e[distance=..2,type=minecraft:armor_stand]
 
 #summon
 execute in overworld positioned -5108.9375 106.6875 -4952.4375 run summon minecraft:item_display ~ ~ ~ {UUID:[I;10997112,97114116,105100,29],Rotation:[-90.0f,0.0f],item:{count:1,id:"minecraft:iron_shovel"},item_display:"ground",transformation:{left_rotation:[5.3401E-9f,1.3911434E-8f,-0.35836798f,0.9335805f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],translation:[0.0f,0.0f,0.0f]},view_range:0.5f}
