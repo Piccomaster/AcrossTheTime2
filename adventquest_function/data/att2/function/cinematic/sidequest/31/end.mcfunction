@@ -21,7 +21,7 @@ execute as @p[distance=..10] run function att2:dialogs/sidequest/sq31/marlene/an
 #REWARDS
 xp add @a 4000 points
 scoreboard players add @a CHRONOTON 300
-execute as @a run function att2:items/food/bread_0
+execute as @a at @s run function att2:items/food/bread_0
 tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+300 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 
 advancement grant @a only att2:quest/sq31

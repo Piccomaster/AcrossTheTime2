@@ -22,9 +22,9 @@ execute at 00000000-0000-010a-0000-00000000010a as @p[distance=..10] run functio
 #REWARDS
 xp add @a 1000 points
 scoreboard players add @a CHRONOTON 75
-function att2:items/food/bread_0
-function att2:items/food/bread_0
-function att2:items/food/bread_0
+execute as @a at @s run function att2:items/food/bread_0
+execute as @a at @s run function att2:items/food/bread_0
+execute as @a at @s run function att2:items/food/bread_0
 tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+75 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 
 advancement grant @a only att2:quest/sq1

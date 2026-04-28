@@ -18,16 +18,16 @@ execute as @p[distance=..10] run function att2:dialogs/sidequest/sq35/nestor/ans
 
 #REWARDS
 xp add @a 4500 points
-execute as @a run function att2:items/food/carrot_0
-execute as @a run function att2:items/food/carrot_0
-execute as @a run function att2:items/food/carrot_0
-execute as @a run function att2:items/food/carrot_0
-execute as @a run function att2:items/food/carrot_0
-execute as @a run function att2:items/food/carrot_0
-execute as @a run function att2:items/food/carrot_0
-execute as @a run function att2:items/food/carrot_0
-execute as @a run function att2:items/food/carrot_0
-execute as @a run function att2:items/food/carrot_0
+execute as @a at @s run function att2:items/food/carrot_0
+execute as @a at @s run function att2:items/food/carrot_0
+execute as @a at @s run function att2:items/food/carrot_0
+execute as @a at @s run function att2:items/food/carrot_0
+execute as @a at @s run function att2:items/food/carrot_0
+execute as @a at @s run function att2:items/food/carrot_0
+execute as @a at @s run function att2:items/food/carrot_0
+execute as @a at @s run function att2:items/food/carrot_0
+execute as @a at @s run function att2:items/food/carrot_0
+execute as @a at @s run function att2:items/food/carrot_0
 execute if score choice SQ35 matches 1 run scoreboard players add @a CHRONOTON 100
 execute if score choice SQ35 matches 1 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+100 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 execute if score choice SQ35 matches 2 run scoreboard players add @a CHRONOTON 250

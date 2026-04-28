@@ -19,11 +19,11 @@ execute at 00000000-0000-027a-0000-00000000027a as @p[distance=..10] run functio
 
 #REWARDS
 xp add @a 2000 points
-execute as @a run function att2:items/food/apple_0
-execute as @a run function att2:items/food/apple_0
-execute as @a run function att2:items/food/apple_0
-execute as @a run function att2:items/food/apple_0
-execute as @a run function att2:items/food/apple_0
+execute as @a at @s run function att2:items/food/apple_0
+execute as @a at @s run function att2:items/food/apple_0
+execute as @a at @s run function att2:items/food/apple_0
+execute as @a at @s run function att2:items/food/apple_0
+execute as @a at @s run function att2:items/food/apple_0
 scoreboard players add @a CHRONOTON 50
 tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+50 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 

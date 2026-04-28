@@ -4,3 +4,5 @@
 ##################################################
 
 tp @s ^ ^ ^0.3 ~ ~
+##clear interaction
+kill @e[distance=..1,type=interaction,tag=PNJ_TALK]

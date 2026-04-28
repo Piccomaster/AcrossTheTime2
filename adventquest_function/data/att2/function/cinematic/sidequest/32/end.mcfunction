@@ -20,9 +20,9 @@ execute at 00000000-0000-132a-0000-00000000132a as @p[distance=..10] run functio
 
 #REWARDS
 xp add @a 3000 points
-function att2:items/food/cooked_porkchop_0
-function att2:items/food/cooked_porkchop_0
-function att2:items/food/cooked_porkchop_0
+execute as @a at @s run function att2:items/food/cooked_porkchop_0
+execute as @a at @s run function att2:items/food/cooked_porkchop_0
+execute as @a at @s run function att2:items/food/cooked_porkchop_0
 execute if score choice SQ32 matches 1 run scoreboard players add @a CHRONOTON 50
 execute if score choice SQ32 matches 1 run tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+50 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
 execute if score choice SQ32 matches 2 run scoreboard players add @a CHRONOTON 100
