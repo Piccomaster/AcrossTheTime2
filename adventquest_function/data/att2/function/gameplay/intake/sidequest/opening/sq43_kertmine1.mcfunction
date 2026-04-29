@@ -9,4 +9,4 @@ execute positioned -5223 48 -4448 run function att2:gameplay/intake/effect
 
 execute if score intake_rail1 SQ43 matches 2.. run function att2:cinematic/sidequest/43/kert_mine_railpose1
 #clear textdisplay
-execute if score intake_rail1 SQ43 matches 2.. positioned -5223 48 -4448 run kill @e[type=text_display,distance=..5,tag=QUEST]
+execute if score intake_rail1 SQ43 matches 2.. positioned -5223 48 -4448 run kill @e[type=#minecraft:display_entity,distance=..5,tag=QUEST]

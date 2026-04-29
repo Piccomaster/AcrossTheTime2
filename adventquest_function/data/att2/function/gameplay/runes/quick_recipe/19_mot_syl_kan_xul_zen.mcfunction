@@ -13,9 +13,9 @@ execute if score #TEST CAL matches 0 run return 0
 ##Inventory
 execute store result score #mot CAL run clear @s glowstone_dust[custom_name={translate:'item.rune.name.26'}] 0
 execute store result score #syl CAL run clear @s glowstone_dust[custom_name={translate:'item.rune.name.21'}] 0
-execute store result score kan CAL run clear @s glowstone_dust[custom_name={translate:'item.rune.name.23'}] 0
-execute store result score xul CAL run clear @s glowstone_dust[custom_name={translate:'item.rune.name.24'}] 0
-execute store result score zen CAL run clear @s glowstone_dust[custom_name={translate:'item.rune.name.25'}] 0
+execute store result score #kan CAL run clear @s glowstone_dust[custom_name={translate:'item.rune.name.23'}] 0
+execute store result score #xul CAL run clear @s glowstone_dust[custom_name={translate:'item.rune.name.24'}] 0
+execute store result score #zen CAL run clear @s glowstone_dust[custom_name={translate:'item.rune.name.25'}] 0
 
 ##test
 #reset

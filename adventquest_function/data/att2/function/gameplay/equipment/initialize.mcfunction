@@ -19,3 +19,9 @@ scoreboard objectives add AttackSpeedPenalty dummy
 
 function att2:gameplay/equipment/weapon/scythe/initialize
 function att2:gameplay/equipment/weapon/dagger/initialize
+function att2:gameplay/equipment/weapon/bows/initialize
+function att2:gameplay/equipment/weapon/critical/initialize
+function att2:gameplay/equipment/weapon/ham/initialize
+function att2:gameplay/equipment/weapon/spear/initialize
+function att2:gameplay/equipment/weapon/sword/initialize
+function att2:gameplay/equipment/weapon/axe/initialize

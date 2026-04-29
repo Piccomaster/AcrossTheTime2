@@ -13,4 +13,4 @@ execute if score outside_mech1 ASUNARK matches 16.. run function att2:cinematic/
 execute if score outside_mech1 ASUNARK matches 16.. run setblock -3545 87 -4942 air
 execute if score outside_mech1 ASUNARK matches 16.. run setblock -3545 87 -4942 diamond_block
 #clear textdisplay
-execute if score outside_mech1 ASUNARK matches 16.. positioned -3545 88 -4942 run kill @e[type=text_display,distance=..10,tag=QUEST]
+execute if score outside_mech1 ASUNARK matches 16.. positioned -3545 88 -4942 run kill @e[type=#minecraft:display_entity,distance=..10,tag=QUEST]

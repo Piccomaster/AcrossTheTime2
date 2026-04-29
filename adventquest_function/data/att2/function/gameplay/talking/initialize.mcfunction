@@ -5,3 +5,4 @@
 
 scoreboard objectives add TALKING dummy
 scoreboard objectives add TALKING_TIMER dummy
+scoreboard objectives add TALKING_LIMIT dummy

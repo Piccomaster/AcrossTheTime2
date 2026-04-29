@@ -4,7 +4,7 @@
 #################################################################
 
 ##ender chest collecting items
-execute as @e[type=interaction,tag=EnderChest] at @s run function att2:gameplay/misc/ender_chest/detection
+execute as @e[type=interaction,tag=EnderChest] at @s if entity @p[distance=..50] run function att2:gameplay/misc/ender_chest/detection
 
 ##per second detection
 execute unless score tic TIMECOUNTER matches 1 run return 0

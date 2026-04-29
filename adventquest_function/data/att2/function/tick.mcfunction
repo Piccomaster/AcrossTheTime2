@@ -38,7 +38,7 @@ execute if score runes SYSTEM matches 1 run function att2:gameplay/runes/go
 execute if score runictrials SYSTEM matches 1 run function att2:gameplay/runictrials/go
 execute if score shop SYSTEM matches 1 run function att2:gameplay/shop/go
 execute if score speceffect SYSTEM matches 1 run function att2:gameplay/speceffect/go
-execute if score talking SYSTEM matches 1 run function att2:gameplay/talking/go
+#execute if score talking SYSTEM matches 1 run function att2:gameplay/talking/go
 execute if score tutorial SYSTEM matches 1 run function att2:gameplay/tutorial/go
 execute if score waypoint SYSTEM matches 1 run function att2:gameplay/waypoint/go
 

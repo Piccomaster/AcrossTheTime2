@@ -23,6 +23,8 @@ execute store result score #C CAL run data get entity @s data.C
 execute store result score #T CAL run data get entity @s data.T
 ##get quest item
 execute store result score #Q CAL run data get entity @s data.Q
+##quest chest open
+execute if score #Q CAL matches 1.. run function att2:gameplay/misc/chesteffect/quest_chest_open
 ##maze chest
 execute if score #Q CAL matches -100 run function att2:gameplay/maze/score/normal_chest_opened
 ##get Dimension

@@ -63,3 +63,7 @@ execute as @a at @s run function att2:gameplay/misc/move_light/go
 function att2:gameplay/misc/ender_chest/go
 ##pot
 function att2:gameplay/misc/pot/go
+
+
+##clear interaction
+execute if score tic TIMECOUNTER matches 15 as @e[type=interaction,tag=PNJ_TALK] at @s unless entity @n[distance=..1,type=#minecraft:pnj] run kill @s

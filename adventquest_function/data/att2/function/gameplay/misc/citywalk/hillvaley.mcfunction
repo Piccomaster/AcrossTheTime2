@@ -10,3 +10,6 @@ scoreboard players set TRUE CAL 1
 scoreboard players set @s CITYWALK 9
 #effect @s speed
 effect give @s speed 1 1 true
+
+##reset temperature
+scoreboard players set @s TEMPERATURE 0

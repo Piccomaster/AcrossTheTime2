@@ -10,4 +10,4 @@ execute positioned -5102 84 -4972 run function att2:gameplay/intake/effect
 execute if score intake_booty SQ20 matches 5.. run stopsound @a block minecraft:airblast
 execute if score intake_booty SQ20 matches 10.. run function att2:cinematic/sidequest/20/end
 #clear textdisplay
-execute if score intake_booty SQ20 matches 10.. positioned -5102 84 -4972 run kill @e[type=text_display,distance=..5,tag=QUEST]
+execute if score intake_booty SQ20 matches 10.. positioned -5102 84 -4972 run kill @e[type=#minecraft:display_entity,distance=..5,tag=QUEST]
