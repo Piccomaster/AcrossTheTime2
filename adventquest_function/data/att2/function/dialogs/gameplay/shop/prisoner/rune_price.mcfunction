@@ -4,9 +4,9 @@
 #################################################################
 
 
-tellraw @s {text:" <-°-> ",color:"dark_gray",extra:[{text:" RUNES PRICES ",color:"dark_red",extra:[{text:" <-°-> ",color:"dark_gray"}]}]}
+tellraw @s {text:" <-°-> ",color:"dark_gray",extra:[{translate:"att2.rune.list",color:"dark_red",extra:[{text:" <-°-> ",color:"dark_gray"}]}]}
 
-execute if score Eldric DARK_RESIN matches 0 run tellraw @s {text:" ... ",color:"dark_gray",color:"dark_gray"}
+execute unless score Eldric DARK_RESIN matches 1.. run tellraw @s {text:" ... ",color:"dark_gray",color:"dark_gray"}
 execute if score Eldric DARK_RESIN matches 1.. run tellraw @s {text:" - ","bold":true,color:"dark_red",extra:[{text:"| GAL |","bold":false,color:"gold",extra:[{text:" [",color:"yellow",click_event:{action:run_command,command:"/trigger ScoreTrigger set 3495"},hover_event:{action:show_text,value:[{"translate":"att2.shop.hover_event.buy"}]},extra:[{score:{name:"1_gal_chronoton",objective:"PRICES"},color:"yellow",extra:[{text:" Chronotons]",color:"yellow"}]}]}]}]}
 execute if score Eldric DARK_RESIN matches 2.. run tellraw @s {text:" - ","bold":true,color:"dark_red",extra:[{text:"| THA |","bold":false,color:"gold",extra:[{text:" [",color:"yellow",click_event:{action:run_command,command:"/trigger ScoreTrigger set 3496"},hover_event:{action:show_text,value:[{"translate":"att2.shop.hover_event.buy"}]},extra:[{score:{name:"2_tha_chronoton",objective:"PRICES"},color:"yellow",extra:[{text:" Chronotons]",color:"yellow"}]}]}]}]}
 execute if score Eldric DARK_RESIN matches 3.. run tellraw @s {text:" - ","bold":true,color:"dark_red",extra:[{text:"| FUS |","bold":false,color:"gold",extra:[{text:" [",color:"yellow",click_event:{action:run_command,command:"/trigger ScoreTrigger set 3497"},hover_event:{action:show_text,value:[{"translate":"att2.shop.hover_event.buy"}]},extra:[{score:{name:"3_fus_chronoton",objective:"PRICES"},color:"yellow",extra:[{text:" Chronotons]",color:"yellow"}]}]}]}]}

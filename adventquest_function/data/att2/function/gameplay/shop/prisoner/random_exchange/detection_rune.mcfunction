@@ -31,4 +31,4 @@ execute if score #rune CAL matches 25 unless score #xul CAL matches 1.. run retu
 execute if score #rune CAL matches 26 unless score #zen CAL matches 1.. run return run tellraw @s [{"translate":"att2.rune_lack","color":"red","with":[{"text":"Zen","color":"yellow"}]}]
 execute if score #rune CAL matches 27 unless score #mot CAL matches 1.. run return run tellraw @s [{"translate":"att2.rune_lack","color":"red","with":[{"text":"Mot","color":"yellow"}]}]
 #
-return 100
+return fail
