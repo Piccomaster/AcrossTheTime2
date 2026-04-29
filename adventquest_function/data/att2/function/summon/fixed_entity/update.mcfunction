@@ -4,7 +4,7 @@ execute as @s run schedule clear function att2:summon/fixed_entity/update
 ##add score
 scoreboard players add update_loop SYSTEM 1
 ##loop
-execute if score update_loop SYSTEM matches 1..200 run schedule function att2:summon/fixed_entity/update 11t append
+execute if score update_loop SYSTEM matches 1..201 run schedule function att2:summon/fixed_entity/update 11t append
 ##update
 kill @e[type=item]
 function att2:summon/fixed_entity/map_art
@@ -211,8 +211,9 @@ execute if score update_loop SYSTEM matches 198 in minecraft:the_nether run tp @
 execute if score update_loop SYSTEM matches 199 in minecraft:the_nether run tp @a 3444 40 3784
 execute if score update_loop SYSTEM matches 200 in minecraft:the_nether run tp @a -3818 88 -5800
 execute if score update_loop SYSTEM matches 201 in minecraft:the_nether run tp @a 3398 38 3758
+execute if score update_loop SYSTEM matches 202 in minecraft:overworld run tp @a -5044 110 -4886
 
 #end
-execute if score update_loop SYSTEM matches 201.. run say Over
-execute if score update_loop SYSTEM matches 201.. run schedule clear function att2:summon/fixed_entity/update
-execute if score update_loop SYSTEM matches 201.. run scoreboard players set update_loop SYSTEM 0
+execute if score update_loop SYSTEM matches 202.. run say Over
+execute if score update_loop SYSTEM matches 202.. run schedule clear function att2:summon/fixed_entity/update
+execute if score update_loop SYSTEM matches 202.. run scoreboard players set update_loop SYSTEM 0
