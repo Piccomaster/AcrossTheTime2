@@ -25,11 +25,11 @@
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": true,
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "att2:collection/armor/iron/iron_leggings_217",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/armor/epi"
+    "function": "att2:advancement/test_all/collection/test_epi"
   },
   "criteria": {
     "iron_leggings_125": {

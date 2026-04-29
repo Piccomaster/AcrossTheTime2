@@ -30,7 +30,7 @@
   },
   "parent": "att2:collection/armor/leather/leather_boots_55",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/armor/leg_armset"
+    "function": "att2:advancement/test_all/collection/test_leg_armset"
   },
   "criteria": {
     "leather_boots_22": {

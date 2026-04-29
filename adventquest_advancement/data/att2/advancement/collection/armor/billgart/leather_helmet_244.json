@@ -30,7 +30,7 @@
   },
   "parent": "att2:collection/armor/billgart/leather_helmet_231",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/armor/leg"
+    "function": "att2:advancement/test_all/collection/test_leg"
   },
   "criteria": {
     "leather_helmet_244": {

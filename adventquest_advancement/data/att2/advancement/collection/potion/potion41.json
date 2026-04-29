@@ -32,7 +32,7 @@
   },
   "parent": "att2:collection/potion/potion40",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/potion/unc"
+    "function": "att2:advancement/test_all/collection/test_unc"
   },
   "criteria": {
     "lingering_potion_41": {

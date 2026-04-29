@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/armor/iron/iron_chestplate_303",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/armor/ult"
+    "function": "att2:advancement/test_all/collection/test_ult"
   },
   "criteria": {
     "iron_chestplate_358": {

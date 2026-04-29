@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/weapon/ouranos/stone_axe_200",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/weapon/unc"
+    "function": "att2:advancement/test_all/collection/test_unc"
   },
   "criteria": {
     "stone_axe_201": {

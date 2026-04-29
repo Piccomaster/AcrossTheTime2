@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/weapon/billgart/stone_sword_190",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/weapon/leg"
+    "function": "att2:advancement/test_all/collection/test_leg"
   },
   "criteria": {
     "stone_sword_191": {

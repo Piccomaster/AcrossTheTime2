@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/weapon/netherite/netherite_shovel_315",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/weapon/ult"
+    "function": "att2:advancement/test_all/collection/test_ult"
   },
   "criteria": {
     "netherite_shovel_345": {

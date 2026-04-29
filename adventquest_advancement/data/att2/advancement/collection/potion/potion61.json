@@ -32,7 +32,7 @@
   },
   "parent": "att2:collection/potion/potion43",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/potion/rar"
+    "function": "att2:advancement/test_all/collection/test_rar"
   },
   "criteria": {
     "lingering_potion_61": {

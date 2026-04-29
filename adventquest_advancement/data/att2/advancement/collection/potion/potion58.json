@@ -32,7 +32,7 @@
   },
   "parent": "att2:collection/potion/potion38",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/potion/epi"
+    "function": "att2:advancement/test_all/collection/test_epi"
   },
   "criteria": {
     "splash_potion_58": {

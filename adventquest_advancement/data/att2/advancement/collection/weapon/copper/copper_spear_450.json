@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/weapon/copper/copper_spear_449",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/weapon/rar"
+    "function": "att2:advancement/test_all/collection/test_rar"
   },
   "criteria": {
     "copper_spear_450": {

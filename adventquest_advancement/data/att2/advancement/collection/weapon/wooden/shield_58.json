@@ -56,7 +56,7 @@
   },
   "parent": "att2:collection/weapon/wooden/shield_57",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/weapon/rar"
+    "function": "att2:advancement/test_all/collection/test_rar"
   },
   "criteria": {
     "shield_58": {

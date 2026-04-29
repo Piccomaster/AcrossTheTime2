@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/weapon/iron/iron_spear_268",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/weapon/leg"
+    "function": "att2:advancement/test_all/collection/test_leg"
   },
   "criteria": {
     "iron_spear_269": {

@@ -25,11 +25,11 @@
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": true,
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "att2:collection/weapon/diamond/diamond_sword_119",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/weapon/epi_esc"
+    "function": "att2:advancement/test_all/collection/test_epi_esc"
   },
   "criteria": {
     "diamond_sword_171": {

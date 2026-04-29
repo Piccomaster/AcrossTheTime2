@@ -32,7 +32,7 @@
   },
   "parent": "att2:collection/potion/potion9",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/potion/com"
+    "function": "att2:advancement/test_all/collection/test_com"
   },
   "criteria": {
     "potion_10": {

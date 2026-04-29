@@ -56,7 +56,7 @@
   },
   "parent": "att2:collection/weapon/wooden/shield_63",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/weapon/ult"
+    "function": "att2:advancement/test_all/collection/test_ult"
   },
   "criteria": {
     "shield_340": {

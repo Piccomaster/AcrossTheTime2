@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/weapon/diamond",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/weapon/com"
+    "function": "att2:advancement/test_all/collection/test_com"
   },
   "criteria": {
     "diamond_spear_270": {

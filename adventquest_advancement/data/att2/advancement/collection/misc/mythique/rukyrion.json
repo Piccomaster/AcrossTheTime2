@@ -19,9 +19,9 @@
         "frame": "challenge",
         "hidden": true
     },
-    "parent": "att2:collection/misc/mythique/root",
+    "parent": "att2:collection/misc/mythique/fenrir",
     "rewards": {
-        "function": "att2:advancement/test_all/collection/rukyrion",
+        "function": "att2:advancement/test_all/collection/fenrir",
         "experience": 5000
     },
   "criteria": {

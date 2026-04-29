@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/weapon/diamond/diamond_sword_127",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/weapon/ult"
+    "function": "att2:advancement/test_all/collection/test_ult"
   },
   "criteria": {
     "diamond_sword_341": {

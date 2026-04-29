@@ -4,6 +4,9 @@
 #################################################################
 
 ##get player leveling
+scoreboard players set #GAMELEVEL CAL 0
+scoreboard players set #LEVELMASTER CAL 0
+scoreboard players set #LEVELETERNAN CAL 0
 scoreboard players operation #GAMELEVEL CAL > @a[distance=..100] GAMELEVEL
 scoreboard players operation #LEVELMASTER CAL > @a[distance=..100] LEVELMASTER
 scoreboard players operation #LEVELETERNAN CAL > @a[distance=..100] LEVELETERNAN

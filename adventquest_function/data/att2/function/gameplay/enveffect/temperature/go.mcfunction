@@ -21,6 +21,8 @@ execute store result score #armor_diamond TEMPERATURE if items entity @s armor.*
 execute store result score #armor_netherite TEMPERATURE if items entity @s armor.* #att2:armor/netherite
 execute store result score #armor_golden TEMPERATURE if items entity @s armor.* #att2:armor/golden
 
+execute store result score #armor TEMPERATURE if items entity @s armor.* *
+
 scoreboard players operation #armor_leather TEMPERATURE *= 3 CAL
 scoreboard players operation #armor_chainmail TEMPERATURE *= 1 CAL
 scoreboard players operation #armor_copper TEMPERATURE *= 1 CAL
@@ -29,7 +31,10 @@ scoreboard players operation #armor_diamond TEMPERATURE *= 2 CAL
 scoreboard players operation #armor_netherite TEMPERATURE *= 1 CAL
 scoreboard players operation #armor_golden TEMPERATURE *= 2 CAL
 
-scoreboard players operation #armor TEMPERATURE = #armor_leather TEMPERATURE
+execute if score #armor TEMPERATURE matches 4.. run scoreboard players set #armor TEMPERATURE 2
+execute unless score #armor TEMPERATURE matches 4.. run scoreboard players set #armor TEMPERATURE 0
+
+scoreboard players operation #armor TEMPERATURE += #armor_leather TEMPERATURE
 scoreboard players operation #armor TEMPERATURE += #armor_chainmail TEMPERATURE
 scoreboard players operation #armor TEMPERATURE += #armor_copper TEMPERATURE
 scoreboard players operation #armor TEMPERATURE += #armor_iron TEMPERATURE
@@ -42,7 +47,7 @@ scoreboard players operation #armor TEMPERATURE += #armor_golden TEMPERATURE
 scoreboard players set #Total TEMPERATURE 0
 scoreboard players operation #Total TEMPERATURE += #armor TEMPERATURE
 ##normal
-scoreboard players remove #Total TEMPERATURE 6
+scoreboard players remove #Total TEMPERATURE 5
 ##In water
 execute if predicate att2_pre:player/in_water run scoreboard players remove #Total TEMPERATURE 4
 ##sprint

@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/weapon/iron/iron_shovel_77",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/weapon/rar"
+    "function": "att2:advancement/test_all/collection/test_rar"
   },
   "criteria": {
     "iron_shovel_84": {

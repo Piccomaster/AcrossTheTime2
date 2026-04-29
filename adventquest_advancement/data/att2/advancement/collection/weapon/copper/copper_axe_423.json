@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/weapon/copper/copper_axe_419",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/weapon/leg"
+    "function": "att2:advancement/test_all/collection/test_leg"
   },
   "criteria": {
     "copper_axe_423": {

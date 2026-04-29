@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/weapon/netherite/netherite_pickaxe_291",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/weapon/rar"
+    "function": "att2:advancement/test_all/collection/test_rar"
   },
   "criteria": {
     "netherite_pickaxe_300": {
