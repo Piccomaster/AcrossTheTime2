@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/weapon/iron/iron_pickaxe_93",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/weapon/ult"
+    "function": "att2:advancement/test_all/collection/test_ult"
   },
   "criteria": {
     "iron_pickaxe_343": {

@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/armor/chainmail/chainmail_chestplate_70",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/armor/com"
+    "function": "att2:advancement/test_all/collection/test_com"
   },
   "criteria": {
     "chainmail_chestplate_71": {

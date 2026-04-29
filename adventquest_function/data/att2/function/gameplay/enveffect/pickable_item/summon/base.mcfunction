@@ -6,8 +6,8 @@
 #kill @e[tag=PickableItem]
 ##summon interaction+item_display
 summon interaction ~ ~ ~ {Tags:["PickableItem","General","New"],Rotation:[0,90],width:1,height:0.1,response:true,data:{general_attack_function:"function att2:gameplay/enveffect/pickable_item/trigger/left",general_interact_function:"function att2:gameplay/enveffect/pickable_item/trigger/right"}}
-summon item_display ~ ~ ~ {Tags:["PickableItem","Item","New"],Rotation:[0,90],view_range:0.4,item:{id:diamond,components:{item_model:"nothing"}},transformation:{scale:[1.0f,1.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],left_rotation:[0.0f,0.0f,0.0f,1.0f]}}
-summon item_display ~ ~ ~ {Tags:["PickableItem","Overlay","New"],Rotation:[0,90],view_range:0.4,item:{id:diamond,components:{item_model:"nothing",custom_model_data:{floats:[1]}}},transformation:{scale:[1.0f,2.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],left_rotation:[0.0f,0.0f,0.0f,1.0f]}}
+summon item_display ~ ~ ~ {Tags:["PickableItem","Item","New"],Rotation:[0,90],view_range:0.4,item:{id:diamond,components:{item_model:"nothing"}},transformation:{translation:[0.0,0.0,0.0],scale:[1.0f,1.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],left_rotation:[0.0f,0.0f,0.0f,1.0f]}}
+summon item_display ~ ~ ~ {Tags:["PickableItem","Overlay","New"],Rotation:[0,90],view_range:0.4,item:{id:diamond,components:{item_model:"nothing",custom_model_data:{floats:[1]}}},transformation:{translation:[0.0,0.0,0.0],scale:[1.0f,1.0f,1.2f],right_rotation:[0.0f,0.0f,0.0f,1.0f],left_rotation:[0.0f,0.0f,0.0f,1.0f]}}
 
 
 

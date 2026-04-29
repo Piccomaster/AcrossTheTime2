@@ -22,9 +22,9 @@ execute at 00000000-0000-015a-0000-00000000015a as @p[distance=..10] run functio
 xp add @a 1000 points
 scoreboard players add @a CHRONOTON 50
 tellraw @a {text:"* ",color:"dark_red",extra:[{text:"+50 Chronotons",color:"gray","italic":true},{text:" *",color:"dark_red"}]}
-function att2:items/food/mushroom_stew_0
-function att2:items/food/mushroom_stew_0
-function att2:items/food/mushroom_stew_0
+execute as @a at @s run function att2:items/food/mushroom_stew_0
+execute as @a at @s run function att2:items/food/mushroom_stew_0
+execute as @a at @s run function att2:items/food/mushroom_stew_0
 
 advancement grant @a only att2:quest/sq4
 #return 1->make command block runing

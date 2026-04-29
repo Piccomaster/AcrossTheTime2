@@ -7,7 +7,7 @@
         "description": {"translate": "att2.advancement.treasure.description.mining_runic_medium"},
         "frame": "goal"
     },
-    "parent": "att2:treasure/root",
+    "parent": "att2:treasure/mining_runic_minor",
         "rewards": {
             "function": "att2:advancement/exploit_2",
             "experience": 250

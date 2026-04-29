@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/armor/ouranos/diamond_boots_340",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/armor/rar"
+    "function": "att2:advancement/test_all/collection/test_rar"
   },
   "criteria": {
     "diamond_boots_255": {

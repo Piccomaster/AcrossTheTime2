@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Process ALL stat exploit 			                            #
+#Process adding Tier Elite score 			                                                                                                                #
 #################################################################
 
 ### TOTAL STAT
@@ -42,10 +42,10 @@ execute if score @s SPD_TOT matches 20.. run advancement grant @s only att2:comb
 # STR
 execute if score @s STR_TOT matches 2.. run advancement grant @s only att2:combat/str_2
 execute if score @s STR_TOT matches 6.. run advancement grant @s only att2:combat/str_6
-execute if score @s STR_TOT matches 12.. run advancement grant @s only att2:combat/str_12
-execute if score @s STR_TOT matches 18.. run advancement grant @s only att2:combat/str_18
+execute if score @s STR_TOT matches 10.. run advancement grant @s only att2:combat/str_10
+execute if score @s STR_TOT matches 16.. run advancement grant @s only att2:combat/str_16
 execute if score @s STR_TOT matches 25.. run advancement grant @s only att2:combat/str_25
-# CRT
+#CRT
 execute if score @s CRT_TOT matches 2.. run advancement grant @s only att2:combat/crt_2
 execute if score @s CRT_TOT matches 4.. run advancement grant @s only att2:combat/crt_4
 execute if score @s CRT_TOT matches 7.. run advancement grant @s only att2:combat/crt_7

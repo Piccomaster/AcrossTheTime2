@@ -44,7 +44,7 @@
   },
   "parent": "att2:collection/weapon/billgart",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/weapon/com"
+    "function": "att2:advancement/test_all/collection/test_com"
   },
   "criteria": {
     "shield_192": {

@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/weapon/copper/copper_axe_396",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/weapon/unc"
+    "function": "att2:advancement/test_all/collection/test_unc"
   },
   "criteria": {
     "copper_axe_403": {

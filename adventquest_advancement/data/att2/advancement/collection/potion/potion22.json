@@ -32,7 +32,7 @@
   },
   "parent": "att2:collection/potion/potion21",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/potion/rar"
+    "function": "att2:advancement/test_all/collection/test_rar"
   },
   "criteria": {
     "potion_22": {

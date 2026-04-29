@@ -3,8 +3,12 @@
         "icon": {
             "id": "minecraft:torch"
         },
-        "title": {"translate":"att2.advancement.adventure.title.root"},
-        "description": {"translate":"att2.advancement.adventure.description.root"},
+        "title": {
+            "translate": "att2.advancement.adventure.title.root"
+        },
+        "description": {
+            "translate": "att2.advancement.adventure.description.root"
+        },
         "background": "minecraft:block/custom/futuristic_slab",
         "hidden": false,
         "show_toast": false,
@@ -12,15 +16,15 @@
     },
     "rewards": {
         "function": "att2:gameplay/misc/move_light/choice"
-                },
+    },
     "criteria": {
         "adventure": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                    "items": [
-                        "minecraft:torch"
+                        "items": [
+                            "minecraft:torch"
                         ]
                     }
                 ]

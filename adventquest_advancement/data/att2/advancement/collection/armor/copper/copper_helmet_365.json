@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/armor/copper/copper_helmet_407",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/armor/ult"
+    "function": "att2:advancement/test_all/collection/test_ult"
   },
   "criteria": {
     "copper_helmet_365": {

@@ -3,6 +3,10 @@
 #Process the health regen                        #
 ##################################################
 
+effect clear @s minecraft:poison
+effect give @s minecraft:poison 1 0 true
+
+execute unless score tic TIMECOUNTER matches 1 run return fail
 
 scoreboard players add @s HER_VALUE 10000
 
@@ -20,6 +24,3 @@ scoreboard players operation #health CAL -= 10000 CAL
 execute store result storage att2:score count double 0.0001 run scoreboard players get #health CAL
 #remove health
 function att2:gameplay/stat/healthregen/add_health_maco with storage att2:score
-
-effect clear @s minecraft:poison
-effect give @s minecraft:poison 1 0 true

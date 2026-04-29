@@ -20,7 +20,12 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:glowstone_dust"
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "consciousness": true
+                            }
+                        }
                     }
                 ]
             }

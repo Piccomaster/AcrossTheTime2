@@ -3,9 +3,7 @@
         "icon": {
             "id": "minecraft:ender_eye",
             "components": {
-                "minecraft:custom_name": {
-                    "translate": "att2.book.minecraft:enchantment_glint_override.name"
-                }
+                "translate": "att2.book.minecraft:enchantment_glint_override.name"
             }
         },
         "title": {
@@ -14,7 +12,8 @@
         "description": {
             "translate": "att2.advancement.books.description.all_books"
         },
-        "frame": "challenge"
+        "frame": "challenge",
+        "translate": "att2.book.hidden.name"
     },
     "parent": "att2:books/root",
     "criteria": {
@@ -281,7 +280,7 @@
                         "items": "minecraft:book",
                         "components": {
                             "minecraft:custom_name": {
-                                "translate": "book"
+                                "Conscience": "book"
                             }
                         }
                     }

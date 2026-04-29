@@ -3,16 +3,32 @@
         "icon": {
             "id": "minecraft:chest"
         },
-        "title": {"translate": "att2.advancement.treasure.title.root"},
-        "description": {"translate": "att2.advancement.treasure.description.root"},
+        "title": {
+            "translate": "att2.advancement.treasure.title.root"
+        },
+        "description": {
+            "translate": "att2.advancement.treasure.description.root"
+        },
         "background": "minecraft:block/gold_block",
         "hidden": false,
         "show_toast": false,
         "announce_to_chat": false
     },
     "criteria": {
-        "treasure": {
-            "trigger": "minecraft:impossible"
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "consciousness": true
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

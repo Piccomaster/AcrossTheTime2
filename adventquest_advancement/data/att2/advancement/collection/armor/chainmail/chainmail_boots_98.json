@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/armor/chainmail/chainmail_boots_94",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/armor/leg"
+    "function": "att2:advancement/test_all/collection/test_leg"
   },
   "criteria": {
     "chainmail_boots_98": {

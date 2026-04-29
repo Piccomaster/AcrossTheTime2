@@ -24,8 +24,8 @@ data modify storage att2:stat_display show set value []
 execute if score @s STR_DISPLAY matches 1.. if score #STR_DATA CAL matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.str,color:"gray",with:[{score:{name:"#STR_DATA",objective:"CAL"},color:green}]}
 execute if score @s STR_DISPLAY matches 1.. unless score #STR_DATA CAL matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.str,color:"gray",with:[{score:{name:"#STR_DATA",objective:"CAL"},color:red}]}
 #CRT
-execute if score @s CRT_DISPLAY matches 1.. if score @s CRT_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.str,color:"gray",with:[{score:{name:"@s",objective:"CRT_TOT"},color:green}]}
-execute if score @s CRT_DISPLAY matches 1.. unless score @s CRT_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.str,color:"gray",with:[{score:{name:"@s",objective:"CRT_TOT"},color:red}]}
+execute if score @s CRT_DISPLAY matches 1.. if score @s CRT_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.crt,color:"gray",with:[{score:{name:"@s",objective:"CRT_TOT"},color:green}]}
+execute if score @s CRT_DISPLAY matches 1.. unless score @s CRT_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.crt,color:"gray",with:[{score:{name:"@s",objective:"CRT_TOT"},color:red}]}
 #RES
 execute if score @s RES_DISPLAY matches 1.. if score @s RES_DATA matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.res.value,color:"gray",with:[{score:{name:"@s",objective:"RES_DATA"},color:green}]}
 execute if score @s RES_DISPLAY matches 1.. unless score @s RES_DATA matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.res.value,color:"gray",with:[{score:{name:"@s",objective:"RES_DATA"},color:red}]}
@@ -46,6 +46,9 @@ execute if score @s HUN_DISPLAY matches 1.. unless score @s HUN_TOT matches 0.. 
 #LUC
 execute if score @s LUC_DISPLAY matches 1.. if score @s LUC_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.luc.value.add,color:"gray",with:[{score:{name:"@s",objective:"LUC_DATA_INT"},color:green},{score:{name:"@s",objective:"LUC_DATA_FLOAT"},color:green}]}
 execute if score @s LUC_DISPLAY matches 1.. unless score @s LUC_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.luc.value.reduce,color:"gray",with:[{score:{name:"@s",objective:"LUC_DATA_INT"},color:red},{score:{name:"@s",objective:"LUC_DATA_FLOAT"},color:red}]}
+
+##mainquest limit
+execute if score Mainquest SIDEQUEST matches ..0 run data modify storage att2:stat_display show set value [{text:"Dahal",color:green},{text:"§6|"}]
 #Dahal value->bossbar value
 ##display stat->bossbar
 #get @s number

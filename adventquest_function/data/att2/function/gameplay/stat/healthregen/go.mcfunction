@@ -17,7 +17,7 @@ scoreboard players add #count CAL 50
 ##min
 scoreboard players operation @s HER_VALUE += #count CAL
 execute if score @s HER_VALUE matches 10000.. run function att2:gameplay/stat/healthregen/bonus
-execute if score tic TIMECOUNTER matches 1 if score @s HER_VALUE matches ..-10000 run function att2:gameplay/stat/healthregen/malus
+execute if score @s HER_VALUE matches ..-10000 run function att2:gameplay/stat/healthregen/malus
 #execute if score tic TIMECOUNTER matches 11 if score @s HER_VALUE matches ..-10000 run function att2:gameplay/stat/healthregen/malus
 
 ##cal health/s

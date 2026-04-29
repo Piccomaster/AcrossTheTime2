@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/weapon/ouranos/crossbow_326",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/weapon/rar"
+    "function": "att2:advancement/test_all/collection/test_rar"
   },
   "criteria": {
     "crossbow_327": {

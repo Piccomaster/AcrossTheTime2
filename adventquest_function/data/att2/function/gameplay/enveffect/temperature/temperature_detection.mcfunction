@@ -60,8 +60,9 @@ execute as @s[x=-6000,y=100,z=-3700,dx=-450,dy=-90,dz=-770] run return run score
 execute as @s[x=-5300,y=10,z=-4230,dx=-300,dy=150,dz=500] unless entity @s[x=-5532,y=34,z=-4164,dx=34,dy=-31,dz=44] run scoreboard players set #Environment TEMPERATURE 105
 
 # Volcano
-execute as @s[x=-5890,y=60,z=-5211,dx=400,dy=100,dz=181] run return run scoreboard players set #Environment TEMPERATURE 3
-execute as @s[x=-5890,y=60,z=-5211,dx=400,dy=100,dz=-321] run return run scoreboard players set #Environment TEMPERATURE 3
+execute as @s[x=-5890,y=60,z=-5211,dx=400,dy=100,dz=181] run return run scoreboard players set #Environment TEMPERATURE 4
+execute as @s[x=-5890,y=60,z=-5211,dx=400,dy=100,dz=-321] run return run scoreboard players set #Environment TEMPERATURE 4
+execute if predicate att2_pre:location/sylberland/volcano run return run scoreboard players set #Environment TEMPERATURE 4
 # Kert
-execute as @s[x=-5115,y=10,z=-4870,dx=-621,dy=200,dz=452] run return run scoreboard players set #Environment TEMPERATURE 4
-execute as @s[x=-6090,y=10,z=-4600,dx=327,dy=200,dz=-290] run return run scoreboard players set #Environment TEMPERATURE 4
+execute as @s[x=-5115,y=10,z=-4870,dx=-621,dy=200,dz=452] run return run scoreboard players set #Environment TEMPERATURE 6
+execute as @s[x=-6090,y=10,z=-4600,dx=327,dy=200,dz=-290] run return run scoreboard players set #Environment TEMPERATURE 6

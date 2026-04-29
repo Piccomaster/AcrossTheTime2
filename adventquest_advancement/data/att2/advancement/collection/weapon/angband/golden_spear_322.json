@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/weapon/angband/golden_spear_321",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/weapon/rar"
+    "function": "att2:advancement/test_all/collection/test_rar"
   },
   "criteria": {
     "golden_spear_322": {

@@ -25,11 +25,11 @@
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": true,
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "att2:collection/armor/copper/copper_leggings_392",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/armor/epi_set"
+    "function": "att2:advancement/test_all/collection/test_epi_set"
   },
   "criteria": {
     "copper_leggings_396": {

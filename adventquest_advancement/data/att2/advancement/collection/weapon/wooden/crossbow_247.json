@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/weapon/wooden/crossbow_246",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/weapon/unc"
+    "function": "att2:advancement/test_all/collection/test_unc"
   },
   "criteria": {
     "crossbow_247": {

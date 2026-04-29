@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/armor/angband/golden_leggings_161",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/armor/leg_armset"
+    "function": "att2:advancement/test_all/collection/test_leg_armset"
   },
   "criteria": {
     "golden_leggings_165": {

@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:beetroot"
         },
-        "title": {"translate":"att2.advancement.food.title.jorin_64"},
-        "description": {"translate":"att2.advancement.food.description.jorin_64"},
+        "title": {"translate":"att2.advancement.food.title.jorin_128"},
+        "description": {"translate":"att2.advancement.food.description.jorin_128"},
         "frame": "challenge"
     },
     "parent": "att2:food/jorin_64",

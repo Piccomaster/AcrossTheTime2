@@ -17,10 +17,12 @@ scoreboard players operation #reduce_health CAL = #Environment TEMPERATURE
 scoreboard players operation #reduce_health CAL *= 50 CAL
 scoreboard players operation #reduce_health CAL *= 50 CAL
 scoreboard players operation @s HER_VALUE -= #reduce_health CAL
+scoreboard players remove @s HER_VALUE 30000
 ##add time
 scoreboard players operation #time CAL = #Environment TEMPERATURE
 scoreboard players operation #time CAL *= 100 CAL
 scoreboard players operation @s TEMPERATURE -= #time CAL
+execute if score @s TEMPERATURE matches -250.. run scoreboard players set @s TEMPERATURE -250
 ##tip
 tellraw @s [{translate:"att2.temperature.overcooling",color:"#42D3F2"}]
-tellraw @s ["Environment",{score:{name:"#Environment",objective:"TEMPERATURE"},color:"red"},"Environment",{score:{name:"#Environment",objective:"TEMPERATURE"},color:"red"},"Armor Temperature",{score:{name:"#armor",objective:"TEMPERATURE"},color:"red"}]
+#tellraw @s ["Environment",{score:{name:"#Environment",objective:"TEMPERATURE"},color:"red"},"Environment",{score:{name:"#Environment",objective:"TEMPERATURE"},color:"red"},"Armor Temperature",{score:{name:"#armor",objective:"TEMPERATURE"},color:"red"}]

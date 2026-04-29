@@ -19,7 +19,7 @@
         "frame": "challenge",
         "hidden": true
     },
-    "parent": "att2:collection/misc/mythique/root",
+    "parent": "att2:collection/misc/mythique/carmina_hermetica",
     "rewards": {
         "function": "att2:advancement/test_all/collection/corpus_hermeticum",
         "experience": 10000

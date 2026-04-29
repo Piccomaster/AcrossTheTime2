@@ -9,6 +9,9 @@ execute as @a[distance=..10] at @s run particle minecraft:angry_villager ~ ~ ~ 1
 scoreboard players operation SPELL45_HER CAL = lvl10 SPELL45_HER
 scoreboard players operation SPELL45_STR CAL = lvl10 SPELL45_STR
 scoreboard players operation SPELL45_TIMER CAL = lvl10 SPELL45_TIMER
+scoreboard players operation SPELL45_HEALTH CAL = lvl10_remove SPELL45_HER
+#HEALTH
+scoreboard players operation @s HER_VALUE -= lvl10_remove SPELL45_HER
 #TIMER
 scoreboard players operation @s SPELL45_TIMER = SPELL45_TIMER CAL
 #HER

@@ -10,4 +10,4 @@ advancement revoke @s only att2_test:test_weapon/test_copper_axe
 advancement grant @s only att2:weapons/copper_axe_1
 advancement grant @s[scores={statCOPPERAXE=50..}] only att2:weapons/copper_axe_50
 advancement grant @s[scores={statCOPPERAXE=250..}] only att2:weapons/copper_axe_250
-advancement grant @s[scores={statCOPPERAXE=700..}] only att2:weapons/copper_axe_1000
+advancement grant @s[scores={statCOPPERAXE=600..}] only att2:weapons/copper_axe_1000

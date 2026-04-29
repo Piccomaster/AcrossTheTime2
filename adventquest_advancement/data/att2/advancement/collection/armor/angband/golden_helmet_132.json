@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/armor/angband/golden_helmet_131",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/armor/com"
+    "function": "att2:advancement/test_all/collection/test_com"
   },
   "criteria": {
     "golden_helmet_132": {

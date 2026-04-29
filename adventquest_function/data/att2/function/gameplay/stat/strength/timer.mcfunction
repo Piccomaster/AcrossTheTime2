@@ -20,5 +20,10 @@ scoreboard players set @s[scores={TIMER_STR_PO=..0}] STR_PO 0
 scoreboard players set @s[scores={TIMER_STR_EH=..0}] STR_EH 0
 scoreboard players set @s[scores={TIMER_STR_LE=..0}] STR_LE 0
 scoreboard players set @s[scores={TIMER_STR_FO=..0}] STR_FO 0
+
+##
+##detection percent -> effect damage
+execute if score @s HER_FOOD matches 20.. run function att2:gameplay/stat/hunger/positive_effect
+execute if score @s HER_FOOD matches ..10 run function att2:gameplay/stat/hunger/negative_effect
 ##POTION_TIP
 execute as @s[scores={TIMER_STR_PO=..200,STR_PO=0..,POTION_CHECK_STR=1}] at @s run function att2:dialogs/gameplay/potion_tip/str_time

@@ -30,7 +30,7 @@
   },
   "parent": "att2:collection/armor/leather",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/armor/com"
+    "function": "att2:advancement/test_all/collection/test_com"
   },
   "criteria": {
     "leather_helmet_2": {

@@ -5,7 +5,7 @@
 
 function att2:dialogs/mainquest/act_2/ch1_gonon_9
 function att2:voice/gonon/gonon9
-execute as @a run function att2:items/food/rabbit_stew_0
+execute as @a at @s run function att2:items/food/rabbit_stew_0
 effect give @a minecraft:instant_health 1 10 true
 fill -5186 73 -5352 -5187 73 -5352 minecraft:iron_trapdoor[open=true]
 

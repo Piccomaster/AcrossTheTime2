@@ -26,11 +26,11 @@
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": true,
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "att2:collection/armor/leather/leather_leggings_50",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/armor/epi_set"
+    "function": "att2:advancement/test_all/collection/test_epi_set"
   },
   "criteria": {
     "leather_leggings_16": {

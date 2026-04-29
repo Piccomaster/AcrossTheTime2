@@ -3,16 +3,32 @@
         "icon": {
             "id": "minecraft:enchanting_table"
         },
-        "title": {"translate":"att2.advancement.enchantments.title.root"},
-        "description": {"translate":"att2.advancement.enchantments.description.root"},
+        "title": {
+            "translate": "att2.advancement.enchantments.title.root"
+        },
+        "description": {
+            "translate": "att2.advancement.enchantments.description.root"
+        },
         "background": "minecraft:block/redstone_block",
         "hidden": false,
         "show_toast": false,
         "announce_to_chat": false
     },
     "criteria": {
-        "root": {
-             "trigger": "minecraft:impossible"
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "consciousness": true
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

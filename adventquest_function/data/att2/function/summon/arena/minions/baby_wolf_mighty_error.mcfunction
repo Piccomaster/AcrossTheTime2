@@ -1,6 +1,0 @@
-##################################################
-#Made by Adventquest                             #
-#Summon Baby wolf Minions arena 		       	 #
-##################################################
-
-summon minecraft:wolf ~ ~ ~ {variant:snowy,Glowing:1b,Tags:["LVL0","CLASS17","ArenaMinion","Mighty2"],anger_end_time:2147483647,PersistenceRequired:1b,DeathLootTable:"att2:empty",Age:-2147483648,attributes:[{id:follow_range,base:50.0}],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},ArmorItems:[{id:"minecraft:chainmail_boots",count:1},{id:"minecraft:chainmail_leggings",count:1},{id:"minecraft:chainmail_chestplate",count:1},{id:"minecraft:chainmail_helmet",count:1}],equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/mob_initialize":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}}}

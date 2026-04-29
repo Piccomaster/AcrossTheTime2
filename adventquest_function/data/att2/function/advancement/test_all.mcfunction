@@ -18,6 +18,7 @@
 # Reset Chest trigg opened
 scoreboard players set @a triggCHEST 0
 scoreboard players set @a openSHULKER 0
+scoreboard players set @a openCHEST 0
 
 
 ### Test advancement

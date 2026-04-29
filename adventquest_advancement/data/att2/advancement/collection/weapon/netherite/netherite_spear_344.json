@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/weapon/netherite/netherite_spear_317",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/weapon/ult"
+    "function": "att2:advancement/test_all/collection/test_ult"
   },
   "criteria": {
     "netherite_spear_344": {

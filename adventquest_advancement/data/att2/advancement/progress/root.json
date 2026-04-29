@@ -3,16 +3,32 @@
         "icon": {
             "id": "minecraft:lantern"
         },
-        "title": {"translate":"att2.advancement.progress.title.root"},
-        "description": {"translate":"att2.advancement.progress.description.root"},
+        "title": {
+            "translate": "att2.advancement.progress.title.root"
+        },
+        "description": {
+            "translate": "att2.advancement.progress.description.root"
+        },
         "background": "minecraft:block/lime_concrete",
         "hidden": false,
         "show_toast": false,
         "announce_to_chat": false
     },
     "criteria": {
-        "inventory": {
-            "trigger": "minecraft:inventory_changed"
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "consciousness": true
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

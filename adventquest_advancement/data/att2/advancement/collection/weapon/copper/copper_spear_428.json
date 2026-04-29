@@ -25,11 +25,11 @@
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": true,
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "att2:collection/weapon/copper/copper_spear_451",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/weapon/epi_esc"
+    "function": "att2:advancement/test_all/collection/test_epi_esc"
   },
   "criteria": {
     "copper_spear_428": {

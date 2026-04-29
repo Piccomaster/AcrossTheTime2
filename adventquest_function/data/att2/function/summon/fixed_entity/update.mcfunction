@@ -1,10 +1,12 @@
 ##reset
 execute as @s run scoreboard players set update_loop SYSTEM 0
+execute as @s run schedule clear function att2:summon/fixed_entity/update
 ##add score
 scoreboard players add update_loop SYSTEM 1
 ##loop
 execute if score update_loop SYSTEM matches 1..200 run schedule function att2:summon/fixed_entity/update 11t append
 ##update
+kill @e[type=item]
 function att2:summon/fixed_entity/map_art
 function att2:summon/fixed_entity/pnj_clear
 

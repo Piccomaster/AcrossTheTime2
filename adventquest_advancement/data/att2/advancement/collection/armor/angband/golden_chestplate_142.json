@@ -29,7 +29,7 @@
   },
   "parent": "att2:collection/armor/angband/golden_chestplate_141",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/armor/unc"
+    "function": "att2:advancement/test_all/collection/test_unc"
   },
   "criteria": {
     "golden_chestplate_142": {

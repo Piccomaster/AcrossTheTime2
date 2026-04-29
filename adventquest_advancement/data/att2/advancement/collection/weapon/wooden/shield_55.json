@@ -56,7 +56,7 @@
   },
   "parent": "att2:collection/weapon/wooden/shield_54",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/weapon/unc"
+    "function": "att2:advancement/test_all/collection/test_unc"
   },
   "criteria": {
     "shield_55": {

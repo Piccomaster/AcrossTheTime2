@@ -30,7 +30,7 @@
   },
   "parent": "att2:collection/armor/leather/leather_chestplate_1",
   "rewards": {
-    "function": "att2:advancement/test_all/collection/armor/com"
+    "function": "att2:advancement/test_all/collection/test_com"
   },
   "criteria": {
     "leather_chestplate_3": {

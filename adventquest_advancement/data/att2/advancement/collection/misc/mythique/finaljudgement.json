@@ -1,0 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:netherite_hoe",
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        10000000
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "att2.advancement.collection_misc.mythique.title.finaljudgement"
+        },
+        "description": {
+            "translate": "att2.advancement.collection_misc.mythique.description.finaljudgement"
+        },
+        "frame": "challenge",
+        "hidden": true
+    },
+    "parent": "att2:collection/misc/mythique/root",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/finaljudgement",
+        "experience": 7777
+    },
+  "criteria": {
+    "finaljudgement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_hoe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "EquipmentID": "finaljudgement"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
