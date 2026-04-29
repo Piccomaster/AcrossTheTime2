@@ -4,7 +4,7 @@
 #################################################################
 
 #scoreboard objectives add statENDERCHEST minecraft.custom:minecraft.open_enderchest
-#scoreboard objectives add openCHEST minecraft.custom:minecraft.open_chest
+scoreboard objectives add openCHEST minecraft.custom:minecraft.open_chest
 #scoreboard objectives add openTRAPCHEST minecraft.custom:minecraft.trigger_trapped_chest
 #scoreboard objectives add openSHULKER minecraft.custom:minecraft.open_shulker_box
 scoreboard objectives add statCHEST dummy
