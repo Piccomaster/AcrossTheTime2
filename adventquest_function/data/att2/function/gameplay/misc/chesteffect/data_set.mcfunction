@@ -53,7 +53,7 @@ execute if score #T CAL matches 1..10 run scoreboard players operation @s CHESTE
 ##
 execute if score #Q CAL matches 66 run scoreboard players set @s CHESTEFFECT 11
 execute if score #Q CAL matches 67 run scoreboard players set @s CHESTEFFECT 12
-execute if score #Q CAL matches 1..65 run scoreboard players set @s CHESTEFFECT 13
+execute if score #Q CAL matches 1..64 run scoreboard players set @s CHESTEFFECT 13
 ##quest
 execute if score #Q CAL matches 1.. run scoreboard players operation @s DropQuestItemId = #Q CAL
 
