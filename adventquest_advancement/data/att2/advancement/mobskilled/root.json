@@ -3,16 +3,32 @@
         "icon": {
             "id": "minecraft:skeleton_skull"
         },
-        "title": {"translate":"att2.advancement.mobskilled.title.root"},
-        "description": {"translate":"att2.advancement.mobskilled.description.root"},
+        "title": {
+            "translate": "att2.advancement.mobskilled.title.root"
+        },
+        "description": {
+            "translate": "att2.advancement.mobskilled.description.root"
+        },
         "background": "minecraft:block/soul_sand",
         "hidden": false,
         "show_toast": false,
         "announce_to_chat": false
     },
     "criteria": {
-        "monster_hunter": {
-            "trigger": "minecraft:player_killed_entity"
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "consciousness": true
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

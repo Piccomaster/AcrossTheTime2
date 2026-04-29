@@ -1,0 +1,17 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/equipment/weapon/bows/switch_bows_trigger"
+    },
+    "criteria": {
+        "switch_bows_trigger": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:bows"
+                    }
+                ]
+            }
+        }
+    }
+}

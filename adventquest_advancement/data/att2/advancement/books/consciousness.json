@@ -26,7 +26,7 @@
                         "items": "minecraft:book",
                         "predicates": {
                             "minecraft:custom_data": {
-                                "Conscience": "book"
+                                "consciousness": true
                             }
                         }
                     }

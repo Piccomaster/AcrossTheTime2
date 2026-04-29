@@ -3,22 +3,29 @@
         "icon": {
             "id": "minecraft:iron_sword"
         },
-        "title": {"translate": "att2.advancement.weapons.title.root"},
-        "description": {"translate": "att2.advancement.weapons.description.root"},
+        "title": {
+            "translate": "att2.advancement.weapons.title.root"
+        },
+        "description": {
+            "translate": "att2.advancement.weapons.description.root"
+        },
         "background": "minecraft:block/brown_terracotta",
         "hidden": false,
         "show_toast": false,
         "announce_to_chat": false
     },
     "criteria": {
-        "wooden_sword": {
+        "collection": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                    "items": [
-                        "minecraft:wooden_sword"
-                        ]
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "consciousness": true
+                            }
+                        }
                     }
                 ]
             }

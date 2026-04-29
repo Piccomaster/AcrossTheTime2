@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:iron_block",
+            "components": {
+                "minecraft:enchantment_glint_override":true
+            }
+        },
+        "title": {"translate":"att2.advancement.mobskilled.title.block_mimic_killed_5"},
+        "description": {"translate":"att2.advancement.mobskilled.description.block_mimic_killed_5"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/block_mimic_killed_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_4",
+        "experience": 400
+    },
+    "criteria": {
+        "block_mimickilled_5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -12,8 +12,20 @@
     },
     "parent": "att2:treasure/root",
     "criteria": {
-        "root": {
-            "trigger": "minecraft:impossible"
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "consciousness": true
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

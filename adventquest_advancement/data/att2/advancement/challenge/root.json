@@ -3,16 +3,32 @@
         "icon": {
             "id": "minecraft:trident"
         },
-        "title": {"translate":"att2.advancement.challenge.title.root"},
-        "description": {"translate":"att2.advancement.challenge.description.root"},
+        "title": {
+            "translate": "att2.advancement.challenge.title.root"
+        },
+        "description": {
+            "translate": "att2.advancement.challenge.description.root"
+        },
         "background": "minecraft:block/green_concrete",
         "hidden": false,
         "show_toast": false,
         "announce_to_chat": false
     },
     "criteria": {
-        "inventory": {
-            "trigger": "minecraft:inventory_changed"
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "consciousness": true
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

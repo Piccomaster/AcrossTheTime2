@@ -3,16 +3,32 @@
         "icon": {
             "id": "minecraft:cake"
         },
-        "title": {"translate":"att2.advancement.food.title.root"},
-        "description": {"translate":"att2.advancement.food.description.root"},
+        "title": {
+            "translate": "att2.advancement.food.title.root"
+        },
+        "description": {
+            "translate": "att2.advancement.food.description.root"
+        },
         "background": "minecraft:block/purpur_block",
         "hidden": false,
         "show_toast": false,
         "announce_to_chat": false
     },
     "criteria": {
-        "consumed_item": {
-            "trigger": "minecraft:consume_item"
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "consciousness": true
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }

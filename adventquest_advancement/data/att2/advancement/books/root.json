@@ -15,7 +15,7 @@
         "announce_to_chat": false
     },
     "criteria": {
-        "cons": {
+        "collection": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -23,7 +23,7 @@
                         "items": "minecraft:written_book",
                         "predicates": {
                             "minecraft:custom_data": {
-                                "Conscience": "book"
+                                "consciousness": true
                             }
                         }
                     }
