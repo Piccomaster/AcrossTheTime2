@@ -4,8 +4,8 @@
 #################################################################
 
 ##gamerule
-gamerule max_command_forks 100000
-gamerule max_command_sequence_length 100000
+gamerule max_command_forks 777777777
+gamerule max_command_sequence_length 777777777
 
 ##summon npc
 function att2:summon/fixed_entity/pnj_summon
