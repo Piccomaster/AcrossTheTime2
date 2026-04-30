@@ -20,4 +20,4 @@ execute if score intake_old_chipped_stone SQ33 matches 7 run summon minecraft:ar
 execute if score intake_old_chipped_stone SQ33 matches 8 run summon minecraft:armor_stand -5342.10 113.9 -6249.05 {Marker:true,Rotation:[-90.0f,0.0f],equipment:{mainhand:{id:"minecraft:chiseled_stone_bricks",count:1}},ShowArms:1,Invisible:1,NoGravity:1b,DisabledSlots:2039583,Pose:{RightArm:[-45f,0f,45f]}}
 execute if score intake_old_chipped_stone SQ33 matches 8.. run function att2:cinematic/sidequest/33/step2
 #clear textdisplay
-execute if score intake_old_chipped_stone SQ33 matches 8.. positioned -5341 113 -6241 run kill @e[type=text_display,distance=..5,tag=QUEST]
+execute if score intake_old_chipped_stone SQ33 matches 8.. positioned -5341 113 -6241 run kill @e[type=#minecraft:display_entity,distance=..5,tag=QUEST]

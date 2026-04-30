@@ -531,6 +531,10 @@
 - Added appearance tips.
 - Reduce the number of drops when a mimic dies, but as the mimic's level increases, the probability of it dropping high-quality items will also rise significantly.
 
+#### **Boss Difficulty Adjustment**
+- Slightly increased damage reduction for Bosses: Asurok, Illusion, Torkant
+- Slightly decreased damage reduction for Bosses: Karon, Somniophages
+
 
 <br>
 

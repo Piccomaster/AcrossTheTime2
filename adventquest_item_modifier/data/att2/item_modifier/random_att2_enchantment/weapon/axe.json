@@ -14,9 +14,9 @@
       "function": "filtered",
       "item_filter": {
         "predicates": {
-          "minecraft:enchantments": [
+          "enchantments": [
             {
-              "enchantment": "att2_enchantment:auto_mending"
+              "enchantments": "att2_enchantment:auto_mending"
             }
           ]
         }
@@ -34,9 +34,9 @@
       "function": "filtered",
       "item_filter": {
         "predicates": {
-          "minecraft:enchantments": [
+          "enchantments": [
             {
-              "enchantment": "att2_enchantment:runeharden"
+              "enchantments": "att2_enchantment:runeharden"
             }
           ]
         }
@@ -54,9 +54,9 @@
       "function": "filtered",
       "item_filter": {
         "predicates": {
-          "minecraft:enchantments": [
+          "enchantments": [
             {
-              "enchantment": "att2_enchantment:armorbreak"
+              "enchantments": "att2_enchantment:armorbreak"
             }
           ]
         }
@@ -66,6 +66,26 @@
           "function": "set_enchantments",
           "enchantments": {
             "att2_enchantment:armorbreak": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "filtered",
+      "item_filter": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": "att2_enchantment:1000slay"
+            }
+          ]
+        }
+      },
+      "on_pass": [
+        {
+          "function": "set_enchantments",
+          "enchantments": {
+            "att2_enchantment:1000slay": 1
           }
         }
       ]

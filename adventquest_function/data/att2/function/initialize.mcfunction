@@ -3,6 +3,9 @@
 #Initialize all systems for a given player						#
 #################################################################
 
+##summon npc
+function att2:summon/fixed_entity/pnj_summon
+
 function att2:clock/initialize
 function att2:gameplay/initialize
 function att2:spawner/initialize

@@ -10,7 +10,7 @@ execute on attacker unless entity @s[distance=..7,predicate=att2_pre:test_hold/h
 execute if score #ForceReplace ENEMYHEALTH matches 1.. run return fail
 ##test pos
 scoreboard players operation #id CAL = @s ENTITYID
-scoreboard players operation #id CAL += @s SPEAR_FATIGUE
+scoreboard players operation #id CAL += @s SCYTHE_FATIGUE
 scoreboard players operation #id CAL %= 8 CAL
 
 ##difference pos
@@ -44,7 +44,7 @@ execute on attacker if items entity @s weapon.mainhand #minecraft:hoes[enchantme
 scoreboard players operation #reduce_health CAL *= #RNG CAL
 scoreboard players operation #reduce_health CAL /= 100 CAL
 
-execute store result score @s SPEAR_FATIGUE run random value 1..8
+execute store result score @s SCYTHE_FATIGUE run random value 1..8
 playsound minecraft:item.mace.smash_air block @a ~ ~ ~ 1 2
 playsound minecraft:item.mace.smash_air block @a ~ ~ ~ 1 2
 

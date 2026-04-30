@@ -23,6 +23,12 @@ execute store result score #T CAL run data get entity @s data.T
 execute store result score #Q CAL run data get entity @s data.Q
 ##limit
 execute if score #Q CAL matches -100 run function att2:gameplay/maze/summon/normal_chest/update
+##clear
+tag @s add TEMP
+kill @e[distance=..0.01,type=marker,tag=ChestMarker,tag=!TEMP]
+kill @e[distance=..0.01,type=item_display,tag=ChestDisplay]
+tag @s remove TEMP
+
 ##normal
 function att2:gameplay/misc/chesteffect/name/c_test
 ##ithax_name
@@ -47,7 +53,7 @@ execute if score #T CAL matches 1..10 run scoreboard players operation @s CHESTE
 ##
 execute if score #Q CAL matches 66 run scoreboard players set @s CHESTEFFECT 11
 execute if score #Q CAL matches 67 run scoreboard players set @s CHESTEFFECT 12
-execute if score #Q CAL matches 1..65 run scoreboard players set @s CHESTEFFECT 13
+execute if score #Q CAL matches 1..64 run scoreboard players set @s CHESTEFFECT 13
 ##quest
 execute if score #Q CAL matches 1.. run scoreboard players operation @s DropQuestItemId = #Q CAL
 

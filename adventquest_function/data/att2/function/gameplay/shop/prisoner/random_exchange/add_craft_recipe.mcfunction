@@ -87,7 +87,7 @@ execute if score #Total CAL matches 40000..99999 run data modify storage att2:ru
 execute if score #Total CAL matches 40000..99999 run data modify storage att2:rune crafting_recipe_data append value 27
 
 #test
-tellraw @a [{score:{name:"#Total",objective:"CAL"}}]
+#tellraw @a [{score:{name:"#Total",objective:"CAL"}}]
 ##\n
 execute if score #LVL DARK_RESIN matches 1 run data modify storage att2:rune crafting_recipe append value {translate:"att2.rune_exchange",color:gold,click_event:{action:run_command,command:"/trigger ScoreTrigger set 3532"},hover_event:{action:show_text,value:[{translate:"att2.rune_exchange.hover_event"}]}}
 execute if score #LVL DARK_RESIN matches 2 run data modify storage att2:rune crafting_recipe append value {translate:"att2.rune_exchange",color:gold,click_event:{action:run_command,command:"/trigger ScoreTrigger set 3533"},hover_event:{action:show_text,value:[{translate:"att2.rune_exchange.hover_event"}]}}

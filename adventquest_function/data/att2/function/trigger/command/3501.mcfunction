@@ -1,0 +1,1 @@
+execute as @s at @e[distance=..7,type=#minecraft:pnj] if score @s PNJID = @n[distance=..0,type=#minecraft:pnj] PNJID anchored eyes positioned ^ ^ ^ run function att2:gameplay/shop/prisoner/rune/nym

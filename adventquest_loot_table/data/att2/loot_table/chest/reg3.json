@@ -17,7 +17,9 @@
                   "name": "#Temp"
                 }
               },
-              "range": 1
+              "range": {
+                "min": 1
+              }
             }
           ],
           "type": "minecraft:loot_table",

@@ -10,6 +10,6 @@ execute positioned -4539 71 -4524 run function att2:gameplay/intake/effect
 execute if score intake_goods SQ24 matches 3.. run stopsound @a block minecraft:airblast
 execute if score intake_goods SQ24 matches 6.. run function att2:cinematic/sidequest/24/step2
 #clear textdisplay
-execute if score intake_goods SQ24 matches 6.. positioned -4539 71 -4524 run kill @e[type=text_display,distance=..5,tag=QUEST]
+execute if score intake_goods SQ24 matches 6.. positioned -4539 71 -4524 run kill @e[type=#minecraft:display_entity,distance=..5,tag=QUEST]
 #clear block
 execute if score intake_goods SQ24 matches 6.. run setblock -4539 71 -4524 light_weighted_pressure_plate

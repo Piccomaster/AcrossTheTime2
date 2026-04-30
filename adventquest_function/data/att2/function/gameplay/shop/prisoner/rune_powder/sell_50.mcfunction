@@ -4,7 +4,7 @@
 #################################################################
 
 execute if score #stock RUNE_POWDER matches ..49 at @s run function att2:dialogs/gameplay/shop/not_enough_runepowder
-execute if score #stock RUNE_POWDER matches 50.. run function att2:gameplay/shop/effect
+execute if score #stock RUNE_POWDER matches 50.. at @s run function att2:gameplay/shop/effect
 execute if score #stock RUNE_POWDER matches 50.. run function att2:items/chronoton/esc_give_maco {count:1}
 
 execute if score #stock RUNE_POWDER matches 50.. run scoreboard players remove #stock RUNE_POWDER 50

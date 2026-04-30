@@ -20,3 +20,8 @@ execute if score @s FISH_QUALITY matches ..1 on origin run function att2:dialogs
 scoreboard players set @s[scores={FISH_QUALITY=..0}] FISH_QUALITY 1
 #add random pos tag
 tag @s add SPOT_SELECT
+
+##clear nearly
+tag @s add TEMP
+execute at @s run kill @e[distance=..5,tag=FISH_SPOT,type=item_display,tag=!TEMP]
+tag @s remove TEMP

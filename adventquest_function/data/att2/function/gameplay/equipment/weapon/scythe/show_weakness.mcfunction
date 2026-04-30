@@ -5,7 +5,7 @@
 
 ##show Weakness
 scoreboard players operation #id CAL = @s ENTITYID
-scoreboard players operation #id CAL += @s SPEAR_FATIGUE
+scoreboard players operation #id CAL += @s SCYTHE_FATIGUE
 scoreboard players operation #id CAL %= 8 CAL
 
 ##difference pos

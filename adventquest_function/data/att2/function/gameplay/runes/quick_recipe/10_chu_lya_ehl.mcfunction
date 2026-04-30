@@ -13,7 +13,7 @@ execute if score #TEST CAL matches 0 run return 0
 ##Inventory
 execute store result score #chu CAL run clear @s glowstone_dust[custom_name={translate:'item.rune.name.12'}] 0
 execute store result score #lya CAL run clear @s glowstone_dust[custom_name={translate:'item.rune.name.17'}] 0
-execute store result score ehl CAL run clear @s glowstone_dust[custom_name={translate:'item.rune.name.10'}] 0
+execute store result score #ehl CAL run clear @s glowstone_dust[custom_name={translate:'item.rune.name.10'}] 0
 
 ##test
 #reset

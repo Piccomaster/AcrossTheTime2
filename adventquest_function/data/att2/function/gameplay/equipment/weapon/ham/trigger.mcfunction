@@ -26,7 +26,7 @@ item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_ench
 ##sound
 playsound minecraft:item.mace.smash_ground_heavy block @a ~ ~ ~ 1 2
 playsound minecraft:item.mace.smash_ground block @a ~ ~ ~ 1 2
-playsound minecraft:item.mace.smash_air block @a ~ ~ ~ 1 1
+#playsound minecraft:item.mace.smash_air block @a ~ ~ ~ 1 1
 
 
 ##particle

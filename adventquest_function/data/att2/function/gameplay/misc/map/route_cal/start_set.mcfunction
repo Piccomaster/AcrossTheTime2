@@ -17,7 +17,7 @@ team join dark_green @e[type=shulker,tag=ROUTE_START,tag=New]
 scoreboard players operation @e[type=shulker,tag=ROUTE_START,tag=New] OWNER = @s NUMEROJOUEUR
 #add arrow
 tp @e[type=armor_stand,tag=newGPS,distance=..5] ~ -10 ~
-summon minecraft:armor_stand ~ ~-0.5 ~ {Tags:[newGPS],NoAI:1b,Invulnerable:1b,Invisible:1b,Marker:1b,DeathLootTable:"att2:empty",drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{head:{id:"minecraft:shears",components:{enchantments:{"att2_enchantment:tick/misc/gps":1},custom_model_data:{floats:[10001008]},unbreakable:{}},count:1}},active_effects:[{id:invisibility,amplifier:1,duration:-1,show_particles:false}]}
+summon minecraft:armor_stand ~ ~-0.5 ~ {Tags:[newGPS],Invisible:1b,Marker:1b,equipment:{head:{id:"minecraft:shears",components:{enchantments:{"att2_enchantment:tick/misc/gps":1},custom_model_data:{floats:[10001001]},unbreakable:{}},count:1}}}
 execute in minecraft:overworld as @e[type=armor_stand,tag=newGPS] at @s anchored feet facing entity @e[type=shulker,tag=ROUTE_START,tag=New,limit=1] feet run function att2:gameplay/gps/tp_arrow
 #remove tag
 tag @e[type=shulker,tag=ROUTE_START,tag=New] remove New

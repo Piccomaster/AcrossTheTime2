@@ -9,8 +9,8 @@ execute if block ~ ~ ~ ender_chest run setblock ~ ~ ~ air replace
 particle portal ~ ~ ~ 0.25 0.25 0.25 0.5 2 normal
 
 ##unless player near -> reset score
-execute unless entity @a[distance=..20] run scoreboard players set @s[scores={ENDERCHEST=..-1}] ENDERCHEST -1
-execute unless entity @a[distance=..20] run scoreboard players set @s[scores={ENDERCHEST=1..}] ENDERCHEST 1
+execute unless entity @p[distance=..20] run scoreboard players set @s[scores={ENDERCHEST=..-1}] ENDERCHEST -1
+execute unless entity @p[distance=..20] run scoreboard players set @s[scores={ENDERCHEST=1..}] ENDERCHEST 1
 
 ##reset custom name
 data remove entity @s CustomName
