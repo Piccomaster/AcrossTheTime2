@@ -3,6 +3,10 @@
 #Initialize all systems for a given player						#
 #################################################################
 
+##gamerule
+gamerule max_command_forks 100000
+gamerule max_command_sequence_length 100000
+
 ##summon npc
 function att2:summon/fixed_entity/pnj_summon
 
