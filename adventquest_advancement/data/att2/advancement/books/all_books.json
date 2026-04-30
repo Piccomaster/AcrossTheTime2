@@ -3,7 +3,9 @@
         "icon": {
             "id": "minecraft:ender_eye",
             "components": {
-                "translate": "att2.book.minecraft:enchantment_glint_override.name"
+                "minecraft:custom_name": {
+                    "translate": "att2.book.minecraft:enchantment_glint_override.name"
+                }
             }
         },
         "title": {
