@@ -17,7 +17,7 @@
 #Restart system: 28 689
 #Beeing bored about trying to understand this file: 128 569
 
-execute as @a[gamemode=spectator,tag=!itemkeeper,tag=!demo] unless score item ITEM_LIFETIME matches 28468..28473 at @s run function att2:gameplay/item/lifetime/updateitem
+execute as @a[gamemode=spectator,tag=!demo,tag=!spectator] unless score item ITEM_LIFETIME matches 28468..28473 at @s run function att2:gameplay/item/lifetime/updateitem
 execute as @a[gamemode=creative,tag=!runtime] unless score item ITEM_LIFETIME matches 1095 at @s run function att2:gameplay/item/lifetime/updateitem
 
 execute as @a[gamemode=survival,tag=!runtime] at @s run function att2:gameplay/item/lifetime/updateitem
