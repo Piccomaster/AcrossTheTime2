@@ -23,7 +23,7 @@ execute as @e[x=-4489,y=37,z=-4442,distance=..60,tag=NewInvo] run function att2:
 function att2:gameplay/runictrials/17/end_door_opened
 
 # dark resin spawned
-execute positioned -4431 39 -4833 run function att2:gameplay/runictrials/dark_resin_merge
+execute positioned -4431 39 -4833 run function att2:gameplay/runictrials/dark_resin_spawned
 
 # checkpoint
 execute in minecraft:overworld run spawnpoint @a -4469 36 -4442
