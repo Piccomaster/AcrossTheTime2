@@ -39,3 +39,5 @@ tellraw @s[scores={LANGUAGE=10}] [{object:player,player:{properties:[{name:"text
 
 # SIMPLIFIED CHINESE
 tellraw @s[scores={LANGUAGE=11}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk2OGZkMTRhOTk0MjY3NmRlZjFmZTY2NGExMTU4OGZmNTc2M2Q2MGI0Y2JkOGM1MzYxOWY4NmQ1NmIzYTM1ZSJ9fX0="}]}},{text:" °-° Eldric : ",color:"green",extra:[{text:"Eldric，这是我的名字。在为那些卑劣的领主开采黄金与钻石整整二十七个轮回之后，这是我仅剩的称呼。挖矿时我发现了这些奇特的符文碎石，世间无人知晓它们的价值，只有你这类人能够理解。只要你拥有足够的Chronotons，我就可以将符文出售给你。想要深入地底搜寻稀有宝物，坚硬的岩层会持续磨损、破坏我的工具。我需要<深渊黑树脂>，这是一种封存于容器中的暗色胶状物，产自黑暗骸骨盘踞的古老废墟。把它带给我，我就能强化镐具，挖掘更深的地层。作为回报，我会赠予你一枚远超普通劣质品的优质符文。你交付的物资越多，我在地底深处的生存耐力就越强，效果可叠加累积。",color:"dark_aqua"}]}]
+
+scoreboard players set eldric_PNJ DIALOG 2

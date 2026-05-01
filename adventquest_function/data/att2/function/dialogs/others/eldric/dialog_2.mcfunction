@@ -39,3 +39,5 @@ tellraw @s[scores={LANGUAGE=10}] [{object:player,player:{properties:[{name:"text
 
 # SIMPLIFIED CHINESE
 tellraw @s[scores={LANGUAGE=11}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk2OGZkMTRhOTk0MjY3NmRlZjFmZTY2NGExMTU4OGZmNTc2M2Q2MGI0Y2JkOGM1MzYxOWY4NmQ1NmIzYTM1ZSJ9fX0="}]}},{text:" °-° Eldric : ",color:"green",extra:[{text:"等等，我话还没说完。我听说你能够将这些符文拼接组合，编织成符文咒文。听起来很奇妙，但我完全不懂该如何操作……被困在这座牢笼之中，我无缘翻阅典籍、缺乏学识见闻。我只知道，把符文碾磨成粉末后，可以掺入合金材料，用来修补我的工具。若是再用<深渊黑树脂>浸润器具，我便能在这座矿坑里发挥惊人的力量。可这些符文质地脆弱，却又坚硬无比、极难碾碎，我既没有合适的器械，也没有打磨炼制的手艺。所以如果你拿到了多余的符文、无处处置，就拿来交给我，我会用混沌王者鳞片作为报酬交换。这些鳞片是我在这片肮脏囚笼里的交易货币：收买视而不见的守卫、使唤欠我人情的囚犯……总而言之，我囤积了大量<混沌鳞片>，打算一步步掌控这座监狱，将此地化为属于我的领地……",color:"dark_aqua"}]}]
+
+scoreboard players set eldric_PNJ DIALOG 3
