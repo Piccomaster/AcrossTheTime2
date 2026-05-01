@@ -24,7 +24,7 @@ kill @e[distance=..10,type=marker,tag=Temp]
 
 ##remove more damage
 scoreboard players set #count CAL 2
-execute if items entity @s weapon.mainhand #minecraft:swords[!custom_data~{Rarity:myt}] run function att2:gameplay/misc/durability/add_mainhand
+execute if items entity @s weapon.mainhand #minecraft:swords[!custom_data~{Rarity:myt}] run function att2:gameplay/equipment/durability/remove_mainhand
 
 ##get damage data
 execute store result score #damage CAL run attribute @s attack_damage base get 1.5

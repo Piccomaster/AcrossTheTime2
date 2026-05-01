@@ -13,3 +13,5 @@ effect give @s speed 1 1 true
 
 ##reset temperature
 scoreboard players set @s TEMPERATURE 0
+
+effect give @s minecraft:saturation 1 0 true
