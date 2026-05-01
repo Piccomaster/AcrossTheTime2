@@ -3,6 +3,8 @@
 #Process calculation of temperature     		    #
 #####################################################
 
+execute unless score Mainquest SIDEQUEST matches 1.. run return fail
+
 ##effect 
 execute as @s[scores={TEMPERATURE=-100..100}] run function att2:gameplay/enveffect/temperature/effect/normal
 execute as @s[scores={TEMPERATURE=100..},tag=Hot] run function att2:gameplay/enveffect/temperature/effect/hot
