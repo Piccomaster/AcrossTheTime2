@@ -42,4 +42,4 @@ scoreboard objectives add TIMER_CRT_LE dummy
 scoreboard objectives add POTION_CHECK_CRT dummy
 
 scoreboard objectives add CRT_UPGRADE_REQ dummy
-scoreboard players set @s CRT_UPGRADE_REQ 1
+scoreboard players set @s CRT_UPGRADE_REQ 6

@@ -12,11 +12,24 @@
                             "entity": "this"
                         },
                         {
+                            "function": "minecraft:set_components_data",
+                            "floats": {
+                                "values": [
+                                    {
+                                        "type": "score",
+                                        "target": "this",
+                                        "score": "NUMEROJOUEUR"
+                                    }
+                                ],
+                                "mode": "append"
+                            }
+                        },
+                        {
                             "function": "minecraft:set_custom_model_data",
                             "floats": {
                                 "values": [
                                     {
-                                        "type":"score",
+                                        "type": "score",
                                         "target": "this",
                                         "score": "NUMEROJOUEUR"
                                     }
