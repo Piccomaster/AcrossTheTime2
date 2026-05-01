@@ -49,7 +49,7 @@ scoreboard players operation #armor TEMPERATURE += #armor_golden TEMPERATURE
 scoreboard players set #Total TEMPERATURE 0
 scoreboard players operation #Total TEMPERATURE += #armor TEMPERATURE
 ##normal
-scoreboard players remove #Total TEMPERATURE 6
+scoreboard players remove #Total TEMPERATURE 5
 ##In water
 execute if predicate att2_pre:player/in_water run scoreboard players remove #Total TEMPERATURE 4
 ##sprint
