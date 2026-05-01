@@ -6,8 +6,6 @@
 #merge rotation
 execute on passengers run data modify entity @s Rotation set from entity @n[distance=..0,type=slime,tag=MIMIC] Rotation
 
-##test if have passenger
-execute unless score @s MIMIC matches 1.. run tp @s[type=slime] ~ -100 ~
 
 #effect
 execute if score @s MIMIC matches 1..19 run particle dust{color:[0.0,0.667,0.0],scale:0.4} ~ ~ ~ 0.5 0.5 0.5 0 20
@@ -17,8 +15,8 @@ execute if score @s MIMIC matches 60..79 run particle dust{color:[1.0,0.667,0.0]
 execute if score @s MIMIC matches 80.. run particle dust{color:[0.333,1.0,0.333],scale:0.4} ~ ~ ~ 0.5 0.5 0.5 0 20
 
 
-##clear
-execute if entity @a[distance=..80] run return fail
+##test if have passenger
+execute unless score @s MIMIC matches 1.. run function att2:gameplay/enveffect/mimic/clear
 
-execute on passengers run kill @s
-kill @s
+##clear
+execute if entity @a[distance=..80] run return run function att2:gameplay/enveffect/mimic/clear
