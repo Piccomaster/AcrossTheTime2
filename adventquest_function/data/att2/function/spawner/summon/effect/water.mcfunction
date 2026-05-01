@@ -4,11 +4,11 @@
 ##################################################
 
 ##sound
-execute if score @s SPAWNER_TIMER matches 20 run playsound block.bubble_column.bubble_pop ambient @a ~ ~ ~ 2 1
-execute if score @s SPAWNER_TIMER matches 15 run playsound block.bubble_column.bubble_pop ambient @a ~ ~ ~ 2 1
-execute if score @s SPAWNER_TIMER matches 10 run playsound block.bubble_column.upwards_ambient ambient @a ~ ~ ~ 2 1
-execute if score @s SPAWNER_TIMER matches 5 run playsound block.bubble_column.upwards_ambient ambient @a ~ ~ ~ 2 1
-execute if score @s SPAWNER_TIMER matches 1 run playsound block.bubble_column.upwards_inside ambient @a ~ ~ ~ 2 1
+execute if score @s SPAWNER_TIMER matches 20 run playsound block.bubble_column.bubble_pop ambient @a ~ ~ ~ 1.2 1
+execute if score @s SPAWNER_TIMER matches 15 run playsound block.bubble_column.bubble_pop ambient @a ~ ~ ~ 1.2 1
+execute if score @s SPAWNER_TIMER matches 10 run playsound block.bubble_column.upwards_ambient ambient @a ~ ~ ~ 1.2 1
+execute if score @s SPAWNER_TIMER matches 5 run playsound block.bubble_column.upwards_ambient ambient @a ~ ~ ~ 1.2 1
+execute if score @s SPAWNER_TIMER matches 1 run playsound block.bubble_column.upwards_inside ambient @a ~ ~ ~ 1.2 1
 
 ##particles
 execute if score @s SPAWNER_TIMER matches 16..20 run particle minecraft:rain ~ ~2 ~ 0.5 0.5 0.5 0 20 normal
