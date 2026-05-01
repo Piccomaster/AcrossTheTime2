@@ -3,6 +3,11 @@
 #load function use "/reload" to trigger                         #
 #################################################################
 
+##gamerule
+gamerule max_command_forks 777777777
+gamerule max_command_sequence_length 777777777
+
+
 scoreboard objectives add LEAVEGAME minecraft.custom:minecraft.leave_game
 ##text
 tellraw @a {translate:att2.datapack.reload,color:"dark_green"}
