@@ -15,6 +15,9 @@ execute unless score tic TIMECOUNTER matches 1 run return fail
 scoreboard players set #Environment TEMPERATURE 0
 function att2:gameplay/enveffect/temperature/temperature_detection
 function att2:gameplay/enveffect/temperature/cal_temperature
+##sum
+scoreboard players operation #Total TEMPERATURE += #Environment TEMPERATURE
+scoreboard players operation @s TEMPERATURE += #Total TEMPERATURE
 #tellraw @s ["Total",{score:{name:"#Total",objective:"TEMPERATURE"},color:"red"},"Environment",{score:{name:"#Environment",objective:"TEMPERATURE"},color:"red"},"Armor Temperature",{score:{name:"#armor",objective:"TEMPERATURE"},color:"red"}]
 ##add tag
 execute as @s[scores={TEMPERATURE=400..},tag=!Hot] run function att2:gameplay/enveffect/temperature/hot_tag
