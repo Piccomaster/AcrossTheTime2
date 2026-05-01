@@ -14,7 +14,7 @@
         "announce_to_chat": true,
         "frame": "task"
     },
-    "parent": "att2:treasure/pickable_item/total_10",
+    "parent": "att2:treasure/pickable_item/total_1",
     "rewards": {
         "function": "att2:advancement/exploit_2",
         "experience": 200
