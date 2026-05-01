@@ -3,14 +3,6 @@
 #Process calculation of temperature     		    #
 #####################################################
 
-execute unless score Mainquest SIDEQUEST matches 1.. run return fail
-
-##effect 
-execute as @s[scores={TEMPERATURE=-100..100}] run function att2:gameplay/enveffect/temperature/effect/normal
-execute as @s[scores={TEMPERATURE=100..},tag=Hot] run function att2:gameplay/enveffect/temperature/effect/hot
-execute as @s[scores={TEMPERATURE=..-100},tag=Cool] run function att2:gameplay/enveffect/temperature/effect/cool
-##
-execute unless score tic TIMECOUNTER matches 1 run return fail
 ##detection TEMPERATURE
 scoreboard players set #Environment TEMPERATURE 0
 function att2:gameplay/enveffect/temperature/temperature_detection
@@ -84,8 +76,3 @@ execute if score tic DAYTIME matches 20000..22000 run scoreboard players remove 
 
 ##sum
 scoreboard players operation #Total TEMPERATURE += #Environment TEMPERATURE
-scoreboard players operation @s TEMPERATURE += #Total TEMPERATURE
-#tellraw @s ["Total",{score:{name:"#Total",objective:"TEMPERATURE"},color:"red"},"Environment",{score:{name:"#Environment",objective:"TEMPERATURE"},color:"red"},"Armor Temperature",{score:{name:"#armor",objective:"TEMPERATURE"},color:"red"}]
-##add tag
-execute as @s[scores={TEMPERATURE=250..},tag=!Hot] run function att2:gameplay/enveffect/temperature/hot_tag
-execute as @s[scores={TEMPERATURE=..-250},tag=!Cool] run function att2:gameplay/enveffect/temperature/cool_tag
