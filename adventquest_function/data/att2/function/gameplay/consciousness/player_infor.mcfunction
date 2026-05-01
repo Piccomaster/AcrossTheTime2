@@ -57,6 +57,7 @@ execute if score @s SPELL46_DAR matches 1.. store result storage att2:dialog pla
 #temperature
 
 ##get data
+function att2:gameplay/enveffect/temperature/cal_temperature
 execute store result storage att2:dialog total_temperature int 1 run scoreboard players get #Total TEMPERATURE
 execute store result storage att2:dialog armor_temperature int 1 run scoreboard players get #armor TEMPERATURE
 execute store result storage att2:dialog environment_temperature int 1 run scoreboard players get #Environment TEMPERATURE

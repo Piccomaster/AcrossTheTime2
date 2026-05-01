@@ -41,7 +41,7 @@ scoreboard players operation #armor TEMPERATURE += #armor_golden TEMPERATURE
 scoreboard players set #Total TEMPERATURE 0
 scoreboard players operation #Total TEMPERATURE += #armor TEMPERATURE
 ##normal
-scoreboard players remove #Total TEMPERATURE 5
+scoreboard players remove #Total TEMPERATURE 4
 ##In water
 execute if predicate att2_pre:player/in_water run scoreboard players remove #Total TEMPERATURE 4
 ##sprint
@@ -56,8 +56,9 @@ execute if score @s SPELL45_TIMER matches 1.. run scoreboard players add #Total 
 
 
 ##weather
-execute if predicate {condition:"weather_check",raining:true} if predicate {condition:"location_check",predicate:{can_see_sky:true}} run scoreboard players remove #Total TEMPERATURE 3
-execute if predicate {condition:"weather_check",thundering:true} if predicate {condition:"location_check",predicate:{can_see_sky:true}} run scoreboard players remove #Total TEMPERATURE 5
+execute if predicate {condition:"weather_check",raining:true} run scoreboard players remove #Total TEMPERATURE 1
+execute if predicate {condition:"weather_check",raining:true} unless predicate {condition:"weather_check",thundering:true} if predicate {condition:"location_check",predicate:{can_see_sky:true}} run scoreboard players remove #Total TEMPERATURE 1
+execute if predicate {condition:"weather_check",thundering:true} if predicate {condition:"location_check",predicate:{can_see_sky:true}} run scoreboard players remove #Total TEMPERATURE 3
 ##day time
 execute store result score tic DAYTIME run time query daytime
 # In the desert, temperature is inverted at night
