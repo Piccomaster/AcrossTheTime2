@@ -17,7 +17,7 @@
         "announce_to_chat": true,
         "frame": "goal"
     },
-    "parent": "att2:treasure/pickable_item/esc_10",
+    "parent": "att2:treasure/pickable_item/esc_5",
     "rewards": {
         "function": "att2:advancement/exploit_5",
         "experience": 500
