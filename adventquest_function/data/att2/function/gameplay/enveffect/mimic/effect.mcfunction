@@ -19,4 +19,4 @@ execute if score @s MIMIC matches 80.. run particle dust{color:[0.333,1.0,0.333]
 execute unless score @s MIMIC matches 1.. run function att2:gameplay/enveffect/mimic/clear
 
 ##clear
-execute if entity @a[distance=..80] run return run function att2:gameplay/enveffect/mimic/clear
+execute unless entity @p[distance=..80] run return run function att2:gameplay/enveffect/mimic/clear

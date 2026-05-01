@@ -3,7 +3,7 @@
 #replace dahal launcher							#
 #################################################################
 
-scoreboard players set #Spell_Existence CAL -1
+scoreboard players set #Spell_Existence CAL -100
 
 execute in overworld run function att2:gameplay/dahal/action/replace/cooldown/get_bundle_data
 
