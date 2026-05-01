@@ -3,6 +3,9 @@
 #player enter game                                              #
 #################################################################
 
+##saddle
+execute unless items entity @s saddle diamond run item replace entity @s saddle with diamond[equippable={slot:saddle,equip_sound:intentionally_empty}]
+
 ##limit
 execute if score @s LEAVEGAME matches 0 run return fail
 ##reset score

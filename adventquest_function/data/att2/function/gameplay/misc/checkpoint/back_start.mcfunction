@@ -7,7 +7,7 @@
 scoreboard players remove @s CHRONOTON 100
 #set timer
 scoreboard players set @s CHECKPOINT 70
-
+tag @s add spectator
 ##record now pos
 
 ##get now pos
