@@ -7,16 +7,16 @@
 ##4 : 1 ra -> tracking_arrow_1 x 3
 
 #cal arrows
-scoreboard players operation #obtain_arrow_count CAL = arrow RUNECOUNT
-scoreboard players operation #return_arrow_count CAL = arrow RUNECOUNT
+scoreboard players operation #obtain_arrow_count CAL = #arrow RUNECOUNT
+scoreboard players operation #return_arrow_count CAL = #arrow RUNECOUNT
 
 scoreboard players operation #obtain_arrow_count CAL /= 4 CAL
 
 #cal ra
-scoreboard players operation #return_ra_count CAL = ra RUNECOUNT
+scoreboard players operation #return_ra_count CAL = #ra RUNECOUNT
 
 #cal max
-scoreboard players operation #obtain_arrow_count CAL < ra RUNECOUNT
+scoreboard players operation #obtain_arrow_count CAL < #ra RUNECOUNT
 scoreboard players operation #return_ra_count CAL -= #obtain_arrow_count CAL
 
 
@@ -24,7 +24,7 @@ scoreboard players operation #return_ra_count CAL -= #obtain_arrow_count CAL
 ##return arrow
 scoreboard players operation #return_arrow_count CAL = #obtain_arrow_count CAL
 scoreboard players operation #return_arrow_count CAL *= 4 CAL
-scoreboard players operation #return_arrow_count CAL -= arrow RUNECOUNT
+scoreboard players operation #return_arrow_count CAL -= #arrow RUNECOUNT
 scoreboard players operation #return_arrow_count CAL *= -1 CAL
 execute store result storage att2:score count int 1 run scoreboard players get #return_arrow_count CAL
 execute if score #return_arrow_count CAL matches 1.. run loot spawn -5029 91 -4958 loot {"pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"minecraft:arrow","functions":[{"function":"minecraft:set_components","components":{"minecraft:custom_data":{"EquipmentType":"arrow","Rarity":"misc"},"max_stack_size":99,"minecraft:tooltip_style":"minecraft:rarity/misc/misc"}},{function:set_count,count:{type:"storage",storage:"att2:score",path:"count"}}]}]}]}
