@@ -4,7 +4,7 @@
 #################################################################
 
 ##clear
-#kill @e[tag=ENCHANTMENT]
+kill @e[tag=ENCHANTMENT]
 #summon set put armorstand
 #0428dc94-000a-09dc-04a1-935c00000001
 execute in overworld positioned -5032.5 102 -4927.5 run summon armor_stand -5032.5 102 -4927.5 {Tags:["ENCHANTMENT","GET"],Marker:1,Pos:[-5032.5,102,-4927.5],UUID:[I;69786772,657884,77697884,1]}
