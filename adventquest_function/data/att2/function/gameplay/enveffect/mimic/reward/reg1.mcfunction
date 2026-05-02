@@ -26,15 +26,18 @@ scoreboard players operation reward MIMIC *= 4 CAL
 scoreboard players operation reward MIMIC += @s MIMIC
 
 #tellraw @a ["MIMIC",{score:{name:"@s",objective:"MIMIC"}}]
+#tellraw @a ["reward",{score:{name:"reward",objective:"MIMIC"}}]
+#tellraw @a ["C",{score:{name:"#C",objective:"CAL"}}]
+#tellraw @a ["T",{score:{name:"#T",objective:"CAL"}}]
+
 ##set score
 scoreboard players operation #C CAL = reward MIMIC
 scoreboard players operation #C CAL /= 10 CAL
 scoreboard players operation #C CAL < 10 CAL
-#tellraw @a ["C",{score:{name:"#C",objective:"CAL"}}]
 scoreboard players operation #T CAL = reward MIMIC
 scoreboard players operation #T CAL /= 10 CAL
+scoreboard players add #T CAL 1
 scoreboard players operation #T CAL < 10 CAL
-#tellraw @a ["T",{score:{name:"#T",objective:"CAL"}}]
 
 scoreboard players set #Q CAL 0
 
@@ -45,8 +48,10 @@ execute if score reward MIMIC matches ..25 run loot spawn ~ ~1 ~ loot att2:chest
 execute if score reward MIMIC matches ..25 run loot spawn ~ ~1 ~ loot att2:chest/reg1
 execute if score reward MIMIC matches ..25 run loot spawn ~ ~1 ~ loot att2:chest/reg1
 execute if score reward MIMIC matches ..25 run loot spawn ~ ~1 ~ loot att2:chest/reg1
+execute if score reward MIMIC matches ..25 run loot spawn ~ ~1 ~ loot att2:chest/reg1
 
 
+execute if score reward MIMIC matches 26..50 run loot spawn ~ ~1 ~ loot att2:chest/reg1
 execute if score reward MIMIC matches 26..50 run loot spawn ~ ~1 ~ loot att2:chest/reg1
 execute if score reward MIMIC matches 26..50 run loot spawn ~ ~1 ~ loot att2:chest/reg1
 execute if score reward MIMIC matches 26..50 run loot spawn ~ ~1 ~ loot att2:chest/reg1
@@ -59,10 +64,16 @@ execute if score reward MIMIC matches 51..75 run loot spawn ~ ~1 ~ loot att2:che
 execute if score reward MIMIC matches 51..75 run loot spawn ~ ~1 ~ loot att2:chest/reg1
 
 
-execute if score reward MIMIC matches 76.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
-execute if score reward MIMIC matches 76.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
-execute if score reward MIMIC matches 76.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
-execute if score reward MIMIC matches 76.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
+execute if score reward MIMIC matches 76..100 run loot spawn ~ ~1 ~ loot att2:chest/reg1
+execute if score reward MIMIC matches 76..100 run loot spawn ~ ~1 ~ loot att2:chest/reg1
+execute if score reward MIMIC matches 76..100 run loot spawn ~ ~1 ~ loot att2:chest/reg1
+execute if score reward MIMIC matches 76..100 run loot spawn ~ ~1 ~ loot att2:chest/reg1
+
+execute if score reward MIMIC matches 101.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
+execute if score reward MIMIC matches 101.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
+execute if score reward MIMIC matches 101.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
+execute if score reward MIMIC matches 101.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
+execute if score reward MIMIC matches 101.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
 
 execute as @e[type=minecraft:item,distance=..30,predicate=!att2_pre:test_item/health] run data merge entity @s {Health:32767s}
 
