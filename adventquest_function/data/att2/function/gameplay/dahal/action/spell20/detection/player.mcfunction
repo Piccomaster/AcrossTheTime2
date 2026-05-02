@@ -8,7 +8,6 @@ execute unless score Mainquest SIDEQUEST matches 1.. run return 0
 
 ##Get Player Score
 function att2:gameplay/dahal/action/spell20/score/player
-function att2:gameplay/score/player
 ##Check whether there is a Book of Awakening in the backpack. If not, give one.
 execute store result score #Count CAL run clear @s book[custom_name={translate:att2.book.consciousness.name}] 0
 execute if score #Count CAL matches 2.. run clear @s book[custom_name={translate:att2.book.consciousness.name}] 1

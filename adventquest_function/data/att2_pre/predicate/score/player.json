@@ -3,11 +3,21 @@
   "entity": "this",
   "scores": {
     "NUMEROJOUEUR": {
-      "type": "score",
-      "score": "CAL",
-      "target": {
-        "type": "fixed",
-        "name": "#player"
+      "min": {
+        "type": "score",
+        "score": "CAL",
+        "target": {
+          "type": "fixed",
+          "name": "#player"
+        }
+      },
+      "max": {
+        "type": "score",
+        "score": "CAL",
+        "target": {
+          "type": "fixed",
+          "name": "#player"
+        }
       }
     }
   }

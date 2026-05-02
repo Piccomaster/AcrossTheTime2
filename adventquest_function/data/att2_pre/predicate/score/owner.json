@@ -3,11 +3,21 @@
   "entity": "this",
   "scores": {
     "OWNER": {
-      "type": "score",
-      "score": "CAL",
-      "target": {
-        "type": "fixed",
-        "name": "#owner"
+      "min": {
+        "type": "score",
+        "score": "CAL",
+        "target": {
+          "type": "fixed",
+          "name": "#owner"
+        }
+      },
+      "max": {
+        "type": "score",
+        "score": "CAL",
+        "target": {
+          "type": "fixed",
+          "name": "#owner"
+        }
       }
     }
   }
