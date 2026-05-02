@@ -5,13 +5,13 @@
 
 ##set price
 #rune powder
-scoreboard players operation #temp_value_10 CAL = #14_for PRICES
+scoreboard players operation #temp_value_10 CAL = 14_for PRICES
 #esc count
-scoreboard players operation #temp_value_11 CAL = #14_for_esc PRICES
+scoreboard players operation #temp_value_11 CAL = 14_for_esc PRICES
 #return0
 scoreboard players set #temp_value_13 CAL 0
 #get @s esc
-execute store result score temp_value_12 CAL run clear @s quartz[custom_data={EquipmentType:'misc',Rarity:'unk',Coin:'esc'}] 0
+execute store result score #temp_value_12 CAL run clear @s quartz[custom_data={EquipmentType:'misc',Rarity:'unk',Coin:'esc'}] 0
 execute if score #stock RUNE_POWDER >= #temp_value_10 CAL if score #temp_value_12 CAL >= #temp_value_11 CAL run scoreboard players set #temp_value_13 CAL 1
 #fail
 execute if score #temp_value_13 CAL matches 0 unless score #stock RUNE_POWDER >= #temp_value_10 CAL run function att2:dialogs/gameplay/shop/not_enough_runepowder
