@@ -28,7 +28,7 @@ execute in minecraft:overworld as @a[x=786,y=79,z=886,dx=0,dy=4,dz=0] at @s run 
 execute in minecraft:overworld as @a[x=784,y=79,z=886,dx=0,dy=4,dz=0] at @s run function att2:cinematic/intro/launch/language_ar
 
 # Players number selection choice + tp to the lobby (game starting..)
-execute if score update INTRO matches 1.. in minecraft:overworld as @a[x=787,y=80,z=907,dx=3,dy=3,dz=3] at @s unless score @s NUMEROJOUEUR matches 1.. run function att2:cinematic/intro/launch/player_select
+#execute if score update INTRO matches 1.. in minecraft:overworld as @a[x=787,y=80,z=907,dx=3,dy=3,dz=3] at @s unless score @s NUMEROJOUEUR matches 1.. run function att2:cinematic/intro/launch/player_select
 
 # Effect resistance invulnerable for all players in Intro
 execute if score update INTRO matches 0..3 as @a[x=806,y=77,z=883,dx=27,dy=16,dz=70] at @s run function att2:cinematic/intro/effect_security
