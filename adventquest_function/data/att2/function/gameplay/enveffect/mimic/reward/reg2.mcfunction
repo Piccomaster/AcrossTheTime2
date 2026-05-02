@@ -40,20 +40,23 @@ function att2:gameplay/misc/chesteffect/other_dropchance
 
 execute if score reward MIMIC matches ..25 run loot spawn ~ ~1 ~ loot att2:chest/reg2
 execute if score reward MIMIC matches ..25 run loot spawn ~ ~1 ~ loot att2:chest/reg2
+execute if score reward MIMIC matches ..25 run loot spawn ~ ~1 ~ loot att2:chest/reg2
+execute if score reward MIMIC matches ..25 run loot spawn ~ ~1 ~ loot att2:chest/reg2
+execute if score reward MIMIC matches ..25 run loot spawn ~ ~1 ~ loot att2:chest/reg2
 
 
-execute if score reward MIMIC matches ..50 run loot spawn ~ ~1 ~ loot att2:chest/reg2
-execute if score reward MIMIC matches ..50 run loot spawn ~ ~1 ~ loot att2:chest/reg2
-execute if score reward MIMIC matches ..50 run loot spawn ~ ~1 ~ loot att2:chest/reg2
+execute if score reward MIMIC matches 26..50 run loot spawn ~ ~1 ~ loot att2:chest/reg2
+execute if score reward MIMIC matches 26..50 run loot spawn ~ ~1 ~ loot att2:chest/reg2
+execute if score reward MIMIC matches 26..50 run loot spawn ~ ~1 ~ loot att2:chest/reg2
+execute if score reward MIMIC matches 26..50 run loot spawn ~ ~1 ~ loot att2:chest/reg2
 
 
-execute if score reward MIMIC matches ..75 run loot spawn ~ ~1 ~ loot att2:chest/reg2
-execute if score reward MIMIC matches ..75 run loot spawn ~ ~1 ~ loot att2:chest/reg2
-execute if score reward MIMIC matches ..75 run loot spawn ~ ~1 ~ loot att2:chest/reg2
-execute if score reward MIMIC matches ..75 run loot spawn ~ ~1 ~ loot att2:chest/reg2
+execute if score reward MIMIC matches 51..75 run loot spawn ~ ~1 ~ loot att2:chest/reg2
+execute if score reward MIMIC matches 51..75 run loot spawn ~ ~1 ~ loot att2:chest/reg2
+execute if score reward MIMIC matches 51..75 run loot spawn ~ ~1 ~ loot att2:chest/reg2
+execute if score reward MIMIC matches 51..75 run loot spawn ~ ~1 ~ loot att2:chest/reg2
 
 
-execute if score reward MIMIC matches 76.. run loot spawn ~ ~1 ~ loot att2:chest/reg2
 execute if score reward MIMIC matches 76.. run loot spawn ~ ~1 ~ loot att2:chest/reg2
 execute if score reward MIMIC matches 76.. run loot spawn ~ ~1 ~ loot att2:chest/reg2
 execute if score reward MIMIC matches 76.. run loot spawn ~ ~1 ~ loot att2:chest/reg2
