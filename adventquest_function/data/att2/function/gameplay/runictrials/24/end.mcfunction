@@ -43,5 +43,10 @@ function att2:gameplay/runictrials/24/end_door_opened
 # dark resin spawned
 execute positioned -5812 55 -4994 run function att2:gameplay/runictrials/dark_resin_spawned
 
+##more reward
+execute positioned -5812 55 -4994 run function att2:summon/bat_chest_loot_experience_bottle {C:10,T:10,Reg:Reg1,Time:40}
+execute positioned -5812 55 -4994 run function att2:summon/bat_chest_loot_experience_bottle {C:10,T:10,Reg:Reg1,Time:40}
+execute positioned -5812 55 -4994 run function att2:summon/bat_chest_loot_experience_bottle {C:10,T:10,Reg:Reg1,Time:40}
+
 # checkpoint
 execute in minecraft:overworld positioned -5812 58 -4896 as @a[distance=..40] run spawnpoint @s -4165 71 -5515
