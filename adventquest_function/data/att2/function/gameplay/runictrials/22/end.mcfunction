@@ -20,8 +20,8 @@ execute positioned -5467 19 -5194 run function att2:summon/reg_1/withertrialmini
 execute positioned -5467 19 -5202 run function att2:summon/reg_1/withertrialminion_classx {class:CLASS14}
 
 # effet
-execute as @a[x=-5472,y=23,z=-5198,distance=..77,gamemode=adventure] at @s run function att2:gameplay/runictrials/effect_end
-execute as @e[x=-5472,y=23,z=-5198,distance=..77,tag=NewInvo] run function att2:gameplay/invocation/action/summon
+execute positioned -5472 23 -5198 as @a[distance=..15,gamemode=adventure] at @s run function att2:gameplay/runictrials/effect_end
+execute positioned -5472 23 -5198 as @e[distance=..77,tag=NewInvo] run function att2:gameplay/invocation/action/summon
 
 # door
 function att2:gameplay/runictrials/22/end_door_opened
@@ -30,4 +30,4 @@ function att2:gameplay/runictrials/22/end_door_opened
 execute positioned -5405 21 -5198 run function att2:gameplay/runictrials/dark_resin_spawned
 
 # checkpoint
-execute in minecraft:overworld run spawnpoint @a -5475 22 -5198
+execute in minecraft:overworld positioned -5475 22 -5198 as @a[distance=..40] run spawnpoint @s -4165 71 -5515
