@@ -4,8 +4,8 @@
 #####################################################################
 
 #AngbandRoad
-execute in the_nether positioned 3531 43 4056 if entity @a[distance=10..70] run return run function att2:gameplay/enveffect/mobs_invasion/angband/summoning/magma_class12
-execute in the_nether positioned 3523 48 3929 if entity @a[distance=10..70] run return run function att2:gameplay/enveffect/mobs_invasion/angband/summoning/spider_class12
+execute in the_nether positioned 3531 43 4056 if entity @a[distance=10..50] run return run function att2:gameplay/enveffect/mobs_invasion/angband/summoning/magma_class12
+execute in the_nether positioned 3523 48 3929 if entity @a[distance=10..50] run return run function att2:gameplay/enveffect/mobs_invasion/angband/summoning/spider_class12
 execute in the_nether positioned 3568 35 3673 if entity @a[distance=10..50] run return run function att2:gameplay/enveffect/mobs_invasion/angband/summoning/mortal_mortalarcher_class12
 execute in the_nether positioned 3764 36 3685 if entity @a[distance=10..50] run return run function att2:gameplay/enveffect/mobs_invasion/angband/summoning/mortal_class12_lvl0_lvl6
 execute in the_nether positioned 3421 34 3851 if entity @a[distance=10..30] run return run function att2:gameplay/enveffect/mobs_invasion/angband/summoning/mortal_class12_lvl0_lvl6
