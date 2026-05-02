@@ -23,6 +23,9 @@ scoreboard players set @s LUC_DISPLAY 1
 scoreboard players set @s HER_DISPLAY 1
 scoreboard players set @s CRT_DISPLAY 1
 scoreboard players set @s STAT_DISPLAY 1
+
+##limit
+execute unless score dahal_update INTRO matches 1 run return fail
 #bossbar
 execute store result storage att2:numerojoueur numerojoueur int 1 run scoreboard players get @s NUMEROJOUEUR
 execute if score @s NUMEROJOUEUR matches 1.. run function att2:gameplay/stat/display/bossbar_initialize with storage att2:numerojoueur

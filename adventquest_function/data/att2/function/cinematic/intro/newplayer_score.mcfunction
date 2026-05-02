@@ -1,8 +1,7 @@
 #####################################################
 #Made by Adventquest                             	#
-#Process the tp to hall of difficulty selection 	#
+#Process the tp to Ryliath 							#
 #####################################################
 
-tp @a 802 80 908
-#return 1->make command block runing
-return 1
+scoreboard players add playernumber INTRO 1
+scoreboard players operation @s NUMEROJOUEUR = playernumber INTRO

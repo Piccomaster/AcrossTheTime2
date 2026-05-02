@@ -1,0 +1,10 @@
+{
+    "rewards": {
+        "function": "att2:cinematic/intro/initialize/player_first_joining"
+    },
+    "criteria": {
+        "player_first_joining": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
