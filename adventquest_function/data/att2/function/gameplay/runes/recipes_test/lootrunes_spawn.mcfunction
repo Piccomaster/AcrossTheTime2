@@ -4,7 +4,7 @@
 #########################################################################
 
 ##random pos
-execute store result score rng_pos CAL run random value 1..5
+execute store result score #rng_pos CAL run random value 1..5
 
 execute if score #Total_rune_loot CAL matches 1.. if score #rng_pos CAL matches 1 run loot spawn -5028 91 -4958 loot att2:entities/boss/runes_abc_recipe_rewards
 execute if score #Total_rune_loot CAL matches 1.. if score #rng_pos CAL matches 2 run loot spawn -5028 91 -4959 loot att2:entities/boss/runes_abc_recipe_rewards

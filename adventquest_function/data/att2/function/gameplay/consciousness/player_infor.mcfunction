@@ -55,7 +55,15 @@ execute if score @s SPELL46_DAR matches 1.. run data modify storage att2:dialog 
 execute if score @s SPELL46_DAR matches 1.. store result storage att2:dialog player_infor[-3].tooltip[-1].with[0] int 1 run scoreboard players get @s SPELL46_DAR
 
 #temperature
-execute store result storage att2:dialog temperature int 1 run scoreboard players get @s TEMPERATURE
+
+##get data
+function att2:gameplay/enveffect/temperature/cal_temperature
+execute store result storage att2:dialog total_temperature int 1 run scoreboard players get #Total TEMPERATURE
+execute store result storage att2:dialog armor_temperature int 1 run scoreboard players get #armor TEMPERATURE
+execute store result storage att2:dialog environment_temperature int 1 run scoreboard players get #Environment TEMPERATURE
+execute store result storage att2:dialog now_temperature int 1 run scoreboard players get @s TEMPERATURE
+
 function att2:gameplay/consciousness/insert/temperature with storage att2:dialog
+
 ##show_dialog
 function att2:gameplay/consciousness/player_infor_show with storage att2:dialog

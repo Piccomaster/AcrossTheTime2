@@ -20,8 +20,8 @@ execute positioned -4848 42 -4662 run function att2:summon/reg_1/witherarchertri
 execute positioned -4855 42 -4651 run function att2:summon/reg_1/witherarchertrialminion_classx {class:CLASS7}
 
 # effet
-execute as @a[x=-4855,y=60,z=-4662,distance=..60,gamemode=adventure] at @s run function att2:gameplay/runictrials/effect_end
-execute as @e[x=-4855,y=60,z=-4662,distance=..60,tag=NewInvo] run function att2:gameplay/invocation/action/summon
+execute positioned -4855 60 -4662 as @a[distance=..15,gamemode=adventure] at @s run function att2:gameplay/runictrials/effect_end
+execute positioned -4855 60 -4662 as @e[distance=..60,tag=NewInvo] run function att2:gameplay/invocation/action/summon
 
 # door
 function att2:gameplay/runictrials/18/end_door_opened
@@ -29,5 +29,10 @@ function att2:gameplay/runictrials/18/end_door_opened
 # dark resin spawned
 execute positioned -4875 42 -4662 run function att2:gameplay/runictrials/dark_resin_spawned
 
+##more reward
+execute positioned -4875 42 -4662 run function att2:summon/bat_chest_loot_experience_bottle {C:6,T:6,Reg:Reg1,Time:40}
+execute positioned -4875 42 -4662 run function att2:summon/bat_chest_loot_experience_bottle {C:6,T:6,Reg:Reg1,Time:40}
+execute positioned -4875 42 -4662 run function att2:summon/bat_chest_loot_experience_bottle {C:6,T:6,Reg:Reg1,Time:40}
+
 # checkpoint
-execute in minecraft:overworld run spawnpoint @a -4837 43 -4662
+execute in minecraft:overworld positioned -4837 43 -4662 as @a[distance=..40] run spawnpoint @s -4165 71 -5515

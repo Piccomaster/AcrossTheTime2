@@ -4,11 +4,11 @@
 ##################################################
 
 ##sound
-execute if score @s SPAWNER_TIMER matches 20 run playsound minecraft:block.copper.step ambient @a ~ ~ ~ 2 1
-execute if score @s SPAWNER_TIMER matches 15 run playsound minecraft:block.copper.step ambient @a ~ ~ ~ 2 1
-execute if score @s SPAWNER_TIMER matches 10 run playsound minecraft:block.copper.hit ambient @a ~ ~ ~ 2 1
-execute if score @s SPAWNER_TIMER matches 5 run playsound minecraft:block.copper.hit ambient @a ~ ~ ~ 2 1
-execute if score @s SPAWNER_TIMER matches 1 run playsound block.amethyst_block.break block @a ~ ~ ~ 2 1
+execute if score @s SPAWNER_TIMER matches 20 run playsound minecraft:block.copper.step ambient @a ~ ~ ~ 1.2 1
+execute if score @s SPAWNER_TIMER matches 15 run playsound minecraft:block.copper.step ambient @a ~ ~ ~ 1.2 1
+execute if score @s SPAWNER_TIMER matches 10 run playsound minecraft:block.copper.hit ambient @a ~ ~ ~ 1.2 1
+execute if score @s SPAWNER_TIMER matches 5 run playsound minecraft:block.copper.hit ambient @a ~ ~ ~ 1.2 1
+execute if score @s SPAWNER_TIMER matches 1 run playsound block.amethyst_block.break block @a ~ ~ ~ 1.2 1
 
 ##particles
 execute if score @s SPAWNER_TIMER matches 16..20 run particle block{block_state:"minecraft:end_stone"} ~ ~1 ~ 0.5 0.5 0.5 0 20 normal

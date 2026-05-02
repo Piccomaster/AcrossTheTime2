@@ -3,7 +3,8 @@
 #Use function to activate the checkpoint effect	#
 #################################################
 
-
+##add spectator tag
+tag @s add spectator
 ##spectator
 gamemode spectator @s
 
@@ -26,3 +27,6 @@ item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_ench
 
 ##effect
 function att2:gameplay/misc/checkpoint/particle/end
+
+##remove spectator tag
+tag @s remove spectator

@@ -20,3 +20,6 @@ function att2:dialogs/gameplay/checkpoint/distance_limit
 execute at @s run function att2:gameplay/misc/checkpoint/particle/fail
 
 gamemode adventure @s
+
+##remove spectator tag
+tag @s remove spectator

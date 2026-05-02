@@ -7,16 +7,16 @@
 ##3 : 1 inu -> poisoned_arrow_1 x 2
 
 #cal arrows
-scoreboard players operation #obtain_arrow_count CAL = poisoned_arrow_1 RUNECOUNT
-scoreboard players operation #return_arrow_count CAL = poisoned_arrow_1 RUNECOUNT
+scoreboard players operation #obtain_arrow_count CAL = #poisoned_arrow_1 RUNECOUNT
+scoreboard players operation #return_arrow_count CAL = #poisoned_arrow_1 RUNECOUNT
 
 scoreboard players operation #obtain_arrow_count CAL /= 3 CAL
 
 #cal inu
-scoreboard players operation #return_inu_count CAL = inu RUNECOUNT
+scoreboard players operation #return_inu_count CAL = #inu RUNECOUNT
 
 #cal max
-scoreboard players operation #obtain_arrow_count CAL < inu RUNECOUNT
+scoreboard players operation #obtain_arrow_count CAL < #inu RUNECOUNT
 scoreboard players operation #return_inu_count CAL -= #obtain_arrow_count CAL
 
 
@@ -24,7 +24,7 @@ scoreboard players operation #return_inu_count CAL -= #obtain_arrow_count CAL
 ##return arrow
 scoreboard players operation #return_arrow_count CAL = #obtain_arrow_count CAL
 scoreboard players operation #return_arrow_count CAL *= 3 CAL
-scoreboard players operation #return_arrow_count CAL -= poisoned_arrow_1 RUNECOUNT
+scoreboard players operation #return_arrow_count CAL -= #poisoned_arrow_1 RUNECOUNT
 scoreboard players operation #return_arrow_count CAL *= -1 CAL
 execute store result storage att2:score count int 1 run scoreboard players get #return_arrow_count CAL
 execute if score #return_arrow_count CAL matches 1.. run loot spawn -5029 91 -4958 loot {"pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"minecraft:arrow","functions":[{"function":"minecraft:set_components","components":{"custom_name":[{"translate":"att2.item.special_arrow.poisoned_arrow_1.name"}],"lore":[{"translate":"att2.item.special_arrow.poisoned_arrow_1.lore.1"},{"translate":"att2.item.special_arrow.poisoned_arrow_1.lore.2"}],"custom_data":{"EquipmentType":"arrow","Rarity":"unc","poisoned_arrow":1,"special_arrow":true},"enchantment_glint_override":false,"max_stack_size":99,"item_model":"arrows/poisoned_arrow","tooltip_style":"minecraft:rarity/unc/unc"}},{function:set_count,count:{type:"storage",storage:"att2:score",path:"count"}}]}]}]}

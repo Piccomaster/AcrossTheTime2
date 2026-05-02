@@ -11,3 +11,11 @@ execute if score remove_progress ENCHANTMENT matches 1.. as @e[type=item_display
 
 #
 function att2:gameplay/enchantment/effect/eyes/trigger
+
+##RESET entity
+execute if score FIXED_ENTITY ENCHANTMENT matches 1.. run return fail
+
+scoreboard players set FIXED_ENTITY ENCHANTMENT 1
+
+##reset
+function att2:gameplay/enchantment/summon_base

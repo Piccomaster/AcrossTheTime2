@@ -49,7 +49,7 @@ scoreboard objectives add TIMER_HUN_LE dummy
 scoreboard objectives add POTION_CHECK_HUN dummy
 
 scoreboard objectives add HUN_UPGRADE_REQ dummy
-scoreboard players set @s HUN_UPGRADE_REQ 1
+scoreboard players set @s HUN_UPGRADE_REQ 2
 
 
 scoreboard players set #bonus_1 HUN_DATA 2500

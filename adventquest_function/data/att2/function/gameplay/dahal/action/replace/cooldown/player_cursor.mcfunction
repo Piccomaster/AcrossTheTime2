@@ -5,5 +5,5 @@
 
 item modify entity @s player.cursor att2:dahal/update_launch_data
 
-scoreboard players set #Spell_Existence CAL -1
+scoreboard players set #Spell_Existence CAL -100
 #say 更新指针

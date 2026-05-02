@@ -12,9 +12,9 @@ execute positioned -4049 73 -5895 run function att2:summon/reg_1/withertrialmini
 execute positioned -4052 73 -5892 run function att2:summon/reg_1/withertrialminion_classx {class:CLASS8}
 
 # effet
-execute as @a[x=-4049,y=81,z=-5892,distance=..15,gamemode=adventure] at @s run function att2:gameplay/runictrials/effect_start
-execute as @e[x=-4049,y=81,z=-5892,distance=..15,tag=NewInvo] run function att2:gameplay/invocation/action/summon
+execute positioned -4049 81 -5892 as @a[distance=..15,gamemode=adventure] at @s run function att2:gameplay/runictrials/effect_start
+execute positioned -4049 81 -5892 as @e[distance=..15,tag=NewInvo] run function att2:gameplay/invocation/action/summon
 summon minecraft:lightning_bolt -4049 82 -5886
 
 # checkpoint
-execute in minecraft:overworld run spawnpoint @a -4049 77 -5883
+execute in minecraft:overworld positioned -4049 77 -5883 as @a[distance=..40] run spawnpoint @s -4165 71 -5515

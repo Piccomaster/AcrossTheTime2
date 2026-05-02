@@ -14,7 +14,7 @@ function att2:gameplay/enveffect/lava/enemy_damage
 ##angry
 execute if score tic TIMECOUNTER matches 1 as @s[type=#minecraft:angry,team=!ally] unless data entity @s angry_at run data modify entity @s angry_at set from entity @p UUID
 ##
-execute as @s[type=#minecraft:spiders] as @p[distance=..1.5] run function att2:gameplay/enveffect/spider/add_score
+execute as @s[type=#minecraft:spiders] at @s if entity @p[distance=..3] run function att2:gameplay/enveffect/spider/go
 ##test health reduce
 execute unless score tic TIMECOUNTER matches 1 unless score tic TIMECOUNTER matches 11 run return fail
 function att2:gameplay/enemy_health/normal_trigger
