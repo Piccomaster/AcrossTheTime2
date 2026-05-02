@@ -3,4 +3,4 @@
 #Summon wolf class_x region_1  		       	 	 #
 ##################################################
 
-$summon minecraft:wolf ~ ~ ~ {variant:woods,Tags:["LVL0","$(class)","Reg1"],anger_end_time:2147483647,equipment:{head:{id:"minecraft:diamond_helmet",components:{enchantments:{"att2_enchantment:tick/mob_initialize":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}}}
+$summon minecraft:wolf ~ ~ ~ {variant:woods,Tags:["LVL0","$(class)","Reg1"],anger_end_time:2147483647,attributes:[{id:follow_range,base:10}],equipment:{head:{id:"minecraft:diamond_helmet",components:{enchantments:{"att2_enchantment:tick/mob_initialize":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}}}
