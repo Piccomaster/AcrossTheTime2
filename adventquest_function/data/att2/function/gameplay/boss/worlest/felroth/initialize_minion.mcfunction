@@ -4,4 +4,4 @@
 #####################################################################
 
 tag @s remove FelrothMinion
-scoreboard players set @s LIFE_EXPECTANCY 80
+scoreboard players set @s LIFE_EXPECTANCY 60
