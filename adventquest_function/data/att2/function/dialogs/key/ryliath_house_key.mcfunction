@@ -5,8 +5,6 @@
 
 function att2:sound/dialogs/simple
 
-
-Minecraft多语言tellraw指令（Meleim海景房钥匙版）
 #FRENCH LANGUAGE
 tellraw @a[scores={LANGUAGE=0}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"J'ai besoin d'une ",color:"aqua",extra:[{text:"<Petite Clef>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" pour ouvrir cette porte!",color:"aqua"}]}]}]}
 
