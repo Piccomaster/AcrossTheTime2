@@ -48,4 +48,4 @@ scoreboard players set meleim_dailyquest_2_completed DAILYQUEST 1
 ##add babbu_counter SQ39 + 500
 scoreboard players add babbu_counter SQ39 500
 scoreboard players set #TEST CAL 0
-execute if score babbu_counter SQ39 matches 2500.. run function att2:cinematic/sidequest/39/babbu/answer_3_1
+execute unless score SQ39 SIDEQUEST matches 1.. if score babbu_counter SQ39 matches 2500.. run function att2:cinematic/sidequest/39/babbu/answer_3_1
