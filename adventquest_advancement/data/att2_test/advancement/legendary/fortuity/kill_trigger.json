@@ -6,6 +6,18 @@
     "minecraft:bat": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            },
+            {
+              "id": "minecraft:bypasses_cooldown",
+              "expected": false
+            }
+          ]
+        },
         "entity": [
           {
             "condition": "minecraft:inverted",
