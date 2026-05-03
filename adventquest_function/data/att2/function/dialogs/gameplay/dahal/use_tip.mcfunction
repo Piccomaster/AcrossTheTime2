@@ -5,11 +5,11 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {text:"Pour utiliser un sortilège de Dahäl, prenez un <Livre de sortilège> dans votre main et choisissez le niveau disponible en cliquant à l'intérieur. Après avoir sélectionné le niveau de sort, vous passez en mode focalisation en obtenant un <Lanceur de Dahäl>, vous n'avez plus qu'à faire un clic droit avec pour lancer vos sorts. Vous pouvez à nouveau avoir le livre du sortilège afin de sélectionné un autre niveau en appuyant sur “Q” ou “A” pour lâcher votre <Lanceur de Dahäl> correspondant. ",color:"green"}
+tellraw @s[scores={LANGUAGE=0}] {text:"Pour utiliser un sortilège de Dahäl, prenez un <Livre de sortilège> dans votre main et choisissez le niveau disponible en cliquant à l'intérieur. Après avoir sélectionné le niveau de sort, vous passez en mode focalisation en obtenant le sort à lancer, vous n'avez plus qu'à faire un clic droit avec pour lancer votre sorts. Pour retrouver le livre du sortilège afin de sélectionner un autre niveau, gardez dans la main votre sort à lancer et appuyez sur la touche 'jeter' (A ou Q).",color:"green"}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {text:"To use a Dahäl spell, hold a <Spellbook> in your hand and choose the available level by clicking inside it. After selecting the spell level, you enter focus mode by obtaining a <Dahäl Caster>. All you need to do is right-click with it to cast your spells. You can get the <Spellbook> back to select a different level by pressing “Q” or “A” to drop your current <Dahäl Caster>.",color:"green"}
+tellraw @s[scores={LANGUAGE=1}] {text:"To use a Dahäl spell, take a <Spell Book> in your hand and select an available level by clicking inside it. After selecting the spell level, you enter focus mode and receive the spell to cast; simply right-click to cast your spell. To retrieve the spell book and select another level, keep the spell in your hand and press the “drop” key (A or Q).",color:"green"}
 
 #CHINESE LANGUAGE
 

@@ -24,10 +24,10 @@ execute if score Real0 TIMER matches 10..201 unless entity @e[type=minecraft:zom
 #Cinematic part 2	#
 #===================#
 
-execute if score Real0 TIMER matches 205 run function att2:dialogs/mainquest/act_1/ch0_player_13
-execute if score Real0 TIMER matches 300 run function att2:dialogs/mainquest/act_1/ch0_police_1
-execute if score Real0 TIMER matches 300 run function att2:voice/police/police1
-execute if score Real0 TIMER matches 320 run function att2:cinematic/hillvaley/battle_1_action_2
+execute if score Real0 TIMER matches 205 run function att2:cinematic/hillvaley/battle_1_action_2
+execute if score Real0 TIMER matches 210 run function att2:dialogs/mainquest/act_1/ch0_police_1
+execute if score Real0 TIMER matches 210 run function att2:voice/police/police1
+execute if score Real0 TIMER matches 300 run function att2:dialogs/mainquest/act_1/ch0_player_13
 execute if score Real0 TIMER matches 460 run function att2:dialogs/mainquest/act_1/ch0_player_14
 execute if score Real0 TIMER matches 600 run function att2:cinematic/hillvaley/battle_1_action_3
 execute if score Real0 TIMER matches 601 run function att2:cinematic/tp_effect/serile
