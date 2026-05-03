@@ -27,6 +27,10 @@
     },
     {
       "condition": "minecraft:reference",
+      "name": "att2_pre:test_hold/equipment/mainhand/meleeweapon"
+    },
+    {
+      "condition": "minecraft:reference",
       "name": "att2_pre:test_hold/equipment/offhand/rangeweapon"
     }
   ]
