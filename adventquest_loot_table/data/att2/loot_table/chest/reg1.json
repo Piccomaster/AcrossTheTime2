@@ -1714,7 +1714,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/misc/potato",
+          "value": "att2:item_data/food/potato",
           "conditions": [
             {
               "condition": "random_chance",
@@ -1733,7 +1733,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/misc/carrot",
+          "value": "att2:item_data/food/carrot",
           "conditions": [
             {
               "condition": "random_chance",
@@ -1752,7 +1752,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/misc/apple",
+          "value": "att2:item_data/food/apple",
           "conditions": [
             {
               "condition": "random_chance",
