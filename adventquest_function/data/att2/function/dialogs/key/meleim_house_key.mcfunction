@@ -7,58 +7,37 @@ function att2:sound/dialogs/simple
 
 
 #FRENCH LANGUAGE
-
-tellraw @a[scores={LANGUAGE=0}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"J'ai besoin d'une ",color:"aqua",extra:[{text:"<Petite Clef>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" pour ouvrir cette porte!",color:"aqua"}]}]}]}
-
+tellraw @a[scores={LANGUAGE=0}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"J'ai besoin d'une ",color:"aqua",extra:[{text:"<Clé de la maison avec vue sur la mer de Meleim>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" pour ouvrir cette porte!",color:"aqua"}]}]}]}
 
 #ENGLISH LANGUAGE
+tellraw @a[scores={LANGUAGE=1}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"I need a ",color:"aqua",extra:[{text:"<Meleim Seaview House Key>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" to open this door!",color:"aqua"}]}]}]}
 
-tellraw @a[scores={LANGUAGE=1}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"I need a ",color:"aqua",extra:[{text:"<Little Key>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" to open this door!",color:"aqua"}]}]}]}
-
-
-#CHINESE LANGUAGE
-
-tellraw @a[scores={LANGUAGE=2}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"我需要一個 ",color:"aqua",extra:[{text:"<Little Key>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" 要打開這扇門！ ",color:"aqua"}]}]}]}
-
+#CHINESE LANGUAGE（繁体中文）
+tellraw @a[scores={LANGUAGE=2}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"我需要一把",color:"aqua",extra:[{text:"<Meleim海景房鑰匙>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:"才能打開這扇門！",color:"aqua"}]}]}]}
 
 #JAPANESE LANGUAGE
-
-tellraw @a[scores={LANGUAGE=3}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"私は ",color:"aqua",extra:[{text:"<Little Key>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" が必要です！",color:"aqua"}]}]}]}
-
+tellraw @a[scores={LANGUAGE=3}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"この扉を開けるには",color:"aqua",extra:[{text:"<メレイムシービューハウスキー>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:"が必要です！",color:"aqua"}]}]}]}
 
 #KOREAN LANGUAGE
-
-tellraw @a[scores={LANGUAGE=4}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"나는 ",color:"aqua",extra:[{text:"<Little Key>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" 이 필요합니다!",color:"aqua"}]}]}]}
-
+tellraw @a[scores={LANGUAGE=4}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"이 문을 열려면",color:"aqua",extra:[{text:"<멜레임 바다 전망 집 열쇠>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:"가 필요합니다!",color:"aqua"}]}]}]}
 
 #ARABIC LANGUAGE
-
-tellraw @a[scores={LANGUAGE=5}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"أحتاج إلى ",color:"aqua",extra:[{text:"<Little Key>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" لفتح هذا الباب!",color:"aqua"}]}]}]}
-
+tellraw @a[scores={LANGUAGE=5}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"أحتاج إلى ",color:"aqua",extra:[{text:"<مفتاح منزل بمنظر للبحر ميلايم>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" لفتح هذا الباب!",color:"aqua"}]}]}]}
 
 #RUSSIAN LANGUAGE
-
-tellraw @a[scores={LANGUAGE=6}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Мне нужен ",color:"aqua",extra:[{text:"<Little Key>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" чтобы открыть эту дверь!",color:"aqua"}]}]}]}
-
+tellraw @a[scores={LANGUAGE=6}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Чтобы открыть эту дверь, нужен ",color:"aqua",extra:[{text:"<Ключ к морскому дому Мелеим>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:"",color:"aqua"}]}]}]}
 
 #SPANISH LANGUAGE
-
-tellraw @a[scores={LANGUAGE=7}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Necesito una ",color:"aqua",extra:[{text:"<Little Key>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" para abrir esta puerta!",color:"aqua"}]}]}]}
-
+tellraw @a[scores={LANGUAGE=7}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Necesito una ",color:"aqua",extra:[{text:"<Llave de la casa con vista al mar de Meleim>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" para abrir esta puerta!",color:"aqua"}]}]}]}
 
 #GERMAN LANGUAGE
-
-tellraw @a[scores={LANGUAGE=8}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Ich brauche einen ",color:"aqua",extra:[{text:"<Little Key>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" um diese Tür zu öffnen!",color:"aqua"}]}]}]}
-
+tellraw @a[scores={LANGUAGE=8}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Ich brauche einen ",color:"aqua",extra:[{text:"<Meleim Seeview-Hausschlüssel>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" um diese Tür zu öffnen!",color:"aqua"}]}]}]}
 
 #HINDI LANGUAGE
-
-tellraw @a[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"मुझे ",color:"aqua",extra:[{text:"<Little Key>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" चाहिए इस दरवाजे को खोलने के लिए!",color:"aqua"}]}]}]}
-
+tellraw @a[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"इस दरवाजे को खोलने के लिए ",color:"aqua",extra:[{text:"<मेलेइम समुद्र दृश्य घर की चाबी>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" चाहिए!",color:"aqua"}]}]}]}
 
 #PORTUGUESE LANGUAGE
-
-tellraw @a[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Preciso de uma ",color:"aqua",extra:[{text:"<Little Key>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" para abrir esta porta!",color:"aqua"}]}]}]}
+tellraw @a[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Preciso de uma ",color:"aqua",extra:[{text:"<Chave da Casa com Vista para o Mar de Meleim>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" para abrir esta porta!",color:"aqua"}]}]}]}
 
 #Simplified Chinese LANGUAGE
 tellraw @a[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"我需要一把",color:"aqua",extra:[{text:"<Meleim海景房钥匙>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.meleim_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:"才能打开这扇门！",color:"aqua"}]}]}]}

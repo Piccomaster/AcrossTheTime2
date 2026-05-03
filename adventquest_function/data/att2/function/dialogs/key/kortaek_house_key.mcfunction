@@ -7,58 +7,37 @@ function att2:sound/dialogs/simple
 
 
 #FRENCH LANGUAGE
-
-tellraw @a[scores={LANGUAGE=0}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"J'ai besoin d'une ",color:"aqua",extra:[{text:"<Petite Clef>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.kortaek_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" pour ouvrir cette porte!",color:"aqua"}]}]}]}
-
+tellraw @a[scores={LANGUAGE=0}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"J'ai besoin d'une ",color:"aqua",extra:[{text:"<Clé de la demeure de Kortaek>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.kortaek_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" pour ouvrir cette porte!",color:"aqua"}]}]}]}
 
 #ENGLISH LANGUAGE
-
-tellraw @a[scores={LANGUAGE=1}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"I need a ",color:"aqua",extra:[{text:"<Little Key>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.kortaek_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" to open this door!",color:"aqua"}]}]}]}
-
+tellraw @a[scores={LANGUAGE=1}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"I need a ",color:"aqua",extra:[{text:"<Kortaek Manor Key>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.kortaek_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" to open this door!",color:"aqua"}]}]}]}
 
 #CHINESE LANGUAGE
-
-tellraw @a[scores={LANGUAGE=2}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"我需要一個 ",color:"aqua",extra:[{text:"<Little Key>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.kortaek_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" 要打開這扇門！ ",color:"aqua"}]}]}]}
-
+tellraw @a[scores={LANGUAGE=2}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"我需要一把",color:"aqua",extra:[{text:"<Kortaek宅邸鑰匙>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.kortaek_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:"才能打開這扇門！",color:"aqua"}]}]}]}
 
 #JAPANESE LANGUAGE
-
-tellraw @a[scores={LANGUAGE=3}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"私は ",color:"aqua",extra:[{text:"<Little Key>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.kortaek_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" が必要です！",color:"aqua"}]}]}]}
-
+tellraw @a[scores={LANGUAGE=3}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"私は",color:"aqua",extra:[{text:"<コルタエク邸の鍵>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.kortaek_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" が必要でこの扉を開けられます！",color:"aqua"}]}]}]}
 
 #KOREAN LANGUAGE
-
-tellraw @a[scores={LANGUAGE=4}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"나는 ",color:"aqua",extra:[{text:"<Little Key>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.kortaek_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" 이 필요합니다!",color:"aqua"}]}]}]}
-
+tellraw @a[scores={LANGUAGE=4}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"나는",color:"aqua",extra:[{text:"<코르타크 저택 열쇠>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.kortaek_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" 가 있어야 이 문을 열 수 있습니다!",color:"aqua"}]}]}]}
 
 #ARABIC LANGUAGE
-
-tellraw @a[scores={LANGUAGE=5}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"أحتاج إلى ",color:"aqua",extra:[{text:"<Little Key>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.kortaek_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" لفتح هذا الباب!",color:"aqua"}]}]}]}
-
+tellraw @a[scores={LANGUAGE=5}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"أحتاج إلى ",color:"aqua",extra:[{text:"<مفتاح قصر كورتايك>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.kortaek_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" لفتح هذا الباب!",color:"aqua"}]}]}]}
 
 #RUSSIAN LANGUAGE
-
-tellraw @a[scores={LANGUAGE=6}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Мне нужен ",color:"aqua",extra:[{text:"<Little Key>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.kortaek_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" чтобы открыть эту дверь!",color:"aqua"}]}]}]}
-
+tellraw @a[scores={LANGUAGE=6}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Мне нужен ",color:"aqua",extra:[{text:"<Ключ поместья Кортаек>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.kortaek_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" чтобы открыть эту дверь!",color:"aqua"}]}]}]}
 
 #SPANISH LANGUAGE
-
-tellraw @a[scores={LANGUAGE=7}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Necesito una ",color:"aqua",extra:[{text:"<Little Key>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.kortaek_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" para abrir esta puerta!",color:"aqua"}]}]}]}
-
+tellraw @a[scores={LANGUAGE=7}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Necesito una ",color:"aqua",extra:[{text:"<Llave de la mansión Kortaek>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.kortaek_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" para abrir esta puerta!",color:"aqua"}]}]}]}
 
 #GERMAN LANGUAGE
-
-tellraw @a[scores={LANGUAGE=8}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Ich brauche einen ",color:"aqua",extra:[{text:"<Little Key>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.kortaek_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" um diese Tür zu öffnen!",color:"aqua"}]}]}]}
-
+tellraw @a[scores={LANGUAGE=8}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Ich brauche einen ",color:"aqua",extra:[{text:"<Kortaek-Herrenhausschlüssel>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.kortaek_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" um diese Tür zu öffnen!",color:"aqua"}]}]}]}
 
 #HINDI LANGUAGE
-
-tellraw @a[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"मुझे ",color:"aqua",extra:[{text:"<Little Key>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.kortaek_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" चाहिए इस दरवाजे को खोलने के लिए!",color:"aqua"}]}]}]}
-
+tellraw @a[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"मुझे ",color:"aqua",extra:[{text:"<कोर्टेक हवेली की चाबी>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.kortaek_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" चाहिए इस दरवाजे को खोलने के लिए!",color:"aqua"}]}]}]}
 
 #PORTUGUESE LANGUAGE
-
-tellraw @a[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Preciso de uma ",color:"aqua",extra:[{text:"<Little Key>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.kortaek_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" para abrir esta porta!",color:"aqua"}]}]}]}
+tellraw @a[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Preciso de uma ",color:"aqua",extra:[{text:"<Chave da Mansão Kortaek>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.kortaek_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:" para abrir esta porta!",color:"aqua"}]}]}]}
 
 #Simplified Chinese LANGUAGE
 tellraw @a[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"我需要一把",color:"aqua",extra:[{text:"<Kortaek宅邸钥匙>",color:"gray",hover_event:{action:"show_item","id":"minecraft:brick","count":1,"components":{custom_data:{EquipmentType:'misc',Rarity:'que'},custom_name:{translate:'item.quest.kortaek_house_key.name'},lore:[{translate:'item.quest.lore'}]}},extra:[{text:"才能打开这扇门！",color:"aqua"}]}]}]}
