@@ -1,1 +1,1 @@
-execute in overworld if entity @s[x=-4962,y=97,z=-5803,distance=..10] run function att2:gameplay/shop/gambling/matching_game/click/meleeweapon/5
+execute in overworld if entity @s[x=-4962,y=97,z=-5803,distance=..15] run function att2:gameplay/shop/gambling/matching_game/click/meleeweapon/5
