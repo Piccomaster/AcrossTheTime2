@@ -244,6 +244,15 @@ execute in overworld positioned -5128.50 73.00 -5130.50 run kill @e[distance=..1
 execute in overworld run summon minecraft:zombified_piglin -5128.50 73.00 -5130.50 {Rotation:[0.0f,0.0f],data:{rotation:[0.0f,0.0f]},UUID:[I;0,794,0,794],Tags:["PNJ","QUEST"],NoAI:1b,Invulnerable:1b,CustomName:[{"translate":"att2.npc.name.rob_harth"}],CustomNameVisible:1b,Silent:1b,PersistenceRequired:1b,attributes:[{id:attack_damage,base:0.0},{id:max_health,base:1000.0}],Health:1000,AbsorptionAmount:1000000000,DeathLootTable:"att2:empty",drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{feet:{id:"minecraft:leather_boots",count:1,components:{dyed_color:3876119}},legs:{id:"minecraft:leather_leggings",count:1,components:{dyed_color:3876119}},chest:{id:"minecraft:leather_chestplate",count:1,components:{dyed_color:3876119}},head:{id:"minecraft:player_head",count:1,components:{enchantments:{"att2_enchantment:tick/misc/pnj_talk":1},enchantment_glint_override:false,profile:{id:[I;-259946089,1710640723,-2089760912,-262894641],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNmYjZiNjYzMzdhZmEwNjdkMGVhNjU2MmIwYWExYmUyMjMyNzY3NTE5N2QxZjgzNmUxZWMwMzY1NTUwM2M4YiJ9fX0="}]}}}}}
 
 
+########################Owsastr
+
+##LILITH
+execute in overworld positioned -4624.50 70.00 -4595.50 run kill @e[distance=..1,type=#minecraft:pnj]
+execute in overworld positioned -4624.50 70.00 -4595.50 run kill @e[distance=..1,type=wolf]
+execute in overworld positioned -4624.50 70.00 -4595.50 run kill @e[distance=..1,type=interaction]
+execute in overworld positioned -4624.50 70.00 -4595.50 run kill @e[distance=..1,type=villager]
+execute in overworld run summon minecraft:zombified_piglin -4624.50 70.00 -4595.50 {Rotation:[170.0f,0.0f],data:{rotation:[170.0f,0.0f]},UUID:[I;0,1834,0,1834],Tags:["PNJ","QUEST"],NoAI:1b,Invulnerable:1b,CustomName:[{"translate":"att2.npc.name.lilith"}],CustomNameVisible:1b,Silent:1b,PersistenceRequired:1b,attributes:[{id:attack_damage,base:0.0},{id:max_health,base:1000.0}],Health:1000,AbsorptionAmount:1000000000,DeathLootTable:"att2:empty",drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{feet:{id:"minecraft:leather_boots",count:1,components:{dyed_color:6568506}},legs:{id:"minecraft:leather_leggings",count:1,components:{dyed_color:6568506}},chest:{id:"minecraft:leather_chestplate",count:1,components:{dyed_color:6568506}},head:{id:"minecraft:player_head",count:1,components:{enchantments:{"att2_enchantment:tick/misc/pnj_talk":1},enchantment_glint_override:false,profile:{id:[I;-1314203756,-1979955876,-1194664196,1919934266],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODA2NzhkYTFmYjI2NGVlZTY1YjlkZWQ0NGU4Nzc0MGRhMmUxMzVlNGUyYjk1NjdmOTI0OGMwZGExNjczMCJ9fX0="}]}}}}}
+
 
 ########################Meleim
 
