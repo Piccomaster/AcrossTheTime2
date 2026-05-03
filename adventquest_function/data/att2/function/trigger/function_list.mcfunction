@@ -752,7 +752,7 @@ execute if score @s ScoreTrigger matches 748 run function att2:gameplay/shop/sel
 execute if score @s ScoreTrigger matches 749 run function att2:gameplay/shop/seller/jade_rozaell_shop_opening
 execute if score @s ScoreTrigger matches 750 run function att2:gameplay/shop/seller/jano_grant_shop_opening
 execute if score @s ScoreTrigger matches 751 run function att2:gameplay/shop/seller/kehmira_alzedria_shop_opening
-execute if score @s ScoreTrigger matches 752 run function att2:gameplay/update_book
+execute if score @s ScoreTrigger matches 752 run function att2:gameplay/book
 execute if score @s ScoreTrigger matches 753 run function att2:gameplay/shop/seller/lisa_payin_shop_opening
 execute if score @s ScoreTrigger matches 754 run function att2:gameplay/shop/seller/marc_aboth_shop_opening
 execute if score @s ScoreTrigger matches 755 run function att2:gameplay/shop/seller/maria_shop_opening
