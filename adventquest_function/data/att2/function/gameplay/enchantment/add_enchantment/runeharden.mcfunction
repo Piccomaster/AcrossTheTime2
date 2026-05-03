@@ -15,5 +15,5 @@ function att2:dialogs/gameplay/enchantment/materials_reduce
 function att2:advancement/test_all/enchantments/runeharden
 #add enchantment
 data remove entity 0428dc94-000a-09dc-04a1-935c00000001 equipment.mainhand.components."minecraft:enchantments"."att2_enchantment:runeharden"
-data remove entity 0428dc94-000a-09dc-04a1-935c00000001 equipment.mainhand.components."minecraft:enchantments"."minecraft:unbreaking"
+#data remove entity 0428dc94-000a-09dc-04a1-935c00000001 equipment.mainhand.components."minecraft:enchantments"."minecraft:unbreaking"
 $enchant 0428dc94-000a-09dc-04a1-935c00000001 att2_enchantment:runeharden $(runeharden)

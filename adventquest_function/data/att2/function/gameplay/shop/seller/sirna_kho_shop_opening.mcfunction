@@ -5,7 +5,7 @@
 
 function att2:sound/shop/opening
 
-function att2:dialogs/gameplay/shop/showcase/weapon_list
+function att2:dialogs/gameplay/shop/items_selled_list/weapon_list
 function att2:dialogs/gameplay/shop/showcase/weapon/epi_esc/wooden_pickaxe_164
 function att2:dialogs/gameplay/shop/showcase/weapon/epi_esc/wooden_axe_165
 function att2:dialogs/gameplay/shop/showcase/weapon/epi_esc/iron_sword_166
