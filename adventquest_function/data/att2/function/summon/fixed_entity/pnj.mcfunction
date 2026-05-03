@@ -899,11 +899,11 @@ execute in overworld run summon minecraft:zombified_piglin 7153.50 99.00 7291.50
 ##########################################Earndhel
 
 ##ETOTSIRA TODO
-execute in overworld positioned 30009.50 77.00 29943.50 run kill @e[distance=..1,type=#minecraft:pnj]
-execute in overworld positioned 30009.50 77.00 29943.50 run kill @e[distance=..1,type=wolf]
-execute in overworld positioned 30009.50 77.00 29943.50 run kill @e[distance=..1,type=interaction]
-execute in overworld positioned 30009.50 77.00 29943.50 run kill @e[distance=..1,type=villager]
-execute in overworld run summon minecraft:husk 30009.50 77.00 29943.50 {Rotation:[-30.0f,0.0f],data:{rotation:[-30.0f,0.0f]},NoAI:1b,Invulnerable:1b,CustomName:[{"translate":"att2.npc.name.etotsira"}],CustomNameVisible:1b,Silent:1b,PersistenceRequired:1b,attributes:[{id:attack_damage,base:0.0},{id:max_health,base:1000.0}],Health:1000,AbsorptionAmount:1000000000,DeathLootTable:"att2:empty",drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{feet:{id:"minecraft:diamond_boots",count:1},legs:{id:"minecraft:diamond_leggings",count:1},chest:{id:"minecraft:diamond_chestplate",count:1},head:{id:"minecraft:shears",count:1,components:{enchantments:{"att2_enchantment:tick/misc/pnj_talk":1},enchantment_glint_override:false,custom_model_data:{floats:[10010003]},unbreakable:{}}}},UUID:[I;0,139,0,138],Tags:["PNJ"]}
+execute in overworld positioned 29999.50 73.00 29967.50 run kill @e[distance=..1,type=#minecraft:pnj]
+execute in overworld positioned 29999.50 73.00 29967.50 run kill @e[distance=..1,type=wolf]
+execute in overworld positioned 29999.50 73.00 29967.50 run kill @e[distance=..1,type=interaction]
+execute in overworld positioned 29999.50 73.00 29967.50 run kill @e[distance=..1,type=villager]
+execute in overworld run summon minecraft:husk 29999.50 73.00 29967.50 {Rotation:[-30.0f,0.0f],data:{rotation:[-30.0f,0.0f]},NoAI:1b,Invulnerable:1b,CustomName:[{"translate":"att2.npc.name.etotsira"}],CustomNameVisible:1b,Silent:1b,PersistenceRequired:1b,attributes:[{id:attack_damage,base:0.0},{id:max_health,base:1000.0}],Health:1000,AbsorptionAmount:1000000000,DeathLootTable:"att2:empty",drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{feet:{id:"minecraft:diamond_boots",count:1},legs:{id:"minecraft:diamond_leggings",count:1},chest:{id:"minecraft:diamond_chestplate",count:1},head:{id:"minecraft:shears",count:1,components:{enchantments:{"att2_enchantment:tick/misc/pnj_talk":1},enchantment_glint_override:false,custom_model_data:{floats:[10010003]},unbreakable:{}}}},UUID:[I;0,139,0,138],Tags:["PNJ"]}
 
 ##GERARD
 execute in overworld positioned 29998.50 91.00 30029.50 run kill @e[distance=..1,type=#minecraft:pnj]
