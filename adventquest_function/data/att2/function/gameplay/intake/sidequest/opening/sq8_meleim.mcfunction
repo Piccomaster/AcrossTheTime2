@@ -3,7 +3,7 @@
 #Manage intake raw meat in Méleïm 				 #
 ##################################################
 
-clear @s minecraft:beef[custom_name={translate:'item.quest.raw_meat.name'}] 1
+clear @s diamond[custom_name={translate:'item.quest.raw_meat.name'}] 1
 scoreboard players add intake_meat SQ8 1
 execute positioned -3804 71 -5884 run function att2:gameplay/intake/effect
 
