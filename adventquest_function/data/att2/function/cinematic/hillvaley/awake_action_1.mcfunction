@@ -12,6 +12,9 @@ function att2:dialogs/title/a1_ch0_subtitle1
 time set 24000
 execute as @a[x=1970,y=117,z=2059,scores={NUMEROJOUEUR=1..},sort=nearest,limit=1] run function att2:items/quest/freddys_trousers
 
+effect give @a minecraft:saturation 120 1 true
+effect give @a minecraft:regeneration 120 1 true
+
 summon minecraft:shulker 1970 117 2059 {Tags:["Objective"],NoAI:1b,Silent:1b,Glowing:1b,PersistenceRequired:1,Invulnerable:1b,active_effects:[{id:invisibility,amplifier:1,duration:-1,show_particles:false}],DeathLootTable:"att2:empty"}
 team join objective_main @e[type=minecraft:shulker,tag=Objective]
 #return 1->make command block runing
