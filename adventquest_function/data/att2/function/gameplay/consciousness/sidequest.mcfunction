@@ -265,7 +265,7 @@ execute if score SQ10 SIDEQUEST matches 100 run data modify storage att2:dialog 
 
 #SQ9 - Patrick manque de bois (PNJ : Patrick Corth) 
 execute if score SQ9 SIDEQUEST matches -1 run data modify storage att2:dialog sidequest append value {label:[{translate:consciousness.sidequest.number,with:["9"],color:dark_red},{translate:consciousness.sidequest.9,color:dark_red}],tooltip:{translate:consciousness.sidequest.fail,color:dark_red},action:{type:run_command,command:"trigger ScoreTrigger set 2310"}}
-execute if score SQ9 SIDEQUEST matches 1..99 run data modify storage att2:dialog sidequest append value {label:[{translate:consciousness.sidequest.number,with:["9"],color:yellow},{translate:consciousness.sidequest.9,color:yellow}],tooltip:{translate:consciousness.sidequest.progress,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 861"}}
+execute if score SQ9 SIDEQUEST matches 1..99 run data modify storage att2:dialog sidequest append value {label:[{translate:consciousness.sidequest.number,with:["9"],color:yellow},{translate:consciousness.sidequest.9,color:yellow}],tooltip:{translate:consciousness.sidequest.progress,color:yellow},action:{type:run_command,command:"trigger ScoreTrigger set 832"}}
 execute if score SQ9 SIDEQUEST matches 100 run data modify storage att2:dialog sidequest append value {label:[{translate:consciousness.sidequest.number,with:["9"],color:green},{translate:consciousness.sidequest.9,color:green}],tooltip:{translate:consciousness.sidequest.complete,color:green},action:{type:run_command,command:"trigger ScoreTrigger set 2310"}}
 
 #SQ8 - Une livraison qui se fait attendre (PNJ : Sigfrid Barkon) 
