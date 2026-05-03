@@ -5,7 +5,7 @@
 
 function att2:sound/dialogs/simple
 ##limit
-execute unless score SQ_Start SIDEQUEST matches 1.. run return run dialog show @s {type:"minecraft:notice",pause:false,title:[{translate:consciousness.sidequest.title,with:["0","60"],color:"#155DFC"}],body:[{type:plain_message,contents:{translate:consciousness.sidequest.no_one}}],action:{label:{translate:consciousness.back.menu.tip},tooltip:{translate:consciousness.back.menu.tip},action:{type:show_dialog,dialog:"att2:consciousness/menu"}}}
+execute unless score SQ_Start SIDEQUEST matches 1.. run return run dialog show @s {type:"minecraft:notice",pause:false,title:[{translate:consciousness.sidequest.title,with:["0","60"],color:"#155DFC"}],body:[{type:plain_message,contents:{translate:consciousness.sidequest.no_one}}],action:{label:{translate:consciousness.back.menu},tooltip:{translate:consciousness.back.menu.tip},action:{type:show_dialog,dialog:"att2:consciousness/menu"}}}
 ##reset
 data modify storage att2:dialog sidequest set value []
 #SQ60 - L'ultime challenge (PNJ : /)

@@ -85,7 +85,7 @@
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "att2:consciousness/guide/menu"
+                "command": "/trigger ScoreTrigger set 2318"
             }
         },
         {
