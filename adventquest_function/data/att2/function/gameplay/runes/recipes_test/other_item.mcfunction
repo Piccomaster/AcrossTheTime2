@@ -205,7 +205,7 @@ scoreboard players operation #xp_total CAL += #com_bait CAL
 ##store xp count
 execute store result storage att2:rune_recipe xp int 1 run scoreboard players get #xp_total CAL
 ##xp add
-execute if score #total_item RUNECOUNT = #com RUNECOUNT run return run function att2:items/xp/xp_add_maco_recipe with storage att2:rune_recipe
+execute if score #total_item RUNECOUNT = #com_total RUNECOUNT run return run function att2:items/xp/xp_add_maco_recipe with storage att2:rune_recipe
 
 #unc_equipment : xp = 50 x unc_count*unc_count
 #unc_potion : xp = 25 x unc_potion*unc_potion
@@ -230,7 +230,7 @@ scoreboard players operation #xp_total CAL += #unc_bait CAL
 ##store xp count
 execute store result storage att2:rune_recipe xp int 1 run scoreboard players get #xp_total CAL
 ##xp add
-execute if score #total_item RUNECOUNT = #unc RUNECOUNT run return run function att2:items/xp/xp_add_maco_recipe with storage att2:rune_recipe
+execute if score #total_item RUNECOUNT = #unc_total RUNECOUNT run return run function att2:items/xp/xp_add_maco_recipe with storage att2:rune_recipe
 
 #rar_equipment : xp = 100 x rar_count*rar_count
 #rar_potion : xp = 50 x rar_potion*rar_potion
@@ -254,7 +254,7 @@ scoreboard players operation #xp_total CAL += #rar_bait CAL
 ##store xp count
 execute store result storage att2:rune_recipe xp int 1 run scoreboard players get #xp_total CAL
 ##xp add
-execute if score #total_item RUNECOUNT = #rar RUNECOUNT run return run function att2:items/xp/xp_add_maco_recipe with storage att2:rune_recipe
+execute if score #total_item RUNECOUNT = #rar_total RUNECOUNT run return run function att2:items/xp/xp_add_maco_recipe with storage att2:rune_recipe
 
 #epi_equipment : xp = 400 x epi_count*epi_count
 #epi_potion : xp = 200 x epi_potion*epi_potion
@@ -278,7 +278,7 @@ scoreboard players operation #xp_total CAL += #epi_bait CAL
 ##store xp count
 execute store result storage att2:rune_recipe xp int 1 run scoreboard players get #xp_total CAL
 ##xp add
-execute if score #total_item RUNECOUNT = #epi RUNECOUNT run return run function att2:items/xp/xp_add_maco_recipe with storage att2:rune_recipe
+execute if score #total_item RUNECOUNT = #epi_total RUNECOUNT run return run function att2:items/xp/xp_add_maco_recipe with storage att2:rune_recipe
 
 
 #epi_set_equipment : xp = 1000 x epi_set_count*epi_set_count
@@ -291,7 +291,7 @@ scoreboard players operation #xp_total CAL = #epi_set CAL
 ##store xp count
 execute store result storage att2:rune_recipe xp int 1 run scoreboard players get #xp_total CAL
 ##xp add
-execute if score #total_item RUNECOUNT = #epi_set RUNECOUNT run return run function att2:items/xp/xp_add_maco_recipe with storage att2:rune_recipe
+execute if score #total_item RUNECOUNT = #epi_set_total RUNECOUNT run return run function att2:items/xp/xp_add_maco_recipe with storage att2:rune_recipe
 
 #epi_esc_equipment : xp = 600 x epi_esc_count*epi_esc_count
 #epi_esc_potion : xp = 300 x epi_esc_potion*epi_esc_potion
@@ -309,7 +309,7 @@ scoreboard players operation #xp_total CAL += #epi_esc_potion CAL
 ##store xp count
 execute store result storage att2:rune_recipe xp int 1 run scoreboard players get #xp_total CAL
 ##xp add
-execute if score #total_item RUNECOUNT = #epi_esc RUNECOUNT run return run function att2:items/xp/xp_add_maco_recipe with storage att2:rune_recipe
+execute if score #total_item RUNECOUNT = #epi_esc_total RUNECOUNT run return run function att2:items/xp/xp_add_maco_recipe with storage att2:rune_recipe
 
 #leg_equipment : xp = 1600 x leg_count*leg_count
 #leg_potion : xp = 800 x leg_potion*leg_potion
@@ -333,7 +333,7 @@ scoreboard players operation #xp_total CAL += #leg_bait CAL
 ##store xp count
 execute store result storage att2:rune_recipe xp int 1 run scoreboard players get #xp_total CAL
 ##xp add
-execute if score #total_item RUNECOUNT = #leg RUNECOUNT run return run function att2:items/xp/xp_add_maco_recipe with storage att2:rune_recipe
+execute if score #total_item RUNECOUNT = #leg_total RUNECOUNT run return run function att2:items/xp/xp_add_maco_recipe with storage att2:rune_recipe
 #leg_armset_equipment : xp = 10000 x leg_armset_count*leg_armset_count
 scoreboard players operation #leg_armset CAL = #leg_armset RUNECOUNT
 #leg_armset
@@ -344,7 +344,7 @@ scoreboard players operation #xp_total CAL = #leg_armset CAL
 ##store xp count
 execute store result storage att2:rune_recipe xp int 1 run scoreboard players get #xp_total CAL
 ##xp add
-execute if score #total_item RUNECOUNT = #leg_armset RUNECOUNT run return run function att2:items/xp/xp_add_maco_recipe with storage att2:rune_recipe
+execute if score #total_item RUNECOUNT = #leg_armset_total RUNECOUNT run return run function att2:items/xp/xp_add_maco_recipe with storage att2:rune_recipe
 
 #ult_equipment : xp = 20000 x ult_count*ult_count
 #ult_bait : xp = 50 x ult_bait*ult_bait
@@ -363,7 +363,7 @@ scoreboard players operation #xp_total CAL += #ult_bait CAL
 ##store xp count
 execute store result storage att2:rune_recipe xp int 1 run scoreboard players get #xp_total CAL
 ##xp add
-execute if score #total_item RUNECOUNT = #ult RUNECOUNT run return run function att2:items/xp/xp_add_maco_recipe with storage att2:rune_recipe
+execute if score #total_item RUNECOUNT = #ult_total RUNECOUNT run return run function att2:items/xp/xp_add_maco_recipe with storage att2:rune_recipe
 
 #mot->1000000XP
 scoreboard players operation #mot CAL = #mot RUNECOUNT
