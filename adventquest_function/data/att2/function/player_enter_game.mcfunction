@@ -18,3 +18,9 @@ playsound minecraft:entity.player.levelup block @s ~ ~ ~ 150 1.5
 #say 进入游戏
 ##update advancement
 function att2:advancement/enter_game_test
+
+
+
+
+##α update score
+scoreboard objectives add INJURED dummy

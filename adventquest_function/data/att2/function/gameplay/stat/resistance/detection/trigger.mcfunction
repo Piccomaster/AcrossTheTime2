@@ -78,3 +78,6 @@ execute store result score #temp_health_2 CAL run data get entity @s Health
 
 scoreboard players operation #temp_health_1 CAL -= #temp_health_2 CAL
 ##tellraw @a ["减少血量",{score:{name:"#temp_health_1",objective:"CAL"}}]
+
+##health effect trigger
+function att2:gameplay/death/hurt_detection

@@ -8,6 +8,8 @@ scoreboard objectives add DEATHCOUNT minecraft.custom:deaths
 scoreboard objectives add HEALTH health
 scoreboard objectives add DIMENSION dummy
 scoreboard objectives add MAX_HEALTH dummy
+scoreboard objectives add INJURED dummy
+
 scoreboard players set @s DEATH 0
 scoreboard players set @s DEATHCOUNT 0
 scoreboard players set @s DIMENSION 0
