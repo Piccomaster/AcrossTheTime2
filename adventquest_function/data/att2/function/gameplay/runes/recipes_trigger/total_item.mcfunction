@@ -72,6 +72,7 @@ execute store result score #mot RUNECOUNT if items block ~ ~ ~ container.* *[cus
 ##com
 #total_com
 execute store result score #com RUNECOUNT if items block ~ ~ ~ container.* *[custom_data~{Rarity:com}]
+scoreboard players operation #com_total RUNECOUNT = #com RUNECOUNT
 #potion
 execute store result score #com_potion RUNECOUNT if items block ~ ~ ~ container.* #minecraft:potion[custom_data~{Rarity:com}]
 #bait
@@ -82,6 +83,7 @@ execute store result score #com_rod RUNECOUNT if items block ~ ~ ~ container.* m
 ##unc
 #total_unc
 execute store result score #unc RUNECOUNT if items block ~ ~ ~ container.* *[custom_data~{Rarity:unc}]
+scoreboard players operation #unc_total RUNECOUNT = #unc RUNECOUNT
 #potion
 execute store result score #unc_potion RUNECOUNT if items block ~ ~ ~ container.* #minecraft:potion[custom_data~{Rarity:unc}]
 #bait
@@ -94,6 +96,7 @@ execute store result score #unc_rod RUNECOUNT if items block ~ ~ ~ container.* m
 ##rar
 #total_rar
 execute store result score #rar RUNECOUNT if items block ~ ~ ~ container.* *[custom_data~{Rarity:rar}]
+scoreboard players operation #rar_total RUNECOUNT = #rar RUNECOUNT
 #potion
 execute store result score #rar_potion RUNECOUNT if items block ~ ~ ~ container.* #minecraft:potion[custom_data~{Rarity:rar}]
 #bait
@@ -106,6 +109,7 @@ execute store result score #rar_rod RUNECOUNT if items block ~ ~ ~ container.* m
 ##epi
 #total_epi
 execute store result score #epi RUNECOUNT if items block ~ ~ ~ container.* *[custom_data~{Rarity:epi}]
+scoreboard players operation #epi_total RUNECOUNT = #epi RUNECOUNT
 #potion
 execute store result score #epi_potion RUNECOUNT if items block ~ ~ ~ container.* #minecraft:potion[custom_data~{Rarity:epi}]
 #bait
@@ -118,16 +122,19 @@ execute store result score #epi_rod RUNECOUNT if items block ~ ~ ~ container.* m
 ##epi_set
 #total_epi_set
 execute store result score #epi_set RUNECOUNT if items block ~ ~ ~ container.* *[custom_data~{Rarity:epi_set}]
+scoreboard players operation #epi_set_total RUNECOUNT = #epi_set RUNECOUNT
 
 ##epi_esc
 #total_epi_esc
 execute store result score #epi_esc RUNECOUNT if items block ~ ~ ~ container.* *[custom_data~{Rarity:epi_esc}]
+scoreboard players operation #epi_esc_total RUNECOUNT = #epi_esc RUNECOUNT
 #potion
 execute store result score #epi_esc_potion RUNECOUNT if items block ~ ~ ~ container.* #minecraft:potion[custom_data~{Rarity:epi_esc,EquipmentType:potion}]
 
 ##leg
 #total_leg
 execute store result score #leg RUNECOUNT if items block ~ ~ ~ container.* *[custom_data~{Rarity:leg}]
+scoreboard players operation #leg_total RUNECOUNT = #leg RUNECOUNT
 #potion
 execute store result score #leg_potion RUNECOUNT if items block ~ ~ ~ container.* #minecraft:potion[custom_data~{Rarity:leg}]
 #bait
@@ -135,6 +142,7 @@ execute store result score #leg_bait RUNECOUNT if items block ~ ~ ~ container.* 
 ##leg_armset
 #total_leg_armset
 execute store result score #leg_armset RUNECOUNT if items block ~ ~ ~ container.* *[custom_data~{Rarity:leg_armset}]
+scoreboard players operation #leg_armset_total RUNECOUNT = #leg_armset RUNECOUNT
 #arrow
 execute store result score #leg_arrow RUNECOUNT if items block ~ ~ ~ container.* #minecraft:arrows[custom_data~{Rarity:leg}]
 #rod
@@ -143,6 +151,7 @@ execute store result score #leg_rod RUNECOUNT if items block ~ ~ ~ container.* m
 ##ult
 #total_ult
 execute store result score #ult RUNECOUNT if items block ~ ~ ~ container.* *[custom_data~{Rarity:ult}]
+scoreboard players operation #ult_total RUNECOUNT = #ult RUNECOUNT
 #bait
 execute store result score #ult_bait RUNECOUNT if items block ~ ~ ~ container.* minecraft:snowball[custom_data~{Rarity:ult}]
 #rod

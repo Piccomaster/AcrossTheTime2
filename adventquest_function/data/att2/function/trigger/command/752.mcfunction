@@ -1,1 +1,1 @@
-function att2:gameplay/update_book
+function att2:items/consciousness
