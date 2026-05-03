@@ -11,7 +11,7 @@ data modify entity @s data.checkpoint set from storage att2:checkpoint checkpoin
 ##tp dimension
 function att2:gameplay/misc/checkpoint/tp with storage att2:checkpoint checkpoint
 execute as @p[distance=..10,predicate=att2_pre:score/player] run function att2:gameplay/misc/checkpoint/tp with storage att2:checkpoint checkpoint
-execute as @e[type=#att2_entity:sp_follow_pet_all,distance=..50] run function att2:gameplay/misc/checkpoint/tp with storage att2:checkpoint checkpoint
+execute as @e[type=#att2_entity:sp_follow_pet_all,predicate=att2_pre:score/owner,distance=..50] run function att2:gameplay/misc/checkpoint/tp with storage att2:checkpoint checkpoint
 ##reset pos
 execute at @s as @p[distance=..10,predicate=att2_pre:score/player] at @s run tp @s @s
 execute at @s run spectate @s @p[distance=..10,predicate=att2_pre:score/player]

@@ -4,8 +4,8 @@
 #####################################################
 
 #reset all recipe
-recipe give @a *
-recipe take @a *
+recipe give @s *
+recipe take @s *
 scoreboard objectives add SIDEQUEST dummy
 function att2:cinematic/intro/tp_language
 #initialize

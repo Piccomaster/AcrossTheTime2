@@ -32,7 +32,7 @@ scoreboard players operation #cooldown_percent CAL *= 10 CAL
 scoreboard players operation #cooldown_percent CAL /= #cooldown_select CAL
 ##limit
 execute if score @s COOLDOWN3 matches 1.. run scoreboard players add #cooldown_percent CAL 1
-execute if score @s COOLDOWN3 matches 1.. run scoreboard players set #cooldown_percent CAL 0
+execute unless score @s COOLDOWN3 matches 1.. run scoreboard players set #cooldown_percent CAL 0
 ##Test whether the percentage has changed.
 execute if score @s CDPERCENT3 = #cooldown_percent CAL run return fail
 

@@ -9,7 +9,6 @@
 
 ##Get Owner ID
 function att2:gameplay/dahal/action/spell20/score/owner
-
 #Previous page
 execute unless items entity @s container.8 shulker_shell[custom_name={translate:att2.spell20.page_pr.name}] run function att2:gameplay/dahal/action/spell20/page/previous_trigger
 

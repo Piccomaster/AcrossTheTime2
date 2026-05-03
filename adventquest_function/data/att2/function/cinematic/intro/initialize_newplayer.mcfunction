@@ -3,9 +3,6 @@
 #Initialize only scores for the player who launch this function	#
 #################################################################
 
-execute if score Mainquest SIDEQUEST matches 1.. run tp @s -5192 73 -5342
-execute if score Mainquest SIDEQUEST matches 0 run tp @s 1993 113 2062
-
 scoreboard players set @s MUSIC_BOSS 0
 scoreboard players set @s LANGUAGE 1
 scoreboard players set @s PANORAMA 0

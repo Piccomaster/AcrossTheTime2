@@ -56,6 +56,9 @@ execute if entity @s[tag=RuneChestLVL2] as @e[distance=..20,team=hostile,scores=
 
 execute if entity @s[tag=RuneChestLVL3] as @e[distance=..20,team=hostile,scores={GAMELEVEL=0..},tag=Mobs_Invasion] at @s run function att2:gameplay/enveffect/mobs_invasion/chest_trigger/damage_end3
 
+#dailyquest trigger
+execute as @a[distance=..50] run function att2:cinematic/dailyquest/trigger/open_rune_chest
+
 ##clear
 kill @e[distance=..100,type=shulker,tag=invasiontip]
 kill @s[scores={INVASION=..0}]

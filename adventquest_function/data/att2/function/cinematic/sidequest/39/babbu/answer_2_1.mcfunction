@@ -8,7 +8,7 @@ scoreboard players add babbu_answer_2_1 SQ39 1
 scoreboard players remove @s CHRONOTON 50
 scoreboard players set babbu_PNJ DIALOG 2
 scoreboard players add babbu_counter SQ39 50
-execute if score babbu_counter SQ39 matches 2500.. run function att2:cinematic/sidequest/39/step1
+execute unless score SQ39 SIDEQUEST matches 1.. if score babbu_counter SQ39 matches 2500.. run function att2:cinematic/sidequest/39/step1
 
 function att2:gameplay/pnj_talk/dialog_playsound/babbu
 execute as @a[distance=..10] run function att2:dialogs/sidequest/sq39/babbu/player_proposal_1/answer_2

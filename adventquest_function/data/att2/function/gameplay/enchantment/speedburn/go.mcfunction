@@ -8,7 +8,7 @@ execute store result score temp_value_1 CAL run data get entity @s equipment.fee
 scoreboard players add temp_value_1 CAL 1
 #get SPD/HUN number
 scoreboard players operation SPD ATTRIBUTE = temp_value_1 CAL
-execute store result score HUN ATTRIBUTE run scoreboard players operation temp_value_1 CAL *= -3 CAL
+execute store result score HUN ATTRIBUTE run scoreboard players operation temp_value_1 CAL *= -2 CAL
 #return SPD/HUN number
 scoreboard players operation @s SPD_EH += SPD ATTRIBUTE
 scoreboard players operation @s HUN_EH += HUN ATTRIBUTE

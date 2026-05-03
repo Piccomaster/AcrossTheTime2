@@ -1079,3 +1079,8 @@ execute in minecraft:the_nether positioned 3747 63 4732 run setblock 3747 63 473
 execute in minecraft:the_nether positioned 3901 54 3871 run data modify block 3901 54 3871 lock.components set value {"minecraft:custom_name":"item.quest.derim_key.name"}
 
 execute in minecraft:the_nether positioned 3901 52 3871 run setblock 3901 52 3871 minecraft:repeating_command_block[conditional=false,facing=west]{Command:"execute unless data block ~ ~2 ~ Loottable if score SQ14 SIDEQUEST matches 1..99 if score choice SQ14 matches 1..2 run function att2:cinematic/sidequest/14/derim_kril/steal_chest",CustomName:"@",SuccessCount:0,TrackOutput:1b,UpdateLastExecution:1b,auto:0b,components:{},conditionMet:0b,powered:0b} destroy
+
+
+
+##update shulker
+execute in minecraft:overworld positioned -3486 28 -5042 run setblock -3486 28 -5042 minecraft:cyan_shulker_box[facing=up]

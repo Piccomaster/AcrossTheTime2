@@ -4,6 +4,7 @@
 #################################################################
 
 ##Update all items on the current page
+#$say 玩家:$(player)
 $data modify entity @s Items set from storage att2:spell20_$(player) page_$(page_now)
 ##Update three triggers
 $item replace entity @s container.8 with shulker_shell[custom_data={Stock:page_pr,EquipmentType:misc,Trigger:true},custom_name={translate:att2.spell20.page_pr.name},lore=[{translate:att2.spell20.page_pr.lore.1},{translate:att2.spell20.page_pr.lore.2},{translate:att2.spell20.page_pr.lore.3},{translate:att2.spell20.page_pr.lore.4},{translate:att2.spell20.page},{text:"§e$(page_now) §f/ §6$(page_max)"}],custom_model_data={floats:[10000000]}]

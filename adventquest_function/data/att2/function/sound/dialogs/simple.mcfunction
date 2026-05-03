@@ -3,4 +3,4 @@
 #Play for talking simple sound     	     		#
 #################################################
 
-playsound minecraft:entity.item.pickup ambient @a ~ ~ ~ 1 0.5
+playsound minecraft:entity.item.pickup ambient @s ~ ~ ~ 1 0.5

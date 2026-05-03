@@ -58,7 +58,7 @@ scoreboard players operation cookie PRICES /= 100 discount_calc
 scoreboard players set melon_slice PRICES 2
 scoreboard players operation melon_slice PRICES *= discount discount_calc
 scoreboard players operation melon_slice PRICES /= 100 discount_calc
-scoreboard players set mushroom_stew PRICES 15
+scoreboard players set mushroom_stew PRICES 12
 scoreboard players operation mushroom_stew PRICES *= discount discount_calc
 scoreboard players operation mushroom_stew PRICES /= 100 discount_calc
 scoreboard players set porkchop PRICES 8
@@ -67,7 +67,7 @@ scoreboard players operation porkchop PRICES /= 100 discount_calc
 scoreboard players set potato PRICES 5
 scoreboard players operation potato PRICES *= discount discount_calc
 scoreboard players operation potato PRICES /= 100 discount_calc
-scoreboard players set pumpkin_pie PRICES 12
+scoreboard players set pumpkin_pie PRICES 8
 scoreboard players operation pumpkin_pie PRICES *= discount discount_calc
 scoreboard players operation pumpkin_pie PRICES /= 100 discount_calc
 scoreboard players set rabbit PRICES 4

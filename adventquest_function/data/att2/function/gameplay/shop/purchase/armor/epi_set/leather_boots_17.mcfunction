@@ -14,4 +14,4 @@ loot spawn ~ ~ ~ loot att2:item_data/armor/epi_set/leather_boots_17
 ##motion item
 function att2:gameplay/misc/motion/item_shop_motion
 ##add Smith level
-function att2:gameplay/shop/smith_leveling/add_buying_epi_set
+#function att2:gameplay/shop/smith_leveling/add_buying_epi_set
