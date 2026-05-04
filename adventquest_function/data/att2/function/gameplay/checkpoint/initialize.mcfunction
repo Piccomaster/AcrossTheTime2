@@ -341,6 +341,35 @@ scoreboard players set Phoenix0 CHECKPOINT 0
 scoreboard players set Phoenix1 CHECKPOINT 0
 scoreboard players set Phoenix2 CHECKPOINT 0
 
+scoreboard players set Runictrial CHECKPOINT 0
+scoreboard players set Runictrial1 CHECKPOINT 0
+scoreboard players set Runictrial2 CHECKPOINT 0
+scoreboard players set Runictrial3 CHECKPOINT 0
+scoreboard players set Runictrial4 CHECKPOINT 0
+scoreboard players set Runictrial5 CHECKPOINT 0
+scoreboard players set Runictrial6 CHECKPOINT 0
+scoreboard players set Runictrial7 CHECKPOINT 0
+scoreboard players set Runictrial8 CHECKPOINT 0
+scoreboard players set Runictrial9 CHECKPOINT 0
+scoreboard players set Runictrial10 CHECKPOINT 0
+scoreboard players set Runictrial11 CHECKPOINT 0
+scoreboard players set Runictrial12 CHECKPOINT 0
+scoreboard players set Runictrial13 CHECKPOINT 0
+scoreboard players set Runictrial14 CHECKPOINT 0
+scoreboard players set Runictrial15 CHECKPOINT 0
+scoreboard players set Runictrial16 CHECKPOINT 0
+scoreboard players set Runictrial17 CHECKPOINT 0
+scoreboard players set Runictrial18 CHECKPOINT 0
+scoreboard players set Runictrial19 CHECKPOINT 0
+scoreboard players set Runictrial20 CHECKPOINT 0
+scoreboard players set Runictrial21 CHECKPOINT 0
+scoreboard players set Runictrial22 CHECKPOINT 0
+scoreboard players set Runictrial23 CHECKPOINT 0
+scoreboard players set Runictrial24 CHECKPOINT 0
+scoreboard players set Runictrial25 CHECKPOINT 0
+scoreboard players set Runictrial26 CHECKPOINT 0
+scoreboard players set Runictrial27 CHECKPOINT 0
+
 scoreboard players set Ryliath CHECKPOINT 0
 scoreboard players set Ryliath0 CHECKPOINT 0
 scoreboard players set Ryliath1 CHECKPOINT 0

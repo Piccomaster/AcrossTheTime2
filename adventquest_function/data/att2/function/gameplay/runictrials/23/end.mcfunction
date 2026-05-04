@@ -32,6 +32,3 @@ execute positioned -5602 40 -5122 run function att2:gameplay/runictrials/dark_re
 execute positioned -5602 40 -5122 run function att2:summon/bat_chest_loot_experience_bottle {C:8,T:8,Reg:Reg1,Time:40}
 execute positioned -5602 40 -5122 run function att2:summon/bat_chest_loot_experience_bottle {C:8,T:8,Reg:Reg1,Time:40}
 execute positioned -5602 40 -5122 run function att2:summon/bat_chest_loot_experience_bottle {C:8,T:8,Reg:Reg1,Time:40}
-
-# checkpoint
-execute in minecraft:overworld positioned -5602 40 -5051 as @a[distance=..40] run spawnpoint @s -4165 71 -5515
