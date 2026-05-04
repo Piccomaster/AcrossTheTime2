@@ -13,4 +13,4 @@ playsound entity.experience_orb.touch master @a ~ ~ ~ 10 0.1 1
 #waypoint discovered
 function att2:dialogs/gameplay/waypoint/kortaek_discovered
 
-function att2:advancement/test_all/journey/waypoints
+function att2:advancement/test_all/journey/waypoint

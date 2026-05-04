@@ -29,6 +29,7 @@ function att2:gameplay/enemy_health/initialize
 function att2:gameplay/difficulty/initialize
 function att2:gameplay/enveffect/initialize
 function att2:gameplay/equipment/initialize
+function att2:gameplay/elytra_racing/initialize
 function att2:gameplay/gps/initialize
 function att2:gameplay/healthbar/initialize
 function att2:gameplay/horse_racing/initialize
