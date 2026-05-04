@@ -23,6 +23,7 @@ execute if score #C CAL matches 10 at @s run function att2:gameplay/misc/chestef
 ##set rolls
 ##update quest item
 scoreboard players operation #Temp DropQuestItemId = #Q CAL
+tellraw @a [{score:{name:"#Temp",objective:"DropQuestItemId"}}]
 ##update quest item
 #get DropRolls
 scoreboard players operation #Rolls DropRolls = #T CAL

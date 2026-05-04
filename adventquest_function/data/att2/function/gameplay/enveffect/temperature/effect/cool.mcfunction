@@ -19,7 +19,7 @@ scoreboard players set @s TIMER_RES_EXT 20
 
 particle minecraft:item{item:"minecraft:ice"} ~ ~0.5 ~ 0.25 0.25 0.25 0 5 normal @s
 
-execute if score @s TEMPERATURE matches ..-201 run return fail
+execute if score @s TEMPERATURE matches ..-150 run return fail
 
 ##reset
 tag @s remove Cool

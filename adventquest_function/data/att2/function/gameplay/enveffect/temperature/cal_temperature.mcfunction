@@ -20,10 +20,10 @@ execute store result score #armor TEMPERATURE if items entity @s armor.* *
 scoreboard players operation #armor_leather TEMPERATURE *= 3 CAL
 scoreboard players operation #armor_chainmail TEMPERATURE *= 1 CAL
 scoreboard players operation #armor_copper TEMPERATURE *= 1 CAL
-scoreboard players operation #armor_iron TEMPERATURE *= 2 CAL
+scoreboard players operation #armor_iron TEMPERATURE *= 1 CAL
 scoreboard players operation #armor_diamond TEMPERATURE *= 2 CAL
-scoreboard players operation #armor_netherite TEMPERATURE *= 1 CAL
-scoreboard players operation #armor_golden TEMPERATURE *= 2 CAL
+scoreboard players operation #armor_netherite TEMPERATURE *= 2 CAL
+scoreboard players operation #armor_golden TEMPERATURE *= 1 CAL
 
 execute if score #armor TEMPERATURE matches 4.. run scoreboard players set #armor TEMPERATURE 1
 execute unless score #armor TEMPERATURE matches 4.. run scoreboard players set #armor TEMPERATURE 0
@@ -42,7 +42,7 @@ scoreboard players set #Total TEMPERATURE 0
 scoreboard players operation #Total TEMPERATURE += #armor TEMPERATURE
 
 ##normal
-scoreboard players remove #Total TEMPERATURE 4
+scoreboard players remove #Total TEMPERATURE 5
 ##In water
 execute if predicate att2_pre:player/in_water run scoreboard players remove #Total TEMPERATURE 4
 ##sprint

@@ -37,8 +37,8 @@ scoreboard players operation #dahal CAL += 50 CAL
 data modify storage att2:dialog player_infor[-3].tooltip append value {translate:consciousness.player_infor.dahalmax.base,with:[0],color:green}
 execute store result storage att2:dialog player_infor[-3].tooltip[-1].with[0] int 1 run scoreboard players get #dahal CAL
 ##insert dahal rune
-execute if score BonusDahalMax_Total RUNE matches 1.. run data modify storage att2:dialog player_infor[-3].tooltip append value {translate:consciousness.player_infor.dahalmax.rune,with:[0],color:green}
-execute if score BonusDahalMax_Total RUNE matches 1.. store result storage att2:dialog player_infor[-3].tooltip[-1].with[0] int 1 run scoreboard players get BonusDahalMax_Total RUNE
+execute if score #BonusDahalMax_Total RUNE matches 1.. run data modify storage att2:dialog player_infor[-3].tooltip append value {translate:consciousness.player_infor.dahalmax.rune,with:[0],color:green}
+execute if score #BonusDahalMax_Total RUNE matches 1.. store result storage att2:dialog player_infor[-3].tooltip[-1].with[0] int 1 run scoreboard players get #BonusDahalMax_Total RUNE
 ##cal enchantments
 scoreboard players operation #percent CAL = @s EH_DAHALMAX
 scoreboard players remove #percent CAL 100

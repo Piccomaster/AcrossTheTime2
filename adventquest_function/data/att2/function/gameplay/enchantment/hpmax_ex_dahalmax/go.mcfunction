@@ -13,7 +13,7 @@ scoreboard players operation @s DAHALMAX += 50 CAL
 scoreboard players add temp_value_1 CAL 100
 scoreboard players operation @s DAHALMAX *= temp_value_1 CAL
 scoreboard players operation @s DAHALMAX /= 100 CAL
-scoreboard players operation @s DAHALMAX += BonusDahalMax_Total RUNE
+scoreboard players operation @s DAHALMAX += #BonusDahalMax_Total RUNE
 scoreboard players operation @s DAHALMAX += #Book DAHALMAX
 scoreboard players operation @s DAHALMAX += @s SPELL46_DAR
 #set reset score
