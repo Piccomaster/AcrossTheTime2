@@ -4,12 +4,12 @@
 #################################################################
 
 scoreboard players set @s MUSIC_BOSS 0
-scoreboard players set @s LANGUAGE 1
-scoreboard players set @s PANORAMA 0
-scoreboard players set @s SIDEQUEST 0
-scoreboard players set @s ESC 0
-scoreboard players set @s SHOP 0
-scoreboard players set @s MENDING 0
+execute unless score @s LANGUAGE matches 1.. run scoreboard players set @s LANGUAGE 1
+execute unless score @s PANORAMA matches 0.. run scoreboard players set @s PANORAMA 0
+execute unless score @s SIDEQUEST matches 0.. run scoreboard players set @s SIDEQUEST 0
+execute unless score @s ESC matches 0.. run scoreboard players set @s ESC 0
+execute unless score @s SHOP matches 0.. run scoreboard players set @s SHOP 0
+execute unless score @s MENDING matches 0.. run scoreboard players set @s MENDING 0
 
 function att2:gameplay/bank/initialize
 function att2:gameplay/bow/initialize
