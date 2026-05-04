@@ -4,20 +4,20 @@
 #########################################################################
 
 # trigger candles
-execute if block -4397 46 -4833 minecraft:cyan_candle[lit=false] if score candle16_1 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/16/candle1_off
-execute if block -4389 40 -4827 minecraft:cyan_candle[lit=false] if score candle16_2 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/16/candle2_off
-execute if block -4389 40 -4839 minecraft:cyan_candle[lit=false] if score candle16_3 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/16/candle3_off
-execute if block -4416 40 -4833 minecraft:cyan_candle[lit=false] if score candle16_4 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/16/candle4_off
-execute if block -4421 46 -4823 minecraft:cyan_candle[lit=false] if score candle16_5 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/16/candle5_off
-execute if block -4421 46 -4843 minecraft:cyan_candle[lit=false] if score candle16_6 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/16/candle6_off
+execute positioned -4397 46 -4833 if block ~ ~ ~ minecraft:cyan_candle[lit=false] if score candle16_1 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/16/candle1_off
+execute positioned -4389 40 -4827 if block ~ ~ ~ minecraft:cyan_candle[lit=false] if score candle16_2 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/16/candle2_off
+execute positioned -4389 40 -4839 if block ~ ~ ~ minecraft:cyan_candle[lit=false] if score candle16_3 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/16/candle3_off
+execute positioned -4416 40 -4833 if block ~ ~ ~ minecraft:cyan_candle[lit=false] if score candle16_4 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/16/candle4_off
+execute positioned -4421 46 -4823 if block ~ ~ ~ minecraft:cyan_candle[lit=false] if score candle16_5 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/16/candle5_off
+execute positioned -4421 46 -4843 if block ~ ~ ~ minecraft:cyan_candle[lit=false] if score candle16_6 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/16/candle6_off
 
 # effect candles
-execute if block -4397 46 -4833 minecraft:cyan_candle[lit=true] if score candle16_1 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/candles_effect
-execute if block -4389 40 -4827 minecraft:cyan_candle[lit=true] if score candle16_2 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/candles_effect
-execute if block -4389 40 -4839 minecraft:cyan_candle[lit=true] if score candle16_3 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/candles_effect
-execute if block -4416 40 -4833 minecraft:cyan_candle[lit=true] if score candle16_4 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/candles_effect
-execute if block -4421 46 -4823 minecraft:cyan_candle[lit=true] if score candle16_5 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/candles_effect
-execute if block -4421 46 -4843 minecraft:cyan_candle[lit=true] if score candle16_6 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/candles_effect
+execute positioned -4397 46 -4833 if block ~ ~ ~ minecraft:cyan_candle[lit=true] if score candle16_1 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/candles_effect
+execute positioned -4389 40 -4827 if block ~ ~ ~ minecraft:cyan_candle[lit=true] if score candle16_2 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/candles_effect
+execute positioned -4389 40 -4839 if block ~ ~ ~ minecraft:cyan_candle[lit=true] if score candle16_3 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/candles_effect
+execute positioned -4416 40 -4833 if block ~ ~ ~ minecraft:cyan_candle[lit=true] if score candle16_4 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/candles_effect
+execute positioned -4421 46 -4823 if block ~ ~ ~ minecraft:cyan_candle[lit=true] if score candle16_5 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/candles_effect
+execute positioned -4421 46 -4843 if block ~ ~ ~ minecraft:cyan_candle[lit=true] if score candle16_6 CANDLE_STATE matches 1 run function att2:gameplay/runictrials/candles_effect
 
 # trigger total
 execute if score total_trial16 CANDLE_LIT matches 6.. run function att2:gameplay/runictrials/16/end
