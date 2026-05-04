@@ -17,7 +17,7 @@ execute store result score #armor_golden TEMPERATURE if items entity @s armor.* 
 
 execute store result score #armor TEMPERATURE if items entity @s armor.* *
 
-scoreboard players operation #armor_leather TEMPERATURE *= 3 CAL
+scoreboard players operation #armor_leather TEMPERATURE *= 2 CAL
 scoreboard players operation #armor_chainmail TEMPERATURE *= 1 CAL
 scoreboard players operation #armor_copper TEMPERATURE *= 1 CAL
 scoreboard players operation #armor_iron TEMPERATURE *= 1 CAL
