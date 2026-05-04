@@ -38,7 +38,7 @@ execute if score Mainquest SIDEQUEST matches 92.. run scoreboard players set EOL
 execute if score Mainquest SIDEQUEST matches 92.. run scoreboard players set EOLORION MAPMKR 1
 
 execute if score SQ44 SIDEQUEST matches 1.. run scoreboard players set SOQUAI_CASINO MAPMKR 1
-execute if score Mainquest SIDEQUEST matches 18.. run scoreboard players set SOQUAI_WAYPOINT MAPMKR 1
+execute if score Soquai WAYPOINT matches 1.. run scoreboard players set SOQUAI_WAYPOINT MAPMKR 1
 execute if score SQ35 SIDEQUEST matches 1.. run scoreboard players set SOQUAI_HOTEL MAPMKR 1
 
 execute if score SQ22 SIDEQUEST matches 1.. run scoreboard players set BLACK_FOREST_CAVE_HOUSE MAPMKR 1

@@ -7,7 +7,7 @@
 advancement revoke @s only att2_test:test_weapon/test_golden_hoe
 
 # SCYTHE
-advancement grant @s only att2:weapons/golden_scythe_1
-advancement grant @s[scores={statGOLDSCYTHE=50..}] only att2:weapons/golden_scythe_50
-advancement grant @s[scores={statGOLDSCYTHE=250..}] only att2:weapons/golden_scythe_250
-advancement grant @s[scores={statGOLDSCYTHE=900..}] only att2:weapons/golden_scythe_1000
+advancement grant @s only att2:weapons/golden_hoe_1
+advancement grant @s[scores={statGOLDSCYTHE=50..}] only att2:weapons/golden_hoe_50
+advancement grant @s[scores={statGOLDSCYTHE=250..}] only att2:weapons/golden_hoe_250
+advancement grant @s[scores={statGOLDSCYTHE=900..}] only att2:weapons/golden_hoe_1000

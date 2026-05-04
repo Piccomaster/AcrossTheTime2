@@ -6,7 +6,7 @@
 #Integrate data
 data modify storage att2:dialog player_infor append value {label:[{translate:consciousness.player_infor.temperature,with:[""]}],tooltip:{translate:consciousness.player_infor.temperature.tip,color:gray},action:{type:run_command,command:"trigger ScoreTrigger set 666"},width:100}
 
-$data modify storage att2:dialog player_infor append value {label:[{text:"$(now_temperature)",color:"#45556C"}],tooltip:{translate:consciousness.player_infor.temperature.show_value,color:gray,with:[{text:"$(environment_temperature)",color:"#45556C"},{text:"$(armor_temperature)",color:"#45556C"},{text:"=",color:"#45556C"},{text:"$(total_temperature)",color:"#45556C"}]},action:{type:run_command,command:"trigger ScoreTrigger set 666"},width:100}
+$data modify storage att2:dialog player_infor append value {label:[{text:"$(now_temperature)",color:"#45556C"}],tooltip:{translate:consciousness.player_infor.temperature.show_value,color:gray,with:[{text:"$(environment_temperature)",color:"#45556C"},{text:"$(armor_temperature)",color:"#45556C"},{text:"",color:"#45556C"},{text:"$(total_temperature)",color:"#45556C"}]},action:{type:run_command,command:"trigger ScoreTrigger set 666"},width:100}
 
 ##normal
 execute if score @s TEMPERATURE matches -100..100 run data modify storage att2:dialog player_infor[-1].label[0].color set value green

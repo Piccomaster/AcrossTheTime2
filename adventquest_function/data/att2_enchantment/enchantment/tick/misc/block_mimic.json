@@ -35,7 +35,17 @@
             "predicate": {
               "source_entity": {
                 "type": "minecraft:player"
-              }
+              },
+              "tags": [
+                {
+                  "id": "minecraft:is_player_attack",
+                  "expected": true
+                },
+                {
+                  "id": "minecraft:bypasses_cooldown",
+                  "expected": false
+                }
+              ]
             }
           }
         ],

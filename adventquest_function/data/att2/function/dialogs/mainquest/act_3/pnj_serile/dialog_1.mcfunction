@@ -4,4 +4,4 @@
 #################################################################
 
 
-tellraw @s [{object:atlas,sprite:"item/custom/head/serile_front_old"},{text:" °-° Sérile : ",color:"yellow",extra:[{text:"...",color:"dark_aqua","italic":true}]}]
+tellraw @s [{object:atlas,sprite:"item/custom/head/serile_front_old"},{text:" °-° S : ",color:"yellow",extra:[{text:"...",color:"dark_aqua","italic":true}]}]

@@ -40,7 +40,7 @@ scoreboard players operation #damage CAL += #DPS CAL
 scoreboard players operation @s STR_DATA = #damage CAL
 
 #min limit
-scoreboard players set @s[scores={STR_TOT=0..,STR_DATA=..0}] STR_DATA 1
+scoreboard players set @s[scores={STR_DATA=..0}] STR_DATA 1
 #execute store result storage att2:attribute STR int 1 run scoreboard players get @s STR_DATA
 execute store result storage att2:attribute STR int 1 run scoreboard players get #damage CAL
 function att2:gameplay/stat/strength/attribute with storage att2:attribute

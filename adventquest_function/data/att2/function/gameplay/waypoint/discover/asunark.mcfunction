@@ -13,4 +13,4 @@ playsound magicrevealed master @a -3661 69 -4977 5 1.5 1
 #waypoint discovered
 function att2:dialogs/gameplay/waypoint/asunark_discovered
 
-function att2:advancement/test_all/journey/waypoints
+function att2:advancement/test_all/journey/waypoint

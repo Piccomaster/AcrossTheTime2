@@ -40,6 +40,7 @@ scoreboard players operation #armor TEMPERATURE += #armor_golden TEMPERATURE
 ##total
 scoreboard players set #Total TEMPERATURE 0
 scoreboard players operation #Total TEMPERATURE += #armor TEMPERATURE
+
 ##normal
 scoreboard players remove #Total TEMPERATURE 4
 ##In water

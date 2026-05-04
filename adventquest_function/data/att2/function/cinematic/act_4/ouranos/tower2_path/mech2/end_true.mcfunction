@@ -14,8 +14,8 @@ execute at @a run function att2:sound/door/simple_glassdoor
 execute at @a run function att2:sound/misc/resolution
 execute at @a run function att2:sound/misc/bell_ouranos
 
-execute positioned 7078 137 6389 as @a[distance=..5] run scoreboard players set @s SHAKE_H 50
-execute positioned 7078 137 6389 as @a[distance=6..10] run scoreboard players set @s SHAKE_L 50
+execute positioned 7078 116 6389 as @a[distance=..5] run scoreboard players set @s SHAKE_H 50
+execute positioned 7078 116 6389 as @a[distance=6..10] run scoreboard players set @s SHAKE_L 50
 
 particle block{block_state:"minecraft:gold_block"} 7078 134 6389 1 1 1 5 500 normal
 particle block{block_state:"minecraft:gold_block"} 7089.0 126 6395.0 0.7 4 0.7 5 300 normal

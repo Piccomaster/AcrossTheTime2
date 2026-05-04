@@ -12,8 +12,6 @@ execute as @s[scores={TEMPERATURE=..-100},tag=Cool] run function att2:gameplay/e
 ##
 execute unless score tic TIMECOUNTER matches 1 run return fail
 ##detection TEMPERATURE
-scoreboard players set #Environment TEMPERATURE 0
-function att2:gameplay/enveffect/temperature/temperature_detection
 function att2:gameplay/enveffect/temperature/cal_temperature
 ##sum
 scoreboard players operation @s TEMPERATURE += #Total TEMPERATURE

@@ -20,7 +20,7 @@ scoreboard players operation #reduce_health CAL *= 50 CAL
 scoreboard players operation @s HER_VALUE -= #reduce_health CAL
 ##add time
 scoreboard players operation #time CAL = #Environment TEMPERATURE
-scoreboard players operation #time CAL *= 50 CAL
+scoreboard players operation #time CAL *= 20 CAL
 scoreboard players operation @s TEMPERATURE += #time CAL
 execute if score @s TEMPERATURE matches ..400 run scoreboard players set @s TEMPERATURE 400
 ##tip

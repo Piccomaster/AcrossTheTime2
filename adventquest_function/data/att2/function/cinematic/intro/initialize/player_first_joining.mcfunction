@@ -30,7 +30,8 @@ advancement revoke @s only att2_test:score_trigger
 execute unless score Mainquest SIDEQUEST matches 1.. if score update INTRO matches 1.. run tp @s 795 81 927 180 0
 
 execute if score Mainquest SIDEQUEST matches 0 if score update INTRO matches -2 in minecraft:overworld run tp @s 1993 113 2062
-execute if score Mainquest SIDEQUEST matches 1..2 in minecraft:overworld run tp @s -5192 73 -5342
+execute if score Mainquest SIDEQUEST matches 1 in minecraft:overworld run tp @s -5253 71 -5405
+execute if score Mainquest SIDEQUEST matches 2 in minecraft:overworld run tp @s -5192 73 -5342
 execute if score Mainquest SIDEQUEST matches 3.. in minecraft:overworld run tp @s -5030 75 -5080 0 0
 
 ##dahal show
