@@ -17,20 +17,20 @@ function att2:gameplay/death/max_health with storage att2:max_health
 execute as @a[x=-5029,y=91,z=-4957,distance=..20] at @s run effect give @s minecraft:instant_health 1 20 true
 
 scoreboard players operation #XPTotal RUNE = #BonusXP RUNE
-scoreboard players operation #XPTotal RUNE *= #100 RUNE
-scoreboard players operation #XPTotal RUNE /= #13 RUNE
+scoreboard players operation #XPTotal RUNE *= 100 CAL
+scoreboard players operation #XPTotal RUNE /= 13 CAL
 
 scoreboard players operation #HealthTotal RUNE = #BonusHealthMax RUNE
-scoreboard players operation #HealthTotal RUNE *= #2 RUNE
+scoreboard players operation #HealthTotal RUNE *= 2 CAL
 
 scoreboard players operation #CooldownTotal RUNE = #BonusCooldown RUNE
-scoreboard players operation #CooldownTotal RUNE *= #10 RUNE
+scoreboard players operation #CooldownTotal RUNE *= 10 CAL
 
 scoreboard players operation #ChronotonTotal RUNE = #BonusChronoton RUNE
-scoreboard players operation #ChronotonTotal RUNE *= #20 RUNE
+scoreboard players operation #ChronotonTotal RUNE *= 20 CAL
 
 scoreboard players operation #TimePotionTotal RUNE = #BonusTimePotion RUNE
-scoreboard players operation #TimePotionTotal RUNE *= #20 RUNE
+scoreboard players operation #TimePotionTotal RUNE *= 20 CAL
 
 scoreboard players operation #BonusDahalMax_Total RUNE = #BonusDahalMax RUNE
 scoreboard players operation #BonusDahalMax_Total RUNE *= 4 CAL

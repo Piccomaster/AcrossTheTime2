@@ -15,8 +15,8 @@ function att2:gameplay/misc/durability/add_offhand
 ##destroy 
 execute if score #damage CAL = #max_damage CAL at @s anchored eyes positioned ^ ^ ^1 run function att2:gameplay/leveling/monster/shield_enemy/destroy
 
-execute unless score #damage CAL = #max_damage CAL run scoreboard players operation #reduce_health CAL *= 20 CAL
-execute if score #damage CAL = #max_damage CAL run scoreboard players operation #reduce_health CAL *= 110 CAL
+execute unless score #damage CAL = #max_damage CAL run scoreboard players operation #reduce_health CAL *= 40 CAL
+execute if score #damage CAL = #max_damage CAL run scoreboard players operation #reduce_health CAL *= 150 CAL
 scoreboard players operation #reduce_health CAL /= 100 CAL
 scoreboard players operation #reduce_health CAL > 1 CAL
 

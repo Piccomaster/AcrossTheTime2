@@ -3,13 +3,13 @@
 #shield enemy block trigger
 #########################################################
 
-execute if items entity @s weapon.mainhand #minecraft:axes run scoreboard players set #count CAL 20
-execute if items entity @s weapon.mainhand #minecraft:swords run scoreboard players set #count CAL 10
-execute if items entity @s weapon.mainhand #minecraft:shovels run scoreboard players set #count CAL 8
-execute if items entity @s weapon.mainhand #minecraft:pickaxes run scoreboard players set #count CAL 15
-execute if items entity @s weapon.mainhand #minecraft:spears run scoreboard players set #count CAL 10
-execute if items entity @s weapon.mainhand #minecraft:hoes run scoreboard players set #count CAL 10
-execute if items entity @s weapon.mainhand #minecraft:axes[enchantments~[{enchantments:"att2_enchantment:armorbreak"}]] run scoreboard players set #count CAL 30
+execute if items entity @s weapon.mainhand #minecraft:axes run scoreboard players set #count CAL 25
+execute if items entity @s weapon.mainhand #minecraft:swords run scoreboard players set #count CAL 15
+execute if items entity @s weapon.mainhand #minecraft:shovels run scoreboard players set #count CAL 10
+execute if items entity @s weapon.mainhand #minecraft:pickaxes run scoreboard players set #count CAL 20
+execute if items entity @s weapon.mainhand #minecraft:spears run scoreboard players set #count CAL 15
+execute if items entity @s weapon.mainhand #minecraft:hoes run scoreboard players set #count CAL 15
+execute if items entity @s weapon.mainhand #minecraft:axes[enchantments~[{enchantments:"att2_enchantment:armorbreak"}]] run scoreboard players set #count CAL 35
 execute unless items entity @s weapon.mainhand *[custom_data~{EquipmentType:meleeWeapon}] run scoreboard players set #count CAL 1
 #axe
 execute if score #ForceReplace ENEMYHEALTH matches 1 run scoreboard players set #count CAL 20

@@ -7,6 +7,7 @@
 execute unless score Mainquest SIDEQUEST matches 1.. run return fail
 ##limit
 execute if score @s INJURED matches ..-1 run return fail
+execute if score @s INJURED matches 1.. run return fail
 ##detection health
 scoreboard players operation #health CAL = @s HEALTH
 scoreboard players operation #health CAL *= 100 CAL

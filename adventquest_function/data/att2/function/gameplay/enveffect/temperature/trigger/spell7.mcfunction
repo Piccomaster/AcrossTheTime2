@@ -4,8 +4,7 @@
 #####################################################
 
 ##add TEMPERATURE
-scoreboard players operation #add TEMPERATURE = @s SPELL7_SLCT
-scoreboard players operation #add TEMPERATURE *= 1 CAL
+scoreboard players set #add TEMPERATURE 1
 execute if score @s SPELL7_SLCT matches 1 run return run scoreboard players operation @a[distance=..1] TEMPERATURE += #add TEMPERATURE
 execute if score @s SPELL7_SLCT matches 2 run return run scoreboard players operation @a[distance=..1] TEMPERATURE += #add TEMPERATURE
 execute if score @s SPELL7_SLCT matches 3 run return run scoreboard players operation @a[distance=..2] TEMPERATURE += #add TEMPERATURE

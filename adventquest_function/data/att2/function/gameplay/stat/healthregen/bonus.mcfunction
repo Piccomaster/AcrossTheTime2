@@ -3,7 +3,8 @@
 #Process the health regen                        #
 ##################################################
 
-
+##limit
+execute as @s[gamemode=!adventure] run return fail
 scoreboard players remove @s HER_VALUE 10000
 
 

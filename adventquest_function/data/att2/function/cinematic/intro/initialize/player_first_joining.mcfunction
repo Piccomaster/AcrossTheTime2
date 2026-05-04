@@ -3,6 +3,9 @@
 #player_first_joining 						        #
 #####################################################
 
+##limit
+execute if score @s NUMEROJOUEUR matches 1.. run return fail
+
 ##set base checkpoint
 spawnpoint @s 794 80 900 180 0
 
@@ -14,7 +17,6 @@ recipe take @s *
 scoreboard objectives add SIDEQUEST dummy
 scoreboard objectives add NUMEROJOUEUR dummy
 scoreboard objectives add INTRO dummy
-
 function att2:cinematic/intro/tp_language
 #initialize
 function att2:gameplay/speceffect/initialize

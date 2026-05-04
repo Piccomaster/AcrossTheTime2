@@ -14,6 +14,7 @@ scoreboard players set #C CAL 0
 scoreboard players set #T CAL 0
 scoreboard players set #Dimension CAL 0
 scoreboard players set #Q CAL 0
+scoreboard players set #Temp DropQuestItemId 0
 ##get player id
 execute store result score #player CAL run data get block ~ ~ ~ Items[0].components."minecraft:custom_model_data".floats
 ##get c/t
@@ -30,7 +31,6 @@ execute if score #Q CAL matches -100 run function att2:gameplay/maze/score/norma
 ##get Dimension
 execute store result score #Dimension CAL run data get entity @s data.Dimension
 ##update player dropchance
-#execute as @p[distance=..20,predicate=att2_pre:score/player] run function att2:gameplay/misc/chesteffect/reset_dropchance
 execute as @p[distance=..20,predicate=att2_pre:score/player] run function att2:gameplay/misc/chesteffect/update_dropchance
 ##update loot
 ##clear

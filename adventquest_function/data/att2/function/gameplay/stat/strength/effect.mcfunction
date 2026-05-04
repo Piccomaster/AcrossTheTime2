@@ -36,6 +36,8 @@ scoreboard players operation #damage CAL = @s STR_TOT
 scoreboard players operation #damage CAL *= 2 CAL
 
 ##sum
+#execute store result score #TEMP_1000slay CAL run attribute @s attack_damage modifier value get minecraft:1000slay_attack_damage
+#scoreboard players operation #damage CAL += #TEMP_1000slay CAL
 scoreboard players operation #damage CAL += #DPS CAL
 scoreboard players operation @s STR_DATA = #damage CAL
 

@@ -14,7 +14,7 @@ function att2:gameplay/dahal/action/spell1/damage_cal
 #get owner
 execute store result storage att2:sp_dmg player int 1 run scoreboard players get @s OWNER
 #range damage
-$execute align xyz positioned ~-$(distance) ~-$(distance) ~-$(distance) as @e[dx=$(particle_count),dy=$(particle_count),dz=$(particle_count),scores={GAMELEVEL=0..},team=hostile] at @s run function att2:gameplay/dahal/action/spell1/damage with storage att2:sp_dmg
+$execute align xyz positioned ~-$(distance) ~-$(distance) ~-$(distance) as @e[dx=$(particle_count),dy=$(particle_count),dz=$(particle_count),scores={GAMELEVEL=0..},team=hostile,type=!bat] at @s run function att2:gameplay/dahal/action/spell1/damage with storage att2:sp_dmg
 #temperature trigger
 function att2:gameplay/enveffect/temperature/trigger/spell1
 ##pot detect
