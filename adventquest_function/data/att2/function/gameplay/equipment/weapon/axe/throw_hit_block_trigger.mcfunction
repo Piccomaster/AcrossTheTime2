@@ -38,6 +38,8 @@ scoreboard players operation @n[distance=..5,type=spectral_arrow,tag=New] STR_DA
 function att2:gameplay/misc/motion/calculate/get_motion_direction
 execute store result score #Rotation0 CAL run data get storage att2:rotation temp[0]
 execute store result score #Rotation1 CAL run data get storage att2:rotation temp[1]
+tellraw @a ["R0",{score:{name:"#Rotation0",objective:"CAL"}}]
+tellraw @a ["R1",{score:{name:"#Rotation1",objective:"CAL"}}]
 
 scoreboard players add #Rotation0 CAL 180
 scoreboard players set 360 CAL 360
@@ -46,7 +48,8 @@ execute if score #Rotation0 CAL matches 181.. run scoreboard players remove #Rot
 scoreboard players operation #Rotation1 CAL *= -1 CAL
 execute store result entity 00000001-0000-006f-0000-00010000006f Rotation[0] int 1 run scoreboard players get #Rotation0 CAL
 execute store result entity 00000001-0000-006f-0000-00010000006f Rotation[1] int 1 run scoreboard players get #Rotation1 CAL
-
+tellraw @a ["R0",{score:{name:"#Rotation0",objective:"CAL"}}]
+tellraw @a ["R1",{score:{name:"#Rotation1",objective:"CAL"}}]
 ##tp
 #random spread
 execute store result score #RNG CAL run random value 1..4
