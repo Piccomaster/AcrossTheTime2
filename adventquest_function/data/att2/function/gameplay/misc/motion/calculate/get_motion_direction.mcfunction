@@ -10,9 +10,9 @@ execute store result score #Motion1 CAL run data get entity @s Motion[1] 10000
 execute store result score #Motion2 CAL run data get entity @s Motion[2] 10000
 
 
-tellraw @a ["M0",{score:{name:"#Motion0",objective:"CAL"}}]
-tellraw @a ["M1",{score:{name:"#Motion1",objective:"CAL"}}]
-tellraw @a ["M2",{score:{name:"#Motion2",objective:"CAL"}}]
+#tellraw @a ["M0",{score:{name:"#Motion0",objective:"CAL"}}]
+#tellraw @a ["M1",{score:{name:"#Motion1",objective:"CAL"}}]
+#tellraw @a ["M2",{score:{name:"#Motion2",objective:"CAL"}}]
 
 ##gravity effect
 scoreboard players remove #Motion1 CAL 500
