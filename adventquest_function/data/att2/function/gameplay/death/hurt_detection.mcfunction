@@ -3,6 +3,8 @@
 #Process Death malus and health at reaparition                  	#
 #####################################################################
 
+##
+execute unless score Mainquest SIDEQUEST matches 1.. run return fail
 ##limit
 execute if score @s INJURED matches ..-1 run return fail
 ##detection health
@@ -12,7 +14,7 @@ execute store result score #max_health CAL run attribute @s minecraft:max_health
 ##test percent
 scoreboard players operation #health CAL /= #max_health CAL
 
-tellraw @a ["百分比:",{score:{name:"#health",objective:"CAL"}}]
+#tellraw @a ["百分比:",{score:{name:"#health",objective:"CAL"}}]
 
 ##25% 
 execute if score #health CAL matches 25.. run return fail
