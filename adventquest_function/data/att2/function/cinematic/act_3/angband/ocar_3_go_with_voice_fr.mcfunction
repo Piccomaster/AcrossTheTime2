@@ -3,6 +3,10 @@
 #Process cinematic ocar_3_go  		 		 	 #
 ##################################################
 
+##clear interaction
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-001a-0000-00000000001a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-006a-0000-00000000006a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+
 execute if score Neth0 TIMER matches 0 run scoreboard players set 00000000-0000-001a-0000-00000000001a TALKING 201
 execute if score Neth0 TIMER matches 0 run scoreboard players set 00000000-0000-001a-0000-00000000001a TALKING_TIMER 200
 execute if score Neth0 TIMER matches 0 run function att2:dialogs/mainquest/act_3/ch2_serile_2

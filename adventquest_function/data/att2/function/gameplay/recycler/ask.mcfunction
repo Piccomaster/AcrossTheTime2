@@ -2,7 +2,7 @@
 #Made by Adventquest										#
 #Ask buyer for trade                                        #
 #############################################################
-
+#tp @p ~ ~ ~
 execute as @e[type=item,distance=..3] at @s run tp @s @e[type=minecraft:armor_stand,tag=Recycler,sort=nearest,limit=1]
 
 function att2:gameplay/recycler/initialize

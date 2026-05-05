@@ -3,6 +3,12 @@
 #Process cinematic camp_exile/1_go  		 	 #
 ##################################################
 
+##clear interaction
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-001a-0000-00000000001a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-006a-0000-00000000006a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-007a-0000-00000000007a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-008a-0000-00000000008a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+
 execute if score Neth0 TIMER matches 5 run function att2:dialogs/mainquest/act_3/ch2_eternansoldier_1
 execute if score Neth0 TIMER matches 10 run function att2:cinematic/act_3/angband/camp_exile/1_action_1
 execute if score Neth0 TIMER matches 40 run function att2:cinematic/act_3/angband/camp_exile/1_action_2

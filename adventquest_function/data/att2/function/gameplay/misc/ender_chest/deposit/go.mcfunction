@@ -11,7 +11,7 @@ function att2:gameplay/score/entity_id
 ##ender_eye animation
 function att2:gameplay/misc/ender_chest/animation/ender_eye
 ##tp near item -> chest
-execute as @e[distance=..5,type=item,limit=20,sort=random] run function att2:gameplay/misc/ender_chest/deposit/display
+execute as @e[distance=..5,type=item,limit=20,sort=random,predicate=!att2_pre:score/ender_chest/limit,tag=!HPDISPLAY] run function att2:gameplay/misc/ender_chest/deposit/display
 execute positioned ~ ~1 ~ as @e[distance=..5,type=item_display,tag=TempItem,predicate=att2_pre:score/entity_id,limit=20,sort=random] run function att2:gameplay/misc/ender_chest/deposit/collect_item
 
 ##test max

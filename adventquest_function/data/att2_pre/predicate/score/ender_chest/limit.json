@@ -1,0 +1,10 @@
+{
+  "condition": "minecraft:entity_scores",
+  "entity": "this",
+  "scores": {
+    "itemcolor": {
+      "min": 11,
+      "max": 11
+    }
+  }
+}

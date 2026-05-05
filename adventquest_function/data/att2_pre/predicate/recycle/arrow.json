@@ -1,21 +1,16 @@
 {
-    "condition": "any_of",
-    "terms": [
-        {
-            "condition": "entity_properties",
-            "entity": "this",
-            "predicate": {
-                "type": "minecraft:item",
-                "nbt": "{Item:{id:\"minecraft:arrow\"}}"
-            }
-        },
-        {
-            "condition": "entity_properties",
-            "entity": "this",
-            "predicate": {
-                "type": "minecraft:item",
-                "nbt": "{Item:{id:\"minecraft:spectral_arrow\"}}"
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "slots": {
+            "container.0": {
+                "items": "#minecraft:arrows",
+                "predicates": {
+                    "custom_data": {
+                        "Rarity": "misc"
+                    }
+                }
             }
         }
-    ]
+    }
 }

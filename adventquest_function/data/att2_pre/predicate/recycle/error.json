@@ -1,28 +1,45 @@
 {
-    "condition":"any_of",
-    "terms":[
+    "condition": "any_of",
+    "terms": [
         {
-            "condition":"entity_properties",
-            "entity":"this",
-            "predicate":{
-                "type":"minecraft:item",
-                "nbt": "{Item:{id:\"minecraft:written_book\"}}"
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "container.0": {
+                        "items": "minecraft:written_book"
+                    }
+                }
             }
         },
         {
-            "condition":"entity_properties",
-            "entity":"this",
-            "predicate":{
-                "type":"minecraft:item",
-                "nbt":"{Item:{components:{'minecraft:custom_data':{EquipmentType:runic_word}}}}"
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "container.0": {
+                        "predicates": {
+                            "custom_data": {
+                                "Rarity": "runic_word"
+                            }
+                        }
+                    }
+                }
             }
         },
         {
-            "condition":"entity_properties",
-            "entity":"this",
-            "predicate":{
-                "type":"minecraft:item",
-                "nbt":"{Item:{components:{'minecraft:custom_data':{EquipmentType:que}}}}"
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "container.0": {
+                        "predicates": {
+                            "custom_data": {
+                                "Rarity": "que"
+                            }
+                        }
+                    }
+                }
             }
         }
     ]

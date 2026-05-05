@@ -1,8 +1,15 @@
 {
-    "condition":"entity_properties",
-    "entity":"this",
-    "predicate":{
-        "type":"minecraft:item",
-        "nbt":"{Item:{components: {'minecraft:custom_data': {Rarity: leg_armset}}}}"
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "slots": {
+            "container.0": {
+                "predicates": {
+                    "custom_data": {
+                        "Rarity": "leg_armset"
+                    }
+                }
+            }
+        }
     }
 }

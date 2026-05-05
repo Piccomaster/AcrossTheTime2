@@ -75,12 +75,3 @@ scoreboard players operation total RECYCLER += epi_esc RECYCLER
 scoreboard players operation total RECYCLER += leg RECYCLER
 scoreboard players operation total RECYCLER += leg_armset RECYCLER
 scoreboard players operation total RECYCLER += ult RECYCLER
-
-scoreboard players operation total RECYCLER += com_buy RECYCLER
-scoreboard players operation total RECYCLER += unc_buy RECYCLER
-scoreboard players operation total RECYCLER += rar_buy RECYCLER
-scoreboard players operation total RECYCLER += epi_buy RECYCLER
-scoreboard players operation total RECYCLER += epi_set_buy RECYCLER
-scoreboard players operation total RECYCLER += leg_buy RECYCLER
-scoreboard players operation total RECYCLER += leg_armset_buy RECYCLER
-scoreboard players operation total RECYCLER += ult_buy RECYCLER

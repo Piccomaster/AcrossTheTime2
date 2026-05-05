@@ -5,16 +5,31 @@
             "condition": "entity_properties",
             "entity": "this",
             "predicate": {
-                "type": "minecraft:item",
-                "nbt": "{Item:{id:\"minecraft:arrow\"}}"
+                "slots": {
+                    "container.0": {
+                        "items": "#minecraft:arrows",
+                        "predicates": {
+                            "custom_data": {
+                                "Rarity": "misc"
+                            }
+                        }
+                    }
+                }
             }
         },
         {
             "condition": "entity_properties",
             "entity": "this",
             "predicate": {
-                "type": "minecraft:item",
-                "nbt": "{Item:{components:{'minecraft:custom_data':{EquipmentType:food}}}}"
+                "slots": {
+                    "container.0": {
+                        "predicates": {
+                            "custom_data": {
+                                "EquipmentType": "food"
+                            }
+                        }
+                    }
+                }
             }
         }
     ]

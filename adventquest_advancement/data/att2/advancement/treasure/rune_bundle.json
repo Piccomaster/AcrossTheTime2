@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:black_bundle"
+        },
+        "title": {
+            "translate": "att2.advancement.treasure.title.rune_bundle"
+        },
+        "description": {
+            "translate": "att2.advancement.treasure.description.rune_bundle"
+        },
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/sovereign/misc/bundle",
+    "rewards": {
+        "experience": 7777
+    },
+    "criteria": {
+        "rune_bundle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "EquipmentType": "rune_bundle"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
