@@ -45,6 +45,7 @@ execute as @s[type=!bat] at @s run function att2:gameplay/enemy_health/show_heal
 function att2:gameplay/healthbar/detection_enemy
 #scoreboard players set #reduce_health CAL 0
 execute if score @s ENEMYHEALTH matches ..0 run tag @s add killed
+execute if score @s ENEMYHEALTH matches ..0 at @s on attacker as @s[type=#att2_entity:sp_follow_pet_all] on owner run damage @n[distance=..0,tag=killed] 7777777777777777 att2_damage:player_attack by @s
 execute if score @s ENEMYHEALTH matches ..0 at @s on attacker run damage @n[distance=..0,tag=killed] 7777777777777777 att2_damage:player_attack by @s
 execute if score @s ENEMYHEALTH matches ..0 run return run function att2:gameplay/enemy_health/kill
 

@@ -1084,3 +1084,7 @@ execute in minecraft:the_nether positioned 3901 52 3871 run setblock 3901 52 387
 
 ##update shulker
 execute in minecraft:overworld positioned -3486 28 -5042 run setblock -3486 28 -5042 minecraft:cyan_shulker_box[facing=up]
+
+
+##fix angband mainquest
+execute in minecraft:the_nether positioned 3692 80 4585 run setblock 3692 80 4585 minecraft:repeating_command_block[conditional=false,facing=north]{Command:"execute if score wingeu_mech3_chest3 ANGOR matches 4 unless data block ~ ~4 ~ LootTable run function att2:cinematic/act_3/angband/angor/palace/wing_e_up/mech3/chest_east5",CustomName:"@",LastExecution:3005572562L,SuccessCount:0,TrackOutput:1b,UpdateLastExecution:1b,auto:1b,components:{},conditionMet:1b,powered:0b} destroy

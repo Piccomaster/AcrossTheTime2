@@ -3,4 +3,5 @@
 #Process chest effect       									#
 #################################################################
 
-execute if predicate att2_pre:chest_effect/quest run data merge block ~ ~ ~ {CustomName:[{translate:att2.chest.quest.name}]}
+#execute if score #Q CAL matches ..64 run say 任务到户
+execute if score #Q CAL matches ..64 run data merge block ~ ~ ~ {CustomName:[{translate:att2.chest.quest.name}]}

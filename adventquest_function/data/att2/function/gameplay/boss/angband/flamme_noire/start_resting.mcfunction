@@ -8,6 +8,8 @@ scoreboard players set FlammeNoire ANGOR_BOSS 200
 # Hitbox en avant, Vulnérable, mouvement corps
 function att2:dialogs/mainquest/act_3/ch5_namrin_6
 execute in minecraft:the_nether as 00000000-0000-006a-0000-00000000006a run tp @s 3536 46 4923 70 15
+
+execute in minecraft:the_nether run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING_LIMIT -1
 function att2:cinematic/tp_effect/namrin
 execute in minecraft:the_nether run function att2:physicmod/reg2/source/fn_pose_resting
 execute as @a[scores={DIMENSION=6}] at @s run function att2:sound/mobs/fn_breathe_out

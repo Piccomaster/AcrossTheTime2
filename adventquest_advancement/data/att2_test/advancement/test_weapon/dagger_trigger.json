@@ -24,6 +24,10 @@
               {
                 "id": "minecraft:is_fire",
                 "expected": false
+              },
+              {
+                "id": "minecraft:is_explosion",
+                "expected": false
               }
             ],
             "direct_entity": {

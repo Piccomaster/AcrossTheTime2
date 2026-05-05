@@ -6,7 +6,7 @@
 ##update item -> 0 0 0
 execute in overworld run data modify block 0 0 0 Items set from entity @s Items
 ##insert item
-execute at @s as @e[distance=..10,type=item,tag=!HPDISPLAY] run function att2:gameplay/dahal/action/spell20/auto_pickup/store_data
+execute at @s as @e[distance=..10,type=item,tag=!HPDISPLAY] in overworld run function att2:gameplay/dahal/action/spell20/auto_pickup/store_data
 ##return item
 execute in overworld run data modify entity @s Items set from block 0 0 0 Items
 

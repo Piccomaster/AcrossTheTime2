@@ -3,4 +3,4 @@
 #Play sound for gears  									#
 #########################################################
 
-playsound minecraft:engrenage1 block @a ~ ~ ~ 1 0.7
+playsound minecraft:engrenage1 block @a ~ ~ ~ 0.5 0.7

@@ -3,6 +3,12 @@
 #Process cinematic war_1_go  		 		 	 #
 ##################################################
 
+##clear interaction
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-001a-0000-00000000001a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-006a-0000-00000000006a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-007a-0000-00000000007a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-008a-0000-00000000008a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+
 execute if score Neth0 TIMER matches 0 run scoreboard players set Mainquest SIDEQUEST 76
 execute if score Neth0 TIMER matches 1 in minecraft:the_nether run function att2:physicmod/reg2/angor/barrier1
 execute if score Neth0 TIMER matches 2 in minecraft:the_nether run tp @a 3455 32 3742 -135 0
