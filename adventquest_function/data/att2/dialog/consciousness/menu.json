@@ -84,8 +84,8 @@
                 "translate": "consciousness.menu.guide.tip"
             },
             "action": {
-                "type": "run_command",
-                "command": "/trigger ScoreTrigger set 2318"
+                "type": "show_dialog",
+                "dialog": "att2:consciousness/guide/menu"
             }
         },
         {

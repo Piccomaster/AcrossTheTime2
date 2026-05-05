@@ -3,6 +3,9 @@
 #Process cinematic ryliath 2  					 #
 ##################################################
 
+##clear interaction
+execute if score Real0 TIMER matches 1.. at 00000000-0000-085a-0000-00000000085a run kill @e[distance=..10,type=interaction,tag=PNJ_TALK]
+
 execute if score Real0 TIMER matches 1 in minecraft:overworld as @a[gamemode=adventure] run tp @s -4968 134 -4906 0 0
 execute if score Real0 TIMER matches 1 run kill @e[type=minecraft:zombified_piglin,x=-4968,y=134,z=-4933,distance=..3]
 execute if score Real0 TIMER matches 1 run function att2:physicmod/reg1/ryliath_palace2

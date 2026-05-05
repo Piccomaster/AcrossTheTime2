@@ -5,7 +5,8 @@
 
 ##particle
 particle minecraft:smoke ~ ~0.3 ~ 0.5 0.5 0.5 0 20 normal
-
+#say 我是谁 
+#$say 掉血$(SP1)
 #damage
 $damage @s[tag=!FB_DAHAL] $(SP1) att2_damage:magic by @p[scores={NUMEROJOUEUR=$(player)}]
 
