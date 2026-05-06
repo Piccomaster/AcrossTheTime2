@@ -17,3 +17,5 @@ execute at @s as @e[distance=..0.1,type=item_display,tag=ChestDisplay] run data 
 execute at @s as @e[distance=..0.1,type=item_display,tag=ChestDisplay] run data modify entity @s item.components."minecraft:custom_model_data".strings[0] set from entity @n[distance=..0.1,type=marker,tag=ChestMarker] data.model
 ##color
 execute at @s as @e[distance=..0.1,type=item_display,tag=ChestDisplay] run data modify entity @s glow_color_override set from entity @n[distance=..0.1,type=marker,tag=ChestMarker] data.glow_color_override
+##open
+execute at @s[tag=Open] as @e[distance=..0.1,type=item_display,tag=ChestDisplay] run tag @s add Open

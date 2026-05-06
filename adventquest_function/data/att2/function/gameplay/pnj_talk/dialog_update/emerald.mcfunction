@@ -10,7 +10,7 @@ scoreboard players set emerald_PNJ statDIALOG 1
 execute if score emerald_PNJ DIALOG matches 7 run function att2:dialogs/sidequest/sq28/emerald/dialog_7
 execute if score emerald_PNJ DIALOG matches 6 run function att2:dialogs/sidequest/sq28/emerald/dialog_6
 execute if score emerald_PNJ DIALOG matches 5 run function att2:dialogs/sidequest/sq27/emerald/dialog_5
-execute if score emerald_PNJ DIALOG matches 4 run function att2:dialogs/sidequest/sq27/emerald/dialog_4
+execute if score move_emerald SQ26 matches -1 if score emerald_PNJ DIALOG matches 4 run function att2:dialogs/sidequest/sq27/emerald/dialog_4
 execute if score emerald_PNJ DIALOG matches 3 run function att2:dialogs/sidequest/sq26/emerald/dialog_3
 execute if score emerald_PNJ DIALOG matches 2 run function att2:dialogs/sidequest/sq25/emerald/dialog_2
 execute if score emerald_PNJ DIALOG matches 1 run function att2:dialogs/sidequest/sq25/emerald/dialog_1
