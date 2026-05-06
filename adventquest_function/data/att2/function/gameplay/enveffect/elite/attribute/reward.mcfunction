@@ -39,6 +39,6 @@ scoreboard players set loot_count CAL 0
 scoreboard players operation CLASSLEVEL CAL /= 4 CAL
 scoreboard players operation loot_count CAL += CLASSLEVEL CAL
 scoreboard players operation loot_count CAL += level DIFFICULTY
-scoreboard players operation loot_count CAL += BonusLootBoss RUNE
+scoreboard players operation loot_count CAL += #BonusLootBoss RUNE
 ##looping
 function att2:gameplay/enveffect/elite/loot_reward

@@ -4,7 +4,8 @@
 #################################################
 
 ##test distance
-execute if entity @p[distance=..15,gamemode=adventure,predicate=att2_pre:score/player] run return 0
+execute if entity @p[distance=..15,gamemode=adventure,predicate=att2_pre:score/player] run return fail
+execute if entity @p[gamemode=!adventure,predicate=att2_pre:score/player] run return fail
 
 ##tp player
 tp @s @p[gamemode=adventure,predicate=att2_pre:score/player]

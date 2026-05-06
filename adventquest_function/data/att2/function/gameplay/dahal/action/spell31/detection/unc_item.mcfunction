@@ -9,8 +9,6 @@ playsound piece2 block @s ~ ~ ~ 0.2 0.777
 
 scoreboard players operation unc SPELL31 = unc SPELL31_DATA
 scoreboard players operation unc SPELL31 *= @s SPELL31_CAP
-#from shop
-execute if predicate att2_pre:recycle/buy/unc if score unc SPELL31 matches 10.. run scoreboard players set unc SPELL31 10
 
 scoreboard players operation @s CHRONOTON += unc SPELL31
 experience add @s[scores={SPELL31_CAP=1..}] 20 points

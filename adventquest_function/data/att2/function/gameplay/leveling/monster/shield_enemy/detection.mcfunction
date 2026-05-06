@@ -10,7 +10,7 @@ execute if items entity @s weapon.mainhand #minecraft:pickaxes run scoreboard pl
 execute if items entity @s weapon.mainhand #minecraft:spears run scoreboard players set #count CAL 15
 execute if items entity @s weapon.mainhand #minecraft:hoes run scoreboard players set #count CAL 15
 execute if items entity @s weapon.mainhand #minecraft:axes[enchantments~[{enchantments:"att2_enchantment:armorbreak"}]] run scoreboard players set #count CAL 35
-execute unless items entity @s weapon.mainhand *[custom_data~{EquipmentType:meleeWeapon}] run scoreboard players set #count CAL 1
+execute unless items entity @s weapon.mainhand *[custom_data~{EquipmentType:meleeWeapon}] run scoreboard players set #count CAL 5
 #axe
 execute if score #ForceReplace ENEMYHEALTH matches 1 run scoreboard players set #count CAL 20
 #sycthe

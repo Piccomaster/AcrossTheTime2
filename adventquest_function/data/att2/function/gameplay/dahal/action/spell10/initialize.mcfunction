@@ -6,6 +6,7 @@
 scoreboard objectives add Wall_Breaking dummy
 scoreboard objectives add COOLDOWN10 dummy
 scoreboard objectives add SPELL10_LVL dummy
+execute if score @s SPELL10_CAP matches 1.. run return fail
 scoreboard objectives add SPELL10_EFFECT dummy
 scoreboard objectives add SPELL10_CAP dummy
 scoreboard objectives add SPELL10_OWNER dummy

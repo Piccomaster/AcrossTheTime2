@@ -5,6 +5,7 @@
 
 scoreboard objectives add COOLDOWN6 dummy
 scoreboard objectives add SPELL6_LVL dummy
+execute if score @s SPELL6_CAP matches 1.. run return fail
 scoreboard objectives add SPELL6_EFFECT dummy
 scoreboard objectives add SPELL6_CAP dummy
 scoreboard objectives add SPELL6_OWNER dummy

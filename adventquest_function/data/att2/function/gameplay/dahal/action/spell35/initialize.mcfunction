@@ -6,6 +6,7 @@
 scoreboard objectives add COOLDOWN35 dummy
 scoreboard objectives add OWNER dummy
 scoreboard objectives add SPELL35_LVL dummy
+execute if score @s SPELL35_CAP matches 1.. run return fail
 scoreboard objectives add SPELL35_CAP dummy
 scoreboard objectives add SPELL35_TIMER dummy
 

@@ -7,6 +7,7 @@
 execute at @s as @n[distance=..0.1,type=item_display,tag=ChestDisplay,tag=Head] run data merge entity @s {transformation:{translation:[0.0,1.0,-0.25],right_rotation:[-1.0,0.0,0.0,1.0],left_rotation:[0.0,0.0,0.0,1.0]},start_interpolation:0,interpolation_duration:5,teleport_duration:5}
 ##remove glowing
 execute at @s as @e[distance=..0.1,type=item_display,tag=ChestDisplay] run data modify entity @s Glowing set value false
+execute at @s as @e[distance=..0.1,type=item_display,tag=ChestDisplay] run tag @s add Open
 
 ####reset score
 scoreboard players set #player CAL 0

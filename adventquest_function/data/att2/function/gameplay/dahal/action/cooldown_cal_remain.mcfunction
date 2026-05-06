@@ -3,7 +3,7 @@
 #Cooldown cal remain										    #
 #################################################################
 
-scoreboard players operation total remain_time = CooldownTotal RUNE
+scoreboard players operation total remain_time = #CooldownTotal RUNE
 scoreboard players operation total remain_time *= 2 CAL
 scoreboard players operation total remain_time += 200 CAL
 #clear 0

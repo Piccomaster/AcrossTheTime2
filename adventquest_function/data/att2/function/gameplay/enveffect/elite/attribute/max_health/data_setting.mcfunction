@@ -34,3 +34,10 @@ attribute @s minecraft:scale base set 1.3
 #tellraw @a {score:{name:"MAX_HEALTH",objective:"CAL"}}
 ##reset
 scoreboard players reset MAX_HEALTH CAL
+
+
+##resistance
+execute if score level DIFFICULTY matches -1 run effect give @s resistance infinite 0 true
+execute if score level DIFFICULTY matches 0 run effect give @s resistance infinite 1 true
+execute if score level DIFFICULTY matches 1 run effect give @s resistance infinite 2 true
+execute if score level DIFFICULTY matches 2 run effect give @s resistance infinite 3 true

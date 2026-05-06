@@ -16,3 +16,9 @@ tag @e[type=text_display,limit=1,tag=SPECIAL_ELITE,tag=New,distance=..20] remove
 
 ##set score
 scoreboard players set @s SPECIAL_ELITE 2
+
+##resistance
+execute if score level DIFFICULTY matches -1 run effect give @s resistance infinite 0 true
+execute if score level DIFFICULTY matches 0 run effect give @s resistance infinite 1 true
+execute if score level DIFFICULTY matches 1 run effect give @s resistance infinite 2 true
+execute if score level DIFFICULTY matches 2 run effect give @s resistance infinite 3 true

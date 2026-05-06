@@ -30,3 +30,9 @@ execute store result entity @s attributes[{id:"minecraft:attack_damage"}].base i
 attribute @s minecraft:scale base set 0.8
 ##reset
 scoreboard players reset ATK_DAMAGE CAL
+
+##resistance
+execute if score level DIFFICULTY matches -1 run effect give @s resistance infinite 0 true
+execute if score level DIFFICULTY matches 0 run effect give @s resistance infinite 1 true
+execute if score level DIFFICULTY matches 1 run effect give @s resistance infinite 2 true
+execute if score level DIFFICULTY matches 2 run effect give @s resistance infinite 3 true

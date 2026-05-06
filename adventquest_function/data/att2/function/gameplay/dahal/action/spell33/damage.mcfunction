@@ -4,7 +4,7 @@
 #################################################################
 
 #damage
-$damage @s $(damage) att2_damage:magic by @p
+$damage @s $(damage) att2_damage:magic by @p[predicate=att2_pre:score/player]
 
 ##particle
 particle minecraft:enchanted_hit ~ ~0.3 ~ 0.5 0.5 0.5 0 10 normal

@@ -3,7 +3,7 @@
 #Apply hunger malus effect                       #
 ##################################################
 
-scoreboard players operation @s[scores={TIMER_HUN_TOT=..0}] TIMER_HUN_TOT = malus_3 HUN_DATA
+scoreboard players operation @s[scores={TIMER_HUN_TOT=..0}] TIMER_HUN_TOT = #malus_3 HUN_DATA
 #get score
 scoreboard players operation #TIMER_HUN_TOT HUN_DATA = #malus_3 HUN_DATA
 scoreboard players operation #TIMER_HUN_TOT HUN_DATA /= 20 CAL

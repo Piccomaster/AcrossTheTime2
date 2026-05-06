@@ -8,8 +8,6 @@ playsound piece2 block @s ~ ~ ~ 0.3 0.777
 
 scoreboard players operation rar SPELL31 = rar SPELL31_DATA
 scoreboard players operation rar SPELL31 *= @s SPELL31_CAP
-#from shop
-execute if predicate att2_pre:recycle/buy/rar if score rar SPELL31 matches 20.. run scoreboard players set rar SPELL31 20
 
 scoreboard players operation @s CHRONOTON += rar SPELL31
 experience add @s[scores={SPELL31_CAP=1..}] 50 points

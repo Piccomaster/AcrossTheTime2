@@ -34,3 +34,9 @@ execute store result entity @s attributes[{id:"minecraft:max_health"}].base int 
 ##reset
 scoreboard players reset MAX_HEALTH CAL
 scoreboard players reset ATK_DAMAGE CAL
+
+##resistance
+execute if score level DIFFICULTY matches -1 run effect give @s resistance infinite 0 true
+execute if score level DIFFICULTY matches 0 run effect give @s resistance infinite 1 true
+execute if score level DIFFICULTY matches 1 run effect give @s resistance infinite 2 true
+execute if score level DIFFICULTY matches 2 run effect give @s resistance infinite 3 true

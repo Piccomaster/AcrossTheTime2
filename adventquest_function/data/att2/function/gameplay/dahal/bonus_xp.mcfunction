@@ -13,4 +13,4 @@ execute as @s[scores={GAMELEVEL=50..,LEVELMASTER=200..249}] run scoreboard playe
 execute as @s[scores={GAMELEVEL=50..,LEVELMASTER=250..299}] run scoreboard players set @s BONUS_XP_SPELL 7
 execute as @s[scores={GAMELEVEL=50..,LEVELMASTER=300..,LEVELETERNAN=1..}] run scoreboard players set @s BONUS_XP_SPELL 10
 
-scoreboard players operation @s BONUS_XP_SPELL += BonusSpellXP RUNE
+scoreboard players operation @s BONUS_XP_SPELL += #BonusSpellXP RUNE
