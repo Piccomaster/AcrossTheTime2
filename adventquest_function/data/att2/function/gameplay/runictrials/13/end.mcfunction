@@ -20,6 +20,7 @@ execute positioned -4090 43 -5202 run function att2:summon/reg_1/witherarchertri
 # effet
 execute positioned -4090 44 -5194 as @a[distance=..15,gamemode=adventure] at @s run function att2:gameplay/runictrials/effect_end
 execute positioned -4090 44 -5194 as @e[distance=..60,tag=NewInvo] run function att2:gameplay/invocation/action/summon
+execute positioned -4024 71.5 -5208 as @e[type=minecraft:armor_stand,tag=RunicBlackFire,distance=..5] at @s run kill @s
 
 # door
 function att2:gameplay/runictrials/13/end_door_opened
