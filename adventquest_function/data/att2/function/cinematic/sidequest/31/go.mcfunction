@@ -13,7 +13,7 @@
 #############################################################
 
 execute if score cinematic1 SQ31 matches 0 if entity @a[x=-5324,y=105,z=-5819,distance=..30,gamemode=adventure] run function att2:cinematic/sidequest/31/step2
-execute if score cinematic1 SQ31 matches 1 if entity @a[x=-5315,y=108,z=-5811,distance=..20,gamemode=adventure] unless entity @e[type=minecraft:wolf,team=hostile,x=-5315,y=108,z=-5811,distance=..20] run scoreboard players add cinematic1 SQ31 2
+execute if score cinematic1 SQ31 matches 1 if entity @a[x=-5315,y=108,z=-5811,distance=..20,gamemode=adventure] unless entity @e[type=minecraft:wolf,team=hostile,x=-5315,y=108,z=-5811,distance=..40] run scoreboard players add cinematic1 SQ31 2
 
 execute if score cinematic1 SQ31 matches 10 run function att2:cinematic/sidequest/31/move_pnj
 execute if score cinematic1 SQ31 matches 40 as @a[x=-5324,y=105,z=-5819,distance=..30,gamemode=adventure] run tp @s -5313 109 -5817

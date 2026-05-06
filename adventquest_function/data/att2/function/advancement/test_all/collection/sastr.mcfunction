@@ -9,4 +9,4 @@ function att2:advancement/exploit_20
 advancement grant @s only att2:adventure/myt
 
 ##reset
-function att2:items/legendary/sastr
+#function att2:items/legendary/sastr

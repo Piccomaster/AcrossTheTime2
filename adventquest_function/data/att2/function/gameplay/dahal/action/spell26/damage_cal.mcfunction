@@ -27,7 +27,8 @@ scoreboard players operation #Damage CAL /= 3 CAL
 execute if score #Percent_Health CAL matches ..10 at @s run function att2:gameplay/dahal/action/spell26/boom_effect
 ##store Damage
 execute store result storage att2:score damage int 1 run scoreboard players get #Damage CAL
-
+scoreboard players set #TEST CAL 0
+scoreboard players set #CriticalSpellTrigger CAL 0
 execute at @s as @e[type=!bat,scores={GAMELEVEL=0..},team=hostile,distance=..5] run function att2:gameplay/dahal/action/spell26/damage with storage att2:score
 ##particle
 execute at @s run particle minecraft:explosion ~ ~ ~ 0.3 0.3 0.3 0 3 normal

@@ -17,3 +17,9 @@ scoreboard players set @s SPECIAL_ELITE 3
 
 ##add Tags
 tag @s add FB_DAHAL
+
+##resistance
+execute if score level DIFFICULTY matches -1 run effect give @s resistance infinite 0 true
+execute if score level DIFFICULTY matches 0 run effect give @s resistance infinite 1 true
+execute if score level DIFFICULTY matches 1 run effect give @s resistance infinite 2 true
+execute if score level DIFFICULTY matches 2 run effect give @s resistance infinite 3 true
