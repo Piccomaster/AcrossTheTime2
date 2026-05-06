@@ -6,6 +6,7 @@
 scoreboard objectives add COOLDOWN25 dummy
 scoreboard objectives add OWNER dummy
 scoreboard objectives add SPELL25_LVL dummy
+execute if score @s SPELL25_CAP matches 1.. run return fail
 scoreboard objectives add SPELL25_CAP dummy
 scoreboard objectives add SPELL25_MAX dummy
 scoreboard players set @s COOLDOWN25 -100

@@ -5,6 +5,7 @@
 
 scoreboard objectives add COOLDOWN24 dummy
 scoreboard objectives add SPELL24_LVL dummy
+execute if score @s SPELL24_CAP matches 1.. run return fail
 #scoreboard objectives add SPELL24_EFFECT dummy
 scoreboard objectives add SPELL24_CAP dummy
 scoreboard objectives add SPELL24_DATA dummy

@@ -18,7 +18,7 @@ execute as @e[type=minecraft:frog,tag=NewPet] run tag @s remove NewPet
 execute as @e[type=minecraft:frog,tag=NewInvo,distance=..10] run function att2:gameplay/invocation/action/summon
 
 scoreboard players remove @s DAHAL 350
-scoreboard players remove @s DAHAL 7000
+scoreboard players remove @s DAHAL_TICK 7000
 function att2:gameplay/dahal/action/spell31/cooldown
 
 # Spell launch total count for advancement

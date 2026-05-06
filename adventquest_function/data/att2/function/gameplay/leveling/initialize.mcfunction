@@ -6,6 +6,7 @@
 #####################################################
 
 scoreboard objectives add GAMELEVEL dummy
+execute if score @s GAMELEVEL matches 1.. run return fail
 scoreboard objectives add PLAYERNUMBER dummy
 scoreboard objectives add LVL_UPGRADE_REQ dummy
 scoreboard objectives add LVL_MC level

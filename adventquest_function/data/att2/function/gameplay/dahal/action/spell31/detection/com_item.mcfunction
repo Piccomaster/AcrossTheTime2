@@ -8,8 +8,6 @@ playsound piece2 block @s ~ ~ ~ 0.2 0.777
 #normal item
 scoreboard players operation com SPELL31 = com SPELL31_DATA
 scoreboard players operation com SPELL31 *= @s SPELL31_CAP
-#from shop
-execute if predicate att2_pre:recycle/buy/com if score com SPELL31 matches 1.. run scoreboard players set com SPELL31 1
 
 scoreboard players operation @s CHRONOTON += com SPELL31
 experience add @s[scores={SPELL31_CAP=1..}] 10 points

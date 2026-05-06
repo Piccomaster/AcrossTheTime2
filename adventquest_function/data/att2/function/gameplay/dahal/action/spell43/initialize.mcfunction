@@ -5,6 +5,7 @@
 
 scoreboard objectives add COOLDOWN43 dummy
 scoreboard objectives add SPELL43_LVL dummy
+execute if score @s SPELL43_CAP matches 1.. run return fail
 scoreboard objectives add SPELL43_CAP dummy
 scoreboard players set @s COOLDOWN43 -100
 scoreboard players set @s SPELL43_LVL 0

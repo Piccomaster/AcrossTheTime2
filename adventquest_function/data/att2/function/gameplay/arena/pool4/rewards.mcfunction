@@ -304,26 +304,26 @@ execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_4/are
 
 function att2:summon/bat_runes_abc_rewards_10
 
-execute if score BonusLootBoss RUNE matches 1.. run function att2:summon/reg_1/arena_rewards
-execute if score BonusLootBoss RUNE matches 1.. run function att2:summon/reg_2/arena_rewards
-execute if score BonusLootBoss RUNE matches 2.. run function att2:summon/reg_3/arena_rewards
-execute if score BonusLootBoss RUNE matches 2.. run function att2:summon/reg_4/arena_rewards
-execute if score BonusLootBoss RUNE matches 3.. run function att2:summon/reg_4/arena_rewards
-execute if score BonusLootBoss RUNE matches 3.. run function att2:summon/reg_2/arena_rewards
-execute if score BonusLootBoss RUNE matches 4.. run function att2:summon/reg_3/arena_rewards
-execute if score BonusLootBoss RUNE matches 4.. run function att2:summon/reg_4/arena_rewards
-execute if score BonusLootBoss RUNE matches 5.. run function att2:summon/reg_1/arena_rewards
-execute if score BonusLootBoss RUNE matches 5.. run function att2:summon/reg_2/arena_rewards
-execute if score BonusLootBoss RUNE matches 6.. run function att2:summon/reg_3/arena_rewards
-execute if score BonusLootBoss RUNE matches 6.. run function att2:summon/reg_4/arena_rewards
-execute if score BonusLootBoss RUNE matches 7.. run function att2:summon/reg_1/arena_rewards
-execute if score BonusLootBoss RUNE matches 7.. run function att2:summon/reg_2/arena_rewards
-execute if score BonusLootBoss RUNE matches 8.. run function att2:summon/reg_3/arena_rewards
-execute if score BonusLootBoss RUNE matches 8.. run function att2:summon/reg_4/arena_rewards
-execute if score BonusLootBoss RUNE matches 9.. run function att2:summon/reg_1/arena_rewards
-execute if score BonusLootBoss RUNE matches 9.. run function att2:summon/reg_2/arena_rewards
-execute if score BonusLootBoss RUNE matches 10.. run function att2:summon/reg_3/arena_rewards
-execute if score BonusLootBoss RUNE matches 10.. run function att2:summon/reg_4/arena_rewards
+execute if score #BonusLootBoss RUNE matches 1.. run function att2:summon/reg_1/arena_rewards
+execute if score #BonusLootBoss RUNE matches 1.. run function att2:summon/reg_2/arena_rewards
+execute if score #BonusLootBoss RUNE matches 2.. run function att2:summon/reg_3/arena_rewards
+execute if score #BonusLootBoss RUNE matches 2.. run function att2:summon/reg_4/arena_rewards
+execute if score #BonusLootBoss RUNE matches 3.. run function att2:summon/reg_4/arena_rewards
+execute if score #BonusLootBoss RUNE matches 3.. run function att2:summon/reg_2/arena_rewards
+execute if score #BonusLootBoss RUNE matches 4.. run function att2:summon/reg_3/arena_rewards
+execute if score #BonusLootBoss RUNE matches 4.. run function att2:summon/reg_4/arena_rewards
+execute if score #BonusLootBoss RUNE matches 5.. run function att2:summon/reg_1/arena_rewards
+execute if score #BonusLootBoss RUNE matches 5.. run function att2:summon/reg_2/arena_rewards
+execute if score #BonusLootBoss RUNE matches 6.. run function att2:summon/reg_3/arena_rewards
+execute if score #BonusLootBoss RUNE matches 6.. run function att2:summon/reg_4/arena_rewards
+execute if score #BonusLootBoss RUNE matches 7.. run function att2:summon/reg_1/arena_rewards
+execute if score #BonusLootBoss RUNE matches 7.. run function att2:summon/reg_2/arena_rewards
+execute if score #BonusLootBoss RUNE matches 8.. run function att2:summon/reg_3/arena_rewards
+execute if score #BonusLootBoss RUNE matches 8.. run function att2:summon/reg_4/arena_rewards
+execute if score #BonusLootBoss RUNE matches 9.. run function att2:summon/reg_1/arena_rewards
+execute if score #BonusLootBoss RUNE matches 9.. run function att2:summon/reg_2/arena_rewards
+execute if score #BonusLootBoss RUNE matches 10.. run function att2:summon/reg_3/arena_rewards
+execute if score #BonusLootBoss RUNE matches 10.. run function att2:summon/reg_4/arena_rewards
 
 execute if score level DIFFICULTY matches 0.. run summon minecraft:experience_orb ~3 ~ ~ {Value:10000}
 execute if score level DIFFICULTY matches 0.. run summon minecraft:experience_orb ~-3 ~ ~ {Value:10000}

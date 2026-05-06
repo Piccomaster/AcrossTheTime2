@@ -3624,3 +3624,7 @@ execute if score @s ScoreTrigger matches 3536 run function att2:gameplay/shop/pr
 
 
 execute if score @s ScoreTrigger matches 3537 run function att2:cinematic/act_2/sylvandre_2_jump_1
+
+
+
+execute if score @s ScoreTrigger matches 3538 run execute as @s at @e[distance=..7,type=#minecraft:pnj] if score @s PNJID = @n[distance=..0,type=#minecraft:pnj] PNJID anchored eyes positioned ^ ^ ^ run function att2:gameplay/shop/purchase/spell/blood_transmutation

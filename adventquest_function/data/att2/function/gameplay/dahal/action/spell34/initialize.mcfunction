@@ -6,6 +6,7 @@
 scoreboard objectives add COOLDOWN34 dummy
 scoreboard objectives add LIMIT77 dummy
 scoreboard objectives add SPELL34_LVL dummy
+execute if score @s SPELL34_CAP matches 1.. run return fail
 scoreboard objectives add SPELL34_CAP dummy
 scoreboard objectives add SPELL34_INIT dummy
 scoreboard objectives add SPELL34_CHEST dummy

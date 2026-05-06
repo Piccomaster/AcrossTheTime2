@@ -4,7 +4,6 @@
 #########################################################################
 
 scoreboard players set move_emerald SQ27 1
-execute as 00000000-0000-005a-0000-00000000005a at @s run tp @s ~ ~-30 ~
 #remove force load
 execute as 00000000-0000-005a-0000-00000000005a at @s run forceload remove ~ ~
 data modify entity 00000000-0000-005a-0000-00000000005a data.rotation set value [-150,0]

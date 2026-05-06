@@ -5,6 +5,7 @@
 
 scoreboard objectives add COOLDOWN45 dummy
 scoreboard objectives add SPELL45_LVL dummy
+execute if score @s SPELL45_CAP matches 1.. run return fail
 scoreboard objectives add SPELL45_CAP dummy
 scoreboard objectives add SPELL45_TIMER dummy
 scoreboard objectives add SPELL45_HER dummy

@@ -5,6 +5,7 @@
 
 scoreboard objectives add COOLDOWN31 dummy
 scoreboard objectives add SPELL31_LVL dummy
+execute if score @s SPELL31_CAP matches 1.. run return fail
 scoreboard objectives add SPELL31_CAP dummy
 scoreboard objectives add SPELL31 dummy
 scoreboard objectives add SPELL31_DATA dummy

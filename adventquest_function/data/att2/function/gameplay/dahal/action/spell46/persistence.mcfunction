@@ -10,8 +10,8 @@ particle minecraft:soul ~ ~ ~ 0.1 0 0.1 0 1
 particle minecraft:trial_omen ~ ~ ~ 0.1 0.0 0.1 0 1
 
 ##add dar
-scoreboard players add @s DAR_SP 1
-scoreboard players set @s TIMER_DAR_SP 1
+execute if score tic TIMECOUNTER matches 6 run scoreboard players add @s DAR_SP 1
+#scoreboard players set @s[scores={TIMER_DAR_SP=0}] TIMER_DAR_SP 1
 
 ##remove score
 execute unless score @s SPELL46_TIMER matches ..0 run return run scoreboard players remove @s SPELL46_TIMER 1

@@ -32,16 +32,16 @@ execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/atr
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/atricanth_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/atricanth_rewards
 
-execute if score BonusLootBoss RUNE matches 1.. run function att2:summon/reg_2/atricanth_rewards
-execute if score BonusLootBoss RUNE matches 2.. run function att2:summon/reg_2/atricanth_rewards
-execute if score BonusLootBoss RUNE matches 3.. run function att2:summon/reg_2/atricanth_rewards
-execute if score BonusLootBoss RUNE matches 4.. run function att2:summon/reg_2/atricanth_rewards
-execute if score BonusLootBoss RUNE matches 5.. run function att2:summon/reg_2/atricanth_rewards
-execute if score BonusLootBoss RUNE matches 6.. run function att2:summon/reg_2/atricanth_rewards
-execute if score BonusLootBoss RUNE matches 7.. run function att2:summon/reg_2/atricanth_rewards
-execute if score BonusLootBoss RUNE matches 8.. run function att2:summon/reg_2/atricanth_rewards
-execute if score BonusLootBoss RUNE matches 9.. run function att2:summon/reg_2/atricanth_rewards
-execute if score BonusLootBoss RUNE matches 10.. run function att2:summon/reg_2/atricanth_rewards
+execute if score #BonusLootBoss RUNE matches 1.. run function att2:summon/reg_2/atricanth_rewards
+execute if score #BonusLootBoss RUNE matches 2.. run function att2:summon/reg_2/atricanth_rewards
+execute if score #BonusLootBoss RUNE matches 3.. run function att2:summon/reg_2/atricanth_rewards
+execute if score #BonusLootBoss RUNE matches 4.. run function att2:summon/reg_2/atricanth_rewards
+execute if score #BonusLootBoss RUNE matches 5.. run function att2:summon/reg_2/atricanth_rewards
+execute if score #BonusLootBoss RUNE matches 6.. run function att2:summon/reg_2/atricanth_rewards
+execute if score #BonusLootBoss RUNE matches 7.. run function att2:summon/reg_2/atricanth_rewards
+execute if score #BonusLootBoss RUNE matches 8.. run function att2:summon/reg_2/atricanth_rewards
+execute if score #BonusLootBoss RUNE matches 9.. run function att2:summon/reg_2/atricanth_rewards
+execute if score #BonusLootBoss RUNE matches 10.. run function att2:summon/reg_2/atricanth_rewards
 
 function att2:summon/reg_2/atricanth_rewards_dedicated
 

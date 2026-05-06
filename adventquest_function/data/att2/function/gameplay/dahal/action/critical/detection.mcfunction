@@ -14,6 +14,7 @@ scoreboard players set #Critical CAL 5
 
 scoreboard players operation @s CriticalGuarantee += #Critical CAL
 execute unless score @s CRT_TOT matches ..0 run scoreboard players operation #Critical CAL *= @s CRT_TOT
+
 ##critical damage
 scoreboard players operation #percent CAL = #Critical CAL
 scoreboard players add #percent CAL 100
