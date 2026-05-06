@@ -3,6 +3,9 @@
 #Process cinematic ocar_4_go  		 		 	 #
 ##################################################
 
+##clear interaction
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-006a-0000-00000000006a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+
 execute if score Neth0 TIMER matches 0 run function att2:dialogs/mainquest/act_3/ch2_namrin_7
 execute if score Neth0 TIMER matches 0 run function att2:voice/namrin/namrin7
 execute if score Neth0 TIMER matches 200 as 00000000-0000-006a-0000-00000000006a at @s run tp @s ~ ~ ~ 25 5

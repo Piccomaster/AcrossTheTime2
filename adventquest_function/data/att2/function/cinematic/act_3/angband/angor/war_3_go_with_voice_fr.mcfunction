@@ -3,6 +3,12 @@
 #Process cinematic war_3_go  		 		 	 #
 ##################################################
 
+##clear interaction
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-001a-0000-00000000001a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-006a-0000-00000000006a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-007a-0000-00000000007a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-008a-0000-00000000008a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+
 #Flamme Noire Deflagration
 execute if score Neth0 TIMER matches 0..50 as @a[scores={DIMENSION=6}] at @s run tp @s ~ ~ ~ -50 -15
 execute if score Neth0 TIMER matches 10 in minecraft:the_nether run function att2:cinematic/act_3/angband/angor/war_3_action_1

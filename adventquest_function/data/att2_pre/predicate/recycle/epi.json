@@ -2,7 +2,14 @@
     "condition": "entity_properties",
     "entity": "this",
     "predicate": {
-        "type": "minecraft:item",
-        "nbt": "{Item:{components: {'minecraft:custom_data': {Rarity: epi}}}}"
+        "slots": {
+            "container.0": {
+                "predicates": {
+                    "custom_data": {
+                        "Rarity": "epi"
+                    }
+                }
+            }
+        }
     }
 }

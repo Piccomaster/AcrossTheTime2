@@ -1,3 +1,3 @@
-execute if score VF Voice matches 1 positioned as 00000000-0000-003a-0000-00000000003a as @a[distance=..128] at @s run playsound voiceact:sylvandre24 voice @s ~ ~ ~ 1 1
-execute if score VF Voice matches 2 positioned as 00000000-0000-003a-0000-00000000003a as @a[distance=..128] at @s run playsound voiceact:en_sylvandre24 voice @s ~ ~ ~ 1 1
-execute if score VF Voice matches 3 positioned as 00000000-0000-003a-0000-00000000003a as @a[distance=..128] at @s run playsound voiceact:zh_cn_sylvandre24 voice @s ~ ~ ~ 1 1
+execute if score VF Voice matches 1 at 00000000-0000-003a-0000-00000000003a as @a[distance=..128] at @s run playsound voiceact:sylvandre24 voice @s ~ ~ ~ 1 1
+execute if score VF Voice matches 2 at 00000000-0000-003a-0000-00000000003a as @a[distance=..128] at @s run playsound voiceact:en_sylvandre24 voice @s ~ ~ ~ 1 1
+execute if score VF Voice matches 3 at 00000000-0000-003a-0000-00000000003a as @a[distance=..128] at @s run playsound voiceact:zh_cn_sylvandre24 voice @s ~ ~ ~ 1 1

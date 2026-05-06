@@ -36,7 +36,7 @@ execute if score FlammeNoire ANGOR matches 0..9 store result bossbar minecraft:f
 execute if score FlammeNoire ANGOR matches 0..9 store result bossbar minecraft:flamme_noire max run attribute 00000000-0000-005b-0000-00000000006b max_health get
 
 # Security because Ghast are killed in one Fireball
-execute if score FlammeNoire ANGOR matches 0..9 at 00000000-0000-005b-0000-00000000006b as @e[type=minecraft:fireball,tag=FireballSpell,distance=..7] run data merge entity @s {Motion:[0.0,4.0,0.0]}
+execute if score FlammeNoire ANGOR matches 0..9 at 00000000-0000-005b-0000-00000000006b run kill @e[type=minecraft:fireball,tag=FireballSpell,distance=..2]
 
 # Attacking
 execute if score FlammeNoire ANGOR matches 2..3 if score FlammeNoire ANGOR_BOSS matches 0 run function att2:gameplay/boss/angband/flamme_noire/start_attacking

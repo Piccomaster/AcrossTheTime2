@@ -11,8 +11,6 @@ tag @s remove Cool
 ##snyc score
 scoreboard players operation @s ENTEMPERATURE = #Environment TEMPERATURE
 scoreboard players operation @s ENTEMPERATURE *= -1 CAL
-##effect health
-effect give @s minecraft:poison 5 0 true
 ##remove health
 scoreboard players operation #reduce_health CAL = #Environment TEMPERATURE
 scoreboard players operation #reduce_health CAL *= 50 CAL
@@ -20,7 +18,7 @@ scoreboard players operation #reduce_health CAL *= 50 CAL
 scoreboard players operation @s HER_VALUE -= #reduce_health CAL
 ##add time
 scoreboard players operation #time CAL = #Environment TEMPERATURE
-scoreboard players operation #time CAL *= 20 CAL
+scoreboard players operation #time CAL *= 40 CAL
 scoreboard players operation @s TEMPERATURE += #time CAL
 execute if score @s TEMPERATURE matches ..400 run scoreboard players set @s TEMPERATURE 400
 ##tip

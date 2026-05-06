@@ -5,12 +5,12 @@
 
 scoreboard players operation arrow RECYCLER *= 1 RECYCLER
 scoreboard players operation misc RECYCLER *= 1 RECYCLER
-scoreboard players operation com RECYCLER *= 6 RECYCLER
-scoreboard players operation unc RECYCLER *= 12 RECYCLER
-scoreboard players operation rar RECYCLER *= 19 RECYCLER
-scoreboard players operation epi RECYCLER *= 27 RECYCLER
-scoreboard players operation epi_set RECYCLER *= 36 RECYCLER
-scoreboard players operation epi_esc RECYCLER *= 46 RECYCLER
-scoreboard players operation leg RECYCLER *= 57 RECYCLER
-scoreboard players operation leg_armset RECYCLER *= 69 RECYCLER
-scoreboard players operation ult RECYCLER *= 82 RECYCLER
+scoreboard players operation com RECYCLER *= 10 RECYCLER
+scoreboard players operation unc RECYCLER *= 20 RECYCLER
+scoreboard players operation rar RECYCLER *= 30 RECYCLER
+scoreboard players operation epi RECYCLER *= 100 RECYCLER
+scoreboard players operation epi_set RECYCLER *= 125 RECYCLER
+scoreboard players operation epi_esc RECYCLER *= 150 RECYCLER
+scoreboard players operation leg RECYCLER *= 300 RECYCLER
+scoreboard players operation leg_armset RECYCLER *= 400 RECYCLER
+scoreboard players operation ult RECYCLER *= 500 RECYCLER

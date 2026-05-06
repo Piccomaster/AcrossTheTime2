@@ -3,6 +3,17 @@
 #Process cinematic camp_exile/relgon_2_go  		 #
 ##################################################
 
+##clear interaction
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-001a-0000-00000000001a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-006a-0000-00000000006a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-007a-0000-00000000007a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-008a-0000-00000000008a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+##set score
+execute if score Neth0 TIMER matches 1.. run scoreboard players set 00000000-0000-001a-0000-00000000001a TALKING_LIMIT -1
+execute if score Neth0 TIMER matches 1.. run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING_LIMIT -1
+execute if score Neth0 TIMER matches 1.. run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING_LIMIT -1
+execute if score Neth0 TIMER matches 1.. run scoreboard players set 00000000-0000-008a-0000-00000000008a TALKING_LIMIT -1
+
 execute if score Neth0 TIMER matches 0..6450 run function att2:gameplay/speceffect/disincarnate/keep/neth0
 execute if score Neth0 TIMER matches 0..6450 run data modify storage att2:performance rotation set value [-30,20]
 
@@ -172,6 +183,13 @@ execute if score Neth0 TIMER matches 7100 as @a run function att2:dialogs/mainqu
 execute if score Neth0 TIMER matches 7100 as @a run function att2:voice/relgon/relgon_dialogue1
 execute if score Neth0 TIMER matches 7350 run function att2:cinematic/act_3/angband/camp_exile/relgon_2_action_6
 execute if score Neth0 TIMER matches 7351 run scoreboard players set Mainquest SIDEQUEST 64
+
+
+##set score
+execute if score Neth0 TIMER matches 7351 run scoreboard players set 00000000-0000-001a-0000-00000000001a TALKING_LIMIT 0
+execute if score Neth0 TIMER matches 7351 run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING_LIMIT 0
+execute if score Neth0 TIMER matches 7351 run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING_LIMIT 0
+execute if score Neth0 TIMER matches 7351 run scoreboard players set 00000000-0000-008a-0000-00000000008a TALKING_LIMIT 0
 
 
 #=======================#

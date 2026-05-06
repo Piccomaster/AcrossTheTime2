@@ -3,6 +3,17 @@
 #Process cinematic camp_exile/namrin_1_go  		 #
 ##################################################
 
+##clear interaction
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-001a-0000-00000000001a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-006a-0000-00000000006a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-007a-0000-00000000007a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-008a-0000-00000000008a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+##set score
+execute if score Neth0 TIMER matches 1.. run scoreboard players set 00000000-0000-001a-0000-00000000001a TALKING_LIMIT -1
+execute if score Neth0 TIMER matches 1.. run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING_LIMIT -1
+execute if score Neth0 TIMER matches 1.. run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING_LIMIT -1
+execute if score Neth0 TIMER matches 1.. run scoreboard players set 00000000-0000-008a-0000-00000000008a TALKING_LIMIT -1
+
 execute if score Neth0 TIMER matches 1 in minecraft:the_nether run function att2:physicmod/reg2/camp_exile/barrier7
 execute if score Neth0 TIMER matches 20 in minecraft:the_nether positioned 3477 71.5 3763 run function att2:summon/pnj/namrin
 execute if score Neth0 TIMER matches 20 in minecraft:the_nether positioned 3496 57 3763 run function att2:summon/pnj/etotsira_young
@@ -63,7 +74,11 @@ execute if score Neth0 TIMER matches 2540 run function att2:dialogs/title/a3_ch6
 execute if score Neth0 TIMER matches 2549 in minecraft:the_nether run function att2:cinematic/act_3/angband/camp_exile/namrin_1_action_1
 execute if score Neth0 TIMER matches 2550 at 00000000-0000-008a-0000-00000000008a unless entity @a[distance=..15,gamemode=adventure] run function att2:cinematic/act_3/angband/camp_exile/namrin_1_action_2
 execute if score Neth0 TIMER matches 2551 run scoreboard players set Mainquest SIDEQUEST 82
-
+##set score
+execute if score Neth0 TIMER matches 2551 run scoreboard players set 00000000-0000-001a-0000-00000000001a TALKING_LIMIT 0
+execute if score Neth0 TIMER matches 2551 run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING_LIMIT 0
+execute if score Neth0 TIMER matches 2551 run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING_LIMIT 0
+execute if score Neth0 TIMER matches 2551 run scoreboard players set 00000000-0000-008a-0000-00000000008a TALKING_LIMIT 0
 
 #=======================#
 #end of the cinematic	#

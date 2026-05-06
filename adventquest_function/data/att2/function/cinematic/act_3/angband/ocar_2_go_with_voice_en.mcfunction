@@ -14,6 +14,9 @@ execute if score Neth0 TIMER matches 10 in minecraft:the_nether positioned 3750 
 execute if score Neth0 TIMER matches 40 in minecraft:the_nether run tp 00000000-0000-001a-0000-00000000001a 3755 85 3800 -180 0
 execute if score Neth0 TIMER matches 40 in minecraft:the_nether run tp 00000000-0000-006a-0000-00000000006a 3750 85 3800 -180 0
 
+##clear interaction
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-001a-0000-00000000001a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+execute if score Neth0 TIMER matches 1.. at 00000000-0000-006a-0000-00000000006a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
 ### Summoning mortal soldiers
 
 execute if score Neth0 TIMER matches 50 run summon minecraft:zombified_piglin 3759 77 3777 {Tags:["LVL0","Undead"],DeathLootTable:"att2:empty",Health:1000,attributes:[{id:max_health,base:1000},{id:attack_damage,base:0.0},{id:follow_range,base:30.0}],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{mainhand:{id:"minecraft:golden_shovel",count:1},offhand:{},feet:{id:"minecraft:leather_boots",count:1,components:{dye_color:9049620}},legs:{id:"minecraft:leather_leggings",count:1,components:{dye_color:9589788}},chest:{id:"minecraft:leather_chestplate",count:1,components:{dye_color:9049620}},head:{id:"minecraft:leather_helmet",count:1,components:{enchantments:{"att2_enchantment:tick/mob_initialize":1},dye_color:9589788}}},UUID:[I;0,131087,0,131087]}

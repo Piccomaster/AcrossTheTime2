@@ -3,6 +3,12 @@
 #Process cinematic source_1_go  		 		 #
 ##################################################
 
+##set score
+execute if score Neth0 TIMER matches 1.. run scoreboard players set 00000000-0000-001a-0000-00000000001a TALKING_LIMIT -1
+execute if score Neth0 TIMER matches 1.. run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING_LIMIT -1
+execute if score Neth0 TIMER matches 1.. run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING_LIMIT -1
+execute if score Neth0 TIMER matches 1.. run scoreboard players set 00000000-0000-008a-0000-00000000008a TALKING_LIMIT -1
+
 # Etotsira, Namrïn Summoning
 execute if score Neth0 TIMER matches 1 in minecraft:the_nether run function att2:cinematic/act_3/angband/angor/source_1_action_1
 execute if score Neth0 TIMER matches 5 as @a[scores={DIMENSION=6}] at @s run function att2:sound/mobs/fn_yawning
@@ -81,6 +87,12 @@ execute if score Neth0 TIMER matches 1300 in minecraft:the_nether run function a
 execute if score Neth0 TIMER matches 1320 run effect give @a[scores={DIMENSION=6}] minecraft:blindness 2 0 true
 execute if score Neth0 TIMER matches 1331 in minecraft:the_nether as @a[scores={DIMENSION=6}] at @s run tp 3814 47 4703
 execute if score Neth0 TIMER matches 1331 run scoreboard players set Mainquest SIDEQUEST 80
+
+##set score
+execute if score Neth0 TIMER matches 1331 run scoreboard players set 00000000-0000-001a-0000-00000000001a TALKING_LIMIT 0
+execute if score Neth0 TIMER matches 1331 run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING_LIMIT 0
+execute if score Neth0 TIMER matches 1331 run scoreboard players set 00000000-0000-007a-0000-00000000007a TALKING_LIMIT 0
+execute if score Neth0 TIMER matches 1331 run scoreboard players set 00000000-0000-008a-0000-00000000008a TALKING_LIMIT 0
 
 #=======================#
 #end of the cinematic	#

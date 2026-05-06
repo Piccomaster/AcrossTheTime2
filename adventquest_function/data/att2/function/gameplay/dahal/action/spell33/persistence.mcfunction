@@ -41,12 +41,13 @@ function att2:gameplay/enveffect/temperature/trigger/spell33
 ##sound
 playsound block.conduit.ambient ambient @a ~ ~ ~ 1 1
 
+execute unless entity @n[distance=..10,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC,tag=!Invulnerable] run return fail
+
 ##player near limit
 function att2:gameplay/score/owner
 execute unless entity @p[distance=..20,predicate=att2_pre:score/player] run return fail
 ##detection dahal
 execute unless function att2:gameplay/dahal/action/spell33/detection_dahal run return fail
-execute unless entity @n[distance=..10,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC,tag=!Invulnerable] run return fail
 
 #summon armor_stand delay
 summon armor_stand ~ ~0.5 ~ {Tags:["New","Spell33","ATK"],Marker:true,Invisible:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/dahal/spell33":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},attributes:[{id:scale,base:0.01}]}

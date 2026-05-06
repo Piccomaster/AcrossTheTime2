@@ -8,6 +8,8 @@
 #range select
 tag @e[type=marker,tag=ChestMarker,tag=Select] remove Select
 
+##player see chest
+execute as @a run function att2:gameplay/misc/chesteffect/show_chest/eyes/go
 execute as @e[type=marker,tag=Show,tag=ChestMarker] at @s run function att2:gameplay/misc/chesteffect/show_chest/clear
 ##1
 execute if score Range CHESTEFFECT matches 1 at @a as @e[distance=..20,type=marker,tag=ChestMarker,tag=!Select,limit=20,sort=nearest] at @s run function att2:gameplay/misc/chesteffect/detection
