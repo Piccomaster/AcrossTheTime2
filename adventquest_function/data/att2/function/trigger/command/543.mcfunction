@@ -1,1 +1,1 @@
-execute positioned as @e[name=ARAMIS,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/nova_buy
+execute positioned as 00000000-0000-087a-0000-00000000087 at @s run function att2:gameplay/shop/purchase/spell/nova_buy

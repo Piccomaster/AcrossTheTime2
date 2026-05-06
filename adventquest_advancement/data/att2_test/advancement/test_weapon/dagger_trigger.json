@@ -10,27 +10,15 @@
           "type": {
             "tags": [
               {
-                "id": "minecraft:is_player_attack",
-                "expected": true
-              },
-              {
                 "id": "minecraft:bypasses_armor",
                 "expected": false
               },
               {
+                "id": "minecraft:bypasses_cooldown",
+                "expected": false
+              },
+              {
                 "id": "minecraft:avoids_guardian_thorns",
-                "expected": false
-              },
-              {
-                "id": "minecraft:is_fire",
-                "expected": false
-              },
-              {
-                "id": "minecraft:is_explosion",
-                "expected": false
-              },
-              {
-                "id": "minecraft:is_explosion",
                 "expected": false
               }
             ],

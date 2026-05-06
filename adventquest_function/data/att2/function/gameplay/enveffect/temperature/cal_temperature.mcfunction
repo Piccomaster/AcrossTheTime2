@@ -54,6 +54,8 @@ execute if predicate att2_pre:player/fire run scoreboard players add #Total TEMP
 ##spell
 execute if score @s SPELL44_TIMER matches 1.. run scoreboard players remove #Total TEMPERATURE 2
 execute if score @s SPELL45_TIMER matches 1.. run scoreboard players add #Total TEMPERATURE 2
+##torch
+execute if items entity @s weapon.* torch run scoreboard players add #Total TEMPERATURE 2
 
 
 ##weather

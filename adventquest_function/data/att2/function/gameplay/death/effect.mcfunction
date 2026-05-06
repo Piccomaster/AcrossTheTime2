@@ -22,7 +22,7 @@ effect give @s minecraft:darkness 5 0 true
 effect give @s minecraft:blindness 5 0 true
 effect give @s minecraft:slowness 5 10 true
 
-execute if score level DIFFICULTY matches -1 if score Mainquest SIDEQUEST matches 1.. run effect give @s minecraft:hunger 3 40 true
-execute if score level DIFFICULTY matches 0 if score Mainquest SIDEQUEST matches 1.. run effect give @s minecraft:hunger 4 40 true
-execute if score level DIFFICULTY matches 1 if score Mainquest SIDEQUEST matches 1.. run effect give @s minecraft:hunger 5 40 true
-execute if score level DIFFICULTY matches 2 if score Mainquest SIDEQUEST matches 1.. run effect give @s minecraft:hunger 6 40 true
+execute if score level DIFFICULTY matches -1 if score Mainquest SIDEQUEST matches 1.. run effect give @s minecraft:hunger 3 80 true
+execute if score level DIFFICULTY matches 0 if score Mainquest SIDEQUEST matches 1.. run effect give @s minecraft:hunger 4 80 true
+execute if score level DIFFICULTY matches 1 if score Mainquest SIDEQUEST matches 1.. run effect give @s minecraft:hunger 5 80 true
+execute if score level DIFFICULTY matches 2 if score Mainquest SIDEQUEST matches 1.. run effect give @s minecraft:hunger 6 80 true
