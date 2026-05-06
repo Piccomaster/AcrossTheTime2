@@ -34,4 +34,3 @@ tellraw @s [{translate:att2.spell_kill.tip,with:[{selector:'@s',color:dark_red},
 playsound minecraft:block.conduit.activate player @a ~ ~ ~ 150 1.5
 ##dailyquest trigger
 function att2:cinematic/dailyquest/trigger/spell_kill/spell_1
-function att2:cinematic/dailyquest/meleim/6/trigger/kill_bee

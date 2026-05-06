@@ -15,3 +15,4 @@ execute store result entity @s Fire int 1 run data get storage att2:sp_dmg SP1
 ##detection health
 function att2:gameplay/enemy_health/spell_health_trigger
 execute if score @s ENEMYHEALTH matches ..0 on attacker at @s run function att2:gameplay/dahal/spell_kill/spell_1
+execute if score @s ENEMYHEALTH matches ..0 as @s[type=bee] on attacker at @s run function att2:cinematic/dailyquest/meleim/6/trigger/kill_bee
