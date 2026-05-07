@@ -14,6 +14,7 @@ execute positioned -4414 66 -4456 run function att2:summon/reg_1/withertrialmini
 # effet
 execute positioned -4417 74 -4456 as @a[distance=..15,gamemode=adventure] at @s run function att2:gameplay/runictrials/effect_start
 execute positioned -4417 74 -4456 as @e[distance=..15,tag=NewInvo] run function att2:gameplay/invocation/action/summon
+execute positioned -4417 72.5 -4456 run function att2:gameplay/runictrials/summon_black_fire_entrance
 summon minecraft:lightning_bolt -4417 75 -4462
 
 # checkpoint
