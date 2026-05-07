@@ -950,7 +950,7 @@ execute in minecraft:overworld positioned -3969 90 -5861 run function att2:updat
 execute in minecraft:overworld positioned -3969 90 -5863 run function att2:update/chest_replace/store_data
 execute in minecraft:overworld positioned -3969 90 -5865 run function att2:update/chest_replace/store_data
 execute in minecraft:overworld positioned -3969 90 -5866 run function att2:update/chest_replace/store_data
-execute in minecraft:overworld positioned -3969 90 -5869 run function att2:update/chest_replace/store_data
+execute in minecraft:overworld positioned -3969 90 -5868 run function att2:update/chest_replace/store_data
 execute in minecraft:overworld positioned -3873 105 -5889 run function att2:update/chest_replace/store_data
 execute in minecraft:overworld positioned -3872 105 -5889 run function att2:update/chest_replace/store_data
 execute in minecraft:overworld positioned -3898 96 -5858 run function att2:update/chest_replace/store_data
@@ -1075,7 +1075,7 @@ execute in minecraft:overworld positioned -3707 69 -5863 run function att2:updat
 execute in minecraft:overworld positioned -3708 70 -5859 run function att2:update/chest_replace/store_data
 execute in minecraft:overworld positioned -3707 69 -5859 run function att2:update/chest_replace/store_data
 execute in minecraft:overworld positioned -3704 66 -5822 run function att2:update/chest_replace/store_data
-execute in minecraft:overworld positioned -3703 66 -5822 run function att2:update/chest_replace/store_data
+execute in minecraft:overworld positioned -3704 66 -5823 run function att2:update/chest_replace/store_data
 execute in minecraft:overworld positioned -3702 66 -5823 run function att2:update/chest_replace/store_data
 execute in minecraft:overworld positioned -3694 66 -5824 run function att2:update/chest_replace/store_data
 execute in minecraft:overworld positioned -3694 66 -5822 run function att2:update/chest_replace/store_data
