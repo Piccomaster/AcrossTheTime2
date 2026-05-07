@@ -6,5 +6,7 @@
 execute store result score leg_count SPELL30 if data entity @s Item.count
 scoreboard players operation leg SPELL30 += leg_count SPELL30
 
+scoreboard players operation total_count SPELL30 += leg_count SPELL30
+
 ##clear
 kill @s[type=item]

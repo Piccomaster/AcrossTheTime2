@@ -25,7 +25,7 @@ scoreboard players reset @s MasterDeathProtectTimer
 item modify entity @s armor.head {function:set_enchantments,enchantments:{"att2_enchantment:tick/elite/death_protect":0}}
 attribute @s minecraft:knockback_resistance modifier remove master_mechanics
 ##sound tip
-playsound entity.creaking.death hostile @a ~ ~ ~ 2 2
+playsound entity.creaking.death hostile @a ~ ~ ~ 1 2
 
 ##particle
 particle minecraft:dust{color:[0.27,0.03,0.63],scale:2} ~ ~ ~ 0.2 1 0.2 0 20 normal

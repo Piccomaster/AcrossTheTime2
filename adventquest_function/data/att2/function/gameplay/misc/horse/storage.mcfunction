@@ -17,6 +17,7 @@ $execute if entity @s[type=mule] run data modify storage att2:ride_$(player) id 
 ##
 $data modify storage att2:ride_$(player) data set from entity @s
 $data remove storage att2:ride_$(player) data.UUID
+$data remove storage att2:ride_$(player) data.Rotation
 $data remove storage att2:ride_$(player) data.Passengers
 #particle
 function att2:gameplay/misc/horse/particles

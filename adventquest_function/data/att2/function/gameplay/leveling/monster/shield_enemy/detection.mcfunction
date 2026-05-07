@@ -2,7 +2,7 @@
 #Made by adventquest									#
 #shield enemy block trigger
 #########################################################
-
+scoreboard players set #count CAL 5
 execute if items entity @s weapon.mainhand #minecraft:axes run scoreboard players set #count CAL 25
 execute if items entity @s weapon.mainhand #minecraft:swords run scoreboard players set #count CAL 15
 execute if items entity @s weapon.mainhand #minecraft:shovels run scoreboard players set #count CAL 10

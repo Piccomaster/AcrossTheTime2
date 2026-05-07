@@ -1,10 +1,10 @@
 #####################################################################
 #Made by Adventquest												#
-#injured head
+#injured chest
 #####################################################################
 
 ##tip
-tellraw @s [{translate:att2.injured_trigger.head,color:red}]
+tellraw @s [{translate:att2.injured_trigger.chest,color:red}]
 
 ##add enchantments tick
 item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/misc/injured":1}}

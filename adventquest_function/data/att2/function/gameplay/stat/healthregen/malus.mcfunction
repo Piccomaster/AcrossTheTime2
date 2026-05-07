@@ -23,4 +23,4 @@ scoreboard players operation #health CAL -= 10000 CAL
 #get score
 execute store result storage att2:score count double 0.0001 run scoreboard players get #health CAL
 #remove health
-execute as @s[gamemode=adventure] run return failfunction att2:gameplay/stat/healthregen/add_health_maco with storage att2:score
+execute as @s[gamemode=adventure] run function att2:gameplay/stat/healthregen/add_health_maco with storage att2:score

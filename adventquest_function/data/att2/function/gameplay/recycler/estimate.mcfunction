@@ -18,17 +18,9 @@ scoreboard players set leg RECYCLER 0
 scoreboard players set leg_armset RECYCLER 0
 scoreboard players set ult RECYCLER 0
 
-scoreboard players set com_buy RECYCLER 0
-scoreboard players set unc_buy RECYCLER 0
-scoreboard players set rar_buy RECYCLER 0
-scoreboard players set epi_buy RECYCLER 0
-scoreboard players set epi_set_buy RECYCLER 0
-scoreboard players set leg_buy RECYCLER 0
-scoreboard players set leg_armset_buy RECYCLER 0
-scoreboard players set ult_buy RECYCLER 0
-
 scoreboard players set myt RECYCLER 0
 scoreboard players set total RECYCLER 0
+scoreboard players set total_count RECYCLER 0
 scoreboard players set number RECYCLER 0
 
 execute as @e[type=item,distance=..1,predicate=att2_pre:recycle/arrow] run function att2:gameplay/recycler/count/arrow
@@ -51,6 +43,18 @@ execute as @e[type=item,distance=..1,predicate=att2_pre:recycle/leg,predicate=!a
 execute as @e[type=item,distance=..1,predicate=att2_pre:recycle/leg_armset,predicate=!att2_pre:recycle/error] run function att2:gameplay/recycler/count/leg_armset
 
 execute as @e[type=item,distance=..1,predicate=att2_pre:recycle/ult,predicate=!att2_pre:recycle/error] run function att2:gameplay/recycler/count/ult
+
+##show rarity count
+execute if score com RECYCLER matches 1.. run tellraw @s [{translate:att2.recycler.com,color:gray,with:[{score:{name:com,objective:RECYCLER},color:white}]}]
+execute if score unc RECYCLER matches 1.. run tellraw @s [{translate:att2.recycler.unc,color:dark_green,with:[{score:{name:unc,objective:RECYCLER},color:white}]}]
+execute if score rar RECYCLER matches 1.. run tellraw @s [{translate:att2.recycler.rar,color:blue,with:[{score:{name:rar,objective:RECYCLER},color:white}]}]
+execute if score epi RECYCLER matches 1.. run tellraw @s [{translate:att2.recycler.epi,color:dark_purple,with:[{score:{name:epi,objective:RECYCLER},color:white}]}]
+execute if score epi_set RECYCLER matches 1.. run tellraw @s [{translate:att2.recycler.epi_set,color:dark_purple,with:[{score:{name:epi_set,objective:RECYCLER},color:white}]}]
+execute if score epi_esc RECYCLER matches 1.. run tellraw @s [{translate:att2.recycler.epi_esc,color:light_purple,with:[{score:{name:epi_esc,objective:RECYCLER},color:white}]}]
+execute if score leg RECYCLER matches 1.. run tellraw @s [{translate:att2.recycler.leg,color:gold,with:[{score:{name:leg,objective:RECYCLER},color:white}]}]
+execute if score leg_armset RECYCLER matches 1.. run tellraw @s [{translate:att2.recycler.leg_armset,color:gold,with:[{score:{name:leg_armset,objective:RECYCLER},color:white}]}]
+execute if score ult RECYCLER matches 1.. run tellraw @s [{translate:att2.recycler.ult,color:green,with:[{score:{name:ult,objective:RECYCLER},color:white}]}]
+execute if score total_count RECYCLER matches 1.. run tellraw @s [{translate:att2.recycler.total,color:green,with:[{score:{name:total_count,objective:RECYCLER},color:white}]}]
 
 execute store result score myt RECYCLER if entity @e[type=item,distance=..1,predicate=att2_pre:item_color/myt]
 execute store result score number RECYCLER if entity @e[type=item,distance=..1]

@@ -75,7 +75,7 @@ execute if data storage att2:bow data.weapon{id:"minecraft:bow"} on origin run f
 execute if data storage att2:bow data.weapon{id:"minecraft:crossbow"} on origin run function att2:gameplay/stat/hunger/consume/crossbow
 
 ##test infinite -> clear
-execute if data storage att2:bow data.weapon.components."minecraft:enchantments"."minecraft:infinity" run data modify entity @n[distance=..0,type=#minecraft:arrows] life set value 1199
+execute if data storage att2:bow data.weapon.components."minecraft:enchantments"."minecraft:infinity" run data modify entity @n[distance=..0,type=#minecraft:arrows] life set value 1100
 ##initialize owner
 execute at @s on origin run scoreboard players operation @n[distance=..0,type=#minecraft:arrows] OWNER = @s NUMEROJOUEUR
 ##legendary

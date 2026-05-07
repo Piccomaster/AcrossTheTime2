@@ -13,7 +13,8 @@ function att2:gameplay/score/player
 data modify storage att2:checkpoint now set from entity @n[distance=..10,type=armor_stand,predicate=att2_pre:score/owner,tag=CheckPointMarker] data.now
 kill @e[distance=..10,type=armor_stand,predicate=att2_pre:score/owner,tag=CheckPointMarker]
 function att2:gameplay/misc/checkpoint/tp with storage att2:checkpoint now
-execute as @e[distance=..50,type=#att2_entity:sp_follow_pet_all,predicate=att2_pre:score/owner] run function att2:gameplay/misc/checkpoint/tp with storage att2:checkpoint now
+execute as @e[type=#att2_entity:sp_follow_pet_all,predicate=att2_pre:score/owner,distance=..50] run function att2:gameplay/misc/checkpoint/tp with storage att2:checkpoint now
+execute as @e[type=#minecraft:rideable,predicate=att2_pre:score/owner,distance=..50] run function att2:gameplay/misc/checkpoint/tp with storage att2:checkpoint now
 #error
 function att2:dialogs/gameplay/checkpoint/distance_limit
 

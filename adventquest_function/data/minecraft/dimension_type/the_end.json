@@ -20,7 +20,7 @@
     "minecraft:gameplay/bed_rule": {
       "can_set_spawn": "never",
       "can_sleep": "never",
-      "explodes": true
+      "explodes": false
     },
     "minecraft:gameplay/respawn_anchor_works": false,
     "minecraft:visual/fog_color": "#21880c",
@@ -29,7 +29,8 @@
     "minecraft:visual/sky_light_factor": 0.0,
     "minecraft:gameplay/bees_stay_in_hive": false,
     "gameplay/monsters_burn": false,
-    "gameplay/can_pillager_patrol_spawn":false
+    "gameplay/can_pillager_patrol_spawn": false,
+    "minecraft:gameplay/sky_light_level": 0.0
   },
   "coordinate_scale": 1.0,
   "has_ceiling": false,

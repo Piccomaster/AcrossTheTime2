@@ -4,5 +4,6 @@
 #############################################################
 
 execute store result score leg_count RECYCLER if data entity @s Item.count
-
 scoreboard players operation leg RECYCLER += leg_count RECYCLER
+
+scoreboard players operation total_count RECYCLER += leg_count RECYCLER
