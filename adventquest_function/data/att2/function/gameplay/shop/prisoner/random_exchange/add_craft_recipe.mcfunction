@@ -26,7 +26,7 @@ execute if score #slot CAL matches 4.. run function att2:gameplay/shop/prisoner/
 execute if score #slot CAL matches 4.. run data modify storage att2:rune crafting_recipe append value {text:"=>",color:"gray"}
 
 ##random range
-execute store result score #percent CAL run random value 80..150
+execute store result score #percent CAL run random value 100..150
 scoreboard players operation #Total CAL *= #percent CAL
 scoreboard players operation #Total CAL /= 100 CAL
 

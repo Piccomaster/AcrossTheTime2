@@ -9,7 +9,7 @@ execute at @s align xyz positioned ~-2.5 ~-2.5 ~-2.5 as @e[dx=6,dy=6,dz=6,scores
 particle minecraft:item{item:"minecraft:iron_block"} ~ ~0.2 ~ 1.5 0.25 1.5 0.1 3 normal
 particle minecraft:item{item:"minecraft:gray_concrete"} ~ ~0.2 ~ 1.5 0.25 1.5 0.1 3 normal
 particle minecraft:item{item:"minecraft:dirt"} ~ ~0.2 ~ 1.5 0.25 1.5 0.1 3 normal
-particle minecraft:ash ~ ~0.2 ~ 1.5 0.25 1.5 0.1 30 normal
+particle minecraft:ash ~ ~0.2 ~ 1.5 0.25 1.5 0.1 6 normal
 particle minecraft:campfire_cosy_smoke ~ ~ ~ 1.5 0 1.5 0.01 3 normal
 
 execute as @s[scores={SPELL10_EFFECT=55}] run function att2:gameplay/dahal/action/spell10/earthquake/wave1

@@ -6,8 +6,7 @@
 ##add tag
 tag @s add MOVELIGHT
 ##set score
-scoreboard players operation @s OWNER = @p[predicate=att2_pre:score/player] NUMEROJOUEUR
-
+scoreboard players operation @s OWNER = @p[distance=..10,predicate=att2_pre:score/player] NUMEROJOUEUR
 
 ##circle 1
 
