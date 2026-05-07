@@ -29,6 +29,7 @@
     "minecraft:player_head",
     "minecraft:skeleton_skull",
     "minecraft:light",
-    "minecraft:water"
+    "minecraft:water",
+    "minecraft:dead_bubble_coral_fan"
   ]
 }
