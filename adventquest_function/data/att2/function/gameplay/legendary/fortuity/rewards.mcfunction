@@ -10,20 +10,18 @@ scoreboard players operation temp_value_10 CAL *= 20 CAL
 scoreboard players operation temp_value_10 CAL /= 10 CAL
 #get level -> base damage up|attack speed up | luck effect add(time limit)
 #base damage | attack speed cal | per 1 level add 0.5 damage and add 0.05 attack speed
-#set base attack speed
-scoreboard players set temp_value_12 CAL 800
 #base damage
 scoreboard players operation temp_value_11 CAL = @s GAMELEVEL
 scoreboard players operation temp_value_11 CAL *= 5 CAL
 #continue
-scoreboard players add temp_value_11 CAL 10
+scoreboard players add temp_value_11 CAL 5
 #execute if score temp_value_11 CAL matches ..15 run scoreboard players set temp_value_11 CAL 10
 #result attack damage
 execute store result storage att2:fortuity atk_dmg float 0.1 run scoreboard players get temp_value_11 CAL
 #result attack speed
 scoreboard players operation temp_value_12 CAL = @s GAMELEVEL
-scoreboard players operation temp_value_12 CAL *= -4 CAL
-scoreboard players add temp_value_12 CAL 800
+scoreboard players operation temp_value_12 CAL *= -5 CAL
+scoreboard players add temp_value_12 CAL 755
 execute store result storage att2:fortuity atk_spd int 1 run scoreboard players get temp_value_12 CAL
 #modify fortuity mainhand | temp_value_11/12 could reset
 function att2:gameplay/legendary/fortuity/modify with storage att2:fortuity

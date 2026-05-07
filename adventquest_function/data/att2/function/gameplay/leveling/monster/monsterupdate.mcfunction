@@ -52,3 +52,5 @@ scoreboard players operation #max_health CAL += #base_hp CAL
 execute store result entity @s attributes[{id:"minecraft:max_health"}].modifiers[{id:"minecraft:true_health"}].amount int 1 run scoreboard players get #max_health CAL
 #tellraw @a [{score:{name:"#max_health",objective:"CAL"}}]
 #tellraw @a [{score:{name:"#attack_damage",objective:"CAL"}}]
+
+data modify entity @s Health set value 1000
