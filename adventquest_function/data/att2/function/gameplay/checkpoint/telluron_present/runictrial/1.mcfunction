@@ -5,11 +5,11 @@
 
 ##This command ensures main/side quests properly trigger respawn points.
 function att2:gameplay/checkpoint/effect
-execute in minecraft:overworld run spawnpoint @s -4165 71 -5515
+execute in minecraft:overworld run spawnpoint @s -4805 53 -5374
 
 ## This command ensures that when a player manually triggers a respawn point, nearby players' respawn points are also reset.
-execute in minecraft:overworld positioned -4165 71 -5515 as @a[distance=..40] run function att2:gameplay/checkpoint/effect
-execute in minecraft:overworld positioned -4165 71 -5515 as @a[distance=..40] run spawnpoint @s -4165 71 -5515
+execute in minecraft:overworld positioned -4805 53 -5374 as @a[distance=..40] run function att2:gameplay/checkpoint/effect
+execute in minecraft:overworld positioned -4805 53 -5374 as @a[distance=..40] run spawnpoint @s -4805 53 -5374
 
 execute if score Runictrial1 CHECKPOINT matches 0 run scoreboard players add All CHECKPOINT 1
 ##test all checkpoint
