@@ -20,7 +20,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:written_book",
+            "items": "minecraft:book",
             "predicates": {
               "minecraft:custom_data": {
                 "consciousness": true
