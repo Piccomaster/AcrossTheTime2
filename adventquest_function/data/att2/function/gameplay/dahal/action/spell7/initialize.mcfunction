@@ -5,9 +5,9 @@
 
 scoreboard objectives add COOLDOWN7 dummy
 scoreboard objectives add SPELL7_LVL dummy
-execute if score @s SPELL7_CAP matches 1.. run return fail
 scoreboard objectives add SPELL7_EFFECT dummy
 scoreboard objectives add SPELL7_CAP dummy
+execute if score @s SPELL7_CAP matches 1.. run return fail
 scoreboard objectives add SPELL7_OP dummy
 #scoreboard objectives add OWNER dummy
 scoreboard objectives add SPELL7_DATA dummy

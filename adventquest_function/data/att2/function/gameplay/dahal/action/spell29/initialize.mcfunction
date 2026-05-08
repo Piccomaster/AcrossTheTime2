@@ -6,8 +6,8 @@
 scoreboard objectives add COOLDOWN29 dummy
 scoreboard objectives add OWNER dummy
 scoreboard objectives add SPELL29_LVL dummy
-execute if score @s SPELL29_CAP matches 1.. run return fail
 scoreboard objectives add SPELL29_CAP dummy
+execute if score @s SPELL29_CAP matches 1.. run return fail
 scoreboard players set @s COOLDOWN29 -100
 scoreboard players set @s SPELL29_LVL 0
 scoreboard players set @s SPELL29_CAP 1
