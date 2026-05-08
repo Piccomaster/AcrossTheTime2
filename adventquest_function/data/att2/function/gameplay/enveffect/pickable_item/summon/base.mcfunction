@@ -39,7 +39,7 @@ execute if score #Rotation PickableItem matches 5 run function att2:gameplay/env
 execute if score #Rotation PickableItem matches 6 run function att2:gameplay/enveffect/pickable_item/summon/facing/west
 
 #clear
-execute at @n[distance=..10,type=interaction,tag=New,tag=PickableItem] run function att2:gameplay/enveffect/pickable_item/trigger/clear
+execute at @n[distance=..1,type=interaction,tag=New,tag=PickableItem] run function att2:gameplay/enveffect/pickable_item/trigger/clear
 ##set_light
 #execute at @n[distance=..10,type=interaction,tag=New,tag=PickableItem] unless block ~ ~ ~ air anchored eyes positioned ^ ^ ^-1 run function att2:gameplay/enveffect/pickable_item/summon/set_light
 
