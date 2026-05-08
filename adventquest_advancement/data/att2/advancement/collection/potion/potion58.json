@@ -28,7 +28,7 @@
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": true,
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "att2:collection/potion/potion38",
   "rewards": {

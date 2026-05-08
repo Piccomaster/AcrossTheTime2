@@ -3,20 +3,21 @@
         "icon": {
             "id": "minecraft:cobweb"
         },
-        "title": {"translate":"att2.advancement.adventure.title.spider_man"},
-        "description": {"translate":"att2.advancement.adventure.description.spider_man"}
+        "title": {
+            "translate": "att2.advancement.adventure.title.spider_man"
+        },
+        "description": {
+            "translate": "att2.advancement.adventure.description.spider_man"
+        }
     },
     "parent": "att2:adventure/root",
     "rewards": {
         "function": "att2:advancement/exploit_1",
         "experience": 5
-                },
+    },
     "criteria": {
-        "enter_cobweb": {
-            "trigger": "minecraft:enter_block",
-            "conditions": {
-                "block": "minecraft:cobweb"
-            }
+        "s": {
+            "trigger": "minecraft:impossible"
         }
     }
 }

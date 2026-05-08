@@ -21,7 +21,7 @@ execute store result storage att2:score count int 1 run scoreboard players get #
 item modify entity @s armor.head {function:set_enchantments,enchantments:{"att2_enchantment:tick/elite/death_protect":{type:storage,storage:"att2:score",path:count}}}
 
 ##sound
-playsound entity.creaking.attack hostile @a ~ ~ ~ 2 0.5
+playsound entity.creaking.attack hostile @a ~ ~ ~ 1 0.5
 
 ##set time
 scoreboard players set @s MasterDeathProtectTimer 80

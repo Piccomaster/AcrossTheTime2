@@ -10,8 +10,8 @@
 #####################################################
 
 # Sound
-execute if score center_n_wind VONAHEIM matches 20 as @a[x=-5534,y=107,z=-6481,dx=32,dy=23,dz=-24,gamemode=adventure] run playsound minecraft:item.elytra.flying block @s ~ ~ ~ 1 0.9
-execute if score center_n_wind VONAHEIM matches 60 as @a[x=-5534,y=107,z=-6481,dx=32,dy=23,dz=-24,gamemode=adventure] run playsound minecraft:item.elytra.flying block @s ~ ~ ~ 1 0.9
+execute if score center_n_wind VONAHEIM matches 20 as @a[x=-5534,y=107,z=-6481,dx=32,dy=23,dz=-24,gamemode=adventure] at @s run playsound minecraft:item.elytra.flying block @s ~ ~ ~ 1 0.9
+execute if score center_n_wind VONAHEIM matches 60 as @a[x=-5534,y=107,z=-6481,dx=32,dy=23,dz=-24,gamemode=adventure] at @s run playsound minecraft:item.elytra.flying block @s ~ ~ ~ 1 0.9
 
 # Particle
 execute if score center_n_wind VONAHEIM matches 20..250 if entity @a[x=-5523,y=108,z=-6514,distance=..70,gamemode=adventure] run function att2:cinematic/act_4/vonaheim/center_n/mech2/wind_particle

@@ -7,10 +7,10 @@
 #####################################################
 
 # Trigg
-execute in minecraft:the_end as @a[x=-1322,y=78,z=-664,dx=-35,dy=0,dz=-38,gamemode=adventure] at @s if block ~-2 ~ ~ minecraft:air if block ~-1 ~ ~ minecraft:emerald_block run function att2:cinematic/act_4/billgart/dungeon/tower_nw/mech3/move_ew
-execute in minecraft:the_end as @a[x=-1322,y=78,z=-664,dx=-35,dy=0,dz=-38,gamemode=adventure] at @s if block ~2 ~ ~ minecraft:air if block ~1 ~ ~ minecraft:emerald_block run function att2:cinematic/act_4/billgart/dungeon/tower_nw/mech3/move_we
-execute in minecraft:the_end as @a[x=-1322,y=78,z=-664,dx=-35,dy=0,dz=-38,gamemode=adventure] at @s if block ~ ~ ~-2 minecraft:air if block ~ ~ ~-1 minecraft:emerald_block run function att2:cinematic/act_4/billgart/dungeon/tower_nw/mech3/move_sn
-execute in minecraft:the_end as @a[x=-1322,y=78,z=-664,dx=-35,dy=0,dz=-38,gamemode=adventure] at @s if block ~ ~ ~2 minecraft:air if block ~ ~ ~1 minecraft:emerald_block run function att2:cinematic/act_4/billgart/dungeon/tower_nw/mech3/move_ns
+execute in minecraft:the_end as @a[x=-1322,y=78,z=-664,dx=-35,dy=0,dz=-38,gamemode=adventure] at @s if block ~-2 ~ ~ #minecraft:visible_blocks if block ~-1 ~ ~ minecraft:emerald_block run function att2:cinematic/act_4/billgart/dungeon/tower_nw/mech3/move_ew
+execute in minecraft:the_end as @a[x=-1322,y=78,z=-664,dx=-35,dy=0,dz=-38,gamemode=adventure] at @s if block ~2 ~ ~ #minecraft:visible_blocks if block ~1 ~ ~ minecraft:emerald_block run function att2:cinematic/act_4/billgart/dungeon/tower_nw/mech3/move_we
+execute in minecraft:the_end as @a[x=-1322,y=78,z=-664,dx=-35,dy=0,dz=-38,gamemode=adventure] at @s if block ~ ~ ~-2 #minecraft:visible_blocks if block ~ ~ ~-1 minecraft:emerald_block run function att2:cinematic/act_4/billgart/dungeon/tower_nw/mech3/move_sn
+execute in minecraft:the_end as @a[x=-1322,y=78,z=-664,dx=-35,dy=0,dz=-38,gamemode=adventure] at @s if block ~ ~ ~2 #minecraft:visible_blocks if block ~ ~ ~1 minecraft:emerald_block run function att2:cinematic/act_4/billgart/dungeon/tower_nw/mech3/move_ns
 
 execute if score tower_nw_mech3_black BILLGART matches 0 if block -1334 78 -685 minecraft:emerald_block run function att2:cinematic/act_4/billgart/dungeon/tower_nw/mech3/position_black_true
 execute if score tower_nw_mech3_blue BILLGART matches 0 if block -1341 78 -676 minecraft:emerald_block run function att2:cinematic/act_4/billgart/dungeon/tower_nw/mech3/position_blue_true

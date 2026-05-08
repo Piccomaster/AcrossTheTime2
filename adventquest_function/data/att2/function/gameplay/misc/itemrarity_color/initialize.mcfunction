@@ -45,3 +45,6 @@ team modify dark_gray color dark_gray
 
 team add red
 team modify red color red
+
+team add gold
+team modify gold color gold

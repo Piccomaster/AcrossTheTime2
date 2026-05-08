@@ -18,6 +18,11 @@
   "supported_items": "#minecraft:enchantable/durability",
   "effects": {
     "minecraft:prevent_equipment_drop": {},
+    "minecraft:damage_immunity": [
+      {
+        "effect": {}
+      }
+    ],
     "tick": [
       {
         "effect": {

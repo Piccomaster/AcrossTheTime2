@@ -22,13 +22,18 @@ scoreboard players operation #Percent_Health CAL /= #Max_Health CAL
 scoreboard players operation #Damage CAL = #Max_Health CAL
 scoreboard players operation #Damage CAL -= #Health CAL
 scoreboard players operation #Damage CAL /= 3 CAL
-
+##snyc health
+execute store result entity @s Health int 1 run scoreboard players get #Health CAL
 ##health < 10 % -> boom
 execute if score #Percent_Health CAL matches ..10 at @s run function att2:gameplay/dahal/action/spell26/boom_effect
 ##store Damage
 execute store result storage att2:score damage int 1 run scoreboard players get #Damage CAL
 scoreboard players set #TEST CAL 0
 scoreboard players set #CriticalSpellTrigger CAL 0
+
+##set spell icon
+data modify storage att2:enemy_health spell_icon set value "item/custom/spell_book/spell26"
+
 execute at @s as @e[type=!bat,scores={GAMELEVEL=0..},team=hostile,distance=..5] run function att2:gameplay/dahal/action/spell26/damage with storage att2:score
 ##particle
 execute at @s run particle minecraft:explosion ~ ~ ~ 0.3 0.3 0.3 0 3 normal

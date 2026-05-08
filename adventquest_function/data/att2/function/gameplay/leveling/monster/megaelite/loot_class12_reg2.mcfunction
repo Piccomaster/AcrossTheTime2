@@ -7,9 +7,9 @@ function att2:gameplay/leveling/monster/megaelite/effect
 execute if score level DIFFICULTY matches 0.. run function att2:summon/bat_superelite_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/bat_superelite_rewards
 execute if score level DIFFICULTY matches 2.. run function att2:summon/bat_superelite_rewards
-execute if score level DIFFICULTY matches 0.. run function att2:summon/bat_chest_loot_experience_bottle {C:4,T:4,Reg:Reg2,Time:10}
-execute if score level DIFFICULTY matches 1.. run function att2:summon/bat_chest_loot_experience_bottle {C:4,T:4,Reg:Reg2,Time:10}
-execute if score level DIFFICULTY matches 2.. run function att2:summon/bat_chest_loot_experience_bottle {C:4,T:4,Reg:Reg2,Time:10}
+execute if score level DIFFICULTY matches 0.. run function att2:summon/bat_chest_loot_experience_bottle {C:4,T:4,Reg:Reg2,Time:30}
+execute if score level DIFFICULTY matches 1.. run function att2:summon/bat_chest_loot_experience_bottle {C:4,T:4,Reg:Reg2,Time:30}
+execute if score level DIFFICULTY matches 2.. run function att2:summon/bat_chest_loot_experience_bottle {C:4,T:4,Reg:Reg2,Time:30}
 summon minecraft:experience_orb ~ ~2 ~ {Value:64}
 summon minecraft:experience_orb ~ ~2 ~ {Value:64}
 execute if score level DIFFICULTY matches 0.. run summon minecraft:experience_orb ~ ~2 ~ {Value:64}
@@ -18,9 +18,9 @@ execute if score level DIFFICULTY matches 2.. run summon minecraft:experience_or
 execute if score level DIFFICULTY matches 0.. run function att2:summon/bat_superelite_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/bat_superelite_rewards
 execute if score level DIFFICULTY matches 2.. run function att2:summon/bat_superelite_rewards
-execute if score level DIFFICULTY matches 0.. run function att2:summon/bat_chest_loot_experience_bottle {C:4,T:4,Reg:Reg2,Time:10}
-execute if score level DIFFICULTY matches 1.. run function att2:summon/bat_chest_loot_experience_bottle {C:4,T:4,Reg:Reg2,Time:10}
-execute if score level DIFFICULTY matches 2.. run function att2:summon/bat_chest_loot_experience_bottle {C:4,T:4,Reg:Reg2,Time:10}
+execute if score level DIFFICULTY matches 0.. run function att2:summon/bat_chest_loot_experience_bottle {C:4,T:4,Reg:Reg2,Time:30}
+execute if score level DIFFICULTY matches 1.. run function att2:summon/bat_chest_loot_experience_bottle {C:4,T:4,Reg:Reg2,Time:30}
+execute if score level DIFFICULTY matches 2.. run function att2:summon/bat_chest_loot_experience_bottle {C:4,T:4,Reg:Reg2,Time:30}
 summon minecraft:experience_orb ~ ~2 ~ {Value:64}
 summon minecraft:experience_orb ~ ~2 ~ {Value:64}
 execute if score level DIFFICULTY matches 0.. run summon minecraft:experience_orb ~ ~2 ~ {Value:64}

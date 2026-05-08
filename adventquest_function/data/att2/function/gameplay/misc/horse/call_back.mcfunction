@@ -9,10 +9,11 @@ execute align xyz positioned ~0.5 ~1 ~0.5 run fill ~-1 ~ ~-1 ~1 ~1 ~1 minecraft:
 execute if score #BLOCK CAL matches ..12 run function att2:sound/misc/energy_thrill
 execute if score #BLOCK CAL matches ..12 run return run tellraw @s [{translate:att2.horse.space_limit,color:red}]
 
+##route
+$data modify storage att2:ride_$(player) data.Rotation set from entity @s Rotation
+
 #summon
 $execute align xyz positioned ~0.5 ~ ~0.5 run function att2:gameplay/misc/horse/back with storage att2:ride_$(player)
-##route
-data modify entity @n[distance=..10,type=#minecraft:rideable,tag=Store] Rotation[0] set from entity @s Rotation[0]
 ##update score
 scoreboard players operation @n[distance=..5,type=#minecraft:rideable,tag=Store] OWNER = @s NUMEROJOUEUR
 ##add saddle
