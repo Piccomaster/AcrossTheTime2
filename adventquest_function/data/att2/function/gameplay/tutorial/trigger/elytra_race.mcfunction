@@ -34,3 +34,6 @@ dialog clear @s
 advancement revoke @s only att2:tutorial/trigger/delay_go
 ##remove tag
 tag @s remove TutorialDelayElytraRace
+
+##set once
+advancement grant @s only att2:tutorial/trigger/elytra_race

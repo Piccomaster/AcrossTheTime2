@@ -3,6 +3,9 @@
 #detection ryliath quest progress                #
 ##################################################
 
+##tutorial
+execute if score tic TIMECOUNTER matches 1 as @s[distance=..10,advancements={att2:tutorial/trigger/exploration=false}] at @s run function att2:gameplay/tutorial/delay/ender_chest
+
 ##reset entity
 execute at @s as @e[distance=..20,type=interaction,tag=animation] run function att2:cinematic/dailyquest/eye_select/reset
 ##player eye select

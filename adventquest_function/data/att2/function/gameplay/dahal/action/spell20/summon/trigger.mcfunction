@@ -6,7 +6,7 @@
 ##Get the score of the player's current page
 function att2:gameplay/dahal/action/spell20/score/page
 ##Generate Backpack Entity
-function att2:gameplay/dahal/action/spell20/summon/stock with storage att2:score
+function att2:gameplay/dahal/action/spell20/summon/stock
 ##Score Limit
 scoreboard players set @s Stock_Open 1
 ##Sound

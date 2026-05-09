@@ -17,4 +17,3 @@ execute if score count WAYPOINT matches 7 run advancement grant @a only att2:jou
 
 ##once tutorial
 execute as @s[advancements={att2:tutorial/trigger/waypoint=false}] run function att2:gameplay/tutorial/delay/waypoint
-advancement grant @s only att2:tutorial/trigger/waypoint

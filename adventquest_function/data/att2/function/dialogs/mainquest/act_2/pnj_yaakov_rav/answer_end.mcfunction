@@ -11,6 +11,9 @@ scoreboard players set wirth_razgork_PNJ DIALOG 2
 execute if entity @a[advancements={att2:dahal/spell20_loot=false}] run scoreboard players add Collector SPELLS_COUNT 1
 advancement grant @a only att2:dahal/spell20_loot
 
+##tutorial
+execute as @a[advancements={att2:tutorial/trigger/stock=false}] at @s run function att2:gameplay/tutorial/delay/stock
+
 function att2:sound/misc/mission_progress
 
 

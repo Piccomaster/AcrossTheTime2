@@ -17,3 +17,6 @@ execute if entity @e[distance=..1,type=#minecraft:arrows] run kill @e[distance=.
 execute if score @s MiningQuality matches 1 if predicate att2_pre:test_block/rune_ore/mining run return run function att2:gameplay/runes/mining/loot_c
 execute if score @s MiningQuality matches 2 if predicate att2_pre:test_block/rune_ore/mining run return run function att2:gameplay/runes/mining/loot_b
 execute if score @s MiningQuality matches 3 if predicate att2_pre:test_block/rune_ore/mining run return run function att2:gameplay/runes/mining/loot_a
+
+##tutorial
+execute as @a[distance=..20,advancements={att2:tutorial/trigger/rune_ore=false}] at @s run function att2:gameplay/tutorial/delay/rune_ore

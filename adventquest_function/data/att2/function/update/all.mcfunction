@@ -837,9 +837,9 @@ execute in overworld positioned -5610 136 -6475 run data merge block -5610 136 -
 
 #fix armorstand wulk
 execute in overworld positioned -4659 71 -5475 as @e[distance=..4,type=armor_stand] at @s run data modify entity @s equipment set value ""
-execute in overworld positioned -4659 71 -5475 run data merge entity @n[type=armor_stand,distance=..0.1] {Tags:["USEFUL"],Marker:false}
-execute in overworld positioned -4659 71 -5475 run loot replace entity @n[type=armor_stand,distance=..0.1] armor.chest loot att2:item_data/armor/epi/netherite_chestplate_326
-execute in overworld positioned -4659 71 -5475 run loot replace entity @n[type=armor_stand,distance=..0.1] weapon.mainhand loot att2:item_data/quest/old_mace
+execute in overworld positioned -4659 71 -5475 run data merge entity @n[type=armor_stand,distance=..2] {Tags:["USEFUL"],Marker:false}
+execute in overworld positioned -4659 71 -5475 run loot replace entity @n[type=armor_stand,distance=..2] armor.chest loot att2:item_data/armor/epi/netherite_chestplate_326
+execute in overworld positioned -4659 71 -5475 run loot replace entity @n[type=armor_stand,distance=..2] weapon.mainhand loot att2:item_data/quest/old_mace
 
 ##modify secret chest
 execute in overworld positioned -4571 53 -5930 run item replace block ~ ~ ~ container.11 with minecraft:enchanted_book[custom_model_data={floats:[0]},item_model="spell/34",custom_data={Dahal:"launcher",Spell:34,Spell34:true},custom_name={translate:"att2.spell34.launcher",with:[{text:"lvl1",color:"#808080",italic:false}]},lore=[{translate:att2.launcher.lore.1},{translate:att2.launcher.lore.2},{translate:att2.launcher.lore.3},{translate:att2.launcher.lore.4}],consumable={animation:trident,consume_seconds:0.05,has_consume_particles:false,sound:{sound_id:""}},use_cooldown={cooldown_group:spell34,seconds:0.05},max_stack_size=3,tooltip_style="minecraft:rarity/com/com"]

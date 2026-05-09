@@ -82,4 +82,3 @@ playsound minecraft:entity.player.levelup block @a ~ ~ ~ 150 0.5
 execute unless score #Q CAL matches 8 run return fail
 ##once tutorial
 execute as @s[advancements={att2:tutorial/trigger/keys=false}] run function att2:gameplay/tutorial/delay/keys
-advancement grant @s only att2:tutorial/trigger/keys

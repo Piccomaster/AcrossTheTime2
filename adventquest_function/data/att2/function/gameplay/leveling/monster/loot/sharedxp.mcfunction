@@ -51,4 +51,3 @@ scoreboard players reset @a XPPROCESS
 execute if score @s statMOBSKILLED matches 20.. run return fail
 ##once tutorial
 execute as @s[advancements={att2:tutorial/trigger/enemy=false}] run function att2:gameplay/tutorial/delay/enemy
-advancement grant @s only att2:tutorial/trigger/enemy
