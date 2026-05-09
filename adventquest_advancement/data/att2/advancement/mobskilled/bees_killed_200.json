@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:honeycomb"
         },
-        "title": {"translate":"att2.advancement.mobskilled.title.bees_killed_250"},
-        "description": {"translate":"att2.advancement.mobskilled.description.bees_killed_250"},
+        "title": {"translate":"att2.advancement.mobskilled.title.bees_killed_200"},
+        "description": {"translate":"att2.advancement.mobskilled.description.bees_killed_200"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/bees_killed_50",

@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:zombie_head"
         },
-        "title": {"translate":"att2.advancement.mobskilled.title.drowned_killed_250"},
-        "description": {"translate":"att2.advancement.mobskilled.description.drowned_killed_250"},
+        "title": {"translate":"att2.advancement.mobskilled.title.drowned_killed_200"},
+        "description": {"translate":"att2.advancement.mobskilled.description.drowned_killed_200"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/drowned_killed_50",

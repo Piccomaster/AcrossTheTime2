@@ -19,6 +19,6 @@ advancement grant @s[scores={statMOBSKILLED=5000..}] only att2:mobskilled/mobs_k
 # BEE
 advancement grant @s[scores={statBEEKILLED=10..}] only att2:mobskilled/bees_killed_10
 advancement grant @s[scores={statBEEKILLED=50..}] only att2:mobskilled/bees_killed_50
-advancement grant @s[scores={statBEEKILLED=250..}] only att2:mobskilled/bees_killed_250
-advancement grant @s[scores={statBEEKILLED=500..}] only att2:mobskilled/bees_killed_500
+advancement grant @s[scores={statBEEKILLED=200..}] only att2:mobskilled/bees_killed_200
+advancement grant @s[scores={statBEEKILLED=400..}] only att2:mobskilled/bees_killed_400
 

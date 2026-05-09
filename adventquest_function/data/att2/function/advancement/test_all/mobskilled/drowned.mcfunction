@@ -19,5 +19,5 @@ advancement grant @s[scores={statMOBSKILLED=5000..}] only att2:mobskilled/mobs_k
 # DROWNED
 advancement grant @s[scores={statDROWNKILLED=10..}] only att2:mobskilled/drowned_killed_10
 advancement grant @s[scores={statDROWNKILLED=50..}] only att2:mobskilled/drowned_killed_50
-advancement grant @s[scores={statDROWNKILLED=250..}] only att2:mobskilled/drowned_killed_250
-advancement grant @s[scores={statDROWNKILLED=500..}] only att2:mobskilled/drowned_killed_500
+advancement grant @s[scores={statDROWNKILLED=200..}] only att2:mobskilled/drowned_killed_200
+advancement grant @s[scores={statDROWNKILLED=400..}] only att2:mobskilled/drowned_killed_400

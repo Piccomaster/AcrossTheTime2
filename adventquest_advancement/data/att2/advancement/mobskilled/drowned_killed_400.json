@@ -3,11 +3,11 @@
         "icon": {
             "id": "minecraft:zombie_head"
         },
-        "title": {"translate":"att2.advancement.mobskilled.title.drowned_killed_500"},
-        "description": {"translate":"att2.advancement.mobskilled.description.drowned_killed_500"},
+        "title": {"translate":"att2.advancement.mobskilled.title.drowned_killed_400"},
+        "description": {"translate":"att2.advancement.mobskilled.description.drowned_killed_400"},
         "frame": "challenge"
     },
-    "parent": "att2:mobskilled/drowned_killed_250",
+    "parent": "att2:mobskilled/drowned_killed_200",
     "rewards": {
         "function": "att2:advancement/exploit_10",
         "experience": 5000
