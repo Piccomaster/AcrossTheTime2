@@ -17,7 +17,8 @@ execute if score Real0 TIMER matches 3 as 00000000-0000-003a-0000-00000000003a i
 execute if score Real0 TIMER matches 3 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5049,y=76,z=-5043,distance=..2] run teleport 00000000-0000-102a-0000-00000000102a -5024 75 -5062 120 0
 execute if score Real0 TIMER matches 3..101 run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches 102 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5049,y=76,z=-5043,distance=..2] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 102 run scoreboard players set dialog_npc TUTORIAL 1
+execute if score Real0 TIMER matches 102 run execute as @a[scores={TUTORIAL=1..}] at @s run function att2:gameplay/tutorial/delay/dialog
+execute if score Real0 TIMER matches 102 run execute as @a at @s run function att2:gameplay/tutorial/trigger/dialog
 #-- Movement
 execute if score Real0 TIMER matches 103 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5053 78 -5043 run function att2:cinematic/act_2/sylvandre_2_walking
 execute if score Real0 TIMER matches 103 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5052.5,y=78,z=-5042.5,distance=..0.8] run function att2:cinematic/real0_iteration
@@ -37,7 +38,8 @@ execute if score Real0 TIMER matches 108 as 00000000-0000-003a-0000-00000000003a
 #-- Dialog
 execute if score Real0 TIMER matches 109 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_7
 execute if score Real0 TIMER matches 109 run function att2:voice/sylvandre/sylvandre7
-execute if score Real0 TIMER matches 109 run scoreboard players set shop TUTORIAL 1
+execute if score Real0 TIMER matches 109 run execute as @a[scores={TUTORIAL=1..}] at @s run function att2:gameplay/tutorial/delay/shop
+execute if score Real0 TIMER matches 109 run execute as @a at @s run function att2:gameplay/tutorial/trigger/shop
 execute if score Real0 TIMER matches 109..208 run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches 209 run function att2:cinematic/real0_iteration
 #-- Movement
@@ -124,7 +126,8 @@ execute if score Real0 TIMER matches 690 as 00000000-0000-003a-0000-00000000003a
 #-- Dialog
 execute if score Real0 TIMER matches 691 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_11
 execute if score Real0 TIMER matches 691 run function att2:voice/sylvandre/sylvandre11
-execute if score Real0 TIMER matches 691 run scoreboard players set bank TUTORIAL 1
+execute if score Real0 TIMER matches 691 run execute as @a[scores={TUTORIAL=1..}] at @s run function att2:gameplay/tutorial/delay/bank
+execute if score Real0 TIMER matches 691 run execute as @a at @s run function att2:gameplay/tutorial/trigger/bank
 execute if score Real0 TIMER matches 691..790 run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches 791 run function att2:cinematic/real0_iteration
 #-- Movement
@@ -153,7 +156,8 @@ execute if score Real0 TIMER matches 899 as 00000000-0000-003a-0000-00000000003a
 #-- Dialog
 execute if score Real0 TIMER matches 900 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_13
 execute if score Real0 TIMER matches 900 run function att2:voice/sylvandre/sylvandre13
-execute if score Real0 TIMER matches 900 run scoreboard players set black_market TUTORIAL 1
+execute if score Real0 TIMER matches 900 run execute as @a[scores={TUTORIAL=1..}] at @s run function att2:gameplay/tutorial/delay/recycle
+execute if score Real0 TIMER matches 900 run execute as @a at @s run function att2:gameplay/tutorial/trigger/recycle
 execute if score Real0 TIMER matches 900..1149 run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches 1150 run function att2:cinematic/real0_iteration
 #-- Movement
@@ -188,7 +192,8 @@ execute if score Real0 TIMER matches 1260 as 00000000-0000-003a-0000-00000000003
 execute if score Real0 TIMER matches 1260 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
 #-- Dialog
 execute if score Real0 TIMER matches 1261 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_14_0
-execute if score Real0 TIMER matches 1261 run scoreboard players set runicwords TUTORIAL 1
+execute if score Real0 TIMER matches 1261 run execute as @a[scores={TUTORIAL=1..}] at @s run function att2:gameplay/tutorial/delay/rune_room
+execute if score Real0 TIMER matches 1261 run execute as @a at @s run function att2:gameplay/tutorial/trigger/rune_room
 execute if score Real0 TIMER matches 1261..1357 run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches 1358 run function att2:cinematic/real0_iteration
 #-- Movement
@@ -293,7 +298,8 @@ execute if score Real0 TIMER matches 1996 as 00000000-0000-003a-0000-00000000003
 #-- Dialog
 execute if score Real0 TIMER matches 1997 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_18
 execute if score Real0 TIMER matches 1997 run function att2:voice/sylvandre/sylvandre18
-execute if score Real0 TIMER matches 1997 run scoreboard players set skills TUTORIAL 1
+execute if score Real0 TIMER matches 1997 run execute as @a[scores={TUTORIAL=1..}] at @s run function att2:gameplay/tutorial/delay/attribute
+execute if score Real0 TIMER matches 1997 run execute as @a at @s run function att2:gameplay/tutorial/trigger/attribute
 execute if score Real0 TIMER matches 1997..2096 run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches 2097 run function att2:cinematic/real0_iteration
 #-- Movement

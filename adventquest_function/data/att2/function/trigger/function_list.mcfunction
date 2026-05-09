@@ -3630,6 +3630,8 @@ execute if score @s ScoreTrigger matches 3537 run function att2:cinematic/act_2/
 execute if score @s ScoreTrigger matches 3538 run execute as @s at @e[distance=..7,type=#minecraft:pnj] if score @s PNJID = @n[distance=..0,type=#minecraft:pnj] PNJID anchored eyes positioned ^ ^ ^ run function att2:gameplay/shop/purchase/spell/blood_transmutation
 
 
+
+execute if score @s ScoreTrigger matches 3562 run function att2:gameplay/consciousness/tutorial
 execute if score @s ScoreTrigger matches 3539 run function att2:gameplay/tutorial/trigger/advancement
 execute if score @s ScoreTrigger matches 3540 run function att2:gameplay/tutorial/trigger/bank
 execute if score @s ScoreTrigger matches 3541 run function att2:gameplay/tutorial/trigger/currency
@@ -3655,5 +3657,7 @@ execute if score @s ScoreTrigger matches 3560 run function att2:gameplay/tutoria
 execute if score @s ScoreTrigger matches 3561 run function att2:gameplay/tutorial/trigger/enemy
 execute if score @s ScoreTrigger matches 3563 run function att2:gameplay/tutorial/trigger/elytra_race
 execute if score @s ScoreTrigger matches 3564 run function att2:gameplay/tutorial/trigger/horse_race
-
-execute if score @s ScoreTrigger matches 3562 run function att2:gameplay/consciousness/tutorial
+execute if score @s ScoreTrigger matches 3565 run function att2:gameplay/tutorial/trigger/fire
+execute if score @s ScoreTrigger matches 3566 run function att2:gameplay/tutorial/trigger/earthquake
+execute if score @s ScoreTrigger matches 3567 run function att2:gameplay/tutorial/trigger/deposit
+execute if score @s ScoreTrigger matches 3568 run function att2:gameplay/tutorial/trigger/waypoint

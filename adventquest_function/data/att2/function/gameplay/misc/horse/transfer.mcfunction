@@ -3,6 +3,8 @@
 #Process to tie horses											#
 #################################################################
 
+##limit
+execute as @s[tag=HorseRace] run return fail
 
 function att2:sound/misc/whistle
 #Forcibly dismount the player when on horseback.

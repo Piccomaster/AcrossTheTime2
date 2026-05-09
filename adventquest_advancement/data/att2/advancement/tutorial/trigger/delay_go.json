@@ -1,0 +1,10 @@
+{
+    "rewards": {
+        "function": "att2:gameplay/tutorial/delay/go"
+    },
+    "criteria": {
+        "score_trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

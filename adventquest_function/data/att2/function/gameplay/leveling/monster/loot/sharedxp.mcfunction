@@ -46,3 +46,9 @@ execute as @a[scores={XPGAIN=1..}] run function att2:gameplay/leveling/monster/l
 scoreboard players reset maxAddedOne XPPROCESS
 scoreboard players reset @a XPPROCESS
 #scoreboard players remove @s KILLVALUE 1
+
+##limit
+execute if score @s statMOBSKILLED matches 20.. run return fail
+##once tutorial
+execute as @s[advancements={att2:tutorial/trigger/enemy=false}] run function att2:gameplay/tutorial/delay/enemy
+advancement grant @s only att2:tutorial/trigger/enemy

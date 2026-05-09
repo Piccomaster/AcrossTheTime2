@@ -15,7 +15,7 @@ execute as @a run function att2:gameplay/stat/display/bossbar_show
 
 scoreboard players set dahal_update INTRO 1
 #scoreboard objectives setdisplay sidebar DAHAL
-scoreboard players set spells TUTORIAL 1
+execute as @a at @s run function att2:gameplay/tutorial/trigger/spell
 fill 1991 101 1992 1977 96 2006 minecraft:barrier replace minecraft:air
 fill 1990 101 1993 1978 96 2005 minecraft:air replace minecraft:barrier
 

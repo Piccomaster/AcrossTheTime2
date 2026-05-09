@@ -1,1 +1,1 @@
-function att2:gameplay/consciousness/tutorial
+function att2:gameplay/tutorial/trigger/rune_room
