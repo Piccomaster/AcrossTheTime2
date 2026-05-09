@@ -4,7 +4,7 @@
 ##################################################
 
 kill @e[type=villager,x=-1323,y=21,z=-685,dx=-31,dy=-3,dz=36]
-kill @e[type=silverfish,x=-1323,y=22,z=-685,dx=-31,dy=3,dz=36]
+execute as @e[type=silverfish,x=-1323,y=22,z=-685,dx=-31,dy=3,dz=36] run tp @s -1333 0 -666
 function att2:physicmod/reg3/dungeon/tower_nw/mech1_reset
 execute at @a run function att2:sound/misc/power_failure
 execute at @a run function att2:sound/misc/spike_contract
