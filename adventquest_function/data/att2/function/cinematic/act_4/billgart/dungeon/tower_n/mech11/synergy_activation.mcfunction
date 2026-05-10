@@ -12,6 +12,7 @@ execute as @a at @s run particle minecraft:dust{color:[0,0,0],scale:2} -1239 130
 execute as @a at @s run particle minecraft:happy_villager -1239 130 -749 0.2 0.2 0.2 1 200 normal
 
 scoreboard players set tower_n_mech11 BILLGART 1
-scoreboard players set earthquake_synergy TUTORIAL 1
+execute as @a[scores={TUTORIAL=1..}] at @s run function att2:gameplay/tutorial/delay/earthquake
+execute as @a at @s run function att2:gameplay/tutorial/trigger/earthquake
 #return 1->make command block runing
 return 1

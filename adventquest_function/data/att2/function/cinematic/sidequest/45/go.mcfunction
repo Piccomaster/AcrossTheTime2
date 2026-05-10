@@ -15,20 +15,20 @@ execute if score SQ45 SIDEQUEST matches 0 if score cinematic SQ45 matches 1 at 0
 
 # Spawning Fuyard when player enter the area
 # East
-execute if score SQ45 SIDEQUEST matches 1 if entity @a[x=3597,y=37,z=4135,distance=..45,gamemode=adventure] unless entity @e[type=minecraft:stray,x=3597,y=37,z=4135,distance=..45,tag=Fuyard] positioned 3597 37 4135 run function att2:cinematic/sidequest/45/summon_fuyard
-execute if score SQ45 SIDEQUEST matches 1 if entity @a[x=3636,y=35,z=4394,distance=..45,gamemode=adventure] unless entity @e[type=minecraft:stray,x=3636,y=35,z=4394,distance=..45,tag=Fuyard] positioned 3636 35 4394 run function att2:cinematic/sidequest/45/summon_fuyard
-execute if score SQ45 SIDEQUEST matches 1 if entity @a[x=3736,y=35,z=4297,distance=..45,gamemode=adventure] unless entity @e[type=minecraft:stray,x=3736,y=35,z=4297,distance=..45,tag=Fuyard] positioned 3736 36 4297 run function att2:cinematic/sidequest/45/summon_fuyard
+execute if score SQ45 SIDEQUEST matches 1 unless entity @e[x=3597,y=37,z=4135,distance=..45,type=item,nbt={Item:{components:{"minecraft:custom_name":{"translate":"item.quest.badge.name"}}}}] if entity @a[x=3597,y=37,z=4135,distance=..45,gamemode=adventure] unless entity @e[type=minecraft:stray,x=3597,y=37,z=4135,distance=..45,tag=Fuyard] positioned 3597 37 4135 run function att2:cinematic/sidequest/45/summon_fuyard
+execute if score SQ45 SIDEQUEST matches 1 unless entity @e[x=3636,y=35,z=4394,distance=..45,type=item,nbt={Item:{components:{"minecraft:custom_name":{"translate":"item.quest.badge.name"}}}}] if entity @a[x=3636,y=35,z=4394,distance=..45,gamemode=adventure] unless entity @e[type=minecraft:stray,x=3636,y=35,z=4394,distance=..45,tag=Fuyard] positioned 3636 35 4394 run function att2:cinematic/sidequest/45/summon_fuyard
+execute if score SQ45 SIDEQUEST matches 1 unless entity @e[x=3736,y=35,z=4297,distance=..45,type=item,nbt={Item:{components:{"minecraft:custom_name":{"translate":"item.quest.badge.name"}}}}] if entity @a[x=3736,y=35,z=4297,distance=..45,gamemode=adventure] unless entity @e[type=minecraft:stray,x=3736,y=35,z=4297,distance=..45,tag=Fuyard] positioned 3736 36 4297 run function att2:cinematic/sidequest/45/summon_fuyard
 # West
-execute if score SQ45 SIDEQUEST matches 1 if entity @a[x=3452,y=35,z=4259,distance=..45,gamemode=adventure] unless entity @e[type=minecraft:stray,x=3452,y=35,z=4259,distance=..45,tag=Fuyard] positioned 3452 35 4259 run function att2:cinematic/sidequest/45/summon_fuyard
-execute if score SQ45 SIDEQUEST matches 1 if entity @a[x=3494,y=35,z=4371,distance=..45,gamemode=adventure] unless entity @e[type=minecraft:stray,x=3494,y=35,z=4371,distance=..45,tag=Fuyard] positioned 3494 35 4371 run function att2:cinematic/sidequest/45/summon_fuyard
-execute if score SQ45 SIDEQUEST matches 1 if entity @a[x=3418,y=35,z=4477,distance=..45,gamemode=adventure] unless entity @e[type=minecraft:stray,x=3418,y=35,z=4477,distance=..45,tag=Fuyard] positioned 3418 35 4477 run function att2:cinematic/sidequest/45/summon_fuyard
+execute if score SQ45 SIDEQUEST matches 1 unless entity @e[x=3452,y=35,z=4259,distance=..45,type=item,nbt={Item:{components:{"minecraft:custom_name":{"translate":"item.quest.badge.name"}}}}] if entity @a[x=3452,y=35,z=4259,distance=..45,gamemode=adventure] unless entity @e[type=minecraft:stray,x=3452,y=35,z=4259,distance=..45,tag=Fuyard] positioned 3452 35 4259 run function att2:cinematic/sidequest/45/summon_fuyard
+execute if score SQ45 SIDEQUEST matches 1 unless entity @e[x=3494,y=35,z=4371,distance=..45,type=item,nbt={Item:{components:{"minecraft:custom_name":{"translate":"item.quest.badge.name"}}}}] if entity @a[x=3494,y=35,z=4371,distance=..45,gamemode=adventure] unless entity @e[type=minecraft:stray,x=3494,y=35,z=4371,distance=..45,tag=Fuyard] positioned 3494 35 4371 run function att2:cinematic/sidequest/45/summon_fuyard
+execute if score SQ45 SIDEQUEST matches 1 unless entity @e[x=3418,y=35,z=4477,distance=..45,type=item,nbt={Item:{components:{"minecraft:custom_name":{"translate":"item.quest.badge.name"}}}}] if entity @a[x=3418,y=35,z=4477,distance=..45,gamemode=adventure] unless entity @e[type=minecraft:stray,x=3418,y=35,z=4477,distance=..45,tag=Fuyard] positioned 3418 35 4477 run function att2:cinematic/sidequest/45/summon_fuyard
 
 # Particle Fuyard
 execute as @e[type=minecraft:stray,tag=Fuyard] at @s run particle minecraft:dust{color:[1,0.1,0.2],scale:0.4} ~ ~1 ~ 0.05 0.3 0.05 0 1 normal
 execute as @e[type=minecraft:stray,tag=Fuyard] at @s run particle minecraft:dust{color:[1,0.45,0.1],scale:0.4} ~ ~1 ~ 0.05 0.3 0.05 0 1 normal
 
 # Step2 when player have Badge
-execute if score SQ45 SIDEQUEST matches 1 if entity @a[gamemode=adventure,nbt={Inventory:[{components:{"minecraft:custom_name":{translate:'item.quest.badge.name'}}}]}] run function att2:cinematic/sidequest/45/step2
+execute if score SQ45 SIDEQUEST matches 1 if entity @a[gamemode=adventure,nbt={Inventory:[{components:{"minecraft:custom_name":{translate:"item.quest.badge.name"}}}]}] run function att2:cinematic/sidequest/45/step2
 
 # Step3 when player are in front of sectarian door with badge
 execute if score SQ45 SIDEQUEST matches 2 if entity @a[x=3743,y=61,z=4338,distance=..4,gamemode=adventure,nbt={Inventory:[{components:{"minecraft:custom_name":{translate:'item.quest.badge.name'}}}]}] run function att2:cinematic/sidequest/45/step3

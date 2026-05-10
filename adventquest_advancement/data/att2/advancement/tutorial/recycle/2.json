@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:diamond",
+			"components": {
+				"minecraft:item_model": "minecraft:tutorial/show",
+				"minecraft:custom_model_data": {
+					"strings": [
+						"recycle_2"
+					]
+				}
+			}
+		},
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true,
+		"title": "",
+		"description": "",
+		"frame": "task"
+	},
+	"criteria": {
+		"tutorial": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

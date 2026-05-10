@@ -5,8 +5,8 @@
 
 scoreboard objectives add COOLDOWN3 dummy
 scoreboard objectives add SPELL3_LVL dummy
-execute if score @s SPELL3_CAP matches 1.. run return fail
 scoreboard objectives add SPELL3_CAP dummy
+execute if score @s SPELL3_CAP matches 1.. run return fail
 scoreboard objectives add SPELL3_SKULL dummy
 scoreboard players set @s COOLDOWN3 -100
 scoreboard players set @s SPELL3_LVL 0

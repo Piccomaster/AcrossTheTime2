@@ -53,6 +53,6 @@ tellraw @s[scores={LANGUAGE=10}] [{object:player,player:{properties:[{name:"text
 
 
 #Simplified Chinese
-tellraw @s[scores={LANGUAGE=11}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmODk2ZjVkODFlYTY5YTYxZWQ3NjcwYjg2Njk5YWMxZGJjMGYxMjcwYmZlZDJjM2M2YzY1YjIyMWEwNDMzMiJ9fX0="}]}},{text:" °-° Sirna Kho : ",color:"green",extra:[{text:"嘘—我这儿有些好东西！我愿意拿这些强力装备来交换一种稀有的物品: ",color:"dark_aqua"},{text:"<奇珍装备>",color:"light_purple"},{text:" 。到我左边的踏板上存入他们吧—啊，我会帮保管的，不用担心弄丟的问题。您可以先看看有没有中意的东西。",color:"dark_aqua",extra:[{text:" [看装备 -->]",color:"yellow",click_event:{action:run_command,command:"/trigger ScoreTrigger set 761"},hover_event:{action:show_text,value:"点击此处查看Sirna售卖的装备。"}}]}]}]
+tellraw @s[scores={LANGUAGE=11}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmODk2ZjVkODFlYTY5YTYxZWQ3NjcwYjg2Njk5YWMxZGJjMGYxMjcwYmZlZDJjM2M2YzY1YjIyMWEwNDMzMiJ9fX0="}]}},{text:" °-° Sirna Kho : ",color:"green",extra:[{text:"嘘—我这儿有些好东西！我愿意拿这些强力装备来交换一种稀有的物品: ",color:"dark_aqua"},{text:"<奇珍装备>",color:"light_purple"},{text:" 。到我左边的踏板上存入他们吧—啊，我会帮保管的，不用担心弄丢的问题。您可以先看看有没有中意的东西。",color:"dark_aqua",extra:[{text:" [看装备 -->]",color:"yellow",click_event:{action:run_command,command:"/trigger ScoreTrigger set 761"},hover_event:{action:show_text,value:"点击此处查看Sirna售卖的装备。"}}]}]}]
 
 function att2:dialogs/gameplay/shop/esc_display

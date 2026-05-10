@@ -17,6 +17,8 @@
   ],
   "supported_items": "minecraft:saddle",
   "effects": {
+    
+    "minecraft:prevent_armor_change": {},
     "tick": [
       {
         "effect": {

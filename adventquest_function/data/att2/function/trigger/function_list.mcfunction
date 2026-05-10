@@ -3628,3 +3628,40 @@ execute if score @s ScoreTrigger matches 3537 run function att2:cinematic/act_2/
 
 
 execute if score @s ScoreTrigger matches 3538 run execute as @s at @e[distance=..7,type=#minecraft:pnj] if score @s PNJID = @n[distance=..0,type=#minecraft:pnj] PNJID anchored eyes positioned ^ ^ ^ run function att2:gameplay/shop/purchase/spell/blood_transmutation
+
+
+
+execute if score @s ScoreTrigger matches 3562 run function att2:gameplay/consciousness/tutorial
+execute if score @s ScoreTrigger matches 3539 run function att2:gameplay/tutorial/trigger/advancement
+execute if score @s ScoreTrigger matches 3540 run function att2:gameplay/tutorial/trigger/bank
+execute if score @s ScoreTrigger matches 3541 run function att2:gameplay/tutorial/trigger/currency
+execute if score @s ScoreTrigger matches 3542 run function att2:gameplay/tutorial/trigger/death
+execute if score @s ScoreTrigger matches 3543 run function att2:gameplay/tutorial/trigger/consciousness
+execute if score @s ScoreTrigger matches 3544 run function att2:gameplay/tutorial/trigger/quest_assistant
+execute if score @s ScoreTrigger matches 3545 run function att2:gameplay/tutorial/trigger/keys
+execute if score @s ScoreTrigger matches 3546 run function att2:gameplay/tutorial/trigger/recycle
+execute if score @s ScoreTrigger matches 3547 run function att2:gameplay/tutorial/trigger/rarity
+execute if score @s ScoreTrigger matches 3548 run function att2:gameplay/tutorial/trigger/rune_room
+execute if score @s ScoreTrigger matches 3549 run function att2:gameplay/tutorial/trigger/rune_ore
+execute if score @s ScoreTrigger matches 3550 run function att2:gameplay/tutorial/trigger/ender_chest
+execute if score @s ScoreTrigger matches 3551 run function att2:gameplay/tutorial/trigger/stock
+execute if score @s ScoreTrigger matches 3552 run function att2:gameplay/tutorial/trigger/spell
+execute if score @s ScoreTrigger matches 3553 run function att2:gameplay/tutorial/trigger/ride
+execute if score @s ScoreTrigger matches 3554 run function att2:gameplay/tutorial/trigger/mount
+execute if score @s ScoreTrigger matches 3555 run function att2:gameplay/tutorial/trigger/rune_enchantment
+execute if score @s ScoreTrigger matches 3556 run function att2:gameplay/tutorial/trigger/exploration
+execute if score @s ScoreTrigger matches 3557 run function att2:gameplay/tutorial/trigger/attribute
+execute if score @s ScoreTrigger matches 3558 run function att2:gameplay/tutorial/trigger/dailyquest
+execute if score @s ScoreTrigger matches 3559 run function att2:gameplay/tutorial/trigger/dialog
+execute if score @s ScoreTrigger matches 3560 run function att2:gameplay/tutorial/trigger/shop
+execute if score @s ScoreTrigger matches 3561 run function att2:gameplay/tutorial/trigger/enemy
+execute if score @s ScoreTrigger matches 3563 run function att2:gameplay/tutorial/trigger/elytra_race
+execute if score @s ScoreTrigger matches 3564 run function att2:gameplay/tutorial/trigger/horse_race
+execute if score @s ScoreTrigger matches 3565 run function att2:gameplay/tutorial/trigger/fire
+execute if score @s ScoreTrigger matches 3566 run function att2:gameplay/tutorial/trigger/earthquake
+execute if score @s ScoreTrigger matches 3567 run function att2:gameplay/tutorial/trigger/deposit
+execute if score @s ScoreTrigger matches 3568 run function att2:gameplay/tutorial/trigger/waypoint
+
+
+execute if score @s ScoreTrigger matches 3569 run function att2:gameplay/dahal/action/spell40/music_run
+execute if score @s ScoreTrigger matches 3570 run function att2:gameplay/dahal/action/spell40/music_stop

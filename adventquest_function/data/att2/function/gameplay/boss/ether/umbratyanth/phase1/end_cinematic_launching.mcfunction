@@ -7,7 +7,7 @@ execute if score Timer4 UMBRATYANTH matches 1..250 as @a[x=-5158,y=120,z=-6911,d
 execute if score Timer4 UMBRATYANTH matches 1..250 as @e[tag=UmbraDummyEyes,x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82] at @s anchored feet facing entity 00000000-0000-013c-0000-00000000013c feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Timer4 UMBRATYANTH matches 1..250 as 00000000-0000-013c-0000-00000000013c at @s run function att2:gameplay/boss/ether/umbratyanth/phase1/loading_effect
 execute if score Timer4 UMBRATYANTH matches 1..49 as 00000000-0000-013c-0000-00000000013c at @s run teleport @s ~ ~0.07 ~ ~ ~
-execute if score Timer4 UMBRATYANTH matches 10 at @a run function att2:sound/misc/soft_corruption
+execute if score Timer4 UMBRATYANTH matches 10 at 00000000-0000-012c-0000-00000000012c run function att2:sound/misc/soft_corruption
 execute if score Timer4 UMBRATYANTH matches 50 as 00000000-0000-013c-0000-00000000013c at @s run teleport @s -5111 127 -6858
 execute if score Timer4 UMBRATYANTH matches 50 positioned 5111 127 -6858 run function att2:sound/dahal/corruption_stop
 execute if score Timer4 UMBRATYANTH matches 100 as 00000000-0000-013c-0000-00000000013c at @s run teleport @s -5127 121 -6863

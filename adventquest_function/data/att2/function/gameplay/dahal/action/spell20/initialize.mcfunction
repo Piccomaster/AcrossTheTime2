@@ -7,6 +7,7 @@
 scoreboard objectives add Stock_Open dummy
 scoreboard objectives add SPELL20_PAGE dummy
 scoreboard objectives add SPELL20_LVL dummy
+scoreboard objectives add SPELL20_CAP dummy
 execute if score @s SPELL20_CAP matches 1.. run return fail
 scoreboard objectives add Stock_Pick_Up dummy
 scoreboard objectives add Stock_Slot dummy

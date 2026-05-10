@@ -26,3 +26,8 @@ execute if score level DIFFICULTY matches -1 if score Mainquest SIDEQUEST matche
 execute if score level DIFFICULTY matches 0 if score Mainquest SIDEQUEST matches 1.. run effect give @s minecraft:hunger 4 80 true
 execute if score level DIFFICULTY matches 1 if score Mainquest SIDEQUEST matches 1.. run effect give @s minecraft:hunger 5 80 true
 execute if score level DIFFICULTY matches 2 if score Mainquest SIDEQUEST matches 1.. run effect give @s minecraft:hunger 6 80 true
+
+
+##once tutorial
+execute as @s[advancements={att2:tutorial/trigger/death=false}] run function att2:gameplay/tutorial/delay/death
+advancement grant @s only att2:tutorial/trigger/death

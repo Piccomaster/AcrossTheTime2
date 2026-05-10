@@ -10,7 +10,7 @@ particle minecraft:item{item:"minecraft:iron_block"} ~ ~0.2 ~ 1 0.25 1 0.1 2 nor
 particle minecraft:item{item:"minecraft:gray_concrete"} ~ ~0.2 ~ 1 0.25 1 0.1 2 normal
 particle minecraft:item{item:"minecraft:dirt"} ~ ~0.2 ~ 1 0.25 1 0.1 2 normal
 particle minecraft:ash ~ ~0.2 ~ 1 0.25 1 0.1 4 normal
-particle minecraft:campfire_cosy_smoke ~ ~ ~ 1 0 1 0.01 2 normal
+particle minecraft:campfire_cosy_smoke ~ ~ ~ 0.5 0 0.5 1 1 normal
 
 execute as @s[scores={SPELL10_EFFECT=55}] run function att2:gameplay/dahal/action/spell10/earthquake/wave1
 execute as @s[scores={SPELL10_EFFECT=40}] run function att2:gameplay/dahal/action/spell10/earthquake/wave2

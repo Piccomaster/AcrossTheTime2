@@ -1,0 +1,7 @@
+{
+    "criteria": {
+        "score_trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

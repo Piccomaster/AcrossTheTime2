@@ -14,6 +14,7 @@ execute if score @s DESPAWN_TIMER matches 1 unless entity @s[tag=KeepOriginalDat
 ##remove score
 execute unless score @s DESPAWN_TIMER matches ..0 run return run scoreboard players remove @s DESPAWN_TIMER 1
 
+effect give @s resistance 1 4 true
 ##clear enchantment tick
 ##add enchantment tick
 item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/misc/despawn":0}}

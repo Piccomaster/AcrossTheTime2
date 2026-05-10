@@ -6,7 +6,7 @@
 ##set asunarkstone
 execute as @s[tag=Reg1,tag=asunarkstone] run scoreboard players set @s DropQuestItemId 65
 execute as @s[tag=Reg2,tag=Dermist] run scoreboard players set @s DropQuestItemId 33
-execute as @s[tag=Reg2,tag=SQ45] run scoreboard players set @s DropQuestItemId 22
+execute as @s[tag=Reg2,tag=Fuyard] run scoreboard players set @s DropQuestItemId 22
 
 ##set reg
 execute as @s[tag=Reg1] run data modify entity @s DeathLootTable set value "att2:entities/reg1"

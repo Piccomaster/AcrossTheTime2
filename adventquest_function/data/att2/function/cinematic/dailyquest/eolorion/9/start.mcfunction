@@ -36,3 +36,6 @@ execute as @n[distance=..10,type=interaction,tag=Request,nbt={data:{questid:9}}]
 
 ##ryliath start
 scoreboard players set eolorion_start DAILYQUEST 1
+
+##tutorial
+execute as @a[advancements={att2:tutorial/trigger/horse_race=false}] at @s run function att2:gameplay/tutorial/delay/horse_race

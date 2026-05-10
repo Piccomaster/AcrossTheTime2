@@ -3,6 +3,9 @@
 #ender chest                                                    #
 #################################################################
 
+##tutorial
+execute if score tic TIMECOUNTER matches 1 as @a[distance=..10,advancements={att2:tutorial/trigger/ender_chest=false}] at @s run function att2:gameplay/tutorial/delay/ender_chest
+
 ##clear chest
 execute if block ~ ~ ~ ender_chest run setblock ~ ~ ~ air replace
 ##normal particle

@@ -4,13 +4,13 @@
 #################################################################
 
 # SIDEQUEST
-execute if score TOTAL SIDEQUEST matches 1.. run advancement grant @a only att2:progress/sidequest_1
-execute if score TOTAL SIDEQUEST matches 5.. run advancement grant @a only att2:progress/sidequest_5
-execute if score TOTAL SIDEQUEST matches 10.. run advancement grant @a only att2:progress/sidequest_10
-execute if score TOTAL SIDEQUEST matches 20.. run advancement grant @a only att2:progress/sidequest_20
-execute if score TOTAL SIDEQUEST matches 30.. run advancement grant @a only att2:progress/sidequest_30
-execute if score TOTAL SIDEQUEST matches 40.. run advancement grant @a only att2:progress/sidequest_40
-execute if score TOTAL SIDEQUEST matches 50.. run advancement grant @a only att2:progress/sidequest_50
+execute if score TOTAL_SQ SIDEQUEST matches 1.. run advancement grant @a only att2:progress/sidequest_1
+execute if score TOTAL_SQ SIDEQUEST matches 5.. run advancement grant @a only att2:progress/sidequest_5
+execute if score TOTAL_SQ SIDEQUEST matches 10.. run advancement grant @a only att2:progress/sidequest_10
+execute if score TOTAL_SQ SIDEQUEST matches 20.. run advancement grant @a only att2:progress/sidequest_20
+execute if score TOTAL_SQ SIDEQUEST matches 30.. run advancement grant @a only att2:progress/sidequest_30
+execute if score TOTAL_SQ SIDEQUEST matches 40.. run advancement grant @a only att2:progress/sidequest_40
+execute if score TOTAL_SQ SIDEQUEST matches 50.. run advancement grant @a only att2:progress/sidequest_50
 #all sidequest
 execute if score SQ1 SIDEQUEST matches 100 run advancement grant @a only att2:quest/sq1
 execute if score SQ2 SIDEQUEST matches 100 run advancement grant @a only att2:quest/sq2

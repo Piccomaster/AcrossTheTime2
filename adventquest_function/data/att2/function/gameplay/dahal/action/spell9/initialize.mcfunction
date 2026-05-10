@@ -5,9 +5,9 @@
 
 scoreboard objectives add COOLDOWN9 dummy
 scoreboard objectives add SPELL9_LVL dummy
-execute if score @s SPELL9_CAP matches 1.. run return fail
 scoreboard objectives add SPELL9_EFFECT dummy
 scoreboard objectives add SPELL9_CAP dummy
+execute if score @s SPELL9_CAP matches 1.. run return fail
 scoreboard objectives add SPELL9_OP dummy
 scoreboard objectives add SPELL9_DATA dummy
 scoreboard players set @s COOLDOWN9 -100

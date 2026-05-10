@@ -15,6 +15,9 @@ execute if items entity @s container.0 slime_ball[!custom_data~{Rarity:que}] run
 ##dahal item
 execute if data storage att2:item data.Item.components."minecraft:custom_data"{Dahal:book} run return run function att2:gameplay/dahal/launcher/select
 execute if data storage att2:item data.Item.components."minecraft:custom_data"{Dahal:launcher} run return run function att2:gameplay/dahal/book/select
+##stock
+execute if items entity @s container.0 shulker_shell[custom_data~{Trigger:true}] run return run kill @s
+
 ##other
 execute if items entity @s container.0 bone[!custom_data] run return run kill @s
 execute if items entity @s container.0 coal[!custom_data] run return run kill @s

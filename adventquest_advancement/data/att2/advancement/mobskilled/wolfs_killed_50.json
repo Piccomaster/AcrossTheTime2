@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:bone"
+            "id": "minecraft:wolf_spawn_egg"
         },
         "title": {"translate":"att2.advancement.mobskilled.title.wolfs_killed_50"},
         "description": {"translate":"att2.advancement.mobskilled.description.wolfs_killed_50"},

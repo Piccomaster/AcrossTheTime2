@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:spider_eye"
+            "id": "minecraft:spider_spawn_egg"
         },
         "title": {"translate":"att2.advancement.mobskilled.title.spiders_killed_250"},
         "description": {"translate":"att2.advancement.mobskilled.description.spiders_killed_250"},

@@ -76,3 +76,9 @@ execute if score #Q CAL matches 64 run data modify storage att2:temp temp set va
 tellraw @a [{translate:att2.quest_chest_open,with:[{"selector":"@p[predicate=att2_pre:score/player]",color:"dark_red"},{nbt:"temp",storage:"att2:temp",interpret:true}],color:dark_green}]
 
 playsound minecraft:entity.player.levelup block @a ~ ~ ~ 150 0.5
+
+
+##limit
+execute unless score #Q CAL matches 8 run return fail
+##once tutorial
+execute as @s[advancements={att2:tutorial/trigger/keys=false}] run function att2:gameplay/tutorial/delay/keys

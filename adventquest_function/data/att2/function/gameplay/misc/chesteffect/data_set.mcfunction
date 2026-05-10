@@ -66,7 +66,7 @@ execute if score @s CHESTEFFECT matches 5 run data modify entity @s data.glow_co
 execute if score @s CHESTEFFECT matches 6 run data modify entity @s data.glow_color_override set value 10911999
 execute if score @s CHESTEFFECT matches 7 run data modify entity @s data.glow_color_override set value 10888703
 execute if score @s CHESTEFFECT matches 8 run data modify entity @s data.glow_color_override set value 7537020
-execute if score @s CHESTEFFECT matches 9 run data modify entity @s data.glow_color_override set value 16742346
+execute if score @s CHESTEFFECT matches 9 run data modify entity @s data.glow_color_override set value 16740889
 execute if score @s CHESTEFFECT matches 10 run data modify entity @s data.glow_color_override set value 12533760
 execute if score @s CHESTEFFECT matches 11 run data modify entity @s data.glow_color_override set value 657980
 execute if score @s CHESTEFFECT matches 12 run data modify entity @s data.glow_color_override set value 20545

@@ -27,3 +27,6 @@ scoreboard players operation @s ElytraRacingParticleId = @n[distance=..5,type=ar
 
 ##show base cycle
 function att2:gameplay/elytra_racing/player/start/show_base_cycle
+
+##tutorial
+execute as @s[distance=..10,advancements={att2:tutorial/trigger/elytra_race=false}] at @s run function att2:gameplay/tutorial/delay/elytra_race

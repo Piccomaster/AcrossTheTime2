@@ -6,6 +6,10 @@
 # Trigg first launch in mainquest
 function att2:gameplay/tutorial/trigg_position
 
+scoreboard players remove @a[scores={TUTORIAL=1..}] TUTORIAL 1
+execute as @a[scores={TUTORIAL=119}] run function att2:gameplay/tutorial/reset
+
+return fail
 
 # Iteration
 execute if score timer TUTORIAL matches 1..30 run scoreboard players add timer TUTORIAL 1

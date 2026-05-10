@@ -23,3 +23,8 @@ execute as @p at @s run function att2:cinematic/dailyquest/trigger/mining/b
 
 ##set resummon score
 scoreboard players set @s RESUMMON -1
+
+
+
+##tutorial
+execute as @a[distance=..20,advancements={att2:tutorial/trigger/rune_ore=false}] at @s run function att2:gameplay/tutorial/delay/rune_ore

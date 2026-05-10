@@ -6,23 +6,8 @@
 
 #FRENCH LANGUAGE
 
-advancement grant @s[scores={LANGUAGE=0}] only att2:tutorial/runes_fr
-
-
-#ENGLISH LANGUAGE
-
-advancement grant @s[scores={LANGUAGE=1}] only att2:tutorial/runes_eng
-
-
-#CHINESE LANGUAGE
-
-advancement grant @s[scores={LANGUAGE=2}] only att2:tutorial/runes_zh_tw
-
-
-#OTHER LANGUAGE
-
-advancement grant @s[scores={LANGUAGE=3..10}] only att2:tutorial/runes_eng
-
-#Simplified Chinese LANGUAGE
-
-advancement grant @s[scores={LANGUAGE=11}] only att2:tutorial/runes_zh_cn
+advancement grant @s[scores={LANGUAGE=0}] only att2:tutorial/runes/0
+advancement grant @s[scores={LANGUAGE=1}] only att2:tutorial/runes/1
+advancement grant @s[scores={LANGUAGE=2}] only att2:tutorial/runes/2
+advancement grant @s[scores={LANGUAGE=3..10}] only att2:tutorial/runes/1
+advancement grant @s[scores={LANGUAGE=11}] only att2:tutorial/runes/11

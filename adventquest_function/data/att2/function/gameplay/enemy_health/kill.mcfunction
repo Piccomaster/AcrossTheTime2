@@ -3,7 +3,6 @@
 #detect enemy health reduce                                     #
 #################################################################
 
-
 ##add tag
 tag @s add killed
 ##clear enchantments

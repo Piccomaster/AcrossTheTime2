@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:blaze_powder"
+            "id": "minecraft:blaze_spawn_egg"
         },
         "title": {"translate":"att2.advancement.mobskilled.title.blazes_killed_100"},
         "description": {"translate":"att2.advancement.mobskilled.description.blazes_killed_100"},

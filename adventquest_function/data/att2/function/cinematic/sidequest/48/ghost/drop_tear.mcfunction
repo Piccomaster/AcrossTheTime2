@@ -3,8 +3,8 @@
 #Process ghost drop tear										#
 #################################################################
 
-execute as @e[type=minecraft:ghast,tag=Ghost] run data merge entity @s {AbsorptionAmount:2500.0f}
-execute as @e[type=minecraft:ghast,tag=Ghost] run effect give @s instant_damage 1 200 true
+scoreboard players set @n[type=minecraft:ghast,tag=Ghost] ENEMYABHEALTH 200
+scoreboard players add @n[type=minecraft:ghast,tag=Ghost,scores={ENEMYHEALTH=..9000}] ENEMYHEALTH 100
 execute at @a run function att2:sound/misc/secret
 execute positioned 7665.8 191.0 7190.8 run particle minecraft:dripping_water ~ ~ ~ 0.1 0.1 0.1 0 50 force
 execute positioned 7665.8 191.0 7190.8 run particle minecraft:spit ~ ~ ~ 0.25 0.25 0.25 0 50 force

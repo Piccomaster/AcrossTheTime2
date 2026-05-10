@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:zombie_head"
+            "id": "minecraft:vindicator_spawn_egg"
         },
         "title": {"translate":"att2.advancement.mobskilled.title.vindicators_killed_50"},
         "description": {"translate":"att2.advancement.mobskilled.description.vindicators_killed_50"},

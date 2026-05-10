@@ -12,6 +12,7 @@ execute at @s run particle minecraft:dust{color:[0,0,0],scale:2} -5614 8 -6352 1
 execute at @s run particle minecraft:flame -5614 8 -6352 0.2 0.2 0.2 1 200 normal
 
 scoreboard players set underground_mech9 VONAHEIM 1
-scoreboard players set fire_synergy TUTORIAL 1
+execute as @a[scores={TUTORIAL=1..}] at @s run function att2:gameplay/tutorial/delay/fire
+execute as @a at @s run function att2:gameplay/tutorial/trigger/fire
 #return 1->make command block runing
 return 1

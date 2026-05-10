@@ -15,7 +15,7 @@ execute unless items entity @s weapon.mainhand *[custom_data~{EquipmentType:mele
 execute if score #ForceReplace ENEMYHEALTH matches 1 run scoreboard players set #count CAL 20
 #sycthe
 execute if score #ForceReplace ENEMYHEALTH matches 2 run scoreboard players set #count CAL 10
-execute if score #armorbreak CAL matches 1.. run scoreboard players set #count CAL 30
+execute if score #armorbreak CAL matches 1.. run scoreboard players set #count CAL 40
 
 ##add durability cost
 execute unless score #ForceReplace ENEMYHEALTH matches 1.. if items entity @s weapon.mainhand *[custom_data~{EquipmentType:meleeWeapon}] run item modify entity @s weapon.mainhand [{function:set_enchantments,enchantments:{"att2_enchantment:tick/durability/remove/mainhand":4}}]

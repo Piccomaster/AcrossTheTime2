@@ -394,6 +394,10 @@
                                     }
                                 }
                             ]
+                        },
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.666
                         }
                     ],
                     "type": "minecraft:loot_table",

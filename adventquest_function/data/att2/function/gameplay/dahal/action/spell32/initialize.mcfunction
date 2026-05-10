@@ -4,9 +4,9 @@
 #################################################################
 scoreboard objectives add COOLDOWN32 dummy
 scoreboard objectives add SPELL32_LVL dummy
-execute if score @s SPELL32_CAP matches 1.. run return fail
 scoreboard objectives add SPELL32_EFFECT dummy
 scoreboard objectives add SPELL32_CAP dummy
+execute if score @s SPELL32_CAP matches 1.. run return fail
 scoreboard objectives add SPELL32_DATA_A dummy
 scoreboard objectives add SPELL32_DATA_B dummy
 scoreboard objectives add SPELL32_SET dummy

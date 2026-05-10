@@ -6,23 +6,23 @@
 
 #FRENCH LANGUAGE
 
-advancement grant @s[scores={LANGUAGE=0}] only att2:tutorial/skills_fr
+advancement grant @s[scores={LANGUAGE=0}] only att2:tutorial/skills/0
 
 
 #ENGLISH LANGUAGE
 
-advancement grant @s[scores={LANGUAGE=1}] only att2:tutorial/skills_eng
+advancement grant @s[scores={LANGUAGE=1}] only att2:tutorial/skills/1
 
 
 #CHINESE LANGUAGE
 
-advancement grant @s[scores={LANGUAGE=2}] only att2:tutorial/skills_zh_tw
+advancement grant @s[scores={LANGUAGE=2}] only att2:tutorial/skills/2
 
 
 #OTHER LANGUAGE
 
-advancement grant @s[scores={LANGUAGE=3..10}] only att2:tutorial/skills_eng
+advancement grant @s[scores={LANGUAGE=3..10}] only att2:tutorial/skills/1
 
 #Simplified Chinese LANGUAGE
 
-advancement grant @s[scores={LANGUAGE=11}] only att2:tutorial/skills_zh_cn
+advancement grant @s[scores={LANGUAGE=11}] only att2:tutorial/skills/11

@@ -12,6 +12,9 @@ execute if score remove_progress ENCHANTMENT matches 1.. as @e[type=item_display
 #
 function att2:gameplay/enchantment/effect/eyes/trigger
 
+##tutorial
+execute if score tic TIMECOUNTER matches 1 as @a[distance=..20,advancements={att2:tutorial/trigger/rune_enchantment=false}] at @s run function att2:gameplay/tutorial/delay/rune_enchantment
+
 ##RESET entity
 execute if score FIXED_ENTITY ENCHANTMENT matches 1.. run return fail
 

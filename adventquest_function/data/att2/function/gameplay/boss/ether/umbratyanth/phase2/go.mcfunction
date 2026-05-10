@@ -28,11 +28,13 @@
 #####################################################################
 
 # Players counting
-execute as @a[x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82] store result score Players_counter UMBRATYANTH run execute if entity @a[x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82]
+execute as @a[x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82] store result score Players_counter UMBRATYANTH if entity @a[x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82]
 
 # Dummy looking processing
 execute as @e[tag=UmbraDummy,x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82] at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.000001 ~ ~
 execute as @e[tag=UmbraDummyEyes,x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82] at @s anchored feet facing entity 00000000-0000-013c-0000-00000000013c feet run teleport @s ^ ^ ^0.000001 ~ ~
 
+##vex
+execute if score Vonaheim VONAHEIM matches 0.. as @e[type=vex,x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36] at @s unless score @s CLASSLEVEL matches 1.. run function att2:gameplay/boss/elcheol/vonaheim/vex_tag
 # Process action
 function att2:gameplay/boss/ether/umbratyanth/phase2/action

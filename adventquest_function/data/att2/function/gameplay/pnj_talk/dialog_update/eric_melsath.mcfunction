@@ -21,3 +21,6 @@ scoreboard players set 00000000-0000-039a-0000-00000000039a TALKING_TIMER 300
 
 scoreboard players set @s PNJID 45
 function att2:advancement/test_all/journey/pnj
+
+##tutorial
+execute as @a[distance=..20,advancements={att2:tutorial/trigger/mount=false}] at @s run function att2:gameplay/tutorial/delay/mount
