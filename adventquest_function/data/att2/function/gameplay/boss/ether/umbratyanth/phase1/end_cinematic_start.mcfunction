@@ -3,9 +3,6 @@
 #end_cinematic_start for Phase1                               		#
 #####################################################################
 
-##dely
-execute as 00000000-0000-012c-0000-00000000012c as @s[tag=Dely] run return run tag @s remove Dely
-
 function att2:gameplay/boss/ether/umbratyanth/phase1/minions_kill
 execute as @e[type=minecraft:silverfish,tag=LightPoint] run kill @s
 function att2:gameplay/boss/ether/umbratyanth/summon_dummy

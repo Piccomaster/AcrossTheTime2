@@ -59,9 +59,9 @@ execute if score Boss UMBRATYANTH matches 0.. as @a[x=-5158,y=119,z=-6911,dx=82,
 execute if score Boss UMBRATYANTH matches 0.. as @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] at @s run effect clear @s minecraft:invisibility
 
 # Enable Bossbar storing health of Umbra'Tyanth
-execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] store result bossbar minecraft:umbratyanth value run scoreboard players get 00000000-0000-012c-0000-00000000012c ENEMYHEALTH
+execute if score Boss UMBRATYANTH matches 1..2 if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] store result bossbar minecraft:umbratyanth value run scoreboard players get 00000000-0000-012c-0000-00000000012c UMBRATYANTH
+execute if score Boss UMBRATYANTH matches 3.. if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] store result bossbar minecraft:umbratyanth value run scoreboard players get 00000000-0000-012c-0000-00000000012c ENEMYHEALTH
 execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] store result bossbar minecraft:umbratyanth max run attribute 00000000-0000-012c-0000-00000000012c max_health get
-execute if score Boss UMBRATYANTH matches 0.. run scoreboard players operation 0000000-0000-012c-0000-00000000012c UMBRATYANTH = 0000000-0000-012c-0000-00000000012c ENEMYHEALTH
 
 # Portal transition between Elchéol temple and boss arena
 execute if score Boss UMBRATYANTH matches -1.. run function att2:gameplay/boss/ether/umbratyanth/portal_effect
@@ -82,13 +82,13 @@ execute if score Boss UMBRATYANTH matches 0.. run function att2:gameplay/boss/et
 execute if score Boss UMBRATYANTH matches -1 if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] run function att2:gameplay/boss/ether/umbratyanth/start
 
 # Player failed destroying Umbra'Tyanth and died
-execute if score Boss UMBRATYANTH matches 0.. unless entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] if entity @e[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,type=iron_golem,tag=Umbra] run function att2:gameplay/boss/ether/umbratyanth/fail
+execute if score Boss UMBRATYANTH matches 0.. unless entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] if entity 00000000-0000-012c-0000-00000000012c run function att2:gameplay/boss/ether/umbratyanth/fail
 
 # Player under the arena is killed
 execute as @a[x=-5161,y=117,z=-6914,dx=88,dy=-40,dz=88,gamemode=adventure] at @s run kill @s
 
 # Testing if Umbra'Tyanth died
-execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] unless entity @e[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,type=iron_golem,tag=Umbra] run function att2:gameplay/boss/ether/umbratyanth/victory
+execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] unless entity 00000000-0000-012c-0000-00000000012c run function att2:gameplay/boss/ether/umbratyanth/victory
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] tp_spell32_timer 20

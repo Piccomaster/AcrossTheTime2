@@ -18,4 +18,4 @@ execute unless score charge statATTACK matches 1.. run scoreboard players set At
 execute unless score crown statATTACK matches 1.. run scoreboard players set Attack UMBRATYANTH 4
 execute unless score blackhole statATTACK matches 1.. run scoreboard players set Attack UMBRATYANTH 5
 
-execute at @a run function att2:sound/mobs/umbratyanth_attack
+execute at 00000000-0000-012c-0000-00000000012c run function att2:sound/mobs/umbratyanth_attack

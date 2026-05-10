@@ -64,7 +64,8 @@ execute if score eolorion_dailyquest_4 DAILYQUEST matches 100 run data modify st
 
 ##dailyquest_5 : Bob L's Duel Challenge.
 execute if score eolorion_dailyquest_5 DAILYQUEST matches -1 run data modify storage att2:dialog dailyquest append value {label:{translate:"att2.dailyquest.eolorion.5.name",color:"red"},tooltip:{translate:"att2.dailyquest.assistance.click.tip",color:"yellow"},action:{type:"run_command",command:"trigger ScoreTrigger set 3314"},width:150}
-execute if score eolorion_dailyquest_5 DAILYQUEST matches 1..99 run data modify storage att2:dialog dailyquest append value {label:{translate:"att2.dailyquest.eolorion.5.name",color:"yellow"},tooltip:[{translate:"att2.dailyquest.assistance.click.tip",color:"yellow"},{translate:att2.dailyquest.remaining_time,with:[0,0],color:white}],action:{type:"run_command",command:"trigger ScoreTrigger set 3314"},width:150}##show time
+execute if score eolorion_dailyquest_5 DAILYQUEST matches 1..99 run data modify storage att2:dialog dailyquest append value {label:{translate:"att2.dailyquest.eolorion.5.name",color:"yellow"},tooltip:[{translate:"att2.dailyquest.assistance.click.tip",color:"yellow"},{translate:att2.dailyquest.remaining_time,with:[0,0],color:white}],action:{type:"run_command",command:"trigger ScoreTrigger set 3314"},width:150}
+##show time
 scoreboard players operation #minutes CAL = eolorion_dailyquest_5_timer DAILYQUEST
 scoreboard players operation #minutes CAL /= 20 CAL
 scoreboard players operation #minutes CAL /= 60 CAL

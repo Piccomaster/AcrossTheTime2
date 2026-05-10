@@ -3,7 +3,7 @@
 #Process choose position of Light                          			#
 #####################################################################
 
-execute at @a run function att2:sound/mobs/umbratyanth_hurt
+execute at 00000000-0000-012c-0000-00000000012c run function att2:sound/mobs/umbratyanth_hurt
 function att2:physicmod/reg1/ether/umbra_lightcenter_small
 ##actually random
 execute store result score Player_pos UMBRATYANTH run random value 1..17
@@ -26,4 +26,4 @@ execute if score Player_pos UMBRATYANTH matches 16 as 00000000-0000-013c-0000-00
 execute if score Player_pos UMBRATYANTH matches 17 as 00000000-0000-013c-0000-00000000013c at @s run tp @s -5105 121 -6883
 
 
-scoreboard players set 00000000-0000-012c-0000-00000000012c ENEMYABHEALTH 2
+scoreboard players set 00000000-0000-012c-0000-00000000012c ENEMYABHEALTH 20

@@ -8,6 +8,10 @@ execute at @s[tag=ObstinacyPet1] run particle minecraft:dust{color:[0.1,0.1,0.3]
 execute at @s[tag=ObstinacyPet2] run particle minecraft:dust{color:[0.1,0.1,0.3],scale:0.75} ~ ~0.5 ~ 0.15 0.15 0.15 0 4
 execute at @s[tag=ObstinacyPet3] run particle minecraft:dust{color:[0.1,0.1,0.3],scale:1} ~ ~0.5 ~ 0.25 0.25 0.25 0 5
 
+##
+function att2:gameplay/score/owner
+execute if score tic TIMECOUNTER matches 6 run kill @e[distance=1..,type=phantom,predicate=att2_pre:score/owner]
+
 # Make pet follow its owner
 #execute unless score @s SUMMON_TIMER matches 1.. run function att2:gameplay/dahal/pet/follow_owner
 

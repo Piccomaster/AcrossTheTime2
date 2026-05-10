@@ -14,7 +14,7 @@ execute if score level DIFFICULTY matches 0..1 store result storage att2:score d
 execute if score level DIFFICULTY matches 2 store result storage att2:score damage int 1 run attribute @n[distance=..2,tag=ATK,type=#minecraft:spiders] attack_damage get 1.5
 
 ##damage
-function att2:gameplay/enveffect/spider/damage with storage att2:score
+execute as @s[tag=!UmbraMinion] run function att2:gameplay/enveffect/spider/damage with storage att2:score
 
 ##cave spider
 ##limit

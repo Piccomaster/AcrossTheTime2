@@ -17,7 +17,8 @@ execute if data entity @s drop_chances if items entity @s armor.head diamond_hel
 item modify entity @s[type=!minecraft:bat] armor.head {function:set_enchantments,enchantments:{"att2_enchantment:tick/mob_tick":1}}
 ##add shield
 execute if items entity @s weapon.offhand shield[!custom_data~{Shield:true}] run item modify entity @s weapon.offhand [{function:set_custom_data,tag:{"Shield":true}},{function:set_attributes,modifiers:[{attribute:knockback_resistance,id:knockback_resistance_shield,operation:add_value,amount:0.5,slot:offhand},{attribute:movement_speed,id:movement_speed_shield,operation:add_multiplied_total,amount:-0.1,slot:offhand}]},{function:set_components,components:{"minecraft:damage":0,"minecraft:max_damage":100}}]
-
+##spider -> limit
+attribute @s[type=#spiders] minecraft:entity_interaction_range base set 0
 ##entity id
 function att2:gameplay/score/entity_id_initialize
 
@@ -90,7 +91,8 @@ tag @s remove LVL0
 ###add health bar
 
 ##initialize absorption health
-execute store result score @s ENEMYABHEALTH run data get entity @s AbsorptionAmount
+execute store result score #ENEMYABHEALTH CAL run data get entity @s AbsorptionAmount
+scoreboard players operation @s ENEMYABHEALTH += #ENEMYABHEALTH CAL
 #add temp tag
 tag @s add HP_DIS
 #make health bar

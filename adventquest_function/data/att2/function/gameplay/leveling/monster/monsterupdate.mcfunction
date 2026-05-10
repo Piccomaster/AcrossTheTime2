@@ -46,7 +46,12 @@ scoreboard players set #score CAL 17900
 
 scoreboard players operation #max_health CAL /= #score CAL
 scoreboard players operation #max_health CAL += #base_hp CAL
-
+##add ab hp
+#execute if score #max_health CAL matches 1024.. run say 移除了
+execute if score #max_health CAL matches 1024.. run scoreboard players operation #ENEMYABHEALTH CAL = #max_health CAL
+execute if score #max_health CAL matches 1024.. run scoreboard players operation #ENEMYABHEALTH CAL -= #max_health CAL
+execute if score #max_health CAL matches 1024.. run scoreboard players operation @s ENEMYABHEALTH += #ENEMYABHEALTH CAL
+#execute if score #max_health CAL matches 1024.. run tellraw @a ["溢出生命值转化",{score:{name:"#ENEMYABHEALTH",objective:"CAL"}}]
 #scoreboard players operation #max_health CAL += #base_hp CAL
 ##return attack damage
 execute store result entity @s attributes[{id:"minecraft:max_health"}].modifiers[{id:"minecraft:true_health"}].amount int 1 run scoreboard players get #max_health CAL

@@ -3661,3 +3661,7 @@ execute if score @s ScoreTrigger matches 3565 run function att2:gameplay/tutoria
 execute if score @s ScoreTrigger matches 3566 run function att2:gameplay/tutorial/trigger/earthquake
 execute if score @s ScoreTrigger matches 3567 run function att2:gameplay/tutorial/trigger/deposit
 execute if score @s ScoreTrigger matches 3568 run function att2:gameplay/tutorial/trigger/waypoint
+
+
+execute if score @s ScoreTrigger matches 3569 run function att2:gameplay/dahal/action/spell40/music_run
+execute if score @s ScoreTrigger matches 3570 run function att2:gameplay/dahal/action/spell40/music_stop
