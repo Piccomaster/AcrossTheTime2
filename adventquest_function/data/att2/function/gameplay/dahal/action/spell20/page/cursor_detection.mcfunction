@@ -22,4 +22,4 @@ execute if items entity @s container.8 * run data modify entity @n[distance=..10
 execute if items entity @s container.17 * run data modify entity @n[distance=..10,type=item,tag=New,tag=Slot2] Item set from entity @s Items[{Slot:17b}]
 execute if items entity @s container.26 * run data modify entity @n[distance=..10,type=item,tag=New,tag=Slot3] Item set from entity @s Items[{Slot:26b}]
 
-say 我是吗
+#say 我是吗

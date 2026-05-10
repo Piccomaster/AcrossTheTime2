@@ -18,4 +18,4 @@ execute positioned -4317 75.5 -5274 run function att2:gameplay/runictrials/summo
 summon minecraft:lightning_bolt -4317 78 -5268
 
 # checkpoint
-execute in minecraft:overworld positioned -4317 73 -5265 as @a[distance=..40] run spawnpoint @s -4165 71 -5515
+execute in minecraft:overworld positioned -4317 73 -5265 as @a[distance=..40] run spawnpoint @s -4317 73 -5265

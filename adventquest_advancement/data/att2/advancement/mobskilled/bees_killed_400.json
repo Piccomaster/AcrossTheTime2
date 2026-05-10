@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:honeycomb"
+            "id": "minecraft:bee_spawn_egg"
         },
         "title": {"translate":"att2.advancement.mobskilled.title.bees_killed_400"},
         "description": {"translate":"att2.advancement.mobskilled.description.bees_killed_400"},

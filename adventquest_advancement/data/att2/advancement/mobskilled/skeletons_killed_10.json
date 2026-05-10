@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:skeleton_skull"
+            "id": "minecraft:skeleton_spawn_egg"
         },
         "title": {"translate":"att2.advancement.mobskilled.title.skeletons_killed_10"},
         "description": {"translate":"att2.advancement.mobskilled.description.skeletons_killed_10"}

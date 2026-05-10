@@ -25,15 +25,15 @@ execute if score Atricanth SQ57 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run s
 #atricanth1
 execute if score Atricanth SQ57 matches 0.. in minecraft:the_nether if entity @a[x=3445,y=32,z=4323,dx=-40,dy=-18,dz=-40,gamemode=adventure] store result bossbar minecraft:atricanth1 value run scoreboard players get 00000000-0000-027c-0000-00000000027c ENEMYHEALTH
 execute if score Atricanth SQ57 matches 0.. unless entity 00000000-0000-027c-0000-00000000027c run bossbar remove minecraft:atricanth1
-execute if score Atricanth SQ57 matches 0.. in minecraft:the_nether if entity @a[x=3445,y=32,z=4323,dx=-40,dy=-18,dz=-40,gamemode=adventure] store result bossbar minecraft:atricanth1 max run data get entity 00000000-0000-027c-0000-00000000027c attributes[{id:"minecraft:max_health"}].base
+execute if score Atricanth SQ57 matches 0.. in minecraft:the_nether if entity @a[x=3445,y=32,z=4323,dx=-40,dy=-18,dz=-40,gamemode=adventure] store result bossbar minecraft:atricanth1 max run attribute 00000000-0000-027c-0000-00000000027c minecraft:max_health get
 #atricanth2
 execute if score Atricanth SQ57 matches 0.. in minecraft:the_nether if entity @a[x=3445,y=32,z=4323,dx=-40,dy=-18,dz=-40,gamemode=adventure] store result bossbar minecraft:atricanth2 value run scoreboard players get 00000000-0000-028c-0000-00000000028c ENEMYHEALTH
 execute if score Atricanth SQ57 matches 0.. unless entity 00000000-0000-028c-0000-00000000028c run bossbar remove minecraft:atricanth2
-execute if score Atricanth SQ57 matches 0.. in minecraft:the_nether if entity @a[x=3445,y=32,z=4323,dx=-40,dy=-18,dz=-40,gamemode=adventure] store result bossbar minecraft:atricanth2 max run data get entity 00000000-0000-028c-0000-00000000028c attributes[{id:"minecraft:max_health"}].base
+execute if score Atricanth SQ57 matches 0.. in minecraft:the_nether if entity @a[x=3445,y=32,z=4323,dx=-40,dy=-18,dz=-40,gamemode=adventure] store result bossbar minecraft:atricanth2 max run attribute 00000000-0000-028c-0000-00000000028c minecraft:max_health get
 #atricanth3
 execute if score Atricanth SQ57 matches 0.. in minecraft:the_nether if entity @a[x=3445,y=32,z=4323,dx=-40,dy=-18,dz=-40,gamemode=adventure] store result bossbar minecraft:atricanth3 value run scoreboard players get 00000000-0000-029c-0000-00000000029c ENEMYHEALTH
 execute if score Atricanth SQ57 matches 0.. unless entity 00000000-0000-029c-0000-00000000029c run bossbar remove minecraft:atricanth3
-execute if score Atricanth SQ57 matches 0.. in minecraft:the_nether if entity @a[x=3445,y=32,z=4323,dx=-40,dy=-18,dz=-40,gamemode=adventure] store result bossbar minecraft:atricanth3 max run data get entity 00000000-0000-029c-0000-00000000029c attributes[{id:"minecraft:max_health"}].base
+execute if score Atricanth SQ57 matches 0.. in minecraft:the_nether if entity @a[x=3445,y=32,z=4323,dx=-40,dy=-18,dz=-40,gamemode=adventure] store result bossbar minecraft:atricanth3 max run attribute 00000000-0000-029c-0000-00000000029c minecraft:max_health get
 
 # Make challengers enters the arena
 #execute if score SQ57 SIDEQUEST matches 1..99 in minecraft:the_nether as @a[x=3422,y=34,z=4306,dx=6,dy=2,dz=-6,gamemode=adventure] at @s unless entity @a[x=3445,y=32,z=4323,dx=-40,dy=-18,dz=-40,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/angband/atricanth/display_title
