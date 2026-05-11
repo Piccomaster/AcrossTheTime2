@@ -34,8 +34,8 @@ advancement revoke @s only att2_test:score_trigger
 scoreboard objectives add SYSTEM dummy
 
 ##α command
-execute unless score elytra_racing_update SYSTEM matches 2.. run function att2:gameplay/elytra_racing/initialize
-scoreboard players set elytra_racing_update SYSTEM 2
+execute unless score elytra_racing_update SYSTEM matches 3.. run function att2:gameplay/elytra_racing/initialize
+scoreboard players set elytra_racing_update SYSTEM 3
 
 team add gold
 team modify gold color gold

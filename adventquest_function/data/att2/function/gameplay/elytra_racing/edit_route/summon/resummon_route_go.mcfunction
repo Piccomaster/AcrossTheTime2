@@ -30,6 +30,7 @@ summon armor_stand ~ ~ ~ {equipment:{head:{id:"diamond_helmet",components:{encha
 scoreboard players set @e[distance=..10,type=armor_stand,tag=showing,tag=circle,tag=New] ElytraRacingMaxId 0
 ##sync score
 scoreboard players operation @e[distance=..10,type=armor_stand,tag=showing,tag=circle,tag=New] ElytraRacing = @s ElytraRacingMaxId
+scoreboard players operation @e[distance=..10,type=armor_stand,tag=showing,tag=circle,tag=New] OWNER = @s NUMEROJOUEUR
 ##particle
 scoreboard players operation @e[distance=..10,type=armor_stand,tag=showing,tag=circle,tag=New] ElytraRacingParticleId = @s ElytraRacingParticleId
 ##id

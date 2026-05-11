@@ -9,6 +9,7 @@ stopsound @s
 tag @s add NoAutoMusic
 scoreboard players set @s MUSIC_BOSS 0
 bossbar set minecraft:umbratyanth players @s
+execute at @s run particle minecraft:flash{color:[1,1,1,1]} ~ ~ ~ 0 0 0 0 1 normal
 
 function att2:gameplay/checkpoint/telluron_present/elcheol3
 

@@ -12,7 +12,7 @@ execute if score @s CriticalGuarantee matches 100.. run scoreboard players set #
 execute if score @s CriticalGuarantee matches 100.. run scoreboard players set @s CriticalGuarantee 0
 
 ##Critical percent = Critical / 1000
-scoreboard players set #Critical CAL 3
+scoreboard players operation #Critical CAL = SPELL8_CRITICAL SPELL_DATA
 
 scoreboard players operation @s CriticalGuarantee += #Critical CAL
 execute unless score @s CRT_TOT matches ..0 run scoreboard players operation #Critical CAL *= @s CRT_TOT

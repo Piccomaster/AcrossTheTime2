@@ -9,4 +9,4 @@ scoreboard players operation #OverFlow CAL = @s HER_TOT
 scoreboard players operation #OverFlow CAL *= 20000 CAL
 
 scoreboard players operation #OverFlow CAL -= @s HER_VALUE
-execute if score #OverFlow CAL matches 10000.. run return run scoreboard players remove @s HER_VALUE 10000
+execute if score #OverFlow CAL matches ..-10001 run return run scoreboard players remove @s HER_VALUE 10000

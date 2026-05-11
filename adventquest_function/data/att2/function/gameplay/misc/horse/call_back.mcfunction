@@ -6,6 +6,9 @@
 ##limit
 execute align xyz positioned ~0.5 ~1 ~0.5 store result score #BLOCK CAL run fill ~-1 ~ ~-1 ~1 ~1 ~1 minecraft:void_air replace minecraft:air
 execute align xyz positioned ~0.5 ~1 ~0.5 run fill ~-1 ~ ~-1 ~1 ~1 ~1 minecraft:air replace minecraft:void_air
+execute align xyz positioned ~0.5 ~1 ~0.5 store result score #LIGHT_BLOCK CAL run fill ~-1 ~ ~-1 ~1 ~1 ~1 minecraft:void_air replace minecraft:light[level=15]
+execute align xyz positioned ~0.5 ~1 ~0.5 run fill ~-1 ~ ~-1 ~1 ~1 ~1 minecraft:light[level=15] replace minecraft:void_air
+scoreboard players operation #BLOCK CAL += #LIGHT_BLOCK CAL
 execute if score #BLOCK CAL matches ..12 run function att2:sound/misc/energy_thrill
 execute if score #BLOCK CAL matches ..12 run return run tellraw @s [{translate:att2.horse.space_limit,color:red}]
 

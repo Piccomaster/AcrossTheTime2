@@ -14,6 +14,7 @@ execute if score walton_jones_PNJ DIALOG matches 4 run function att2:dialogs/sid
 execute if score walton_jones_PNJ DIALOG matches 3 run function att2:dialogs/sidequest/sq37/walton_jones/dialog_3
 execute if score walton_jones_PNJ DIALOG matches 2 run function att2:dialogs/sidequest/sq37/walton_jones/dialog_2
 execute if score walton_jones_PNJ DIALOG matches 1 run function att2:dialogs/sidequest/sq37/walton_jones/dialog_1
+execute if score choice SQ38 matches 1 if score escavation_timer SQ38 matches 1..100000 run function att2:dialogs/sidequest/sq38/walton_jones/dialog_8
 
 #Activation entity head movement
 scoreboard players set 00000000-0000-134a-0000-00000000134a TALKING 1

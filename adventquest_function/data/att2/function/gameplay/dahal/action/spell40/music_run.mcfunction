@@ -11,4 +11,4 @@ scoreboard players set @s SPELL40_MUSIC 1
 tag @s add NoAutoMusic
 
 ##tellraw
-tellraw @a [{}]
+tellraw @s [{translate:att2.spell40.music.run.tip,color:green}]
