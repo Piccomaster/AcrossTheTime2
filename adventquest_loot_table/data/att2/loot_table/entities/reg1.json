@@ -284,7 +284,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/potion/leg/potion_81",
+          "value": "att2:item_data/potion/leg/potion_83",
           "conditions": [
             {
               "condition": "random_chance",
@@ -299,7 +299,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/potion/leg/potion_82",
+          "value": "att2:item_data/potion/leg/potion_84",
           "conditions": [
             {
               "condition": "random_chance",
@@ -1364,7 +1364,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/potion/ult/potion_83",
+          "value": "att2:item_data/potion/ult/potion_85",
           "conditions": [
             {
               "condition": "random_chance",
@@ -1379,7 +1379,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "att2:item_data/potion/ult/potion_84",
+          "value": "att2:item_data/potion/ult/potion_86",
           "conditions": [
             {
               "condition": "random_chance",
