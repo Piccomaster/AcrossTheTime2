@@ -19,4 +19,8 @@ execute if score Jarat1 CHECKPOINT matches 0 run scoreboard players add Jarat CH
 ##test Jarat checkpoint
 execute if score Jarat CHECKPOINT matches 2 run advancement grant @a only att2:journey/checkpoint_jarat
 
+##show count
+execute unless score Jarat CHECKPOINT matches 2 positioned -4736 81 -5466 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_jarat,color:red},{text:":",color:gray},{score:{name:"Jarat",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"2",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Jarat1 CHECKPOINT matches 1 positioned -4736 81 -5466 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Jarat1 CHECKPOINT 1

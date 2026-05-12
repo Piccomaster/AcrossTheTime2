@@ -9,6 +9,8 @@ function att2:gameplay/shop/gambling/bets/launch
 summon minecraft:armor_stand ~ ~ ~ {Marker:1,Invulnerable:1b,Invisible:1b,Tags:["GamblingMarker","New"],equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/gambling":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},data:{gambling:[]}}
 ##cal random
 loot spawn ~ ~ ~ loot att2:gambling1
+loot spawn ~ ~ ~ loot att2:gambling1
+loot spawn ~ ~ ~ loot att2:gambling1
 
 
 ##summon experience_bottle

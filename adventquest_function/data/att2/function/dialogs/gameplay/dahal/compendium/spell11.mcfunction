@@ -5,7 +5,7 @@
 
 function att2:gameplay/dahal/data_cal/spell11
 tellraw @s [{text:"§e【"},{translate:att2.spell11.name},{text:"§e】"}]
-
+tellraw @s [{text:"§e【"},{translate:att2.spell.critical,color:gold},{text:": ",color:gold},{score:{name:"#Critical",objective:"SPELL_DATA"},color:gold},{text:"% ",color:gold},{translate:att2.spell.critical_damage,color:gold},{text:": +",color:gold},{score:{name:"#CriticalDamage",objective:"SPELL_DATA"},color:gold},{text:"% ",color:gold},{text:"§e】"}]
 execute if score @s SPELL11_CAP matches 1.. run tellraw @s [{translate:att2.spell11.data,with:[{score:{name:"SPELL_LVL1",objective:"SPELL_DATA"},color:dark_green},{score:{name:"DAHAL_LVL1",objective:"SPELL_DATA"},color:dark_green},{score:{name:"DISTANCE_LVL1",objective:"SPELL_DATA"},color:dark_green},{score:{name:"DAMAGE_LVL1",objective:"SPELL_DATA"},color:dark_green}]}]
 execute if score @s SPELL11_CAP matches 2.. run tellraw @s [{translate:att2.spell11.data,with:[{score:{name:"SPELL_LVL2",objective:"SPELL_DATA"},color:dark_green},{score:{name:"DAHAL_LVL2",objective:"SPELL_DATA"},color:dark_green},{score:{name:"DISTANCE_LVL2",objective:"SPELL_DATA"},color:dark_green},{score:{name:"DAMAGE_LVL2",objective:"SPELL_DATA"},color:dark_green}]}]
 execute if score @s SPELL11_CAP matches 3.. run tellraw @s [{translate:att2.spell11.data,with:[{score:{name:"SPELL_LVL3",objective:"SPELL_DATA"},color:dark_green},{score:{name:"DAHAL_LVL3",objective:"SPELL_DATA"},color:dark_green},{score:{name:"DISTANCE_LVL3",objective:"SPELL_DATA"},color:dark_green},{score:{name:"DAMAGE_LVL3",objective:"SPELL_DATA"},color:dark_green}]}]

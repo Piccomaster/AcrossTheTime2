@@ -3,8 +3,8 @@
 #Initialize enchantment                    						#
 #################################################################
 
-execute store result score temp_value_1 CAL run data get entity @s equipment.chest.components."minecraft:enchantments"."att2_enchantment:dahalburst" 20
-scoreboard players operation temp_value_2 CAL = temp_value_1 CAL
+execute store result score temp_value_1 CAL run data get entity @s equipment.chest.components."minecraft:enchantments"."att2_enchantment:dahalburst" 10
+#scoreboard players operation temp_value_2 CAL = temp_value_1 CAL
 #get dahal/DAHALMAX
 scoreboard players operation temp_value_3 CAL = @s DAHALMAX
 #test dahal enough

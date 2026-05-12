@@ -16,7 +16,11 @@ execute if score Volcano6 CHECKPOINT matches 0 run scoreboard players add All CH
 function att2:advancement/test_all/progress/checkpoint
 
 execute if score Volcano6 CHECKPOINT matches 0 run scoreboard players add Volcano CHECKPOINT 1
-##test Volcano CHECKPOINT
+##test Volcano checkpoint
 execute if score Volcano CHECKPOINT matches 8 run advancement grant @a only att2:journey/checkpoint_volcano
 
+##show count
+execute unless score Volcano CHECKPOINT matches 8 positioned -5553 72 -5154 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_volcano,color:red},{text:":",color:gray},{score:{name:"Volcano",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"8",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Volcano6 CHECKPOINT matches 1 positioned -5553 72 -5154 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Volcano6 CHECKPOINT 1

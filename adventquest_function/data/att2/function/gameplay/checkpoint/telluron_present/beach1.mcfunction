@@ -19,4 +19,8 @@ execute if score Beach1 CHECKPOINT matches 0 run scoreboard players add Beach CH
 ##test Beach checkpoint
 execute if score Beach CHECKPOINT matches 4 run advancement grant @a only att2:journey/checkpoint_beach
 
+##show count
+execute unless score Beach CHECKPOINT matches 4 positioned -4174 70 -5079 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_beach,color:red},{text:":",color:gray},{score:{name:"Beach",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"4",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Beach1 CHECKPOINT matches 1 positioned -4174 70 -5079 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Beach1 CHECKPOINT 1

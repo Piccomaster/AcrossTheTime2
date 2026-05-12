@@ -13,6 +13,8 @@ execute if score Timer2 UMBRATYANTH matches 20.. unless entity @e[type=minecraft
 execute if score Timer2 UMBRATYANTH matches 20.. unless entity @e[type=minecraft:guardian,tag=UmbraEyes4,x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82] run kill @e[type=minecraft:skeleton,tag=UmbraSupport4,x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82]
 execute if score Timer2 UMBRATYANTH matches 20.. unless entity @e[type=minecraft:skeleton,x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82] run function att2:gameplay/boss/ether/umbratyanth/phase1/attack_end
 
+execute if score 00000000-0000-012c-0000-00000000012c UMBRATYANTH matches 999.. if score Timer2 UMBRATYANTH matches ..998 run scoreboard players set Timer2 UMBRATYANTH 999
+
 # Processing
 execute if score Timer2 UMBRATYANTH matches 1..1000 as @e[type=minecraft:skeleton,x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82] at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.000001 ~ ~
 execute if score Timer2 UMBRATYANTH matches 1..100 run function att2:gameplay/boss/ether/umbratyanth/phase1/minions_spread

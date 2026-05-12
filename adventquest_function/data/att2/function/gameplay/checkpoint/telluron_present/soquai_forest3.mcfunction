@@ -19,4 +19,8 @@ execute if score Soquai3 CHECKPOINT matches 0 run scoreboard players add Soquai 
 ##test Soquai checkpoint
 execute if score Soquai CHECKPOINT matches 9 run advancement grant @a only att2:journey/checkpoint_soquai
 
+##show count
+execute unless score Soquai CHECKPOINT matches 9 positioned -4922 89 -5524 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_soquai,color:red},{text:":",color:gray},{score:{name:"Soquai",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"9",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Soquai3 CHECKPOINT matches 1 positioned -4922 89 -5524 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Soquai3 CHECKPOINT 1

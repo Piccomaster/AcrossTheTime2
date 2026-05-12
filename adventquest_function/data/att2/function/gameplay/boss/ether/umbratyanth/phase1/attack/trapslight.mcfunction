@@ -26,6 +26,8 @@ execute unless score Light_pos UMBRATYANTH matches 14 at @e[type=minecraft:silve
 execute unless score Light_pos UMBRATYANTH matches 15 at @e[type=minecraft:silverfish,tag=WrongLight] if entity @a[distance=..2,gamemode=adventure] run function att2:gameplay/boss/ether/umbratyanth/phase1/attack/trapslight/wrong
 execute unless score Light_pos UMBRATYANTH matches 16 at @e[type=minecraft:silverfish,tag=WrongLight] if entity @a[distance=..2,gamemode=adventure] run function att2:gameplay/boss/ether/umbratyanth/phase1/attack/trapslight/wrong
 
+execute if score 00000000-0000-012c-0000-00000000012c UMBRATYANTH matches 999.. if score Timer2 UMBRATYANTH matches ..498 run scoreboard players set Timer2 UMBRATYANTH 499
+
 # Processing
 execute if score Timer2 UMBRATYANTH matches 1..100 run function att2:gameplay/boss/ether/umbratyanth/phase1/minions_spread
 execute if score Timer2 UMBRATYANTH matches 10 run function att2:physicmod/reg1/ether/umbra_lightrandom

@@ -3,8 +3,9 @@
 #Use function to process the sell of Arrow Swarm 				#
 #################################################################
 
-execute as @s[scores={CHRONOTON=..999}] at @s run function att2:dialogs/gameplay/shop/not_enough_chronotons
-execute if entity @s[scores={CHRONOTON=1000..}] run function att2:gameplay/shop/effect
-execute if entity @s[scores={CHRONOTON=1000..}] run function att2:gameplay/dahal/action/spell8/obtain
+#cal chronotons
+execute if score @s CHRONOTON < spell8 PRICES run return run function att2:dialogs/gameplay/shop/not_enough_chronotons
+scoreboard players operation @s CHRONOTON -= spell8 PRICES
 
-scoreboard players remove @s[scores={CHRONOTON=1000..}] CHRONOTON 1000
+function att2:gameplay/shop/effect
+function att2:gameplay/dahal/action/spell8/obtain

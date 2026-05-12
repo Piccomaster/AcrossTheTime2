@@ -4,7 +4,7 @@
 #################################################################
 
 scoreboard players set @s LIMIT77 0
-function att2:gameplay/dahal/action/spell34/reset_marker
+#function att2:gameplay/dahal/action/spell34/reset_marker
 execute as @s[scores={DIMENSION=0}] run function att2:gameplay/dahal/action/spell34/detection/telluron_past
 execute as @s[scores={DIMENSION=1}] run function att2:gameplay/dahal/action/spell34/detection/telluron
 execute as @s[scores={DIMENSION=1}] run function att2:gameplay/dahal/action/spell34/detection/telluron_ryliath
@@ -26,6 +26,8 @@ execute as @s[scores={DIMENSION=-3}] run function att2:gameplay/dahal/action/spe
 function att2:gameplay/dahal/action/spell34/detection/chest
 ##symbol
 function att2:gameplay/dahal/action/spell34/detection/symbol
+##pickable_item
+function att2:gameplay/dahal/action/spell34/detection/pickable_item
 
 team join detect_quest @e[type=minecraft:shulker,tag=questmarker]
 team join detect_npc @e[type=minecraft:shulker,tag=npcmarker]

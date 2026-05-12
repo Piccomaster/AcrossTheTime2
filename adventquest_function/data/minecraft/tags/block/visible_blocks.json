@@ -30,6 +30,8 @@
     "minecraft:skeleton_skull",
     "minecraft:light",
     "minecraft:water",
-    "minecraft:dead_bubble_coral_fan"
+    "minecraft:dead_bubble_coral_fan",
+    "minecraft:twisting_vines_plant",
+    "minecraft:amethyst_cluster"
   ]
 }

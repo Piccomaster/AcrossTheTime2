@@ -10,6 +10,7 @@ execute as @e[tag=UmbraMinion] anchored feet at @s facing entity @e[type=minecra
 execute as @a[x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] at @s if block ~ ~-1 ~ minecraft:glass run scoreboard players add Stayindark UMBRATYANTH 1
 execute if score Stayindark UMBRATYANTH matches 1000.. run function att2:gameplay/boss/ether/umbratyanth/phase1/attack_fail
 
+execute if score 00000000-0000-012c-0000-00000000012c UMBRATYANTH matches 999.. if score Timer2 UMBRATYANTH matches ..1299 run scoreboard players set Timer2 UMBRATYANTH 1300
 # Processing
 execute if score Timer2 UMBRATYANTH matches 1..100 run function att2:gameplay/boss/ether/umbratyanth/phase1/minions_spread
 execute if score Timer2 UMBRATYANTH matches 10 run function att2:physicmod/reg1/ether/umbra_lightcenter_small

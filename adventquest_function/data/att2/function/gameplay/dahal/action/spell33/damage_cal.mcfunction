@@ -7,12 +7,12 @@
 #add tag
 tag @s add SPLAUNCH
 #set  MinDamage | (MaxDamage−MinDamage)[]
-scoreboard players set minDG SPDG 20
-scoreboard players set maxDG SPDG 500
+scoreboard players set minDG SPDG 10
+scoreboard players set maxDG SPDG 400
 #difficult damage
-execute if score level DIFFICULTY matches 0.. run scoreboard players add maxDG SPDG 20
-execute if score level DIFFICULTY matches 1.. run scoreboard players add maxDG SPDG 20
-execute if score level DIFFICULTY matches 2.. run scoreboard players add maxDG SPDG 20
+execute if score level DIFFICULTY matches 0.. run scoreboard players add maxDG SPDG 10
+execute if score level DIFFICULTY matches 1.. run scoreboard players add maxDG SPDG 10
+execute if score level DIFFICULTY matches 2.. run scoreboard players add maxDG SPDG 10
 #max-min
 scoreboard players operation maxDG SPDG -= minDG SPDG
 #cal  (SLCT_LVL-1)

@@ -16,7 +16,11 @@ execute if score Lost_island4 CHECKPOINT matches 0 run scoreboard players add Al
 function att2:advancement/test_all/progress/checkpoint
 
 execute if score Lost_island4 CHECKPOINT matches 0 run scoreboard players add Lost_island CHECKPOINT 1
-##test Lost_island CHECKPOINT
+##test Lost_island checkpoint
 execute if score Lost_island CHECKPOINT matches 5 run advancement grant @a only att2:journey/checkpoint_lost_island
 
+##show count
+execute unless score Lost_island CHECKPOINT matches 5 positioned -3986 30 -4279 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_lost_island,color:red},{text:":",color:gray},{score:{name:"Lost_island",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"5",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Lost_island4 CHECKPOINT matches 1 positioned -3986 30 -4279 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Lost_island4 CHECKPOINT 1

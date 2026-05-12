@@ -19,4 +19,8 @@ execute if score Zirthion2 CHECKPOINT matches 0 run scoreboard players add Zirth
 ##test Zirthion checkpoint
 execute if score Zirthion CHECKPOINT matches 3 run advancement grant @a only att2:journey/checkpoint_zirthion
 
+##show count
+execute unless score Zirthion CHECKPOINT matches 3 positioned 7278 132 7288 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_zirthion,color:red},{text:":",color:gray},{score:{name:"Zirthion",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"3",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Zirthion2 CHECKPOINT matches 1 positioned 7278 132 7288 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Zirthion2 CHECKPOINT 1

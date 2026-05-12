@@ -8,9 +8,9 @@
 scoreboard players set minDG SPDG 25
 scoreboard players set maxDG SPDG 100
 #difficult damage
-execute if score level DIFFICULTY matches 0.. run scoreboard players add maxDG SPDG 15
-execute if score level DIFFICULTY matches 1.. run scoreboard players add maxDG SPDG 30
-execute if score level DIFFICULTY matches 2.. run scoreboard players add maxDG SPDG 45
+execute if score level DIFFICULTY matches 0.. run scoreboard players add maxDG SPDG 20
+execute if score level DIFFICULTY matches 1.. run scoreboard players add maxDG SPDG 20
+execute if score level DIFFICULTY matches 2.. run scoreboard players add maxDG SPDG 20
 #max-min
 scoreboard players operation maxDG SPDG -= minDG SPDG
 #cal  (SLCT_LVL-1)

@@ -17,6 +17,7 @@ execute if data storage att2:item data.Item.components."minecraft:custom_data"{D
 execute if data storage att2:item data.Item.components."minecraft:custom_data"{Dahal:launcher} run return run function att2:gameplay/dahal/book/select
 ##stock
 execute if items entity @s container.0 shulker_shell[custom_data~{Trigger:true}] run return run kill @s
+execute if items entity @s container.0 glass_bottle run return run kill @s
 
 ##other
 execute if items entity @s container.0 bone[!custom_data] run return run kill @s

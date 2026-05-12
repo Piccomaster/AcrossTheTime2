@@ -3,9 +3,11 @@
 #Initialize enchantment                    						#
 #################################################################
 
-scoreboard players operation temp_value_2 CAL /= 2 CAL
-scoreboard players operation @s DAHALBURST = temp_value_2 CAL
+#scoreboard players operation temp_value_2 CAL /= 2 CAL
+scoreboard players operation @s DAHALBURST = temp_value_1 CAL
 scoreboard players operation @s DAHAL -= temp_value_3 CAL
+scoreboard players operation temp_value_3 CAL *= 20 CAL
+scoreboard players operation @s DAHAL_TICK -= temp_value_3 CAL
 #score set
 scoreboard players set @s DAHALBURST_TIME 60
 #particle

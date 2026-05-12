@@ -16,7 +16,11 @@ execute if score Sathnok3 CHECKPOINT matches 0 run scoreboard players add All CH
 function att2:advancement/test_all/progress/checkpoint
 
 execute if score Sathnok3 CHECKPOINT matches 0 run scoreboard players add Sathnok CHECKPOINT 1
-##test Sathnok CHECKPOINT
+##test Sathnok checkpoint
 execute if score Sathnok CHECKPOINT matches 6 run advancement grant @a only att2:journey/checkpoint_sathnok
 
+##show count
+execute unless score Sathnok CHECKPOINT matches 6 positioned -5974 103 -4630 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_sathnok,color:red},{text:":",color:gray},{score:{name:"Sathnok",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"6",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Sathnok3 CHECKPOINT matches 1 positioned -5974 103 -4630 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Sathnok3 CHECKPOINT 1

@@ -16,7 +16,11 @@ execute if score Exil_camp1 CHECKPOINT matches 0 run scoreboard players add All 
 function att2:advancement/test_all/progress/checkpoint
 
 execute if score Exil_camp1 CHECKPOINT matches 0 run scoreboard players add Exil_camp CHECKPOINT 1
-##test Exil_camp CHECKPOINT
+##test Exil_camp checkpoint
 execute if score Exil_camp CHECKPOINT matches 2 run advancement grant @a only att2:journey/checkpoint_exil_camp
 
+##show count
+execute unless score Exil_camp CHECKPOINT matches 2 positioned 3446 30 3834 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_exil_camp,color:red},{text:":",color:gray},{score:{name:"Exil_camp",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"2",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Exil_camp1 CHECKPOINT matches 1 positioned 3446 30 3834 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Exil_camp1 CHECKPOINT 1

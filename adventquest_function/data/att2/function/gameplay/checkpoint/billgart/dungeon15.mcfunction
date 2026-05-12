@@ -19,4 +19,8 @@ execute if score Billgart_dungeon14 CHECKPOINT matches 0 run scoreboard players 
 ##test Billgart_dungeon checkpoint
 execute if score Billgart_dungeon CHECKPOINT matches 39 run advancement grant @a only att2:journey/checkpoint_billgart_dungeon
 
+##show count
+execute unless score Billgart_dungeon CHECKPOINT matches 39 positioned -1368 89 -545 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_billgart_dungeon,color:red},{text:":",color:gray},{score:{name:"Billgart_dungeon",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"39",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Billgart_dungeon14 CHECKPOINT matches 1 positioned -1368 89 -545 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Billgart_dungeon14 CHECKPOINT 1

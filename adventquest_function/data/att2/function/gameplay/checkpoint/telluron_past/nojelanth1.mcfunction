@@ -22,4 +22,7 @@ execute if score Nojelanth_past CHECKPOINT matches 17 run advancement grant @a o
 ##test Nojelanth_past CHECKPOINT
 execute if score Nojelanth_past CHECKPOINT matches 17 run advancement grant @a only att2:journey/checkpoint_nojelanth_past
 
+##show count
+execute unless score Angband_road CHECKPOINT matches 17 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_nojelanth_past,color:red},{text:":",color:gray},{score:{name:"Angband_road",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"17",color:dark_red},{text:"~",color:dark_red}]
+
 scoreboard players set Nojelanth_past1 CHECKPOINT 1

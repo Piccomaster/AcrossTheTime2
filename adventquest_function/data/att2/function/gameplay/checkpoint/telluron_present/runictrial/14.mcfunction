@@ -19,4 +19,8 @@ execute if score Runictrial14 CHECKPOINT matches 0 run scoreboard players add Ru
 ##test Runictrial checkpoint
 execute if score Runictrial CHECKPOINT matches 27 run advancement grant @a only att2:journey/checkpoint_runictrial
 
+##show count
+execute unless score Runictrial CHECKPOINT matches 27 positioned -4317 55 -5321 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_runictrial,color:red},{text:":",color:gray},{score:{name:"Runictrial",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"27",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Runictrial14 CHECKPOINT matches 1 positioned -4317 55 -5321 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Runictrial14 CHECKPOINT 1

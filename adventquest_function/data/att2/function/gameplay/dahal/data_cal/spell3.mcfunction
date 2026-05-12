@@ -112,3 +112,9 @@ function att2:gameplay/dahal/action/spell3/damage_cal
 scoreboard players operation DAMAGE_LVL10 SPELL_DATA = finalDG SPDG
 #reset
 scoreboard players operation @s SPELL3_SLCT = TEMP_LVL SPELL_DATA
+
+##cal critical
+scoreboard players operation #Critical SPELL_DATA = SPELL3_CRITICAL Critical
+scoreboard players operation #Critical SPELL_DATA *= @s CRT_TOT
+scoreboard players operation #CriticalDamage SPELL_DATA = #Critical SPELL_DATA
+scoreboard players add #CriticalDamage SPELL_DATA 100

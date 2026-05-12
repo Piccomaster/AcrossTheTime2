@@ -19,6 +19,10 @@ execute if score Meleim0 CHECKPOINT matches 0 run scoreboard players add Meleim 
 ##test Meleim checkpoint
 execute if score Meleim CHECKPOINT matches 1 run advancement grant @a only att2:journey/checkpoint_meleim
 
+##show count
+execute unless score Meleim CHECKPOINT matches 1 positioned -3827 102 -5817 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_meleim,color:red},{text:":",color:gray},{score:{name:"Meleim",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"1",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Meleim0 CHECKPOINT matches 1 positioned -3827 102 -5817 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Meleim0 CHECKPOINT 1
 
 

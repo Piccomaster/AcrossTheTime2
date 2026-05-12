@@ -16,7 +16,11 @@ execute if score Eol1 CHECKPOINT matches 0 run scoreboard players add All CHECKP
 function att2:advancement/test_all/progress/checkpoint
 
 execute if score Eol1 CHECKPOINT matches 0 run scoreboard players add Eol CHECKPOINT 1
-##test Eol CHECKPOINT
+##test Eol checkpoint
 execute if score Eol CHECKPOINT matches 2 run advancement grant @a only att2:journey/checkpoint_eol
 
+##show count
+execute unless score Eol CHECKPOINT matches 2 positioned -5361 144 -5907 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_eol,color:red},{text:":",color:gray},{score:{name:"Eol",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"2",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Eol1 CHECKPOINT matches 1 positioned -5361 144 -5907 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Eol1 CHECKPOINT 1

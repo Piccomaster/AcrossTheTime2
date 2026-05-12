@@ -41,7 +41,7 @@ function att2:gameplay/enveffect/temperature/trigger/spell33
 ##sound
 playsound block.conduit.ambient ambient @a ~ ~ ~ 1 1
 
-execute unless entity @n[distance=..10,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC,tag=!Invulnerable] run return fail
+execute unless entity @n[distance=..10,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC,tag=!Invulnerable,tag=!UmbraDummyEyes] run return fail
 
 ##player near limit
 function att2:gameplay/score/owner

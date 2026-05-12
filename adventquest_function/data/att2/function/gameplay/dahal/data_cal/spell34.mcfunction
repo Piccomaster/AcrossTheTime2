@@ -75,9 +75,9 @@ scoreboard players set TIMER_LVL4 SPELL_DATA 11
 scoreboard players set TIMER_LVL5 SPELL_DATA 13
 scoreboard players set TIMER_LVL6 SPELL_DATA 15
 scoreboard players set TIMER_LVL7 SPELL_DATA 17
-scoreboard players set TIMER_LVL8 SPELL_DATA 20
-scoreboard players set TIMER_LVL9 SPELL_DATA 22
-scoreboard players set TIMER_LVL10 SPELL_DATA 25
+scoreboard players set TIMER_LVL8 SPELL_DATA 19
+scoreboard players set TIMER_LVL9 SPELL_DATA 21
+scoreboard players set TIMER_LVL10 SPELL_DATA 23
 ##COUNT CAL
 scoreboard players set COUNT_LVL1 SPELL_DATA 7
 scoreboard players set COUNT_LVL2 SPELL_DATA 14

@@ -19,4 +19,8 @@ execute if score Ouranos_tower5 CHECKPOINT matches 0 run scoreboard players add 
 ##test Ouranos_tower checkpoint
 execute if score Ouranos_tower CHECKPOINT matches 8 run advancement grant @a only att2:journey/checkpoint_ouranos_tower
 
+##show count
+execute unless score Ouranos_tower CHECKPOINT matches 8 positioned 7716 51 5947 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_ouranos_tower,color:red},{text:":",color:gray},{score:{name:"Ouranos_tower",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"8",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Ouranos_tower5 CHECKPOINT matches 1 positioned 7716 51 5947 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Ouranos_tower5 CHECKPOINT 1

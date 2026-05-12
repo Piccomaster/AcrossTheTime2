@@ -19,4 +19,8 @@ execute if score Angor_palace4 CHECKPOINT matches 0 run scoreboard players add A
 ##test Angor_palace checkpoint
 execute if score Angor_palace CHECKPOINT matches 18 run advancement grant @a only att2:journey/checkpoint_angor_palace
 
+##show count
+execute unless score Angor_palace CHECKPOINT matches 18 positioned 3496 72 4485 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_angor_palace,color:red},{text:":",color:gray},{score:{name:"Angor_palace",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"18",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Angor_palace4 CHECKPOINT matches 1 positioned 3496 72 4485 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Angor_palace4 CHECKPOINT 1

@@ -16,7 +16,11 @@ execute if score Worlest2 CHECKPOINT matches 0 run scoreboard players add All CH
 function att2:advancement/test_all/progress/checkpoint
 
 execute if score Worlest2 CHECKPOINT matches 0 run scoreboard players add Worlest CHECKPOINT 1
-##test Worlest CHECKPOINT
+##test Worlest checkpoint
 execute if score Worlest CHECKPOINT matches 15 run advancement grant @a only att2:journey/checkpoint_worlest
 
+##show count
+execute unless score Worlest CHECKPOINT matches 15 positioned -5253 71 -5405 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_worlest,color:red},{text:":",color:gray},{score:{name:"Worlest",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"15",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Worlest2 CHECKPOINT matches 1 positioned -5253 71 -5405 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Worlest2 CHECKPOINT 1

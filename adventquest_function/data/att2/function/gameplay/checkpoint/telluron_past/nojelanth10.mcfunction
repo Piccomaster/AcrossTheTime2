@@ -16,7 +16,11 @@ execute if score Nojelanth_past10 CHECKPOINT matches 0 run scoreboard players ad
 function att2:advancement/test_all/progress/checkpoint
 
 execute if score Nojelanth_past10 CHECKPOINT matches 0 run scoreboard players add Nojelanth_past CHECKPOINT 1
-##test Nojelanth_past CHECKPOINT
+##test Nojelanth_past checkpoint
 execute if score Nojelanth_past CHECKPOINT matches 17 run advancement grant @a only att2:journey/checkpoint_nojelanth_past
 
+##show count
+execute unless score Nojelanth_past CHECKPOINT matches 17 positioned -7676 30 -4185 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_nojelanth_past,color:red},{text:":",color:gray},{score:{name:"Nojelanth_past",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"17",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Nojelanth_past10 CHECKPOINT matches 1 positioned -7676 30 -4185 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Nojelanth_past10 CHECKPOINT 1

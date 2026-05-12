@@ -19,4 +19,8 @@ execute if score Eolorion3 CHECKPOINT matches 0 run scoreboard players add Eolor
 ##test Eolorion checkpoint
 execute if score Eolorion CHECKPOINT matches 5 run advancement grant @a only att2:journey/checkpoint_eolorion
 
+##show count
+execute unless score Eolorion CHECKPOINT matches 5 positioned -5217 124 -6288 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_eolorion,color:red},{text:":",color:gray},{score:{name:"Eolorion",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"5",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Eolorion3 CHECKPOINT matches 1 positioned -5217 124 -6288 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Eolorion3 CHECKPOINT 1

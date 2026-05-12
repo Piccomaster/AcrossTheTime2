@@ -19,4 +19,8 @@ execute if score Schestrown5 CHECKPOINT matches 0 run scoreboard players add Sch
 ##test Schestrown checkpoint
 execute if score Schestrown CHECKPOINT matches 6 run advancement grant @a only att2:journey/checkpoint_schestrown
 
+##show count
+execute unless score Schestrown CHECKPOINT matches 6 positioned -4407 77 -5067 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_schestrown,color:red},{text:":",color:gray},{score:{name:"Schestrown",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"6",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Schestrown5 CHECKPOINT matches 1 positioned -4407 77 -5067 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Schestrown5 CHECKPOINT 1

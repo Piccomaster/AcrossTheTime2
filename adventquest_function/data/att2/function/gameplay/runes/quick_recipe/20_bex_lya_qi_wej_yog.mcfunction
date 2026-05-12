@@ -3,6 +3,8 @@
 #quick recipe 20_bex_lya_qi_wej_yog
 #################################################################
 
+execute if score RECIPE SPELL20_CUR matches 1.. run return run function att2:dialogs/gameplay/dahal/spell20_lvlup_limit
+
 ##Confirmed twice
 scoreboard players set #TEST CAL 0
 execute unless score @s QUCIK_RECIPE matches 20 run function att2:dialogs/gameplay/runes/quick_recipe/sure
@@ -42,4 +44,4 @@ clear @s glowstone_dust[custom_name={translate:'item.rune.name.15'}] 1
 clear @s glowstone_dust[custom_name={translate:'item.rune.name.22'}] 1
 
 ##give items
-function att2:gameplay/runes/bonus/20_bex_lya_qi_wej_yog
+function att2:items/runes/words/20_bex_lya_qi_wej_yog

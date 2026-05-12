@@ -16,7 +16,11 @@ execute if score Kortaek1 CHECKPOINT matches 0 run scoreboard players add All CH
 function att2:advancement/test_all/progress/checkpoint
 
 execute if score Kortaek1 CHECKPOINT matches 0 run scoreboard players add Kortaek CHECKPOINT 1
-##test Kortaek CHECKPOINT
+##test Kortaek checkpoint
 execute if score Kortaek CHECKPOINT matches 2 run advancement grant @a only att2:journey/checkpoint_kortaek
 
+##show count
+execute unless score Kortaek CHECKPOINT matches 2 positioned -5388 61 -4668 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_kortaek,color:red},{text:":",color:gray},{score:{name:"Kortaek",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"2",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Kortaek1 CHECKPOINT matches 1 positioned -5388 61 -4668 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Kortaek1 CHECKPOINT 1

@@ -3,9 +3,11 @@
 #Process bet1 Trigger if player have enough Chronotons			#
 #################################################################
 
-execute as @s[scores={CHRONOTON=..249}] at @s run function att2:dialogs/gameplay/shop/not_enough_chronotons
-execute if entity @s[scores={CHRONOTON=250..}] run function att2:gameplay/shop/effect
-execute if entity @s[scores={CHRONOTON=250..}] positioned -4961 91 -5802 run function att2:gameplay/shop/gambling/bets/launch_4
-scoreboard players remove @s[scores={CHRONOTON=250..}] CHRONOTON 250
+#cal chronotons
+execute if score @s CHRONOTON < #bet4 PRICES run return run function att2:dialogs/gameplay/shop/not_enough_chronotons
+
+scoreboard players operation @s CHRONOTON -= #bet4 PRICES
+function att2:gameplay/shop/effect
+execute positioned -4961 91 -5802 run function att2:gameplay/shop/gambling/bets/launch_4
 ##advancement detection
 function att2:advancement/test_all/treasure/bets
