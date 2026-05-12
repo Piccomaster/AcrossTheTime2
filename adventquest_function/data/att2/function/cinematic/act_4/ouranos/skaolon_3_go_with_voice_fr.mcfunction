@@ -3,6 +3,11 @@
 #Process cinematic ouranos skaolon_3_go  		 #
 ##################################################
 
+##clear interaction
+execute if score Real0 TIMER matches 1.. at 00000000-0000-128a-0000-00000000128a run kill @e[distance=..2,type=interaction,tag=PNJ_TALK]
+##set score
+execute if score Real0 TIMER matches 1.. run scoreboard players set 00000000-0000-128a-0000-00000000128a TALKING_LIMIT -1
+
 execute if score Real0 TIMER matches 1 run scoreboard players set skaolon_PNJ DIALOG -1
 execute if score Real0 TIMER matches 10 run function att2:dialogs/mainquest/act_4/ch4_player_50
 execute if score Real0 TIMER matches 10 at 00000000-0000-128a-0000-00000000128a as @a[distance=..100] run tellraw @s {text:"[-->]",color:"green",click_event:{action:run_command,command:"/trigger ScoreTrigger set 2950"},hover_event:{action:show_text,value:"..."}}
@@ -31,8 +36,11 @@ execute if score Real0 TIMER matches 513 if entity @e[nbt={UUID:[I;0,4746,0,4746
 execute if score Real0 TIMER matches 514 as 00000000-0000-128a-0000-00000000128a at @s anchored feet facing 7609 99 6771 run teleport @s ^ ^ ^0.08 ~ ~
 execute if score Real0 TIMER matches 514 if entity @e[nbt={UUID:[I;0,4746,0,4746]},x=7609,y=99,z=6771,distance=..0.8] run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches 515 as 00000000-0000-128a-0000-00000000128a at @s run teleport @s 7609 99 6772 90 0
+execute if score Real0 TIMER matches 515 run data modify entity 00000000-0000-128a-0000-00000000128a data.rotation set value [90,0]
 execute if score Real0 TIMER matches 516 run scoreboard players set Mainquest SIDEQUEST 215
 
+##set score
+execute if score Real0 TIMER matches 516 run scoreboard players set 00000000-0000-128a-0000-00000000128a TALKING_LIMIT 0
 
 #=======================#
 #end of the cinematic	#
