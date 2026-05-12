@@ -2,282 +2,503 @@
     "pools": [
         {
             "rolls": {
-                "type": "score",
-                "target": "this",
-                "score": "MatchingGame",
                 "min": 1,
-                "max": 5
+                "max": {
+                    "type": "score",
+                    "score": "CAL",
+                    "scale": 1,
+                    "target": {
+                        "type": "fixed",
+                        "name": "#T"
+                    }
+                }
             },
             "entries": [
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/20_puh",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.3
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceMyt",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/0_gal"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/21_syl",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.25
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceMyt",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/1_tha"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/18_qi",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.2
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceUlt",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/2_fus"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/19_bex",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.175
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceUlt",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/3_org"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/14_da",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.15
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceLeg",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/4_jo"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/15_wej",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.125
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceLeg",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/5_ra"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/16_ust",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.105
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceLeg",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/6_nym"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/17_lya",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.09
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceLeg",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/7_inu"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/9_von",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.075
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceEpi",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/8_hal"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/10_ehl",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.06
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceEpi",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/9_von"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/11_ave",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.045
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceEpi",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/10_ehl"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/12_chu",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.025
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceEpi",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/11_ave"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/13_for",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.0175
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceEpi",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/12_chu"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/6_nym",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.0125
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceRar",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/13_for"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/7_inu",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.0125
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceRar",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/14_da"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/8_hal",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.01
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceRar",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/15_wej"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/3_org",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.009
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceUnc",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/16_ust"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/4_jo",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.0075
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceUnc",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/17_lya"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/5_ra",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.005
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceUnc",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/18_qi"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/0_gal",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.004
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceCom",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/19_bex"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/1_tha",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.003
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceCom",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/20_puh"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/2_fus",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.002
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceCom",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/21_syl"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/26_mot",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.001
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceRuneA",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/22_yog"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/24_xul",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00085
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceRuneB",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/23_kan"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/25_zen",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00065
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceRuneB",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/24_xul"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/22_yog",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00045
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceRuneC",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/25_zen"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/runes/23_kan",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00025
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceRuneC",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/runes/26_mot"
+                    ]
                 }
             ]
         }

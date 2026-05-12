@@ -16,7 +16,11 @@ execute if score Secret_dungeon1 CHECKPOINT matches 0 run scoreboard players add
 function att2:advancement/test_all/progress/checkpoint
 
 execute if score Secret_dungeon1 CHECKPOINT matches 0 run scoreboard players add Secret_dungeon CHECKPOINT 1
-##test Secret_dungeon CHECKPOINT
+##test Secret_dungeon checkpoint
 execute if score Secret_dungeon CHECKPOINT matches 29 run advancement grant @a only att2:journey/checkpoint_secret_dungeon
 
+##show count
+execute unless score Secret_dungeon CHECKPOINT matches 29 positioned -4376 62 -6180 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_secret_dungeon,color:red},{text:":",color:gray},{score:{name:"Secret_dungeon",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"29",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Secret_dungeon1 CHECKPOINT matches 1 positioned -4376 62 -6180 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Secret_dungeon1 CHECKPOINT 1

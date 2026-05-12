@@ -2,462 +2,827 @@
     "pools": [
         {
             "rolls": {
-                "type": "score",
-                "target": "this",
-                "score": "MatchingGame",
                 "min": 1,
-                "max": 5
+                "max": {
+                    "type": "score",
+                    "score": "CAL",
+                    "scale": 1,
+                    "target": {
+                        "type": "fixed",
+                        "name": "#T"
+                    }
+                }
             },
             "entries": [
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/ult/bow_338",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03109908
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceUlt",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/com/bow_33"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/ult/crossbow_339",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03109908
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceUlt",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/com/bow_34"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/ult/shield_340",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03109908
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceUlt",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/com/bow_35"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/bow_48",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03109908
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceLeg",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/com/bow_36"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/bow_49",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03366908
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceLeg",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/bow_37"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/crossbow_253",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03366908
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceLeg",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/bow_38"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/leg/shield_63",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03366908
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceLeg",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/bow_39"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/epi/bow_45",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03366908
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceEpi",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/bow_40"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/epi/bow_46",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00462263
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceEpi",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/rar/bow_41"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/epi/bow_47",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00462263
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceEpi",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/rar/bow_42"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/epi/crossbow_251",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00462263
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceEpi",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/rar/bow_43"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/epi/crossbow_252",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00462263
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceEpi",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/rar/bow_44"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/epi/shield_61",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00052102
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceEpi",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/epi/bow_45"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/epi/shield_62",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00052102
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceEpi",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/epi/bow_46"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/bow_41",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00052102
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceRar",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/epi/bow_47"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/bow_42",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00017324
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceRar",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/leg/bow_48"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/bow_43",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00017324
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceRar",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/leg/bow_49"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/bow_44",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03109908
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceRar",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/com/shield_50"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/crossbow_249",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03109908
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceRar",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/com/shield_51"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/crossbow_250",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03109908
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceRar",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/com/shield_52"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/shield_58",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03366908
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceRar",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/shield_53"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/shield_59",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03366908
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceRar",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/shield_54"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/rar/shield_60",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03366908
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceRar",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/shield_55"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/bow_37",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03366908
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceUnc",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/shield_56"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/bow_38",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03366908
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceUnc",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/shield_57"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/bow_39",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00462263
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceUnc",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/rar/shield_58"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/bow_40",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00462263
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceUnc",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/rar/shield_59"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/crossbow_246",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00462263
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceUnc",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/rar/shield_60"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/crossbow_247",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00052102
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceUnc",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/epi/shield_61"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/crossbow_248",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00052102
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceUnc",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/epi/shield_62"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/shield_53",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00017324
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceUnc",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/leg/shield_63"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/shield_54",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03109908
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceUnc",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/com/crossbow_243"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/shield_55",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03109908
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceUnc",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/com/crossbow_244"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/shield_56",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03109908
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceUnc",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/com/crossbow_245"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/unc/shield_57",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03366908
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceUnc",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/crossbow_246"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/com/bow_33",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03366908
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceCom",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/crossbow_247"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/com/bow_34",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03366908
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceCom",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/unc/crossbow_248"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/com/bow_35",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00462263
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceCom",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/rar/crossbow_249"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/com/bow_36",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00462263
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceCom",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/rar/crossbow_250"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/com/crossbow_243",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00052102
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceCom",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/epi/crossbow_251"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/com/crossbow_244",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00052102
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceCom",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/epi/crossbow_252"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/com/crossbow_245",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00017324
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceCom",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/leg/crossbow_253"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/com/shield_50",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00007156
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceCom",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/ult/bow_338"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/com/shield_51",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00007156
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceCom",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/ult/crossbow_339"
+                    ]
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "att2:item_data/weapon/com/shield_52",
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00007156
+                            "chance": {
+                                "type": "score",
+                                "score": "DropChanceCom",
+                                "scale": 0.000000001,
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#Temp"
+                                }
+                            }
                         }
-                    ],
-                    "type": "minecraft:loot_table",
-                    "value": "att2:item_data/weapon/ult/shield_340"
+                    ]
                 }
             ]
         }

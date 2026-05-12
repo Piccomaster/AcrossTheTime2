@@ -8,7 +8,9 @@ execute if score @s SUMMON_TIMER matches 1.. run return 0
 
 # Make pet follow its owner
 function att2:gameplay/dahal/pet/follow_owner
-execute if score tic TIMECOUNTER matches 6 run kill @e[distance=1..,type=frog,predicate=att2_pre:score/owner]
+
+execute if score tic TIMECOUNTER matches 6 at @s run kill @e[distance=1..,type=frog,predicate=att2_pre:score/owner]
+
 # Particle
 execute if score @s SPELL31_CAP matches 1 run particle minecraft:dust{color:[0.5,0.5,0.5],scale:0.3} ~ ~0.5 ~ 0.2 0.2 0.2 0 5 normal
 execute if score @s SPELL31_CAP matches 2 run particle minecraft:dust{color:[0.5,0.7,0.5],scale:0.3} ~ ~0.5 ~ 0.2 0.2 0.2 0 5 normal

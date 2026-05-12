@@ -16,7 +16,11 @@ execute if score Ouranos_cloud4 CHECKPOINT matches 0 run scoreboard players add 
 function att2:advancement/test_all/progress/checkpoint
 
 execute if score Ouranos_cloud4 CHECKPOINT matches 0 run scoreboard players add Ouranos_cloud CHECKPOINT 1
-##test Ouranos_cloud CHECKPOINT
+##test Ouranos_cloud checkpoint
 execute if score Ouranos_cloud CHECKPOINT matches 10 run advancement grant @a only att2:journey/checkpoint_ouranos_cloud
 
+##show count
+execute unless score Ouranos_cloud CHECKPOINT matches 10 positioned 6630 86 6784 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_ouranos_cloud,color:red},{text:":",color:gray},{score:{name:"Ouranos_cloud",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"10",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Ouranos_cloud4 CHECKPOINT matches 1 positioned 6630 86 6784 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Ouranos_cloud4 CHECKPOINT 1

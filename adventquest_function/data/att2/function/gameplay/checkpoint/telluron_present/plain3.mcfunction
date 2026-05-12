@@ -16,7 +16,11 @@ execute if score Plain3 CHECKPOINT matches 0 run scoreboard players add All CHEC
 function att2:advancement/test_all/progress/checkpoint
 
 execute if score Plain3 CHECKPOINT matches 0 run scoreboard players add Plain CHECKPOINT 1
-##test Plain CHECKPOINT
+##test Plain checkpoint
 execute if score Plain CHECKPOINT matches 4 run advancement grant @a only att2:journey/checkpoint_plain
 
+##show count
+execute unless score Plain CHECKPOINT matches 4 positioned -4294 85 -5621 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_plain,color:red},{text:":",color:gray},{score:{name:"Plain",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"4",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Plain3 CHECKPOINT matches 1 positioned -4294 85 -5621 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Plain3 CHECKPOINT 1

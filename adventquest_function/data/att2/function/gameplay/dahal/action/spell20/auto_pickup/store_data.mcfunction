@@ -3,6 +3,8 @@
 # Stock function(set_item)                                 #
 #################################################################
 
+##limit
+execute if items entity @s container.0 shulker_shell[custom_data~{Trigger:true}] run return run kill @s
 
 ##sync data
 ##test max

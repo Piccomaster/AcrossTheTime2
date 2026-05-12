@@ -19,4 +19,8 @@ execute if score Phoenix0 CHECKPOINT matches 0 run scoreboard players add Phoeni
 ##test Phoenix checkpoint
 execute if score Phoenix CHECKPOINT matches 3 run advancement grant @a only att2:journey/checkpoint_phoenix
 
+##show count
+execute unless score Phoenix CHECKPOINT matches 3 positioned 3765 36 3953 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_phoenix,color:red},{text:":",color:gray},{score:{name:"Phoenix",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"3",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Phoenix0 CHECKPOINT matches 1 positioned 3765 36 3953 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Phoenix0 CHECKPOINT 1

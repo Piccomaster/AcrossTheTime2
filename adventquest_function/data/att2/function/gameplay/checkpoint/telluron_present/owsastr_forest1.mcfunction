@@ -19,4 +19,8 @@ execute if score Owsastr1 CHECKPOINT matches 0 run scoreboard players add Owsast
 ##test Owsastr checkpoint
 execute if score Owsastr CHECKPOINT matches 13 run advancement grant @a only att2:journey/checkpoint_owsastr
 
+##show count
+execute unless score Owsastr CHECKPOINT matches 13 positioned -4626 72 -4846 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_owsastr,color:red},{text:":",color:gray},{score:{name:"Owsastr",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"13",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Owsastr1 CHECKPOINT matches 1 positioned -4626 72 -4846 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Owsastr1 CHECKPOINT 1

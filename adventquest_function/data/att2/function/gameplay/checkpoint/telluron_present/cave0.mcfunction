@@ -19,4 +19,8 @@ execute if score Cave0 CHECKPOINT matches 0 run scoreboard players add Cave CHEC
 ##test Cave checkpoint
 execute if score Cave CHECKPOINT matches 9 run advancement grant @a only att2:journey/checkpoint_cave
 
+##show count
+execute unless score Cave CHECKPOINT matches 9 positioned -4927 61 -5618 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_cave,color:red},{text:":",color:gray},{score:{name:"Cave",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"9",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Cave0 CHECKPOINT matches 1 positioned -4927 61 -5618 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Cave0 CHECKPOINT 1

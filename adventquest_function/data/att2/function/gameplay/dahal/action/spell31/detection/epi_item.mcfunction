@@ -9,16 +9,16 @@ scoreboard players operation epi SPELL31 = epi SPELL31_DATA
 scoreboard players operation epi SPELL31 *= @s SPELL31_CAP
 
 scoreboard players operation @s CHRONOTON += epi SPELL31
-experience add @s[scores={SPELL31_CAP=1..}] 150 points
-experience add @s[scores={SPELL31_CAP=2..}] 150 points
-experience add @s[scores={SPELL31_CAP=3..}] 150 points
-experience add @s[scores={SPELL31_CAP=4..}] 150 points
-experience add @s[scores={SPELL31_CAP=5..}] 150 points
-experience add @s[scores={SPELL31_CAP=6..}] 150 points
-experience add @s[scores={SPELL31_CAP=7..}] 150 points
-experience add @s[scores={SPELL31_CAP=8..}] 150 points
-experience add @s[scores={SPELL31_CAP=9..}] 150 points
-experience add @s[scores={SPELL31_CAP=10..}] 150 points
+experience add @s[scores={SPELL31_CAP=1..}] 100 points
+experience add @s[scores={SPELL31_CAP=2..}] 100 points
+experience add @s[scores={SPELL31_CAP=3..}] 100 points
+experience add @s[scores={SPELL31_CAP=4..}] 100 points
+experience add @s[scores={SPELL31_CAP=5..}] 100 points
+experience add @s[scores={SPELL31_CAP=6..}] 100 points
+experience add @s[scores={SPELL31_CAP=7..}] 100 points
+experience add @s[scores={SPELL31_CAP=8..}] 100 points
+experience add @s[scores={SPELL31_CAP=9..}] 100 points
+experience add @s[scores={SPELL31_CAP=10..}] 100 points
 
 function att2:gameplay/dahal/bonus_xp
 scoreboard players operation @s BONUS_XP_SPELL += epi SPELL31

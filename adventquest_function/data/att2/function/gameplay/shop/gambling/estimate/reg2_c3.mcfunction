@@ -6,6 +6,7 @@
 ##set loot data
 scoreboard players set #C CAL 3
 scoreboard players set #T CAL 3
+scoreboard players set #Q CAL 0
 function att2:gameplay/misc/chesteffect/other_dropchance
 execute positioned -4961 98 -5802 run loot spawn ~ ~ ~ loot att2:chest/reg2
 execute positioned -4961 98 -5802 run loot spawn ~ ~ ~ loot att2:gambling0

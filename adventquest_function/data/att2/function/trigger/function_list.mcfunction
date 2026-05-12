@@ -3665,3 +3665,7 @@ execute if score @s ScoreTrigger matches 3568 run function att2:gameplay/tutoria
 
 execute if score @s ScoreTrigger matches 3569 run function att2:gameplay/dahal/action/spell40/music_run
 execute if score @s ScoreTrigger matches 3570 run function att2:gameplay/dahal/action/spell40/music_stop
+
+
+execute if score @s ScoreTrigger matches 3571 run function att2:gameplay/dahal/action/spell40/music_stop
+execute if score @s ScoreTrigger matches 3572 run function att2:gameplay/dahal/action/spell40/music_stop

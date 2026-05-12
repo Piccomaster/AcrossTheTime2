@@ -16,7 +16,11 @@ execute if score Kert_mine5 CHECKPOINT matches 0 run scoreboard players add All 
 function att2:advancement/test_all/progress/checkpoint
 
 execute if score Kert_mine5 CHECKPOINT matches 0 run scoreboard players add Kert_mine CHECKPOINT 1
-##test Kert_mine0 CHECKPOINT
+##test Kert_mine0 checkpoint
 execute if score Kert_mine CHECKPOINT matches 7 run advancement grant @a only att2:journey/checkpoint_kert_mine
 
+##show count
+execute unless score Kert_mine CHECKPOINT matches 7 positioned -5145 50 -4423 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_kert_mine,color:red},{text:":",color:gray},{score:{name:"Kert_mine",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"7",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Kert_mine5 CHECKPOINT matches 1 positioned -5145 50 -4423 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Kert_mine5 CHECKPOINT 1

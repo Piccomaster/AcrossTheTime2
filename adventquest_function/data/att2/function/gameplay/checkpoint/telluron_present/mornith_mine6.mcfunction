@@ -16,7 +16,11 @@ execute if score Mornith6 CHECKPOINT matches 0 run scoreboard players add All CH
 function att2:advancement/test_all/progress/checkpoint
 
 execute if score Mornith6 CHECKPOINT matches 0 run scoreboard players add Mornith CHECKPOINT 1
-##test Mornith CHECKPOINT
+##test Mornith checkpoint
 execute if score Mornith CHECKPOINT matches 8 run advancement grant @a only att2:journey/checkpoint_mornith
 
+##show count
+execute unless score Mornith CHECKPOINT matches 8 positioned -4385 38 -5991 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_mornith,color:red},{text:":",color:gray},{score:{name:"Mornith",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"8",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Mornith6 CHECKPOINT matches 1 positioned -4385 38 -5991 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Mornith6 CHECKPOINT 1

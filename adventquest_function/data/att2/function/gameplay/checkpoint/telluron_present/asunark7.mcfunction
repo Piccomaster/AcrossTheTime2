@@ -16,7 +16,11 @@ execute if score Asunark7 CHECKPOINT matches 0 run scoreboard players add All CH
 function att2:advancement/test_all/progress/checkpoint
 
 execute if score Asunark7 CHECKPOINT matches 0 run scoreboard players add Asunark CHECKPOINT 1
-##test Asunark CHECKPOINT
+##test Asunark checkpoint
 execute if score Asunark CHECKPOINT matches 12 run advancement grant @a only att2:journey/checkpoint_asunark
 
+##show count
+execute unless score Asunark CHECKPOINT matches 12 positioned -3628 69 -4918 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_asunark,color:red},{text:":",color:gray},{score:{name:"Asunark",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"12",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Asunark7 CHECKPOINT matches 1 positioned -3628 69 -4918 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Asunark7 CHECKPOINT 1

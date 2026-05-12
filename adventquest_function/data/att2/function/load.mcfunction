@@ -23,6 +23,9 @@ execute in overworld positioned -1.0 0.0 1.0 run forceload add ~ ~
 execute in overworld positioned 1.0 0.0 1.0 run forceload add ~ ~
 execute in overworld positioned -1.0 0.0 -1.0 run forceload add ~ ~
 
+execute in overworld positioned 839 60 840 run forceload add ~ ~
+execute in overworld positioned 820 64 823 run forceload add ~ ~
+
 ##summon world entity
 function att2:summon/world_entity/0_0_0
 ##clear redstone_block
@@ -39,3 +42,6 @@ scoreboard players set elytra_racing_update SYSTEM 3
 
 team add gold
 team modify gold color gold
+
+function att2:gameplay/speceffect/random/initialize
+function att2:gameplay/shop/purchase/discount_set

@@ -19,4 +19,8 @@ execute if score Elvetta1 CHECKPOINT matches 0 run scoreboard players add Elvett
 ##test Elvetta checkpoint
 execute if score Elvetta CHECKPOINT matches 3 run advancement grant @a only att2:journey/checkpoint_elvetta
 
+##show count
+execute unless score Elvetta CHECKPOINT matches 3 positioned -4102 71 -5626 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_elvetta,color:red},{text:":",color:gray},{score:{name:"Elvetta",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"3",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Elvetta1 CHECKPOINT matches 1 positioned -4102 71 -5626 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Elvetta1 CHECKPOINT 1

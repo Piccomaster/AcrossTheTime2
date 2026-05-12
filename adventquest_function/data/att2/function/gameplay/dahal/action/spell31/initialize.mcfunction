@@ -66,11 +66,11 @@ scoreboard players set other SPELL31_DATA 1
 scoreboard players set com SPELL31_DATA 1
 scoreboard players set unc SPELL31_DATA 2
 scoreboard players set rar SPELL31_DATA 3
-scoreboard players set epi SPELL31_DATA 7
-scoreboard players set epi_set SPELL31_DATA 9
-scoreboard players set leg SPELL31_DATA 15
-scoreboard players set leg_armset SPELL31_DATA 17
-scoreboard players set ult SPELL31_DATA 25
+scoreboard players set epi SPELL31_DATA 5
+scoreboard players set epi_set SPELL31_DATA 7
+scoreboard players set leg SPELL31_DATA 10
+scoreboard players set leg_armset SPELL31_DATA 10
+scoreboard players set ult SPELL31_DATA 30
 #set dahal cost
 scoreboard players set SP31_1 DAHAL_COST 350
 scoreboard players set SP31_2 DAHAL_COST 350

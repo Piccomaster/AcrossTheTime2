@@ -204,79 +204,7 @@ scoreboard players operation camel_class0_10 PRICES *= discount discount_calc
 scoreboard players operation camel_class0_10 PRICES /= 100 discount_calc
 
 #misc
-#spell
-#scoreboard players set spell1 PRICES 150
-#scoreboard players operation spell1 PRICES *= discount discount_calc
-#scoreboard players operation spell1 PRICES /= 100 discount_calc
-#scoreboard players set spell2 PRICES 350
-#scoreboard players operation spell2 PRICES *= discount discount_calc
-#scoreboard players operation spell2 PRICES /= 100 discount_calc
-#scoreboard players set spell3 PRICES 375
-#scoreboard players operation spell3 PRICES *= discount discount_calc
-#scoreboard players operation spell3 PRICES /= 100 discount_calc
-#scoreboard players set spell4 PRICES 2000
-#scoreboard players operation spell4 PRICES *= discount discount_calc
-#scoreboard players operation spell4 PRICES /= 100 discount_calc
-#scoreboard players set spell5 PRICES 1400
-#scoreboard players operation spell5 PRICES *= discount discount_calc
-#scoreboard players operation spell5 PRICES /= 100 discount_calc
-#scoreboard players set spell6 PRICES 300
-#scoreboard players operation spell6 PRICES *= discount discount_calc
-#scoreboard players operation spell6 PRICES /= 100 discount_calc
-#scoreboard players set spell7 PRICES 500
-#scoreboard players operation spell7 PRICES *= discount discount_calc
-#scoreboard players operation spell7 PRICES /= 100 discount_calc
-#scoreboard players set spell8 PRICES 1000
-#scoreboard players operation spell8 PRICES *= discount discount_calc
-#scoreboard players operation spell8 PRICES /= 100 discount_calc
-#scoreboard players set spell9 PRICES 700
-#scoreboard players operation spell9 PRICES *= discount discount_calc
-#scoreboard players operation spell9 PRICES /= 100 discount_calc
-#scoreboard players set spell10 PRICES 1600
-#scoreboard players operation spell10 PRICES *= discount discount_calc
-#scoreboard players operation spell10 PRICES /= 100 discount_calc
-#scoreboard players set spell21 PRICES 600
-#scoreboard players operation spell21 PRICES *= discount discount_calc
-#scoreboard players operation spell21 PRICES /= 100 discount_calc
-#scoreboard players set spell22 PRICES 700
-#scoreboard players operation spell22 PRICES *= discount discount_calc
-#scoreboard players operation spell22 PRICES /= 100 discount_calc
-#scoreboard players set spell23 PRICES 400
-#scoreboard players operation spell23 PRICES *= discount discount_calc
-#scoreboard players operation spell23 PRICES /= 100 discount_calc
-#scoreboard players set spell24 PRICES 325
-#scoreboard players operation spell24 PRICES *= discount discount_calc
-#scoreboard players operation spell24 PRICES /= 100 discount_calc
-#scoreboard players set spell25 PRICES 500
-#scoreboard players operation spell25 PRICES *= discount discount_calc
-#scoreboard players operation spell25 PRICES /= 100 discount_calc
-#scoreboard players set spell26 PRICES 1200
-#scoreboard players operation spell26 PRICES *= discount discount_calc
-#scoreboard players operation spell26 PRICES /= 100 discount_calc
-#scoreboard players set spell27 PRICES 350
-#scoreboard players operation spell27 PRICES *= discount discount_calc
-#scoreboard players operation spell27 PRICES /= 100 discount_calc
-#scoreboard players set spell28 PRICES 400
-#scoreboard players operation spell28 PRICES *= discount discount_calc
-#scoreboard players operation spell28 PRICES /= 100 discount_calc
-#scoreboard players set spell30 PRICES 25
-#scoreboard players operation spell30 PRICES *= discount discount_calc
-#scoreboard players operation spell30 PRICES /= 100 discount_calc
-#scoreboard players set spell41 PRICES 400
-#scoreboard players operation spell41 PRICES *= discount discount_calc
-#scoreboard players operation spell41 PRICES /= 100 discount_calc
-#scoreboard players set spell42 PRICES 1500
-#scoreboard players operation spell42 PRICES *= discount discount_calc
-#scoreboard players operation spell42 PRICES /= 100 discount_calc
-#scoreboard players set spell43 PRICES 1000
-#scoreboard players operation spell43 PRICES *= discount discount_calc
-#scoreboard players operation spell43 PRICES /= 100 discount_calc
-#scoreboard players set spell44 PRICES 250
-#scoreboard players operation spell44 PRICES *= discount discount_calc
-#scoreboard players operation spell44 PRICES /= 100 discount_calc
-#scoreboard players set spell45 PRICES 350
-#scoreboard players operation spell45 PRICES *= discount discount_calc
-#scoreboard players operation spell45 PRICES /= 100 discount_calc
+
 #mending tool
 scoreboard players set tool_com PRICES 35
 scoreboard players operation tool_com PRICES *= discount discount_calc
@@ -602,3 +530,100 @@ scoreboard players set matching_game_form7 PRICES 700
 scoreboard players set matching_game_form8 PRICES 800
 scoreboard players set matching_game_form9 PRICES 900
 scoreboard players set matching_game_form10 PRICES 1000
+
+##bet
+scoreboard players set #bet1 PRICES 50
+scoreboard players set #bet2 PRICES 100
+scoreboard players set #bet3 PRICES 300
+scoreboard players set #bet4 PRICES 600
+scoreboard players set #bet5 PRICES 2000
+scoreboard players set #bet6 PRICES 4000
+scoreboard players set #bet7 PRICES 7777
+
+#spell
+scoreboard players set spell1 PRICES 300
+scoreboard players operation spell1 PRICES *= discount discount_calc
+scoreboard players operation spell1 PRICES /= 100 discount_calc
+scoreboard players set spell2 PRICES 500
+scoreboard players operation spell2 PRICES *= discount discount_calc
+scoreboard players operation spell2 PRICES /= 100 discount_calc
+scoreboard players set spell3 PRICES 600
+scoreboard players operation spell3 PRICES *= discount discount_calc
+scoreboard players operation spell3 PRICES /= 100 discount_calc
+scoreboard players set spell4 PRICES 5000
+scoreboard players operation spell4 PRICES *= discount discount_calc
+scoreboard players operation spell4 PRICES /= 100 discount_calc
+scoreboard players set spell5 PRICES 3000
+scoreboard players operation spell5 PRICES *= discount discount_calc
+scoreboard players operation spell5 PRICES /= 100 discount_calc
+scoreboard players set spell6 PRICES 450
+scoreboard players operation spell6 PRICES *= discount discount_calc
+scoreboard players operation spell6 PRICES /= 100 discount_calc
+scoreboard players set spell7 PRICES 800
+scoreboard players operation spell7 PRICES *= discount discount_calc
+scoreboard players operation spell7 PRICES /= 100 discount_calc
+scoreboard players set spell8 PRICES 2000
+scoreboard players operation spell8 PRICES *= discount discount_calc
+scoreboard players operation spell8 PRICES /= 100 discount_calc
+scoreboard players set spell9 PRICES 900
+scoreboard players operation spell9 PRICES *= discount discount_calc
+scoreboard players operation spell9 PRICES /= 100 discount_calc
+scoreboard players set spell10 PRICES 2500
+scoreboard players operation spell10 PRICES *= discount discount_calc
+scoreboard players operation spell10 PRICES /= 100 discount_calc
+scoreboard players set spell11 PRICES 75
+scoreboard players set spell21 PRICES 1000
+scoreboard players operation spell21 PRICES *= discount discount_calc
+scoreboard players operation spell21 PRICES /= 100 discount_calc
+scoreboard players set spell22 PRICES 2000
+scoreboard players operation spell22 PRICES *= discount discount_calc
+scoreboard players operation spell22 PRICES /= 100 discount_calc
+scoreboard players set spell23 PRICES 600
+scoreboard players operation spell23 PRICES *= discount discount_calc
+scoreboard players operation spell23 PRICES /= 100 discount_calc
+scoreboard players set spell24 PRICES 400
+scoreboard players operation spell24 PRICES *= discount discount_calc
+scoreboard players operation spell24 PRICES /= 100 discount_calc
+scoreboard players set spell25 PRICES 800
+scoreboard players operation spell25 PRICES *= discount discount_calc
+scoreboard players operation spell25 PRICES /= 100 discount_calc
+scoreboard players set spell26 PRICES 3000
+scoreboard players operation spell26 PRICES *= discount discount_calc
+scoreboard players operation spell26 PRICES /= 100 discount_calc
+scoreboard players set spell27 PRICES 500
+scoreboard players operation spell27 PRICES *= discount discount_calc
+scoreboard players operation spell27 PRICES /= 100 discount_calc
+scoreboard players set spell28 PRICES 500
+scoreboard players operation spell28 PRICES *= discount discount_calc
+scoreboard players operation spell28 PRICES /= 100 discount_calc
+scoreboard players set spell29 PRICES 2000
+scoreboard players operation spell29 PRICES *= discount discount_calc
+scoreboard players operation spell29 PRICES /= 100 discount_calc
+scoreboard players set spell30 PRICES 25
+scoreboard players set spell32 PRICES 100
+scoreboard players set spell33 PRICES 1500
+scoreboard players operation spell33 PRICES *= discount discount_calc
+scoreboard players operation spell33 PRICES /= 100 discount_calc
+scoreboard players set spell34 PRICES 500
+scoreboard players set spell35 PRICES 10000
+scoreboard players operation spell35 PRICES *= discount discount_calc
+scoreboard players operation spell35 PRICES /= 100 discount_calc
+scoreboard players set spell40 PRICES 25
+scoreboard players set spell41 PRICES 500
+scoreboard players operation spell41 PRICES *= discount discount_calc
+scoreboard players operation spell41 PRICES /= 100 discount_calc
+scoreboard players set spell42 PRICES 3000
+scoreboard players operation spell42 PRICES *= discount discount_calc
+scoreboard players operation spell42 PRICES /= 100 discount_calc
+scoreboard players set spell43 PRICES 2000
+scoreboard players operation spell43 PRICES *= discount discount_calc
+scoreboard players operation spell43 PRICES /= 100 discount_calc
+scoreboard players set spell44 PRICES 400
+scoreboard players operation spell44 PRICES *= discount discount_calc
+scoreboard players operation spell44 PRICES /= 100 discount_calc
+scoreboard players set spell45 PRICES 500
+scoreboard players operation spell45 PRICES *= discount discount_calc
+scoreboard players operation spell45 PRICES /= 100 discount_calc
+scoreboard players set spell46 PRICES 3000
+scoreboard players operation spell45 PRICES *= discount discount_calc
+scoreboard players operation spell45 PRICES /= 100 discount_calc

@@ -3,6 +3,10 @@
 #Launch processing												#
 #################################################################
 
+stopsound @a[distance=..20] block digital
+stopsound @a[distance=..20] ambient chargement
+stopsound @a[distance=..20] block bell5
+
 function att2:sound/misc/gambling_launch
 function att2:gameplay/shop/gambling/initialize
 

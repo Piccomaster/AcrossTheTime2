@@ -19,4 +19,8 @@ execute if score Kert7 CHECKPOINT matches 0 run scoreboard players add Kert CHEC
 ##test Kert checkpoint
 execute if score Kert CHECKPOINT matches 10 run advancement grant @a only att2:journey/checkpoint_kert
 
+##show count
+execute unless score Kert CHECKPOINT matches 10 positioned -5739 19 -4571 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_kert,color:red},{text:":",color:gray},{score:{name:"Kert",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"10",color:dark_red},{text:"~",color:dark_red}]
+
+execute unless score Kert7 CHECKPOINT matches 1 positioned -5739 19 -4571 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Kert7 CHECKPOINT 1
