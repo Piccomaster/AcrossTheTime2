@@ -10,9 +10,9 @@ function att2:gameplay/boss/elcheol/doom/particle_arena
 execute as @a[x=-5199,y=34,z=-6323,dx=-40,dy=2,dz=40,gamemode=adventure] at @s run function att2:gameplay/boss/elcheol/doom/falling_player
 
 # Absorption
-execute if score level DIFFICULTY matches -1 as 00000000-0000-026c-0000-00000000026c if score @s ENEMYABHEALTH matches ..0 run scoreboard players set @s ENEMYABHEALTH 5
-execute if score level DIFFICULTY matches 0 as 00000000-0000-026c-0000-00000000026c if score @s ENEMYABHEALTH matches ..0 run scoreboard players set @s ENEMYABHEALTH 15
-execute if score level DIFFICULTY matches 1.. as 00000000-0000-026c-0000-00000000026c if score @s ENEMYABHEALTH matches ..0 run scoreboard players set @s ENEMYABHEALTH 25
+execute if score level DIFFICULTY matches -1 as 00000000-0000-026c-0000-00000000026c if score @s ENEMYABHEALTH matches ..0 run scoreboard players add @s ENEMYABHEALTH 2
+execute if score level DIFFICULTY matches 0 as 00000000-0000-026c-0000-00000000026c if score @s ENEMYABHEALTH matches ..0 run scoreboard players add @s ENEMYABHEALTH 4
+execute if score level DIFFICULTY matches 1.. as 00000000-0000-026c-0000-00000000026c if score @s ENEMYABHEALTH matches ..0 run scoreboard players add @s ENEMYABHEALTH 8
 
 # Getting Player number
 execute store result score numberPlayer SQ56 if entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure]

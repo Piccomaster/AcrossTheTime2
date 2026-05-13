@@ -5,7 +5,7 @@
 #################################################################
 
 #add tag
-tag @s add SPLAUNCH
+function att2:gameplay/score/player
 #set  MinDamage | (MaxDamage−MinDamage)[]
 scoreboard players set minDG SPDG 10
 scoreboard players set maxDG SPDG 300

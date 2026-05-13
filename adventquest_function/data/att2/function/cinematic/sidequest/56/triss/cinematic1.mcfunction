@@ -5,6 +5,7 @@
 
 execute if score Real1 TIMER matches 1 run function att2:physicmod/reg1/eolorion/academy_trapdoor_open_sq56
 execute if score Real1 TIMER matches 5 run function att2:dialogs/sidequest/sq56/player_1
+execute if score Real1 TIMER matches 5 run tp 00000000-0000-090a-0000-00000000090a -5229 143 -6299 0 0
 execute if score Real1 TIMER matches 50..1300 as 00000000-0000-090a-0000-00000000090a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Real1 TIMER matches 50 positioned -5229 144 -6295 run function att2:cinematic/sidequest/56/jzargo/summon_pnj
 execute if score Real1 TIMER matches 50 run function att2:dialogs/sidequest/sq56/triss_1

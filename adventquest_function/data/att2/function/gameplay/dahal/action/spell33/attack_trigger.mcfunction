@@ -6,4 +6,4 @@
 ##get attacker
 execute on attacker at @s on vehicle run function att2:gameplay/dahal/action/spell33/damage_cal
 ##range damage effect
-function att2:gameplay/dahal/action/spell33/damage with storage att2:score
+function att2:gameplay/dahal/action/spell33/damage

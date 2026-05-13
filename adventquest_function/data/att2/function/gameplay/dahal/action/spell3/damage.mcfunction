@@ -7,7 +7,10 @@
 execute at @s run particle minecraft:item{item:"minecraft:soul_lantern"} ~ ~1 ~ 0.5 0.5 0.5 1 20 normal
 
 #damage
-$damage @s $(SP3) att2_damage:magic by @p[predicate=att2_pre:score/player]
+damage @s 0 att2_damage:magic by @p[predicate=att2_pre:score/player]
+
+##limit
+execute as @s[tag=FB_DAHAL] run return fail
 
 ##detection health
 function att2:gameplay/enemy_health/spell_health_trigger

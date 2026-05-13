@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:blue_ice"
+        },
+        "title": {"translate":"att2.advancement.challenge.title.elytra_racing_timerecord_6"},
+        "description": {"translate":"att2.advancement.challenge.description.elytra_racing_timerecord_6"},
+        "hidden": false,
+        "frame": "challenge"
+    },
+    "parent": "att2:challenge/elytra_racing_timerecord_5",
+    "rewards": {
+        "experience": 50000
+                },
+    "criteria": {
+        "elytra_racing_timerecord_6": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

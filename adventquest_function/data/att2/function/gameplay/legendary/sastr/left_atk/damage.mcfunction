@@ -4,4 +4,7 @@
 ##################################################
 
 #damage
-$damage @s $(value_1) att2_damage:player_attack by @a[scores={NUMEROJOUEUR=$(owner)},limit=1]
+damage @s 0 att2_damage:player_attack by @p[predicate=att2_pre:score/player]
+
+##detection health
+function att2:gameplay/enemy_health/magic_atk_trigger

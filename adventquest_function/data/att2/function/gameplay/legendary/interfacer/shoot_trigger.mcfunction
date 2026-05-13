@@ -7,7 +7,7 @@ execute on origin at @s run playsound minecraft:entity.arrow.hit_player player @
 
 ##get power
 function att2:gameplay/score/owner
-execute store result storage att2:score damage int 1 run scoreboard players get @s ARR_POWER
+scoreboard players operation #damage CAL = @s ARR_POWER
 
 function att2:gameplay/legendary/interfacer/damage_select
 ##particle

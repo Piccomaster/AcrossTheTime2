@@ -15,7 +15,8 @@ function att2:gameplay/score/owner
 ##sync player rotation
 #execute on vehicle run data modify entity @s Rotation set from entity @p[predicate=att2_pre:score/player] Rotation
 #store damage
-execute store result storage att2:score damage int 1 run scoreboard players get @s DAMAGE
+#execute store result storage att2:score damage int 1 run scoreboard players get @s DAMAGE
+scoreboard players operation #damage CAL = @s DAMAGE
 
 ##clear tag
 tag @e[team=hostile,scores={GAMELEVEL=1..},distance=..50,tag=UltimaATK] remove UltimaATK

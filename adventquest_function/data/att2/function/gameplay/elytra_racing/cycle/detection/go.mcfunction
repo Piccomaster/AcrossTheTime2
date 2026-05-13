@@ -50,6 +50,21 @@ scoreboard players operation #minute CAL /= 60 CAL
 ##get name
 execute store result storage att2:score route_id int 1 run scoreboard players get @s ElytraRacingSelect
 function att2:gameplay/elytra_racing/edit_route/list/get_name with storage att2:score
+
+##advancement
+execute if score @s ElytraRacingSelect matches 1 run function att2:gameplay/elytra_racing/cycle/detection/complete_elytra_racing_1
+execute if score @s ElytraRacingSelect matches 2 run function att2:gameplay/elytra_racing/cycle/detection/complete_elytra_racing_2
+execute if score @s ElytraRacingSelect matches 3 run function att2:gameplay/elytra_racing/cycle/detection/complete_elytra_racing_3
+execute if score @s ElytraRacingSelect matches 4 run function att2:gameplay/elytra_racing/cycle/detection/complete_elytra_racing_4
+execute if score @s ElytraRacingSelect matches 5 run function att2:gameplay/elytra_racing/cycle/detection/complete_elytra_racing_5
+execute if score @s ElytraRacingSelect matches 6 run function att2:gameplay/elytra_racing/cycle/detection/complete_elytra_racing_6
+execute if score @s ElytraRacingSelect matches 7 run function att2:gameplay/elytra_racing/cycle/detection/complete_elytra_racing_7
+execute if score @s ElytraRacingSelect matches 8 run function att2:gameplay/elytra_racing/cycle/detection/complete_elytra_racing_8
+execute if score @s ElytraRacingSelect matches 9 run function att2:gameplay/elytra_racing/cycle/detection/complete_elytra_racing_9
+
+execute if score #TEST CAL matches 0 run tellraw @a [{translate:att2.now_record}]
+execute if score #TEST CAL matches 1 run tellraw @a [{translate:att2.new_record}]
+
 ##show now time
 tellraw @a [{selector:"@s",color:"dark_red"},{text:" : "},{translate:att2.elytra_racing.end,color:"yellow",with:[{nbt:"name",storage:"att2:elytra_racing",interpret:true},{score:{name:"#minute",objective:"CAL"},color:green},{score:{name:"#second",objective:"CAL"},color:green},{score:{name:"#ms",objective:"CAL"},color:green},{score:{name:"@s",objective:"ElytraRacingPoint"},color:green}]}]
 

@@ -3,6 +3,9 @@
 #test chest             						#
 #################################################
 
+##
+execute if block ~ ~ ~ air run tp @s ~ ~-1 ~
+execute if block ~ ~ ~ light run tp @s ~ ~-1 ~
 ##time
 execute unless score tic TIMECOUNTER matches 1 run return fail
 

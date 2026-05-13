@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:prismarine_bricks"
+        },
+        "title": {"translate":"att2.advancement.challenge.title.elytra_racing_3"},
+        "description": {"translate":"att2.advancement.challenge.description.elytra_racing_3"},
+        "hidden": false,
+        "frame": "challenge"
+    },
+    "parent": "att2:challenge/elytra_racing_2",
+    "rewards": {
+        "experience": 50000
+                },
+    "criteria": {
+        "elytra_racing_3": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

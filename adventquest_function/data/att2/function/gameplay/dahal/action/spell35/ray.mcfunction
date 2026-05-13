@@ -10,4 +10,4 @@ particle minecraft:wax_on ~ ~ ~ 0 0 0 1 1 normal
 
 execute if score @s SPELL35_CAP matches 5.. run particle minecraft:electric_spark ~ ~ ~ 0.1 0.1 0.1 0 10 normal
 
-execute positioned ~-0.8 ~-0.8 ~-0.8 as @e[dx=1.6,dy=1.6,dz=1.6,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!SPELL35_ATK] run function att2:gameplay/dahal/action/spell35/damage with storage att2:score
+execute positioned ~-0.8 ~-0.8 ~-0.8 as @e[dx=1.6,dy=1.6,dz=1.6,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!SPELL35_ATK] run function att2:gameplay/dahal/action/spell35/damage

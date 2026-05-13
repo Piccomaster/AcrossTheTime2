@@ -9,7 +9,10 @@ execute at @s run playsound block.fire.extinguish ambient @a ~ ~ ~ 1 2
 #tag limit
 tag @s add SP2_ATKED
 #damage
-$damage @s[tag=!FB_DAHAL] $(SP2) att2_damage:magic by @a[tag=SPLAUNCH,limit=1]
+damage @s 0 att2_damage:magic by @p[predicate=att2_pre:score/player]
+
+##limit
+execute as @s[tag=FB_DAHAL] run return fail
 
 ##detection health
 function att2:gameplay/enemy_health/spell_health_trigger

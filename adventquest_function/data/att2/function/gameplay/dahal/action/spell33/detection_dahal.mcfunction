@@ -5,7 +5,7 @@
 
 ##set dahal cost
 scoreboard players operation #DAHAL_COST CAL = @s SPELL33_CAP
-scoreboard players operation #DAHAL_COST CAL *= 20 CAL
+scoreboard players operation #DAHAL_COST CAL *= 8 CAL
 scoreboard players operation #DAHAL_TICK CAL = #DAHAL_COST CAL
 scoreboard players operation #DAHAL_TICK CAL *= 20 CAL
 

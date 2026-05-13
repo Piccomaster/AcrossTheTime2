@@ -4,11 +4,11 @@
 #damage = BASE DAMAGE X (1+health_reduce/50  )
 #################################################################
 
-$damage @s $(damage) att2_damage:player_attack by @p[scores={NUMEROJOUEUR=$(player)}]
+damage @s 0 att2_damage:player_attack by @p[predicate=att2_pre:score/player]
 
 tag @s add BE_ATKED
 ##detection health
-function att2:gameplay/enemy_health/melee_health_trigger
+function att2:gameplay/enemy_health/magic_atk_trigger
 
 #particle
 particle minecraft:item{item:"minecraft:soul_sand"} ~ ~2 ~ 0.5 0.5 0.5 0.1 20

@@ -4,7 +4,7 @@
 #################################################################
 
 #tag reset
-tag @e[scores={GAMELEVEL=0..},team=hostile,tag=SP4_ATKED] remove SP4_ATKED
+tag @e[distance=..50,scores={GAMELEVEL=0..},team=hostile,tag=SP4_ATKED] remove SP4_ATKED
 #damage cal
 function att2:gameplay/dahal/action/spell4/damage_cal
 execute at @s anchored eyes positioned ^ ^-0.5 ^0.3 run function att2:gameplay/dahal/action/spell4/ray/1
@@ -20,7 +20,7 @@ execute at @s anchored eyes positioned ^ ^-0.5 ^3 run function att2:gameplay/dah
 execute at @s anchored eyes positioned ^ ^-0.5 ^3.3 run function att2:gameplay/dahal/action/spell4/ray/1
 execute at @s anchored eyes positioned ^ ^-0.5 ^3.6 run function att2:gameplay/dahal/action/spell4/ray/1
 execute at @s anchored eyes positioned ^ ^-0.5 ^3.9 run function att2:gameplay/dahal/action/spell4/ray/1
-tag @s remove SPLAUNCH
+
 #reset dahal burst score
 scoreboard players set @s[scores={DAHALBURST=1..}] DAHALBURST -1
 #dahal

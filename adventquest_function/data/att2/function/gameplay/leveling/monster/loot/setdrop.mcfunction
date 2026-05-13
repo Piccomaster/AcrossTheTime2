@@ -13,6 +13,12 @@ execute as @s[tag=Reg1] run data modify entity @s DeathLootTable set value "att2
 execute as @s[tag=Reg2] run data modify entity @s DeathLootTable set value "att2:entities/reg2"
 execute as @s[tag=Reg3] run data modify entity @s DeathLootTable set value "att2:entities/reg3"
 execute as @s[tag=Reg4] run data modify entity @s DeathLootTable set value "att2:entities/reg4"
+
+scoreboard players set @s[tag=Reg1] DIMENSION 1
+scoreboard players set @s[tag=Reg2] DIMENSION 6
+scoreboard players set @s[tag=Reg3] DIMENSION 7
+scoreboard players set @s[tag=Reg4] DIMENSION 4
+
 ##set rolls
 
 #Clamp range

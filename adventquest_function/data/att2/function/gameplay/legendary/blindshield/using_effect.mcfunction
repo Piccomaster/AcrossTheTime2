@@ -51,7 +51,7 @@ scoreboard players operation #damage CAL /= 100 CAL
 function att2:gameplay/score/player
 execute store result storage att2:score damage int 1 run scoreboard players get #damage CAL
 ##range damage
-execute if score @s BS_BLOCKED matches ..3 at @s align xyz positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=2,dy=2,dz=2,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/legendary/blindshield/damage with storage att2:score
-execute if score @s BS_BLOCKED matches 4..7 at @s align xyz positioned ~-1.0 ~-1.0 ~-1.0 as @e[dx=3,dy=3,dz=3,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/legendary/blindshield/damage with storage att2:score
-execute if score @s BS_BLOCKED matches 8..11 at @s align xyz positioned ~-1.5 ~-1.5 ~-1.5 as @e[dx=4,dy=4,dz=4,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/legendary/blindshield/damage with storage att2:score
-execute if score @s BS_BLOCKED matches 12.. at @s align xyz positioned ~-2.0 ~-2.0 ~-2.0 as @e[dx=5,dy=5,dz=5,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/legendary/blindshield/damage with storage att2:score
+execute if score @s BS_BLOCKED matches ..3 at @s align xyz positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=2,dy=2,dz=2,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/legendary/blindshield/damage
+execute if score @s BS_BLOCKED matches 4..7 at @s align xyz positioned ~-1.0 ~-1.0 ~-1.0 as @e[dx=3,dy=3,dz=3,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/legendary/blindshield/damage
+execute if score @s BS_BLOCKED matches 8..11 at @s align xyz positioned ~-1.5 ~-1.5 ~-1.5 as @e[dx=4,dy=4,dz=4,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/legendary/blindshield/damage
+execute if score @s BS_BLOCKED matches 12.. at @s align xyz positioned ~-2.0 ~-2.0 ~-2.0 as @e[dx=5,dy=5,dz=5,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/legendary/blindshield/damage

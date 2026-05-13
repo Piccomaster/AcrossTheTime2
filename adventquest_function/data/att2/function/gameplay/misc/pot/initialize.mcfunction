@@ -3,4 +3,4 @@
 #Initialize misc												#
 #################################################################
 
-#scoreboard objectives add POT dummy
+scoreboard objectives add POT dummy

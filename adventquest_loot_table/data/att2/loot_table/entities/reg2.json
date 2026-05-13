@@ -29,33 +29,15 @@
     },
     {
       "rolls": {
-        "min": {
-          "type": "score",
-          "target": "this",
-          "score": "DropRolls",
-          "scale": 0.001
-        },
-        "max": {
-          "type": "score",
-          "target": "this",
-          "score": "DropRolls",
-          "scale": 0.003
+        "type": "score",
+        "score": "DropRolls",
+        "scale": 0.00001,
+        "target": {
+          "type": "fixed",
+          "name": "#ChronotonsRolls"
         }
       },
-      "bonus_rolls": {
-        "min": {
-          "type": "score",
-          "target": "this",
-          "score": "DropRolls",
-          "scale": 0.001
-        },
-        "max": {
-          "type": "score",
-          "target": "this",
-          "score": "DropRolls",
-          "scale": 0.002
-        }
-      },
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:loot_table",
@@ -84,7 +66,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -108,7 +93,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -132,7 +120,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -147,7 +138,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000000666667
               }
@@ -162,7 +156,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000000666667
               }
@@ -177,7 +174,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUlt"
+                },
                 "score": "DropChanceUlt",
                 "scale": 0.000000001
               }
@@ -192,7 +192,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceMyt"
+                },
                 "score": "DropChanceMyt",
                 "scale": 0.000000001
               }
@@ -203,18 +206,15 @@
     },
     {
       "rolls": {
-        "min": 0,
-        "max": {
-          "type": "score",
-          "target": "this",
-          "score": "DropRolls",
-          "scale": 0.001
+        "type": "score",
+        "score": "DropRolls",
+        "scale": 0.00001,
+        "target": {
+          "type": "fixed",
+          "name": "#ConsumablesRolls"
         }
       },
-      "bonus_rolls": {
-        "min": 0,
-        "max": 0
-      },
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:loot_table",
@@ -224,7 +224,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000000142857
               }
@@ -239,7 +242,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000000142857
               }
@@ -254,7 +260,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000000142857
               }
@@ -269,7 +278,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000000142857
               }
@@ -284,7 +296,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000000142857
               }
@@ -299,7 +314,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000000142857
               }
@@ -314,7 +332,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000000142857
               }
@@ -329,7 +350,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000000142857
               }
@@ -344,7 +368,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000000142857
               }
@@ -359,7 +386,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000000142857
               }
@@ -374,7 +404,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000000142857
               }
@@ -389,7 +422,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000000142857
               }
@@ -404,7 +440,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000000142857
               }
@@ -419,7 +458,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000000142857
               }
@@ -434,7 +476,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000000142857
               }
@@ -449,7 +494,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000000142857
               }
@@ -464,7 +512,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000000142857
               }
@@ -479,7 +530,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000000142857
               }
@@ -494,7 +548,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000000142857
               }
@@ -509,7 +566,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000000142857
               }
@@ -524,7 +584,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000000142857
               }
@@ -539,7 +602,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000000142857
               }
@@ -554,7 +620,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000000142857
               }
@@ -569,7 +638,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000000142857
               }
@@ -584,7 +656,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000000142857
               }
@@ -599,7 +674,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000000142857
               }
@@ -614,7 +692,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000000142857
               }
@@ -629,7 +710,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000000142857
               }
@@ -644,7 +728,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000000142857
               }
@@ -659,7 +746,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000000142857
               }
@@ -674,7 +764,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000000142857
               }
@@ -689,7 +782,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000000142857
               }
@@ -704,7 +800,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000000142857
               }
@@ -719,7 +818,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000000142857
               }
@@ -734,7 +836,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000000142857
               }
@@ -749,7 +854,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000000142857
               }
@@ -764,7 +872,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000000142857
               }
@@ -779,7 +890,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000000142857
               }
@@ -794,7 +908,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000000142857
               }
@@ -809,7 +926,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000000142857
               }
@@ -824,7 +944,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000000142857
               }
@@ -839,7 +962,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000000142857
               }
@@ -854,7 +980,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000000142857
               }
@@ -869,7 +998,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000000142857
               }
@@ -884,7 +1016,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000000142857
               }
@@ -899,7 +1034,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000000142857
               }
@@ -914,7 +1052,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000000142857
               }
@@ -929,7 +1070,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000000142857
               }
@@ -944,7 +1088,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000000142857
               }
@@ -959,7 +1106,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000000142857
               }
@@ -974,7 +1124,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000000142857
               }
@@ -989,7 +1142,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000000142857
               }
@@ -1004,7 +1160,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000000142857
               }
@@ -1019,7 +1178,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000000142857
               }
@@ -1034,7 +1196,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000000142857
               }
@@ -1049,7 +1214,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000000142857
               }
@@ -1064,7 +1232,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000000142857
               }
@@ -1079,7 +1250,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000000142857
               }
@@ -1094,7 +1268,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000000142857
               }
@@ -1109,7 +1286,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000000142857
               }
@@ -1124,7 +1304,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000000142857
               }
@@ -1139,7 +1322,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000000142857
               }
@@ -1154,7 +1340,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000000142857
               }
@@ -1169,7 +1358,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000000142857
               }
@@ -1184,7 +1376,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000000142857
               }
@@ -1199,7 +1394,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000000142857
               }
@@ -1214,7 +1412,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000000142857
               }
@@ -1229,7 +1430,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000000142857
               }
@@ -1244,7 +1448,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000000142857
               }
@@ -1259,7 +1466,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000000142857
               }
@@ -1274,7 +1484,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000000142857
               }
@@ -1289,7 +1502,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000000142857
               }
@@ -1304,7 +1520,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000000142857
               }
@@ -1319,7 +1538,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000000142857
               }
@@ -1334,7 +1556,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000000142857
               }
@@ -1349,7 +1574,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000000142857
               }
@@ -1364,7 +1592,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000000142857
               }
@@ -1379,7 +1610,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000000142857
               }
@@ -1394,7 +1628,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUlt"
+                },
                 "score": "DropChanceUlt",
                 "scale": 0.000000000142857
               }
@@ -1409,7 +1646,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUlt"
+                },
                 "score": "DropChanceUlt",
                 "scale": 0.000000000142857
               }
@@ -1468,23 +1708,15 @@
     },
     {
       "rolls": {
-        "min": 0,
-        "max": {
-          "type": "score",
-          "target": "this",
-          "score": "DropRolls",
-          "scale": 0.0007
+        "type": "score",
+        "score": "DropRolls",
+        "scale": 0.00001,
+        "target": {
+          "type": "fixed",
+          "name": "#EquipmentsRolls"
         }
       },
-      "bonus_rolls": {
-        "min": 0,
-        "max": {
-          "type": "score",
-          "target": "this",
-          "score": "DropRolls",
-          "scale": 0.0003
-        }
-      },
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:loot_table",
@@ -1494,7 +1726,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceMyt"
+                },
                 "score": "DropChanceMyt",
                 "scale": 0.000000001
               }
@@ -1509,7 +1744,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUlt"
+                },
                 "score": "DropChanceUlt",
                 "scale": 0.000000001
               }
@@ -1524,7 +1762,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUlt"
+                },
                 "score": "DropChanceUlt",
                 "scale": 0.000000001
               }
@@ -1539,7 +1780,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUlt"
+                },
                 "score": "DropChanceUlt",
                 "scale": 0.000000000666667
               }
@@ -1554,7 +1798,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUlt"
+                },
                 "score": "DropChanceUlt",
                 "scale": 0.000000000666667
               }
@@ -1569,7 +1816,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUlt"
+                },
                 "score": "DropChanceUlt",
                 "scale": 0.000000001
               }
@@ -1584,7 +1834,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUlt"
+                },
                 "score": "DropChanceUlt",
                 "scale": 0.000000001
               }
@@ -1599,7 +1852,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUlt"
+                },
                 "score": "DropChanceUlt",
                 "scale": 0.000000001
               }
@@ -1614,7 +1870,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUlt"
+                },
                 "score": "DropChanceUlt",
                 "scale": 0.000000001
               }
@@ -1629,7 +1888,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUlt"
+                },
                 "score": "DropChanceUlt",
                 "scale": 0.000000001
               }
@@ -1644,7 +1906,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUlt"
+                },
                 "score": "DropChanceUlt",
                 "scale": 0.000000001
               }
@@ -1659,7 +1924,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUlt"
+                },
                 "score": "DropChanceUlt",
                 "scale": 0.000000001
               }
@@ -1674,7 +1942,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -1689,7 +1960,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -1704,7 +1978,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -1719,7 +1996,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -1734,7 +2014,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -1749,7 +2032,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -1764,7 +2050,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -1779,7 +2068,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -1794,7 +2086,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -1809,7 +2104,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -1824,7 +2122,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -1839,7 +2140,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -1854,7 +2158,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -1869,7 +2176,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -1884,7 +2194,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -1899,7 +2212,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -1914,7 +2230,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -1929,7 +2248,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -1944,7 +2266,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -1959,7 +2284,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -1974,7 +2302,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -1989,7 +2320,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2004,7 +2338,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2019,7 +2356,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2034,7 +2374,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2049,7 +2392,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2064,7 +2410,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2079,7 +2428,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2094,7 +2446,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2109,7 +2464,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2124,7 +2482,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2139,7 +2500,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2154,7 +2518,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2169,7 +2536,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2184,7 +2554,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2199,7 +2572,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2214,7 +2590,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2229,7 +2608,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2244,7 +2626,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2259,7 +2644,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2274,7 +2662,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2289,7 +2680,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2304,7 +2698,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2319,7 +2716,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2334,7 +2734,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2349,7 +2752,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2364,7 +2770,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2379,7 +2788,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2394,7 +2806,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2409,7 +2824,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2424,7 +2842,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2439,7 +2860,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2454,7 +2878,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2469,7 +2896,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -2484,7 +2914,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2499,7 +2932,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2514,7 +2950,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2529,7 +2968,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2544,7 +2986,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2559,7 +3004,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2574,7 +3022,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2589,7 +3040,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2604,7 +3058,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2619,7 +3076,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2634,7 +3094,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2649,7 +3112,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2664,7 +3130,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2679,7 +3148,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2694,7 +3166,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2709,7 +3184,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2724,7 +3202,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2739,7 +3220,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2754,7 +3238,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2769,7 +3256,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2784,7 +3274,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2799,7 +3292,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2814,7 +3310,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2829,7 +3328,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2844,7 +3346,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2859,7 +3364,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2874,7 +3382,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2889,7 +3400,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2904,7 +3418,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2919,7 +3436,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2934,7 +3454,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2949,7 +3472,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2964,7 +3490,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2979,7 +3508,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -2994,7 +3526,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -3009,7 +3544,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -3024,7 +3562,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -3039,7 +3580,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -3054,7 +3598,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -3069,7 +3616,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -3084,7 +3634,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -3099,7 +3652,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -3114,7 +3670,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -3129,7 +3688,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -3144,7 +3706,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -3159,7 +3724,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -3174,7 +3742,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -3189,7 +3760,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -3204,7 +3778,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -3219,7 +3796,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -3234,7 +3814,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -3249,7 +3832,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -3264,7 +3850,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -3279,7 +3868,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -3294,7 +3886,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3309,7 +3904,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3324,7 +3922,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3339,7 +3940,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3354,7 +3958,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3369,7 +3976,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3384,7 +3994,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3399,7 +4012,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3414,7 +4030,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3429,7 +4048,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3444,7 +4066,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3459,7 +4084,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3474,7 +4102,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3489,7 +4120,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3504,7 +4138,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3519,7 +4156,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3534,7 +4174,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3549,7 +4192,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3564,7 +4210,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3579,7 +4228,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3594,7 +4246,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3609,7 +4264,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3624,7 +4282,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3639,7 +4300,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3654,7 +4318,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3669,7 +4336,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3684,7 +4354,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3699,7 +4372,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3714,7 +4390,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3729,7 +4408,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3744,7 +4426,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3759,7 +4444,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3774,7 +4462,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3789,7 +4480,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3804,7 +4498,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3819,7 +4516,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3834,7 +4534,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3849,7 +4552,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3864,7 +4570,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3879,7 +4588,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3894,7 +4606,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3909,7 +4624,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3924,7 +4642,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3939,7 +4660,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3954,7 +4678,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3969,7 +4696,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3984,7 +4714,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -3999,7 +4732,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4014,7 +4750,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4029,7 +4768,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4044,7 +4786,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4059,7 +4804,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4074,7 +4822,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4089,7 +4840,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4104,7 +4858,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4119,7 +4876,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4134,7 +4894,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4149,7 +4912,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4164,7 +4930,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4179,7 +4948,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4194,7 +4966,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4209,7 +4984,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4224,7 +5002,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4239,7 +5020,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4254,7 +5038,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4269,7 +5056,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4284,7 +5074,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4299,7 +5092,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4314,7 +5110,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4329,7 +5128,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4344,7 +5146,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4359,7 +5164,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4374,7 +5182,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4389,7 +5200,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4404,7 +5218,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4419,7 +5236,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4434,7 +5254,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4449,7 +5272,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4464,7 +5290,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4479,7 +5308,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -4494,7 +5326,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4509,7 +5344,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4524,7 +5362,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4539,7 +5380,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4554,7 +5398,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4569,7 +5416,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4584,7 +5434,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4599,7 +5452,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4614,7 +5470,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4629,7 +5488,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4644,7 +5506,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4659,7 +5524,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4674,7 +5542,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4689,7 +5560,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4704,7 +5578,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4719,7 +5596,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4734,7 +5614,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4749,7 +5632,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4764,7 +5650,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4779,7 +5668,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4794,7 +5686,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4809,7 +5704,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4824,7 +5722,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4839,7 +5740,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4854,7 +5758,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4869,7 +5776,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4884,7 +5794,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4899,7 +5812,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4914,7 +5830,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4929,7 +5848,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4944,7 +5866,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4959,7 +5884,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4974,7 +5902,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -4989,7 +5920,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5004,7 +5938,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5019,7 +5956,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5034,7 +5974,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5049,7 +5992,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5064,7 +6010,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5079,7 +6028,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5094,7 +6046,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5109,7 +6064,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5124,7 +6082,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5139,7 +6100,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5154,7 +6118,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5169,7 +6136,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5184,7 +6154,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5199,7 +6172,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5214,7 +6190,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5229,7 +6208,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5244,7 +6226,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5259,7 +6244,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5274,7 +6262,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5289,7 +6280,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5304,7 +6298,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5319,7 +6316,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5334,7 +6334,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5349,7 +6352,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5364,7 +6370,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5379,7 +6388,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5394,7 +6406,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5409,7 +6424,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5424,7 +6442,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5439,7 +6460,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5454,7 +6478,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5469,7 +6496,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5484,7 +6514,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5499,7 +6532,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5514,7 +6550,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5529,7 +6568,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5544,7 +6586,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5559,7 +6604,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5574,7 +6622,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5589,7 +6640,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5604,7 +6658,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -5619,7 +6676,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5634,7 +6694,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5649,7 +6712,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5664,7 +6730,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5679,7 +6748,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5694,7 +6766,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5709,7 +6784,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5724,7 +6802,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5739,7 +6820,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5754,7 +6838,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5769,7 +6856,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5784,7 +6874,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5799,7 +6892,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5814,7 +6910,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5829,7 +6928,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5844,7 +6946,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5859,7 +6964,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5874,7 +6982,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5889,7 +7000,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5904,7 +7018,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5919,7 +7036,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5934,7 +7054,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5949,7 +7072,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5964,7 +7090,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5979,7 +7108,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -5994,7 +7126,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6009,7 +7144,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6024,7 +7162,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6039,7 +7180,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6054,7 +7198,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6069,7 +7216,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6084,7 +7234,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6099,7 +7252,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6114,7 +7270,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6129,7 +7288,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6144,7 +7306,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6159,7 +7324,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6174,7 +7342,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6189,7 +7360,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6204,7 +7378,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6219,7 +7396,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6234,7 +7414,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6249,7 +7432,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6264,7 +7450,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6279,7 +7468,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6294,7 +7486,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6309,7 +7504,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6324,7 +7522,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6339,7 +7540,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6354,7 +7558,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6369,7 +7576,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6384,7 +7594,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6399,7 +7612,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6414,7 +7630,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6429,7 +7648,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6444,7 +7666,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6459,7 +7684,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6474,7 +7702,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6489,7 +7720,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6504,7 +7738,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6519,7 +7756,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6534,7 +7774,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6549,7 +7792,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6564,7 +7810,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6579,7 +7828,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6594,7 +7846,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6609,7 +7864,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6624,7 +7882,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6639,7 +7900,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6654,7 +7918,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6669,7 +7936,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6684,7 +7954,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6699,7 +7972,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6714,7 +7990,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6729,7 +8008,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6744,7 +8026,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -6755,23 +8040,15 @@
     },
     {
       "rolls": {
-        "min": 0,
-        "max": {
-          "type": "score",
-          "target": "this",
-          "score": "DropRolls",
-          "scale": 0.001
+        "type": "score",
+        "score": "DropRolls",
+        "scale": 0.00001,
+        "target": {
+          "type": "fixed",
+          "name": "#RunesRolls"
         }
       },
-      "bonus_rolls": {
-        "min": 0,
-        "max": {
-          "type": "score",
-          "target": "this",
-          "score": "DropRolls",
-          "scale": 0.001
-        }
-      },
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:loot_table",
@@ -6781,7 +8058,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceMyt"
+                },
                 "score": "DropChanceMyt",
                 "scale": 0.000000001
               }
@@ -6796,7 +8076,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceMyt"
+                },
                 "score": "DropChanceMyt",
                 "scale": 0.000000001
               }
@@ -6811,7 +8094,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUlt"
+                },
                 "score": "DropChanceUlt",
                 "scale": 0.000000001
               }
@@ -6826,7 +8112,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUlt"
+                },
                 "score": "DropChanceUlt",
                 "scale": 0.000000001
               }
@@ -6841,7 +8130,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -6856,7 +8148,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -6871,7 +8166,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -6886,7 +8184,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceLeg"
+                },
                 "score": "DropChanceLeg",
                 "scale": 0.000000001
               }
@@ -6901,7 +8202,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -6916,7 +8220,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -6931,7 +8238,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -6946,7 +8256,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -6961,7 +8274,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceEpi"
+                },
                 "score": "DropChanceEpi",
                 "scale": 0.000000001
               }
@@ -6976,7 +8292,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -6991,7 +8310,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -7006,7 +8328,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRar"
+                },
                 "score": "DropChanceRar",
                 "scale": 0.000000001
               }
@@ -7021,7 +8346,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -7036,7 +8364,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -7051,7 +8382,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceUnc"
+                },
                 "score": "DropChanceUnc",
                 "scale": 0.000000001
               }
@@ -7066,7 +8400,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -7081,7 +8418,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -7096,7 +8436,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceCom"
+                },
                 "score": "DropChanceCom",
                 "scale": 0.000000001
               }
@@ -7111,7 +8454,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRuneA"
+                },
                 "score": "DropChanceRuneA",
                 "scale": 0.000000001
               }
@@ -7126,7 +8472,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRuneB"
+                },
                 "score": "DropChanceRuneB",
                 "scale": 0.000000001
               }
@@ -7141,7 +8490,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRuneB"
+                },
                 "score": "DropChanceRuneB",
                 "scale": 0.000000001
               }
@@ -7156,7 +8508,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRuneC"
+                },
                 "score": "DropChanceRuneC",
                 "scale": 0.000000001
               }
@@ -7171,7 +8526,10 @@
               "condition": "random_chance",
               "chance": {
                 "type": "score",
-                "target": "this",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropChanceRuneC"
+                },
                 "score": "DropChanceRuneC",
                 "scale": 0.000000001
               }

@@ -17,7 +17,7 @@ scoreboard players operation DAMAGE_ROUND_1 CAL *= MOB_COUNT_ROUND_1 CAL
 scoreboard players operation DAMAGE_ROUND_1 CAL *= 20 CAL
 scoreboard players operation DAMAGE_ROUND_1 CAL /= 100 CAL
 #return macao
-execute store result storage att2:damage value_1 int 1 run scoreboard players get DAMAGE_ROUND_1 CAL
+#execute store result storage att2:damage value_1 int 1 run scoreboard players get DAMAGE_ROUND_1 CAL
 #damage cal round 1
 execute if score MOB_COUNT_ROUND_2 CAL matches 5.. run scoreboard players set MOB_COUNT_ROUND_2 CAL 5
 scoreboard players set DAMAGE_ROUND_2 CAL 70
@@ -26,12 +26,12 @@ scoreboard players operation DAMAGE_ROUND_2 CAL *= MOB_COUNT_ROUND_2 CAL
 scoreboard players operation DAMAGE_ROUND_2 CAL *= 50 CAL
 scoreboard players operation DAMAGE_ROUND_2 CAL /= 100 CAL
 #return macao
-execute store result storage att2:damage value_2 int 1 run scoreboard players get DAMAGE_ROUND_2 CAL
+#execute store result storage att2:damage value_2 int 1 run scoreboard players get DAMAGE_ROUND_2 CAL
 #get number
-execute store result storage att2:damage owner int 1 run scoreboard players get @s OWNER
+function att2:gameplay/score/owner
 #damage go
-execute as @e[distance=5..8,tag=!ShadowPart,team=hostile,scores={GAMELEVEL=0..}] at @s run function att2:gameplay/legendary/warlord/range_effect/damage_1 with storage att2:damage
-execute as @e[distance=..4.99,tag=!ShadowPart,team=hostile,scores={GAMELEVEL=0..}] at @s run function att2:gameplay/legendary/warlord/range_effect/damage_2 with storage att2:damage
+execute as @e[distance=5..8,tag=!ShadowPart,team=hostile,scores={GAMELEVEL=0..}] at @s run function att2:gameplay/legendary/warlord/range_effect/damage_1
+execute as @e[distance=..4.99,tag=!ShadowPart,team=hostile,scores={GAMELEVEL=0..}] at @s run function att2:gameplay/legendary/warlord/range_effect/damage_2
 #reset
 scoreboard players reset MOB_COUNT_ROUND_1 CAL
 scoreboard players reset MOB_COUNT_ROUND_2 CAL

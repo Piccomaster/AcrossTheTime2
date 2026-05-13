@@ -7,24 +7,10 @@
     "minecraft:post_attack": [
       {
         "enchanted": "victim",
-        "affected": "attacker",
+        "affected": "victim",
         "effect": {
           "type": "minecraft:all_of",
           "effects": [
-            {
-              "type": "minecraft:damage_entity",
-              "damage_type": "att2_damage:player_attack",
-              "max_damage": {
-                "type": "linear",
-                "base": 8,
-                "per_level_above_first": 8
-              },
-              "min_damage": {
-                "type": "linear",
-                "base": 5,
-                "per_level_above_first": 5
-              }
-            },
             {
               "type": "minecraft:change_item_damage",
               "amount": {
@@ -35,7 +21,7 @@
             },
             {
               "type": "run_function",
-              "function": "att2:gameplay/enemy_health/normal_trigger"
+              "function": "att2:gameplay/equipment/thorns/trigger"
             }
           ]
         }

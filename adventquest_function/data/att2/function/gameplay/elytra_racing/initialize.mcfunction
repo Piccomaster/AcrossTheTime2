@@ -29,7 +29,7 @@ scoreboard objectives add ElytraRacingPoint dummy
 function att2:gameplay/elytra_racing/initialize_base_data
 
 ##summon marker
-
+function att2:gameplay/elytra_racing/time_record/initialize
 
 function att2:gameplay/elytra_racing/summon_start_marker
 

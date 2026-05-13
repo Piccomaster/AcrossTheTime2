@@ -64,6 +64,7 @@ execute store result score #anchorshot CAL run data get storage att2:bow data.we
 scoreboard players add #anchorshot CAL 100
 scoreboard players operation @s ARR_POWER *= #anchorshot CAL
 scoreboard players operation @s ARR_POWER /= 100 CAL
+#tellraw @a ["箭矢伤害: ",{score:{name:"@s",objective:"ARR_POWER"}}]
 ########################################################anchorshot enchantment
 
 ##damage 0

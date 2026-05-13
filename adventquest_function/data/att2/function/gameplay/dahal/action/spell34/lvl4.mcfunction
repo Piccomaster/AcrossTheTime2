@@ -28,6 +28,8 @@ function att2:gameplay/dahal/action/spell34/detection/chest
 function att2:gameplay/dahal/action/spell34/detection/symbol
 ##pickable_item
 function att2:gameplay/dahal/action/spell34/detection/pickable_item
+##rune_ore
+function att2:gameplay/dahal/action/spell34/detection/rune_ore
 
 team join detect_quest @e[type=minecraft:shulker,tag=questmarker]
 team join detect_npc @e[type=minecraft:shulker,tag=npcmarker]

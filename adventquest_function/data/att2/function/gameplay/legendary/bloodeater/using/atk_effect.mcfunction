@@ -10,9 +10,9 @@ particle dust_color_transition{from_color:[1.0,0.0,0.0],scale:1.0,to_color:[1.0,
 execute on vehicle run data modify entity @s Motion set from entity @s data.motion
 #get score
 function att2:gameplay/score/owner
-execute store result storage att2:score damage int 1 run scoreboard players get @s BE_ATK
+scoreboard players operation #damage CAL = @s BE_ATK
 #damage go
-execute at @s align xyz positioned ~-0.5 ~-2 ~-0.5 as @e[dx=2,dy=4,dz=2,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!BE_ATKED,tag=!Guardian] at @s run function att2:gameplay/legendary/bloodeater/using/damage with storage att2:score
+execute at @s align xyz positioned ~-0.5 ~-2 ~-0.5 as @e[dx=2,dy=4,dz=2,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!BE_ATKED,tag=!Guardian] at @s run function att2:gameplay/legendary/bloodeater/using/damage
 #reset
 scoreboard players remove @s BE_TIME 1
 execute if score @s BE_TIME matches ..0 run function att2:gameplay/legendary/bloodeater/using/atk_reset

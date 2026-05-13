@@ -22,7 +22,6 @@ tag @e[distance=..20,scores={GAMELEVEL=0..},team=hostile,type=!bat,tag=!MIMIC,ta
 ##damage cal
 function att2:gameplay/score/owner
 execute as @p[distance=..50,predicate=att2_pre:score/player] run function att2:gameplay/dahal/action/spell33/damage_cal
-execute store result storage att2:score damage int 1 run scoreboard players get finalDG SPDG
 ##effect
 execute at @s anchored eyes positioned ^ ^-0.5 ^0.3 run function att2:gameplay/dahal/action/spell33/ray
 execute at @s anchored eyes positioned ^ ^-0.5 ^0.6 run function att2:gameplay/dahal/action/spell33/ray

@@ -4,7 +4,10 @@
 #################################################################
 
 #damage
-$damage @s $(damage) att2_damage:magic by @p[predicate=att2_pre:score/player]
+damage @s 0 att2_damage:magic by @p[predicate=att2_pre:score/player]
+
+##limit
+execute as @s[tag=FB_DAHAL] run return fail
 
 ##particle
 particle minecraft:enchanted_hit ~ ~0.3 ~ 0.5 0.5 0.5 0 10 normal

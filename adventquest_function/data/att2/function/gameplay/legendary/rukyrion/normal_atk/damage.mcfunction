@@ -4,10 +4,10 @@
 #################################################################
 
 #damage
-$damage @s $(value) att2_damage:player_attack by @a[scores={NUMEROJOUEUR=$(owner)},limit=1]
+damage @s 0 att2_damage:player_attack by @p[predicate=att2_pre:score/player]
 
 ##detection health
-function att2:gameplay/enemy_health/melee_health_trigger
+function att2:gameplay/enemy_health/magic_atk_trigger
 execute unless score @s ENEMYHEALTH matches ..0 run return fail
 scoreboard players operation STAT CAL = @s CLASSLEVEL
 execute on attacker at @s run function att2:gameplay/legendary/rukyrion/kill_effect/score

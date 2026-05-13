@@ -5,7 +5,7 @@
 
 #damage
 tag @s add UltimaATK
-$damage @s $(damage) att2_damage:magic by @p[predicate=att2_pre:score/player]
+damage @s 0 att2_damage:magic by @p[predicate=att2_pre:score/player]
 
 #small particle
 execute at @s run particle minecraft:end_rod ~ ~1 ~ 0 0 0 0.05 5 normal

@@ -8,7 +8,8 @@
 execute at @s unless entity @e[type=!bat,scores={GAMELEVEL=0..},team=hostile,distance=..5,limit=1] run return 0
 ##reduce health
 #effect give @s instant_damage 1 3
-damage @s 50 att2_damage:player_attack by @p
+execute if score @s ENEMYABHEALTH matches 50.. run scoreboard players remove @s ENEMYABHEALTH 50
+execute if score @s ENEMYABHEALTH matches ..0 run scoreboard players remove @s ENEMYHEALTH 50
 ##update health
 function att2:gameplay/healthbar/detection_enemy
 ##get score
@@ -19,22 +20,21 @@ scoreboard players operation #Percent_Health CAL = #Health CAL
 scoreboard players operation #Percent_Health CAL *= 100 CAL
 scoreboard players operation #Percent_Health CAL /= #Max_Health CAL
 ##cal damage
-scoreboard players operation #Damage CAL = #Max_Health CAL
-scoreboard players operation #Damage CAL -= #Health CAL
-scoreboard players operation #Damage CAL /= 3 CAL
+scoreboard players operation finalDG SPDG = #Max_Health CAL
+scoreboard players operation finalDG SPDG -= #Health CAL
+scoreboard players operation finalDG SPDG /= 2 CAL
 ##snyc health
 execute store result entity @s Health int 1 run scoreboard players get #Health CAL
 ##health < 10 % -> boom
 execute if score #Percent_Health CAL matches ..10 at @s run function att2:gameplay/dahal/action/spell26/boom_effect
-##store Damage
-execute store result storage att2:score damage int 1 run scoreboard players get #Damage CAL
+##store damage
 scoreboard players set #TEST CAL 0
 scoreboard players set #CriticalSpellTrigger CAL 0
 
 ##set spell icon
 data modify storage att2:enemy_health spell_icon set value "item/custom/spell_book/spell26"
 
-execute at @s as @e[type=!bat,scores={GAMELEVEL=0..},team=hostile,distance=..5] run function att2:gameplay/dahal/action/spell26/damage with storage att2:score
+execute at @s as @e[type=!bat,scores={GAMELEVEL=0..},team=hostile,distance=..5] run function att2:gameplay/dahal/action/spell26/damage
 ##particle
 execute at @s run particle minecraft:explosion ~ ~ ~ 0.3 0.3 0.3 0 3 normal
 ##sound

@@ -37,11 +37,23 @@ advancement revoke @s only att2_test:score_trigger
 scoreboard objectives add SYSTEM dummy
 
 ##α command
-execute unless score elytra_racing_update SYSTEM matches 3.. run function att2:gameplay/elytra_racing/initialize
-scoreboard players set elytra_racing_update SYSTEM 3
+execute unless score elytra_racing_update SYSTEM matches 4.. run function att2:gameplay/elytra_racing/initialize
+scoreboard players set elytra_racing_update SYSTEM 4
 
 team add gold
 team modify gold color gold
 
 function att2:gameplay/speceffect/random/initialize
 function att2:gameplay/shop/purchase/discount_set
+
+scoreboard objectives add RESISTANCE dummy
+scoreboard objectives add statSPELLDAMAGEDEALT dummy
+scoreboard objectives add statMELEEDAMAGEDEALT dummy
+scoreboard objectives add statARROWDAMAGEDEALT dummy
+execute unless score DAMAGE SYSTEM matches 1.. run scoreboard objectives remove DAMAGE
+scoreboard players set DAMAGE SYSTEM 1
+scoreboard objectives add DAMAGE dummy
+
+execute unless score SHADOW_TOTAL SYSTEM matches 1.. run scoreboard objectives remove SHADOW_TOTAL
+scoreboard players set SHADOW_TOTAL SYSTEM 1
+scoreboard objectives add SHADOW_TOTAL dummy

@@ -9,4 +9,4 @@ execute if score Somniophages SQ48 matches -2 in minecraft:overworld as @e[type=
 execute at @a[distance=..100] run function att2:sound/misc/coins1
 execute at @a[distance=..100] run function att2:sound/misc/desintegration
 execute as @e[distance=..10,type=minecraft:bat,tag=BossRewards,sort=nearest,limit=20] at @s run function att2:gameplay/boss/rewards_effect
-kill @e[distance=..100,type=minecraft:bat,tag=BossRewards]
+execute as @e[distance=..100,type=bat,tag=BossRewards] at @s run function att2:gameplay/enemy_health/loot/no_bonus_trigger

@@ -28,6 +28,16 @@ effect give @s fire_resistance infinite 0 true
 # Initilaize the score CLASS for the mob
 function att2:gameplay/leveling/monster/initialize/initclass
 
+##set resistance
+execute store result score @s RESISTANCE run data get entity @s active_effects[{id:"minecraft:resistance"}].amplifier
+scoreboard players add @s RESISTANCE 1
+scoreboard players operation @s RESISTANCE *= 20 CAL
+
+##custom resistance
+execute if data entity @s data.resistance store result score @s RESISTANCE run data get entity @s data.resistance
+##infinite resistance
+effect give @s resistance infinite 4 true
+
 ##bow Initialize
 enchant @s minecraft:power 1
 # Set the level of the mob and set its data (hp and attack)
@@ -104,8 +114,8 @@ tag @s remove HP_DIS
 ##store health->score
 execute unless score @s ENEMYHEALTH matches 1.. store result score @s ENEMYHEALTH run attribute @s max_health get
 ##set absorption
-effect clear @s absorption
-effect give @s absorption infinite 249 true
+#effect clear @s absorption
+#effect give @s absorption infinite 249 true
 
 ##add more absorption -> master level/ LEVELETERNAN
 execute as @s[type=!minecraft:bat,tag=!MIMIC] run function att2:gameplay/leveling/monster/initialize/more_absorption_health

@@ -37,7 +37,7 @@ execute if score Blobby SQ54 matches 0.. if entity @a[x=-5392,y=23,z=-4999,dx=77
 execute if score Blobby SQ54 matches 0.. unless entity @a[x=-5392,y=23,z=-4999,dx=77,dy=100,dz=77,gamemode=adventure] run function att2:gameplay/boss/worlest/blobby/fail
 
 # Testing if Blobby died
-execute if score Blobby SQ54 matches 0.. if entity @a[x=-5392,y=23,z=-4999,dx=77,dy=100,dz=77,gamemode=adventure] unless entity @e[x=-5392,y=23,z=-4999,dx=77,dy=100,dz=77,nbt={UUID:[I;0,556,0,556]}] run function att2:gameplay/boss/worlest/blobby/victory
+execute if score Blobby SQ54 matches 0.. if entity @a[x=-5392,y=23,z=-4999,dx=77,dy=100,dz=77,gamemode=adventure] unless entity 00000000-0000-022c-0000-00000000022c run function att2:gameplay/boss/worlest/blobby/victory
 
 # Player can quit the arena when Blobby had been defeated
 execute if score Blobby SQ54 matches -2 as @a[x=-5358,y=39,z=-4923,dx=4,dy=5,dz=0,gamemode=adventure] at @s run tp @s -5356 39 -4920

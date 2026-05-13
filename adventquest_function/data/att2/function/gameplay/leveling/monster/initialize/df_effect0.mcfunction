@@ -3,4 +3,4 @@
 #Initilize new super elite nightmare mode   #
 #############################################
 
-effect give @s minecraft:resistance infinite 0 true
+scoreboard players set @s[scores={RESISTANCE=..20}] RESISTANCE 20

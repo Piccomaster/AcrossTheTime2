@@ -3,5 +3,5 @@
 #Initilize new super elite easy mode       	#
 #############################################
 
-effect give @s minecraft:resistance infinite 0 true
+scoreboard players set @s[scores={RESISTANCE=..20}] RESISTANCE 20
 effect give @s minecraft:strength infinite 0 true

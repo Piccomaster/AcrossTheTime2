@@ -19,4 +19,4 @@ execute at @s run function att2:gameplay/legendary/weaponsking/particle/throw_at
 #execute store result storage att2:score damage int 1 run scoreboard players get @s DAMAGE
 #execute store result storage att2:score player int 1 run scoreboard players get @s OWNER
 #damage
-execute at @s positioned ~-2.5 ~-2.5 ~-2.5 as @e[dx=5,dy=5,dz=5,team=hostile,scores={GAMELEVEL=0..},type=!bat] at @s run function att2:gameplay/legendary/weaponsking/throw_atk/damage with storage att2:score
+execute at @s positioned ~-2.5 ~-2.5 ~-2.5 as @e[dx=5,dy=5,dz=5,team=hostile,scores={GAMELEVEL=0..},type=!bat] at @s run function att2:gameplay/legendary/weaponsking/throw_atk/damage

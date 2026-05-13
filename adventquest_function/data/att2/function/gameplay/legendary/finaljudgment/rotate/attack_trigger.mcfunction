@@ -22,11 +22,4 @@ scoreboard players operation #damage CAL = #count FinalJudgmentUsing
 scoreboard players operation #damage CAL *= 15 CAL
 scoreboard players add #damage CAL 100
 function att2:gameplay/legendary/finaljudgment/rotate/damage_detection
-execute store result storage att2:score damage int 1 run scoreboard players get #damage CAL
-function att2:gameplay/legendary/finaljudgment/rotate/damage with storage att2:score
-
-##health trigger
-scoreboard players set #ForceReplace ENEMYHEALTH 2
-data modify storage att2:enemy_health icon set value "item/netherite_hoe"
-function att2:gameplay/enemy_health/melee_health_trigger
-scoreboard players set #ForceReplace ENEMYHEALTH 0
+function att2:gameplay/legendary/finaljudgment/rotate/damage

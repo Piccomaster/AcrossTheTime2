@@ -27,6 +27,6 @@ execute if score #esc PickableItem matches 100.. run advancement grant @a only a
 #total
 execute if score #total PickableItem matches 1.. run advancement grant @a only att2:treasure/pickable_item/total_1
 execute if score #total PickableItem matches 50.. run advancement grant @a only att2:treasure/pickable_item/total_50
-execute if score #total PickableItem matches 100.. run advancement grant @a only att2:treasure/pickable_item/total_100
+execute if score #total PickableItem matches 200.. run advancement grant @a only att2:treasure/pickable_item/total_200
 execute if score #total PickableItem matches 500.. run advancement grant @a only att2:treasure/pickable_item/total_500
 execute if score #total PickableItem matches 1000.. run advancement grant @a only att2:treasure/pickable_item/total_1000
