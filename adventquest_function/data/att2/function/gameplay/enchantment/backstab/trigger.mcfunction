@@ -8,9 +8,9 @@
 scoreboard players set @s Invulnerable 15
 item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/misc/invulnerable":1}}
 
-tp @s ~ ~ ~ ~ 30
+tp @s ~ ~ ~ ~ 20
 
-item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/motion/impulse_up":6}}
+item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/motion/impulse_up":5}}
 #item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/motion/up":4}}
 ##motion
 #particle

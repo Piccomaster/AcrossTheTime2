@@ -16,9 +16,9 @@ function att2:gameplay/enchantment/effect/eyes/trigger
 execute if score tic TIMECOUNTER matches 1 as @a[distance=..20,advancements={att2:tutorial/trigger/rune_enchantment=false}] at @s run function att2:gameplay/tutorial/delay/rune_enchantment
 
 ##RESET entity
-execute if score FIXED_ENTITY ENCHANTMENT matches 1.. run return fail
+execute if score FIXED_ENTITY ENCHANTMENT matches 3.. run return fail
 
-scoreboard players set FIXED_ENTITY ENCHANTMENT 1
+scoreboard players set FIXED_ENTITY ENCHANTMENT 3
 
 ##reset
 function att2:gameplay/enchantment/summon_base

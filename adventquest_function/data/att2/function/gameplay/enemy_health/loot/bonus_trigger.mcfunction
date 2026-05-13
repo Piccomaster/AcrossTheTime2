@@ -22,7 +22,7 @@ scoreboard players operation #DIMENSION CAL = @s DIMENSION
 ##cal BonusRolls
 scoreboard players set #luck CAL 0
 scoreboard players operation #luck CAL > @a[distance=..50] LUC_TOT
-scoreboard players operation #luck CAL *= 5 CAL
+scoreboard players operation #luck CAL /= 2 CAL
 
 ##cal chronotons rolls
 execute store result score #ChronotonsRolls DropRolls run random value 100..300
@@ -61,4 +61,4 @@ scoreboard players operation #RunesRolls DropRolls += #BonusRolls CAL
 kill @s[type=!player]
 ##summon loot
 #function att2:gameplay/enemy_health/loot/trigger
-tellraw @a ["§6Chronotons:",{score:{name:"#ChronotonsRolls",objective:"DropRolls"}},"  ","§6Consumables:",{score:{name:"#ConsumablesRolls",objective:"DropRolls"}},"  ","§6Equipment:",{score:{name:"#EquipmentsRolls",objective:"DropRolls"}},"  ","§6Runes:",{score:{name:"#RunesRolls",objective:"DropRolls"}}]
+#tellraw @a ["§6Chronotons:",{score:{name:"#ChronotonsRolls",objective:"DropRolls"}},"  ","§6Consumables:",{score:{name:"#ConsumablesRolls",objective:"DropRolls"}},"  ","§6Equipment:",{score:{name:"#EquipmentsRolls",objective:"DropRolls"}},"  ","§6Runes:",{score:{name:"#RunesRolls",objective:"DropRolls"}}]

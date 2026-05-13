@@ -84,3 +84,5 @@ execute if score sure ENCHANTMENT matches 2 if score wrath_accumulator ENCHANTME
 execute if score sure ENCHANTMENT matches 2 if score bloodreaver ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/bloodreaver_sure
 #stand_breaking_sure
 execute if score sure ENCHANTMENT matches 2 if score stand_breaking ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/stand_breaking_sure
+#sword_of_stone_sure
+execute if score sure ENCHANTMENT matches 2 if score sword_of_stone ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/sword_of_stone_sure

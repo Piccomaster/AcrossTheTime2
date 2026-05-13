@@ -18,6 +18,10 @@ execute if score level DIFFICULTY matches 0 run scoreboard players add #LEVELMAS
 execute if score level DIFFICULTY matches 1 run scoreboard players add #LEVELMASTER CAL 1
 execute if score level DIFFICULTY matches 2 run scoreboard players add #LEVELMASTER CAL 2
 execute store result storage att2:score count int 1 run scoreboard players get #LEVELMASTER CAL
+
+scoreboard players operation #LEVELMASTER CAL *= 4 CAL
+scoreboard players operation 
+
 item modify entity @s armor.head {function:set_enchantments,enchantments:{"att2_enchantment:tick/elite/death_protect":{type:storage,storage:"att2:score",path:count}}}
 
 ##sound

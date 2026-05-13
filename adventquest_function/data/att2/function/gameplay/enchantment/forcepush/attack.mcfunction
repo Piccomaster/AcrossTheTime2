@@ -13,7 +13,7 @@ execute if predicate att2_pre:player/flying run return run kill @e[distance=..10
 execute if predicate att2_pre:player/fall_flying run return run kill @e[distance=..10,type=marker,tag=Temp,tag=SpearHit]
 
 #add temp tag
-tag @s add TEMP
+function att2:gameplay/score/player
 #add counter_attack damage
 execute store result score #damage CAL run attribute @s attack_damage get 0.5
 execute store result score #level CAL run data get entity @s SelectedItem.components."minecraft:enchantments"."att2_enchantment:forcepush"
@@ -66,8 +66,6 @@ execute at @n[distance=..10,type=marker,tag=Temp,tag=SpearHit] run function att2
 scoreboard players reset #damage CAL
 scoreboard players reset #level CAL
 scoreboard players reset #speed CAL
-#tag remove
-tag @s remove TEMP
 
 ##clear marker
 kill @e[distance=..10,type=marker,tag=Temp,tag=SpearHit]

@@ -21,7 +21,7 @@ execute in overworld run tp 00000001-0000-006f-0000-00010000006f 0.0 0.0 0.0
 scoreboard players add #Durability CAL 1
 
 ##make damage
-$damage @s $(damage) att2_damage:player_attack by @a[tag=TEMP,limit=1]
+damage @s 0 att2_damage:player_attack by @p[predicate=att2_pre:score/player]
 
 ##detection health
 function att2:gameplay/enemy_health/melee_health_normal_trigger

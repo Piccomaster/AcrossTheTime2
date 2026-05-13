@@ -3669,3 +3669,6 @@ execute if score @s ScoreTrigger matches 3570 run function att2:gameplay/dahal/a
 
 execute if score @s ScoreTrigger matches 3571 run function att2:gameplay/dahal/action/spell40/music_stop
 execute if score @s ScoreTrigger matches 3572 run function att2:gameplay/dahal/action/spell40/music_stop
+
+execute if score @s ScoreTrigger matches 3573 run function att2:gameplay/enchantment/show_interaction/sword_of_stone
+execute if score @s ScoreTrigger matches 3574 run function att2:dialogs/gameplay/enchantment/data_show/sword_of_stone

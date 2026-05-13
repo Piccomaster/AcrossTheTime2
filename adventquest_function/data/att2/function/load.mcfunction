@@ -57,3 +57,5 @@ scoreboard objectives add DAMAGE dummy
 execute unless score SHADOW_TOTAL SYSTEM matches 1.. run scoreboard objectives remove SHADOW_TOTAL
 scoreboard players set SHADOW_TOTAL SYSTEM 1
 scoreboard objectives add SHADOW_TOTAL dummy
+
+scoreboard objectives add AXEDAMAGE dummy

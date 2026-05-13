@@ -15,4 +15,5 @@ tellraw @s [{"translate":"enchantment.data.list.sword"}]
 tellraw @s [{text:"【",color:dark_green},{"translate":"enchantment.att2.sscombo",hover_event:{action:show_text,value:[{translate:"enchantment.att2.sscombo.data.show.show_text"}]},click_event:{action:run_command,command:"/trigger ScoreTrigger set 245"}},{text:"】",color:dark_green}]
 # greatsword
 tellraw @s [{text:"【",color:dark_green},{"translate":"enchantment.att2.greatsword",hover_event:{action:show_text,value:[{translate:"enchantment.att2.greatsword.data.show.show_text"}]},click_event:{action:run_command,command:"/trigger ScoreTrigger set 246"}},{text:"】",color:dark_green}]
-
+# sword_of_stone
+tellraw @s [{text:"【",color:dark_green},{"translate":"enchantment.att2.sword_of_stone",hover_event:{action:show_text,value:[{translate:"enchantment.att2.sword_of_stone.data.show.show_text"}]},click_event:{action:run_command,command:"/trigger ScoreTrigger set 3574"}},{text:"】",color:dark_green}]

@@ -49,4 +49,6 @@ execute if score @s ENEMYHEALTH matches ..0 at @s on attacker as @s[type=#att2_e
 execute if score @s ENEMYHEALTH matches ..0 at @s on attacker run damage @n[distance=..0,tag=killed] 1 att2_damage:player_attack by @s
 execute if score @s ENEMYHEALTH matches ..0 run function att2:gameplay/enemy_health/kill
 ##sync health
-execute store result entity @s Health int 1 run scoreboard players get @s ENEMYHEALTH
+#execute store result entity @s Health int 1 run scoreboard players get @s ENEMYHEALTH
+effect clear @s minecraft:absorption
+effect give @s minecraft:absorption infinite 249 true

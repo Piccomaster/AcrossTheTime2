@@ -310,3 +310,7 @@ scoreboard players set stand_breaking_esc_2 ENCHANTMENT_DATA 10
 scoreboard players set stand_breaking_rune_2 ENCHANTMENT_DATA 600
 scoreboard players set stand_breaking_esc_3 ENCHANTMENT_DATA 15
 scoreboard players set stand_breaking_rune_3 ENCHANTMENT_DATA 900
+
+#sword_of_stone
+scoreboard players set sword_of_stone_esc_1 ENCHANTMENT_DATA 20
+scoreboard players set sword_of_stone_rune_1 ENCHANTMENT_DATA 1000

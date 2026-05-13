@@ -1,0 +1,1 @@
+function att2:gameplay/enchantment/show_interaction/sword_of_stone

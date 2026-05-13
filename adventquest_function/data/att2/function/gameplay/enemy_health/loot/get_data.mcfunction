@@ -20,7 +20,7 @@ scoreboard players operation #DropChanceRuneA DropChanceRuneA = @s DropChanceRun
 scoreboard players operation #DIMENSION CAL = @s DIMENSION
 
 ##cal BonusRolls
-execute on attacker store result score #luck CAL run attribute @s luck get 10
+execute on attacker store result score #luck CAL run attribute @s luck get
 
 ##cal chronotons rolls
 execute store result score #ChronotonsRolls DropRolls run random value 100..300

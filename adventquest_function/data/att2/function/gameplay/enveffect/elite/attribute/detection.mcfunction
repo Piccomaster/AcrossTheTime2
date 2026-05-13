@@ -3,6 +3,7 @@
 #Process all environment effect									#
 #################################################################
 
+
 ##get score
 function att2:gameplay/enveffect/elite/get_score
 execute unless score TEST CAL matches 0 run return 0

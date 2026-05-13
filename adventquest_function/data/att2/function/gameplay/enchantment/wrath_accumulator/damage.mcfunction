@@ -5,11 +5,12 @@
 
 ##motion
 function att2:gameplay/enchantment/wrath_accumulator/motion
-##
-$damage @s $(damage) att2_damage:player_attack by @p[distance=..20,predicate=att2_pre:score/player]
+
+##make damage
+damage @s 0 att2_damage:magic by @p[predicate=att2_pre:score/player]
 
 ##detection health
-function att2:gameplay/enemy_health/normal_trigger
+function att2:gameplay/enemy_health/magic_atk_trigger
 
 ##particle
 particle sculk_charge{roll:0} ~ ~ ~ 0.5 0.5 0.5 0.2 10 normal

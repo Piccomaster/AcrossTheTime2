@@ -6,7 +6,6 @@
 ##kill limit
 execute as @s[tag=killed] run return run function att2:gameplay/enemy_health/kill
 ##effect
-effect give @s resistance 1 3 true
 effect give @s slowness 1 3 true
 ##knock back limit
 attribute @s minecraft:knockback_resistance modifier add master_mechanics 1 add_value
