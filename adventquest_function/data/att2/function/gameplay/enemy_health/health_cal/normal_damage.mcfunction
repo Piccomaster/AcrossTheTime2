@@ -14,7 +14,7 @@ scoreboard players set #ARMOR_TOUGHNESS CAL 0
 data modify storage att2:temp temp set from entity @s equipment
 ##get atk damage
 scoreboard players operation #DMG CAL = #damage CAL
-tellraw @a ["初始伤害: ",{score:{name:"#DMG",objective:"CAL"}}]
+#tellraw @a ["初始伤害: ",{score:{name:"#DMG",objective:"CAL"}}]
 
 ##################################################armor
 execute store result score #ARMOR CAL run attribute @s minecraft:armor get 1
@@ -22,10 +22,10 @@ execute store result score #ARMOR_TOUGHNESS CAL run attribute @s minecraft:armor
 scoreboard players add #ARMOR_TOUGHNESS CAL 100
 scoreboard players operation #ARMOR CAL *= #ARMOR_TOUGHNESS CAL
 scoreboard players operation #ARMOR CAL /= 100 CAL
-tellraw @a ["盔甲减伤: ",{score:{name:"#ARMOR",objective:"CAL"}}]
+#tellraw @a ["盔甲减伤: ",{score:{name:"#ARMOR",objective:"CAL"}}]
 ##reduce armor
 scoreboard players operation #DMG CAL -= #ARMOR CAL
-tellraw @a ["剩余伤害: ",{score:{name:"#DMG",objective:"CAL"}}]
+#tellraw @a ["剩余伤害: ",{score:{name:"#DMG",objective:"CAL"}}]
 
 ################################################protection
 #head
@@ -44,12 +44,12 @@ scoreboard players operation #protection CAL += #count CAL
 scoreboard players operation #protection CAL *= 4 CAL
 scoreboard players operation #protection CAL < 80 CAL
 scoreboard players operation #protection CAL *= -1 CAL
-tellraw @a ["保护附魔减伤: ",{score:{name:"#protection",objective:"CAL"}}]
+#tellraw @a ["保护附魔减伤: ",{score:{name:"#protection",objective:"CAL"}}]
 scoreboard players add #protection CAL 100
 ##reduce protection
 scoreboard players operation #DMG CAL *= #protection CAL
 scoreboard players operation #DMG CAL /= 100 CAL
-tellraw @a ["剩余伤害: ",{score:{name:"#DMG",objective:"CAL"}}]
+#tellraw @a ["剩余伤害: ",{score:{name:"#DMG",objective:"CAL"}}]
 
 ################################################projectile_protection
 #head
@@ -68,17 +68,17 @@ scoreboard players operation #projectile_protection CAL += #count CAL
 scoreboard players operation #projectile_protection CAL *= 2 CAL
 scoreboard players operation #projectile_protection CAL < 80 CAL
 scoreboard players operation #projectile_protection CAL *= -1 CAL
-tellraw @a ["弹射物保护附魔减伤: ",{score:{name:"#projectile_protection",objective:"CAL"}}]
+#tellraw @a ["弹射物保护附魔减伤: ",{score:{name:"#projectile_protection",objective:"CAL"}}]
 scoreboard players add #projectile_protection CAL 100
 ##reduce projectile_protection
 scoreboard players operation #DMG CAL *= #projectile_protection CAL
 scoreboard players operation #DMG CAL /= 100 CAL
-tellraw @a ["剩余伤害: ",{score:{name:"#DMG",objective:"CAL"}}]
+#tellraw @a ["剩余伤害: ",{score:{name:"#DMG",objective:"CAL"}}]
 
 ################################################resistance
 scoreboard players operation #resistance CAL = @s RESISTANCE
 scoreboard players operation #resistance CAL *= -1 CAL
-tellraw @a ["抗性减伤: ",{score:{name:"#resistance",objective:"CAL"}}]
+#tellraw @a ["抗性减伤: ",{score:{name:"#resistance",objective:"CAL"}}]
 scoreboard players add #resistance CAL 100
 ##reduce protection
 scoreboard players operation #DMG CAL *= #resistance CAL
@@ -88,4 +88,4 @@ scoreboard players operation #DMG CAL /= 100 CAL
 ###damage
 scoreboard players operation #DMG CAL > 1 CAL
 
-tellraw @a ["其他物理伤害伤害: ",{score:{name:"#DMG",objective:"CAL"}}]
+#tellraw @a ["其他物理伤害伤害: ",{score:{name:"#DMG",objective:"CAL"}}]

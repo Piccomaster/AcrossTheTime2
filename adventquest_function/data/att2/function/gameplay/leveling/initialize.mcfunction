@@ -38,7 +38,7 @@ scoreboard objectives add DropQuestItemId dummy
 
 
 scoreboard players set @s GAMELEVEL 0
-scoreboard players set @s LVL_UPGRADE_REQ 22
+scoreboard players set @s LVL_UPGRADE_REQ 20
 scoreboard players set @s SKILLPOINTMASTER 0
 scoreboard players set @s SKILLPOINT 0
 scoreboard players set 3 SKILLPOINT 3

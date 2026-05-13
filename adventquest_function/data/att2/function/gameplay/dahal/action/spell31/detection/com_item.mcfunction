@@ -10,16 +10,16 @@ scoreboard players operation com SPELL31 = com SPELL31_DATA
 scoreboard players operation com SPELL31 *= @s SPELL31_CAP
 
 scoreboard players operation @s CHRONOTON += com SPELL31
-experience add @s[scores={SPELL31_CAP=1..}] 10 points
-experience add @s[scores={SPELL31_CAP=2..}] 10 points
-experience add @s[scores={SPELL31_CAP=3..}] 10 points
-experience add @s[scores={SPELL31_CAP=4..}] 10 points
-experience add @s[scores={SPELL31_CAP=5..}] 10 points
-experience add @s[scores={SPELL31_CAP=6..}] 10 points
-experience add @s[scores={SPELL31_CAP=7..}] 10 points
-experience add @s[scores={SPELL31_CAP=8..}] 10 points
-experience add @s[scores={SPELL31_CAP=9..}] 10 points
-experience add @s[scores={SPELL31_CAP=10..}] 10 points
+experience add @s[scores={SPELL31_CAP=1..}] 5 points
+experience add @s[scores={SPELL31_CAP=2..}] 5 points
+experience add @s[scores={SPELL31_CAP=3..}] 5 points
+experience add @s[scores={SPELL31_CAP=4..}] 5 points
+experience add @s[scores={SPELL31_CAP=5..}] 5 points
+experience add @s[scores={SPELL31_CAP=6..}] 5 points
+experience add @s[scores={SPELL31_CAP=7..}] 5 points
+experience add @s[scores={SPELL31_CAP=8..}] 5 points
+experience add @s[scores={SPELL31_CAP=9..}] 5 points
+experience add @s[scores={SPELL31_CAP=10..}] 5 points
 
 #add spellxp
 function att2:gameplay/dahal/bonus_xp

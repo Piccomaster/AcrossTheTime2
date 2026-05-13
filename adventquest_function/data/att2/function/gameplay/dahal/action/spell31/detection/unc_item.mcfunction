@@ -11,16 +11,16 @@ scoreboard players operation unc SPELL31 = unc SPELL31_DATA
 scoreboard players operation unc SPELL31 *= @s SPELL31_CAP
 
 scoreboard players operation @s CHRONOTON += unc SPELL31
-experience add @s[scores={SPELL31_CAP=1..}] 20 points
-experience add @s[scores={SPELL31_CAP=2..}] 20 points
-experience add @s[scores={SPELL31_CAP=3..}] 20 points
-experience add @s[scores={SPELL31_CAP=4..}] 20 points
-experience add @s[scores={SPELL31_CAP=5..}] 20 points
-experience add @s[scores={SPELL31_CAP=6..}] 20 points
-experience add @s[scores={SPELL31_CAP=7..}] 20 points
-experience add @s[scores={SPELL31_CAP=8..}] 20 points
-experience add @s[scores={SPELL31_CAP=9..}] 20 points
-experience add @s[scores={SPELL31_CAP=10..}] 20 points
+experience add @s[scores={SPELL31_CAP=1..}] 10 points
+experience add @s[scores={SPELL31_CAP=2..}] 10 points
+experience add @s[scores={SPELL31_CAP=3..}] 10 points
+experience add @s[scores={SPELL31_CAP=4..}] 10 points
+experience add @s[scores={SPELL31_CAP=5..}] 10 points
+experience add @s[scores={SPELL31_CAP=6..}] 10 points
+experience add @s[scores={SPELL31_CAP=7..}] 10 points
+experience add @s[scores={SPELL31_CAP=8..}] 10 points
+experience add @s[scores={SPELL31_CAP=9..}] 10 points
+experience add @s[scores={SPELL31_CAP=10..}] 10 points
 
 function att2:gameplay/dahal/bonus_xp
 scoreboard players operation @s BONUS_XP_SPELL += unc SPELL31
