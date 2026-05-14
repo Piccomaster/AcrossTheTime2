@@ -12,3 +12,5 @@ execute as @a run function att2:gameplay/boss/serile/phase4/stop
 function att2:gameplay/boss/serile/phase3/destroy_minions
 execute at @a run function att2:sound/misc/fail_boss
 execute as @a run function att2:dialogs/mainquest/act_5/ch1_system_1
+
+tp @a 1588 19 1495

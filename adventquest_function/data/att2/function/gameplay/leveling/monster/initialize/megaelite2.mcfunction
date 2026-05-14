@@ -5,4 +5,4 @@
 
 effect give @s minecraft:speed infinite 2 true
 effect give @s minecraft:strength infinite 3 true
-scoreboard players set @s[scores={RESISTANCE=..80}] RESISTANCE 80
+scoreboard players set @s[scores={RESISTANCE=..85}] RESISTANCE 85

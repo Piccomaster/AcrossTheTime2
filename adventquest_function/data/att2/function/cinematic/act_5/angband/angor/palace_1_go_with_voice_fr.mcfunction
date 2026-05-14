@@ -3,6 +3,9 @@
 #Process cinematic palace_1_go  		 		 #
 ##################################################
 
+##set score
+execute if score Neth0 TIMER matches 1.. run scoreboard players set 00000000-0000-001a-0000-00000000001a TALKING_LIMIT -1
+
 execute if score Neth0 TIMER matches 1..1400 run function att2:gameplay/speceffect/disincarnate/keep/neth0
 execute if score Neth0 TIMER matches 1 run data modify storage att2:performance rotation set value [0,25]
 

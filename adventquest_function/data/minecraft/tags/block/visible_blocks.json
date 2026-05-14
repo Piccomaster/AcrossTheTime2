@@ -32,6 +32,8 @@
     "minecraft:water",
     "minecraft:dead_bubble_coral_fan",
     "minecraft:twisting_vines_plant",
-    "minecraft:amethyst_cluster"
+    "minecraft:amethyst_cluster",
+    "red_mushroom",
+    "brown_mushroom"
   ]
 }
