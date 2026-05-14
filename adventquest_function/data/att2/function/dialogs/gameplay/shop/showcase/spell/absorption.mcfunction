@@ -6,8 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {text:" ° ",bold:true,color:"dark_red",extra:[{object:atlas,sprite:"item/custom/spell_book/spell43",color:"white",shadow_color:0},{text:"<Absorption>",bold:false,color:"dark_green",hover_event:{action:show_text,value:"Augmentez vos points de vie maximum pendant un certain temps."},extra:[{translate:"att2.shop.chronotons.buy",with:[{translate:"att2.shop.chronotons.buy",with:[{score:{name:"spell43",objective:"PRICES"}}],color:"yellow",click_event:{action:run_command,command:"/trigger ScoreTrigger set 524"},hover_event:{action:show_text,value:"Cliquez ici pour acheter !"}}]}]}
-
+tellraw @s[scores={LANGUAGE=0}] {text:" ° ",bold:true,color:"dark_red",extra:[{object:atlas,sprite:"item/custom/spell_book/spell43",color:"white",shadow_color:0},{text:"<Absorption>",bold:false,color:"dark_green",hover_event:{action:show_text,value:"Augmentez vos points de vie maximum pendant un certain temps."},extra:[{translate:"att2.shop.chronotons.buy",with:[{score:{name:"spell43",objective:"PRICES"}}],color:"yellow",click_event:{action:run_command,command:"/trigger ScoreTrigger set 524"},hover_event:{action:show_text,value:"Cliquez ici pour acheter !"}}]}]}
 
 #ENGLISH LANGUAGE
 

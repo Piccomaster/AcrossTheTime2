@@ -11,7 +11,7 @@
         },
         "frame": "goal"
     },
-    "parent": "att2:treasure/sovereign/misc/bundle",
+    "parent": "att2:treasure/bundle",
     "rewards": {
         "experience": 7777
     },
