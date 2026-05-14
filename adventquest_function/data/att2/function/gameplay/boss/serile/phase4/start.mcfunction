@@ -16,6 +16,8 @@ scoreboard players set Timer2 SERILE 0
 scoreboard players set Timer3 SERILE 0
 scoreboard players set Timer4 SERILE 0
 
+spawnpoint @a 1588 19 1495
+
 function att2:gameplay/boss/serile/phase4/init_bossbar
 function att2:cinematic/tp_effect/serile
 
