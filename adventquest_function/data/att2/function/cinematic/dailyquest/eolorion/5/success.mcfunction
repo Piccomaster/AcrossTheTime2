@@ -47,4 +47,4 @@ scoreboard players set eolorion_dailyquest_5_completed DAILYQUEST 1
 
 ##fire ball damage
 scoreboard players add fire_ball_duel SPDG 10
-scoreboard players operation fire_ball_duel SPDG > 500 CAL
+scoreboard players operation fire_ball_duel SPDG < 200 CAL

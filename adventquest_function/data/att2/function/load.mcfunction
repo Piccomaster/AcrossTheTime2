@@ -73,3 +73,5 @@ scoreboard players set ult SPELL31_DATA 50
 team modify detect_minerals_runes color yellow
 
 scoreboard objectives add DAMAGEREDUCE dummy
+
+function att2:gameplay/runictrials/summon_pos_marker

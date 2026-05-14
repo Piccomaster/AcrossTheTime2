@@ -21,7 +21,7 @@ tellraw @a [{translate:att2.dailyquest.rewards.add.chronotons,with:[{score:{name
 tellraw @a [{translate:att2.dailyquest.rewards.add.xp,with:[{score:{name:eolorion_dailyquest_8_rewards_xp,objective:DAILYQUEST},color:"green"}]}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.reputation,with:[{score:{name:eolorion_dailyquest_8_rewards_reputation,objective:DAILYQUEST},color:"dark_green"}]}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.eolorion.city_donation,with:[{score:{name:eolorion_dailyquest_8_rewards_city_donation,objective:DAILYQUEST},color:"blue"}]}]
-tellraw @a [{translate:att2.dailyquest.eolorion.8.reward.other}]
+tellraw @a [{translate:att2.dailyquest.eolorion.8.reward.other,with:[{score:{name:SP4_10_reduce,objective:DAHAL_COST},color:green},"§2/",{score:{name:"50",objective:CAL},color:green}]}]
 
 ##sound
 playsound minecraft:exploit player @a ~ ~ ~ 1 1 0.5

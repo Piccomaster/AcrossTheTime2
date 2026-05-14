@@ -35,7 +35,7 @@ attribute @s minecraft:scale base set 1.3
 ##reset
 scoreboard players reset MAX_HEALTH CAL
 
-tellraw @a ["抗性减伤: ",{score:{name:"#resistance",objective:"CAL"}}]
+#tellraw @a ["抗性减伤: ",{score:{name:"#resistance",objective:"CAL"}}]
 ##resistance
 execute if score level DIFFICULTY matches -1 run scoreboard players set @s[scores={RESISTANCE=..15}] RESISTANCE 15
 execute if score level DIFFICULTY matches 0 run scoreboard players set @s[scores={RESISTANCE=..35}] RESISTANCE 35

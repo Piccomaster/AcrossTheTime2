@@ -323,3 +323,5 @@ scoreboard players set candle27_17 CANDLE_STATE 1
 scoreboard players set candle27_18 CANDLE_STATE 1
 scoreboard players set candle27_19 CANDLE_STATE 1
 scoreboard players set candle27_20 CANDLE_STATE 1
+
+function att2:gameplay/runictrials/summon_pos_marker
