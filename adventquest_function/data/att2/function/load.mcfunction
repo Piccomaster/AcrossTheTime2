@@ -37,11 +37,39 @@ advancement revoke @s only att2_test:score_trigger
 scoreboard objectives add SYSTEM dummy
 
 ##α command
-execute unless score elytra_racing_update SYSTEM matches 3.. run function att2:gameplay/elytra_racing/initialize
-scoreboard players set elytra_racing_update SYSTEM 3
+execute unless score elytra_racing_update SYSTEM matches 4.. run function att2:gameplay/elytra_racing/initialize
+scoreboard players set elytra_racing_update SYSTEM 4
 
 team add gold
 team modify gold color gold
 
 function att2:gameplay/speceffect/random/initialize
 function att2:gameplay/shop/purchase/discount_set
+
+scoreboard objectives add RESISTANCE dummy
+scoreboard objectives add statSPELLDAMAGEDEALT dummy
+scoreboard objectives add statMELEEDAMAGEDEALT dummy
+scoreboard objectives add statARROWDAMAGEDEALT dummy
+execute unless score DAMAGE SYSTEM matches 1.. run scoreboard objectives remove DAMAGE
+scoreboard players set DAMAGE SYSTEM 1
+scoreboard objectives add DAMAGE dummy
+
+execute unless score SHADOW_TOTAL SYSTEM matches 1.. run scoreboard objectives remove SHADOW_TOTAL
+scoreboard players set SHADOW_TOTAL SYSTEM 1
+scoreboard objectives add SHADOW_TOTAL dummy
+
+scoreboard objectives add AXEDAMAGE dummy
+
+scoreboard players set other SPELL31_DATA 1
+scoreboard players set com SPELL31_DATA 1
+scoreboard players set unc SPELL31_DATA 2
+scoreboard players set rar SPELL31_DATA 3
+scoreboard players set epi SPELL31_DATA 5
+scoreboard players set epi_set SPELL31_DATA 10
+scoreboard players set leg SPELL31_DATA 20
+scoreboard players set leg_armset SPELL31_DATA 25
+scoreboard players set ult SPELL31_DATA 50
+
+team modify detect_minerals_runes color yellow
+
+scoreboard objectives add DAMAGEREDUCE dummy

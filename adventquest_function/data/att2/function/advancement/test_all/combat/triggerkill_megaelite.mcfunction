@@ -3,31 +3,6 @@
 #Process adding Tier Elite score 			                    #
 #################################################################
 
-##revoke test
-advancement revoke @s only att2_test:triggerkill/reg1_megaelite4
-advancement revoke @s only att2_test:triggerkill/reg1_megaelite8
-advancement revoke @s only att2_test:triggerkill/reg1_megaelite12
-advancement revoke @s only att2_test:triggerkill/reg1_megaelite16
-advancement revoke @s only att2_test:triggerkill/reg1_megaelite20
-
-advancement revoke @s only att2_test:triggerkill/reg2_megaelite4
-advancement revoke @s only att2_test:triggerkill/reg2_megaelite8
-advancement revoke @s only att2_test:triggerkill/reg2_megaelite12
-advancement revoke @s only att2_test:triggerkill/reg2_megaelite16
-advancement revoke @s only att2_test:triggerkill/reg2_megaelite20
-
-advancement revoke @s only att2_test:triggerkill/reg3_megaelite4
-advancement revoke @s only att2_test:triggerkill/reg3_megaelite8
-advancement revoke @s only att2_test:triggerkill/reg3_megaelite12
-advancement revoke @s only att2_test:triggerkill/reg3_megaelite16
-advancement revoke @s only att2_test:triggerkill/reg3_megaelite20
-
-advancement revoke @s only att2_test:triggerkill/reg4_megaelite4
-advancement revoke @s only att2_test:triggerkill/reg4_megaelite8
-advancement revoke @s only att2_test:triggerkill/reg4_megaelite12
-advancement revoke @s only att2_test:triggerkill/reg4_megaelite16
-advancement revoke @s only att2_test:triggerkill/reg4_megaelite20
-
 scoreboard players add all MEGAELITE 1
 
 # MEGAELITE

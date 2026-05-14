@@ -31,4 +31,5 @@ scoreboard players operation #percent CAL > 70 CAL
 scoreboard players operation @s ARR_POWER *= #percent CAL
 scoreboard players operation @s ARR_POWER /= 100 CAL
 ##storage damage
+scoreboard players operation #damage CAL = @s ARR_POWER
 execute store result storage att2:score damage int 1 run scoreboard players get @s ARR_POWER

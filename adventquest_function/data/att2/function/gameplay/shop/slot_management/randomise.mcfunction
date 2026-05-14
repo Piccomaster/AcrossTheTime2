@@ -37,7 +37,7 @@ function att2:gameplay/shop/slot_management/slot/ramsay_tork_shop
 #00000000-0000-059a-0000-00000000059a
 function att2:gameplay/shop/slot_management/slot/rokar_borton_shop
 #00000000-0000-067a-0000-00000000067a
-execute if score vulk_PNJ DIALOG matches 4..4 run function att2:gameplay/shop/slot_management/slot/vulk_shop
+function att2:gameplay/shop/slot_management/slot/vulk_shop
 #00000000-0000-026a-0000-00000000026a
 function att2:gameplay/shop/slot_management/slot/wulk_shop
 #00000000-0000-106a-0000-00000000106a

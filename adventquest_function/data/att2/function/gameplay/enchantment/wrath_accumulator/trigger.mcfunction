@@ -25,11 +25,11 @@ function att2:gameplay/score/player
 
 #get pos
 summon marker ~ ~ ~ {Tags:["Temp"]}
-execute if score #eh_lvl CAL matches 120 positioned ~-3 ~-3 ~-3 as @e[dx=6,dy=6,dz=6,team=hostile,scores={GAMELEVEL=0..},type=!bat] at @s run function att2:gameplay/enchantment/wrath_accumulator/damage with storage att2:score
-execute if score #eh_lvl CAL matches 140 positioned ~-4 ~-4 ~-4 as @e[dx=8,dy=8,dz=8,team=hostile,scores={GAMELEVEL=0..},type=!bat] at @s run function att2:gameplay/enchantment/wrath_accumulator/damage with storage att2:score
-execute if score #eh_lvl CAL matches 160 positioned ~-5 ~-5 ~-5 as @e[dx=10,dy=10,dz=10,team=hostile,scores={GAMELEVEL=0..},type=!bat] at @s run function att2:gameplay/enchantment/wrath_accumulator/damage with storage att2:score
-execute if score #eh_lvl CAL matches 180 positioned ~-6 ~-6 ~-6 as @e[dx=12,dy=12,dz=12,team=hostile,scores={GAMELEVEL=0..},type=!bat] at @s run function att2:gameplay/enchantment/wrath_accumulator/damage with storage att2:score
-execute if score #eh_lvl CAL matches 200 positioned ~-7 ~-7 ~-7 as @e[dx=14,dy=14,dz=14,team=hostile,scores={GAMELEVEL=0..},type=!bat] at @s run function att2:gameplay/enchantment/wrath_accumulator/damage with storage att2:score
+execute if score #eh_lvl CAL matches 120 positioned ~-3 ~-3 ~-3 as @e[dx=6,dy=6,dz=6,team=hostile,scores={GAMELEVEL=0..},type=!bat] at @s run function att2:gameplay/enchantment/wrath_accumulator/damage
+execute if score #eh_lvl CAL matches 140 positioned ~-4 ~-4 ~-4 as @e[dx=8,dy=8,dz=8,team=hostile,scores={GAMELEVEL=0..},type=!bat] at @s run function att2:gameplay/enchantment/wrath_accumulator/damage
+execute if score #eh_lvl CAL matches 160 positioned ~-5 ~-5 ~-5 as @e[dx=10,dy=10,dz=10,team=hostile,scores={GAMELEVEL=0..},type=!bat] at @s run function att2:gameplay/enchantment/wrath_accumulator/damage
+execute if score #eh_lvl CAL matches 180 positioned ~-6 ~-6 ~-6 as @e[dx=12,dy=12,dz=12,team=hostile,scores={GAMELEVEL=0..},type=!bat] at @s run function att2:gameplay/enchantment/wrath_accumulator/damage
+execute if score #eh_lvl CAL matches 200 positioned ~-7 ~-7 ~-7 as @e[dx=14,dy=14,dz=14,team=hostile,scores={GAMELEVEL=0..},type=!bat] at @s run function att2:gameplay/enchantment/wrath_accumulator/damage
 #clear
 kill @e[distance=..10,type=marker,tag=Temp]
 

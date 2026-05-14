@@ -3,10 +3,11 @@
 #damage go          											#
 #################################################################
 
-#set kill score->spellKILL
-scoreboard players set @s SPELL_KILL 7
-$scoreboard players operation @s ATTACKER = @p[scores={NUMEROJOUEUR=$(owner)}] NUMEROJOUEUR
-$damage @s[tag=!FB_DAHAL] $(SP7) att2_damage:magic by @p[scores={NUMEROJOUEUR=$(owner)}]
+#damage
+damage @s 0 att2_damage:magic by @p[predicate=att2_pre:score/player]
+
+##limit
+execute as @s[tag=FB_DAHAL] run return fail
 
 ##particle
 particle minecraft:enchanted_hit ~ ~2 ~ 0.5 0.5 0.5 0 20 normal

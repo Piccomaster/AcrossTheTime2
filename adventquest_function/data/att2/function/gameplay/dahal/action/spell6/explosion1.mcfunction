@@ -14,7 +14,6 @@ execute at @s align xyz positioned ~ ~1.38 ~ as @e[dx=1,dy=1,dz=1,scores={GAMELE
 #damage cal
 execute as @s run function att2:gameplay/dahal/action/spell6/damage_cal
 #find owner player ->damage
-execute store result storage att2:sp_dmg owner int 1 run scoreboard players get @s SPELL6_OWNER
-execute at @s align xyz positioned ~ ~1.38 ~ as @e[dx=1,dy=1,dz=1,scores={GAMELEVEL=0..},team=hostile,tag=!FB_DAHAL] at @s run function att2:gameplay/dahal/action/spell6/damage with storage att2:sp_dmg
+execute at @s align xyz positioned ~ ~1.38 ~ as @e[dx=1,dy=1,dz=1,scores={GAMELEVEL=0..},team=hostile,tag=!FB_DAHAL] at @s run function att2:gameplay/dahal/action/spell6/damage
 
 kill @s

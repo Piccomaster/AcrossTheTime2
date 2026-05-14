@@ -80,6 +80,8 @@ execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:leg_armset}] run 
 #ult
 execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:ult}] run particle minecraft:dust{color:[0.25,1.0,0.0],scale:0.6} ~ ~ ~ 0.25 0.5 0.25 0 40 normal
 
+function att2:gameplay/dahal/action/spell34/clear_chest_marker
+
 ##add tag
 tag @s add Open
 ##sound

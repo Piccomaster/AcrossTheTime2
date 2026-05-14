@@ -10,14 +10,6 @@ scoreboard players set #Q CAL 0
 function att2:gameplay/misc/chesteffect/other_dropchance
 execute positioned -4961 98 -5802 run loot spawn ~ ~ ~ loot att2:chest/reg1
 execute positioned -4961 98 -5802 run loot spawn ~ ~ ~ loot att2:entities/boss/esc_rewards
-execute positioned -4961 98 -5802 run loot spawn ~ ~ ~ loot att2:entities/boss/esc_rewards
-execute positioned -4961 98 -5802 run loot spawn ~ ~ ~ loot att2:entities/boss/esc_rewards
-execute positioned -4961 98 -5802 run loot spawn ~ ~ ~ loot att2:entities/boss/esc_rewards
-execute positioned -4961 98 -5802 run loot spawn ~ ~ ~ loot att2:gambling0
-execute positioned -4961 98 -5802 run loot spawn ~ ~ ~ loot att2:gambling0
-execute positioned -4961 98 -5802 run loot spawn ~ ~ ~ loot att2:gambling0
-execute positioned -4961 98 -5802 run loot spawn ~ ~ ~ loot att2:gambling0
-execute positioned -4961 98 -5802 run loot spawn ~ ~ ~ loot att2:gambling0
 execute positioned -4961 98 -5802 run loot spawn ~ ~ ~ loot att2:gambling0
 execute positioned -4961 98 -5802 run loot spawn ~ ~ ~ loot att2:gambling0
 execute positioned -4961 98 -5802 run loot spawn ~ ~ ~ loot att2:gambling0

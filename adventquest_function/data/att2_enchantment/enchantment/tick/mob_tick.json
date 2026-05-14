@@ -37,14 +37,19 @@
                   "minecraft:player",
                   "minecraft:wolf",
                   "minecraft:iron_golem"
-                ],
+                ]
+              },
                 "tags": [
                   {
                     "id": "minecraft:avoids_guardian_thorns",
                     "expected": false
+                  },
+                  
+                  {
+                    "id": "minecraft:is_projectile",
+                    "expected": false
                   }
                 ]
-              }
             }
           }
         ],

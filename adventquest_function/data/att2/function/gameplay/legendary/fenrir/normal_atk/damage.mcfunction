@@ -9,4 +9,4 @@ scoreboard players set #damage CAL 10
 #normal_ice
 function att2:gameplay/legendary/fenrir/particle/normal_ice
 ##damage detection
-function att2:gameplay/enemy_health/magic_health_trigger
+function att2:gameplay/enemy_health/magic_atk_trigger

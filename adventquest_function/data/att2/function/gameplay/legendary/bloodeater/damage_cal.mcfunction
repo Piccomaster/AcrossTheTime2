@@ -5,7 +5,6 @@
 
 #get true damage
 scoreboard players operation temp_value_10 CAL = @s DAMAGE
-scoreboard players operation temp_value_10 CAL /= 10 CAL
 #hp= true damage X 0.5
 execute if score @s BE_TIME matches 1.. run scoreboard players operation temp_value_10 CAL *= 100 CAL
 execute unless score @s BE_TIME matches 1.. run scoreboard players operation temp_value_10 CAL *= 50 CAL

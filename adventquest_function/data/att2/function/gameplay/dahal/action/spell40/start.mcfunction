@@ -10,14 +10,14 @@ function att2:gameplay/dahal/action/spell40/cooldown
 tag @s add Corrupted
 scoreboard players remove @s DAHAL 100
 
-stopsound @s[tag=Corrupted,scores={MUSIC_BOSS=0}] music
+stopsound @s[tag=Corrupted,scores={MUSIC_BOSS=0},tag=!SPELL40_MUSIC_LIMIT] music
 ##re start MUSIC
 scoreboard players set @s SPELL40_MUSIC 0
 # Stopping current music to play corrutpion ambiance
 # stopsound @s[tag=Corrupted,scores={MUSIC_BOSS=0}] music
-tag @s[tag=Corrupted,scores={MUSIC_BOSS=0}] add NoAutoMusic
+tag @s[tag=Corrupted,scores={MUSIC_BOSS=0},tag=!SPELL40_MUSIC_LIMIT] add NoAutoMusic
 
-particle minecraft:item{item:"minecraft:nether_wart_block"} ~ ~1 ~ 0 0 0 1.2 500 force @a
+particle minecraft:item{item:"minecraft:nether_wart_block"} ~ ~1 ~ 0 0 0 1.2 500 normal
 function att2:sound/dahal/corruption_start
 
 # Spell launch total count for advancement

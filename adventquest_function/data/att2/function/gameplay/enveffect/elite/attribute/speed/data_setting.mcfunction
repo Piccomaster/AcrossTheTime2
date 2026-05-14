@@ -32,7 +32,7 @@ attribute @s minecraft:scale base set 0.8
 scoreboard players reset ATK_DAMAGE CAL
 
 ##resistance
-execute if score level DIFFICULTY matches -1 run effect give @s resistance infinite 0 true
-execute if score level DIFFICULTY matches 0 run effect give @s resistance infinite 1 true
-execute if score level DIFFICULTY matches 1 run effect give @s resistance infinite 2 true
-execute if score level DIFFICULTY matches 2 run effect give @s resistance infinite 3 true
+execute if score level DIFFICULTY matches -1 run scoreboard players set @s[scores={RESISTANCE=..15}] RESISTANCE 15
+execute if score level DIFFICULTY matches 0 run scoreboard players set @s[scores={RESISTANCE=..35}] RESISTANCE 35
+execute if score level DIFFICULTY matches 1 run scoreboard players set @s[scores={RESISTANCE=..55}] RESISTANCE 55
+execute if score level DIFFICULTY matches 2 run scoreboard players set @s[scores={RESISTANCE=..75}] RESISTANCE 75

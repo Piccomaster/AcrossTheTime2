@@ -4,6 +4,8 @@
 #Damage=MinDamage+(MaxDamage−MinDamage)*[(SLCT_LVL-1)/(MAX_LVL-1)]^2   #
 #################################################################
 
+#get owner
+function att2:gameplay/score/owner
 #set  MinDamage | (MaxDamage−MinDamage)[]
 scoreboard players set minDG SPDG 20
 scoreboard players set maxDG SPDG 350

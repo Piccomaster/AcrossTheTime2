@@ -3,10 +3,6 @@
 #detect enemy health reduce                                     #
 #################################################################
 
-##make health trigger full
-effect clear @s absorption
-effect give @s absorption infinite 249 true
-
 #get absorption health
 scoreboard players operation #absorption_health CAL = #reduce_health CAL
 #remove damage

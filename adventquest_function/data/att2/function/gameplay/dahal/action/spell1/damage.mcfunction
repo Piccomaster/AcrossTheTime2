@@ -5,11 +5,13 @@
 
 ##particle
 particle minecraft:smoke ~ ~0.3 ~ 0.5 0.5 0.5 0 20 normal
-#say 我是谁 
+
 #$say 掉血$(SP1)
 #damage
-$damage @s[tag=!FB_DAHAL] $(SP1) att2_damage:magic by @p[scores={NUMEROJOUEUR=$(player)}]
+damage @s 0 att2_damage:magic by @p[predicate=att2_pre:score/player]
 
+##limit
+execute as @s[tag=FB_DAHAL] run return fail
 ##add fire
 execute store result entity @s Fire int 1 run data get storage att2:sp_dmg SP1
 ##detection health

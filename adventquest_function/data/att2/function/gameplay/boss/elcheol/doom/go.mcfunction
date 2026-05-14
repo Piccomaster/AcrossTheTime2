@@ -20,7 +20,9 @@ execute if score Doom SQ56 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreb
 # Enable Bossbar storing health of Doom
 execute if score Doom SQ56 matches 0.. if entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure] store result bossbar minecraft:doom value run scoreboard players get 00000000-0000-026c-0000-00000000026c ENEMYHEALTH
 execute if score Doom SQ56 matches 0.. if entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure] store result bossbar minecraft:doom max run attribute 00000000-0000-026c-0000-00000000026c max_health get
-execute if score Doom SQ56 matches 0.. store result score 00000000-0000-026c-0000-00000000026c SQ56 run data get entity 00000000-0000-026c-0000-00000000026c Health 1
+execute if score Doom SQ56 matches 0.. run scoreboard players operation 00000000-0000-026c-0000-00000000026c SQ56 = 00000000-0000-026c-0000-00000000026c ENEMYHEALTH
+
+#data get entity 00000000-0000-026c-0000-00000000026c Health 1
 
 # Make challengers enters the arena
 #execute if score Doom SQ56 matches -1.. if score SQ56 SIDEQUEST matches 3 as @a[x=-5229,y=144,z=-6293,dx=0,dy=2,dz=0,gamemode=adventure] at @s unless entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/elcheol/doom/display_title
@@ -41,7 +43,7 @@ execute if score Doom SQ56 matches 0.. if entity @a[x=-5229,y=47,z=-6293,distanc
 execute if score Doom SQ56 matches 0.. unless entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure] run function att2:gameplay/boss/elcheol/doom/fail
 
 # Testing if Doom died
-execute if score Doom SQ56 matches 0.. if entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure] unless entity @e[x=-5229,y=47,z=-6293,distance=..25,nbt={UUID:[I;0,620,0,620]}] run function att2:gameplay/boss/elcheol/doom/victory
+execute if score Doom SQ56 matches 0.. if entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure] unless entity 00000000-0000-026c-0000-00000000026c run function att2:gameplay/boss/elcheol/doom/victory
 
 
 # Testing if player drop the medaillon and open the secret in the academy after SQ56 completed

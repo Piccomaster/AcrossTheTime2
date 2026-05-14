@@ -15,4 +15,5 @@ scoreboard players set SPELL7_CRITICAL Critical 1
 scoreboard players set SPELL8_CRITICAL Critical 3
 scoreboard players set SPELL10_CRITICAL Critical 2
 scoreboard players set SPELL11_CRITICAL Critical 2
+scoreboard players set SPELL29_CRITICAL Critical 1
 scoreboard players set SPELL33_CRITICAL Critical 2

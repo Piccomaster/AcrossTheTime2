@@ -5,4 +5,4 @@
 
 effect clear @s slowness
 effect clear @s weakness
-effect give @s minecraft:resistance infinite 0 true
+scoreboard players set @s[scores={RESISTANCE=..20}] RESISTANCE 20

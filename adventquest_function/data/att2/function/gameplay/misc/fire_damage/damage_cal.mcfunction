@@ -40,7 +40,7 @@ scoreboard players operation @s FIRE += #time CAL
 #return macao
 execute store result storage att2:score damage int 1 run scoreboard players get #damage CAL
 #damage go
-function att2:gameplay/misc/fire_damage/damage with storage att2:score
+function att2:gameplay/misc/fire_damage/damage
 ##particle
 particle effect{color:[0.87,0.49,0.16],power:1} ~ ~1 ~ 0.1 0.5 0.1 1 5 normal
 

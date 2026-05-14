@@ -5,7 +5,7 @@
 
 #update pos
 data modify entity @s Pos set from storage att2:elytra_racing temp.pos
-tellraw @a [{nbt:"temp.pos",storage:"att2:elytra_racing"}]
+#tellraw @a [{nbt:"temp.pos",storage:"att2:elytra_racing"}]
 #update rotation
 data modify entity @s Rotation set from storage att2:elytra_racing temp.rotation
 

@@ -9,3 +9,5 @@ data modify block ~ ~ ~ LootTable set value ""
 loot spawn ~ ~ ~ loot att2:entities/decorated_pot
 ##destroy
 setblock ~ ~ ~ air destroy
+
+scoreboard players add Total POT 1

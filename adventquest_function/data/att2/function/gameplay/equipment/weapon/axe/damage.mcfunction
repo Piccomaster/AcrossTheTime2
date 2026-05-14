@@ -4,7 +4,7 @@
 #################################################################
 
 ##add durability Consumption
-scoreboard players add #damage CAL 1
+scoreboard players add #item_damage CAL 1
 ##facing
 rotate @n[distance=..10,type=marker,tag=Temp] facing entity @s feet
 ##sync rotation
@@ -21,6 +21,6 @@ particle minecraft:dust_pillar{block_state:"minecraft:redstone_block"} ~ ~ ~ 0.5
 ##test armorbreak
 execute if score #armorbreak CAL matches 1.. run function att2:gameplay/enchantment/armorbreak/trigger
 ##damage
-$damage @s $(value) att2_damage:player_attack by @p[predicate=att2_pre:score/player]
+damage @s 0 att2_damage:player_attack by @p[predicate=att2_pre:score/player]
 ##detection health
-function att2:gameplay/enemy_health/melee_health_trigger
+function att2:gameplay/enemy_health/melee_health_normal_trigger

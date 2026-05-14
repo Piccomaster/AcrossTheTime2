@@ -91,3 +91,5 @@ execute if score remove ENCHANTMENT matches 2 if score wrath_accumulator ENCHANT
 execute if score remove ENCHANTMENT matches 2 if score bloodreaver ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/bloodreaver_remove
 #stand_breaking_remove
 execute if score remove ENCHANTMENT matches 2 if score stand_breaking ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/stand_breaking_remove
+#stand_breaking_remove
+execute if score remove ENCHANTMENT matches 2 if score sword_of_stone ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/sword_of_stone_remove

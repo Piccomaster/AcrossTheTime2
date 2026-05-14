@@ -1,0 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:elytra"
+        },
+        "title": {"translate":"att2.advancement.challenge.title.elytra_racing.root"},
+        "description": {"translate":"att2.advancement.challenge.description.elytra_racing.root"},
+        "hidden": false,
+        "frame": "challenge"
+    },
+    "parent": "att2:challenge/root",
+    "rewards": {
+        "experience": 100000
+                },
+    "criteria": {
+        "elytra_racing_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "elytra_racing_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "elytra_racing_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "elytra_racing_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "elytra_racing_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "elytra_racing_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "elytra_racing_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "elytra_racing_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "elytra_racing_9": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

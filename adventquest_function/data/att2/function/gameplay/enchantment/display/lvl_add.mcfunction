@@ -80,3 +80,5 @@ execute if score wrath_accumulator ENCHANTMENT matches 0.. run function att2:gam
 execute if score bloodreaver ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/bloodreaver_add
 #stand_breaking
 execute if score stand_breaking ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/stand_breaking_add
+#sword_of_stone
+execute if score sword_of_stone ENCHANTMENT matches 0.. run function att2:gameplay/enchantment/display/detection/sword_of_stone_add

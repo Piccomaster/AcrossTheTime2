@@ -22,18 +22,18 @@ playsound entity.generic.explode ambient @a ~ ~ ~ 2 0.6
 #damage cal
 function att2:gameplay/dahal/action/spell1/damage_cal
 #get owner
-execute store result storage att2:sp_dmg player int 1 run scoreboard players get @s OWNER
+function att2:gameplay/score/owner
 #range damage
-execute if score @s SPELL1_SLCT matches 1 align xyz positioned ~-2 ~-2 ~-2 as @e[dx=4,dy=4,dz=4,scores={GAMELEVEL=0..},team=hostile,type=!bat] at @s run function att2:gameplay/dahal/action/spell1/damage with storage att2:sp_dmg
-execute if score @s SPELL1_SLCT matches 2 align xyz positioned ~-2 ~-2 ~-2 as @e[dx=4,dy=4,dz=4,scores={GAMELEVEL=0..},team=hostile,type=!bat] at @s run function att2:gameplay/dahal/action/spell1/damage with storage att2:sp_dmg
-execute if score @s SPELL1_SLCT matches 3 align xyz positioned ~-2.5 ~-2.5 ~-2.5 as @e[dx=5,dy=5,dz=5,scores={GAMELEVEL=0..},team=hostile,type=!bat] at @s run function att2:gameplay/dahal/action/spell1/damage with storage att2:sp_dmg
-execute if score @s SPELL1_SLCT matches 4 align xyz positioned ~-2.5 ~-2.5 ~-2.5 as @e[dx=5,dy=5,dz=5,scores={GAMELEVEL=0..},team=hostile,type=!bat] at @s run function att2:gameplay/dahal/action/spell1/damage with storage att2:sp_dmg
-execute if score @s SPELL1_SLCT matches 5 align xyz positioned ~-3.0 ~-3.0 ~-3.0 as @e[dx=6,dy=6,dz=6,scores={GAMELEVEL=0..},team=hostile,type=!bat] at @s run function att2:gameplay/dahal/action/spell1/damage with storage att2:sp_dmg
-execute if score @s SPELL1_SLCT matches 6 align xyz positioned ~-3.0 ~-3.0 ~-3.0 as @e[dx=6,dy=6,dz=6,scores={GAMELEVEL=0..},team=hostile,type=!bat] at @s run function att2:gameplay/dahal/action/spell1/damage with storage att2:sp_dmg
-execute if score @s SPELL1_SLCT matches 7 align xyz positioned ~-3.5 ~-3.5 ~-3.5 as @e[dx=7,dy=7,dz=7,scores={GAMELEVEL=0..},team=hostile,type=!bat] at @s run function att2:gameplay/dahal/action/spell1/damage with storage att2:sp_dmg
-execute if score @s SPELL1_SLCT matches 8 align xyz positioned ~-3.5 ~-3.5 ~-3.5 as @e[dx=7,dy=7,dz=7,scores={GAMELEVEL=0..},team=hostile,type=!bat] at @s run function att2:gameplay/dahal/action/spell1/damage with storage att2:sp_dmg
-execute if score @s SPELL1_SLCT matches 9 align xyz positioned ~-4.0 ~-4.0 ~-4.0 as @e[dx=8,dy=8,dz=8,scores={GAMELEVEL=0..},team=hostile,type=!bat] at @s run function att2:gameplay/dahal/action/spell1/damage with storage att2:sp_dmg
-execute if score @s SPELL1_SLCT matches 10 align xyz positioned ~-4.0 ~-4.0 ~-4.0 as @e[dx=8,dy=8,dz=8,scores={GAMELEVEL=0..},team=hostile,type=!bat] at @s run function att2:gameplay/dahal/action/spell1/damage with storage att2:sp_dmg
+execute if score @s SPELL1_SLCT matches 1 align xyz positioned ~-2 ~-2 ~-2 as @e[dx=4,dy=4,dz=4,scores={GAMELEVEL=0..},team=hostile,type=!bat] at @s run function att2:gameplay/dahal/action/spell1/damage
+execute if score @s SPELL1_SLCT matches 2 align xyz positioned ~-2 ~-2 ~-2 as @e[dx=4,dy=4,dz=4,scores={GAMELEVEL=0..},team=hostile,type=!bat] at @s run function att2:gameplay/dahal/action/spell1/damage
+execute if score @s SPELL1_SLCT matches 3 align xyz positioned ~-2.5 ~-2.5 ~-2.5 as @e[dx=5,dy=5,dz=5,scores={GAMELEVEL=0..},team=hostile,type=!bat] at @s run function att2:gameplay/dahal/action/spell1/damage
+execute if score @s SPELL1_SLCT matches 4 align xyz positioned ~-2.5 ~-2.5 ~-2.5 as @e[dx=5,dy=5,dz=5,scores={GAMELEVEL=0..},team=hostile,type=!bat] at @s run function att2:gameplay/dahal/action/spell1/damage
+execute if score @s SPELL1_SLCT matches 5 align xyz positioned ~-3.0 ~-3.0 ~-3.0 as @e[dx=6,dy=6,dz=6,scores={GAMELEVEL=0..},team=hostile,type=!bat] at @s run function att2:gameplay/dahal/action/spell1/damage
+execute if score @s SPELL1_SLCT matches 6 align xyz positioned ~-3.0 ~-3.0 ~-3.0 as @e[dx=6,dy=6,dz=6,scores={GAMELEVEL=0..},team=hostile,type=!bat] at @s run function att2:gameplay/dahal/action/spell1/damage
+execute if score @s SPELL1_SLCT matches 7 align xyz positioned ~-3.5 ~-3.5 ~-3.5 as @e[dx=7,dy=7,dz=7,scores={GAMELEVEL=0..},team=hostile,type=!bat] at @s run function att2:gameplay/dahal/action/spell1/damage
+execute if score @s SPELL1_SLCT matches 8 align xyz positioned ~-3.5 ~-3.5 ~-3.5 as @e[dx=7,dy=7,dz=7,scores={GAMELEVEL=0..},team=hostile,type=!bat] at @s run function att2:gameplay/dahal/action/spell1/damage
+execute if score @s SPELL1_SLCT matches 9 align xyz positioned ~-4.0 ~-4.0 ~-4.0 as @e[dx=8,dy=8,dz=8,scores={GAMELEVEL=0..},team=hostile,type=!bat] at @s run function att2:gameplay/dahal/action/spell1/damage
+execute if score @s SPELL1_SLCT matches 10 align xyz positioned ~-4.0 ~-4.0 ~-4.0 as @e[dx=8,dy=8,dz=8,scores={GAMELEVEL=0..},team=hostile,type=!bat] at @s run function att2:gameplay/dahal/action/spell1/damage
 
 #temperature trigger
 function att2:gameplay/enveffect/temperature/trigger/spell1

@@ -11,7 +11,7 @@ execute at @s run function att2:gameplay/dahal/action/spell8/effect/7
 execute if score true Fire_Melting matches 1 run function att2:gameplay/dahal/action/spell3/enable_fire_melting
 #damage cal
 execute as @s run function att2:gameplay/dahal/action/spell8/damage_cal
-execute at @s positioned ~-11 ~-11 ~-11 as @e[dx=22,dy=22,dz=22,scores={GAMELEVEL=0..},type=!bat,team=hostile,tag=!FB_DAHAL] at @s run function att2:gameplay/dahal/action/spell8/damage with storage att2:sp_dmg
+execute at @s positioned ~-11 ~-11 ~-11 as @e[dx=22,dy=22,dz=22,scores={GAMELEVEL=0..},type=!bat,team=hostile,tag=!FB_DAHAL] at @s run function att2:gameplay/dahal/action/spell8/damage
 #reset dahal burst score
 scoreboard players set @s[scores={DAHALBURST=1..}] DAHALBURST -1
 #dahal

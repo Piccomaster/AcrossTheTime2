@@ -8,7 +8,7 @@
 #effect
 effect give @s slowness 3 15 true
 ##damage detection
-function att2:gameplay/enemy_health/magic_health_trigger
+function att2:gameplay/enemy_health/magic_atk_trigger
 #damage particle
 function att2:gameplay/legendary/fenrir/particle/range_damage
 #add no knock back

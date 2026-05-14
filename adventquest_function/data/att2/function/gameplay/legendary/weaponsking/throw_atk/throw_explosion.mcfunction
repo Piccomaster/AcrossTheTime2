@@ -13,8 +13,7 @@ item modify entity @s armor.head {function:set_enchantments,enchantments:{"att2_
 #particle
 function att2:gameplay/legendary/weaponsking/particle/throw_atk
 #damage
-execute at @s positioned ~-2.5 ~-2.5 ~-2.5 as @e[dx=5,dy=5,dz=5,team=hostile,scores={GAMELEVEL=0..},type=!bat] at @s run function att2:gameplay/legendary/weaponsking/throw_atk/damage with storage att2:score
-
+execute at @s positioned ~-2.5 ~-2.5 ~-2.5 as @e[dx=5,dy=5,dz=5,team=hostile,scores={GAMELEVEL=0..},type=!bat] at @s run function att2:gameplay/legendary/weaponsking/throw_atk/damage
 
 ##clear armor_stand
 kill @s[type=armor_stand]

@@ -43,7 +43,7 @@ scoreboard players operation #damage CAL > 1 CAL
 #store
 execute store result storage att2:score damage int 1 run scoreboard players get #damage CAL
 #damage go
-function att2:gameplay/bow/special_arrow/poisoned_arrow/damage with storage att2:score
+function att2:gameplay/bow/special_arrow/poisoned_arrow/damage
 ##damage detection
 function att2:gameplay/enemy_health/wither_health_trigger
 

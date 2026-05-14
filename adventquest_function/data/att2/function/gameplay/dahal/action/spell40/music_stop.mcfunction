@@ -11,5 +11,7 @@ tag @s remove NoAutoMusic
 scoreboard players set @s MUSIC_B_TIMER 0
 scoreboard players set @s MUSIC_TIMER 0
 
+##add limit
+tag @s add SPELL40_MUSIC_LIMIT
 ##tellraw
 tellraw @s [{translate:att2.spell40.music.stop.tip,color:red}]

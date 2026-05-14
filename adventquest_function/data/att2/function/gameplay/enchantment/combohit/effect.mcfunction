@@ -11,7 +11,7 @@ playsound minecraft:unsheathe1 ambient @a ~ ~ ~ 1 2
 playsound minecraft:hit4 ambient @a ~ ~ ~ 0.5 1
 
 #damage
-$damage @s $(value) att2_damage:player_attack by @a[scores={NUMEROJOUEUR=$(owner)},limit=1]
+damage @s 0 att2_damage:player_attack by @p[predicate=att2_pre:score/player]
 
 ##detection health
-function att2:gameplay/enemy_health/melee_health_trigger
+function att2:gameplay/enemy_health/melee_health_normal_trigger

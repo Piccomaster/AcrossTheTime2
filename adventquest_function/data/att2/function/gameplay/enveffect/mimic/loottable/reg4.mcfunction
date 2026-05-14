@@ -34,6 +34,6 @@ execute if score CLASS MIMIC matches 100.. run tag @s add CLASS21
 execute on passengers run function att2:gameplay/enveffect/mimic/name
 #give buff
 data merge entity @s {Invulnerable:0b}
-effect give @e[tag=MIMIC,type=slime] resistance infinite 4 true
+scoreboard players set @e[distance=..20,tag=MIMIC,type=slime] DAMAGEREDUCE 100
 effect give @e[tag=MIMIC,type=slime] weakness infinite 255 true
 effect give @e[tag=MIMIC,type=slime] fire_resistance infinite 0 true

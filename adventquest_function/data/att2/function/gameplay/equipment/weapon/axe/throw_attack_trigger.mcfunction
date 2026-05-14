@@ -8,7 +8,7 @@ execute on passengers on passengers at @s run function att2:gameplay/equipment/w
 ##damage trigger
 function att2:gameplay/equipment/weapon/axe/damage_detection
 ##destroy
-execute if score #damage CAL >= #max_damage CAL run return run function att2:gameplay/equipment/weapon/axe/destroy
+execute if score #item_damage CAL >= #max_damage CAL run return run function att2:gameplay/equipment/weapon/axe/destroy
 
 
 particle minecraft:block_crumble{block_state:"minecraft:stone"} ~ ~ ~ 0.7 0.7 0.7 0 40 normal

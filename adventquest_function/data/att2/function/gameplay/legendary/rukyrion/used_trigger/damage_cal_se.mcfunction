@@ -4,7 +4,7 @@
 #################################################################
 
 #get base damage
-execute store result score DAMAGE CAL run attribute @s attack_damage get
+execute store result score #damage CAL run attribute @s attack_damage get
 #get RUK _ KILL SCORE
 scoreboard players operation RUK_KILL CAL = @s RUK_KILL
 scoreboard players operation RUK_KILL CAL /= 100 CAL
@@ -13,8 +13,8 @@ execute if score RUK_KILL CAL > 300 CAL run scoreboard players set RUK_KILL CAL 
 #cal damage
 scoreboard players set PERCENT CAL 100
 scoreboard players operation PERCENT CAL += RUK_KILL CAL
-scoreboard players operation DAMAGE CAL *= PERCENT CAL
-scoreboard players operation DAMAGE CAL /= 100 CAL
+scoreboard players operation #damage CAL *= PERCENT CAL
+scoreboard players operation #damage CAL /= 100 CAL
 #reset
 scoreboard players reset RUK_KILL CAL
 scoreboard players reset PERCENT CAL

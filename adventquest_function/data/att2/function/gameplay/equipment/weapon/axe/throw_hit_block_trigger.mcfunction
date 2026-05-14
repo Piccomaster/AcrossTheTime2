@@ -8,7 +8,7 @@ execute on passengers on passengers at @s run function att2:gameplay/equipment/w
 ##damage trigger
 function att2:gameplay/equipment/weapon/axe/damage_detection
 ##destroy
-execute if score #damage CAL >= #max_damage CAL run return run function att2:gameplay/equipment/weapon/axe/destroy
+execute if score #item_damage CAL >= #max_damage CAL run return run function att2:gameplay/equipment/weapon/axe/destroy
 
 ##clear arrow
 kill @e[distance=0.1..1.5,type=#minecraft:arrows,tag=!ThrowAxe,tag=!ThrowSpear]

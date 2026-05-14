@@ -12,22 +12,21 @@ function att2:gameplay/score/owner
 
 ##damage cal
 ##get player damage
-execute store result score #damage CAL run attribute @p[predicate=att2_pre:score/player] attack_damage base get
-scoreboard players operation #damage CAL /= 2 CAL
-scoreboard players operation #damage CAL *= @s SPELL29_CAP
+scoreboard players operation finalDG SPDG = @s SPELL29_CAP
+scoreboard players operation finalDG SPDG *= 20 CAL
 
 ##update damage for hand
 scoreboard players set #hold_damage CAL 0
 execute if items entity @s weapon.mainhand #minecraft:swords[custom_data] run function att2:gameplay/dahal/action/spell29/hold_weapon
 scoreboard players operation #hold_damage CAL *= #str CAL
-scoreboard players operation #hold_damage CAL /= 2 CAL
-scoreboard players operation #hold_damage CAL *= 10 CAL
-scoreboard players operation #damage CAL += #hold_damage CAL
+scoreboard players operation finalDG SPDG += #hold_damage CAL
 
 ##critical
 execute as @p[distance=..50,predicate=att2_pre:score/player] run function att2:gameplay/dahal/action/spell29/critical_detection
 
-execute store result storage att2:score damage int 0.1 run scoreboard players get #damage CAL
+
+##set spell icon
+data modify storage att2:enemy_health spell_icon set value "item/custom/spell_book/spell29"
 
 ##add tag select
 tag @s add Spell29ATK

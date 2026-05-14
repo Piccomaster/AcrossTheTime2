@@ -39,7 +39,7 @@ item modify entity @s weapon.mainhand {function:set_lore,entity:"this",mode:appe
 ##merge STR
 execute store result score #STR CAL run data get storage att2:temp temp.STR
 execute store result storage att2:temp temp.STR int 1 run scoreboard players add #STR CAL 3
-tellraw @a [{score:{name:"#STR",objective:"CAL"}}]
+#tellraw @a [{score:{name:"#STR",objective:"CAL"}}]
 ##snyc data
 item modify entity @s weapon.mainhand {function:copy_custom_data,ops:[{op:replace,source:"temp.STR",target:"STR"}],source:{type:storage,source:"att2:temp"}}
 ##remove sword_of_stone
