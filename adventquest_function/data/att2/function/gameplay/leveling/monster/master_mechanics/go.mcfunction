@@ -13,7 +13,6 @@
 ##normal rush
 #execute unless score @s MasterMechanicsTimer matches -1000.. run function att2:gameplay/leveling/monster/master_mechanics/timer_select
 
-
 ##death protection
 execute as @s[tag=!MasterMechanics] run return fail
 execute store result score #max_health CAL run attribute @s max_health get 0.5

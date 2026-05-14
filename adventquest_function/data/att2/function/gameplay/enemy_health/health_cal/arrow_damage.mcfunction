@@ -84,8 +84,16 @@ scoreboard players add #resistance CAL 100
 scoreboard players operation #DMG CAL *= #resistance CAL
 scoreboard players operation #DMG CAL /= 100 CAL
 
-
 ###damage
 scoreboard players operation #DMG CAL > 1 CAL
+
+################################################DAMAGEREDUCE (->0)
+scoreboard players operation #DAMAGEREDUCE CAL = @s DAMAGEREDUCE
+scoreboard players operation #DAMAGEREDUCE CAL *= -1 CAL
+#tellraw @a ["抗性减伤: ",{score:{name:"#DAMAGEREDUCE",objective:"CAL"}}]
+scoreboard players add #DAMAGEREDUCE CAL 100
+##reduce protection
+scoreboard players operation #DMG CAL *= #DAMAGEREDUCE CAL
+scoreboard players operation #DMG CAL /= 100 CAL
 
 #tellraw @a ["弹射物伤害: ",{score:{name:"#DMG",objective:"CAL"}}]

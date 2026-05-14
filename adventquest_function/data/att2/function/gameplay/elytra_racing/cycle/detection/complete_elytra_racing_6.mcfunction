@@ -18,7 +18,7 @@ execute if score #ms CAL < elytra_racing_6_rt ElytraRacingRecordTime run scorebo
 
 ##fail ->show old
 execute if score #TEST CAL matches 0 run tellraw @a [{translate:att2.best_record}]
-execute if score #TEST CAL matches 0 run tellraw @a [{translate:att2.elytra_racing.end,color:"yellow",with:[{nbt:"name",storage:"att2:elytra_racing",interpret:true},{score:{name:"#elytra_racing_6_rm",objective:"ElytraRacingRecordTime"},color:green},{score:{name:"#elytra_racing_6_rs",objective:"ElytraRacingRecordTime"},color:green},{score:{name:"elytra_racing_6_rt",objective:"ElytraRacingRecordTime"},color:green},{score:{name:"elytra_racing_6_point",objective:"ElytraRacingRecordTime"},color:green}]}]
+execute if score #TEST CAL matches 0 run tellraw @a [{translate:att2.elytra_racing.end,color:"yellow",with:[{nbt:"name",storage:"att2:elytra_racing",interpret:true},{score:{name:"elytra_racing_6_rm",objective:"ElytraRacingRecordTime"},color:green},{score:{name:"elytra_racing_6_rs",objective:"ElytraRacingRecordTime"},color:green},{score:{name:"elytra_racing_6_rt",objective:"ElytraRacingRecordTime"},color:green},{score:{name:"elytra_racing_6_point",objective:"ElytraRacingRecordTime"},color:green}]}]
 ##snyc data
 execute unless score #TEST CAL matches 1 run return fail
 

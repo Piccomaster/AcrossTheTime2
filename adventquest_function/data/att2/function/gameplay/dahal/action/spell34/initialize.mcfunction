@@ -44,7 +44,7 @@ team modify detect_checkpoint color green
 team modify detect_secret color dark_purple
 team modify detect_symbol color light_purple
 team modify detect_chest color gray
-team modify detect_minerals_runes color black
+team modify detect_minerals_runes color yellow
 
 #set cooldown score | cooldown/200 -> second
 scoreboard players set lvl1 COOLDOWN34 2000

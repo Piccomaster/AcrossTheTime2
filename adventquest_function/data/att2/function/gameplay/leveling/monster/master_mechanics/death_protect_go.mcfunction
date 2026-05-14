@@ -20,6 +20,8 @@ execute if score tic TIMECOUNTER matches 11 run function att2:gameplay/leveling/
 execute unless score @s MasterDeathProtectTimer matches ..0 run return run scoreboard players remove @s MasterDeathProtectTimer 1
 
 ##clear
+scoreboard players set @s DAMAGEREDUCE 0
+
 scoreboard players reset @s MasterDeathProtectTimer
 item modify entity @s armor.head {function:set_enchantments,enchantments:{"att2_enchantment:tick/elite/death_protect":0}}
 attribute @s minecraft:knockback_resistance modifier remove master_mechanics

@@ -7,6 +7,7 @@
 
 scoreboard objectives add GAMELEVEL dummy
 scoreboard objectives add RESISTANCE dummy
+scoreboard objectives add DAMAGEREDUCE dummy
 execute if score @s GAMELEVEL matches 1.. run return fail
 scoreboard objectives add PLAYERNUMBER dummy
 scoreboard objectives add LVL_UPGRADE_REQ dummy

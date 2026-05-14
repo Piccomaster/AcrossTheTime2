@@ -70,11 +70,10 @@ scoreboard players operation #RunesRolls DropRolls += #BonusRolls CAL
 #luck effect
 scoreboard players operation #luck_add CAL = #luck CAL
 
-execute if score #C CAL matches 1..3 run scoreboard players operation #luck_add CAL /= 30 CAL
-execute if score #C CAL matches 4..6 run scoreboard players operation #luck_add CAL /= 40 CAL
-execute if score #C CAL matches 7..9 run scoreboard players operation #luck_add CAL /= 50 CAL
+scoreboard players operation #luck_add CAL /= 60 CAL
 
 scoreboard players operation #C CAL += #luck_add CAL
+scoreboard players operation #C CAL < 10 CAL
 #tellraw @a ["LUCK_C:",{score:{name:"#luck_add",objective:"CAL"}}]
 
 ##DropChanceCom

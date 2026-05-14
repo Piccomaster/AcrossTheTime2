@@ -3,6 +3,9 @@
 #detect enemy health reduce                                     #
 #################################################################
 
+##limit
+execute if data entity @s {Invulnerable:true} run return fail
+
 ##reset score
 scoreboard players set #reduce_health CAL 0
 scoreboard players set #absorption_health CAL 0
@@ -30,7 +33,7 @@ execute as @s[type=!bat] at @s run function att2:gameplay/enemy_health/show_heal
 ##update healthbar
 function att2:gameplay/healthbar/detection_enemy
 execute if score @s ENEMYHEALTH matches ..0 at @s on attacker run function att2:advancement/test_all/weapon/bow_kill
-execute if score @s ENEMYHEALTH matches ..0 at @s on attacker run return run damage @n[distance=..0,tag=killed] 7777777777777777 att2_damage:arrow by @s
+execute if score @s ENEMYHEALTH matches ..0 at @s on attacker run return run damage @n[distance=..0] 7777777777777777 att2_damage:arrow by @s
 execute if score @s ENEMYHEALTH matches ..0 run return run function att2:gameplay/enemy_health/kill
 ##sync health
 execute store result entity @s Health int 1 run scoreboard players get @s ENEMYHEALTH

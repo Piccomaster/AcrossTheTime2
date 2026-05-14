@@ -3,6 +3,9 @@
 #detect enemy health reduce                                     #
 #################################################################
 
+##limit
+execute if data entity @s {Invulnerable:true} run return fail
+
 ##reset score
 scoreboard players set #reduce_health CAL 0
 scoreboard players set #absorption_health CAL 0

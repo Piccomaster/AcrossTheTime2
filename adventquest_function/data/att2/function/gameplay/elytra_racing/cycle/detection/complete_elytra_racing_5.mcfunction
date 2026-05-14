@@ -7,7 +7,7 @@ advancement grant @s only att2:challenge/elytra_racing_5
 advancement grant @s only att2:challenge/elytra_racing_root elytra_racing_5
 
 ##time record
-execute if score #minute CAL matches ..2 if score #second CAL matches ..0 run advancement grant @s only att2:challenge/elytra_racing_timerecord_5
+execute if score #minute CAL matches ..2 run advancement grant @s only att2:challenge/elytra_racing_timerecord_5
 
 scoreboard players set #TEST CAL 0
 
@@ -18,7 +18,7 @@ execute if score #ms CAL < elytra_racing_5_rt ElytraRacingRecordTime run scorebo
 
 ##fail ->show old
 execute if score #TEST CAL matches 0 run tellraw @a [{translate:att2.best_record}]
-execute if score #TEST CAL matches 0 run tellraw @a [{translate:att2.elytra_racing.end,color:"yellow",with:[{nbt:"name",storage:"att2:elytra_racing",interpret:true},{score:{name:"#elytra_racing_5_rm",objective:"ElytraRacingRecordTime"},color:green},{score:{name:"#elytra_racing_5_rs",objective:"ElytraRacingRecordTime"},color:green},{score:{name:"elytra_racing_5_rt",objective:"ElytraRacingRecordTime"},color:green},{score:{name:"elytra_racing_5_point",objective:"ElytraRacingRecordTime"},color:green}]}]
+execute if score #TEST CAL matches 0 run tellraw @a [{translate:att2.elytra_racing.end,color:"yellow",with:[{nbt:"name",storage:"att2:elytra_racing",interpret:true},{score:{name:"elytra_racing_5_rm",objective:"ElytraRacingRecordTime"},color:green},{score:{name:"elytra_racing_5_rs",objective:"ElytraRacingRecordTime"},color:green},{score:{name:"elytra_racing_5_rt",objective:"ElytraRacingRecordTime"},color:green},{score:{name:"elytra_racing_5_point",objective:"ElytraRacingRecordTime"},color:green}]}]
 ##snyc data
 execute unless score #TEST CAL matches 1 run return fail
 

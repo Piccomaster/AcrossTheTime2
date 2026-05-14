@@ -3,7 +3,6 @@
 #Process adding Tier Elite score 			                    #
 #################################################################
 
-function att2:advancement/test_all/combat/triggerkill_elite
 scoreboard players add tier20 ELITE 1
 # Tier20
 execute if score tier20 ELITE matches 5.. run advancement grant @a only att2:mobskilled/elite_tier20_killed_5

@@ -16,8 +16,11 @@ execute if score @p DIMENSION matches 4..5 as @e[type=slime,tag=New,tag=MIMIC] a
 execute unless score @s MIMIC matches 1.. run function att2:gameplay/enveffect/mimic/loottable/reg1
 #random pos
 execute as @e[type=slime,tag=New,tag=MIMIC] at @s run function att2:gameplay/enveffect/mimic/random_pos
+
+##DAMAGEREDUCE
+scoreboard players set @e[distance=..20,type=slime,tag=New,tag=MIMIC] DAMAGEREDUCE 100
 #reset
-tag @e[tag=New,tag=MIMIC] remove New
+tag @e[distance=..20,type=slime,tag=New,tag=MIMIC] remove New
 scoreboard players reset CLASS MIMIC
 scoreboard players reset tier MIMIC
 scoreboard players reset chest MIMIC

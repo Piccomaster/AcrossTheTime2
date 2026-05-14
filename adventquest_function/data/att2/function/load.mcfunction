@@ -69,3 +69,7 @@ scoreboard players set epi_set SPELL31_DATA 10
 scoreboard players set leg SPELL31_DATA 20
 scoreboard players set leg_armset SPELL31_DATA 25
 scoreboard players set ult SPELL31_DATA 50
+
+team modify detect_minerals_runes color yellow
+
+scoreboard objectives add DAMAGEREDUCE dummy

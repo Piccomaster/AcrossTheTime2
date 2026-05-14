@@ -106,7 +106,7 @@ scoreboard players operation @s ENEMYABHEALTH += #ENEMYABHEALTH CAL
 #add temp tag
 tag @s add HP_DIS
 #make health bar
-execute if entity @s[tag=!PlayerAlly,type=!bat,tag=!Boss,tag=!ArenaBoss,tag=!Guardian] at @s run function att2:gameplay/leveling/monster/displaydiff
+execute if entity @s[tag=!PlayerAlly,type=!bat,tag=!Boss,tag=!ArenaBoss,tag=!Guardian,tag=!Minion] at @s run function att2:gameplay/leveling/monster/displaydiff
 execute if entity @s[tag=MIMIC] at @s run function att2:gameplay/leveling/monster/displaydiff
 #remove temp tag
 tag @s remove HP_DIS

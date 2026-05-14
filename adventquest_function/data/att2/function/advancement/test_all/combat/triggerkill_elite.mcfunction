@@ -3,13 +3,15 @@
 #Process adding Tier Elite score 			                    #
 #################################################################
 
-advancement revoke @s only att2_test:triggerkill/elite4
-advancement revoke @s only att2_test:triggerkill/elite8
-advancement revoke @s only att2_test:triggerkill/elite12
-advancement revoke @s only att2_test:triggerkill/elite16
-advancement revoke @s only att2_test:triggerkill/elite20
-
 scoreboard players add all ELITE 1
+
+##trigger
+execute if score @s CLASSLEVEL matches 4 run function att2:advancement/test_all/combat/triggerkill_elite4
+execute if score @s CLASSLEVEL matches 8 run function att2:advancement/test_all/combat/triggerkill_elite8
+execute if score @s CLASSLEVEL matches 12 run function att2:advancement/test_all/combat/triggerkill_elite12
+execute if score @s CLASSLEVEL matches 16 run function att2:advancement/test_all/combat/triggerkill_elite16
+execute if score @s CLASSLEVEL matches 20 run function att2:advancement/test_all/combat/triggerkill_elite20
+
 
 # All
 execute if score all ELITE matches 5.. run advancement grant @a only att2:mobskilled/elite_killed_5
