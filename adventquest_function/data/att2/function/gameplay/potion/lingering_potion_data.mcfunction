@@ -14,7 +14,6 @@ tag @s add Throw
 summon armor_stand ~ ~ ~ {Tags:["LingeringPotion","New"],Invisible:true,Marker:true,attributes:[{id:scale,base:0.01}],equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/misc/lingering_potion":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}}}
 ##set owner
 execute on origin run scoreboard players operation @e[distance=..10,type=armor_stand,tag=New,tag=LingeringPotion] OWNER = @s NUMEROJOUEUR
-execute as @e[distance=..10,type=armor_stand,tag=New,tag=LingeringPotion] run tellraw @a ["我是:",{score:{name:"@s",objective:"OWNER"}}]
 
 #ride
 ride @n[distance=..10,type=armor_stand,tag=New,tag=LingeringPotion] mount @s
