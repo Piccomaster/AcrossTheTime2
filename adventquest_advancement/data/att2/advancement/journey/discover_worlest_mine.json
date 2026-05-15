@@ -9,7 +9,7 @@
     "parent": "att2:journey/discover_worlest",
     "rewards": {
         "function": "att2:advancement/exploit_2",
-        "experience": 250
+        "experience": 25
                 },
     "criteria": {
         "discover_worlest_mine": {
