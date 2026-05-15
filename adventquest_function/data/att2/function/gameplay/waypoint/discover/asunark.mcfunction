@@ -14,3 +14,8 @@ playsound magicrevealed master @a -3661 69 -4977 5 1.5 1
 function att2:dialogs/gameplay/waypoint/asunark_discovered
 
 function att2:advancement/test_all/journey/waypoint
+
+
+
+##once tutorial
+execute as @s[advancements={att2:tutorial/trigger/waypoint=false}] run function att2:gameplay/tutorial/delay/waypoint

@@ -47,11 +47,8 @@ execute if score reward MIMIC matches ..25 run loot spawn ~ ~1 ~ loot att2:chest
 execute if score reward MIMIC matches ..25 run loot spawn ~ ~1 ~ loot att2:chest/reg1
 execute if score reward MIMIC matches ..25 run loot spawn ~ ~1 ~ loot att2:chest/reg1
 execute if score reward MIMIC matches ..25 run loot spawn ~ ~1 ~ loot att2:chest/reg1
-execute if score reward MIMIC matches ..25 run loot spawn ~ ~1 ~ loot att2:chest/reg1
-execute if score reward MIMIC matches ..25 run loot spawn ~ ~1 ~ loot att2:chest/reg1
 
 
-execute if score reward MIMIC matches 26..50 run loot spawn ~ ~1 ~ loot att2:chest/reg1
 execute if score reward MIMIC matches 26..50 run loot spawn ~ ~1 ~ loot att2:chest/reg1
 execute if score reward MIMIC matches 26..50 run loot spawn ~ ~1 ~ loot att2:chest/reg1
 execute if score reward MIMIC matches 26..50 run loot spawn ~ ~1 ~ loot att2:chest/reg1
@@ -61,15 +58,12 @@ execute if score reward MIMIC matches 26..50 run loot spawn ~ ~1 ~ loot att2:che
 execute if score reward MIMIC matches 51..75 run loot spawn ~ ~1 ~ loot att2:chest/reg1
 execute if score reward MIMIC matches 51..75 run loot spawn ~ ~1 ~ loot att2:chest/reg1
 execute if score reward MIMIC matches 51..75 run loot spawn ~ ~1 ~ loot att2:chest/reg1
-execute if score reward MIMIC matches 51..75 run loot spawn ~ ~1 ~ loot att2:chest/reg1
 
 
 execute if score reward MIMIC matches 76..100 run loot spawn ~ ~1 ~ loot att2:chest/reg1
 execute if score reward MIMIC matches 76..100 run loot spawn ~ ~1 ~ loot att2:chest/reg1
 execute if score reward MIMIC matches 76..100 run loot spawn ~ ~1 ~ loot att2:chest/reg1
-execute if score reward MIMIC matches 76..100 run loot spawn ~ ~1 ~ loot att2:chest/reg1
 
-execute if score reward MIMIC matches 101.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
 execute if score reward MIMIC matches 101.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
 execute if score reward MIMIC matches 101.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
 execute if score reward MIMIC matches 101.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
