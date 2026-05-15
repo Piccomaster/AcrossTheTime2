@@ -8,7 +8,7 @@ scoreboard players set @s COMBOHIT 0
 #get attack damage
 execute store result score #damage CAL run attribute @s attack_damage base get
 #get eh lvl
-execute store result score temp_value_2 CAL run data get entity @s SelectedItem.components."minecraft:enchantments"."att2_enchantment:combohit" 20
+execute store result score temp_value_2 CAL run data get entity @s SelectedItem.components."minecraft:enchantments"."att2_enchantment:combohit" 10
 #scoreboard players add temp_value_2 CAL 100
 scoreboard players operation #damage CAL *= temp_value_2 CAL
 scoreboard players operation #damage CAL /= 100 CAL

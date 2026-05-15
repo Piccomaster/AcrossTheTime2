@@ -217,7 +217,6 @@ execute if score update_loop SYSTEM matches 201 in minecraft:the_nether run tp @
 execute if score update_loop SYSTEM matches 202 in minecraft:the_nether run tp @a 3593 80 4617
 execute if score update_loop SYSTEM matches 203 in minecraft:overworld run tp @a -5647 79 -6282
 execute if score update_loop SYSTEM matches 204 in minecraft:overworld run tp @a -5683 77 -6377
-
 #end
 execute if score update_loop SYSTEM matches 204.. run say Over
 execute if score update_loop SYSTEM matches 204.. run schedule clear function att2:update/start

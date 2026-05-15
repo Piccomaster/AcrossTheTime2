@@ -3,4 +3,4 @@
 #Summon wither Minions arena    		 		 #
 ##################################################
 
-summon minecraft:wither_skeleton ~ ~ ~ {Glowing:1b,Tags:["LVL0","CLASS16","Undead","ArenaMinion","Mighty1"],PersistenceRequired:1b,DeathLootTable:"att2:empty",attributes:[{id:movement_speed,base:0.25},{id:follow_range,base:50.0}],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/mob_initialize":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}}}
+summon minecraft:wither_skeleton ~ ~ ~ {Glowing:1b,Tags:["LVL0","CLASS15","Undead","ArenaMinion","Mighty1"],PersistenceRequired:1b,DeathLootTable:"att2:empty",attributes:[{id:movement_speed,base:0.25},{id:follow_range,base:50.0}],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/mob_initialize":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}}}

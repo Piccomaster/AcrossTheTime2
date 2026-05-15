@@ -7,9 +7,6 @@
           "team": "hostile"
         },
         "damage": {
-          "taken": {
-            "min": 5
-          },
           "type": {
             "tags": [
               {

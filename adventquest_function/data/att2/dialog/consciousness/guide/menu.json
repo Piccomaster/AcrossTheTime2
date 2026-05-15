@@ -52,6 +52,20 @@
                 "type": "run_command",
                 "command": "/trigger ScoreTrigger set 3562"
             }
+        },
+        {
+            "width": 150,
+            "label": {
+                "translate": "consciousness.guide.menu.gametip",
+                "color": "#21BCFF"
+            },
+            "tooltip": {
+                "translate": "consciousness.guide.menu.gametip.tip"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "/trigger ScoreTrigger set 2327"
+            }
         }
     ],
     "exit_action": {

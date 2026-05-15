@@ -3,6 +3,7 @@
 #Initialize spell30 for a given player							#
 #################################################################
 
+scoreboard players set total_count SPELL30 0
 scoreboard players set arrow SPELL30 0
 scoreboard players set misc SPELL30 0
 scoreboard players set arrow_count SPELL30 0

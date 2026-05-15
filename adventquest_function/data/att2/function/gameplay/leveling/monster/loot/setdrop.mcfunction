@@ -9,10 +9,10 @@ execute as @s[tag=Reg2,tag=Dermist] run scoreboard players set @s DropQuestItemI
 execute as @s[tag=Reg2,tag=Fuyard] run scoreboard players set @s DropQuestItemId 22
 
 ##set reg
-execute as @s[tag=Reg1] run data modify entity @s DeathLootTable set value "att2:entities/reg1"
-execute as @s[tag=Reg2] run data modify entity @s DeathLootTable set value "att2:entities/reg2"
-execute as @s[tag=Reg3] run data modify entity @s DeathLootTable set value "att2:entities/reg3"
-execute as @s[tag=Reg4] run data modify entity @s DeathLootTable set value "att2:entities/reg4"
+execute as @s[tag=Reg1] run data modify entity @s DeathLootTable set value "temp"
+execute as @s[tag=Reg2] run data modify entity @s DeathLootTable set value "temp"
+execute as @s[tag=Reg3] run data modify entity @s DeathLootTable set value "temp"
+execute as @s[tag=Reg4] run data modify entity @s DeathLootTable set value "temp"
 
 scoreboard players set @s[tag=Reg1] DIMENSION 1
 scoreboard players set @s[tag=Reg2] DIMENSION 6

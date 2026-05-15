@@ -31,31 +31,3 @@ execute unless score state24 RUNICTRIAL matches -1 positioned -5812 88.5 -4839 r
 execute unless score state25 RUNICTRIAL matches -1 positioned -5613 78.5 -4736 run summon marker ~ ~ ~ {Tags:["RunicTrial"],UUID:[I;116114,10597,108,25]}
 execute unless score state26 RUNICTRIAL matches -1 positioned -5656 90.5 -4474 run summon marker ~ ~ ~ {Tags:["RunicTrial"],UUID:[I;116114,10597,108,26]}
 execute unless score state27 RUNICTRIAL matches -1 positioned -5488 123.5 -4377 run summon marker ~ ~ ~ {Tags:["RunicTrial"],UUID:[I;116114,10597,108,27]}
-
-execute unless score state1 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 1
-execute unless score state2 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 2
-execute unless score state3 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 3
-execute unless score state4 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 4
-execute unless score state5 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 5
-execute unless score state6 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 6
-execute unless score state7 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 7
-execute unless score state8 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 8
-execute unless score state9 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 9
-execute unless score state10 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 10
-execute unless score state11 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 11
-execute unless score state12 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 12
-execute unless score state13 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 13
-execute unless score state14 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 14
-execute unless score state15 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 15
-execute unless score state16 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 16
-execute unless score state17 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 17
-execute unless score state18 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 18
-execute unless score state19 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 19
-execute unless score state20 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 20
-execute unless score state21 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 21
-execute unless score state22 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 22
-execute unless score state23 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 23
-execute unless score state24 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 24
-execute unless score state25 RUNICTRIAL matches -1 positioned -4826 75.5 -5360 run say 25
-execute unless score state26 RUNICTRIAL matches -1 positioned -5656 90.5 -4474 run say 26
-execute unless score state27 RUNICTRIAL matches -1 positioned -5488 123.5 -4377 run say 27

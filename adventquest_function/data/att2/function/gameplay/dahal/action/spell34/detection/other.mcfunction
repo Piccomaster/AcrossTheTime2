@@ -15,3 +15,5 @@ function att2:gameplay/dahal/action/spell34/detection/rune_ore
 function att2:gameplay/dahal/action/spell34/detection/fishing
 ##runictrial
 function att2:gameplay/dahal/action/spell34/detection/runictrial
+##runictrial
+function att2:gameplay/dahal/action/spell34/detection/elytra_racing

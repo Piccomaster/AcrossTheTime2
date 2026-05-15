@@ -8,18 +8,18 @@
         {
           "conditions": [
             {
-              "condition": "all_of",
-              "terms": [
-                {
-                  "condition": "entity_scores",
-                  "entity": "this",
-                  "scores": {
-                    "DropQuestItemId": {
-                      "min": 1
-                    }
-                  }
+              "condition": "value_check",
+              "value": {
+                "type": "score",
+                "score": "DropQuestItemId",
+                "target": {
+                  "type": "fixed",
+                  "name": "#DropQuestItemId"
                 }
-              ]
+              },
+              "range": {
+                "min": 1
+              }
             }
           ],
           "type": "minecraft:loot_table",

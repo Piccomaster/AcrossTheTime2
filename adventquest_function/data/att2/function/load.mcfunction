@@ -7,7 +7,7 @@
 gamerule max_command_forks 777777777
 gamerule max_command_sequence_length 777777777
 
-
+scoreboard objectives add EXPLOIT dummy
 scoreboard objectives add LEAVEGAME minecraft.custom:minecraft.leave_game
 ##text
 tellraw @a {translate:att2.datapack.reload,color:"dark_green"}
@@ -75,3 +75,10 @@ team modify detect_minerals_runes color yellow
 scoreboard objectives add DAMAGEREDUCE dummy
 
 function att2:gameplay/runictrials/summon_pos_marker
+
+scoreboard objectives add statSPELLDAMAGEDEALT dummy
+scoreboard objectives add statMELEEDAMAGEDEALT dummy
+scoreboard objectives add statARROWDAMAGEDEALT dummy
+execute unless score DAMAGE SYSTEM matches 1.. run scoreboard objectives remove statDAMAGEDEALT
+scoreboard players set DAMAGE SYSTEM 1
+scoreboard objectives add statDAMAGEDEALT dummy

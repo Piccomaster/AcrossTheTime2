@@ -6,7 +6,7 @@
 advancement grant @s only att2:challenge/elytra_racing_5
 advancement grant @s only att2:challenge/elytra_racing_root elytra_racing_5
 
-##time record
+##time record 3min
 execute if score #minute CAL matches ..2 run advancement grant @s only att2:challenge/elytra_racing_timerecord_5
 
 scoreboard players set #TEST CAL 0
