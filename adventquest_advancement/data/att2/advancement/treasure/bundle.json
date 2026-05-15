@@ -12,7 +12,7 @@
     },
     "parent": "att2:treasure/root",
     "rewards": {
-        "experience": 777
+        "experience": 77
     },
     "criteria": {
         "bundle": {

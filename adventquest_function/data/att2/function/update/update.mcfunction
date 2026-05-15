@@ -214,6 +214,6 @@ execute if score update_loop SYSTEM matches 203 in minecraft:overworld run tp @a
 execute if score update_loop SYSTEM matches 204 in minecraft:overworld run tp @a -5683 77 -6377
 
 #end
-execute if score update_loop SYSTEM matches 204.. run Over
+execute if score update_loop SYSTEM matches 204.. run say Over
 execute if score update_loop SYSTEM matches 204.. run schedule clear function att2:summon/fixed_entity/update
 execute if score update_loop SYSTEM matches 204.. run scoreboard players set update_loop SYSTEM 0
