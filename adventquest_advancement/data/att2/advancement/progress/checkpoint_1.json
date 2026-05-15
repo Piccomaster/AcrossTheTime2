@@ -9,7 +9,7 @@
     "parent": "att2:progress/root",
     "rewards": {
         "function": "att2:advancement/exploit_1",
-        "experience": 250
+        "experience": 25
     },
     "criteria": {
         "checkpoint_1": {

@@ -8,12 +8,11 @@
         },
         "description": {
             "translate": "att2.advancement.treasure.description.bundle"
-        },
-        "frame": "goal"
+        }
     },
-    "parent": "att2:treasure/sovereign",
+    "parent": "att2:treasure/root",
     "rewards": {
-        "experience": 777
+        "experience": 77
     },
     "criteria": {
         "bundle": {

@@ -22,4 +22,4 @@ scoreboard players set @s DAMAGEREDUCE 0
 item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/misc/despawn":0}}
 item modify entity @s armor.head {function:set_enchantments,enchantments:{"att2_enchantment:tick/misc/despawn":0}}
 
-data remove entity @s NoAI set value 0
+data remove entity @s NoAI
