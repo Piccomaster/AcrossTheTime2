@@ -2,7 +2,8 @@
     "values": [
       "minecraft:parrot",
       "minecraft:phantom",
-      "minecraft:bat"
+      "minecraft:bat",
+      "minecraft:frog"
     ],
     "replace": false
   }

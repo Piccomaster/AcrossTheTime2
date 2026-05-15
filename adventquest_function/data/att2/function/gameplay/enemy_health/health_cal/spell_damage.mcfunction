@@ -47,6 +47,13 @@ scoreboard players add #resistance CAL 100
 scoreboard players operation #DMG CAL *= #resistance CAL
 scoreboard players operation #DMG CAL /= 100 CAL
 
+################################################witch
+scoreboard players set #magic_resistance CAL 100
+execute as @s[type=witch] run scoreboard players set #magic_resistance CAL 50
+##reduce magic_resistance
+scoreboard players operation #DMG CAL *= #magic_resistance CAL
+scoreboard players operation #DMG CAL /= 100 CAL
+
 ###damage
 scoreboard players operation #DMG CAL > 1 CAL
 

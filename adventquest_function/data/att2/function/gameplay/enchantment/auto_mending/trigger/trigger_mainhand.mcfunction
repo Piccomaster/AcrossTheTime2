@@ -3,6 +3,8 @@
 #Process mending of the weapon/armor in player hand				#
 #################################################################
 
+##limit
+execute if items entity @s weapon.mainhand fishing_rod run return fail
 execute if predicate att2_pre:test_hold/rarity/mainhand/com if score @s TOOLS_COM matches 1.. run function att2:gameplay/shop/mending/tools/repair_mainhand
 execute if predicate att2_pre:test_hold/rarity/mainhand/unc if score @s TOOLS_UNC matches 1.. run function att2:gameplay/shop/mending/tools/repair_mainhand
 execute if predicate att2_pre:test_hold/rarity/mainhand/rar if score @s TOOLS_RAR matches 1.. run function att2:gameplay/shop/mending/tools/repair_mainhand

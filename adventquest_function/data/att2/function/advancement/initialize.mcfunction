@@ -58,7 +58,7 @@ scoreboard objectives add statCAKE minecraft.custom:minecraft.eat_cake_slice
 scoreboard objectives add statSPELLDAMAGEDEALT dummy
 scoreboard objectives add statMELEEDAMAGEDEALT dummy
 scoreboard objectives add statARROWDAMAGEDEALT dummy
-
+scoreboard objectives add statDAMAGEDEALT dummy
 scoreboard objectives add statDAMAGETAKEN minecraft.custom:minecraft.damage_resisted
 scoreboard objectives add statDAMAGEBLOCK minecraft.custom:minecraft.damage_blocked_by_shield
 

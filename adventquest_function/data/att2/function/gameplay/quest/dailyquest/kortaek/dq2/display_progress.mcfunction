@@ -15,4 +15,4 @@ scoreboard players operation Objective GPS_DIM = 1 CAL
 ##
 execute if score kortaek_dailyquest_2 DAILYQUEST matches -1 run function att2:gameplay/quest/dailyquest/kortaek/dq2/step0
 execute if score kortaek_dailyquest_2 DAILYQUEST matches 1 run function att2:gameplay/quest/dailyquest/kortaek/dq2/step1
-execute if score kortaek_dailyquest_2 DAILYQUEST matches 2 run function att2:gameplay/quest/dailyquest/kortaek/dq2/step2
+execute if score kortaek_dailyquest_2 DAILYQUEST matches 100 run function att2:gameplay/quest/dailyquest/kortaek/dq2/step2

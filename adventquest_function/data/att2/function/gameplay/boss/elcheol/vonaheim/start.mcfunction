@@ -18,6 +18,6 @@ scoreboard players set VonTrap2 VONAHEIM 0
 scoreboard players set VonTrap3 VONAHEIM 0
 scoreboard players set VonTrap4 VONAHEIM 0
 effect give 00000000-0000-006b-0000-00000000006b minecraft:instant_health 1 10 true
-function att2:gameplay/checkpoint/telluron_present/vonaheim27
+#function att2:gameplay/checkpoint/telluron_present/vonaheim27
 ##boss_timer Start
 function att2:gameplay/boss/elcheol/vonaheim/time/start

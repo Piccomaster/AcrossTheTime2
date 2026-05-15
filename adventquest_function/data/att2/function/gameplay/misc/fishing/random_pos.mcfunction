@@ -3,6 +3,9 @@
 #fish area set                                       				#
 #####################################################################
 
+##spell34 clear
+function att2:gameplay/dahal/action/spell34/clear_fishing_marker
+
 #set BASE X Y Z
 execute store result score @s POSITIONX run data get entity @s Pos[0]
 execute store result score @s POSITIONZ run data get entity @s Pos[2]

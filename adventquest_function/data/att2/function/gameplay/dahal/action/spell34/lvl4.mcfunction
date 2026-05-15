@@ -22,23 +22,10 @@ execute as @s[scores={DIMENSION=6}] run function att2:gameplay/dahal/action/spel
 execute as @s[scores={DIMENSION=7}] run function att2:gameplay/dahal/action/spell34/detection/billgart
 ##maze
 execute as @s[scores={DIMENSION=-3}] run function att2:gameplay/dahal/action/spell34/detection/maze_select
-##chest
-function att2:gameplay/dahal/action/spell34/detection/chest
-##symbol
-function att2:gameplay/dahal/action/spell34/detection/symbol
-##pickable_item
-function att2:gameplay/dahal/action/spell34/detection/pickable_item
-##rune_ore
-function att2:gameplay/dahal/action/spell34/detection/rune_ore
-
-team join detect_quest @e[type=minecraft:shulker,tag=questmarker]
-team join detect_npc @e[type=minecraft:shulker,tag=npcmarker]
-team join detect_panorama @e[type=minecraft:shulker,tag=panoramamarker]
-team join detect_checkpoint @e[type=minecraft:shulker,tag=checkpointmarker]
-team join detect_secret @e[type=minecraft:shulker,tag=secretmarker]
-team join detect_symbol @e[type=minecraft:shulker,tag=symbolmarker]
-team join detect_chest @e[type=minecraft:shulker,tag=chestmarker]
-team join detect_minerals_runes @e[type=minecraft:shulker,tag=mineralsmarker]
+##other
+function att2:gameplay/dahal/action/spell34/detection/other
+##team
+function att2:gameplay/dahal/action/spell34/detection/team
 
 execute if score @s LIMIT77 matches ..12 as @s run function att2:dialogs/gameplay/dahal/spell34_reveal
 execute if score @s LIMIT77 matches 26.. as @s run function att2:dialogs/gameplay/dahal/spell34_reveal_max

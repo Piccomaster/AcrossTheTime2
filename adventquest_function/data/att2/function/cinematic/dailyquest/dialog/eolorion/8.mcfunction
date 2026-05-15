@@ -52,7 +52,8 @@ data modify storage att2:dailyquest data.dialog append value {translate:att2.dai
 execute store result storage att2:dailyquest data.dialog[-1].with[0] int 1 run scoreboard players get eolorion_dailyquest_8_rewards_city_donation DAILYQUEST
 data modify storage att2:dailyquest data.dialog append value {text:"\n"}
 ##rewards other
-data modify storage att2:dailyquest data.dialog append value {translate:att2.dailyquest.eolorion.8.reward.other,color:"blue"}
+data modify storage att2:dailyquest data.dialog append value {translate:att2.dailyquest.eolorion.8.reward.other,color:"green",with:[0,"§2/",{text:"50",color:green}]}
+execute store result storage att2:dailyquest data.dialog[-1].with[0] int 1 run scoreboard players get SP4_10_reduce DAHAL_COST
 
 ##trigger id
 execute unless score #Accepted_Test DAILYQUEST matches 1 run data modify storage att2:dailyquest data.triggerid set value 3181

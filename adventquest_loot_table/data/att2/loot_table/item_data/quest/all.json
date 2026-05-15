@@ -9,11 +9,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 1
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 1
                                 }
                             ]
                         }
@@ -27,11 +32,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 2
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 2
                                 }
                             ]
                         }
@@ -45,11 +55,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 3
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 3
                                 }
                             ]
                         }
@@ -63,11 +78,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 4
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 4
                                 }
                             ]
                         }
@@ -81,11 +101,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 5
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 5
                                 }
                             ]
                         }
@@ -99,11 +124,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 6
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 6
                                 }
                             ]
                         }
@@ -117,11 +147,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 7
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 7
                                 }
                             ]
                         }
@@ -135,11 +170,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 8
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 8
                                 }
                             ]
                         }
@@ -153,11 +193,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 9
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 9
                                 }
                             ]
                         }
@@ -171,11 +216,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 10
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 10
                                 }
                             ]
                         }
@@ -189,11 +239,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 11
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 11
                                 }
                             ]
                         }
@@ -207,11 +262,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 12
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 12
                                 }
                             ]
                         }
@@ -225,11 +285,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 13
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 13
                                 }
                             ]
                         }
@@ -243,11 +308,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 14
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 14
                                 }
                             ]
                         }
@@ -261,11 +331,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 15
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 15
                                 }
                             ]
                         }
@@ -279,11 +354,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 16
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 16
                                 }
                             ]
                         }
@@ -297,11 +377,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 17
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 17
                                 }
                             ]
                         }
@@ -315,11 +400,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 18
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 18
                                 }
                             ]
                         }
@@ -333,11 +423,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 19
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 19
                                 }
                             ]
                         }
@@ -351,11 +446,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 20
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 20
                                 }
                             ]
                         }
@@ -369,11 +469,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 21
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 21
                                 }
                             ]
                         }
@@ -387,17 +492,18 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 22
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 22
                                 }
                             ]
-                        },
-                        {
-                            "condition": "random_chance",
-                            "chance": 0.666
                         }
                     ],
                     "type": "minecraft:loot_table",
@@ -409,11 +515,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 23
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 23
                                 }
                             ]
                         }
@@ -436,11 +547,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 24
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 24
                                 }
                             ]
                         }
@@ -454,11 +570,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 25
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 25
                                 }
                             ]
                         }
@@ -481,11 +602,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 26
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 26
                                 }
                             ]
                         }
@@ -499,11 +625,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 27
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 27
                                 }
                             ]
                         }
@@ -517,11 +648,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 28
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 28
                                 }
                             ]
                         }
@@ -535,11 +671,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 29
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 29
                                 }
                             ]
                         }
@@ -562,11 +703,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 30
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 30
                                 }
                             ]
                         }
@@ -580,11 +726,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 31
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 31
                                 }
                             ]
                         }
@@ -598,11 +749,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 32
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 32
                                 }
                             ]
                         }
@@ -616,11 +772,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 33
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 33
                                 }
                             ]
                         }
@@ -634,11 +795,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 34
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 34
                                 }
                             ]
                         }
@@ -661,11 +827,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 35
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 35
                                 }
                             ]
                         }
@@ -679,11 +850,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 36
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 36
                                 }
                             ]
                         }
@@ -706,11 +882,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 37
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 37
                                 }
                             ]
                         }
@@ -733,11 +914,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 38
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 38
                                 }
                             ]
                         }
@@ -751,11 +937,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 39
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 39
                                 }
                             ]
                         }
@@ -769,11 +960,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 40
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 40
                                 }
                             ]
                         }
@@ -787,11 +983,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 41
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 41
                                 }
                             ]
                         }
@@ -805,11 +1006,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 42
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 42
                                 }
                             ]
                         }
@@ -823,11 +1029,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 43
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 43
                                 }
                             ]
                         }
@@ -850,11 +1061,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 44
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 44
                                 }
                             ]
                         }
@@ -868,11 +1084,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 45
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 45
                                 }
                             ]
                         }
@@ -895,11 +1116,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 46
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 46
                                 }
                             ]
                         }
@@ -913,11 +1139,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 47
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 47
                                 }
                             ]
                         }
@@ -931,11 +1162,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 48
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 48
                                 }
                             ]
                         }
@@ -949,11 +1185,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 49
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 49
                                 }
                             ]
                         }
@@ -976,11 +1217,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 50
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 50
                                 }
                             ]
                         }
@@ -994,11 +1240,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 51
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 51
                                 }
                             ]
                         }
@@ -1012,11 +1263,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 52
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 52
                                 }
                             ]
                         }
@@ -1030,11 +1286,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 53
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 53
                                 }
                             ]
                         }
@@ -1048,11 +1309,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 54
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 54
                                 }
                             ]
                         }
@@ -1066,11 +1332,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 55
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 55
                                 }
                             ]
                         }
@@ -1084,11 +1355,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 56
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 56
                                 }
                             ]
                         }
@@ -1102,11 +1378,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 57
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 57
                                 }
                             ]
                         }
@@ -1120,11 +1401,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 58
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 58
                                 }
                             ]
                         }
@@ -1147,11 +1433,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 59
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 59
                                 }
                             ]
                         }
@@ -1174,11 +1465,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 60
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 60
                                 }
                             ]
                         }
@@ -1201,11 +1497,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 61
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 61
                                 }
                             ]
                         }
@@ -1219,11 +1520,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 62
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 62
                                 }
                             ]
                         }
@@ -1246,11 +1552,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 63
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 63
                                 }
                             ]
                         }
@@ -1264,11 +1575,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 64
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 64
                                 }
                             ]
                         }
@@ -1282,11 +1598,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 65
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 65
                                 }
                             ]
                         }
@@ -1309,11 +1630,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 66
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 66
                                 }
                             ]
                         }
@@ -1336,11 +1662,16 @@
                             "condition": "all_of",
                             "terms": [
                                 {
-                                    "condition": "entity_scores",
-                                    "entity": "this",
-                                    "scores": {
-                                        "DropQuestItemId": 67
-                                    }
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "score": "DropQuestItemId",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#DropQuestItemId"
+                                        }
+                                    },
+                                    "range": 67
                                 }
                             ]
                         }

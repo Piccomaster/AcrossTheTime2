@@ -7,6 +7,9 @@
 execute unless block ~ ~1 ~ air run return fail
 ##test score
 scoreboard players set @s ElytraRacing 1
+
+##spell34 clear
+function att2:gameplay/dahal/action/spell34/clear_elytra_racing_marker
 ##Worlest
 execute if score @s ElytraRacingSelect matches 1 run return run function att2:gameplay/elytra_racing/launch_point/unlock_worlest
 ##Owsastr

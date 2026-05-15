@@ -37,6 +37,7 @@ execute positioned -5843 55 -4966 run function att2:summon/reg_1/withertrialmini
 execute positioned -5812 60 -4930 as @a[distance=..15,gamemode=adventure] at @s run function att2:gameplay/runictrials/effect_end
 execute positioned -5812 60 -4930 as @e[distance=..77,tag=NewInvo] run function att2:gameplay/invocation/action/summon
 execute positioned -5812 88.5 -4839 as @e[type=minecraft:armor_stand,tag=RunicBlackFire,distance=..5] at @s run kill @s
+execute positioned -5812 88.5 -4839 as @e[type=minecraft:marker,tag=RunicTrial,distance=..5] at @s run kill @s
 
 # door
 function att2:gameplay/runictrials/24/end_door_opened

@@ -4,6 +4,7 @@
 #################################################################
 
 ##limit
+execute unless score Mainquest SIDEQUEST matches 1.. run return fail
 execute if score @s TUTORIAL matches 1.. run return run tellraw @s [{translate:att2.tutorial.limit,color:red}]
 ##time
 scoreboard players set @s TUTORIAL 120

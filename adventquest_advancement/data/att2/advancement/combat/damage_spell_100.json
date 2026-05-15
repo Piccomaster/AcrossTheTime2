@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:diamond",
+            "components": {
+                "minecraft:item_model": "minecraft:spell/launcher"
+            }
+        },
+        "title": {
+            "translate": "att2.advancement.combat.title.damage_spell_100"
+        },
+        "description": {
+            "translate": "att2.advancement.combat.description.damage_spell_100"
+        },
+        "frame": "goal"
+    },
+    "parent": "att2:combat/damage_dealt",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+    },
+    "criteria": {
+        "damage_spell_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

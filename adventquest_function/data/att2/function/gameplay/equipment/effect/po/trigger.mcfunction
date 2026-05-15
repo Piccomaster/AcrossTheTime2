@@ -15,7 +15,7 @@ execute in overworld run function att2:gameplay/equipment/effect/po/store_potion
 execute in overworld run data modify storage att2:potion data set from block 0 0 0 Items[{Slot:0b}]
 
 ##special potion Entropic Brew
-execute in overworld if items block 0 0 0 container.0 minecraft:potion[custom_name={"translate":"potion85.name"}] run return run function att2:gameplay/equipment/effect/po/entropic_brew
+execute in overworld if items block 0 0 0 container.0 minecraft:potion[custom_name={"translate":"potion82.name"}] run return run function att2:gameplay/equipment/effect/po/entropic_brew
 ##get STAT / TIME
 execute store result score #STR CAL run data get storage att2:potion data.components."minecraft:custom_data".STR
 execute store result score #RES CAL run data get storage att2:potion data.components."minecraft:custom_data".RES

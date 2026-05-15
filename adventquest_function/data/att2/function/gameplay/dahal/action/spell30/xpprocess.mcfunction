@@ -19,13 +19,13 @@ scoreboard players operation #Spell30_xp CAL = total SPELL30
 scoreboard players operation #Spell30_xp CAL /= 1000 CAL
 scoreboard players operation @s SPELL30_LVL += #Spell30_xp CAL
 
-execute if score @s SURVIVEBONUS matches 1 run scoreboard players operation total SPELL30 *= 5 SPELL30
-execute if score @s SURVIVEBONUS matches 1 run scoreboard players operation total SPELL30 /= 4 SPELL30
-execute if score @s SURVIVEBONUS matches 2 run scoreboard players operation total SPELL30 *= 3 SPELL30
-execute if score @s SURVIVEBONUS matches 2 run scoreboard players operation total SPELL30 /= 2 SPELL30
-execute if score @s SURVIVEBONUS matches 3 run scoreboard players operation total SPELL30 *= 35 SPELL30
-execute if score @s SURVIVEBONUS matches 3 run scoreboard players operation total SPELL30 /= 20 SPELL30
-execute if score @s SURVIVEBONUS matches 4 run scoreboard players operation total SPELL30 *= 2 SPELL30
+execute if score @s SURVIVEBONUS matches 1 run scoreboard players operation total SPELL30 *= 5 CAL
+execute if score @s SURVIVEBONUS matches 1 run scoreboard players operation total SPELL30 /= 4 CAL
+execute if score @s SURVIVEBONUS matches 2 run scoreboard players operation total SPELL30 *= 3 CAL
+execute if score @s SURVIVEBONUS matches 2 run scoreboard players operation total SPELL30 /= 2 CAL
+execute if score @s SURVIVEBONUS matches 3 run scoreboard players operation total SPELL30 *= 35 CAL
+execute if score @s SURVIVEBONUS matches 3 run scoreboard players operation total SPELL30 /= 20 CAL
+execute if score @s SURVIVEBONUS matches 4 run scoreboard players operation total SPELL30 *= 2 CAL
 
 ##update score
 scoreboard players operation @n[type=minecraft:armor_stand,tag=RecyclerSpell,distance=..1,scores={SPELL30_EFFECT=100}] SPELL30 = total SPELL30

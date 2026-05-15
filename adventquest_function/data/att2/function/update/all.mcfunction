@@ -3,7 +3,10 @@
 #update command                             					#
 #################################################################
 
+kill @e[tag=ChestDisplay]
 kill @e[tag=ChestMarker]
+kill @e[tag=EnderChest]
+kill @e[type=item]
 execute if score update_loop SYSTEM matches 1.. run schedule function att2:update/all 1t append
 
 execute in overworld positioned 792 83 89 run setblock 792 83 893 minecraft:oak_wall_sign[facing=south,waterlogged=false]{back_text:{color:"black",has_glowing_text:0b,messages:["","","",""]},components:{},front_text:{color:"black",has_glowing_text:0b,messages:[{color:"dark_blue",text:"中国"},{color:"dark_blue",text:"\\\\\\⬇///"},{color:"dark_blue",text:"\\\\⬇//"},{color:"dark_blue",text:"\\⇩/"}]},is_waxed:0b}
@@ -1088,3 +1091,7 @@ execute in minecraft:overworld positioned -3486 28 -5042 run setblock -3486 28 -
 
 ##fix angband mainquest
 execute in minecraft:the_nether positioned 3692 80 4585 run setblock 3692 80 4585 minecraft:repeating_command_block[conditional=false,facing=north]{Command:"execute if score wingeu_mech3_chest3 ANGOR matches 4 unless data block ~ ~4 ~ LootTable run function att2:cinematic/act_3/angband/angor/palace/wing_e_up/mech3/chest_east5",CustomName:"@",LastExecution:3005572562L,SuccessCount:0,TrackOutput:1b,UpdateLastExecution:1b,auto:1b,components:{},conditionMet:1b,powered:0b} destroy
+
+execute in minecraft:overworld positioned -4643 70 -5615 run setblock -4643 70 -5615 minecraft:gray_shulker_box[facing=south]{components:{}} destroy
+
+execute in minecraft:overworld positioned -5132 113 -5811 run setblock -5132 113 -5811 minecraft:chest[facing=west,type=single,waterlogged=false]{Items:[],components:{}} destroy

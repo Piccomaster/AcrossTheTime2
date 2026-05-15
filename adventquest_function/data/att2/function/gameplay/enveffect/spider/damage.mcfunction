@@ -5,4 +5,4 @@
 
 ##
 #$say damage:$(damage)
-$damage @s $(damage) minecraft:mob_attack by @n[distance=..2,tag=ATK,type=#minecraft:spiders]
+$damage @s $(damage) minecraft:mob_attack by @n[distance=..2,tag=ATK,tag=!UmbraMinion,type=#minecraft:spiders]

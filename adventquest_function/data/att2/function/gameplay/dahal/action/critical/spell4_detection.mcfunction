@@ -5,6 +5,7 @@
 
 #limit
 execute if score #TEST CAL matches 1 run return fail
+
 ##get temp CriticalGuarantee
 #RNG
 execute store result score #RNG CAL run random value 1..100
@@ -12,7 +13,7 @@ execute if score @s CriticalGuarantee matches 100.. run scoreboard players set #
 execute if score @s CriticalGuarantee matches 100.. run scoreboard players set @s CriticalGuarantee 0
 
 ##Critical percent = Critical / 1000
-scoreboard players operation #Critical CAL = SPELL4_CRITICAL SPELL_DATA
+scoreboard players operation #Critical CAL = SPELL4_CRITICAL Critical
 
 scoreboard players operation @s CriticalGuarantee += #Critical CAL
 execute unless score @s CRT_TOT matches ..0 run scoreboard players operation #Critical CAL *= @s CRT_TOT

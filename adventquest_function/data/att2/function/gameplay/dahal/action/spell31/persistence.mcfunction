@@ -7,7 +7,7 @@
 execute if score @s SUMMON_TIMER matches 1.. run return 0
 
 # Make pet follow its owner
-function att2:gameplay/dahal/pet/follow_owner
+#function att2:gameplay/dahal/pet/follow_owner
 
 execute if score tic TIMECOUNTER matches 6 at @s run kill @e[distance=1..,type=frog,predicate=att2_pre:score/owner]
 
