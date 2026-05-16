@@ -6,6 +6,8 @@
 ##reset score
 scoreboard players set #protection CAL 0
 scoreboard players set #projectile_protection CAL 0
+scoreboard players set #fire_protection CAL 0
+scoreboard players set #magic_protection CAL 0
 scoreboard players set #DMG CAL 0
 scoreboard players set #ARMOR CAL 0
 scoreboard players set #ARMOR_TOUGHNESS CAL 0
@@ -16,84 +18,14 @@ data modify storage att2:temp temp set from entity @s equipment
 scoreboard players operation #DMG CAL = #damage CAL
 #tellraw @a ["初始伤害: ",{score:{name:"#DMG",objective:"CAL"}}]
 
-##################################################armor
-execute store result score #ARMOR CAL run attribute @s minecraft:armor get 1
-execute store result score #ARMOR_TOUGHNESS CAL run attribute @s minecraft:armor_toughness get 10
-scoreboard players add #ARMOR_TOUGHNESS CAL 100
-scoreboard players operation #ARMOR CAL *= #ARMOR_TOUGHNESS CAL
-scoreboard players operation #ARMOR CAL /= 100 CAL
-#tellraw @a ["盔甲减伤: ",{score:{name:"#ARMOR",objective:"CAL"}}]
-##reduce armor
-scoreboard players operation #DMG CAL -= #ARMOR CAL
-#tellraw @a ["剩余伤害: ",{score:{name:"#DMG",objective:"CAL"}}]
-
-################################################protection
-#head
-execute store result score #count CAL run data get storage att2:temp temp.head.components."minecraft:enchantments"."minecraft:protection"
-scoreboard players operation #protection CAL += #count CAL
-#chest
-execute store result score #count CAL run data get storage att2:temp temp.chest.components."minecraft:enchantments"."minecraft:protection"
-scoreboard players operation #protection CAL += #count CAL
-#legs
-execute store result score #count CAL run data get storage att2:temp temp.legs.components."minecraft:enchantments"."minecraft:protection"
-scoreboard players operation #protection CAL += #count CAL
-#feet
-execute store result score #count CAL run data get storage att2:temp temp.feet.components."minecraft:enchantments"."minecraft:protection"
-scoreboard players operation #protection CAL += #count CAL
-
-scoreboard players operation #protection CAL *= 4 CAL
-scoreboard players operation #protection CAL < 80 CAL
-scoreboard players operation #protection CAL *= -1 CAL
-#tellraw @a ["保护附魔减伤: ",{score:{name:"#protection",objective:"CAL"}}]
-scoreboard players add #protection CAL 100
-##reduce protection
-scoreboard players operation #DMG CAL *= #protection CAL
-scoreboard players operation #DMG CAL /= 100 CAL
-#tellraw @a ["剩余伤害: ",{score:{name:"#DMG",objective:"CAL"}}]
-
-################################################projectile_protection
-#head
-execute store result score #count CAL run data get storage att2:temp temp.head.components."minecraft:enchantments"."minecraft:projectile_protection"
-scoreboard players operation #projectile_protection CAL += #count CAL
-#chest
-execute store result score #count CAL run data get storage att2:temp temp.chest.components."minecraft:enchantments"."minecraft:projectile_protection"
-scoreboard players operation #projectile_protection CAL += #count CAL
-#legs
-execute store result score #count CAL run data get storage att2:temp temp.legs.components."minecraft:enchantments"."minecraft:projectile_protection"
-scoreboard players operation #projectile_protection CAL += #count CAL
-#feet
-execute store result score #count CAL run data get storage att2:temp temp.feet.components."minecraft:enchantments"."minecraft:projectile_protection"
-scoreboard players operation #projectile_protection CAL += #count CAL
-
-scoreboard players operation #projectile_protection CAL *= 2 CAL
-scoreboard players operation #projectile_protection CAL < 80 CAL
-scoreboard players operation #projectile_protection CAL *= -1 CAL
-#tellraw @a ["弹射物保护附魔减伤: ",{score:{name:"#projectile_protection",objective:"CAL"}}]
-scoreboard players add #projectile_protection CAL 100
-##reduce projectile_protection
-scoreboard players operation #DMG CAL *= #projectile_protection CAL
-scoreboard players operation #DMG CAL /= 100 CAL
-#tellraw @a ["剩余伤害: ",{score:{name:"#DMG",objective:"CAL"}}]
-
-################################################resistance
-scoreboard players operation #resistance CAL = @s RESISTANCE
-scoreboard players operation #resistance CAL *= -1 CAL
-#tellraw @a ["抗性减伤: ",{score:{name:"#resistance",objective:"CAL"}}]
-scoreboard players add #resistance CAL 100
-##reduce protection
-scoreboard players operation #DMG CAL *= #resistance CAL
-scoreboard players operation #DMG CAL /= 100 CAL
-
-###damage
+##armor
+function att2:gameplay/enemy_health/health_cal/cal_armor
+##protection
+function att2:gameplay/enemy_health/health_cal/cal_protection
+##resistance
+function att2:gameplay/enemy_health/health_cal/cal_resistance
+###damage limit
 scoreboard players operation #DMG CAL > 1 CAL
-
-################################################DAMAGEREDUCE (->0)
-scoreboard players operation #DAMAGEREDUCE CAL = @s DAMAGEREDUCE
-scoreboard players operation #DAMAGEREDUCE CAL *= -1 CAL
-#tellraw @a ["抗性减伤: ",{score:{name:"#DAMAGEREDUCE",objective:"CAL"}}]
-scoreboard players add #DAMAGEREDUCE CAL 100
-##reduce protection
-scoreboard players operation #DMG CAL *= #DAMAGEREDUCE CAL
-scoreboard players operation #DMG CAL /= 100 CAL
-
+##damage_reduce
+function att2:gameplay/enemy_health/health_cal/cal_damage_reduce
 #tellraw @a ["弹射物伤害: ",{score:{name:"#DMG",objective:"CAL"}}]

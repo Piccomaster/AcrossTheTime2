@@ -25,7 +25,7 @@ effect give @s minecraft:slowness 5 10 true
 execute if score level DIFFICULTY matches -1 if score Mainquest SIDEQUEST matches 1.. run effect give @s minecraft:hunger 2 80 true
 execute if score level DIFFICULTY matches 0 if score Mainquest SIDEQUEST matches 1.. run effect give @s minecraft:hunger 4 80 true
 execute if score level DIFFICULTY matches 1 if score Mainquest SIDEQUEST matches 1.. run effect give @s minecraft:hunger 6 80 true
-execute if score level DIFFICULTY matches 2 if score Mainquest SIDEQUEST matches 1.. run effect give @s minecraft:hunger 8 80 true
+execute if score level DIFFICULTY matches 2 if score Mainquest SIDEQUEST matches 1.. run effect give @s minecraft:hunger 9 80 true
 
 
 ##once tutorial

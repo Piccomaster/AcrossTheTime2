@@ -28,11 +28,10 @@ execute if items entity @s weapon.mainhand #minecraft:swords[!custom_data~{Rarit
 
 ##get damage data
 execute store result score #damage CAL run attribute @s attack_damage base get 1.5
-execute store result storage att2:damage value int 1 run scoreboard players get #damage CAL
 function att2:gameplay/score/player
 
 ##damage
-execute at @s positioned ~-3 ~-3 ~-3 as @e[dx=6,dy=6,dz=6,team=hostile,scores={GAMELEVEL=0..}] at @s run function att2:gameplay/equipment/weapon/shield/damage with storage att2:damage
+execute at @s positioned ~-3 ~-3 ~-3 as @e[dx=6,dy=6,dz=6,team=hostile,scores={GAMELEVEL=0..}] at @s run function att2:gameplay/equipment/weapon/shield/damage
 
 
 ##more particle

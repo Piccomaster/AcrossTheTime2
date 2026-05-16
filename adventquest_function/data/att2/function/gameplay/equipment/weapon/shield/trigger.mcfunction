@@ -11,6 +11,9 @@ execute in overworld run function att2:gameplay/equipment/weapon/shield/replace_
 ##consume hunger
 item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/misc/satiety_consume":5}}
 
+##base particle
+function att2:gameplay/equipment/weapon/shield/base_particle
+
 ###############motion
 #get pos
 summon marker ~ ~ ~ {Tags:["Temp"]}

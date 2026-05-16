@@ -9,6 +9,3 @@ execute store result score temp_value_1 CAL run data get entity @s equipment.che
 execute store result storage att2:temp damage int 1 run scoreboard players add temp_value_1 CAL 1
 #return SPD/HUN number
 function att2:gameplay/enchantment/selflessaid/item_damage with storage att2:temp
-#reset
-scoreboard players reset @s SELFLESSAID
-data remove storage att2:temp damage

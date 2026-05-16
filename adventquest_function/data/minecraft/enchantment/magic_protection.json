@@ -1,0 +1,113 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.minecraft.power"
+  },
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1.0,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "direct_attacker",
+            "predicate": {
+              "type": "#minecraft:arrows"
+            }
+          }
+        ]
+      }
+    ],
+    "projectile_spawned": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/bow/shoot_trigger"
+        }
+      }
+    ],
+    "post_attack": [
+      {
+        "affected": "damaging_entity",
+        "enchanted": "attacker",
+        "requirements": [
+          {
+            "condition": "damage_source_properties",
+            "predicate": {
+              "tags": [
+                {
+                  "id": "minecraft:bypasses_cooldown",
+                  "expected": false
+                },
+                {
+                  "id": "minecraft:is_projectile",
+                  "expected": true
+                }
+              ],
+              "source_entity": {
+                "type": "minecraft:player"
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/bow/arrow_shooted_trigger"
+        }
+      },
+      {
+        "affected": "victim",
+        "enchanted": "attacker",
+        "requirements": [
+          {
+            "condition": "damage_source_properties",
+            "predicate": {
+              "tags": [
+                {
+                  "id": "minecraft:bypasses_cooldown",
+                  "expected": false
+                },
+                {
+                  "id": "minecraft:is_projectile",
+                  "expected": true
+                }
+              ],
+              "direct_entity": {
+                "type": "#minecraft:arrows",
+                "nbt": "{Tags:[\"SHOOTED\"]}"
+              },
+              "source_entity": {
+                "type": "player"
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/bow/arrow_damage"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 16,
+    "per_level_above_first": 10
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/bow",
+  "weight": 10
+}

@@ -25,10 +25,6 @@ execute on attacker run scoreboard players operation reward MIMIC = @s LUC_TOT
 scoreboard players operation reward MIMIC *= 4 CAL
 scoreboard players operation reward MIMIC += @s MIMIC
 
-#tellraw @a ["MIMIC",{score:{name:"@s",objective:"MIMIC"}}]
-#tellraw @a ["reward",{score:{name:"reward",objective:"MIMIC"}}]
-#tellraw @a ["C",{score:{name:"#C",objective:"CAL"}}]
-#tellraw @a ["T",{score:{name:"#T",objective:"CAL"}}]
 
 ##set score
 scoreboard players operation #C CAL = reward MIMIC
@@ -40,6 +36,11 @@ scoreboard players add #T CAL 1
 scoreboard players operation #T CAL < 10 CAL
 
 scoreboard players set #Q CAL 0
+
+#tellraw @a ["MIMIC",{score:{name:"@s",objective:"MIMIC"}}]
+#tellraw @a ["reward",{score:{name:"reward",objective:"MIMIC"}}]
+#tellraw @a ["C",{score:{name:"#C",objective:"CAL"}}]
+#tellraw @a ["T",{score:{name:"#T",objective:"CAL"}}]
 
 function att2:gameplay/misc/chesteffect/other_dropchance
 
