@@ -5,6 +5,7 @@
 
 #more player more resistance
 execute if score numberPlayer DIFFICULTY matches 3.. run scoreboard players set @s[scores={RESISTANCE=..60}] RESISTANCE 60
+execute if score numberPlayer DIFFICULTY matches 4.. run scoreboard players set @s[scores={RESISTANCE=..70}] RESISTANCE 70
 execute if score numberPlayer DIFFICULTY matches 5.. run scoreboard players set @s[scores={RESISTANCE=..80}] RESISTANCE 80
 #more protection enchantments
 execute unless data entity @s equipment.head run item replace entity @s armor.head with leather_helmet[dyed_color=6666,unbreakable={},item_model="nothing",equippable={slot:head}]

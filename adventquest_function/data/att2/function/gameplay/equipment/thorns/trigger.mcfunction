@@ -21,4 +21,5 @@ scoreboard players operation #damage CAL += #count CAL
 scoreboard players operation #damage CAL *= 4 CAL
 
 ##trigger
+execute at @s on attacker run damage @s 1 att2_damage:magic by @p[distance=..0]
 execute on attacker at @s run function att2:gameplay/enemy_health/normal_trigger

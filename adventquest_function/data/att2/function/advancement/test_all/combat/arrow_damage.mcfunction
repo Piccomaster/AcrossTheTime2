@@ -3,7 +3,7 @@
 #Process adding Tier Elite score 			                    #
 #################################################################
 
-#melee_damage
+#melee_damage TODO EXPLOIT:32   2 5 10 15
 execute if score @s statARROWDAMAGEDEALT matches 100.. run advancement grant @s only att2:combat/damage_arrow_100
 execute if score @s statARROWDAMAGEDEALT matches 1000.. run advancement grant @s only att2:combat/damage_arrow_1000
 execute if score @s statARROWDAMAGEDEALT matches 10000.. run advancement grant @s only att2:combat/damage_arrow_10000

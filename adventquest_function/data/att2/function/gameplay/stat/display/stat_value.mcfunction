@@ -8,6 +8,8 @@
 #cal stat value
 #attribute @s attack_damage modifier remove att2:attack_damage_limit
 execute store result score #STR_DATA CAL run attribute @s attack_damage get
+##bow
+execute if items entity @s weapon.mainhand #minecraft:bows run function att2:gameplay/stat/strength/cal_bow
 
 #execute unless predicate att2_pre:test_hold/equipment/meleeweapon run attribute @s attack_damage modifier add att2:attack_damage_limit -0.90 add_multiplied_total
 #execute if score @s HAS_DISPLAY matches 1.. run function att2:gameplay/stat/haste/data_cal
@@ -24,8 +26,8 @@ data modify storage att2:stat_display show set value []
 execute if score @s STR_DISPLAY matches 1.. if score #STR_DATA CAL matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.str,color:"gray",with:[{score:{name:"#STR_DATA",objective:"CAL"},color:green}]}
 execute if score @s STR_DISPLAY matches 1.. unless score #STR_DATA CAL matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.str,color:"gray",with:[{score:{name:"#STR_DATA",objective:"CAL"},color:red}]}
 #CRT
-execute if score @s CRT_DISPLAY matches 1.. if score @s CRT_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.crt,color:"gray",with:[{score:{name:"@s",objective:"CRT_TOT"},color:green}]}
-execute if score @s CRT_DISPLAY matches 1.. unless score @s CRT_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.crt,color:"gray",with:[{score:{name:"@s",objective:"CRT_TOT"},color:red}]}
+execute if score @s CRT_DISPLAY matches 1.. if score @s CRT_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.crt,color:"gray",with:[{score:{name:"@s",objective:"CRT_DATA"},color:green}]}
+execute if score @s CRT_DISPLAY matches 1.. unless score @s CRT_TOT matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.crt,color:"gray",with:[{score:{name:"@s",objective:"CRT_DATA"},color:red}]}
 #RES
 execute if score @s RES_DISPLAY matches 1.. if score @s RES_DATA matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.res.value,color:"gray",with:[{score:{name:"@s",objective:"RES_DATA"},color:green}]}
 execute if score @s RES_DISPLAY matches 1.. unless score @s RES_DATA matches 0.. run data modify storage att2:stat_display show append value {translate:att2.stat.display.res.value,color:"gray",with:[{score:{name:"@s",objective:"RES_DATA"},color:red}]}

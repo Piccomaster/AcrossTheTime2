@@ -21,15 +21,8 @@
         "experience": 100
     },
     "criteria": {
-        "kill_potion": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "killing_blow": {
-                    "direct_entity": {
-                        "type": "minecraft:splash_potion"
-                    }
-                }
-            }
+        "death_by_alchemy": {
+            "trigger": "minecraft:impossible"
         }
     }
 }

@@ -24,3 +24,9 @@ execute if score level statSMITH matches 3.. run scoreboard players set #slot SH
 execute if score level statSMITH matches 3.. run function att2:gameplay/shop/slot_management/showcase/bow_emera_palundra
 execute if score level statSMITH matches 4.. run scoreboard players set #slot SHOP_OP 8
 execute if score level statSMITH matches 4.. run function att2:gameplay/shop/slot_management/showcase/bow_emera_palundra
+
+##
+function att2:dialogs/gameplay/shop/items_selled_list/misc_list
+function att2:dialogs/gameplay/shop/showcase/misc/arrow_0
+function att2:dialogs/gameplay/shop/showcase/misc/arrow_1
+function att2:dialogs/gameplay/shop/showcase/misc/arrow_2

@@ -14,3 +14,8 @@ playsound entity.experience_orb.touch master @a ~ ~ ~ 10 0.1 1
 function att2:dialogs/gameplay/waypoint/meleim_discovered
 
 function att2:advancement/test_all/journey/waypoint
+
+
+
+##once tutorial
+execute as @s[advancements={att2:tutorial/trigger/waypoint=false}] run function att2:gameplay/tutorial/delay/waypoint

@@ -16,3 +16,5 @@ execute store result storage att2:temp value int 1 run scoreboard players get te
 function att2:gameplay/dahal/action/spell28/reduce/mainhand_data_set with storage att2:temp
 #reset
 scoreboard players reset temp_value_1 CAL
+
+##sound

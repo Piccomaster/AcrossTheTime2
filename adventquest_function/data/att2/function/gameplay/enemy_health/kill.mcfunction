@@ -26,8 +26,8 @@ execute if score #CLASSLEVEL CAL matches 0 run function att2:advancement/test_al
 effect clear @s resistance
 effect clear @s minecraft:absorption
 ##owner
-execute if score @s ENEMYHEALTH matches ..0 at @s on attacker as @s[type=#att2_entity:sp_follow_pet_all] on owner run damage @n[distance=..0] 77777 att2_damage:player_attack by @s
-execute if score @s ENEMYHEALTH matches ..0 at @s on attacker run damage @n[distance=..0] 77777 att2_damage:player_attack by @s
+execute if score @s ENEMYHEALTH matches ..0 at @s on attacker as @s[type=#att2_entity:sp_follow_pet_all] on owner run damage @n[distance=..0] 777777 att2_damage:player_attack by @s
+execute if score @s ENEMYHEALTH matches ..0 at @s on attacker run damage @n[distance=..0] 777777 att2_damage:player_attack by @s
 
 ##add tag
 tag @s add killed

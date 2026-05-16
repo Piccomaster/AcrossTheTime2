@@ -1,0 +1,40 @@
+#################################################################
+#Made by Adventquest											#
+#detect enemy health reduce                                     #
+#################################################################
+
+##limit
+execute if data entity @s {Invulnerable:true} run return fail
+
+##reset score
+scoreboard players set #reduce_health CAL 0
+scoreboard players set #absorption_health CAL 0
+
+##cal damage
+function att2:gameplay/enemy_health/health_cal/magic_damage
+#get max_health
+execute store result score #max_health CAL run attribute @s max_health get
+##get reduce Health
+scoreboard players operation #reduce_health CAL = #DMG CAL
+
+##back damage
+execute on attacker run function att2:gameplay/enemy_health/data/magic_trigger
+##absorption_health
+execute if score #reduce_health CAL matches 1.. unless score @s ENEMYABHEALTH matches ..0 run function att2:gameplay/enemy_health/absorption_health_trigger
+execute if score #absorption_health CAL matches 1.. run function att2:gameplay/enemy_health/show_absorption_health_reduce/real
+
+##remove real health
+scoreboard players operation @s ENEMYHEALTH -= #reduce_health CAL
+scoreboard players operation @s ENEMYHEALTH > 0 CAL
+scoreboard players operation @s ENEMYHEALTH < #max_health CAL 
+
+##reset score
+execute unless score #reduce_health CAL matches 1.. run return fail
+##tip
+execute as @s[type=!bat] at @s run function att2:gameplay/enemy_health/show_health_reduce/real
+##update healthbar
+function att2:gameplay/healthbar/detection_enemy
+execute if score @s ENEMYHEALTH matches ..0 at @s on attacker run damage @n[distance=..0] 7777777777777777 att2_damage:magic by @s
+execute if score @s ENEMYHEALTH matches ..0 run return run function att2:gameplay/enemy_health/kill
+##sync health
+execute store result entity @s Health int 1 run scoreboard players get @s ENEMYHEALTH

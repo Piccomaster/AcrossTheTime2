@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,co
 tellraw @a[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Um simples 'por favor' teria sido suficiente, idiota.",color:"aqua"}]}
 
 #Simplified Chinese
-tellraw @a[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"一个简单的的“拜托了”就可以完成这项工作，蠢蛋。",color:"aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"一个简单的“拜托了”就可以完成这项工作，蠢蛋。",color:"aqua"}]}

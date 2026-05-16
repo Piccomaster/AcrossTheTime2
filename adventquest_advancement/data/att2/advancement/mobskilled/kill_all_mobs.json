@@ -17,14 +17,6 @@
     "experience": 25000
   },
   "criteria": {
-    "minecraft:cave_spider": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "minecraft:cave_spider"
-        }
-      }
-    },
     "minecraft:spider": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
@@ -57,27 +49,11 @@
         }
       }
     },
-    "minecraft:iron_golem": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "minecraft:iron_golem"
-        }
-      }
-    },
     "minecraft:creeper": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:creeper"
-        }
-      }
-    },
-    "minecraft:evoker": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "minecraft:evoker"
         }
       }
     },
@@ -97,14 +73,6 @@
         }
       }
     },
-    "minecraft:elder_guardian": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "minecraft:elder_guardian"
-        }
-      }
-    },
     "minecraft:husk": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
@@ -118,14 +86,6 @@
       "conditions": {
         "entity": {
           "type": "minecraft:magma_cube"
-        }
-      }
-    },
-    "minecraft:shulker": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "minecraft:shulker"
         }
       }
     },
@@ -153,14 +113,6 @@
         }
       }
     },
-    "minecraft:stray": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "minecraft:stray"
-        }
-      }
-    },
     "minecraft:vindicator": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
@@ -182,14 +134,6 @@
       "conditions": {
         "entity": {
           "type": "minecraft:witch"
-        }
-      }
-    },
-    "minecraft:wither_skeleton": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "minecraft:wither_skeleton"
         }
       }
     },
@@ -238,14 +182,6 @@
       "conditions": {
         "entity": {
           "type": "minecraft:pillager"
-        }
-      }
-    },
-    "minecraft:ravager": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "minecraft:ravager"
         }
       }
     },

@@ -82,3 +82,6 @@ scoreboard objectives add statARROWDAMAGEDEALT dummy
 execute unless score DAMAGE SYSTEM matches 1.. run scoreboard objectives remove statDAMAGEDEALT
 scoreboard players set DAMAGE SYSTEM 1
 scoreboard objectives add statDAMAGEDEALT dummy
+
+scoreboard objectives add SplashPotionTrigger minecraft.used:minecraft.splash_potion
+scoreboard objectives add LingeringPotionTrigger minecraft.used:minecraft.lingering_potion

@@ -9,3 +9,6 @@ scoreboard objectives add POTION_DRUNKstat minecraft.used:minecraft.potion
 #scoreboard players set @s POTION_DRUNK 0
 scoreboard players set @s POTION_DRUNKstat 0
 #scoreboard players set @s POTION_ID 0
+
+scoreboard objectives add SplashPotionTrigger minecraft.used:minecraft.splash_potion
+scoreboard objectives add LingeringPotionTrigger minecraft.used:minecraft.lingering_potion

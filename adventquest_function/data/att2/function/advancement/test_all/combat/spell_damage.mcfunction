@@ -3,7 +3,7 @@
 #Process adding Tier Elite score 			                    #
 #################################################################
 
-#spell_damage
+#spell_damage TODO EXPLOIT:32   2 5 10 15
 execute if score @s statSPELLDAMAGEDEALT matches 100.. run advancement grant @s only att2:combat/damage_spell_100
 execute if score @s statSPELLDAMAGEDEALT matches 1000.. run advancement grant @s only att2:combat/damage_spell_1000
 execute if score @s statSPELLDAMAGEDEALT matches 10000.. run advancement grant @s only att2:combat/damage_spell_10000

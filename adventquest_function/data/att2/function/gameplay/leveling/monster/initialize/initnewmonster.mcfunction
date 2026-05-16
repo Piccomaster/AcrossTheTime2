@@ -113,9 +113,6 @@ tag @s remove HP_DIS
 
 ##store health->score
 execute unless score @s ENEMYHEALTH matches 1.. store result score @s ENEMYHEALTH run attribute @s max_health get
-##set absorption
-#effect clear @s absorption
-#effect give @s absorption infinite 249 true
 
 ##add more absorption -> master level/ LEVELETERNAN
 execute as @s[type=!minecraft:bat,tag=!MIMIC] run function att2:gameplay/leveling/monster/initialize/more_absorption_health
