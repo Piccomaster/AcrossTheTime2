@@ -7,15 +7,16 @@
 #add temp tag
 function att2:gameplay/score/player
 #GET damage
-execute store result score #damage CAL run data get entity @s equipment.offhand.components."minecraft:enchantments"."att2_enchantment:precisionblock" 10
-execute store result score temp_value_2 CAL run attribute @s attack_damage get 50
+execute store result score #percent CAL run data get entity @s equipment.offhand.components."minecraft:enchantments"."att2_enchantment:precisionblock" 20
+scoreboard players add #percent CAL 100
+scoreboard players operation #damage CAL = @s STR_TOT
+scoreboard players operation #damage CAL > 1 CAL
 #CAL DAMAGE
-scoreboard players add #damage CAL 100
-scoreboard players operation temp_value_2 CAL *= #damage CAL
-scoreboard players operation temp_value_2 CAL /= 100 CAL
-scoreboard players operation temp_value_2 CAL /= 100 CAL
+scoreboard players operation #damage CAL *= 20 CAL
+scoreboard players operation #damage CAL *= #percent CAL
+scoreboard players operation #damage CAL /= 100 CAL
 #macao
-execute store result storage att2:temp damage int 1 run scoreboard players get #damage CAL
+#execute store result storage att2:temp damage int 1 run scoreboard players get #damage CAL
 #damage go
 execute on attacker at @s run function att2:gameplay/enchantment/precisionblock/damage
 #make attacker knockback
