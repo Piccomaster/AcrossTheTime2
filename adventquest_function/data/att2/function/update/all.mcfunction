@@ -1095,3 +1095,5 @@ execute in minecraft:the_nether positioned 3692 80 4585 run setblock 3692 80 458
 execute in minecraft:overworld positioned -4643 70 -5615 run setblock -4643 70 -5615 minecraft:gray_shulker_box[facing=south]{components:{}} destroy
 
 execute in minecraft:overworld positioned -5132 113 -5811 run setblock -5132 113 -5811 minecraft:chest[facing=west,type=single,waterlogged=false]{Items:[],components:{}} destroy
+execute in minecraft:overworld positioned 7021 51 7001 run setblock 7021 51 7001 minecraft:magenta_stained_glass destroy
+execute in minecraft:overworld positioned 7021 207 7001 run setblock 7021 207 7001 minecraft:magenta_stained_glass destroy

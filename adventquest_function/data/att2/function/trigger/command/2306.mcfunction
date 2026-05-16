@@ -1,1 +1,1 @@
-execute at 00000000-0000-129a-0000-00000000129a if entity @s[distance=..7,nbt={Inventory:[{components:{EquipmentID:"lostpast"}}]}] if score trias_PNJ DIALOG matches 4 run function att2:cinematic/sidequest/49/trias/answer_2_3
+execute at 00000000-0000-129a-0000-00000000129a if entity @s[distance=..7,nbt={Inventory:[{components:{"minecraft:custom_data":{EquipmentID:"lostpast"}}}]}] if score trias_PNJ DIALOG matches 4 run function att2:cinematic/sidequest/49/trias/answer_2_3

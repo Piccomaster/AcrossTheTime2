@@ -5,7 +5,8 @@
 
 scoreboard players set #RouteId ElytraRacingSelect 9
 ##initialize route_data
-execute unless data storage att2:elytra_racing route_data run data modify storage att2:elytra_racing route_data set value [{id:1},{id:2},{id:3},{id:4},{id:5},{id:6},{id:7},{id:8},{id:9}]
+#execute unless data storage att2:elytra_racing route_data run data modify storage att2:elytra_racing route_data set value [{id:1},{id:2},{id:3},{id:4},{id:5},{id:6},{id:7},{id:8},{id:9}]
+data modify storage att2:elytra_racing route_data set value [{id:1},{id:2},{id:3},{id:4},{id:5},{id:6},{id:7},{id:8},{id:9}]
 
 
 ##Worlest

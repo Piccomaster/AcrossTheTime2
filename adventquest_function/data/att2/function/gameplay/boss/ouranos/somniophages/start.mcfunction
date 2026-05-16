@@ -31,6 +31,7 @@ execute positioned 6730 60 7067 run function att2:summon/reg_4/somniophages_10
 execute positioned 6730 60 7067 run function att2:gameplay/boss/ouranos/somniophages/summon_minions1
 function att2:gameplay/boss/ouranos/somniophages/summon_minions2
 effect give @e[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,type=minecraft:ghast,tag=Somniophages] minecraft:instant_health 1 10 true
+effect give @e[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,type=minecraft:ghast,tag=Somniophages] minecraft:glowing infinite 0 true
 function att2:gameplay/boss/ouranos/somniophages/init_bossbar
 function att2:gameplay/checkpoint/ouranos/lost_past2
 ##boss_timer Start
