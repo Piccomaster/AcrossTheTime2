@@ -27,16 +27,16 @@ scoreboard players set cap10 SPELL41_LVL 1250
 
 #dahal score set
 #str
-scoreboard players set lvl1 SPELL41_HER 3
-scoreboard players set lvl2 SPELL41_HER 4
-scoreboard players set lvl3 SPELL41_HER 5
-scoreboard players set lvl4 SPELL41_HER 6
-scoreboard players set lvl5 SPELL41_HER 7
-scoreboard players set lvl6 SPELL41_HER 8
-scoreboard players set lvl7 SPELL41_HER 9
-scoreboard players set lvl8 SPELL41_HER 10
-scoreboard players set lvl9 SPELL41_HER 11
-scoreboard players set lvl10 SPELL41_HER 12
+scoreboard players set lvl1 SPELL41_HER 1
+scoreboard players set lvl2 SPELL41_HER 2
+scoreboard players set lvl3 SPELL41_HER 3
+scoreboard players set lvl4 SPELL41_HER 4
+scoreboard players set lvl5 SPELL41_HER 5
+scoreboard players set lvl6 SPELL41_HER 6
+scoreboard players set lvl7 SPELL41_HER 7
+scoreboard players set lvl8 SPELL41_HER 8
+scoreboard players set lvl9 SPELL41_HER 9
+scoreboard players set lvl10 SPELL41_HER 10
 #spd
 scoreboard players set lvl1 SPELL41_SPD -1
 scoreboard players set lvl2 SPELL41_SPD -1

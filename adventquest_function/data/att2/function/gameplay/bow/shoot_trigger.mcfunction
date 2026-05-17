@@ -34,20 +34,16 @@ tag @s add SHOOTED
 data modify storage att2:bow data set from entity @s
 ##get enchantment lvl
 execute store result score @s ARR_POWER run data get storage att2:bow data.weapon.components."minecraft:enchantments"."minecraft:power"
-scoreboard players add @s ARR_POWER 2
+scoreboard players add @s ARR_POWER 1
 
-execute on origin run scoreboard players operation #PLAYER_POWER CAL = @s STR_TOT
-scoreboard players operation #PLAYER_POWER CAL *= 5 CAL
-scoreboard players operation #PLAYER_POWER CAL /= 4 CAL
-scoreboard players operation #PLAYER_POWER CAL > 2 CAL
-scoreboard players operation @s ARR_POWER *= #PLAYER_POWER CAL
-scoreboard players operation @s ARR_POWER /= 2 CAL
-##percent limit
-scoreboard players operation @s ARR_POWER *= 50 CAL
+execute on origin run scoreboard players operation #STR_TOT CAL = @s STR_TOT
+scoreboard players operation #STR_TOT CAL > 1 CAL
+scoreboard players operation @s ARR_POWER *= #STR_TOT CAL
+scoreboard players operation @s ARR_POWER > 1 CAL
+scoreboard players operation @s ARR_POWER *= 125 CAL
 scoreboard players operation @s ARR_POWER /= 100 CAL
-##max damage
-scoreboard players operation @s ARR_POWER *= 400 CAL
-scoreboard players operation @s ARR_POWER /= 100 CAL
+##
+#tellraw @a ["箭矢赏花",{score:{name:"@s",objective:"ARR_POWER"}}]
 scoreboard players operation @s ARR_POWER *= #percent CAL
 scoreboard players operation @s ARR_POWER /= 100 CAL
 

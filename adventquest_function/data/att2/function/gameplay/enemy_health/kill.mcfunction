@@ -5,7 +5,8 @@
 
 ##get killer
 function att2:gameplay/enemy_health/loot/get_data
-execute at @s on attacker run function att2:gameplay/enemy_health/loot/trigger
+execute at @s on attacker as @s[type=player] run function att2:gameplay/enemy_health/loot/trigger
+execute at @s on attacker on attacker as @s[type=#att2_entity:sp_follow_pet_all] on owner run function att2:gameplay/enemy_health/loot/trigger
 
 
 ##trigger

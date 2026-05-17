@@ -16,8 +16,11 @@
         "experience": 5
     },
     "criteria": {
-        "s": {
-            "trigger": "minecraft:impossible"
+        "enter_cobweb": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:cobweb"
+            }
         }
     }
 }

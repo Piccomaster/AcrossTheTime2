@@ -8,8 +8,12 @@
 execute at @s unless entity @e[type=!bat,scores={GAMELEVEL=0..},team=hostile,distance=..5,limit=1] run return 0
 ##reduce health
 #effect give @s instant_damage 1 3
-execute if score @s ENEMYABHEALTH matches 50.. run scoreboard players remove @s ENEMYABHEALTH 50
-execute if score @s ENEMYABHEALTH matches ..0 run scoreboard players remove @s ENEMYHEALTH 50
+scoreboard players set #health_reduce CAL 100
+scoreboard players operation @s ENEMYABHEALTH > 0 CAL
+scoreboard players operation #health_reduce CAL -= @s ENEMYABHEALTH
+scoreboard players operation @s ENEMYABHEALTH -= #health_reduce CAL
+scoreboard players operation @s ENEMYABHEALTH > 0 CAL
+scoreboard players operation @s ENEMYHEALTH -= #health_reduce CAL
 ##update health
 function att2:gameplay/healthbar/detection_enemy
 ##get score
@@ -21,7 +25,9 @@ scoreboard players operation #Percent_Health CAL *= 100 CAL
 scoreboard players operation #Percent_Health CAL /= #Max_Health CAL
 ##cal damage
 scoreboard players operation finalDG SPDG = #Max_Health CAL
-scoreboard players operation finalDG SPDG *= 10 CAL
+scoreboard players operation finalDG SPDG -= @s ENEMYHEALTH
+
+scoreboard players operation finalDG SPDG *= 10 CAL 
 scoreboard players operation finalDG SPDG /= 100 CAL
 ##snyc health
 execute store result entity @s Health int 1 run scoreboard players get #Health CAL

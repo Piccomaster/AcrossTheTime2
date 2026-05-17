@@ -27,6 +27,11 @@ ride @n[distance=..5,type=armor_stand,tag=New,tag=TrackingArrow] mount @s
 tag @e[distance=..5,type=armor_stand,tag=New,tag=TrackingArrow] remove New
 #tag @e[distance=..5,type=item_display,tag=New,tag=TrackingArrow] remove New
 
+##remove infinite ARROW
+execute if score #lvl CAL matches 1 if data storage att2:bow data.weapon.components."minecraft:enchantments"."minecraft:infinity" on origin run clear @s arrow[custom_name=[{translate:att2.item.special_arrow.tracking_arrow_1.name}]] 1
+execute if score #lvl CAL matches 2 if data storage att2:bow data.weapon.components."minecraft:enchantments"."minecraft:infinity" on origin run clear @s arrow[custom_name=[{translate:att2.item.special_arrow.tracking_arrow_2.name}]] 1 
+execute if score #lvl CAL matches 3 if data storage att2:bow data.weapon.components."minecraft:enchantments"."minecraft:infinity" on origin run clear @s arrow[custom_name=[{translate:att2.item.special_arrow.tracking_arrow_3.name}]] 1
+
 ##remove more damage
 execute on origin if items entity @s weapon.mainhand #minecraft:bows run return run item modify entity @s weapon.mainhand [{function:set_enchantments,enchantments:{"att2_enchantment:tick/durability/remove/mainhand":{type:score,target:{type:fixed,name:"#lvl"},score:"CAL"}}}]
 execute on origin if items entity @s weapon.offhand #minecraft:bows run item modify entity @s weapon.offhand [{function:set_enchantments,enchantments:{"att2_enchantment:tick/durability/remove/offhand":{type:score,target:{type:fixed,name:"#lvl"},score:"CAL"}}}]

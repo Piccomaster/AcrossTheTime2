@@ -590,10 +590,10 @@ scoreboard players operation spell25 PRICES /= 100 discount_calc
 scoreboard players set spell26 PRICES 3000
 scoreboard players operation spell26 PRICES *= discount discount_calc
 scoreboard players operation spell26 PRICES /= 100 discount_calc
-scoreboard players set spell27 PRICES 500
+scoreboard players set spell27 PRICES 800
 scoreboard players operation spell27 PRICES *= discount discount_calc
 scoreboard players operation spell27 PRICES /= 100 discount_calc
-scoreboard players set spell28 PRICES 500
+scoreboard players set spell28 PRICES 800
 scoreboard players operation spell28 PRICES *= discount discount_calc
 scoreboard players operation spell28 PRICES /= 100 discount_calc
 scoreboard players set spell29 PRICES 2000

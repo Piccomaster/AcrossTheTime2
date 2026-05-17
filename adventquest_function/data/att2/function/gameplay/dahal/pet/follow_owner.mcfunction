@@ -3,6 +3,8 @@
 #Make the pet follow its owner					#
 #################################################
 
+##limit
+execute if score @s SUMMON_TIMER matches 1.. run return fail
 ##dismount
 ride @s dismount
 ##get spell owner score
