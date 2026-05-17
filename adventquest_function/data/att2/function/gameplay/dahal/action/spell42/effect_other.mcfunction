@@ -30,7 +30,7 @@ scoreboard players operation #absorption_health CAL -= #max_health CAL
 scoreboard players operation #absorption_health CAL > 0 CAL
 scoreboard players operation @s ENEMYHEALTH < #max_health CAL
 scoreboard players operation @s ENEMYABHEALTH += #absorption_health CAL
-scoreboard players operation @s ENEMYABHEALTH < 1000 CAL
+scoreboard players operation @s ENEMYABHEALTH < 100 CAL
 
 ##sound
 playsound entity.witch.drink hostile @a ~ ~ ~ 2 0.8

@@ -5,6 +5,7 @@
 
 ##set rolls
 scoreboard players operation #DropRolls DropRolls = @s FISH_QUALITY
+scoreboard players operation #DropQuestItemId DropQuestItemId = @s DropQuestItemId
 scoreboard players operation #DropRolls DropRolls *= 200 CAL
 scoreboard players add #DropRolls DropRolls 1000
 
@@ -120,7 +121,6 @@ execute if score @s FISH_AREA matches 10.. run scoreboard players set #DropChanc
 
 
 ###loot
-scoreboard players set #DropQuestItemId DropQuestItemId 0
 
 ##cal BonusRolls
 execute on origin store result score #luck CAL run attribute @s luck get
