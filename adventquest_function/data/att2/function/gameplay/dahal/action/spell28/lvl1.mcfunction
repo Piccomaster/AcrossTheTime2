@@ -4,7 +4,7 @@
 #################################################################
 
 clear @s minecraft:bow[custom_name={translate:"att2.spell.spectralbow.name"}]
-give @s minecraft:bow[custom_data={EquipmentType:"rangeWeapon",SPECTRALBOW:"1",EquipmentID:"spectralbow"},custom_name={translate:"att2.spell.spectralbow.name"},lore=[{translate:"att2.spell.spectralbow.lore.1"},{translate:"att2.spell.spectralbow.lore.2"}],max_damage=777,enchantments={"infinity":1,"power":2},custom_model_data={floats:[1000000]},unbreakable={},tooltip_style="minecraft:rarity/com/com"]
+give @s minecraft:bow[custom_data={EquipmentType:"rangeWeapon",SPECTRALBOW:"1",EquipmentID:"spectralbow"},custom_name={translate:"att2.spell.spectralbow.name"},lore=[{translate:"att2.spell.spectralbow.lore.1"},{translate:"att2.spell.spectralbow.lore.2"}],max_damage=777,enchantments={"infinity":1,"power":1},custom_model_data={floats:[1000000]},unbreakable={},tooltip_style="minecraft:rarity/com/com"]
 
 ##dahal_cost
 scoreboard players operation @s DAHAL -= SP28_1 DAHAL_COST

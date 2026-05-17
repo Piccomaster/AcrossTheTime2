@@ -18,4 +18,4 @@ function att2:advancement/test_all/journey/waypoint
 
 
 ##once tutorial
-execute as @s[advancements={att2:tutorial/trigger/waypoint=false}] run function att2:gameplay/tutorial/delay/waypoint
+execute positioned -4661 70 -4546 as @a[distance=..10,advancements={att2:tutorial/trigger/waypoint=false}] run function att2:gameplay/tutorial/delay/waypoint

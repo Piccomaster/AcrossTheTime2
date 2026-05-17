@@ -8,7 +8,10 @@
         },
         "description": {
             "translate": "att2.advancement.treasure.pickable_item.root.description"
-        }
+        },
+        "hidden": false,
+        "show_toast": false,
+        "announce_to_chat": false
     },
     "parent": "att2:treasure/root",
     "criteria": {

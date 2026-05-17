@@ -3,7 +3,8 @@
 #put item interact                      						#
 #################################################################
 
-execute if score precisionshot ENCHANTMENT matches 0 run function att2:dialogs/gameplay/enchantment/no_zero
+execute if score precisionshot ENCHANTMENT matches 1.. unless score precisionshot ENCHANTMENT > now_lvl_show ENCHANTMENT run return run function att2:dialogs/gameplay/enchantment/lvl_up_max
+execute if score precisionshot ENCHANTMENT matches 0 run return run function att2:dialogs/gameplay/enchantment/no_zero
 execute if score precisionshot ENCHANTMENT matches 1.. run function att2:dialogs/gameplay/enchantment/sure2
 execute if score precisionshot ENCHANTMENT matches 1.. store result storage att2:enchantment precisionshot int 1 run scoreboard players get precisionshot ENCHANTMENT
 
@@ -16,6 +17,5 @@ execute store result storage att2:enchantment rune_cost int 1 run scoreboard pla
 #return maco
 execute if score precisionshot ENCHANTMENT matches 1.. if score ready ENCHANTMENT matches 0 run function att2:gameplay/enchantment/add_enchantment/precisionshot with storage att2:enchantment
 execute if score precisionshot ENCHANTMENT matches 1.. unless score ready ENCHANTMENT matches 0 run function att2:dialogs/gameplay/enchantment/lack_material
-execute if score precisionshot ENCHANTMENT matches 1.. unless score precisionshot ENCHANTMENT > now_lvl_show ENCHANTMENT run function att2:dialogs/gameplay/enchantment/lvl_up_max
 #RESET
 scoreboard players reset ready ENCHANTMENT

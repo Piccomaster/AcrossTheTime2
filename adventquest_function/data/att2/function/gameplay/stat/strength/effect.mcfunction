@@ -21,7 +21,7 @@ scoreboard players set #DPS CAL 1000
 scoreboard players operation #DPS CAL += #base_attack_speed CAL
 scoreboard players operation #DPS CAL *= 4 CAL
 scoreboard players operation #DPS CAL *= #base_damage CAL
-
+#tellraw @a ["DPS:",{score:{name:"#DPS",objective:"CAL"}}]
 ##get now str
 scoreboard players operation #percent CAL = @s STR_TOT
 scoreboard players operation #percent CAL *= #percent CAL
@@ -31,13 +31,16 @@ scoreboard players operation #DPS CAL *= #percent CAL
 scoreboard players operation #DPS CAL /= 1000 CAL
 scoreboard players operation #DPS CAL /= 1000 CAL
 
+#tellraw @a ["DPS2:",{score:{name:"#DPS",objective:"CAL"}}]
+
 ##cal liner damage
 scoreboard players operation #damage CAL = @s STR_TOT
 scoreboard players operation #damage CAL *= 2 CAL
 
 ##sum
-#execute store result score #TEMP_1000slay CAL run attribute @s attack_damage modifier value get minecraft:1000slay_attack_damage
-#scoreboard players operation #damage CAL += #TEMP_1000slay CAL
+scoreboard players operation #base_damage CAL /= 2 CAL
+scoreboard players operation #damage CAL -= #base_damage CAL
+#tellraw @a ["DPS2:",{score:{name:"#DPS",objective:"CAL"}}]
 scoreboard players operation #damage CAL += #DPS CAL
 scoreboard players operation @s STR_DATA = #damage CAL
 

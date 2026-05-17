@@ -16,9 +16,9 @@ execute at @n[distance=..10,type=marker,tag=Temp,tag=SpearHit] positioned ~-0.25
 ##Damage CAL
 
 
-execute if score #TEST CAL matches 0 store result score #RNG CAL run random value 30..50
-execute if score #TEST CAL matches 1 store result score #RNG CAL run random value 110..150
-
+execute if score #TEST CAL matches 0 store result score #RNG CAL run random value 20..40
+execute if score #TEST CAL matches 1 store result score #RNG CAL run random value 90..140
+#tellraw @a ["长矛暴击",{score:{name:"#RNG",objective:"CAL"}}]
 scoreboard players operation #reduce_health CAL *= #RNG CAL
 scoreboard players operation #reduce_health CAL /= 100 CAL
 scoreboard players operation #reduce_health CAL > 1 CAL

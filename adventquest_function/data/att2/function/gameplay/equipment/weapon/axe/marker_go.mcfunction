@@ -5,7 +5,6 @@
 
 ##initialize score
 #execute unless score @s LIFETIME matches 0.. run scoreboard players set @s LIFETIME 80
-
 ##
 function att2:gameplay/score/owner
 
@@ -21,8 +20,10 @@ execute at @s[tag=!Once] run function att2:gameplay/equipment/weapon/axe/particl
 ##if now have arrow
 execute on vehicle unless predicate att2_pre:has_vehicle run function att2:gameplay/equipment/weapon/axe/clear
 
+##in ouranos
+execute if score @s LIFETIME matches 60 if entity @p[distance=..50,predicate=att2_pre:score/player,scores={DIMENSION=4..5}] on vehicle on vehicle if data entity @s {inGround:0b} run tp @p[predicate=att2_pre:score/player]
 ##remove score
-#execute unless score @s LIFETIME matches ..0 run return run scoreboard players remove @s LIFETIME 1
+scoreboard players add @s LIFETIME 1
 
 
 ##return player

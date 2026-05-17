@@ -97,16 +97,16 @@ scoreboard players set SPD_LVL5 SPELL_DATA 30
 scoreboard players set SPD_LVL6 SPELL_DATA 30
 scoreboard players set SPD_LVL7 SPELL_DATA 30
 scoreboard players set SPD_LVL8 SPELL_DATA 30
-scoreboard players set SPD_LVL9 SPELL_DATA 45
+scoreboard players set SPD_LVL9 SPELL_DATA 30
 scoreboard players set SPD_LVL10 SPELL_DATA 45
 ##ATK CAL
 scoreboard players set STR_LVL1 SPELL_DATA 0
 scoreboard players set STR_LVL2 SPELL_DATA 4
-scoreboard players set STR_LVL3 SPELL_DATA 8
-scoreboard players set STR_LVL4 SPELL_DATA 12
-scoreboard players set STR_LVL5 SPELL_DATA 12
-scoreboard players set STR_LVL6 SPELL_DATA 16
-scoreboard players set STR_LVL7 SPELL_DATA 24
-scoreboard players set STR_LVL8 SPELL_DATA 32
-scoreboard players set STR_LVL9 SPELL_DATA 32
-scoreboard players set STR_LVL10 SPELL_DATA 36
+scoreboard players set STR_LVL3 SPELL_DATA 4
+scoreboard players set STR_LVL4 SPELL_DATA 8
+scoreboard players set STR_LVL5 SPELL_DATA 8
+scoreboard players set STR_LVL6 SPELL_DATA 8
+scoreboard players set STR_LVL7 SPELL_DATA 12
+scoreboard players set STR_LVL8 SPELL_DATA 16
+scoreboard players set STR_LVL9 SPELL_DATA 16
+scoreboard players set STR_LVL10 SPELL_DATA 16

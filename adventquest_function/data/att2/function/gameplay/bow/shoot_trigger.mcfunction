@@ -34,7 +34,7 @@ tag @s add SHOOTED
 data modify storage att2:bow data set from entity @s
 ##get enchantment lvl
 execute store result score @s ARR_POWER run data get storage att2:bow data.weapon.components."minecraft:enchantments"."minecraft:power"
-scoreboard players add @s ARR_POWER 2
+scoreboard players add @s ARR_POWER 1
 
 execute on origin run scoreboard players operation #PLAYER_POWER CAL = @s STR_TOT
 scoreboard players operation #PLAYER_POWER CAL *= 5 CAL

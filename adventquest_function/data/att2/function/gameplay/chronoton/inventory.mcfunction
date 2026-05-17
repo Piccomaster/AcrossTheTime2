@@ -63,4 +63,4 @@ function att2:sound/misc/coins3
 advancement revoke @s only att2_test:coin/all
 
 ##once tutorial
-execute as @s[advancements={att2:tutorial/trigger/currency=false}] run function att2:gameplay/tutorial/delay/currency
+execute as @s[scores={CHRONOTON=50..},advancements={att2:tutorial/trigger/currency=false}] run function att2:gameplay/tutorial/delay/currency

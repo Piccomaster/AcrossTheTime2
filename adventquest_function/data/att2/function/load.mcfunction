@@ -37,8 +37,8 @@ advancement revoke @s only att2_test:score_trigger
 scoreboard objectives add SYSTEM dummy
 
 ##α command
-execute unless score elytra_racing_update SYSTEM matches 4.. run function att2:gameplay/elytra_racing/initialize
-scoreboard players set elytra_racing_update SYSTEM 4
+execute unless score elytra_racing_update SYSTEM matches 5.. run function att2:gameplay/elytra_racing/initialize
+scoreboard players set elytra_racing_update SYSTEM 5
 
 team add gold
 team modify gold color gold
@@ -85,3 +85,14 @@ scoreboard objectives add statDAMAGEDEALT dummy
 
 scoreboard objectives add SplashPotionTrigger minecraft.used:minecraft.splash_potion
 scoreboard objectives add LingeringPotionTrigger minecraft.used:minecraft.lingering_potion
+
+scoreboard players set lvl1 SPELL41_HER 1
+scoreboard players set lvl2 SPELL41_HER 2
+scoreboard players set lvl3 SPELL41_HER 3
+scoreboard players set lvl4 SPELL41_HER 4
+scoreboard players set lvl5 SPELL41_HER 5
+scoreboard players set lvl6 SPELL41_HER 6
+scoreboard players set lvl7 SPELL41_HER 7
+scoreboard players set lvl8 SPELL41_HER 8
+scoreboard players set lvl9 SPELL41_HER 9
+scoreboard players set lvl10 SPELL41_HER 10

@@ -16,7 +16,7 @@ scoreboard players set #ARMOR_TOUGHNESS CAL 0
 data modify storage att2:temp temp set from entity @s equipment
 ##get atk damage
 execute on attacker store result score #DMG CAL run attribute @s minecraft:attack_damage get
-execute on attacker unless predicate att2_pre:test_hold/equipment/meleeweapon run return run scoreboard players set #DMG CAL 0
+execute on attacker as @s[type=player] unless predicate att2_pre:test_hold/equipment/meleeweapon run return run scoreboard players set #DMG CAL 0
 #tellraw @a ["初始伤害: ",{score:{name:"#DMG",objective:"CAL"}}]
 
 ##protection

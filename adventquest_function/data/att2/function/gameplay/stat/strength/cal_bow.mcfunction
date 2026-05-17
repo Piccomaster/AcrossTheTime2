@@ -5,7 +5,7 @@
 
 ##get enchantment lvl
 execute store result score #ARR_POWER CAL run data get entity @s SelectedItem.components."minecraft:enchantments"."minecraft:power"
-scoreboard players add #ARR_POWER CAL 2
+scoreboard players add #ARR_POWER CAL 1
 
 scoreboard players operation #STR_DATA CAL = @s STR_TOT
 scoreboard players operation #STR_DATA CAL *= 5 CAL

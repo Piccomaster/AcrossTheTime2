@@ -10,7 +10,6 @@ scoreboard players operation @s SPELL23_LVL += @s BONUS_XP_SPELL
 scoreboard players operation @s SPD_SP += 1 CAL
 #timer set
 scoreboard players set @s TIMER_SPD_SP 20
-
 # Retrieving The lvl up (cap) value to compare it to current xp level
 scoreboard players operation @s SPELL_OP = @s SPELL23_LVL
 
