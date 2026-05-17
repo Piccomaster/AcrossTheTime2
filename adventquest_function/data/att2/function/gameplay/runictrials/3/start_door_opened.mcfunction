@@ -4,8 +4,8 @@
 #########################################################################
 
 scoreboard players set door1_trial3 RUNICTRIAL -1
-execute as @a at @s run function att2:sound/misc/missions_progress
-execute positioned -4836 70 -5029 run function att2:sound/door/copper_door_open
+execute as @a at @s run function att2:sound/misc/mission_progress
+execute as @a at @s run function att2:sound/door/copper_door_open
 fill -4830 64 -5028 -4824 62 -5030 minecraft:air
 fill -4850 65 -5019 -4830 62 -5039 minecraft:air replace minecraft:water
 fill -4844 65 -5021 -4844 62 -5021 minecraft:ladder[waterlogged=false] replace minecraft:ladder[waterlogged=true]
