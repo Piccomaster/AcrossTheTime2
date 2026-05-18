@@ -4,9 +4,10 @@
 #################################
 
 ##limit
-execute unless entity @p[distance=..60] run return 0
+execute as @s[type=player] run return fail
+execute unless entity @p[distance=..100] run return 0
 ##if not have head ->Report error
-execute unless items entity @s armor.head * run tellraw @a {text:"No helmet.",color:red}
+#execute unless items entity @s armor.head * run tellraw @a {text:"No helmet.",color:red}
 ##clear enchantment
 item modify entity @s armor.head {function:set_enchantments,enchantments:{"att2_enchantment:tick/mob_initialize":0}}
 ##Initilaize drop_chances

@@ -12,7 +12,7 @@ scoreboard players add @s DAGGER_TIME 40
 scoreboard players set @s[scores={DAGGER_TIME=150..}] DAGGER_TIME 150
 
 
-execute if items entity @s[scores={DAGGER_TIME=100..}] weapon.mainhand #minecraft:shovels run item modify entity @s weapon.mainhand {function:set_components,components:{minimum_attack_charge:0.5,swing_animation:{type:stab}}}
+execute if items entity @s[scores={DAGGER_TIME=100..}] weapon.mainhand #minecraft:shovels run item modify entity @s weapon.mainhand {function:set_components,components:{minimum_attack_charge:0.8,swing_animation:{type:stab}}}
 execute if items entity @s[scores={DAGGER_TIME=100..}] weapon.offhand #minecraft:shovels in overworld run function att2:gameplay/equipment/weapon/dagger/replace_hand
 
 

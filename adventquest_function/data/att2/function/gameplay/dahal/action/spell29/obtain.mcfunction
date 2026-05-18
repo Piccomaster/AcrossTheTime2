@@ -21,3 +21,5 @@ give @s written_book[max_stack_size=1,tooltip_style="minecraft:rarity/epi/epi",c
 
 execute if entity @s[advancements={att2:dahal/spell29_loot=false}] run scoreboard players add Collector SPELLS_COUNT 1
 advancement grant @s only att2:dahal/spell29_loot
+
+#{text:"    ",extra:[{translate:att2.item.dahal.book.spell29.clear,color:dark_green}],click_event:{action:run_command,command:"/trigger ScoreTrigger set 3426"},hover_event:{action:show_text,value:[{translate:att2.item.dahal.book.spell29.clear.hover_event}]}},{text:".ᨓᨉ—ᨒᨆ—ᨎᨔᨎ—ᨆᨒ—ᨉᨓ.",color:gray},{text:"\n"}]}},{raw:{text:"",extra:[{text:".ᨓᨉ—ᨒᨆ—ᨎᨔᨎ—ᨆᨒ—ᨉᨓ.",color:gray},{text:"\n"},{text:""},{text:"\n"},{translate:att2.item.dahal.book.spell_level,color:dark_gray,with:[{score:{name:"@s",objective:"SPELL29_CAP"},color:gold}]},

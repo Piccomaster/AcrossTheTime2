@@ -25,13 +25,6 @@
           {
             "condition": "damage_source_properties",
             "predicate": {
-              "source_entity": {
-                "type": [
-                  "minecraft:player",
-                  "minecraft:wolf",
-                  "minecraft:iron_golem"
-                ]
-              },
                 "tags": [
                   {
                     "id": "minecraft:avoids_guardian_thorns",

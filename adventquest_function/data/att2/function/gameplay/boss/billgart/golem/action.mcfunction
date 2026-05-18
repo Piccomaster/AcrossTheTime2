@@ -87,7 +87,8 @@ execute if block -1321 128 -558 minecraft:emerald_block if score GolemBoss_hurt1
 execute if score GolemBoss_hurt14 BILLGART matches 1..150 run scoreboard players remove GolemBoss_hurt14 BILLGART 1
 execute if block -1334 125 -570 minecraft:emerald_block if score GolemBoss_hurt15 BILLGART matches ..0 run function att2:gameplay/boss/billgart/golem/hurt15_regen
 execute if score GolemBoss_hurt15 BILLGART matches 1..150 run scoreboard players remove GolemBoss_hurt15 BILLGART 1
-
+##resummon bow
+execute if score GolemBoss_timer1 BILLGART matches 1111 run function att2:gameplay/boss/billgart/golem/summon_bow
 
 # Iteration
 execute if score GolemBoss_timer1 BILLGART matches ..1110 run scoreboard players add GolemBoss_timer1 BILLGART 1

@@ -21,6 +21,8 @@ $execute align xyz positioned ~0.5 ~ ~0.5 run function att2:gameplay/misc/horse/
 scoreboard players operation @n[distance=..5,type=#minecraft:rideable,tag=Store] OWNER = @s NUMEROJOUEUR
 ##add saddle
 data modify entity @n[distance=..5,type=#minecraft:rideable,tag=Store] equipment set from entity @n[distance=..5,type=#minecraft:rideable,tag=Store] data.equipment
+item modify entity @n[distance=..5,type=#minecraft:rideable,tag=Store] saddle {function:set_enchantments,enchantments:{"att2_enchantment:unremoved":1}}
+
 ##remove store tag
 tag @n[type=#minecraft:rideable,tag=Store] remove Store
 ##reset
