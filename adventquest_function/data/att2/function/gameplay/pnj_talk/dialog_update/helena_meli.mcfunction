@@ -17,6 +17,8 @@ execute unless score ryliath_dailyquest_11 DAILYQUEST matches 1.. if score helen
 execute if score ryliath_dailyquest_11 DAILYQUEST matches 3.. unless score Ryliath HORSERACE matches 3 run function att2:dialogs/dailyquest/ryliath/dq11/helena_meli/dialog_1
 execute if score Ryliath HORSERACE matches 3 run function att2:dialogs/dailyquest/ryliath/dq11/helena_meli/dialog_2
 
+##tip
+execute if score horse_timer SQ19 matches 0..100000 run function att2:dialogs/sidequest/sq19/helena_meli/dialog_7
 #Activation entity head movement
 scoreboard players set 00000000-0000-027a-0000-00000000027a TALKING 1
 scoreboard players set 00000000-0000-027a-0000-00000000027a PNJID 71

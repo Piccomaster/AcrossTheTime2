@@ -3,6 +3,7 @@
 #Detect secrets in this dimension							    #
 #################################################################
 
+kill @e[type=minecraft:shulker,tag=npcmarker,distance=..128]
 ##maze 1
 execute if score number MAZE matches 1 run function att2:gameplay/dahal/action/spell34/detection/maze_1
 ##maze 2

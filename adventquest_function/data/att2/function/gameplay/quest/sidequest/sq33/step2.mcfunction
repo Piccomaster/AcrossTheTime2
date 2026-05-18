@@ -4,7 +4,8 @@
 #####################################################################
 
 function att2:dialogs/sidequest/assistance/sq33/step2
-scoreboard players operation #minutes CAL = mortimer_timer SQ33
+scoreboard players set #minutes CAL 288000
+scoreboard players operation #minutes CAL -= mortimer_timer SQ33
 scoreboard players operation #minutes CAL /= 20 CAL
 scoreboard players operation #minutes CAL /= 60 CAL
 tellraw @s [{translate:att2.quest.assistance.sq33.time,color:aqua,with:[{score:{name:"#minutes",objective:"CAL"}}],color:aqua}]

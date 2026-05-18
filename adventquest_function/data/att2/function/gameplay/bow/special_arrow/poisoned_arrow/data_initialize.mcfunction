@@ -30,6 +30,9 @@ tag @e[distance=..5,type=armor_stand,tag=New,tag=PoisonedArrow] remove New
 #tag @e[distance=..5,type=item_display,tag=New,tag=PoisonedArrow] remove New
 
 ##remove infinite ARROW
+execute if data storage att2:bow data.weapon.components."minecraft:enchantments"."minecraft:infinity" run data modify entity @s pickup set value 1
+execute if data storage att2:bow data.weapon.components."minecraft:enchantments"."minecraft:infinity" run data remove entity @s item.components."minecraft:intangible_projectile"
+
 execute if score #lvl CAL matches 1 if data storage att2:bow data.weapon.components."minecraft:enchantments"."minecraft:infinity" on origin run clear @s arrow[custom_name=[{translate:att2.item.special_arrow.poisoned_arrow_1.name}]] 1
 execute if score #lvl CAL matches 2 if data storage att2:bow data.weapon.components."minecraft:enchantments"."minecraft:infinity" on origin run clear @s arrow[custom_name=[{translate:att2.item.special_arrow.poisoned_arrow_2.name}]] 1 
 execute if score #lvl CAL matches 3 if data storage att2:bow data.weapon.components."minecraft:enchantments"."minecraft:infinity" on origin run clear @s arrow[custom_name=[{translate:att2.item.special_arrow.poisoned_arrow_3.name}]] 1

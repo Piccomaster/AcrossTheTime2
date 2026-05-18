@@ -53,3 +53,11 @@ tellraw @s[scores={LANGUAGE=10}] [{object:player,player:{properties:[{name:"text
 
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODA2NzhkYTFmYjI2NGVlZTY1YjlkZWQ0NGU4Nzc0MGRhMmUxMzVlNGUyYjk1NjdmOTI0OGMwZGExNjczMCJ9fX0="}]}},{text:" °-° Hélèna Meli : ",color:"green",extra:[{text:"嘿，等我的马恢复好了再来找我，你得给它们恢复的时间。",color:"dark_aqua"}]}]
+
+
+scoreboard players set #minutes CAL 100000
+scoreboard players operation #minutes CAL -= horse_timer SQ19
+scoreboard players operation #minutes CAL /= 20 CAL
+scoreboard players operation #minutes CAL /= 60 CAL
+scoreboard players operation #minutes CAL > 1 CAL
+tellraw @s [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODA2NzhkYTFmYjI2NGVlZTY1YjlkZWQ0NGU4Nzc0MGRhMmUxMzVlNGUyYjk1NjdmOTI0OGMwZGExNjczMCJ9fX0="}]}},{text:" °-° Hélèna Meli : ",color:"green"},{translate:att2.quest.assistance.sq19.time,color:aqua,with:[{score:{name:"#minutes",objective:"CAL"}}],color:dark_aqua}]
