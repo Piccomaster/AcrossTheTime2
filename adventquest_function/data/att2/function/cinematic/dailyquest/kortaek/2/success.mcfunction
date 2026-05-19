@@ -44,6 +44,7 @@ tellraw @a [{translate:att2.dailyquest.kortaek.2.reward.other}]
 function att2:cinematic/dailyquest/kortaek/2/reset
 ##add quest completed count
 scoreboard players add kortaek_dailyquest_completed_count DAILYQUEST 1
+scoreboard players add dailyquest_completed_count DAILYQUEST 1
 scoreboard players set kortaek_dailyquest_2_completed DAILYQUEST 1
 
 ##clear 
@@ -54,3 +55,6 @@ execute at @a run loot spawn ~ ~ ~ loot att2:dailyquest/random_equipment/leg_pot
 execute at @a run loot spawn ~ ~ ~ loot att2:dailyquest/random_equipment/leg_potion
 execute at @a run loot spawn ~ ~ ~ loot att2:dailyquest/random_equipment/leg_potion
 execute at @a run loot spawn ~ ~ ~ loot att2:dailyquest/random_equipment/leg_potion
+
+##trigger adv
+function att2:advancement/test_all/dailyquest/kortaek

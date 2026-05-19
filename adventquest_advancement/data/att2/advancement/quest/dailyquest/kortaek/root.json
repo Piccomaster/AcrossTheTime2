@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:black_banner",
+            "components":{"minecraft:base_color":"black","banner_patterns":[{"color":"light_gray","pattern":"minecraft:gradient"},{"color":"light_gray","pattern":"minecraft:curly_border"},{"color":"light_gray","pattern":"minecraft:curly_border"},{"color":"brown","pattern":"minecraft:triangles_bottom"},{"color":"yellow","pattern":"minecraft:triangles_bottom"},{"color":"orange","pattern":"minecraft:flower"},{"color":"yellow","pattern":"minecraft:flower"},{"color":"yellow","pattern":"minecraft:rhombus"},{"color":"yellow","pattern":"minecraft:rhombus"},{"color":"orange","pattern":"minecraft:circle"},{"color":"yellow","pattern":"minecraft:circle"},{"color":"red","pattern":"minecraft:gradient_up"}]}
+        },
+        "title": {
+            "translate": "att2.advancement.quest.dailyquest.kortaek.title.root"
+        },
+        "description": {
+            "translate": "att2.advancement.quest.dailyquest.kortaek.description.root"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "frame": "goal"
+    },
+    "parent": "att2:quest/dailyquest/root",
+    "rewards": {
+        "experience": 200
+    },
+    "criteria": {
+        "root": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

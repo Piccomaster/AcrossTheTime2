@@ -43,4 +43,8 @@ tellraw @a [{translate:att2.dailyquest.rewards.add.phoenix.city_donation,with:[{
 function att2:cinematic/dailyquest/phoenix/2/reset
 ##add quest completed count
 scoreboard players add phoenix_dailyquest_completed_count DAILYQUEST 1
+scoreboard players add dailyquest_completed_count DAILYQUEST 1
 scoreboard players add phoenix_dailyquest_2_completed DAILYQUEST 1
+
+##trigger adv
+function att2:advancement/test_all/dailyquest/phoenix

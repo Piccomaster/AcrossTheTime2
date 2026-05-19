@@ -44,6 +44,7 @@ tellraw @a [{translate:att2.dailyquest.eolorion.2.reward.other}]
 function att2:cinematic/dailyquest/eolorion/2/reset
 ##add quest completed count
 scoreboard players add eolorion_dailyquest_completed_count DAILYQUEST 1
+scoreboard players add dailyquest_completed_count DAILYQUEST 1
 scoreboard players set eolorion_dailyquest_2_completed DAILYQUEST 1
 
 
@@ -58,3 +59,6 @@ execute as @a run function att2:items/fishing/bait/epi
 execute as @a run function att2:items/fishing/bait/epi
 execute as @a run function att2:items/fishing/bait/epi
 execute as @a run function att2:items/fishing/bait/epi
+
+##trigger adv
+function att2:advancement/test_all/dailyquest/eolorion

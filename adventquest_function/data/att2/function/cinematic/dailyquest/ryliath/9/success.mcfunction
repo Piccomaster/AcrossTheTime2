@@ -43,6 +43,7 @@ tellraw @a [{translate:att2.dailyquest.rewards.add.ryliath.city_donation,with:[{
 function att2:cinematic/dailyquest/ryliath/9/reset
 ##add quest completed count
 scoreboard players add ryliath_dailyquest_completed_count DAILYQUEST 1
+scoreboard players add dailyquest_completed_count DAILYQUEST 1
 scoreboard players set ryliath_dailyquest_9_completed DAILYQUEST 1
 
 
@@ -112,3 +113,6 @@ execute as @e[distance=..10,type=marker,tag=RNG_TEMP,limit=1,sort=random] at @s 
 
 ##clear
 kill @e[distance=..10,type=marker,tag=RNG_TEMP]
+
+##trigger adv
+function att2:advancement/test_all/dailyquest/ryliath

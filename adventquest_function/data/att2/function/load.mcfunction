@@ -96,3 +96,20 @@ scoreboard players set lvl7 SPELL41_HER 7
 scoreboard players set lvl8 SPELL41_HER 8
 scoreboard players set lvl9 SPELL41_HER 9
 scoreboard players set lvl10 SPELL41_HER 10
+
+
+##cal all dailyquest
+scoreboard players operation dailyquest_completed_count DAILYQUEST = eolorion_dailyquest_completed_count DAILYQUEST
+scoreboard players operation dailyquest_completed_count DAILYQUEST += kortaek_dailyquest_completed_count DAILYQUEST
+scoreboard players operation dailyquest_completed_count DAILYQUEST += meleim_dailyquest_completed_count DAILYQUEST
+scoreboard players operation dailyquest_completed_count DAILYQUEST += phoenix_dailyquest_completed_count DAILYQUEST
+scoreboard players operation dailyquest_completed_count DAILYQUEST += ryliath_dailyquest_completed_count DAILYQUEST
+scoreboard players operation dailyquest_completed_count DAILYQUEST += zirthion_dailyquest_completed_count DAILYQUEST
+
+##update dailyquest
+function att2:advancement/test_all/dailyquest/eolorion
+function att2:advancement/test_all/dailyquest/kortaek
+function att2:advancement/test_all/dailyquest/meleim
+function att2:advancement/test_all/dailyquest/phoenix
+function att2:advancement/test_all/dailyquest/ryliath
+function att2:advancement/test_all/dailyquest/zirthion

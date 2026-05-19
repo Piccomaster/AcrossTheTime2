@@ -22,8 +22,8 @@
             {
                 "amount": {
                     "type": "linear",
-                    "base": -0.05,
-                    "per_level_above_first": -0.05
+                    "base": -0.1,
+                    "per_level_above_first": -0.1
                 },
                 "attribute": "minecraft:attack_damage",
                 "id": "quick_attack",

@@ -44,6 +44,7 @@ tellraw @a [{translate:att2.dailyquest.eolorion.3.reward.other}]
 function att2:cinematic/dailyquest/eolorion/3/reset
 ##add quest completed count
 scoreboard players add eolorion_dailyquest_completed_count DAILYQUEST 1
+scoreboard players add dailyquest_completed_count DAILYQUEST 1
 scoreboard players set eolorion_dailyquest_3_completed DAILYQUEST 1
 
 ##clear
@@ -52,3 +53,6 @@ clear @s glowstone_dust[custom_name={translate:'item.rune.name.6'}] 4
 
 ##Other: A randomly Rune Enchantment equipment
 execute at @a run loot spawn ~ ~ ~ loot att2:dailyquest/random_equipment/carmine_mordan_epi_rune_enchantment
+
+##trigger adv
+function att2:advancement/test_all/dailyquest/eolorion

@@ -45,8 +45,12 @@ tellraw @a {translate:att2.dailyquest.ryliath.8.reward.other,color:"blue"}
 function att2:cinematic/dailyquest/ryliath/8/reset
 ##add quest completed count
 scoreboard players add ryliath_dailyquest_completed_count DAILYQUEST 1
+scoreboard players add dailyquest_completed_count DAILYQUEST 1
 scoreboard players set ryliath_dailyquest_8_completed DAILYQUEST 1
 
 ##rewards other
 scoreboard players add points RECYCLER 100
 function att2:items/chronoton/esc_give_maco {count:10}
+
+##trigger adv
+function att2:advancement/test_all/dailyquest/ryliath

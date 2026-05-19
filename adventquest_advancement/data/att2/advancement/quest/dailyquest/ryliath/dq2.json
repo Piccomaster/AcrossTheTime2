@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:barrier",
+            "components": {
+                "item_model": "dailyquest/tip"
+            }
+        },
+        "title": {
+            "translate": "att2.advancement.quest.dailyquest.ryliath.title.dq2"
+        },
+        "description": {
+            "translate": "att2.advancement.quest.dailyquest.description.complete"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "frame": "goal"
+    },
+    "parent": "att2:quest/dailyquest/ryliath/dq1",
+    "rewards": {
+        "experience": 200
+    },
+    "criteria": {
+        "dq2": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

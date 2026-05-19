@@ -44,9 +44,13 @@ tellraw @a [{translate:att2.dailyquest.meleim.8.reward.other}]
 function att2:cinematic/dailyquest/meleim/8/reset
 ##add quest completed count
 scoreboard players add meleim_dailyquest_completed_count DAILYQUEST 1
+scoreboard players add dailyquest_completed_count DAILYQUEST 1
 scoreboard players set meleim_dailyquest_8_completed DAILYQUEST 1
 
 
 ##rewards other
 scoreboard players add points RECYCLER 200
 function att2:items/chronoton/esc_give_maco {count:15}
+
+##trigger adv
+function att2:advancement/test_all/dailyquest/meleim

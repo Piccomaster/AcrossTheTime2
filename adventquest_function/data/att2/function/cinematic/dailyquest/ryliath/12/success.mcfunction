@@ -44,4 +44,8 @@ tellraw @a [{translate:att2.dailyquest.rewards.add.ryliath.city_donation,with:[{
 function att2:cinematic/dailyquest/ryliath/12/reset
 ##add quest completed count
 scoreboard players add ryliath_dailyquest_completed_count DAILYQUEST 1
+scoreboard players add dailyquest_completed_count DAILYQUEST 1
 scoreboard players set ryliath_dailyquest_12_completed DAILYQUEST 1
+
+##trigger adv
+function att2:advancement/test_all/dailyquest/ryliath

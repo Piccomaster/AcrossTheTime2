@@ -42,4 +42,5 @@ tellraw @a [{translate:att2.dailyquest.rewards.add.zirthion.city_donation,with:[
 function att2:cinematic/dailyquest/zirthion/9/reset
 ##add quest completed count
 scoreboard players add zirthion_dailyquest_completed_count DAILYQUEST 1
+scoreboard players add dailyquest_completed_count DAILYQUEST 1
 scoreboard players set zirthion_dailyquest_9_completed DAILYQUEST 1
