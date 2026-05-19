@@ -8,6 +8,8 @@ execute unless score @s LIFETIME matches 0.. run scoreboard players set @s LIFET
 scoreboard players remove @s LIFETIME 1
 # Fireball melting ice
 execute if score true Fire_Melting matches 1 on vehicle at @s run function att2:gameplay/dahal/action/spell1/enable_fire_melting
+# Fireball lightning candle
+execute if score true Candle_Lighting matches 1 on vehicle at @s run function att2:cinematic/misc/trial_dungeon/candle_check
 # Fireball explosion
 ##test enemy near
 execute align xyz positioned ~-1 ~-1 ~-1 if entity @e[dx=2,dy=2,dz=2,scores={GAMELEVEL=0..},team=hostile] at @s run return run function att2:gameplay/dahal/action/spell1/explosion with storage att2:spell_1

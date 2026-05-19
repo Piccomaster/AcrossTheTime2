@@ -8,6 +8,7 @@ execute at @s align xyz positioned ~-2.5 ~-2.5 ~-2.5 as @e[dx=6,dy=6,dz=6,scores
 execute as @s run function att2:gameplay/dahal/action/spell3/damage_cal
 execute at @s align xyz positioned ~-2.5 ~-2.5 ~-2.5 as @e[dx=6,dy=6,dz=6,scores={GAMELEVEL=0..},team=hostile,tag=!FB_DAHAL] run function att2:gameplay/dahal/action/spell3/damage
 execute if score true Fire_Melting matches 1 run function att2:gameplay/dahal/action/spell3/enable_fire_melting
+execute if score true Candle_Lighting matches 1 at @s run function att2:cinematic/misc/trial_dungeon/candle_check
 
 particle minecraft:item{item:"minecraft:soul_lantern"} ~ ~1 ~ 0 0 0 1 20 normal
 particle minecraft:soul ~ ~1 ~ 0 0 0 0.5 20 normal
