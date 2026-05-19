@@ -4,7 +4,7 @@
 ##################################################
 
 ##once tutorial
-execute as @s[advancements={att2:tutorial/trigger/dailyquest=false}] run function att2:gameplay/tutorial/delay/dailyquest
+#execute as @s[advancements={att2:tutorial/trigger/dailyquest=false}] run function att2:gameplay/tutorial/delay/dailyquest
 advancement grant @s only att2:tutorial/trigger/dailyquest
 
 ##tag remove
