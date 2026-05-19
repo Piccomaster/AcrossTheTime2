@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:barrier",
+            "components": {
+                "item_model": "dailyquest/tip"
+            }
+        },
+        "title": {
+            "translate": "att2.advancement.quest.dailyquest.title.complete_60"
+        },
+        "description": {
+            "translate": "att2.advancement.quest.dailyquest.description.complete_60"
+        },
+        "frame": "goal"
+    },
+    "parent": "att2:quest/dailyquest/complete_60",
+    "rewards": {
+        "experience": 10000
+    },
+    "criteria": {
+        "complete_60": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

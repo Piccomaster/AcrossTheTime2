@@ -43,4 +43,8 @@ tellraw @a [{translate:att2.dailyquest.rewards.add.eolorion.city_donation,with:[
 function att2:cinematic/dailyquest/eolorion/6/reset
 ##add quest completed count
 scoreboard players add eolorion_dailyquest_completed_count DAILYQUEST 1
+scoreboard players add dailyquest_completed_count DAILYQUEST 1
 scoreboard players set eolorion_dailyquest_6_completed DAILYQUEST 1
+
+##trigger adv
+function att2:advancement/test_all/dailyquest/eolorion

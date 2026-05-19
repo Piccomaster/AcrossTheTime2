@@ -44,8 +44,12 @@ tellraw @a [{translate:att2.dailyquest.kortaek.1.reward.other}]
 function att2:cinematic/dailyquest/kortaek/1/reset
 ##add quest completed count
 scoreboard players add kortaek_dailyquest_completed_count DAILYQUEST 1
+scoreboard players add dailyquest_completed_count DAILYQUEST 1
 scoreboard players set kortaek_dailyquest_1_completed DAILYQUEST 1
 
 ## legendary equipment x 2
 execute at @a run loot spawn ~ ~ ~ loot att2:dailyquest/random_equipment/leg_equipment
 execute at @a run loot spawn ~ ~ ~ loot att2:dailyquest/random_equipment/leg_equipment
+
+##trigger adv
+function att2:advancement/test_all/dailyquest/kortaek

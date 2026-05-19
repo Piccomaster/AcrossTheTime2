@@ -14,11 +14,16 @@ $execute if entity @s[type=horse] run data modify storage att2:ride_$(player) id
 $execute if entity @s[type=camel] run data modify storage att2:ride_$(player) id set value camel
 $execute if entity @s[type=pig] run data modify storage att2:ride_$(player) id set value pig
 $execute if entity @s[type=mule] run data modify storage att2:ride_$(player) id set value mule
+
+##unremoved
+item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:unremoved":1}}
 ##
 $data modify storage att2:ride_$(player) data set from entity @s
 $data remove storage att2:ride_$(player) data.UUID
 $data remove storage att2:ride_$(player) data.Rotation
 $data remove storage att2:ride_$(player) data.Passengers
+##remove items
+data remove entity @s Items
 #particle
 function att2:gameplay/misc/horse/particles
 #kill @s

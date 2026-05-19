@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:barrier",
+            "components": {
+                "item_model": "dailyquest/tip"
+            }
+        },
+        "title": {
+            "translate": "att2.advancement.quest.dailyquest.title.root"
+        },
+        "description": {
+            "translate": "att2.advancement.quest.dailyquest.description.root"
+        },
+        "frame": "goal"
+    },
+    "parent": "att2:quest/root",
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:book",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "consciousness": true
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

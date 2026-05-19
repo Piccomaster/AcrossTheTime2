@@ -31,8 +31,8 @@ execute if score #lvl CAL matches 2 run function att2:gameplay/bow/special_arrow
 execute if score #lvl CAL matches 3 run function att2:gameplay/bow/special_arrow/tracking_arrow/range_effect_3
 #range damage
 execute if score #lvl CAL matches 1 at @s positioned ~-1 ~-1 ~-1 as @e[dx=2,dy=2,dz=2,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/bow/arrow_damage
-execute if score #lvl CAL matches 2 at @s positioned ~-1.5 ~-1.5 ~-1.5 as @e[dx=3,dy=3,dz=3,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/bow/arrow_damage
-execute if score #lvl CAL matches 3 at @s positioned ~-2 ~-2 ~-2 as @e[dx=4,dy=4,dz=4,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/bow/arrow_damage
+execute if score #lvl CAL matches 2 at @s positioned ~-1.25 ~-1.25 ~-1.25 as @e[dx=2.5,dy=2.5,dz=2.5,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/bow/arrow_damage
+execute if score #lvl CAL matches 3 at @s positioned ~-1.5 ~-1.5 ~-1.5 as @e[dx=3,dy=3,dz=3,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run function att2:gameplay/bow/arrow_damage
 
 ##clear arrow
 data remove storage att2:score damage

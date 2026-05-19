@@ -45,6 +45,7 @@ tellraw @a [{translate:att2.dailyquest.meleim.1.reward.other}]
 function att2:cinematic/dailyquest/meleim/1/reset
 ##add quest completed count
 scoreboard players add meleim_dailyquest_completed_count DAILYQUEST 1
+scoreboard players add dailyquest_completed_count DAILYQUEST 1
 scoreboard players set meleim_dailyquest_1_completed DAILYQUEST 1
 
 ##10 rar bait
@@ -58,3 +59,6 @@ execute as @a run function att2:items/fishing/bait/rar
 execute as @a run function att2:items/fishing/bait/rar
 execute as @a run function att2:items/fishing/bait/rar
 execute as @a run function att2:items/fishing/bait/rar
+
+##trigger adv
+function att2:advancement/test_all/dailyquest/meleim

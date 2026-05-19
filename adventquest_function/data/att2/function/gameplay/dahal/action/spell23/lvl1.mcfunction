@@ -7,6 +7,7 @@
 execute at @s as @e[type=#att2_entity:sp_follow_pet,scores={OWNER=0..}] if score @s OWNER = @a[distance=..0,limit=1] NUMEROJOUEUR at @s run function att2:gameplay/dahal/pet/kill
 function att2:summon/dahal/parrot0_class0
 scoreboard players operation @e[type=parrot,tag=NewPet] OWNER = @s NUMEROJOUEUR
+scoreboard players set @e[type=parrot,tag=NewPet] DAMAGEREDUCE 100
 execute as @e[type=parrot,tag=NewPet] run tag @s add AgilityPet1
 execute as @e[type=parrot,tag=NewPet] run tag @s remove NewPet
 execute as @e[type=parrot,tag=NewInvo,distance=..10] run function att2:gameplay/invocation/action/summon

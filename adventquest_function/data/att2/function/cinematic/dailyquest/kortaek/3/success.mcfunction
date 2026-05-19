@@ -44,6 +44,7 @@ tellraw @a [{translate:att2.dailyquest.kortaek.3.reward.other}]
 function att2:cinematic/dailyquest/kortaek/3/reset
 ##add quest completed count
 scoreboard players add kortaek_dailyquest_completed_count DAILYQUEST 1
+scoreboard players add dailyquest_completed_count DAILYQUEST 1
 scoreboard players set kortaek_dailyquest_3_completed DAILYQUEST 1
 
 #clear rune
@@ -52,3 +53,6 @@ clear @s glowstone_dust[custom_name={translate:'item.rune.name.18'}] 1
 
 ##Other: A randomly Rune Enchantment equipment
 execute at @a run loot spawn ~ ~ ~ loot att2:dailyquest/random_equipment/xoltan_zahav_leg_rune_enchantment
+
+##trigger adv
+function att2:advancement/test_all/dailyquest/kortaek

@@ -14,7 +14,7 @@ scoreboard players operation #INJURED CAL = @s INJURED
 scoreboard players operation #INJURED CAL %= 10 CAL
 
 ##add health
-execute if score @s HER_FOOD matches 1.. run scoreboard players add @s HER_VALUE 600
+execute if score @s HER_FOOD matches 1.. run scoreboard players add @s HER_VALUE 500
 
 ##effect
 #execute if score #INJURED CAL matches 1 run function att2:gameplay/death/injured/head_go

@@ -45,6 +45,7 @@ tellraw @a [{translate:att2.dailyquest.meleim.5.reward.other}]
 function att2:cinematic/dailyquest/meleim/5/reset
 ##add quest completed count
 scoreboard players add meleim_dailyquest_completed_count DAILYQUEST 1
+scoreboard players add dailyquest_completed_count DAILYQUEST 1
 scoreboard players set meleim_dailyquest_5_completed DAILYQUEST 1
 
 ##clear rune
@@ -54,3 +55,6 @@ clear @s glowstone_dust[custom_name={translate:'item.rune.name.11'}] 1
 
 ##rewards
 execute as @a run function att2:items/runes/words/rune_bundle_no_recipe
+
+##trigger adv
+function att2:advancement/test_all/dailyquest/meleim

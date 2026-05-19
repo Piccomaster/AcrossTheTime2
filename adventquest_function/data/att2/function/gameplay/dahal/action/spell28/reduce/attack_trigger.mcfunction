@@ -6,7 +6,5 @@
 #10 count-> reduce damage
 scoreboard players add @s SPELL28_EFFECT 1
 #effect
-execute if score @s SPELL28_EFFECT matches 3.. run function att2:gameplay/dahal/action/spell28/reduce/select
-#reset
-scoreboard players reset @s[scores={SPELL28_EFFECT=3..}] SPELL28_EFFECT
+execute if score @s SPELL28_EFFECT matches 4.. run function att2:gameplay/dahal/action/spell28/reduce/select
 advancement revoke @s only att2_test:dahal/spell28/attack_trigger

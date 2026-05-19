@@ -42,4 +42,8 @@ tellraw @a [{translate:att2.dailyquest.rewards.add.kortaek.city_donation,with:[{
 function att2:cinematic/dailyquest/kortaek/8/reset
 ##add quest completed count
 scoreboard players add kortaek_dailyquest_completed_count DAILYQUEST 1
+scoreboard players add dailyquest_completed_count DAILYQUEST 1
 scoreboard players set kortaek_dailyquest_8_completed DAILYQUEST 1
+
+##trigger adv
+function att2:advancement/test_all/dailyquest/kortaek

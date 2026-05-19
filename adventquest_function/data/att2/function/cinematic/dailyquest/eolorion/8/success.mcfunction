@@ -50,4 +50,8 @@ tellraw @a [{translate:att2.dailyquest.eolorion.8.reward.other,with:[{score:{nam
 function att2:cinematic/dailyquest/eolorion/8/reset
 ##add quest completed count
 scoreboard players add eolorion_dailyquest_completed_count DAILYQUEST 1
+scoreboard players add dailyquest_completed_count DAILYQUEST 1
 scoreboard players set eolorion_dailyquest_8_completed DAILYQUEST 1
+
+##trigger adv
+function att2:advancement/test_all/dailyquest/eolorion

@@ -44,8 +44,12 @@ tellraw @a [{translate:att2.dailyquest.eolorion.4.reward.other}]
 function att2:cinematic/dailyquest/eolorion/4/reset
 ##add quest completed count
 scoreboard players add eolorion_dailyquest_completed_count DAILYQUEST 1
+scoreboard players add dailyquest_completed_count DAILYQUEST 1
 scoreboard players set eolorion_dailyquest_4_completed DAILYQUEST 1
 
 ##rewards other
 scoreboard players add points RECYCLER 300
 function att2:items/chronoton/esc_give_maco {count:20}
+
+##trigger adv
+function att2:advancement/test_all/dailyquest/eolorion

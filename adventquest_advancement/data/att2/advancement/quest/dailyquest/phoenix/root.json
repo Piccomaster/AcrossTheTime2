@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:orange_banner",
+            "components":{"banner_patterns":[{"color":"yellow","pattern":"minecraft:triangle_top"},{"color":"yellow","pattern":"minecraft:gradient"},{"color":"white","pattern":"minecraft:triangles_top"},{"color":"orange","pattern":"minecraft:triangle_bottom"},{"color":"red","pattern":"minecraft:gradient_up"},{"color":"red","pattern":"minecraft:triangles_bottom"},{"color":"purple","pattern":"minecraft:curly_border"},{"color":"red","pattern":"minecraft:curly_border"}]}
+        },
+        "title": {
+            "translate": "att2.advancement.quest.dailyquest.phoenix.title.root"
+        },
+        "description": {
+            "translate": "att2.advancement.quest.dailyquest.phoenix.description.root"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "frame": "goal"
+    },
+    "parent": "att2:quest/dailyquest/root",
+    "rewards": {
+        "experience": 200
+    },
+    "criteria": {
+        "root": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

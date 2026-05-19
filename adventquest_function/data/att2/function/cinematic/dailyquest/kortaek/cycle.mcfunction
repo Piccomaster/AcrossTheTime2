@@ -6,17 +6,36 @@
 ##remove cycle
 execute if score kortaek_cycle_time DAILYQUEST matches 1.. run scoreboard players remove kortaek_cycle_time DAILYQUEST 1
 ##add update score
-execute unless score kortaek_cycle_time DAILYQUEST matches 1.. run scoreboard players add kortaek_update_count DAILYQUEST 1
-execute unless score kortaek_cycle_time DAILYQUEST matches 1.. run scoreboard players operation kortaek_cycle_time DAILYQUEST = kortaek_cycle_time_set DAILYQUEST
+execute unless score kortaek_cycle_time DAILYQUEST matches 1.. run function att2:cinematic/dailyquest/kortaek/update_score
 ##if player nearly -> update
-execute unless score kortaek_update_count DAILYQUEST matches 1.. run return 0
 execute unless entity @a[distance=..20] run return 0
+
+##reward limit
+execute if score ffffeab8-0000-0034-ffff-eda300000001 DAILYQUEST matches 1.. run function att2:cinematic/dailyquest/kortaek/summon_reward_block
+execute if score kortaek_city_donation_accumulated_value DAILYQUEST matches 1.. positioned -5448 49 -4698 unless block ~ ~ ~ minecraft:decorated_pot run function att2:cinematic/dailyquest/kortaek/reward_trigger
+
+##count limit
+execute unless score kortaek_update_count DAILYQUEST matches 1.. run return 0
 ##max ->limit
 execute store result score #count CAL if entity @e[type=interaction,tag=HaveQuest,tag=QuestBoard,tag=Request,distance=..20]
 execute if score #count CAL matches 6.. run return fail
 
 ##rng select quest
 scoreboard players remove kortaek_update_count DAILYQUEST 1
+
+
+#######DailyQuest 9 : Sylberland Divine Steed Challenge: Finals.
+#random value
+execute store result score #RNG CAL run random value 1..100
+#set id
+data modify storage att2:dailyquest rng_selectid set value 9
+#Guarantee Mechanism
+execute unless score kortaek_dailyquest_9_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 1
+#other limit
+execute if score kortaek_dailyquest_9 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
+execute unless score eolorion_dailyquest_9_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
+#rng select
+execute if score #RNG CAL matches 1..100 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:9}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
 #######DailyQuest 1 : The path to wealth.
 #random value
@@ -116,19 +135,6 @@ execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=inte
 #execute if score kortaek_dailyquest_8 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
 #rng select
 #execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:8}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
-
-#######DailyQuest 9 : Sylberland Divine Steed Challenge: Finals.
-#random value
-execute store result score #RNG CAL run random value 1..100
-#set id
-data modify storage att2:dailyquest rng_selectid set value 9
-#Guarantee Mechanism
-execute unless score kortaek_dailyquest_9_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 1
-#other limit
-execute if score kortaek_dailyquest_9 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
-execute unless score eolorion_dailyquest_9_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
-#rng select
-execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:9}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
 #######DailyQuest 10 : Silent Crisis
 #random value

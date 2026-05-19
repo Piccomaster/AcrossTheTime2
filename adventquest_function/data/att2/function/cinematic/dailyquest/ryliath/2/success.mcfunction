@@ -44,6 +44,7 @@ tellraw @a [{translate:att2.dailyquest.rewards.add.ryliath.city_donation,with:[{
 function att2:cinematic/dailyquest/ryliath/2/reset
 ##add quest completed count
 scoreboard players add ryliath_dailyquest_completed_count DAILYQUEST 1
+scoreboard players add dailyquest_completed_count DAILYQUEST 1
 scoreboard players set ryliath_dailyquest_2_completed DAILYQUEST 1
 
 ##clear materials
@@ -53,3 +54,6 @@ clear @s glowstone_dust[custom_name={translate:'item.rune.name.5'}] 1
 
 ##Other: A randomly Rune Enchantment equipment
 execute at @a run loot spawn ~ ~ ~ loot att2:dailyquest/random_equipment/wulk_rar_rune_enchantment
+
+##trigger adv
+function att2:advancement/test_all/dailyquest/ryliath

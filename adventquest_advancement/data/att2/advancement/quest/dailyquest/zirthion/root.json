@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:black_banner",
+            "components":{"minecraft:base_color":"black","banner_patterns":[{"color":"yellow","pattern":"minecraft:gradient"},{"color":"yellow","pattern":"minecraft:curly_border"},{"color":"light_gray","pattern":"minecraft:curly_border"},{"color":"gray","pattern":"minecraft:triangles_bottom"},{"color":"white","pattern":"minecraft:triangles_bottom"},{"color":"white","pattern":"minecraft:gradient_up"},{"color":"white","pattern":"minecraft:flower"},{"color":"yellow","pattern":"minecraft:flower"},{"color":"orange","pattern":"minecraft:circle"},{"color":"white","pattern":"minecraft:circle"},{"color":"white","pattern":"minecraft:triangles_top"},{"color":"light_gray","pattern":"minecraft:triangles_top"},{"color":"white","pattern":"minecraft:straight_cross"}]}
+        },
+        "title": {
+            "translate": "att2.advancement.quest.dailyquest.zirthion.title.root"
+        },
+        "description": {
+            "translate": "att2.advancement.quest.dailyquest.zirthion.description.root"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "frame": "goal"
+    },
+    "parent": "att2:quest/dailyquest/root",
+    "rewards": {
+        "experience": 200
+    },
+    "criteria": {
+        "root": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

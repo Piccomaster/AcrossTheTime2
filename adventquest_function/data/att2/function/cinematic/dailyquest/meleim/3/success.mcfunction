@@ -43,4 +43,8 @@ tellraw @a [{translate:att2.dailyquest.rewards.add.meleim.city_donation,with:[{s
 function att2:cinematic/dailyquest/meleim/3/reset
 ##add quest completed count
 scoreboard players add meleim_dailyquest_completed_count DAILYQUEST 1
+scoreboard players add dailyquest_completed_count DAILYQUEST 1
 scoreboard players set meleim_dailyquest_3_completed DAILYQUEST 1
+
+##trigger adv
+function att2:advancement/test_all/dailyquest/meleim

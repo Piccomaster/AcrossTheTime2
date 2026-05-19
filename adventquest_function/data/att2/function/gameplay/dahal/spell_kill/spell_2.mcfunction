@@ -8,12 +8,7 @@
 #test count
 function att2:advancement/test_all/spell/kill_count
 ##add spell xp
-execute if score @s GAMELEVEL matches 1.. run scoreboard players add @s SPELL2_LVL 1
-execute if score @s GAMELEVEL matches 25.. run scoreboard players add @s SPELL2_LVL 1
-execute if score @s GAMELEVEL matches 50.. run scoreboard players add @s SPELL2_LVL 1
-execute if score @s LEVELMASTER matches 100.. run scoreboard players add @s SPELL2_LVL 1
-execute if score @s LEVELMASTER matches 200.. run scoreboard players add @s SPELL2_LVL 1
-execute if score @s LEVELMASTER matches 300.. run scoreboard players add @s SPELL2_LVL 1
+scoreboard players operation @s SPELL2_LVL += @s SPELL1_CAP
 #test lvl up
 scoreboard players set TEST CAL 0
 execute if score @s[scores={SPELL2_CAP=..1}] SPELL2_LVL >= cap2 SPELL2_LVL run scoreboard players set TEST CAL 2

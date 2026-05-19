@@ -25,15 +25,19 @@ scoreboard players operation @s CriticalGuarantee += #Critical CAL
 execute unless score @s CRT_TOT matches ..0 run scoreboard players operation #Critical CAL *= @s CRT_TOT
 
 scoreboard players operation @s CRT_DATA = #Critical CAL
+
+scoreboard players set #JumpCritical CAL 0
+execute if predicate {condition:entity_properties,entity:this,predicate:{movement:{fall_distance:{min:0.1},vertical_speed:{min:0.1}}}} store result score #JumpCritical CAL run random value 10..20
+#tellraw @a ["Critical Multiplier 0",{score:{name:"#Critical",objective:"CAL"}}]
+scoreboard players operation #Critical CAL += #JumpCritical CAL
+#tellraw @a ["JumpCritical Multiplier",{score:{name:"#JumpCritical",objective:"CAL"}}]
+#tellraw @a ["Critical Multiplier 1",{score:{name:"#Critical",objective:"CAL"}}]
+
 #limit
 #tellraw @a ["RNG",{score:{name:"#RNG",objective:"CAL"}}]
 #tellraw @a ["Critical",{score:{name:"#Critical",objective:"CAL"}}]
 
 execute unless score #RNG CAL < #Critical CAL run return fail
-
-##add durability cost
-#scoreboard players add #durability_remove CAL 4
-#item modify entity @s weapon.mainhand [{function:set_enchantments,enchantments:{"att2_enchantment:tick/durability/remove/mainhand":{type:score,target:{type:fixed,name:"#durability_remove"},score:"CAL"}}}]
 
 ##critical damage
 scoreboard players add #Critical CAL 100

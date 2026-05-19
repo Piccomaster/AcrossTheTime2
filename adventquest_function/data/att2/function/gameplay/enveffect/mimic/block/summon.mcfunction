@@ -17,7 +17,7 @@ execute unless data entity @s inBlockState run return fail
 execute if entity @n[distance=..30,type=shulker,tag=BlockMimic] run return run kill @s[type=arrow]
 ##block limit
 execute unless block ~ ~ ~ air run return run kill @s[type=arrow]
-execute if block ~ ~1 ~ air if block ~ ~-1 ~ air if block ~1 ~ ~ air if block ~-1 ~ ~ air if block ~ ~ ~1 air if block ~ ~ ~-1 air run return run kill @s[type=arrow]
+execute if block ~ ~ ~ air if block ~ ~1 ~ air if block ~ ~-1 ~ air if block ~1 ~ ~ air if block ~-1 ~ ~ air if block ~ ~ ~1 air if block ~ ~ ~-1 air run return run kill @s[type=arrow]
 
 execute if data entity @s inBlockState{Name:"minecraft:barrier"} run return run kill @s[type=arrow]
 

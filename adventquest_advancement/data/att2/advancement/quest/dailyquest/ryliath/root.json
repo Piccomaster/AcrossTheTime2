@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:orange_banner",
+            "components":{"banner_patterns":[{"color":"gray","pattern":"minecraft:triangles_bottom"},{"color":"black","pattern":"minecraft:stripe_downright"},{"color":"black","pattern":"minecraft:stripe_downleft"},{"color":"light_gray","pattern":"minecraft:stripe_downleft"},{"color":"light_gray","pattern":"minecraft:stripe_downright"},{"color":"black","pattern":"minecraft:stripe_middle"},{"color":"light_gray","pattern":"minecraft:stripe_middle"},{"color":"light_gray","pattern":"minecraft:triangles_bottom"},{"color":"cyan","pattern":"minecraft:stripe_top"},{"color":"blue","pattern":"minecraft:gradient"},{"color":"black","pattern":"minecraft:rhombus"},{"color":"light_blue","pattern":"minecraft:rhombus"},{"color":"light_blue","pattern":"minecraft:skull"},{"color":"lime","pattern":"minecraft:circle"},{"color":"blue","pattern":"minecraft:flower"},{"color":"light_gray","pattern":"minecraft:flower"},{"color":"black","pattern":"minecraft:triangles_top"},{"color":"blue","pattern":"minecraft:triangles_top"}]}
+        },
+        "title": {
+            "translate": "att2.advancement.quest.dailyquest.ryliath.title.root"
+        },
+        "description": {
+            "translate": "att2.advancement.quest.dailyquest.ryliath.description.root"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "frame": "goal"
+    },
+    "parent": "att2:quest/dailyquest/root",
+    "rewards": {
+        "experience": 200
+    },
+    "criteria": {
+        "root": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

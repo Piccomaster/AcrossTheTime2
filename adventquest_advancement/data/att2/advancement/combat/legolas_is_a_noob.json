@@ -111,20 +111,6 @@
                 }
             }
         },
-        "minecraft:iron_golem": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
-                        }
-                },
-                "entity": {
-                    "type": "minecraft:iron_golem"
-                }
-            }
-        },
         "minecraft:creeper": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
@@ -139,20 +125,6 @@
                 }
             }
         },
-        "minecraft:evoker": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
-                        }
-                },
-                "entity": {
-                    "type": "minecraft:evoker"
-                }
-            }
-        },
         "minecraft:guardian": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
@@ -164,20 +136,6 @@
                 },
                 "entity": {
                     "type": "minecraft:guardian"
-                }
-            }
-        },
-        "minecraft:elder_guardian": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
-                        }
-                },
-                "entity": {
-                    "type": "minecraft:elder_guardian"
                 }
             }
         },
@@ -220,20 +178,6 @@
                 },
                 "entity": {
                     "type": "minecraft:magma_cube"
-                }
-            }
-        },
-        "minecraft:shulker": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
-                        }
-                },
-                "entity": {
-                    "type": "minecraft:shulker"
                 }
             }
         },
@@ -402,20 +346,6 @@
                 },
                 "entity": {
                     "type": "minecraft:bee"
-                }
-            }
-        },
-        "minecraft:ravager": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
-                        }
-                },
-                "entity": {
-                    "type": "minecraft:ravager"
                 }
             }
         },

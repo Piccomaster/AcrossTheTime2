@@ -34,7 +34,7 @@ execute unless score #reduce_health CAL matches 1.. run return fail
 execute as @s[type=!bat] at @s run function att2:gameplay/enemy_health/show_health_reduce/arrow
 ##update healthbar
 function att2:gameplay/healthbar/detection_enemy
-execute if score @s ENEMYHEALTH matches ..0 at @s on attacker run function att2:advancement/test_all/weapon/bow_kill
+execute if score @s ENEMYHEALTH matches ..0 run function att2:gameplay/enemy_health/kill_trigger/arrow
 execute if score @s ENEMYHEALTH matches ..0 run function att2:gameplay/enemy_health/kill
 ##sync health
 execute store result entity @s Health int 1 run scoreboard players get @s ENEMYHEALTH

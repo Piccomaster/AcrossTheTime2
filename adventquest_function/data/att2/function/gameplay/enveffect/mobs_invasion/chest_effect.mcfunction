@@ -28,6 +28,9 @@ execute store result score #POSITIONX CAL run data get storage att2:position pos
 execute store result storage att2:position pos[1] double 0.001 run scoreboard players add #POSITIONX CAL 500
 execute as @e[distance=..20,team=hostile,scores={GAMELEVEL=0..},tag=Mobs_Invasion] at @s run function att2:gameplay/enveffect/mobs_invasion/chest_trigger/line with storage att2:position
 
+##limit
+execute if score @s INVASION matches 9980.. run return fail
+
 ##charger sound
 execute if score @s INVASION matches 99 run function att2:gameplay/enveffect/mobs_invasion/chest_trigger/charging_effect1
 execute if score @s INVASION matches 80 run function att2:gameplay/enveffect/mobs_invasion/chest_trigger/charging_effect2

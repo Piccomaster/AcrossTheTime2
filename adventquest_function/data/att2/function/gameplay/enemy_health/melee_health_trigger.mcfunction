@@ -29,7 +29,6 @@ function att2:gameplay/equipment/weapon/spear/hit_box_trigger
 function att2:gameplay/equipment/weapon/critical/detection
 
 ##limit
-#execute if score @s SPECIAL_ELITE matches 1 run say 我无敌
 execute if score @s SPECIAL_ELITE matches 1 run function att2:gameplay/enveffect/elite/mechanic/fb_melee/atk_feedback
 ##back damage
 execute on attacker run function att2:gameplay/enemy_health/data/melee_trigger
@@ -48,7 +47,7 @@ execute unless score #reduce_health CAL matches 1.. run return fail
 execute as @s[type=!bat] at @s run function att2:gameplay/enemy_health/show_health_reduce/melee
 ##update healthbar
 function att2:gameplay/healthbar/detection_enemy
-execute if score @s ENEMYHEALTH matches ..0 on attacker at @s run function att2:gameplay/enemy_health/melee_kill_trigger
+execute if score @s ENEMYHEALTH matches ..0 run function att2:gameplay/enemy_health/kill_trigger/melee
 execute if score @s ENEMYHEALTH matches ..0 run function att2:gameplay/enemy_health/kill
 ##sync health
 #execute store result entity @s Health int 1 run scoreboard players get @s ENEMYHEALTH

@@ -3,31 +3,22 @@
         "icon": {
             "id": "minecraft:bow"
         },
-        "title": {"translate":"att2.advancement.combat.title.anti_air"},
-        "description": {"translate":"att2.advancement.combat.description.anti_air"},
+        "title": {
+            "translate": "att2.advancement.combat.title.anti_air"
+        },
+        "description": {
+            "translate": "att2.advancement.combat.description.anti_air"
+        },
         "frame": "challenge"
     },
     "parent": "att2:combat/shoot_arrow",
     "rewards": {
         "function": "att2:advancement/exploit_1",
         "experience": 150
-                },
+    },
     "criteria": {
-        "killed_phantom": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "killing_blow": {
-                    "is_projectile": true
-                },
-                "entity": {
-                    "type": "minecraft:phantom",
-                    "distance": {
-                        "absolute": {
-                            "min": 10
-                        }
-                    }
-                }
-            }
+        "anti_air": {
+            "trigger": "minecraft:impossible"
         }
     }
 }

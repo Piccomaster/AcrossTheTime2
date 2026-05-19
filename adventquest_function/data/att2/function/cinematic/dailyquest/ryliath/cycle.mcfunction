@@ -6,17 +6,35 @@
 ##remove cycle
 execute if score ryliath_cycle_time DAILYQUEST matches 1.. run scoreboard players remove ryliath_cycle_time DAILYQUEST 1
 ##add update score
-execute unless score ryliath_cycle_time DAILYQUEST matches 1.. run scoreboard players add ryliath_update_count DAILYQUEST 1
-execute unless score ryliath_cycle_time DAILYQUEST matches 1.. run scoreboard players operation ryliath_cycle_time DAILYQUEST = ryliath_cycle_time_set DAILYQUEST
+execute unless score ryliath_cycle_time DAILYQUEST matches 1.. run function att2:cinematic/dailyquest/ryliath/update_score
 ##if player nearly -> update
-execute unless score ryliath_update_count DAILYQUEST matches 1.. run return 0
 execute unless entity @a[distance=..20] run return 0
+
+##reward limit
+execute if score ffffecb5-0000-0050-ffff-ec5c00000001 DAILYQUEST matches 1.. run function att2:cinematic/dailyquest/ryliath/summon_reward_block
+execute if score ryliath_city_donation_accumulated_value DAILYQUEST matches 1.. positioned -4939 77 -5031 unless block ~ ~ ~ minecraft:decorated_pot run function att2:cinematic/dailyquest/ryliath/reward_trigger
+
+##count limit
+execute unless score ryliath_update_count DAILYQUEST matches 1.. run return 0
 ##max ->limit
 execute store result score #count CAL if entity @e[type=interaction,tag=HaveQuest,tag=QuestBoard,tag=Request,distance=..20]
 execute if score #count CAL matches 6.. run return fail
 
 ##rng select quest
 scoreboard players remove ryliath_update_count DAILYQUEST 1
+
+#######DailyQuest 11 : Sylberland Divine Steed Challenge: Semifinals.
+#random value
+execute store result score #RNG CAL run random value 1..100
+#set id
+data modify storage att2:dailyquest rng_selectid set value 11
+#Guarantee Mechanism
+execute unless score ryliath_dailyquest_11_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 1
+#other limit
+execute if score ryliath_dailyquest_11 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
+execute unless score meleim_dailyquest_9_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
+#rng select
+execute if score #RNG CAL matches 1..100 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:11}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
 #######DailyQuest 1 : A troubling horde of monsters
 #random value
@@ -144,19 +162,6 @@ execute if score ryliath_dailyquest_10 DAILYQUEST matches 1.. run scoreboard pla
 execute unless score ryliath_city_donation DAILYQUEST matches 200.. run scoreboard players set #RNG CAL 0
 #rng select
 execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:10}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
-
-#######DailyQuest 11 : Sylberland Divine Steed Challenge: Semifinals.
-#random value
-execute store result score #RNG CAL run random value 1..100
-#set id
-data modify storage att2:dailyquest rng_selectid set value 11
-#Guarantee Mechanism
-execute unless score ryliath_dailyquest_11_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 1
-#other limit
-execute if score ryliath_dailyquest_11 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
-execute unless score meleim_dailyquest_9_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
-#rng select
-execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:11}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
 #######DailyQuest 12 : Emergency delivery!
 #random value

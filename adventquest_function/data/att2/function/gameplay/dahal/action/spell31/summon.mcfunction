@@ -11,6 +11,7 @@ scoreboard players set @s spell31_run 1
 ##name color
 team join spell31 @e[type=minecraft:frog,tag=NewPet,distance=..10]
 scoreboard players operation @e[type=minecraft:frog,tag=NewPet] OWNER = @s NUMEROJOUEUR
+scoreboard players set @e[type=frog,tag=NewPet] DAMAGEREDUCE 100
 scoreboard players operation @e[type=minecraft:frog,tag=NewPet] SPELL31_CAP = @s SPELL31_CAP
 
 execute as @e[type=minecraft:frog,tag=NewPet] run tag @s add GluttonPet

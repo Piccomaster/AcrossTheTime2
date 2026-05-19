@@ -6,11 +6,16 @@
 ##remove cycle
 execute if score phoenix_cycle_time DAILYQUEST matches 1.. run scoreboard players remove phoenix_cycle_time DAILYQUEST 1
 ##add update score
-execute unless score phoenix_cycle_time DAILYQUEST matches 1.. run scoreboard players add phoenix_update_count DAILYQUEST 1
-execute unless score phoenix_cycle_time DAILYQUEST matches 1.. run scoreboard players operation phoenix_cycle_time DAILYQUEST = phoenix_cycle_time_set DAILYQUEST
+execute unless score phoenix_cycle_time DAILYQUEST matches 1.. run function att2:cinematic/dailyquest/phoenix/update_score
 ##if player nearly -> update
-execute unless score phoenix_update_count DAILYQUEST matches 1.. run return 0
 execute unless entity @a[distance=..20] run return 0
+
+##reward limit
+execute if score 00000f40-0000-0031-0000-0f3300000001 DAILYQUEST matches 1.. run function att2:cinematic/dailyquest/phoenix/summon_reward_block
+execute if score phoenix_city_donation_accumulated_value DAILYQUEST matches 1.. positioned 3904 48 3891 unless block ~ ~ ~ minecraft:decorated_pot run function att2:cinematic/dailyquest/phoenix/reward_trigger
+
+##count limit
+execute unless score phoenix_update_count DAILYQUEST matches 1.. run return 0
 ##max ->limit
 execute store result score #count CAL if entity @e[type=interaction,tag=HaveQuest,tag=QuestBoard,tag=Request,distance=..20]
 execute if score #count CAL matches 6.. run return fail
