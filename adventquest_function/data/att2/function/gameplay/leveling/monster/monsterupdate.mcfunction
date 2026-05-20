@@ -3,6 +3,18 @@
 #updatemonster level								#
 #####################################################
 
+##time boost
+scoreboard players operation #time_health CAL = hour TIMECOUNTER
+scoreboard players operation #time_health CAL *= 5 CAL
+scoreboard players operation #time_health CAL < 200 CAL
+
+scoreboard players operation #time_damage CAL = hour TIMECOUNTER
+scoreboard players operation #time_damage CAL /= 2 CAL
+scoreboard players operation #time_damage CAL < 20 CAL
+#tellraw @a ["时间增幅生命值",{score:{name:"#time_health",objective:"CAL"}}]
+#tellraw @a ["时间增幅攻击力",{score:{name:"#time_damage",objective:"CAL"}}]
+scoreboard players operation #time_damage CAL *= 100 CAL
+
 ##ATTACK(GAMELEVEL) = base_attack x 10 + (2 x base_attack + 800 )/17900 × GAMELEVEL × (GAMELEVEL + 4)
 ##HP(GAMELEVEL) = base_hp + (base_hp + 100) * (2 * (GAMELEVEL * GAMELEVEL) + 3 * GAMELEVEL) / 17900
 ##get base hp/attack
@@ -27,6 +39,9 @@ scoreboard players operation #attack_damage CAL *= #GAMELEVEL CAL
 scoreboard players set #score CAL 17900
 scoreboard players operation #attack_damage CAL /= #score CAL
 scoreboard players operation #attack_damage CAL += #base_attack CAL
+
+##add time attack_damage
+scoreboard players operation #attack_damage CAL += #time_damage CAL
 ##return attack damage
 execute store result entity @s attributes[{id:"minecraft:attack_damage"}].base double 0.01 run scoreboard players get #attack_damage CAL
 
@@ -46,6 +61,9 @@ scoreboard players set #score CAL 17900
 
 scoreboard players operation #max_health CAL /= #score CAL
 scoreboard players operation #max_health CAL += #base_hp CAL
+
+##add time max_health
+scoreboard players operation #max_health CAL += #time_health CAL
 ##add ab hp
 #execute if score #max_health CAL matches 1024.. run say 移除了
 execute if score #max_health CAL matches 1024.. run scoreboard players operation #ENEMYABHEALTH CAL = #max_health CAL
