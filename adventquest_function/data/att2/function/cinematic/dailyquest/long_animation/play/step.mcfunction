@@ -16,8 +16,9 @@ execute unless data entity @s data.pos[2] run data modify entity @s Pos set from
 execute if data entity @s data.pos[0] run return 0
 
 scoreboard players reset @p[predicate=att2_pre:score/player] Performance
-tellraw @p[predicate=att2_pre:score/player] {text:"play end",color:red}
-
+#tellraw @p[predicate=att2_pre:score/player] {text:"play end",color:red}
+##remove tag
+tag @s remove spectator
 ##tp end pos
 data modify entity @s Pos set from entity @s data.end_pos
 ##stop forceload

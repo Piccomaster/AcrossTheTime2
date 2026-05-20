@@ -15,7 +15,6 @@ scoreboard objectives add HORSERACE_RANDOM_TRAP dummy
 scoreboard objectives add HORSERACE_RANDOM_TARGET dummy
 scoreboard objectives add HORSERACE_RANDOM_ITEM dummy
 scoreboard objectives add HORSERACE_RANDOM_HOOP dummy
-
 scoreboard objectives add HORSERACE_VITALITY dummy
 scoreboard objectives add HORSERACE_VITALITY_LVL dummy
 scoreboard objectives add HORSERACE_VITALITY_SPRINT dummy

@@ -12,6 +12,7 @@ execute as @e[type=#minecraft:horse_racing,tag=HorseRace,tag=!RIDE] at @s if blo
 execute as @e[type=#minecraft:horse_racing,tag=HorseRace,tag=!RIDE] at @s run tp @s ~ -10 ~
 kill @e[type=#minecraft:horse_racing,tag=HorseRace,tag=!RIDE]
 kill @e[type=#minecraft:rideable,tag=AI]
+kill @e[type=minecraft:mannequin,tag=AI]
 
 ##reset player horse
 execute as @e[type=#minecraft:rideable,tag=HorseRace,tag=RIDE] at @s run function att2:gameplay/horse_racing/reset_horse_data

@@ -7,8 +7,9 @@
 particle minecraft:soul ~ ~ ~ 1 1 1 0 80 normal
 particle minecraft:flash{color:[0.13,0.63,0.55,1]} ~ ~ ~ 0.1 0.1 0.1 0 3 normal
 ##damage
-execute if score level DIFFICULTY matches -1 run damage @s 60 att2_damage:magic by @p
-execute if score level DIFFICULTY matches 0 run damage @s 120 att2_damage:magic by @p
-execute if score level DIFFICULTY matches 1 run damage @s 160 att2_damage:magic by @p
-execute if score level DIFFICULTY matches 2 run damage @s 240 att2_damage:magic by @p
+execute if score level DIFFICULTY matches -1 run scoreboard players set #damage CAL 30
+execute if score level DIFFICULTY matches 0 run scoreboard players set #damage CAL 40
+execute if score level DIFFICULTY matches 1 run scoreboard players set #damage CAL 50
+execute if score level DIFFICULTY matches 2 run scoreboard players set #damage CAL 60
 
+function att2:gameplay/enemy_health/normal_trigger

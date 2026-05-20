@@ -3,6 +3,9 @@
 #detection progress                              #
 ##################################################
 
+##tag
+tag @s add spectator
+
 ##remove score
 scoreboard players remove @s[scores={Performance=1001..}] Performance 1
 ##load

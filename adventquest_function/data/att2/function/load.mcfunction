@@ -124,3 +124,11 @@ scoreboard players set SP42_HP_LVL7 DAHAL_COST 58
 scoreboard players set SP42_HP_LVL8 DAHAL_COST 74
 scoreboard players set SP42_HP_LVL9 DAHAL_COST 92
 scoreboard players set SP42_HP_LVL10 DAHAL_COST 112
+
+##long_animation
+function att2:cinematic/dailyquest/long_animation/ryliath/dq9/initialize
+function att2:cinematic/dailyquest/long_animation/meleim/dq9/initialize
+function att2:cinematic/dailyquest/long_animation/eolorion/dq9/initialize
+function att2:cinematic/dailyquest/long_animation/kortaek/dq9/initialize
+function att2:cinematic/dailyquest/long_animation/phoenix/dq9/initialize
+function att2:cinematic/dailyquest/long_animation/zirthion/dq9/initialize
