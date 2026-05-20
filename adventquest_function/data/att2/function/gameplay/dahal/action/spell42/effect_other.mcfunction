@@ -42,3 +42,5 @@ execute as @s at @s run function att2:gameplay/enemy_health/show_health_recovery
 ##max
 execute store result score #max_health CAL run attribute @s max_health get
 scoreboard players operation @s ENEMYHEALTH < #max_health CAL
+
+execute store result entity @s Health int 1 run scoreboard players get @s ENEMYHEALTH
