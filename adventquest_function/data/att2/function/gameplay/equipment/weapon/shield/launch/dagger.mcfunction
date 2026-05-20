@@ -13,7 +13,7 @@ execute if predicate att2_pre:player/flying run return fail
 
 
 ##add quickattack
-item modify entity @s weapon.mainhand [{function:set_components,components:{"damage_type":"att2_damage:player_attack"}},{function:set_enchantments,enchantments:{"att2_enchantment:quick_attack":3}}]
+item modify entity @s weapon.mainhand [{function:set_components,components:{"damage_type":"att2_damage:player_attack"}},{function:set_enchantments,enchantments:{"att2_enchantment:quick_attack":1}}]
 
 ##base particle
 function att2:gameplay/equipment/weapon/shield/base_particle

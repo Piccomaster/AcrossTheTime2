@@ -15,7 +15,7 @@ execute unless score eolorion_city_donation DAILYQUEST matches 1.. run return fa
 
 ##effect
 execute positioned -5308 103 -6280 run particle dust_plume ~ ~ ~ 0.5 1 0.5 0 100 normal
-execute positioned -5308 103 -6280 run playsound block.decorated_pot.insert block @a ~ ~ ~ 1 1
+execute positioned -5308 103 -6280 run playsound block.decorated_pot.insert block @a ~ ~ ~ 3 1
 
 
 ##setblock

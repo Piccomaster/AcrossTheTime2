@@ -15,7 +15,7 @@ execute unless score kortaek_city_donation DAILYQUEST matches 1.. run return fai
 
 ##effect
 execute positioned -5448 49 -4698 run particle dust_plume ~ ~ ~ 0.5 1 0.5 0 100 normal
-execute positioned -5448 49 -4698 run playsound block.decorated_pot.insert block @a ~ ~ ~ 1 1
+execute positioned -5448 49 -4698 run playsound block.decorated_pot.insert block @a ~ ~ ~ 3 1
 
 
 ##setblock

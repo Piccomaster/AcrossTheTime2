@@ -3,6 +3,10 @@
 #random pos                                                     #
 #################################################################
 
+##limit
+execute unless block ~ ~1 ~ air run return fail
+##limit
+execute if entity @n[distance=..30,team=hostile,tag=Boss] run return fail
 #clear
 #kill @e[tag=BlockMimic]
 

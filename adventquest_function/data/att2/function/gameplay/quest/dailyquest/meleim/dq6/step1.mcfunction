@@ -6,7 +6,7 @@
 ##text
 tellraw @s [{translate:att2.dailyquest.meleim.name}]
 tellraw @s [{translate:att2.dailyquest.meleim.6.name,color:"blue"}]
-tellraw @s [{translate:att2.dailyquest.fishing.progress,color:"#18786F",with:[{score:{name:meleim_dailyquest_6_kill_bee,objective:DAILYQUEST},color:"gray"},{score:{name:meleim_dailyquest_6_kill_bee_requirement,objective:DAILYQUEST},color:"yellow"}]}]
+tellraw @s [{translate:att2.dailyquest.kill_bee.progress,color:"#18786F",with:[{score:{name:meleim_dailyquest_6_kill_bee,objective:DAILYQUEST},color:"gray"},{score:{name:meleim_dailyquest_6_kill_bee_requirement,objective:DAILYQUEST},color:"yellow"}]}]
 tellraw @s [{translate:att2.dailyquest.meleim.6.step.1}]
 
 execute unless score meleim_dailyquest_6_guarantee DAILYQUEST matches 1 run return 0

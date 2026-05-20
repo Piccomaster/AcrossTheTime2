@@ -8,6 +8,7 @@ execute unless score @s LIFETIME matches -1.. if data entity @s data.Time store 
 execute unless score @s LIFETIME matches -1.. run scoreboard players set @s LIFETIME 20
 
 ##particle
+particle minecraft:scrape ~ ~ ~ 0.1 0.1 0.1 0 1 normal
 execute if score @s LIFETIME matches 2.. run particle minecraft:dust{color:[0.5,0.5,0.5],scale:0.2} ~ ~ ~ 0.25 0.25 0.25 1 2
 execute if score @s LIFETIME matches 4.. run particle minecraft:dust{color:[0.5,0.9,0.7],scale:0.2} ~ ~ ~ 0.25 0.25 0.25 1 4
 execute if score @s LIFETIME matches 6.. run particle minecraft:dust{color:[0,1,0],scale:0.2} ~ ~ ~ 0.25 0.25 0.25 1 6

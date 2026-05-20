@@ -3,6 +3,8 @@
 #Process all test of Adventure advancement 			            #
 #################################################################
 
+advancement grant @a only att2:quest/dailyquest/phoenix/root
+
 execute if score phoenix_dailyquest_1_completed DAILYQUEST matches 1 run advancement grant @a only att2:quest/dailyquest/phoenix/dq1
 execute if score phoenix_dailyquest_2_completed DAILYQUEST matches 1 run advancement grant @a only att2:quest/dailyquest/phoenix/dq2
 execute if score phoenix_dailyquest_3_completed DAILYQUEST matches 1 run advancement grant @a only att2:quest/dailyquest/phoenix/dq3
@@ -25,3 +27,5 @@ execute if score dailyquest_completed_count DAILYQUEST matches 30.. run advancem
 execute if score dailyquest_completed_count DAILYQUEST matches 40.. run advancement grant @a only att2:quest/dailyquest/complete_40
 execute if score dailyquest_completed_count DAILYQUEST matches 50.. run advancement grant @a only att2:quest/dailyquest/complete_50
 execute if score dailyquest_completed_count DAILYQUEST matches 60.. run advancement grant @a only att2:quest/dailyquest/complete_60
+
+execute store result entity 00000f40-0000-0031-0000-0f3300000001 text.extra[0].with[0] int 1 run scoreboard players get phoenix_city_donation DAILYQUEST

@@ -68,16 +68,16 @@ scoreboard players set DISTANCE_LVL8 SPELL_DATA 8
 scoreboard players set DISTANCE_LVL9 SPELL_DATA 9
 scoreboard players set DISTANCE_LVL10 SPELL_DATA 10
 ##HEALING cal
-scoreboard players set COUNT_LVL1 SPELL_DATA 4
-scoreboard players set COUNT_LVL2 SPELL_DATA 12
-scoreboard players set COUNT_LVL3 SPELL_DATA 20
-scoreboard players set COUNT_LVL4 SPELL_DATA 28
-scoreboard players set COUNT_LVL5 SPELL_DATA 36
-scoreboard players set COUNT_LVL6 SPELL_DATA 44
-scoreboard players set COUNT_LVL7 SPELL_DATA 52
-scoreboard players set COUNT_LVL8 SPELL_DATA 60
-scoreboard players set COUNT_LVL9 SPELL_DATA 68
-scoreboard players set COUNT_LVL10 SPELL_DATA 80
+scoreboard players operation COUNT_LVL1 SPELL_DATA = SP42_HP_LVL1 SPELL_DATA
+scoreboard players operation COUNT_LVL2 SPELL_DATA = SP42_HP_LVL2 SPELL_DATA
+scoreboard players operation COUNT_LVL3 SPELL_DATA = SP42_HP_LVL3 SPELL_DATA
+scoreboard players operation COUNT_LVL4 SPELL_DATA = SP42_HP_LVL4 SPELL_DATA
+scoreboard players operation COUNT_LVL5 SPELL_DATA = SP42_HP_LVL5 SPELL_DATA
+scoreboard players operation COUNT_LVL6 SPELL_DATA = SP42_HP_LVL6 SPELL_DATA
+scoreboard players operation COUNT_LVL7 SPELL_DATA = SP42_HP_LVL7 SPELL_DATA
+scoreboard players operation COUNT_LVL8 SPELL_DATA = SP42_HP_LVL8 SPELL_DATA
+scoreboard players operation COUNT_LVL9 SPELL_DATA = SP42_HP_LVL9 SPELL_DATA
+scoreboard players operation COUNT_LVL10 SPELL_DATA = SP42_HP_LVL10 SPELL_DATA
 ##time cal
 scoreboard players operation TIMER_LVL1 SPELL_DATA = lvl1 SPELL42_TIMER
 scoreboard players operation TIMER_LVL1 SPELL_DATA /= 20 CAL

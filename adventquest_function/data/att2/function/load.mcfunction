@@ -113,3 +113,14 @@ function att2:advancement/test_all/dailyquest/meleim
 function att2:advancement/test_all/dailyquest/phoenix
 function att2:advancement/test_all/dailyquest/ryliath
 function att2:advancement/test_all/dailyquest/zirthion
+
+scoreboard players set SP42_HP_LVL1 DAHAL_COST 4
+scoreboard players set SP42_HP_LVL2 DAHAL_COST 8
+scoreboard players set SP42_HP_LVL3 DAHAL_COST 14
+scoreboard players set SP42_HP_LVL4 DAHAL_COST 22
+scoreboard players set SP42_HP_LVL5 DAHAL_COST 32
+scoreboard players set SP42_HP_LVL6 DAHAL_COST 44
+scoreboard players set SP42_HP_LVL7 DAHAL_COST 58
+scoreboard players set SP42_HP_LVL8 DAHAL_COST 74
+scoreboard players set SP42_HP_LVL9 DAHAL_COST 92
+scoreboard players set SP42_HP_LVL10 DAHAL_COST 112

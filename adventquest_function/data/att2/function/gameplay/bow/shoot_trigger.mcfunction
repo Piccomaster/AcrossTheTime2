@@ -45,7 +45,6 @@ scoreboard players operation @s ARR_POWER /= 100 CAL
 
 ##spectral_arrow
 scoreboard players set #spectral_arrow CAL 100
-execute if data storage att2:bow data.item{id:"minecraft:spectral_arrow"} run say 光零件
 execute if data storage att2:bow data.item{id:"minecraft:spectral_arrow"} run scoreboard players set #spectral_arrow CAL 125
 scoreboard players operation @s ARR_POWER *= #spectral_arrow CAL
 scoreboard players operation @s ARR_POWER /= 100 CAL

@@ -14,6 +14,7 @@ execute if score FlammeNoire ANGOR_BOSS matches 201..295 in minecraft:the_nether
 execute if score FlammeNoire ANGOR_BOSS matches 200 as @a[scores={DIMENSION=6}] at @s run function att2:sound/mobs/fn_breathe_out
 execute if score FlammeNoire ANGOR_BOSS matches 150 in minecraft:the_nether positioned 3546 48 4909 run function att2:summon/pnj/namrin
 execute if score FlammeNoire ANGOR_BOSS matches 150 in minecraft:the_nether run tp 00000000-0000-006a-0000-00000000006a 3546 48 4909 45 10
+execute if score FlammeNoire ANGOR_BOSS matches 150 in minecraft:the_nether run data modify entity 00000000-0000-006a-0000-00000000006a data.rotation set value [45,10]
 execute if score FlammeNoire ANGOR_BOSS matches 150 run function att2:cinematic/tp_effect/namrin
 execute if score FlammeNoire ANGOR_BOSS matches 101..200 in minecraft:the_nether run tp @n[type=text_display,tag=Neth0] 3562 54 4910 50 5
 execute if score FlammeNoire ANGOR_BOSS matches 100 as @a[scores={DIMENSION=6}] run function att2:gameplay/boss/angband/flamme_noire/display_title

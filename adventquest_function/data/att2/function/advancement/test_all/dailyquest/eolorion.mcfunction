@@ -3,6 +3,8 @@
 #Process all test of Adventure advancement 			            #
 #################################################################
 
+advancement grant @a only att2:quest/dailyquest/eolorion/root
+
 execute if score eolorion_dailyquest_1_completed DAILYQUEST matches 1 run advancement grant @a only att2:quest/dailyquest/eolorion/dq1
 execute if score eolorion_dailyquest_2_completed DAILYQUEST matches 1 run advancement grant @a only att2:quest/dailyquest/eolorion/dq2
 execute if score eolorion_dailyquest_3_completed DAILYQUEST matches 1 run advancement grant @a only att2:quest/dailyquest/eolorion/dq3
@@ -25,3 +27,5 @@ execute if score dailyquest_completed_count DAILYQUEST matches 30.. run advancem
 execute if score dailyquest_completed_count DAILYQUEST matches 40.. run advancement grant @a only att2:quest/dailyquest/complete_40
 execute if score dailyquest_completed_count DAILYQUEST matches 50.. run advancement grant @a only att2:quest/dailyquest/complete_50
 execute if score dailyquest_completed_count DAILYQUEST matches 60.. run advancement grant @a only att2:quest/dailyquest/complete_60
+
+execute store result entity ffffeb47-0000-006b-ffff-e77800000001 text.extra[0].with[0] int 1 run scoreboard players get eolorion_city_donation DAILYQUEST

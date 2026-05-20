@@ -5,6 +5,7 @@
 
 execute if score FlammeNoire ANGOR_BOSS matches 190 run function att2:dialogs/mainquest/act_3/ch5_namrin_7
 execute if score FlammeNoire ANGOR_BOSS matches 190 in minecraft:the_nether as 00000000-0000-006a-0000-00000000006a run tp @s 3496 47.5 4910 -30 -10
+execute if score FlammeNoire ANGOR_BOSS matches 190 in minecraft:the_nether run data modify entity 00000000-0000-006a-0000-00000000006a data.rotation set value [-30,-10]
 execute if score FlammeNoire ANGOR_BOSS matches 190 run function att2:cinematic/tp_effect/namrin
 execute if score FlammeNoire ANGOR_BOSS matches 160 positioned 3496.9 48.5 4911.7 in minecraft:the_nether run function att2:gameplay/boss/angband/flamme_noire/namrin_beam
 execute if score FlammeNoire ANGOR_BOSS matches 140 in minecraft:the_nether run function att2:physicmod/reg2/source/fn_head_closed
