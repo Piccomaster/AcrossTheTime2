@@ -7,7 +7,7 @@
 #############################################################
 
 ##timer limit 1440 minutes
-scoreboard players set eolorion_dailyquest_2_timer DAILYQUEST 1728000
+scoreboard players set eolorion_dailyquest_2_timer DAILYQUEST 48000
 
 scoreboard players set eolorion_dailyquest_2_rewards_chronoton DAILYQUEST 200
 scoreboard players set eolorion_dailyquest_2_rewards_xp DAILYQUEST 2000

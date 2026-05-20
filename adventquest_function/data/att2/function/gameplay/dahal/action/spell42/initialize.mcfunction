@@ -72,15 +72,15 @@ scoreboard players set SP42_9 DAHAL_COST 280
 scoreboard players set SP42_10 DAHAL_COST 350
 ##health
 scoreboard players set SP42_HP_LVL1 DAHAL_COST 4
-scoreboard players set SP42_HP_LVL2 DAHAL_COST 12
-scoreboard players set SP42_HP_LVL3 DAHAL_COST 20
-scoreboard players set SP42_HP_LVL4 DAHAL_COST 28
-scoreboard players set SP42_HP_LVL5 DAHAL_COST 36
+scoreboard players set SP42_HP_LVL2 DAHAL_COST 8
+scoreboard players set SP42_HP_LVL3 DAHAL_COST 14
+scoreboard players set SP42_HP_LVL4 DAHAL_COST 22
+scoreboard players set SP42_HP_LVL5 DAHAL_COST 32
 scoreboard players set SP42_HP_LVL6 DAHAL_COST 44
-scoreboard players set SP42_HP_LVL7 DAHAL_COST 52
-scoreboard players set SP42_HP_LVL8 DAHAL_COST 60
-scoreboard players set SP42_HP_LVL9 DAHAL_COST 68
-scoreboard players set SP42_HP_LVL10 DAHAL_COST 80
+scoreboard players set SP42_HP_LVL7 DAHAL_COST 58
+scoreboard players set SP42_HP_LVL8 DAHAL_COST 74
+scoreboard players set SP42_HP_LVL9 DAHAL_COST 92
+scoreboard players set SP42_HP_LVL10 DAHAL_COST 112
 ##add spell cost dummy
 scoreboard objectives add SPELL42_COST dummy
 scoreboard objectives add CDPERCENT42 dummy

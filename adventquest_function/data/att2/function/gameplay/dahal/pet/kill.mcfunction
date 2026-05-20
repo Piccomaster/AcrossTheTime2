@@ -3,6 +3,8 @@
 #Make the pet follow its owner					#
 #################################################
 
+##remove equipment
+data remove entity @s equipment
 ##particle
 playsound teleportation master @a ~ ~ ~ 0.5 1
 kill @e[type=ender_pearl,distance=..5]

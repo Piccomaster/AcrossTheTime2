@@ -25,3 +25,5 @@ execute if score dailyquest_completed_count DAILYQUEST matches 30.. run advancem
 execute if score dailyquest_completed_count DAILYQUEST matches 40.. run advancement grant @a only att2:quest/dailyquest/complete_40
 execute if score dailyquest_completed_count DAILYQUEST matches 50.. run advancement grant @a only att2:quest/dailyquest/complete_50
 execute if score dailyquest_completed_count DAILYQUEST matches 60.. run advancement grant @a only att2:quest/dailyquest/complete_60
+
+execute store result entity ffffeb47-0000-006b-ffff-e77800000001 text.extra[0].with[0] int 1 run scoreboard players get eolorion_city_donation DAILYQUEST

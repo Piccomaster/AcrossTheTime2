@@ -3,12 +3,12 @@
 #auto_mending trigger                    						#
 #################################################################
 #tellraw @a ["分数值",{score:{name:"@s",objective:"RES_DETECTION"}}]
-#tellraw @a ["掉血点数",{score:{name:"@s",objective:"RES_DETECTION"}}]
 
 ##enchantments trigger
 execute if items entity @s armor.chest *[enchantments~[{enchantments:"att2_enchantment:wrath_accumulator"}]] run function att2:gameplay/enchantment/wrath_accumulator/trigger
 
 scoreboard players operation @s RES_DETECTION /= 10 CAL
+#tellraw @a ["掉血点数",{score:{name:"@s",objective:"RES_DETECTION"}}]
 #get health
 execute store result score #temp_health_1 CAL run data get entity @s Health
 execute store result score #Health CAL run data get entity @s Health 100

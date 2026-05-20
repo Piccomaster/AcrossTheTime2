@@ -35,7 +35,7 @@ execute unless score kortaek_dailyquest_9_completed DAILYQUEST matches 1.. run s
 execute if score kortaek_dailyquest_9 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
 execute unless score eolorion_dailyquest_9_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
 #rng select
-execute if score #RNG CAL matches 1..100 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:9}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
+execute if score #RNG CAL matches 1..200 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:9}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
 #######DailyQuest 1 : The path to wealth.
 #random value
@@ -47,7 +47,7 @@ execute unless score kortaek_dailyquest_1_completed DAILYQUEST matches 1.. run s
 #other limit
 execute if score kortaek_dailyquest_1 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
 #rng select
-execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:1}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
+execute if score #RNG CAL matches 1..20 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:1}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
 #######DailyQuest 2 : I am the Medicine King.
 #random value
@@ -59,7 +59,7 @@ execute unless score kortaek_dailyquest_2_completed DAILYQUEST matches 1.. run s
 #other limit
 execute if score kortaek_dailyquest_2 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
 #rng select
-execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:2}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
+execute if score #RNG CAL matches 1..20 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:2}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
 #######DailyQuest 3 : Match made in heaven
 #random value
@@ -71,7 +71,7 @@ execute unless score kortaek_dailyquest_3_completed DAILYQUEST matches 1.. run s
 #other limit
 execute if score kortaek_dailyquest_3 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
 #rng select
-execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:3}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
+execute if score #RNG CAL matches 1..20 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:3}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
 #######DailyQuest 4 : Ultimate Recycling
 #random value
@@ -83,7 +83,7 @@ execute unless score kortaek_dailyquest_4_completed DAILYQUEST matches 1.. run s
 #other limit
 execute if score kortaek_dailyquest_4 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
 #rng select
-execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:4}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
+execute if score #RNG CAL matches 1..20 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:4}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
 #######DailyQuest 5 : Heartless Maze
 #random value
@@ -97,7 +97,7 @@ execute if score kortaek_dailyquest_5 DAILYQUEST matches 1.. run scoreboard play
 execute unless score kortaek_city_donation DAILYQUEST matches 200.. run scoreboard players set #RNG CAL 0
 execute unless score heros REPUTATION matches 100.. run scoreboard players set #RNG CAL 0
 #rng select
-execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:5}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
+execute if score #RNG CAL matches 1..20 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:5}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
 #######DailyQuest 6 : Hidden dangers in the desert.
 #random value
@@ -110,7 +110,7 @@ execute unless score kortaek_dailyquest_6_completed DAILYQUEST matches 1.. run s
 execute if score kortaek_dailyquest_6 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
 execute unless score heros REPUTATION matches 100.. run scoreboard players set #RNG CAL 0
 #rng select
-execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:6}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
+execute if score #RNG CAL matches 1..20 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:6}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
 #######DailyQuest 7 : ...
 #random value
@@ -122,7 +122,7 @@ execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=inte
 #other limit
 #execute if score kortaek_dailyquest_7 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
 #rng select
-#execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:7}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
+#execute if score #RNG CAL matches 1..20 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:7}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
 #######DailyQuest 8 : ...
 #random value
@@ -134,7 +134,7 @@ execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=inte
 #other limit
 #execute if score kortaek_dailyquest_8 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
 #rng select
-#execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:8}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
+#execute if score #RNG CAL matches 1..20 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:8}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
 #######DailyQuest 10 : Silent Crisis
 #random value
@@ -146,5 +146,5 @@ execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=inte
 #other limit
 #execute if score kortaek_dailyquest_10 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
 #rng select
-#execute if score #RNG CAL matches 1..10 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:10}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
+#execute if score #RNG CAL matches 1..20 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:10}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 

@@ -8,7 +8,7 @@
 #############################################################
 
 ##end set
-scoreboard players set meleim_dailyquest_5 DAILYQUEST 2
+scoreboard players set meleim_dailyquest_5 DAILYQUEST 100
 ##dialog tip
 tellraw @a[distance=..128] [{translate:att2.dailyquest.mainplayer_name,with:[{nbt:"set",storage:"att2:id","interpret":true,color:"dark_red"}]},{translate:att2.dailyquest.meleim.5.end}]
 ##sound

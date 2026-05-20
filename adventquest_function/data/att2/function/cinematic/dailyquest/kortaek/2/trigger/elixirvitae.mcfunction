@@ -6,6 +6,11 @@
 #Find any 5 fishing spots in the Kert Desert area and fish once at each.
 #############################################################
 
+##limit
+execute unless score kortaek_dailyquest_2 DAILYQUEST matches 1.. run return fail
+##test if over
+execute if score kortaek_dailyquest_2_elixirvitae DAILYQUEST >= kortaek_dailyquest_2_elixirvitae_requirement DAILYQUEST run return 0
+
 ##test if over
 execute if score kortaek_dailyquest_2_elixirvitae DAILYQUEST >= kortaek_dailyquest_2_elixirvitae_requirement DAILYQUEST run return 0
 

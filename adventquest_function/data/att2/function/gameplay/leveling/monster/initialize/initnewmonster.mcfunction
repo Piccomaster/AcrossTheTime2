@@ -39,8 +39,6 @@ execute if data entity @s data.resistance store result score @s RESISTANCE run d
 ##infinite resistance
 effect give @s resistance infinite 4 true
 
-##bow Initialize
-enchant @s minecraft:power 1
 # Set the level of the mob and set its data (hp and attack)
 scoreboard players set @s GAMELEVEL 0
 scoreboard players operation @s GAMELEVEL > @a[distance=..100] GAMELEVEL
@@ -90,6 +88,11 @@ execute if score level DIFFICULTY matches 1 as @s[tag=MEGA] run function att2:ga
 execute if score level DIFFICULTY matches 2 as @s[scores={CLASSLEVEL=1..21}] run function att2:gameplay/leveling/monster/initialize/df_effect2
 execute if score level DIFFICULTY matches 2 as @s[tag=SUPER] run function att2:gameplay/leveling/monster/initialize/superelite2
 execute if score level DIFFICULTY matches 2 as @s[tag=MEGA] run function att2:gameplay/leveling/monster/initialize/megaelite2
+
+
+##bow Initialize
+execute if items entity @s weapon.* #minecraft:bows run function att2:gameplay/leveling/monster/initialize/initbow
+
 # Set loottable for non-player's invocated entities
 execute unless entity @s[tag=PlayerAlly] run function att2:gameplay/leveling/monster/loot/setdrop
 

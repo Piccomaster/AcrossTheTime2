@@ -14,7 +14,7 @@ scoreboard players set 00000f40-0000-0031-0000-0f3300000001 DAILYQUEST 0
 execute unless score phoenix_city_donation DAILYQUEST matches 1.. run return fail
 ##effect
 execute positioned 3904 48 3891 run particle dust_plume ~ ~ ~ 0.5 1 0.5 0 100 normal
-execute positioned 3904 48 3891 run playsound block.decorated_pot.insert block @a ~ ~ ~ 1 1
+execute positioned 3904 48 3891 run playsound block.decorated_pot.insert block @a ~ ~ ~ 3 1
 
 ##setblock
 setblock 3904 48 3891 minecraft:decorated_pot[cracked=false,facing=east,waterlogged=false]{LootTable:"att2:entities/decorated_pot",components:{}}
