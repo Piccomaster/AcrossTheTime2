@@ -3,6 +3,8 @@
 #Process all test of Adventure advancement 			            #
 #################################################################
 
+advancement grant @a only att2:quest/dailyquest/ryliath/root
+
 execute if score ryliath_dailyquest_1_completed DAILYQUEST matches 1 run advancement grant @a only att2:quest/dailyquest/ryliath/dq1
 execute if score ryliath_dailyquest_2_completed DAILYQUEST matches 1 run advancement grant @a only att2:quest/dailyquest/ryliath/dq2
 execute if score ryliath_dailyquest_3_completed DAILYQUEST matches 1 run advancement grant @a only att2:quest/dailyquest/ryliath/dq3

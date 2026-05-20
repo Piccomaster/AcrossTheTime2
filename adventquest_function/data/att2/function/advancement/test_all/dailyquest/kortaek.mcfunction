@@ -3,6 +3,8 @@
 #Process all test of Adventure advancement 			            #
 #################################################################
 
+advancement grant @a only att2:quest/dailyquest/kortaek/root
+
 execute if score kortaek_dailyquest_1_completed DAILYQUEST matches 1 run advancement grant @a only att2:quest/dailyquest/kortaek/dq1
 execute if score kortaek_dailyquest_2_completed DAILYQUEST matches 1 run advancement grant @a only att2:quest/dailyquest/kortaek/dq2
 execute if score kortaek_dailyquest_3_completed DAILYQUEST matches 1 run advancement grant @a only att2:quest/dailyquest/kortaek/dq3

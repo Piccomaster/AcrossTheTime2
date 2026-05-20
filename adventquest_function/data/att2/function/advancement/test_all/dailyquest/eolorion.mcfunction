@@ -3,6 +3,8 @@
 #Process all test of Adventure advancement 			            #
 #################################################################
 
+advancement grant @a only att2:quest/dailyquest/eolorion/root
+
 execute if score eolorion_dailyquest_1_completed DAILYQUEST matches 1 run advancement grant @a only att2:quest/dailyquest/eolorion/dq1
 execute if score eolorion_dailyquest_2_completed DAILYQUEST matches 1 run advancement grant @a only att2:quest/dailyquest/eolorion/dq2
 execute if score eolorion_dailyquest_3_completed DAILYQUEST matches 1 run advancement grant @a only att2:quest/dailyquest/eolorion/dq3
