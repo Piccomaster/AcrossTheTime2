@@ -9,4 +9,4 @@ particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 0 1 normal
 playsound block.end_portal.spawn ambient @a ~ ~ ~ 1 2
 
 ##damage xx
-scoreboard players operation #Damage CAL *= 4 CAL
+scoreboard players operation #damage CAL *= 4 CAL

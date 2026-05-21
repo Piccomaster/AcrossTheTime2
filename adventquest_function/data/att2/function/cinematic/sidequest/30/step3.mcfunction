@@ -8,7 +8,7 @@ scoreboard players set SQ30 SIDEQUEST 3
 
 function att2:cinematic/sidequest/30/library_secret
 kill @e[type=minecraft:interaction,x=-4991,y=151,z=-4906,distance=..3]
-kill @e[type=minecraft:wolf,x=-4970,y=134,z=-4900,distance=..2]
+#kill @e[type=minecraft:wolf,x=-4970,y=134,z=-4900,distance=..2]
 
 function att2:sound/dialogs/simple
 function att2:dialogs/sidequest/sq30/player_1

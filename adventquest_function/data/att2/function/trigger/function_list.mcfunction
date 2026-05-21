@@ -3667,11 +3667,20 @@ execute if score @s ScoreTrigger matches 3569 run function att2:gameplay/dahal/a
 execute if score @s ScoreTrigger matches 3570 run function att2:gameplay/dahal/action/spell40/music_stop
 
 
-execute if score @s ScoreTrigger matches 3571 run function att2:gameplay/dahal/action/spell40/music_stop
-execute if score @s ScoreTrigger matches 3572 run function att2:gameplay/dahal/action/spell40/music_stop
+execute if score @s ScoreTrigger matches 3571 run say nothing
+execute if score @s ScoreTrigger matches 3572 run say nothing
 
 execute if score @s ScoreTrigger matches 3573 run function att2:gameplay/enchantment/show_interaction/sword_of_stone
 execute if score @s ScoreTrigger matches 3574 run function att2:dialogs/gameplay/enchantment/data_show/sword_of_stone
 
 
 execute if score @s ScoreTrigger matches 3575 run function att2:gameplay/dahal/action/spell29/replace_list
+
+
+execute if score @s ScoreTrigger matches 3576 run function att2:gameplay/shop/prisoner/random_exchange/trigger_4
+execute if score @s ScoreTrigger matches 3577 run function att2:gameplay/shop/prisoner/random_exchange/trigger_5
+execute if score @s ScoreTrigger matches 3578 run function att2:gameplay/shop/prisoner/random_exchange/trigger_6
+execute if score @s ScoreTrigger matches 3579 run function att2:gameplay/shop/prisoner/random_exchange/trigger_7
+execute if score @s ScoreTrigger matches 3580 run function att2:gameplay/shop/prisoner/random_exchange/trigger_8
+execute if score @s ScoreTrigger matches 3581 run function att2:gameplay/shop/prisoner/random_exchange/trigger_9
+execute if score @s ScoreTrigger matches 3582 run function att2:gameplay/shop/prisoner/random_exchange/trigger_10

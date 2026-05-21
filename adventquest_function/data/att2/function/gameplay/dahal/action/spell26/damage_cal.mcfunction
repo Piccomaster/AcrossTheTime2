@@ -8,14 +8,14 @@
 execute at @s unless entity @e[type=!bat,scores={GAMELEVEL=0..},team=hostile,distance=..5,limit=1] run return 0
 ##reduce health
 #effect give @s instant_damage 1 3
-scoreboard players set #health_reduce CAL 100
-scoreboard players operation @s ENEMYABHEALTH > 0 CAL
-scoreboard players operation #health_reduce CAL -= @s ENEMYABHEALTH
-scoreboard players operation @s ENEMYABHEALTH -= #health_reduce CAL
-scoreboard players operation @s ENEMYABHEALTH > 0 CAL
-scoreboard players operation @s ENEMYHEALTH -= #health_reduce CAL
+#tellraw @a ["当前生命值",{score:{name:"@s",objective:"ENEMYHEALTH"}}]
+scoreboard players operation #damage CAL = @s SPELL26_SLCT
+scoreboard players operation #damage CAL *= 20 CAL
+scoreboard players add #damage CAL 50
+function att2:gameplay/enemy_health/normal_trigger
+#tellraw @a ["减少生命值",{score:{name:"#health_reduce",objective:"CAL"}}]
 ##update health
-function att2:gameplay/healthbar/detection_enemy
+#function att2:gameplay/healthbar/detection_enemy
 ##get score
 execute store result score #Health CAL run scoreboard players get @s ENEMYHEALTH
 execute store result score #Max_Health CAL run attribute @s max_health get
@@ -27,8 +27,9 @@ scoreboard players operation #Percent_Health CAL /= #Max_Health CAL
 scoreboard players operation finalDG SPDG = #Max_Health CAL
 scoreboard players operation finalDG SPDG -= @s ENEMYHEALTH
 
-scoreboard players operation finalDG SPDG *= 10 CAL 
+scoreboard players operation finalDG SPDG *= 60 CAL 
 scoreboard players operation finalDG SPDG /= 100 CAL
+#tellraw @a ["傀儡伤害",{score:{name:"finalDG",objective:"SPDG"}}]
 ##snyc health
 execute store result entity @s Health int 1 run scoreboard players get #Health CAL
 ##health < 10 % -> boom

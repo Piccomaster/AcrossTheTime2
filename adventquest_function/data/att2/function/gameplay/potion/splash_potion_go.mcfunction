@@ -36,11 +36,11 @@ execute if score #instant_health CAL matches 14.. run scoreboard players operati
 execute if score #instant_health CAL matches 15.. run scoreboard players operation #damage CAL *= 2 CAL
 execute if score #instant_health CAL matches 16.. run scoreboard players operation #damage CAL *= 2 CAL
 ##health
-execute if score #damage CAL matches 1.. at @s positioned ~-2 ~-1 ~-2 as @e[dx=4,dy=2,dz=4,team=hostile,scores={GAMELEVEL=0..},type=!#minecraft:undead] at @s run function att2:gameplay/potion/health
+execute if score #damage CAL matches 1.. at @s positioned ~-2 ~-1 ~-2 as @e[dx=4,dy=2,dz=4,scores={GAMELEVEL=0..},type=!#minecraft:undead,type=!player] at @s run function att2:gameplay/potion/health
 ##damage
 scoreboard players operation #damage CAL *= 150 CAL
 scoreboard players operation #damage CAL /= 100 CAL
-execute if score #damage CAL matches 1.. at @s positioned ~-2 ~-1 ~-2 as @e[dx=4,dy=2,dz=4,team=hostile,scores={GAMELEVEL=0..},type=#minecraft:undead] at @s run function att2:gameplay/potion/damage
+execute if score #damage CAL matches 1.. at @s positioned ~-2 ~-1 ~-2 as @e[dx=4,dy=2,dz=4,scores={GAMELEVEL=0..},type=#minecraft:undead,type=!player] at @s run function att2:gameplay/potion/damage
 
 
 ##instant_damage
@@ -66,11 +66,11 @@ execute if score #instant_damage CAL matches 14.. run scoreboard players operati
 execute if score #instant_damage CAL matches 15.. run scoreboard players operation #damage CAL *= 2 CAL
 execute if score #instant_damage CAL matches 16.. run scoreboard players operation #damage CAL *= 2 CAL
 ##health
-execute if score #damage CAL matches 1.. at @s positioned ~-2 ~-1 ~-2 as @e[dx=4,dy=2,dz=4,team=hostile,scores={GAMELEVEL=0..},type=#minecraft:undead] at @s run function att2:gameplay/potion/health
+execute if score #damage CAL matches 1.. at @s positioned ~-2 ~-1 ~-2 as @e[dx=4,dy=2,dz=4,scores={GAMELEVEL=0..},type=#minecraft:undead,type=!player] at @s run function att2:gameplay/potion/health
 ##damage
 scoreboard players operation #damage CAL *= 150 CAL
 scoreboard players operation #damage CAL /= 100 CAL
-execute if score #damage CAL matches 1.. at @s positioned ~-2 ~-1 ~-2 as @e[dx=4,dy=2,dz=4,team=hostile,scores={GAMELEVEL=0..},type=!#minecraft:undead] at @s run function att2:gameplay/potion/damage
+execute if score #damage CAL matches 1.. at @s positioned ~-2 ~-1 ~-2 as @e[dx=4,dy=2,dz=4,scores={GAMELEVEL=0..},type=!#minecraft:undead,type=!player] at @s run function att2:gameplay/potion/damage
 
 ##
 kill @s

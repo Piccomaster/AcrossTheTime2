@@ -29,7 +29,7 @@ scoreboard players operation #time CAL = preparation_time HORSERACE
 scoreboard players operation #time CAL /= 20 CAL
 
 ##10s time
-execute if score preparation_time HORSERACE matches 200 run tellraw @a[tag=HorseRace] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzZmMzhkMTRlNzIyNTJiODQ0OTdmY2ZlM2IxNzQxODk0YWU4ZmQ2MTc3ZWI4YTEwNDJkN2Y4MTU0YTU4YmVjMiJ9fX0="}]}},{text:" °-° Marc Aboth : ",color:"green"},{translate:att2.dailyquest.eolorion.chris_amork.3}]
+execute if score preparation_time HORSERACE matches 200 run tellraw @a[tag=HorseRace] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzZmMzhkMTRlNzIyNTJiODQ0OTdmY2ZlM2IxNzQxODk0YWU4ZmQ2MTc3ZWI4YTEwNDJkN2Y4MTU0YTU4YmVjMiJ9fX0="}]}},{text:" °-° Marc Aboth : ",color:"green"},{translate:att2.dailyquest.eolorion.marc_aboth.3}]
 execute if score preparation_time HORSERACE matches 200 run playsound minecraft:entity.experience_orb.pickup ambient @a[tag=HorseRace] ~ ~ ~ 1 1
 execute if score preparation_time HORSERACE matches 200 run playsound minecraft:entity.item.pickup ambient @a[tag=HorseRace] ~ ~ ~ 1 0.5 0.5
 ##tip

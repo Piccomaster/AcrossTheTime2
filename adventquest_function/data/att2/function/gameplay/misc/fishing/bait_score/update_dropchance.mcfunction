@@ -13,7 +13,7 @@ scoreboard players add #DropRolls DropRolls 1000
 
 ##DropChanceCom
 execute if score @s FISH_AREA matches 1 run scoreboard players set #DropChanceCom DropChanceCom 42779360
-execute if score @s FISH_AREA matches 2 run scoreboard players set #DropChanceCom Com 51799600
+execute if score @s FISH_AREA matches 2 run scoreboard players set #DropChanceCom DropChanceCom 51799600
 execute if score @s FISH_AREA matches 3 run scoreboard players set #DropChanceCom DropChanceCom 55210760
 execute if score @s FISH_AREA matches 4 run scoreboard players set #DropChanceCom DropChanceCom 51799600
 execute if score @s FISH_AREA matches 5 run scoreboard players set #DropChanceCom DropChanceCom 42779360

@@ -11,7 +11,7 @@ execute unless score TEST CAL matches 0 run return 0
 execute as @a[distance=..80,gamemode=adventure] at @s run function att2:gameplay/enveffect/elite/death/reward
 
 ###select mob
-execute as @e[team=hostile,type=!bat,scores={GAMELEVEL=0..},distance=0.1..20] at @s run function att2:gameplay/enveffect/elite/death/heal/effect
+execute on vehicle at @s as @e[team=hostile,type=!bat,scores={GAMELEVEL=0..},distance=0.1..20] at @s run function att2:gameplay/enveffect/elite/death/heal/effect
 
 ##kill @s
 kill @s[type=text_display]

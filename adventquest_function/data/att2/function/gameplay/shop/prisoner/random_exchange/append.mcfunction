@@ -4,9 +4,9 @@
 #################################################################
 
 ##random count
-execute if score #LVL DARK_RESIN matches 1 store result score #RNG CAL run random value 1..6
-execute if score #LVL DARK_RESIN matches 2 store result score #RNG CAL run random value 3..18
-execute if score #LVL DARK_RESIN matches 3 store result score #RNG CAL run random value 6..24
+execute if score #LVL DARK_RESIN matches 1..3 store result score #RNG CAL run random value 1..6
+execute if score #LVL DARK_RESIN matches 4..6 store result score #RNG CAL run random value 3..18
+execute if score #LVL DARK_RESIN matches 7.. store result score #RNG CAL run random value 6..24
 
 ##select rune
 execute if score #RNG CAL matches 1 run data modify storage att2:rune crafting_recipe append value {text:"Gal",color:"yellow"}

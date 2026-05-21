@@ -44,4 +44,4 @@ execute as @s[scores={DIMENSION=2},x=1712,z=1599,dx=863,dz=688] run return run f
 execute as @s[scores={DIMENSION=-3}] run return run function att2:gameplay/misc/citywalk/maze
 
 ##reset
-execute if score TRUE CAL matches 0 run return run scoreboard players set @s CITYWALK 0
+scoreboard players set @s CITYWALK 0

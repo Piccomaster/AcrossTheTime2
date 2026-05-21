@@ -8,6 +8,8 @@ scoreboard players set SQ30 SIDEQUEST 9
 
 #Tp Eldaris in Ryliath throne
 tp 00000000-0000-085a-0000-00000000085a -4969.0 134.5 -4900
+execute positioned -4969.00 134.00 -4899.50 unless entity @e[distance=..1,type=wolf] run summon minecraft:wolf -4969.00 134.00 -4899.50 {Rotation:[180.0f,0.0f],data:{rotation:[180.0f,0.0f]},Silent:1b,NoAI:1b,Invulnerable:1b,Silent:1b,PersistenceRequired:1b,attributes:[{id:attack_damage,base:0.0}],active_effects:[{id:invisibility,amplifier:1,duration:-1,show_particles:false}]}
+execute as 00000000-0000-085a-0000-00000000085a positioned -4969.0 134 -4900 run ride @s mount @n[distance=..1,type=wolf]
 #Tp Ithil in portal room
 execute if score Mainquest SIDEQUEST matches 122.. run tp 00000000-0000-094a-0000-00000000094a -5043 149 -4877 180 0
 #Kill Trevor

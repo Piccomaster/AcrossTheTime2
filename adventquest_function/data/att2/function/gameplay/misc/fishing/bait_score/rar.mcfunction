@@ -6,7 +6,7 @@
 #add fish count
 scoreboard players add @s FISH_COUNT 1
 #add fish quality
-scoreboard players add @s FISH_QUALITY 4
+scoreboard players add @s FISH_QUALITY 5
 #limit score
 scoreboard players set @s[scores={FISH_COUNT=3..}] FISH_COUNT 3
 scoreboard players set @s[scores={FISH_QUALITY=12..}] FISH_QUALITY 12

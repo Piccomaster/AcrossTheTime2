@@ -1,0 +1,1 @@
+function att2:gameplay/shop/prisoner/random_exchange/trigger_8

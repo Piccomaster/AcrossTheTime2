@@ -92,6 +92,13 @@ execute if score #Total CAL matches 40000..99999 run data modify storage att2:ru
 execute if score #LVL DARK_RESIN matches 1 run data modify storage att2:rune crafting_recipe append value {translate:"att2.rune_exchange",color:gold,click_event:{action:run_command,command:"/trigger ScoreTrigger set 3532"},hover_event:{action:show_text,value:[{translate:"att2.rune_exchange.hover_event"}]}}
 execute if score #LVL DARK_RESIN matches 2 run data modify storage att2:rune crafting_recipe append value {translate:"att2.rune_exchange",color:gold,click_event:{action:run_command,command:"/trigger ScoreTrigger set 3533"},hover_event:{action:show_text,value:[{translate:"att2.rune_exchange.hover_event"}]}}
 execute if score #LVL DARK_RESIN matches 3 run data modify storage att2:rune crafting_recipe append value {translate:"att2.rune_exchange",color:gold,click_event:{action:run_command,command:"/trigger ScoreTrigger set 3534"},hover_event:{action:show_text,value:[{translate:"att2.rune_exchange.hover_event"}]}}
+execute if score #LVL DARK_RESIN matches 4 run data modify storage att2:rune crafting_recipe append value {translate:"att2.rune_exchange",color:gold,click_event:{action:run_command,command:"/trigger ScoreTrigger set 3576"},hover_event:{action:show_text,value:[{translate:"att2.rune_exchange.hover_event"}]}}
+execute if score #LVL DARK_RESIN matches 5 run data modify storage att2:rune crafting_recipe append value {translate:"att2.rune_exchange",color:gold,click_event:{action:run_command,command:"/trigger ScoreTrigger set 3577"},hover_event:{action:show_text,value:[{translate:"att2.rune_exchange.hover_event"}]}}
+execute if score #LVL DARK_RESIN matches 6 run data modify storage att2:rune crafting_recipe append value {translate:"att2.rune_exchange",color:gold,click_event:{action:run_command,command:"/trigger ScoreTrigger set 3578"},hover_event:{action:show_text,value:[{translate:"att2.rune_exchange.hover_event"}]}}
+execute if score #LVL DARK_RESIN matches 7 run data modify storage att2:rune crafting_recipe append value {translate:"att2.rune_exchange",color:gold,click_event:{action:run_command,command:"/trigger ScoreTrigger set 3579"},hover_event:{action:show_text,value:[{translate:"att2.rune_exchange.hover_event"}]}}
+execute if score #LVL DARK_RESIN matches 8 run data modify storage att2:rune crafting_recipe append value {translate:"att2.rune_exchange",color:gold,click_event:{action:run_command,command:"/trigger ScoreTrigger set 3580"},hover_event:{action:show_text,value:[{translate:"att2.rune_exchange.hover_event"}]}}
+execute if score #LVL DARK_RESIN matches 9 run data modify storage att2:rune crafting_recipe append value {translate:"att2.rune_exchange",color:gold,click_event:{action:run_command,command:"/trigger ScoreTrigger set 3581"},hover_event:{action:show_text,value:[{translate:"att2.rune_exchange.hover_event"}]}}
+execute if score #LVL DARK_RESIN matches 10 run data modify storage att2:rune crafting_recipe append value {translate:"att2.rune_exchange",color:gold,click_event:{action:run_command,command:"/trigger ScoreTrigger set 3582"},hover_event:{action:show_text,value:[{translate:"att2.rune_exchange.hover_event"}]}}
 
 data modify storage att2:rune crafting_recipe append value {text:"\n"}
 
@@ -100,3 +107,10 @@ data modify storage att2:rune crafting_recipe append value {text:"\n"}
 execute if score #LVL DARK_RESIN matches 1 run data modify storage att2:rune crafting_recipe_data_1 set from storage att2:rune crafting_recipe_data
 execute if score #LVL DARK_RESIN matches 2 run data modify storage att2:rune crafting_recipe_data_2 set from storage att2:rune crafting_recipe_data
 execute if score #LVL DARK_RESIN matches 3 run data modify storage att2:rune crafting_recipe_data_3 set from storage att2:rune crafting_recipe_data
+execute if score #LVL DARK_RESIN matches 4 run data modify storage att2:rune crafting_recipe_data_4 set from storage att2:rune crafting_recipe_data
+execute if score #LVL DARK_RESIN matches 5 run data modify storage att2:rune crafting_recipe_data_5 set from storage att2:rune crafting_recipe_data
+execute if score #LVL DARK_RESIN matches 6 run data modify storage att2:rune crafting_recipe_data_6 set from storage att2:rune crafting_recipe_data
+execute if score #LVL DARK_RESIN matches 7 run data modify storage att2:rune crafting_recipe_data_7 set from storage att2:rune crafting_recipe_data
+execute if score #LVL DARK_RESIN matches 8 run data modify storage att2:rune crafting_recipe_data_8 set from storage att2:rune crafting_recipe_data
+execute if score #LVL DARK_RESIN matches 9 run data modify storage att2:rune crafting_recipe_data_9 set from storage att2:rune crafting_recipe_data
+execute if score #LVL DARK_RESIN matches 10 run data modify storage att2:rune crafting_recipe_data_10 set from storage att2:rune crafting_recipe_data
