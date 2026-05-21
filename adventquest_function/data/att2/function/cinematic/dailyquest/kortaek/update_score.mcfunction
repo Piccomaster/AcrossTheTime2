@@ -4,7 +4,7 @@
 ##################################################
 
 scoreboard players operation ffffeab8-0000-0034-ffff-eda300000001 DAILYQUEST = kortaek_city_donation DAILYQUEST
-scoreboard players operation ffffeab8-0000-0034-ffff-eda300000001 DAILYQUEST < 200 CAL
+scoreboard players operation ffffeab8-0000-0034-ffff-eda300000001 DAILYQUEST < 500 CAL
 scoreboard players operation kortaek_city_donation_accumulated_value DAILYQUEST += ffffeab8-0000-0034-ffff-eda300000001 DAILYQUEST
 
 scoreboard players add kortaek_update_count DAILYQUEST 1
