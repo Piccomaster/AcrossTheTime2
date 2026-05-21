@@ -43,15 +43,15 @@ execute if score #instant_health CAL matches 14.. run scoreboard players operati
 execute if score #instant_health CAL matches 15.. run scoreboard players operation #damage CAL *= 2 CAL
 execute if score #instant_health CAL matches 16.. run scoreboard players operation #damage CAL *= 2 CAL
 ##health
-execute if score #Spread CAL matches 0..100 if score #damage CAL matches 1.. at @s positioned ~-1.5 ~-0.5 ~-1.5 as @e[dx=3,dy=1,dz=3,team=hostile,scores={GAMELEVEL=0..},type=!#minecraft:undead] at @s run function att2:gameplay/potion/health
-execute if score #Spread CAL matches 101..200 if score #damage CAL matches 1.. at @s positioned ~-1 ~-0.5 ~-1 as @e[dx=2,dy=1,dz=2,team=hostile,scores={GAMELEVEL=0..},type=!#minecraft:undead] at @s run function att2:gameplay/potion/health
-execute if score #Spread CAL matches 201..300 if score #damage CAL matches 1.. at @s positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=1,dy=1,dz=1,team=hostile,scores={GAMELEVEL=0..},type=!#minecraft:undead] at @s run function att2:gameplay/potion/health
+execute if score #Spread CAL matches 0..100 if score #damage CAL matches 1.. at @s positioned ~-1.5 ~-0.5 ~-1.5 as @e[dx=3,dy=1,dz=3,scores={GAMELEVEL=0..},type=!#minecraft:undead,type=!player] at @s run function att2:gameplay/potion/health
+execute if score #Spread CAL matches 101..200 if score #damage CAL matches 1.. at @s positioned ~-1 ~-0.5 ~-1 as @e[dx=2,dy=1,dz=2,scores={GAMELEVEL=0..},type=!#minecraft:undead,type=!player] at @s run function att2:gameplay/potion/health
+execute if score #Spread CAL matches 201..300 if score #damage CAL matches 1.. at @s positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=1,dy=1,dz=1,scores={GAMELEVEL=0..},type=!#minecraft:undead,type=!player] at @s run function att2:gameplay/potion/health
 ##damage
 scoreboard players operation #damage CAL *= 150 CAL
 scoreboard players operation #damage CAL /= 100 CAL
-execute if score #Spread CAL matches 0..100 if score #damage CAL matches 1.. at @s positioned ~-1.5 ~-0.5 ~-1.5 as @e[dx=3,dy=1,dz=3,team=hostile,scores={GAMELEVEL=0..},type=#minecraft:undead] at @s run function att2:gameplay/potion/damage
-execute if score #Spread CAL matches 101..200 if score #damage CAL matches 1.. at @s positioned ~-1 ~-0.5 ~-1 as @e[dx=2,dy=1,dz=2,team=hostile,scores={GAMELEVEL=0..},type=#minecraft:undead] at @s run function att2:gameplay/potion/damage
-execute if score #Spread CAL matches 201..300 if score #damage CAL matches 1.. at @s positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=1,dy=1,dz=1,team=hostile,scores={GAMELEVEL=0..},type=#minecraft:undead] at @s run function att2:gameplay/potion/damage
+execute if score #Spread CAL matches 0..100 if score #damage CAL matches 1.. at @s positioned ~-1.5 ~-0.5 ~-1.5 as @e[dx=3,dy=1,dz=3,scores={GAMELEVEL=0..},type=#minecraft:undead,type=!player] at @s run function att2:gameplay/potion/damage
+execute if score #Spread CAL matches 101..200 if score #damage CAL matches 1.. at @s positioned ~-1 ~-0.5 ~-1 as @e[dx=2,dy=1,dz=2,scores={GAMELEVEL=0..},type=#minecraft:undead,type=!player] at @s run function att2:gameplay/potion/damage
+execute if score #Spread CAL matches 201..300 if score #damage CAL matches 1.. at @s positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=1,dy=1,dz=1,scores={GAMELEVEL=0..},type=#minecraft:undead,type=!player] at @s run function att2:gameplay/potion/damage
 
 
 ##instant_damage
@@ -77,12 +77,12 @@ execute if score #instant_damage CAL matches 14.. run scoreboard players operati
 execute if score #instant_damage CAL matches 15.. run scoreboard players operation #damage CAL *= 2 CAL
 execute if score #instant_damage CAL matches 16.. run scoreboard players operation #damage CAL *= 2 CAL
 ##health
-execute if score #Spread CAL matches 0..100 if score #damage CAL matches 1.. at @s positioned ~-1.5 ~-0.5 ~-1.5 as @e[dx=3,dy=1,dz=3,team=hostile,scores={GAMELEVEL=0..},type=#minecraft:undead] at @s run function att2:gameplay/potion/health
-execute if score #Spread CAL matches 101..200 if score #damage CAL matches 1.. at @s positioned ~-1 ~-0.5 ~-1 as @e[dx=2,dy=1,dz=2,team=hostile,scores={GAMELEVEL=0..},type=#minecraft:undead] at @s run function att2:gameplay/potion/health
-execute if score #Spread CAL matches 201..300 if score #damage CAL matches 1.. at @s positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=1,dy=1,dz=1,team=hostile,scores={GAMELEVEL=0..},type=#minecraft:undead] at @s run function att2:gameplay/potion/health
+execute if score #Spread CAL matches 0..100 if score #damage CAL matches 1.. at @s positioned ~-1.5 ~-0.5 ~-1.5 as @e[dx=3,dy=1,dz=3,scores={GAMELEVEL=0..},type=#minecraft:undead,type=!player] at @s run function att2:gameplay/potion/health
+execute if score #Spread CAL matches 101..200 if score #damage CAL matches 1.. at @s positioned ~-1 ~-0.5 ~-1 as @e[dx=2,dy=1,dz=2,scores={GAMELEVEL=0..},type=#minecraft:undead,type=!player] at @s run function att2:gameplay/potion/health
+execute if score #Spread CAL matches 201..300 if score #damage CAL matches 1.. at @s positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=1,dy=1,dz=1,scores={GAMELEVEL=0..},type=#minecraft:undead,type=!player] at @s run function att2:gameplay/potion/health
 ##damage
 scoreboard players operation #damage CAL *= 150 CAL
 scoreboard players operation #damage CAL /= 100 CAL
-execute if score #Spread CAL matches 0..100 if score #damage CAL matches 1.. at @s positioned ~-1.5 ~-0.5 ~-1.5 as @e[dx=3,dy=1,dz=3,team=hostile,scores={GAMELEVEL=0..},type=!#minecraft:undead] at @s run function att2:gameplay/potion/damage
-execute if score #Spread CAL matches 101..200 if score #damage CAL matches 1.. at @s positioned ~-1 ~-0.5 ~-1 as @e[dx=2,dy=1,dz=2,team=hostile,scores={GAMELEVEL=0..},type=!#minecraft:undead] at @s run function att2:gameplay/potion/damage
-execute if score #Spread CAL matches 201..300 if score #damage CAL matches 1.. at @s positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=1,dy=1,dz=1,team=hostile,scores={GAMELEVEL=0..},type=!#minecraft:undead] at @s run function att2:gameplay/potion/damage
+execute if score #Spread CAL matches 0..100 if score #damage CAL matches 1.. at @s positioned ~-1.5 ~-0.5 ~-1.5 as @e[dx=3,dy=1,dz=3,scores={GAMELEVEL=0..},type=!#minecraft:undead,type=!player] at @s run function att2:gameplay/potion/damage
+execute if score #Spread CAL matches 101..200 if score #damage CAL matches 1.. at @s positioned ~-1 ~-0.5 ~-1 as @e[dx=2,dy=1,dz=2,scores={GAMELEVEL=0..},type=!#minecraft:undead,type=!player] at @s run function att2:gameplay/potion/damage
+execute if score #Spread CAL matches 201..300 if score #damage CAL matches 1.. at @s positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=1,dy=1,dz=1,scores={GAMELEVEL=0..},type=!#minecraft:undead,type=!player] at @s run function att2:gameplay/potion/damage

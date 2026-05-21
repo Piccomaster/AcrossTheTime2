@@ -27,8 +27,9 @@ scoreboard players operation #Percent_Health CAL /= #Max_Health CAL
 scoreboard players operation finalDG SPDG = #Max_Health CAL
 scoreboard players operation finalDG SPDG -= @s ENEMYHEALTH
 
-scoreboard players operation finalDG SPDG *= 80 CAL 
+scoreboard players operation finalDG SPDG *= 60 CAL 
 scoreboard players operation finalDG SPDG /= 100 CAL
+#tellraw @a ["傀儡伤害",{score:{name:"finalDG",objective:"SPDG"}}]
 ##snyc health
 execute store result entity @s Health int 1 run scoreboard players get #Health CAL
 ##health < 10 % -> boom
