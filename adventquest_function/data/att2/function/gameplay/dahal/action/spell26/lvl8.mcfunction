@@ -5,6 +5,7 @@
 
 execute positioned ~ ~ ~ run function att2:summon/dahal/golem0_class16
 scoreboard players operation @e[type=iron_golem,tag=NewInvo,tag=Spell26] OWNER = @s NUMEROJOUEUR
+scoreboard players operation @e[type=iron_golem,tag=NewInvo,tag=Spell26] SPELL26_SLCT = @s SPELL26_SLCT
 
 scoreboard players set @s SPELL26_MAX 1
 execute at @s as @e[type=minecraft:iron_golem,tag=!NewInvo,scores={OWNER=1..}] if score @s OWNER = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell26/golem_max

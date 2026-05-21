@@ -35,7 +35,7 @@ execute unless score kortaek_dailyquest_9_completed DAILYQUEST matches 1.. run s
 execute if score kortaek_dailyquest_9 DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
 execute unless score eolorion_dailyquest_9_completed DAILYQUEST matches 1.. run scoreboard players set #RNG CAL 0
 #rng select
-execute if score #RNG CAL matches 1..200 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:9}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
+execute if score #RNG CAL matches 1..20 unless entity @n[distance=..10,type=interaction,tag=QuestBoard,nbt={data:{questid:9}}] run return run function att2:cinematic/dailyquest/update_quest_board/request_select
 
 #######DailyQuest 1 : The path to wealth.
 #random value
