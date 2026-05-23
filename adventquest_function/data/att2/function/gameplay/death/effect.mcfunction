@@ -8,10 +8,15 @@ function att2:gameplay/stat/hunger/apply_effect
 
 scoreboard players set @s JUMP_SAFE 40
 
-execute if score level DIFFICULTY matches -1 run effect give @s minecraft:resistance 10 4 true
-execute if score level DIFFICULTY matches 0 run effect give @s minecraft:resistance 7 4 true
-execute if score level DIFFICULTY matches 1 run effect give @s minecraft:resistance 3 4 true
-execute if score level DIFFICULTY matches 2 run effect give @s minecraft:resistance 2 4 true
+execute if score level DIFFICULTY matches -1 run scoreboard players set @s RES_EXT 20
+execute if score level DIFFICULTY matches 0 run scoreboard players set @s RES_EXT 15
+execute if score level DIFFICULTY matches 1 run scoreboard players set @s RES_EXT 10
+execute if score level DIFFICULTY matches 2 run scoreboard players set @s RES_EXT 5
+
+execute if score level DIFFICULTY matches -1 run scoreboard players set @s TIMER_RES_EXT 120
+execute if score level DIFFICULTY matches 0 run scoreboard players set @s TIMER_RES_EXT 100
+execute if score level DIFFICULTY matches 1 run scoreboard players set @s TIMER_RES_EXT 80
+execute if score level DIFFICULTY matches 2 run scoreboard players set @s TIMER_RES_EXT 60
 
 execute if score level DIFFICULTY matches -1 run xp add @s -1 levels
 execute if score level DIFFICULTY matches 0 run xp add @s -3 levels

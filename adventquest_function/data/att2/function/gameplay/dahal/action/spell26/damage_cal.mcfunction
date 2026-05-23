@@ -10,7 +10,7 @@ execute at @s unless entity @e[type=!bat,scores={GAMELEVEL=0..},team=hostile,dis
 #effect give @s instant_damage 1 3
 #tellraw @a ["当前生命值",{score:{name:"@s",objective:"ENEMYHEALTH"}}]
 scoreboard players operation #damage CAL = @s SPELL26_SLCT
-scoreboard players operation #damage CAL *= 20 CAL
+scoreboard players operation #damage CAL *= 10 CAL
 scoreboard players add #damage CAL 50
 function att2:gameplay/enemy_health/normal_trigger
 #tellraw @a ["减少生命值",{score:{name:"#health_reduce",objective:"CAL"}}]

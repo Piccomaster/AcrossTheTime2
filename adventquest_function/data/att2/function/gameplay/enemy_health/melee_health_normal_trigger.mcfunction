@@ -36,6 +36,6 @@ execute as @s[type=!bat] at @s run function att2:gameplay/enemy_health/show_heal
 function att2:gameplay/healthbar/detection_enemy
 execute if score @s ENEMYHEALTH matches ..0 run return run function att2:gameplay/enemy_health/kill
 ##sync health
-#execute store result entity @s Health int 1 run scoreboard players get @s ENEMYHEALTH
+##execute store result entity @s Health int 1 run scoreboard players get @s ENEMYHEALTH
 effect clear @s minecraft:absorption
 effect give @s minecraft:absorption infinite 249 true

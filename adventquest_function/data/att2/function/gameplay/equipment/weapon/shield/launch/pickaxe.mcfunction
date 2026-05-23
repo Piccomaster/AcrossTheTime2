@@ -22,7 +22,7 @@ item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_ench
 function att2:gameplay/misc/motion/reset
 execute unless items entity @s saddle diamond run item replace entity @s saddle with diamond[equippable={slot:saddle,equip_sound:intentionally_empty}]
 item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/motion/w":6}}
-item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/motion/up":5}}
+item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/motion/up":3}}
 
 ##invulnerable time
 scoreboard players set @s Invulnerable 15

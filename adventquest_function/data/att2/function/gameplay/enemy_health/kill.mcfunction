@@ -12,8 +12,8 @@ execute at @s on attacker as @s[type=#att2_entity:sp_follow_pet_all] on owner ru
 ##trigger
 execute if score @s SPECIAL_ELITE matches 1.. run function att2:gameplay/enveffect/elite/kill_trigger
 ##super/mega
-execute as @s[tag=SUPER] run function att2:gameplay/leveling/monster/superelite/trigger
-execute as @s[tag=MEGA] run function att2:gameplay/leveling/monster/megaelite/trigger
+execute as @s[tag=SUPER] at @s positioned ~ ~2 ~ run function att2:gameplay/leveling/monster/superelite/trigger
+execute as @s[tag=MEGA] at @s positioned ~ ~2 ~ run function att2:gameplay/leveling/monster/megaelite/trigger
 ##elite
 scoreboard players operation #CLASSLEVEL CAL = @s CLASSLEVEL
 scoreboard players operation #CLASSLEVEL CAL %= 4 CAL

@@ -5,14 +5,13 @@
 
 ##limit
 execute as @s[type=player] run return fail
-execute unless entity @p[distance=..100] run return 0
+execute unless entity @p[distance=..100] run return fail
 ##if not have head ->Report error
 #execute unless items entity @s armor.head * run tellraw @a {text:"No helmet.",color:red}
 ##clear enchantment
 item modify entity @s armor.head {function:set_enchantments,enchantments:{"att2_enchantment:tick/mob_initialize":0}}
 ##Initilaize drop_chances
-execute unless data entity @s drop_chances run data modify entity @s drop_chances set value {mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0}
-execute if data entity @s drop_chances if items entity @s armor.head diamond_helmet[item_model="nothing"] run data modify entity @s drop_chances.head set value 0
+data modify entity @s drop_chances set value {mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0}
 
 ##Add damage detection trigger.
 item modify entity @s[type=!minecraft:bat] armor.head {function:set_enchantments,enchantments:{"att2_enchantment:tick/mob_tick":1}}

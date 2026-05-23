@@ -50,6 +50,6 @@ function att2:gameplay/healthbar/detection_enemy
 execute if score @s ENEMYHEALTH matches ..0 run function att2:gameplay/enemy_health/kill_trigger/melee
 execute if score @s ENEMYHEALTH matches ..0 run function att2:gameplay/enemy_health/kill
 ##sync health
-#execute store result entity @s Health int 1 run scoreboard players get @s ENEMYHEALTH
+##execute store result entity @s Health int 1 run scoreboard players get @s ENEMYHEALTH
 effect clear @s minecraft:absorption
 effect give @s minecraft:absorption infinite 249 true
