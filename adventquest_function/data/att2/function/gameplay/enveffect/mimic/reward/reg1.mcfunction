@@ -21,14 +21,12 @@ summon minecraft:fireball ~ ~1 ~ {Tags:["New"],ExplosionPower:1,Motion:[0.0,-1.0
 execute as @e[distance=..10,type=fireball,tag=New] run data modify entity @s Owner set from entity @p UUID
 tag @e[distance=..10,tag=New,type=fireball] remove New
 #reward test
-execute on attacker run scoreboard players operation reward MIMIC = @s LUC_TOT
-scoreboard players operation reward MIMIC *= 4 CAL
-scoreboard players operation reward MIMIC += @s MIMIC
-
-
+scoreboard players operation reward MIMIC = @s MIMIC
+execute on attacker run scoreboard players operation #LUC CAL = @s LUC_TOT
 ##set score
 scoreboard players operation #C CAL = reward MIMIC
 scoreboard players operation #C CAL /= 10 CAL
+scoreboard players add #C CAL 1
 scoreboard players operation #C CAL < 10 CAL
 scoreboard players operation #T CAL = reward MIMIC
 scoreboard players operation #T CAL /= 10 CAL
@@ -37,38 +35,22 @@ scoreboard players operation #T CAL < 10 CAL
 
 scoreboard players set #Q CAL 0
 
-#tellraw @a ["MIMIC",{score:{name:"@s",objective:"MIMIC"}}]
-#tellraw @a ["reward",{score:{name:"reward",objective:"MIMIC"}}]
-#tellraw @a ["C",{score:{name:"#C",objective:"CAL"}}]
-#tellraw @a ["T",{score:{name:"#T",objective:"CAL"}}]
-
 function att2:gameplay/misc/chesteffect/other_dropchance
 
-execute if score reward MIMIC matches ..25 run loot spawn ~ ~1 ~ loot att2:chest/reg1
-execute if score reward MIMIC matches ..25 run loot spawn ~ ~1 ~ loot att2:chest/reg1
-execute if score reward MIMIC matches ..25 run loot spawn ~ ~1 ~ loot att2:chest/reg1
-execute if score reward MIMIC matches ..25 run loot spawn ~ ~1 ~ loot att2:chest/reg1
+loot spawn ~ ~1 ~ loot att2:chest/reg4
+loot spawn ~ ~1 ~ loot att2:chest/reg4
+loot spawn ~ ~1 ~ loot att2:chest/reg4
 
-
-execute if score reward MIMIC matches 26..50 run loot spawn ~ ~1 ~ loot att2:chest/reg1
-execute if score reward MIMIC matches 26..50 run loot spawn ~ ~1 ~ loot att2:chest/reg1
-execute if score reward MIMIC matches 26..50 run loot spawn ~ ~1 ~ loot att2:chest/reg1
-execute if score reward MIMIC matches 26..50 run loot spawn ~ ~1 ~ loot att2:chest/reg1
-
-
-execute if score reward MIMIC matches 51..75 run loot spawn ~ ~1 ~ loot att2:chest/reg1
-execute if score reward MIMIC matches 51..75 run loot spawn ~ ~1 ~ loot att2:chest/reg1
-execute if score reward MIMIC matches 51..75 run loot spawn ~ ~1 ~ loot att2:chest/reg1
-
-
-execute if score reward MIMIC matches 76..100 run loot spawn ~ ~1 ~ loot att2:chest/reg1
-execute if score reward MIMIC matches 76..100 run loot spawn ~ ~1 ~ loot att2:chest/reg1
-execute if score reward MIMIC matches 76..100 run loot spawn ~ ~1 ~ loot att2:chest/reg1
-
-execute if score reward MIMIC matches 101.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
-execute if score reward MIMIC matches 101.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
-execute if score reward MIMIC matches 101.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
-execute if score reward MIMIC matches 101.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
+execute if score #LUC CAL matches 2.. run loot spawn ~ ~1 ~ loot att2:chest/reg4
+execute if score #LUC CAL matches 4.. run loot spawn ~ ~1 ~ loot att2:chest/reg4
+execute if score #LUC CAL matches 6.. run loot spawn ~ ~1 ~ loot att2:chest/reg4
+execute if score #LUC CAL matches 8.. run loot spawn ~ ~1 ~ loot att2:chest/reg4
+execute if score #LUC CAL matches 10.. run loot spawn ~ ~1 ~ loot att2:chest/reg4
+execute if score #LUC CAL matches 12.. run loot spawn ~ ~1 ~ loot att2:chest/reg4
+execute if score #LUC CAL matches 14.. run loot spawn ~ ~1 ~ loot att2:chest/reg4
+execute if score #LUC CAL matches 16.. run loot spawn ~ ~1 ~ loot att2:chest/reg4
+execute if score #LUC CAL matches 18.. run loot spawn ~ ~1 ~ loot att2:chest/reg4
+execute if score #LUC CAL matches 20.. run loot spawn ~ ~1 ~ loot att2:chest/reg4
 
 execute as @e[type=minecraft:item,distance=..30,predicate=!att2_pre:test_item/health] run data merge entity @s {Health:32767s}
 

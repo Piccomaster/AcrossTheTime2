@@ -36,4 +36,4 @@ function att2:gameplay/healthbar/detection_enemy
 scoreboard players set #reduce_health CAL 0
 execute if score @s ENEMYHEALTH matches ..0 run return run function att2:gameplay/enemy_health/kill
 ##sync health
-execute store result entity @s Health int 1 run scoreboard players get @s ENEMYHEALTH
+#execute store result entity @s Health int 1 run scoreboard players get @s ENEMYHEALTH

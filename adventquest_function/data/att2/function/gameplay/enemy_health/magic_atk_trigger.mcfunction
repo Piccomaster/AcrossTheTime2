@@ -37,4 +37,4 @@ function att2:gameplay/healthbar/detection_enemy
 execute if score @s ENEMYHEALTH matches ..0 at @s on attacker run damage @n[distance=..0] 7777777777777777 att2_damage:magic by @s
 execute if score @s ENEMYHEALTH matches ..0 run return run function att2:gameplay/enemy_health/kill
 ##sync health
-execute store result entity @s Health int 1 run scoreboard players get @s ENEMYHEALTH
+#execute store result entity @s Health int 1 run scoreboard players get @s ENEMYHEALTH

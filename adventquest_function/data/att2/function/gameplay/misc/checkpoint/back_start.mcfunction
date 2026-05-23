@@ -10,6 +10,9 @@ scoreboard players set @s CHECKPOINT 70
 tag @s add spectator
 ##record now pos
 
+##get player score
+function att2:gameplay/score/player
+function att2:gameplay/dahal/action/spell20/return/trigger
 ##get now pos
 function att2:gameplay/misc/checkpoint/get_now_pos
 ##get_checkpoint_pos
