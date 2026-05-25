@@ -7,7 +7,7 @@
 
 ##chronotons
 scoreboard players operation #chronotons CAL = ryliath_city_donation_accumulated_value DAILYQUEST
-scoreboard players operation #chronotons CAL *= 4 CAL
+scoreboard players operation #chronotons CAL *= 2 CAL
 
 ##xp
 scoreboard players operation #xp CAL = ryliath_city_donation_accumulated_value DAILYQUEST

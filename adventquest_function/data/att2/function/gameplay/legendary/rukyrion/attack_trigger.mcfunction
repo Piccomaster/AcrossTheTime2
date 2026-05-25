@@ -16,6 +16,6 @@ particle minecraft:sweep_attack ^ ^1 ^1 0.1 0.1 0.1 0 3 force
 #limit
 scoreboard players set @s[scores={RUK_ATK_TIMER=400..}] RUK_ATK_TIMER 400
 #sprint trigger
-execute if score @s RUK_ATK_TIMER matches 300.. if predicate att2_pre:player/input/shift unless predicate att2_pre:player/flying if score @s DAHAL_TICK matches 4000.. run function att2:gameplay/legendary/rukyrion/normal_atk/sprint_attack
+execute if score @s RUK_ATK_TIMER matches 300.. if predicate att2_pre:player/input/shift unless predicate att2_pre:player/flying if score @s DAHAL_TICK matches 2000.. run function att2:gameplay/legendary/rukyrion/normal_atk/sprint_attack
 #range damage
-execute if score @s DAHAL_TICK matches 600.. run function att2:gameplay/legendary/rukyrion/normal_atk/atk_effect
+execute if score @s RUK_ATK_TIMER matches 300.. if score @s DAHAL_TICK matches 1000.. run function att2:gameplay/legendary/rukyrion/normal_atk/atk_effect

@@ -7,7 +7,8 @@
 scoreboard players set #LEVELMASTER CAL 0
 scoreboard players operation #LEVELMASTER CAL > @a[distance=..50] LEVELMASTER
 ##cal
-scoreboard players operation #LEVELMASTER CAL *= 1 CAL
+scoreboard players operation #LEVELMASTER CAL *= 150 CAL
+scoreboard players operation #LEVELMASTER CAL /= 100 CAL
 #add absorption health
 scoreboard players operation @s ENEMYABHEALTH += #LEVELMASTER CAL
 

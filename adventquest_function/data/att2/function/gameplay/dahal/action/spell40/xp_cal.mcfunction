@@ -22,11 +22,6 @@ execute as @s[scores={SPELL40_OP=0..}] run scoreboard players add @s SPELL40_CAP
 execute as @s[scores={SPELL40_OP=0..}] run function att2:gameplay/dahal/action/spell40/lvlup
 scoreboard players set @s SPELL40_OP -1
 
-# Managing corruption ambiance (sound)
-scoreboard players remove @s[scores={SPELL40_MUSIC=1..}] SPELL40_MUSIC 1
-execute as @s[scores={SPELL40_MUSIC=0}] at @s run function att2:sound/dahal/corruption_loop
-scoreboard players set @s[scores={SPELL40_MUSIC=0}] SPELL40_MUSIC 52
-
 #
 execute as @s[tag=Corrupted,scores={SPELL40_LVL=44820..,SPELL40_TIP=0}] run function att2:dialogs/gameplay/dahal/corruption_secret
 #

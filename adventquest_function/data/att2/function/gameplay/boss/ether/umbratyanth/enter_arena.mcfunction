@@ -3,7 +3,7 @@
 #Process challengers enters arena                               	#
 #####################################################################
 
-tp @a ~ ~ ~
+#tp @a ~ ~ ~
 tp @s -5117 121 -6870
 stopsound @s
 tag @s add NoAutoMusic

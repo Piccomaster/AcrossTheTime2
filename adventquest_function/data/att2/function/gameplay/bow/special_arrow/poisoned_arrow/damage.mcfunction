@@ -5,6 +5,6 @@
 
 
 ##damage
-$damage @s $(damage) att2_damage:real_health by @p
+damage @s 0 att2_damage:real_health by @p
 
 #$say 箭矢伤害:$(damage)

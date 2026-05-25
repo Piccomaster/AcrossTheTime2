@@ -12,6 +12,11 @@ execute as @s[tag=Big] run data merge entity @s {transformation:{scale:[1.5,1.5,
 ##health remove
 scoreboard players set #reduce_health CAL 0
 execute as @s[tag=Small] run scoreboard players set #reduce_health CAL 1
+
+scoreboard players operation #lvl CAL = fire_ball_duel SPDG
+scoreboard players operation #lvl CAL /= 10 CAL
+scoreboard players operation #reduce_health CAL += #lvl CAL
+
 ##update tag
 execute as @s[tag=Small] run return run function att2:cinematic/dailyquest/eolorion/5/fireball_duel/effect/clear
 execute as @s[tag=Medium] run return run data modify entity @s Tags set value ["FireBallDuel","BobL","Small"]

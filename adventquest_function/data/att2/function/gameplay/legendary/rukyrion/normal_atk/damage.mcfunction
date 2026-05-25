@@ -5,6 +5,7 @@
 
 #damage
 damage @s 0 att2_damage:player_attack by @p[predicate=att2_pre:score/player]
+particle minecraft:sweep_attack ~ ~ ~ 0.5 0.5 0.5 0.1 5 normal
 
 ##detection health
 function att2:gameplay/enemy_health/magic_atk_trigger

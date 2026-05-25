@@ -6,7 +6,7 @@
 #function att2:gameplay/legendary/rukyrion/normal_atk/sprint_attack
 
 #sprint
-scoreboard players remove @s DAHAL_TICK 4000
+scoreboard players remove @s DAHAL_TICK 2000
 #damage_cal
 function att2:gameplay/legendary/rukyrion/used_trigger/damage_cal_se
 #get damage

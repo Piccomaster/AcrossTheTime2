@@ -18,7 +18,6 @@
     "supported_items": "#minecraft:swords",
     "exclusive_set": [
         "att2_enchantment:sword_of_jab",
-        "att2_enchantment:sscombo",
         "att2_enchantment:greatsword"
     ],
     "weight": 1,
