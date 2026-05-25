@@ -37,20 +37,20 @@ scoreboard players set #Q CAL 0
 
 function att2:gameplay/misc/chesteffect/other_dropchance
 
-loot spawn ~ ~1 ~ loot att2:chest/reg4
-loot spawn ~ ~1 ~ loot att2:chest/reg4
-loot spawn ~ ~1 ~ loot att2:chest/reg4
+loot spawn ~ ~1 ~ loot att2:chest/reg1
+loot spawn ~ ~1 ~ loot att2:chest/reg1
+loot spawn ~ ~1 ~ loot att2:chest/reg1
 
-execute if score #LUC CAL matches 2.. run loot spawn ~ ~1 ~ loot att2:chest/reg4
-execute if score #LUC CAL matches 4.. run loot spawn ~ ~1 ~ loot att2:chest/reg4
-execute if score #LUC CAL matches 6.. run loot spawn ~ ~1 ~ loot att2:chest/reg4
-execute if score #LUC CAL matches 8.. run loot spawn ~ ~1 ~ loot att2:chest/reg4
-execute if score #LUC CAL matches 10.. run loot spawn ~ ~1 ~ loot att2:chest/reg4
-execute if score #LUC CAL matches 12.. run loot spawn ~ ~1 ~ loot att2:chest/reg4
-execute if score #LUC CAL matches 14.. run loot spawn ~ ~1 ~ loot att2:chest/reg4
-execute if score #LUC CAL matches 16.. run loot spawn ~ ~1 ~ loot att2:chest/reg4
-execute if score #LUC CAL matches 18.. run loot spawn ~ ~1 ~ loot att2:chest/reg4
-execute if score #LUC CAL matches 20.. run loot spawn ~ ~1 ~ loot att2:chest/reg4
+execute if score #LUC CAL matches 2.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
+execute if score #LUC CAL matches 4.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
+execute if score #LUC CAL matches 6.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
+execute if score #LUC CAL matches 8.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
+execute if score #LUC CAL matches 10.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
+execute if score #LUC CAL matches 12.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
+execute if score #LUC CAL matches 14.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
+execute if score #LUC CAL matches 16.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
+execute if score #LUC CAL matches 18.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
+execute if score #LUC CAL matches 20.. run loot spawn ~ ~1 ~ loot att2:chest/reg1
 
 execute as @e[type=minecraft:item,distance=..30,predicate=!att2_pre:test_item/health] run data merge entity @s {Health:32767s}
 

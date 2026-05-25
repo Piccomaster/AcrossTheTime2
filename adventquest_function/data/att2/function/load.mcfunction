@@ -4,8 +4,8 @@
 #################################################################
 
 ##gamerule
-gamerule max_command_forks 777777777
-gamerule max_command_sequence_length 777777777
+gamerule max_command_forks 77777
+gamerule max_command_sequence_length 77777
 
 scoreboard objectives add EXPLOIT dummy
 scoreboard objectives add LEAVEGAME minecraft.custom:minecraft.leave_game
@@ -132,3 +132,6 @@ function att2:cinematic/dailyquest/long_animation/eolorion/dq9/initialize
 function att2:cinematic/dailyquest/long_animation/kortaek/dq9/initialize
 function att2:cinematic/dailyquest/long_animation/phoenix/dq9/initialize
 function att2:cinematic/dailyquest/long_animation/zirthion/dq9/initialize
+
+
+execute in overworld run setblock -5107 160 -6750 minecraft:air destroy

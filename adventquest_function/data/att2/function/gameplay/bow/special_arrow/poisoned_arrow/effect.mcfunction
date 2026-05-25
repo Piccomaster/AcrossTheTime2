@@ -16,10 +16,10 @@ scoreboard players operation #buff CAL /= 100 CAL
 scoreboard players remove #time CAL 10
 ##trigger buff damage = buff x 7%
 scoreboard players operation #damage CAL = #buff CAL
-scoreboard players operation #damage CAL *= 7 CAL
+scoreboard players operation #damage CAL *= 5 CAL
 scoreboard players operation #damage CAL /= 100 CAL
 scoreboard players operation #damage CAL > 5 CAL
-
+#tellraw @a ["伤害",{score:{name:"#damage",objective:"CAL"}}]
 ##remove buff percent
 scoreboard players operation #buff CAL *= 90 CAL
 scoreboard players operation #buff CAL /= 100 CAL
@@ -33,17 +33,18 @@ scoreboard players operation @s POISONEDARROWTIME += #time CAL
 execute if score #time CAL matches 0 run function att2:gameplay/bow/special_arrow/poisoned_arrow/reset
 
 ##cal resistance
-execute store result score #resistance CAL run data get entity @s active_effects[{id:"minecraft:resistance"}].amplifier 20
-scoreboard players remove #resistance CAL 80
-scoreboard players operation #resistance CAL *= -1 CAL
-scoreboard players operation #damage CAL *= #resistance CAL
-scoreboard players operation #damage CAL /= 100 CAL
-scoreboard players operation #damage CAL > 1 CAL
+#execute store result score #resistance CAL run data get entity @s active_effects[{id:"minecraft:resistance"}].amplifier 20
+#scoreboard players remove #resistance CAL 80
+#scoreboard players operation #resistance CAL *= -1 CAL
+#scoreboard players operation #damage CAL *= #resistance CAL
+#scoreboard players operation #damage CAL /= 100 CAL
+#scoreboard players operation #damage CAL > 1 CAL
 
 #store
 execute store result storage att2:score damage int 1 run scoreboard players get #damage CAL
 #damage go
-function att2:gameplay/bow/special_arrow/poisoned_arrow/damage
+damage @s 0 att2_damage:real_health by @p
+#function att2:gameplay/bow/special_arrow/poisoned_arrow/damage
 ##damage detection
 function att2:gameplay/enemy_health/wither_health_trigger
 

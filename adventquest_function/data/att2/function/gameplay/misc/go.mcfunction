@@ -43,7 +43,7 @@ execute if score tic TIMECOUNTER matches 7 as @a at @s if entity @e[type=experie
 #map
 function att2:gameplay/misc/map/go
 #ride keep
-execute if score tic TIMECOUNTER matches 15 run function att2:gameplay/misc/horse/go
+function att2:gameplay/misc/horse/go
 #city walk
 execute if score tic TIMECOUNTER matches 15 as @a at @s run function att2:gameplay/misc/citywalk/go
 ##clear exploit_book

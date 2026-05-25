@@ -3,6 +3,7 @@
 #Apply level 0 effect for Rukyrion user                			#
 #################################################################
 
+scoreboard players remove @s DAHAL_TICK 1000
 #damage cal
 function att2:gameplay/legendary/rukyrion/normal_atk/damage_cal
 #range damage

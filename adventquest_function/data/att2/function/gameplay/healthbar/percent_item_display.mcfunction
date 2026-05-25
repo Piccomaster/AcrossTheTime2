@@ -5,7 +5,8 @@
 
 #scale [X,X,0.A] A->1.0->100% hp A->0.8 -> 80%HP
 #translation:[-0.B,X,X] B=(100-A) X 5
-
+##keep rotation
+rotate @s ~ 0
 #back SCALE
 execute store result storage att2:hp_bar scale double 0.01 run scoreboard players get HP_PERCENT CAL
 execute store result entity @s transformation.scale[2] double 0.01 run scoreboard players get HP_PERCENT CAL

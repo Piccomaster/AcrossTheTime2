@@ -13,5 +13,7 @@ execute positioned -5112 162.5 -6739 run function att2:sound/misc/soft_corruptio
 scoreboard players add Count_start UMBRATYANTH 1
 scoreboard players set EnterArena UMBRATYANTH 20
 
+execute in overworld run setblock -5107 160 -6750 minecraft:air destroy
+
 ### UMBRATYANTH
 function att2:advancement/test_all/mobskilled/umbra_number

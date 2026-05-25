@@ -4,7 +4,7 @@
 #########################################################################
 
 
-##4 : 1 ra -> tracking_arrow_1 x 3
+##4 : 1 ra -> tracking_arrow_1 x 4
 
 #cal arrows
 scoreboard players operation #obtain_arrow_count CAL = #arrow RUNECOUNT
@@ -35,7 +35,7 @@ execute if score #return_ra_count CAL matches 1.. run loot spawn -5029 91 -4958 
 
 
 ##summon tracking_arrow_1
-scoreboard players operation #obtain_arrow_count CAL *= 3 CAL
+scoreboard players operation #obtain_arrow_count CAL *= 4 CAL
 execute store result storage att2:score count int 1 run scoreboard players get #obtain_arrow_count CAL
 loot spawn -5029 91 -4958 loot {"pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"minecraft:arrow","functions":[{"function":"minecraft:set_components","components":{"custom_name":[{"translate":"att2.item.special_arrow.tracking_arrow_1.name"}],"lore":[{"translate":"att2.item.special_arrow.tracking_arrow_1.lore.1"},{"translate":"att2.item.special_arrow.tracking_arrow_1.lore.2"}],"custom_data":{"EquipmentType":"arrow","Rarity":"unc","tracking_arrow":1,"special_arrow":true},"enchantment_glint_override":false,"max_stack_size":99,"item_model":"arrows/tracking_arrow","tooltip_style":"minecraft:rarity/unc/unc"}},{function:set_count,count:{type:"storage",storage:"att2:score",path:"count"}}]}]}]}
 

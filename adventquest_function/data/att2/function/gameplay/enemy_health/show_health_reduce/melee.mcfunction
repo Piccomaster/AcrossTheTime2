@@ -16,7 +16,7 @@ execute at @s on attacker run rotate @n[distance=..10,type=item,tag=New,tag=HPDI
 execute as @n[distance=..10,type=item,tag=New,tag=HPDISPLAY] at @s run tp @s ^ ^ ^0.4
 
 ##Critical
-execute if score #CriticalSpellTrigger CAL matches 1 run data modify entity @n[distance=..10,type=text_display,tag=New,tag=HPDISPLAY] text.extra[2].color set value "#FF8904"
+#execute if score #CriticalSpellTrigger CAL matches 1 run data modify entity @n[distance=..10,type=text_display,tag=New,tag=HPDISPLAY] text.extra[2].color set value "#FF8904"
 #CriticalSpellTrigger CAL
 execute as @s[tag=CRT_TRIGGER] run data modify entity @n[distance=..10,type=text_display,tag=New,tag=HPDISPLAY] text.extra[2].color set value "#FF8904"
 tag @s remove CRT_TRIGGER

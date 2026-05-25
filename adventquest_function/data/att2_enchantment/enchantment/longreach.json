@@ -15,7 +15,7 @@
     "slots": [
         "mainhand"
     ],
-    "supported_items": "#minecraft:hoes",
+    "supported_items": "#minecraft:spears",
     "weight": 1,
     "effects": {
         "minecraft:attributes": [

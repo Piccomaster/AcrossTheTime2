@@ -2,7 +2,7 @@
 #Made by Adventquest                                #
 #Process end_cinematic_launching for Phase1 		#
 #####################################################
-
+execute if score Timer4 UMBRATYANTH matches 1.. run function att2:gameplay/boss/ether/umbratyanth/phase1/minions_kill
 execute if score Timer4 UMBRATYANTH matches 1..250 as @a[x=-5158,y=120,z=-6911,dx=82,dy=30,dz=82,gamemode=adventure] at @s anchored feet facing entity 00000000-0000-013c-0000-00000000013c feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Timer4 UMBRATYANTH matches 1..250 as @e[tag=UmbraDummyEyes,x=-5158,y=120,z=-6911,dx=82,dy=40,dz=82] at @s anchored feet facing entity 00000000-0000-013c-0000-00000000013c feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Timer4 UMBRATYANTH matches 1..250 as 00000000-0000-013c-0000-00000000013c at @s run function att2:gameplay/boss/ether/umbratyanth/phase1/loading_effect
