@@ -4,8 +4,6 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
-##test boss
-function att2:advancement/test_all/mobskilled/boss
 ##revoke test
 scoreboard players reset hive_test BOSS
 scoreboard players set Hive SQ58 -2
@@ -20,5 +18,7 @@ setblock -7543 62 -4184 minecraft:air
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/hive
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/hive_master
+##test boss
+function att2:advancement/test_all/mobskilled/boss
 ##boss_time over
 function att2:gameplay/boss/nojelanth/hive/time/time_over

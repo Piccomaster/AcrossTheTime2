@@ -4,8 +4,6 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
-##test boss
-function att2:advancement/test_all/mobskilled/boss
 ##revoke test
 scoreboard players reset torkant_test BOSS
 scoreboard players set Torkant SQ52 -2
@@ -17,5 +15,7 @@ function att2:gameplay/boss/nojelanth/torkant/destroy_minions
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/torkant
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/torkant_master
+##test boss
+function att2:advancement/test_all/mobskilled/boss
 ##boss_time over
 function att2:gameplay/boss/nojelanth/torkant/time/time_over

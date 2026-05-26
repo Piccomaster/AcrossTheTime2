@@ -5,8 +5,6 @@
 
 execute if score SQ56 SIDEQUEST matches 3 run function att2:cinematic/sidequest/56/jzargo/start_cinematic5
 scoreboard players add total_killed BOSS 1
-##test boss
-function att2:advancement/test_all/mobskilled/boss
 ##revoke test
 scoreboard players reset doom_test BOSS
 scoreboard players set Doom SQ56 -2
@@ -20,5 +18,7 @@ tp @a[x=-5229,y=143,z=-6293,distance=..50] -5229 143 -6299
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/doom
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/doom_master
+##test boss
+function att2:advancement/test_all/mobskilled/boss
 ##boss_time over
 function att2:gameplay/boss/elcheol/doom/time/time_over

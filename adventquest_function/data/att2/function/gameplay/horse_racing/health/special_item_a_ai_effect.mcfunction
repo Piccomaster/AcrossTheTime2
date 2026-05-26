@@ -30,7 +30,8 @@ execute if score #health_add CAL matches 1.. on passengers if entity @s[tag=Hors
 execute if score #health_add CAL matches ..-1 on passengers if entity @s[tag=HorseRace] at @s run particle raid_omen ~ ~ ~ 1 1 1 1 10 normal
 
 ##store health
+scoreboard players operation #Health CAL > 1 CAL
 execute if score #Health CAL matches 1.. store result entity @s Health int 1 run scoreboard players get #Health CAL
 ##Check health->0
 ##npc quit
-execute if score #Health CAL matches ..0 on passengers if entity @s[tag=PNJ] run return run function att2:gameplay/horse_racing/quit/npc
+execute if score #Health CAL matches ..1 on passengers run scoreboard players remove @s HORSERACE_OTHER_SPEED_TIMER 100

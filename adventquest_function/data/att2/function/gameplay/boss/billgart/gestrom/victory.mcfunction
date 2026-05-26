@@ -4,8 +4,6 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
-##test boss
-function att2:advancement/test_all/mobskilled/boss
 ##revoke test
 scoreboard players reset gestrom_test BOSS
 scoreboard players set Gestrom BILLGART -2
@@ -20,5 +18,7 @@ function att2:gameplay/checkpoint/billgart/dungeon37
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/gestrom
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/gestrom_master
+##test boss
+function att2:advancement/test_all/mobskilled/boss
 ##boss_time over
 function att2:gameplay/boss/billgart/gestrom/time/time_over

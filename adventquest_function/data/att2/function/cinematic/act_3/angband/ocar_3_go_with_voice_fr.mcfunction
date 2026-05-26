@@ -48,6 +48,7 @@ execute if score Neth0 TIMER matches 1320 run function att2:physicmod/reg2/ocar_
 execute if score Neth0 TIMER matches 1320 run function att2:dialogs/title/a3_ch2_title1
 execute if score Neth0 TIMER matches 1320 run function att2:dialogs/title/a3_ch2_subtitle1
 execute if score Neth0 TIMER matches 1321 run scoreboard players set Mainquest SIDEQUEST 57
+execute if score Neth0 TIMER matches 1321 run scoreboard players set serile_PNJ statDIALOG 1
 
 
 #=======================#

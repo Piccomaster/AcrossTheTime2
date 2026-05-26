@@ -4,8 +4,6 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
-##test boss
-function att2:advancement/test_all/mobskilled/boss
 ##revoke test
 scoreboard players set somniophages_test BOSS 0
 scoreboard players set Somniophages SQ48 -2
@@ -19,5 +17,7 @@ function att2:gameplay/boss/ouranos/somniophages/destroy_minions
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/somniophages
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/somniophages_master
+##test boss
+function att2:advancement/test_all/mobskilled/boss
 ##boss_time over
 function att2:gameplay/boss/ouranos/somniophages/time/time_over

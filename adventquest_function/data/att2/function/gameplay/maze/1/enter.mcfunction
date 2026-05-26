@@ -3,6 +3,8 @@
 #Enter maze 1			                            #
 #####################################################
 
+advancement grant @s only att2:challenge/maze_root
+
 function att2:dialogs/gameplay/maze/system_0
 function att2:gameplay/checkpoint/maze/1
 tp @s -9999 71 -9991

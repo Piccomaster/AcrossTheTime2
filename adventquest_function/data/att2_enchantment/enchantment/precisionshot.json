@@ -13,14 +13,33 @@
     "per_level_above_first": 0
   },
   "slots": [
-    "hand"
+    "hand",
+    
+    "head"
   ],
   "effects": {
     "projectile_spawned": [
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "att2:gameplay/enchantment/trigger_function/precisionshot"
+          "function": "att2:gameplay/enchantment/precisionshot/data_initialize"
+        }
+      }
+    ],
+    "tick": [
+      {
+        "requirements": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:armor_stand"
+            }
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/enchantment/precisionshot/go"
         }
       }
     ]

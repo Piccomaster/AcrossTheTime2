@@ -4,8 +4,6 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
-##test boss
-function att2:advancement/test_all/mobskilled/boss
 ##revoke test
 scoreboard players reset ted_test BOSS
 scoreboard players set Ted SQ55 -2
@@ -17,5 +15,7 @@ function att2:gameplay/boss/elcheol/ted/destroy_minions
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/ted
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/ted_master
+##test boss
+function att2:advancement/test_all/mobskilled/boss
 ##boss_time over
 function att2:gameplay/boss/elcheol/ted/time/time_over

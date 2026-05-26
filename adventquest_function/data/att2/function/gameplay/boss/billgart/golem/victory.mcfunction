@@ -4,8 +4,6 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
-##test boss
-function att2:advancement/test_all/mobskilled/boss
 ##revoke test
 scoreboard players reset golem_test BOSS
 scoreboard players set GolemBoss BILLGART -2
@@ -26,5 +24,7 @@ execute if score Mainquest SIDEQUEST matches 142.. run function att2:gameplay/ch
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/golem
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/golem_master
+##test boss
+function att2:advancement/test_all/mobskilled/boss
 ##boss_time over
 function att2:gameplay/boss/billgart/golem/time/time_over

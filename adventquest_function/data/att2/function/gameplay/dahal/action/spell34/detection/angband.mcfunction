@@ -17,6 +17,7 @@ execute if score SQ57 SIDEQUEST matches 0 at 00000000-0000-118a-0000-00000000118
 execute unless score lisa_payin_PNJ statDIALOG matches 1 at 00000000-0000-058a-0000-00000000058a run function att2:gameplay/dahal/action/spell34/create_npc_marker
 execute unless score rokar_borton_PNJ statDIALOG matches 1 at 00000000-0000-059a-0000-00000000059a run function att2:gameplay/dahal/action/spell34/create_npc_marker
 execute unless score eternal_soldier_1_PNJ statDIALOG matches 1 at 00000000-0000-062a-0000-00000000062a run function att2:gameplay/dahal/action/spell34/create_npc_marker
+execute unless score eternal_soldier_2_PNJ statDIALOG matches 1 at 00000000-0000-063a-0000-00000000063a run function att2:gameplay/dahal/action/spell34/create_npc_marker
 execute unless score eradon_PNJ statDIALOG matches 1 at 00000000-0000-119a-0000-00000000119a run function att2:gameplay/dahal/action/spell34/create_npc_marker
 execute unless score armel_darsan_PNJ statDIALOG matches 1 at 00000000-0000-052a-0000-00000000052a run function att2:gameplay/dahal/action/spell34/create_npc_marker
 execute unless score elsa_rasmon_PNJ statDIALOG matches 1 at 00000000-0000-054a-0000-00000000054a run function att2:gameplay/dahal/action/spell34/create_npc_marker

@@ -4,7 +4,7 @@
 #################################################################
 
 ##keep rotation
-rotate @s ~ 0
+rotate @s 0 0
 #get score
 scoreboard players operation @s HP_BAR_END = HP_PERCENT CAL
 #set timer

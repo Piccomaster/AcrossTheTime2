@@ -16,9 +16,9 @@ scoreboard players operation #buff CAL /= 100 CAL
 scoreboard players remove #time CAL 10
 ##trigger buff damage = buff x 7%
 scoreboard players operation #damage CAL = #buff CAL
-scoreboard players operation #damage CAL *= 5 CAL
+scoreboard players operation #damage CAL *= 2 CAL
 scoreboard players operation #damage CAL /= 100 CAL
-scoreboard players operation #damage CAL > 5 CAL
+scoreboard players operation #damage CAL > 1 CAL
 #tellraw @a ["伤害",{score:{name:"#damage",objective:"CAL"}}]
 ##remove buff percent
 scoreboard players operation #buff CAL *= 90 CAL

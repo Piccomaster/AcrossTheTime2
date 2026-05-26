@@ -4,8 +4,6 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
-##test boss
-function att2:advancement/test_all/mobskilled/boss
 ##revoke test
 scoreboard players reset korlaph_test BOSS
 scoreboard players set Korlaph SQ28 -2
@@ -18,3 +16,5 @@ function att2:physicmod/reg1/elcheol_temple_barrier1
 function att2:cinematic/sidequest/28/step3
 
 advancement grant @a only att2:hunting/korlaph
+##test boss
+function att2:advancement/test_all/mobskilled/boss

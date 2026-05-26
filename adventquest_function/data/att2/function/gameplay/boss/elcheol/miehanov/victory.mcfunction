@@ -4,8 +4,6 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
-##test boss
-function att2:advancement/test_all/mobskilled/boss
 ##revoke test
 scoreboard players reset miehanov_test BOSS
 scoreboard players set Miehanov VONAHEIM -2
@@ -22,5 +20,7 @@ execute if score Mainquest SIDEQUEST matches 113 run function att2:dialogs/mainq
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/miehanov
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/miehanov_master
+##test boss
+function att2:advancement/test_all/mobskilled/boss
 ##boss_time over
 function att2:gameplay/boss/elcheol/miehanov/time/time_over

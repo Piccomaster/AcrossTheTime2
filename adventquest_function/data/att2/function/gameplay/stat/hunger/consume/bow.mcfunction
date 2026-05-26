@@ -7,7 +7,7 @@
 #say 弓
 # -1 -> 0 | 0 -> 0 | 1 -> 1 | 2 -> 2
 scoreboard players operation #count CAL = level DIFFICULTY
-scoreboard players operation #count CAL *= 6 CAL
+scoreboard players operation #count CAL *= 5 CAL
 #limit
 scoreboard players operation #count CAL > 0 CAL
 ##HUN effect

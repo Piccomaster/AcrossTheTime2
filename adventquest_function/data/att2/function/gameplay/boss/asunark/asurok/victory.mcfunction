@@ -4,8 +4,6 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
-##test boss
-function att2:advancement/test_all/mobskilled/boss
 ##revoke test
 scoreboard players reset asurok_test BOSS
 scoreboard players set Asurok ASUNARK -2
@@ -21,5 +19,7 @@ execute as @a[x=-3317,y=2,z=-4922,dx=41,dy=22,dz=-41,gamemode=adventure] at @s r
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/asurok
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/asurok_master
+##test boss
+function att2:advancement/test_all/mobskilled/boss
 ##boss_time over
 function att2:gameplay/boss/asunark/asurok/time/time_over

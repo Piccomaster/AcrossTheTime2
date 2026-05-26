@@ -22,6 +22,7 @@ scoreboard players operation #Health_Overflow CAL *= 2 CAL
 scoreboard players operation #vitality_add CAL = #Health_Overflow CAL
 execute if score #health_add CAL matches ..-1 run scoreboard players operation #vitality_add CAL -= #health_add CAL
 ##store health
+scoreboard players operation #Health CAL > 1 CAL
 execute if score #Health CAL matches 1.. store result entity @s Health int 1 run scoreboard players get #Health CAL
 
 ##text tip
@@ -37,6 +38,4 @@ execute if score #health_add CAL matches ..-1 on passengers if entity @s[tag=Hor
 
 ##Check health->0
 ##player quit
-execute if score #Health CAL matches ..0 on passengers if entity @s[type=player] run return run function att2:gameplay/horse_racing/quit/player
-##npc quit
-execute if score #Health CAL matches ..0 on passengers if entity @s[tag=PNJ] run return run function att2:gameplay/horse_racing/quit/npc
+execute if score #Health CAL matches ..1 on passengers run scoreboard players remove @s HORSERACE_OTHER_SPEED_TIMER 100

@@ -16,3 +16,7 @@ execute if score @s SPELL23_CAP matches 9.. run xp add @s 100
 execute if score @s SPELL23_CAP matches 10.. run xp add @s 100
 #TEST LVL
 function att2:advancement/test_all/spell/spell_23
+
+##sync pet data
+function att2:gameplay/score/player
+scoreboard players operation @e[distance=..50,type=parrot,tag=Spell23,predicate=att2_pre:score/owner] SPELL23_CAP = @s SPELL23_CAP

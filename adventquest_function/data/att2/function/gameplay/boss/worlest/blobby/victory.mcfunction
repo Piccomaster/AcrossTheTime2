@@ -4,8 +4,6 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
-##test boss
-function att2:advancement/test_all/mobskilled/boss
 ##revoke test
 scoreboard players reset blobby_test BOSS
 scoreboard players set Blobby SQ54 -2
@@ -18,5 +16,7 @@ function att2:physicmod/reg1/worlest_blobby_open
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/blobby
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/blobby_master
+##test boss
+function att2:advancement/test_all/mobskilled/boss
 ##boss_time over
 function att2:gameplay/boss/worlest/blobby/time/time_over

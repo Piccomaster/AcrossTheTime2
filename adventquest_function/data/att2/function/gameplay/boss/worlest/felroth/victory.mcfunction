@@ -4,8 +4,6 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
-##test boss
-function att2:advancement/test_all/mobskilled/boss
 ##revoke test
 scoreboard players reset felroth_test BOSS
 
@@ -20,5 +18,7 @@ function att2:gameplay/boss/worlest/felroth/destroy_minions
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/felroth
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/felroth_master
+##test boss
+function att2:advancement/test_all/mobskilled/boss
 ##boss_time over
 function att2:gameplay/boss/worlest/felroth/time/time_over

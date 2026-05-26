@@ -7,7 +7,7 @@
         "description": {"translate":"att2.advancement.challenge.description.maze_7"},
         "frame": "challenge"
     },
-    "parent": "att2:challenge/root",
+    "parent": "att2:challenge/maze_root",
     "rewards": {
         "function": "att2:advancement/exploit_100",
         "experience": 100000

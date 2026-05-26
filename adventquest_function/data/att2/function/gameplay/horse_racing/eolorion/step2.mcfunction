@@ -17,8 +17,8 @@ kill @e[type=minecraft:mannequin,tag=AI]
 ##remove player tag
 tag @e[type=#minecraft:rideable,tag=Finish,tag=!AI] remove Finish
 ##tp eric_melsath
-execute in overworld positioned -5519.50 76.00 -4985.50 run function att2:summon/pnj/marc_aboth
+execute in overworld positioned -5271.50 98.00 -6187.50 run function att2:summon/pnj/marc_aboth
 execute in overworld as 00000000-0000-075a-0000-00000000075a at @s run data modify entity 00000000-0000-075a-0000-00000000075a data.rotation set value [90,0]
-execute in overworld as 00000000-0000-075a-0000-00000000075a at @s run tp @s -5519.50 76.00 -4985.50 90 0
+execute in overworld as 00000000-0000-075a-0000-00000000075a at @s run tp @s -5271.50 98.00 -6187.50 90 0
 ##next_step
 scoreboard players set Eolorion HORSERACE 4

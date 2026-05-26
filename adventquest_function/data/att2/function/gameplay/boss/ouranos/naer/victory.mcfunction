@@ -4,8 +4,6 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
-##test boss
-function att2:advancement/test_all/mobskilled/boss
 ##revoke test
 scoreboard players reset naer_test BOSS
 scoreboard players set Naër OURANOS -2
@@ -21,5 +19,7 @@ function att2:gameplay/checkpoint/ouranos/tower3_road6
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/naer
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/naer_master
+##test boss
+function att2:advancement/test_all/mobskilled/boss
 ##boss_time over
 function att2:gameplay/boss/ouranos/naer/time/time_over

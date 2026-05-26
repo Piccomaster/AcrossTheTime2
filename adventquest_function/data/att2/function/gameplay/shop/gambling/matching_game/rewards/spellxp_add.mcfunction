@@ -9,8 +9,7 @@ execute if score Spell_Count MatchingGame matches 500.. run return run tellraw @
 
 #add xp
 $scoreboard players operation @s SPELL$(id)_LVL += Spell_Count MatchingGame
-#update advancement
-$function att2:advancement/test_all/spell/spell_$(id)
+$function att2:gameplay/dahal/action/spell$(id)/xp_cal
 #show xp add dialog
 $tellraw @s [{translate:att2.spell$(id).name},{translate:matching_game.rewards.spellxp_add,with:[{score:{name:Spell_Count,objective:MatchingGame},color:green}]}]
 #sound

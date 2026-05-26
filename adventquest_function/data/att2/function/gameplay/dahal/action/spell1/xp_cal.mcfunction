@@ -4,19 +4,22 @@
 #################################################################
 
 # Retrieving The lvl up (cap) value to compare it to current xp level
-scoreboard players operation @s SPELL_OP = @s SPELL1_LVL
 
-execute as @s[scores={SPELL1_CAP=1}] run scoreboard players operation @s SPELL_OP -= cap2 SPELL1_LVL
-execute as @s[scores={SPELL1_CAP=2}] run scoreboard players operation @s SPELL_OP -= cap3 SPELL1_LVL
-execute as @s[scores={SPELL1_CAP=3}] run scoreboard players operation @s SPELL_OP -= cap4 SPELL1_LVL
-execute as @s[scores={SPELL1_CAP=4}] run scoreboard players operation @s SPELL_OP -= cap5 SPELL1_LVL
-execute as @s[scores={SPELL1_CAP=5}] run scoreboard players operation @s SPELL_OP -= cap6 SPELL1_LVL
-execute as @s[scores={SPELL1_CAP=6}] run scoreboard players operation @s SPELL_OP -= cap7 SPELL1_LVL
-execute as @s[scores={SPELL1_CAP=7}] run scoreboard players operation @s SPELL_OP -= cap8 SPELL1_LVL
-execute as @s[scores={SPELL1_CAP=8}] run scoreboard players operation @s SPELL_OP -= cap9 SPELL1_LVL
-execute as @s[scores={SPELL1_CAP=9}] run scoreboard players operation @s SPELL_OP -= cap10 SPELL1_LVL
-execute as @s[scores={SPELL1_CAP=10}] run scoreboard players set @s SPELL_OP -1
+execute if score @s SPELL1_LVL >= cap1 SPELL1_LVL run scoreboard players set #max_lvl CAL 1
+execute if score @s SPELL1_LVL >= cap2 SPELL1_LVL run scoreboard players set #max_lvl CAL 2
+execute if score @s SPELL1_LVL >= cap3 SPELL1_LVL run scoreboard players set #max_lvl CAL 3
+execute if score @s SPELL1_LVL >= cap4 SPELL1_LVL run scoreboard players set #max_lvl CAL 4
+execute if score @s SPELL1_LVL >= cap5 SPELL1_LVL run scoreboard players set #max_lvl CAL 5
+execute if score @s SPELL1_LVL >= cap6 SPELL1_LVL run scoreboard players set #max_lvl CAL 6
+execute if score @s SPELL1_LVL >= cap7 SPELL1_LVL run scoreboard players set #max_lvl CAL 7
+execute if score @s SPELL1_LVL >= cap8 SPELL1_LVL run scoreboard players set #max_lvl CAL 8
+execute if score @s SPELL1_LVL >= cap9 SPELL1_LVL run scoreboard players set #max_lvl CAL 9
+execute if score @s SPELL1_LVL >= cap10 SPELL1_LVL run scoreboard players set #max_lvl CAL 10
 
-execute as @s[scores={SPELL_OP=0..}] run scoreboard players add @s SPELL1_CAP 1
-execute as @s[scores={SPELL_OP=0..}] run function att2:gameplay/dahal/action/spell1/lvlup
-scoreboard players set @s SPELL_OP -1
+##test lvl up
+execute if score @s SPELL1_CAP < #max_lvl CAL run function att2:gameplay/dahal/action/spell1/lvlup
+
+##sync lvl
+scoreboard players operation @s SPELL1_CAP = #max_lvl CAL
+#TEST LVL
+function att2:advancement/test_all/spell/spell_1

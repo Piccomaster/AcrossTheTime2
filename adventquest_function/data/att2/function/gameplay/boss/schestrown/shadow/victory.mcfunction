@@ -4,8 +4,6 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
-##test boss
-function att2:advancement/test_all/mobskilled/boss
 ##revoke test
 scoreboard players reset shadow_test BOSS
 scoreboard players set Shadow SQ38 -2
@@ -18,5 +16,7 @@ function att2:gameplay/checkpoint/telluron_present/schestrown0
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/shadow
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/shadow_master
+##test boss
+function att2:advancement/test_all/mobskilled/boss
 ##boss_time over
 function att2:gameplay/boss/schestrown/shadow/time/time_over
