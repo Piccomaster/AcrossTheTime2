@@ -14,7 +14,7 @@ execute if score @s SPELL33_LVL >= cap6 SPELL33_LVL run scoreboard players set #
 execute if score @s SPELL33_LVL >= cap7 SPELL33_LVL run scoreboard players set #max_lvl CAL 7
 execute if score @s SPELL33_LVL >= cap8 SPELL33_LVL run scoreboard players set #max_lvl CAL 8
 execute if score @s SPELL33_LVL >= cap9 SPELL33_LVL run scoreboard players set #max_lvl CAL 9
-execute if score @s SPELL33_LVL >= cap330 SPELL33_LVL run scoreboard players set #max_lvl CAL 10
+execute if score @s SPELL33_LVL >= cap10 SPELL33_LVL run scoreboard players set #max_lvl CAL 10
 
 ##test lvl up
 execute if score @s SPELL33_CAP < #max_lvl CAL run function att2:gameplay/dahal/action/spell33/lvlup

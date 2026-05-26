@@ -33,3 +33,4 @@ tag @e[distance=..7,tag=LVL0] add Mobs_Invasion
 summon minecraft:fireball ~ ~2 ~ {Motion:[0,-1,0],ExplosionPower:-1}
 ##spread
 $spreadplayers ~ ~ 1 7 under $(spread_maxheight) false @e[distance=..7,tag=LVL0]
+execute as @e[distance=20..,tag=LVL0] run tp ~ ~ ~ 
