@@ -10,19 +10,7 @@ function att2:advancement/test_all/spell/kill_count
 ##add spell xp
 scoreboard players operation @s SPELL4_LVL += @s SPELL1_CAP
 #test lvl up
-scoreboard players set TEST CAL 0
-execute if score @s[scores={SPELL4_CAP=..1}] SPELL4_LVL >= cap2 SPELL4_LVL run scoreboard players set TEST CAL 2
-execute if score @s[scores={SPELL4_CAP=..2}] SPELL4_LVL >= cap3 SPELL4_LVL run scoreboard players set TEST CAL 3
-execute if score @s[scores={SPELL4_CAP=..3}] SPELL4_LVL >= cap4 SPELL4_LVL run scoreboard players set TEST CAL 4
-execute if score @s[scores={SPELL4_CAP=..4}] SPELL4_LVL >= cap5 SPELL4_LVL run scoreboard players set TEST CAL 5
-execute if score @s[scores={SPELL4_CAP=..5}] SPELL4_LVL >= cap6 SPELL4_LVL run scoreboard players set TEST CAL 6
-execute if score @s[scores={SPELL4_CAP=..6}] SPELL4_LVL >= cap7 SPELL4_LVL run scoreboard players set TEST CAL 7
-execute if score @s[scores={SPELL4_CAP=..7}] SPELL4_LVL >= cap8 SPELL4_LVL run scoreboard players set TEST CAL 8
-execute if score @s[scores={SPELL4_CAP=..8}] SPELL4_LVL >= cap9 SPELL4_LVL run scoreboard players set TEST CAL 9
-execute if score @s[scores={SPELL4_CAP=..9}] SPELL4_LVL >= cap10 SPELL4_LVL run scoreboard players set TEST CAL 10
-#test if up
-execute if score TEST CAL > @s SPELL4_CAP run function att2:gameplay/dahal/action/spell4/lvlup
-execute if score TEST CAL > @s SPELL4_CAP run scoreboard players operation @s SPELL4_CAP = TEST CAL
+function att2:gameplay/dahal/action/spell4/xp_cal
 ##tip
 tellraw @s [{translate:att2.spell_kill.tip,with:[{selector:'@s',color:dark_red},{translate:att2.spell4.name}]}]
 #sound
