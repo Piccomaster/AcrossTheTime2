@@ -38,6 +38,7 @@ tellraw @a [{translate:att2.dailyquest.rewards.add.chronotons,with:[{score:{name
 tellraw @a [{translate:att2.dailyquest.rewards.add.xp,with:[{score:{name:rewards_xp,objective:DAILYQUEST},color:"green"}]}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.reputation,with:[{score:{name:rewards_reputation,objective:DAILYQUEST},color:"dark_green"}]}]
 tellraw @a [{translate:att2.dailyquest.rewards.add.eolorion.city_donation,with:[{score:{name:rewards_city_donation,objective:DAILYQUEST},color:"blue"}]}]
+tellraw @a [{translate:att2.dailyquest.eolorion.5.reward.other,color:green,with:[{text:"%",color:green},{score:{name:"fire_ball_duel",objective:SPDG},color:"green"},{text:"%",color:green},{text:"200%",color:dark_green}]}]
 
 ##reset
 function att2:cinematic/dailyquest/eolorion/5/reset

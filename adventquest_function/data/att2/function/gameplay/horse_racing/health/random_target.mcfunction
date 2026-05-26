@@ -21,6 +21,7 @@ scoreboard players operation #Health_Overflow CAL *= 2 CAL
 ##add vitality
 scoreboard players operation #vitality_add CAL = #Health_Overflow CAL
 ##store health
+scoreboard players operation #Health CAL > 1 CAL
 execute if score #Health CAL matches 1.. store result entity @s Health int 1 run scoreboard players get #Health CAL
 
 ##text tip

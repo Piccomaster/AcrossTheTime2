@@ -51,6 +51,10 @@ data modify storage att2:dailyquest data.dialog append value {text:"\n"}
 data modify storage att2:dailyquest data.dialog append value {translate:att2.dailyquest.rewards.add.eolorion.city_donation,with:[""],color:"blue"}
 execute store result storage att2:dailyquest data.dialog[-1].with[0] int 1 run scoreboard players get eolorion_dailyquest_5_rewards_city_donation DAILYQUEST
 data modify storage att2:dailyquest data.dialog append value {text:"\n"}
+data modify storage att2:dailyquest data.dialog append value {translate:att2.dailyquest.eolorion.5.reward.other,color:green,with:[{text:"%",color:green},{score:{name:"fire_ball_duel",objective:SPDG},color:"green"},{text:"%",color:green},{text:"200%",color:dark_green}]}
+execute store result storage att2:dailyquest data.dialog[-1].with[1] int 1 run scoreboard players get fire_ball_duel SPDG
+
+data modify storage att2:dailyquest data.dialog append value {text:"\n"}
 
 ##trigger id
 execute unless score #Accepted_Test DAILYQUEST matches 1 run data modify storage att2:dailyquest data.triggerid set value 3172

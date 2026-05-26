@@ -4,8 +4,6 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
-##test boss
-function att2:advancement/test_all/mobskilled/boss
 ##revoke test
 scoreboard players reset abmup_nomit_test BOSS
 scoreboard players set Abmup_Nomit SQ58 -2
@@ -17,5 +15,7 @@ function att2:gameplay/checkpoint/telluron_past/nojelanth15
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/abmup_nomit
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/abmup_nomit_master
+##test boss
+function att2:advancement/test_all/mobskilled/boss
 ##boss_time over
 function att2:gameplay/boss/nojelanth/abmup_nomit/time/time_over

@@ -4,8 +4,6 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
-##test boss
-function att2:advancement/test_all/mobskilled/boss
 ##revoke test
 scoreboard players reset illusions_test BOSS
 scoreboard players set Illusions SILBERLAND -2
@@ -21,5 +19,7 @@ effect clear @a minecraft:nausea
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/illusions
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/illusions_master
+##test boss
+function att2:advancement/test_all/mobskilled/boss
 ##boss_time over
 function att2:gameplay/boss/silberland/illusions/time/time_over

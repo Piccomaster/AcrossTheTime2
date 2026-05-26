@@ -4,8 +4,6 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
-##test boss
-function att2:advancement/test_all/mobskilled/boss
 ##revoke test
 scoreboard players reset umbratyanth_test BOSS
 scoreboard players set Boss UMBRATYANTH -2
@@ -19,6 +17,8 @@ execute if score SQ46 SIDEQUEST matches 1..3 run function att2:cinematic/sideque
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/umbratyanth
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/umbratyanth_master
 execute if score level DIFFICULTY matches 2.. run advancement grant @a only att2:hunting/umbratyanth_nightmare
+##test boss
+function att2:advancement/test_all/mobskilled/boss
 ##boss_time over
 function att2:gameplay/boss/ether/umbratyanth/time/time_over
 

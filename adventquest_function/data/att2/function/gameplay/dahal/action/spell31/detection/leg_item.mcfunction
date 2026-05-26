@@ -29,7 +29,8 @@ data modify storage att2:spell31 Pos set from entity @n[distance=..10,tag=Glutto
 ##kill item/summon particle
 execute as @n[type=minecraft:item,predicate=att2_pre:test_item/leg,predicate=!att2_pre:test_item/error,distance=..5] at @s run function att2:gameplay/dahal/action/spell31/particle/leg_item with storage att2:spell31
 
-function att2:gameplay/dahal/action/spell31/spell_xp
+# Retrieving The lvl up (cap) value to compare it to current xp level
+function att2:gameplay/dahal/action/spell31/xp_cal
 
 #add item count
 scoreboard players operation @s spell31_count += leg SPELL31

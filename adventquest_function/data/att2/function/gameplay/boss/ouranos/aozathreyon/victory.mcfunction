@@ -4,8 +4,6 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
-##test boss
-function att2:advancement/test_all/mobskilled/boss
 ##revoke test
 scoreboard players reset aozathreyon_test BOSS
 function att2:advancement/test_all/mobskilled/boss
@@ -24,5 +22,7 @@ particle minecraft:item{item:"minecraft:yellow_stained_glass"} 7293 175 6577 1 7
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/aozathreyon
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/aozathreyon_master
+##test boss
+function att2:advancement/test_all/mobskilled/boss
 ##boss_time over
 function att2:gameplay/boss/ouranos/aozathreyon/time/time_over

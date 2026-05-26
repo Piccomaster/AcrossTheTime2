@@ -4,8 +4,6 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
-##test boss
-function att2:advancement/test_all/mobskilled/boss
 ##revoke test
 scoreboard players reset ulkoggumi_test BOSS
 scoreboard players set Ulkoggumi BILLGART -2
@@ -21,5 +19,7 @@ function att2:physicmod/reg3/dungeon/ulkoggumi_ladders_up
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/ulkoggumi
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/ulkoggumi_master
+##test boss
+function att2:advancement/test_all/mobskilled/boss
 ##boss_time over
 function att2:gameplay/boss/billgart/ulkoggumi/time/time_over

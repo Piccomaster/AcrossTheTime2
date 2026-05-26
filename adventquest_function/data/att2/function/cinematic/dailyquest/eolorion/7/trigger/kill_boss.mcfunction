@@ -7,7 +7,8 @@
 #Submit rune materials: Qi, Ust, For.
 #############################################################
 
-
+##limit
+execute unless score eolorion_dailyquest_7 DAILYQUEST matches 1.. run return fail
 ##test if over
 execute if score eolorion_dailyquest_7_kill_boss DAILYQUEST >= eolorion_dailyquest_7_kill_boss_requirement DAILYQUEST run return 0
 

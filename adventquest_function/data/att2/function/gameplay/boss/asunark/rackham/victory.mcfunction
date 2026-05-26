@@ -4,8 +4,6 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
-##test boss
-function att2:advancement/test_all/mobskilled/boss
 ##revoke test
 scoreboard players reset rackham_test BOSS
 scoreboard players set Rackham SQ41 -2
@@ -19,5 +17,7 @@ function att2:physicmod/reg1/asunark/rackham_fire_off
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/francois
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/francois_master
+##test boss
+function att2:advancement/test_all/mobskilled/boss
 ##boss_time over
 function att2:gameplay/boss/asunark/rackham/time/time_over

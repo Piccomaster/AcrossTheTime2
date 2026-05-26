@@ -1,0 +1,18 @@
+#################################################################
+#Made by Adventquest											#
+#Level and Cooldown	for power ray								#
+#################################################################
+
+# Retrieving The lvl up (cap) value to compare it to current xp level
+
+execute if score @s SPELL21_LVL >= cap1 SPELL21_LVL run scoreboard players set #max_lvl CAL 1
+execute if score @s SPELL21_LVL >= cap2 SPELL21_LVL run scoreboard players set #max_lvl CAL 2
+execute if score @s SPELL21_LVL >= cap3 SPELL21_LVL run scoreboard players set #max_lvl CAL 3
+
+##test lvl up
+execute if score @s SPELL21_CAP < #max_lvl CAL run function att2:gameplay/dahal/action/spell21/lvlup
+
+##sync lvl
+scoreboard players operation @s SPELL21_CAP = #max_lvl CAL
+#TEST LVL
+function att2:advancement/test_all/spell/spell_21

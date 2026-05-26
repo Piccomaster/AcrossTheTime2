@@ -4,8 +4,6 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
-##test boss
-function att2:advancement/test_all/mobskilled/boss
 ##revoke test
 scoreboard players reset extratellur_test BOSS
 scoreboard players set Extratellur SECRET_DUNGEON -2
@@ -18,5 +16,7 @@ effect clear @a minecraft:darkness
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/extratellur
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/extratellur_master
+##test boss
+function att2:advancement/test_all/mobskilled/boss
 ##boss_time over
 function att2:gameplay/boss/silberland/extratellur/time/time_over
