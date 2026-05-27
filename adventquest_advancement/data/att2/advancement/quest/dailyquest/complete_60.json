@@ -14,7 +14,7 @@
         },
         "frame": "goal"
     },
-    "parent": "att2:quest/dailyquest/complete_60",
+    "parent": "att2:quest/dailyquest/complete_50",
     "rewards": {
         "experience": 10000
     },
