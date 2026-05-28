@@ -35,6 +35,7 @@ execute if score Real0 TIMER matches 400 run particle minecraft:explosion_emitte
 execute if score Real0 TIMER matches 405 as @a[gamemode=spectator,scores={Performance=0}] run function att2:gameplay/speceffect/disincarnate/end/real0
 execute if score Real0 TIMER matches 407 as @a[scores={DIMENSION=3}] at @s run tp @s -7414 140 -5715 160 20
 execute if score Real0 TIMER matches 409 run effect give @a[scores={DIMENSION=3}] minecraft:instant_health 5 10 true
+execute if score Real0 TIMER matches 409 run effect give @a[scores={DIMENSION=3}] minecraft:darkness 2 0 true
 execute if score Real0 TIMER matches 410 at @a[scores={DIMENSION=3}] run function att2:sound/misc/desintegration
 execute if score Real0 TIMER matches 411 run scoreboard players set Mainquest SIDEQUEST 276
 
