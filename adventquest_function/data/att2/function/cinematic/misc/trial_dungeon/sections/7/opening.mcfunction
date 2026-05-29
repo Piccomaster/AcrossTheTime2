@@ -1,8 +1,9 @@
 #########################################################################
 #Made by Adventquest													#
-#Process section 6 opening	                                            #
+#Process section 7 opening	                                            #
 #########################################################################
 
-fill -5257 71 -4859 -5259 69 -4859 minecraft:water
-scoreboard players set section6 TRIAL_DUNGEON 1
+fill -5205 98 -4862 -5203 100 -4862 minecraft:air
+fill -5203 89 -4817 -5205 91 -4817 minecraft:air
+scoreboard players set section7 TRIAL_DUNGEON 1
 function att2:gameplay/cinematic/misc/trial_dungeon/section_opening
