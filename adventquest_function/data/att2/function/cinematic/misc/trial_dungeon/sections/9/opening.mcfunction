@@ -1,8 +1,7 @@
 #########################################################################
 #Made by Adventquest													#
-#Process section 8 opening	                                            #
+#Process section 9 opening	                                            #
 #########################################################################
 
-fill -5203 84 -4769 -5205 82 -4769 minecraft:water
-scoreboard players set section8 TRIAL_DUNGEON 1
+scoreboard players set section9 TRIAL_DUNGEON 1
 function att2:gameplay/cinematic/misc/trial_dungeon/section_opening

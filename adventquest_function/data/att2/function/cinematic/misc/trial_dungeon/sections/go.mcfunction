@@ -3,7 +3,7 @@
 #Process candles 	                                                    #
 #########################################################################
 
-### trigger candles
+### trigger sections : candles
 # Section 1 : 8
 execute if score section1 TRIAL_DUNGEON matches 0 run function att2:gameplay/cinematic/misc/trial_dungeon/1/trigger
 # Section 2 : 27
@@ -18,6 +18,8 @@ execute if score section5 TRIAL_DUNGEON matches 0 run function att2:gameplay/cin
 execute if score section6 TRIAL_DUNGEON matches 0 run function att2:gameplay/cinematic/misc/trial_dungeon/6/trigger
 # Section 7 : 13
 execute if score section7 TRIAL_DUNGEON matches 0 run function att2:gameplay/cinematic/misc/trial_dungeon/7/trigger
+# Section 8 : 9
+execute if score section8 TRIAL_DUNGEON matches 0 run function att2:gameplay/cinematic/misc/trial_dungeon/8/trigger
 
 # trigger total
 execute if score lit_candle_total TRIAL_DUNGEON matches 250.. run function att2:gameplay/cinematic/misc/trial_dungeon/end
