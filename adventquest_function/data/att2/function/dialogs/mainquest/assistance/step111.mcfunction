@@ -54,4 +54,4 @@ tellraw @s[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,co
 tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Pronto, ativei o mecanismo principal da torre oeste. Agora eu preciso ir para a torre leste da masmorra.",color:"aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"好，我已经启动了西侧塔楼的主控制系统。现在得去地牢的东侧塔楼了。",color:"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"好，我已经启动了西侧塔楼的主控系统。现在得去地牢的东侧塔楼了。",color:"aqua"}]}

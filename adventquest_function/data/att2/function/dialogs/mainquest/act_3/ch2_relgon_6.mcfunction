@@ -62,4 +62,4 @@ tellraw @a[scores={LANGUAGE=9}] [{object:atlas,sprite:"item/custom/head/relgon_f
 tellraw @a[scores={LANGUAGE=10}] [{object:atlas,sprite:"item/custom/head/relgon_front"},{text:" °-° Relgon : ",color:"red",extra:[{text:"Sim, parece bom demais para ser verdade.",color:"dark_aqua"}]}]
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/relgon_front"},{text:" °-° Relgon : ",color:"red",extra:[{text:"的确，妙的就好像不是真的似的。",color:"dark_aqua"}]}]
+tellraw @a[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/relgon_front"},{text:" °-° Relgon : ",color:"red",extra:[{text:"的确，妙得令人难以置信。",color:"dark_aqua"}]}]

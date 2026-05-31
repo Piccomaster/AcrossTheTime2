@@ -135,3 +135,5 @@ function att2:cinematic/dailyquest/long_animation/zirthion/dq9/initialize
 
 
 execute in overworld run setblock -5107 160 -6750 minecraft:air destroy
+
+scoreboard objectives add HORSE_USE_COUNT dummy

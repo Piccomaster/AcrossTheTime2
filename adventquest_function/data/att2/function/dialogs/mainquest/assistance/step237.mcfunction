@@ -46,4 +46,4 @@ tellraw @s[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,co
 tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"O baú está desbloqueado. Tenho que pegar seu conteúdo e como de costume encontrar uma grande chave nele para abrir a porta principal no passado.",color:"aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"箱子解锁了。我得像往常一样在里面找一把大钥匙打开大门过去。",color:"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"箱子解锁了，我得拿走里面的东西。我得一如既往地找把大钥匙打开大门过去。",color:"aqua"}]}

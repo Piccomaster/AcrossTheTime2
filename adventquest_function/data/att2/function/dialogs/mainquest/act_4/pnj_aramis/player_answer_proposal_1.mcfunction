@@ -82,4 +82,4 @@ tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,e
 
 #Simplified Chinese LANGUAGE
 tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,extra:[{text:" : "},{text:"[你想必听说了不久前发生在Ryliath的事件，就是我干的。-->]",color:"gray",click_event:{action:run_command,command:"/trigger ScoreTrigger set 683"},hover_event:{action:show_text,value:"点击这里 - 回答 1"}}]}
-tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,extra:[{text:" : "},{text:"[我是来找时间宝石的，Ryliath的皇室成员告诉我你知道其中一颗的去向...-->]",color:"gray",click_event:{action:run_command,command:"/trigger ScoreTrigger set 684"},hover_event:{action:show_text,value:"点击这里 - 回答 2"}}]}
+tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,extra:[{text:" : "},{text:"[我是来找时间宝石的，Ryliath的皇室成员告诉我您知道其中一颗的去向...-->]",color:"gray",click_event:{action:run_command,command:"/trigger ScoreTrigger set 684"},hover_event:{action:show_text,value:"点击这里 - 回答 2"}}]}

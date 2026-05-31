@@ -52,7 +52,7 @@ tellraw @a[scores={LANGUAGE=9}] [{object:atlas,sprite:"item/custom/head/golem_fr
 tellraw @a[scores={LANGUAGE=10}] [{object:atlas,sprite:"item/custom/head/golem_front"},{text:" °-° Golem : ",color:"green",extra:[{text:"Há um acordo. Membros em decadência, não obedecem mais à sua vontade. Sem força, ele fica e nada se move. Pequeno ser de carne, conserte-o e ele criará um caminho para Ulgok'keström, onde dorme a gema das eras.",color:"dark_aqua"}]}]
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/golem_front"},{text:" °-° Golem : ",color:"green",extra:[{text:"有这么一个交易，它四肢腐朽，不能随心所欲。失去力量，它只能瘫在原地、寸步难行。但小小的血肉之躯啊，若是能修好它，它就会构筑一条通往Ulgok'keström的道路，那里埋藏着时间的珍宝。",color:"dark_aqua"}]}]
+tellraw @a[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/golem_front"},{text:" °-° Golem : ",color:"green",extra:[{text:"有这么一个交易：它四肢腐朽，不能随心所欲。失去力量，它只能瘫在原地、寸步难行。但小小的血肉之躯啊，若是能修好它，它就会构筑一条通往Ulgok'keström的道路，那里埋藏着时间的珍宝。",color:"dark_aqua"}]}]
 function att2:voice/golem/golem3
 function att2:dialogs/mainquest/act_4/pnj_golem/player_answer_proposal_2
 

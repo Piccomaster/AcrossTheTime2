@@ -54,4 +54,4 @@ tellraw @s[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,co
 tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Ouran é o rei desta dimensão e eu tenho que convencê-lo a me dar uma gema do tempo por qualquer meio!",color:"aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Ouran是这个维度的君王，无论如何我都要说服他给我一颗时间宝石！",color:"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Ouran居然是这个维度的君王，无论如何我都要说服他给我一颗时间宝石！",color:"aqua"}]}

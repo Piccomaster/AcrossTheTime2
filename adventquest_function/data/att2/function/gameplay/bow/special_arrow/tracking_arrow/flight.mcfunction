@@ -8,11 +8,11 @@ execute at @s run particle witch ~ ~-0.5 ~ 0 0 0 0 1 normal
 ##clear
 execute unless predicate att2_pre:has_vehicle run scoreboard players set @s LIFETIME 0
 ##if nearly
-execute at @s positioned ~-0.5 ~-0.5 ~-0.5 if entity @n[dx=1,dy=1,dz=1,team=hostile,type=!bat,scores={GAMELEVEL=0..}] on vehicle run return run function att2:gameplay/bow/special_arrow/tracking_arrow/trigger
+execute at @s positioned ~-0.5 ~-0.5 ~-0.5 if entity @n[dx=1,dy=1,dz=1,team=hostile,type=!bat,scores={GAMELEVEL=0..}] on vehicle as @s[type=#minecraft:arrows] run return run function att2:gameplay/bow/special_arrow/tracking_arrow/trigger
 ##Aiming at nearby enemies.
-execute if score @s SPECIALARROW matches 4 on vehicle if data entity @s {inGround:0b} on passengers run function att2:gameplay/bow/special_arrow/tracking_arrow/effect_1
-execute if score @s SPECIALARROW matches 5 on vehicle if data entity @s {inGround:0b} on passengers run function att2:gameplay/bow/special_arrow/tracking_arrow/effect_2
-execute if score @s SPECIALARROW matches 6 on vehicle if data entity @s {inGround:0b} on passengers run function att2:gameplay/bow/special_arrow/tracking_arrow/effect_3
+execute if score @s SPECIALARROW matches 4 on vehicle if data entity @s[type=#minecraft:arrows] {inGround:0b} on passengers as @s[tag=TrackingArrow] run function att2:gameplay/bow/special_arrow/tracking_arrow/effect_1
+execute if score @s SPECIALARROW matches 5 on vehicle if data entity @s[type=#minecraft:arrows] {inGround:0b} on passengers as @s[tag=TrackingArrow] run function att2:gameplay/bow/special_arrow/tracking_arrow/effect_2
+execute if score @s SPECIALARROW matches 6 on vehicle if data entity @s[type=#minecraft:arrows] {inGround:0b} on passengers as @s[tag=TrackingArrow] run function att2:gameplay/bow/special_arrow/tracking_arrow/effect_3
 ##remove score
 execute unless score @s LIFETIME matches ..0 run return run scoreboard players remove @s LIFETIME 1
 

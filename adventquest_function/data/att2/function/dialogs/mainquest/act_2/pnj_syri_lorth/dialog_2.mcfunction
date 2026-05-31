@@ -83,7 +83,7 @@ tellraw @s[scores={LANGUAGE=10}] [{object:player,player:{properties:[{name:"text
 
 #Simplified Chinese LANGUAGE
 tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"是Syri吗？令堂把你引荐给我，希望你能帮我一个忙...",color:"aqua"}]}
-tellraw @s[scores={LANGUAGE=11}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzUwYmQyMjIzNWYyYmMzNmRhZDFkYWE4MDUwNDAwNTI4M2IxMzdiZjQxZGQ3NjZiMzg1YzYyYjllNDBlOWIwOCJ9fX0="}]}},{text:" °-° Syri Lorth : ",color:"green",extra:[{text:"我妈？哦...你就是我妈所说的，那个想追求刺激的旅行者！很可惜，每年这时候的海况都很差，而且我们刚结束一次长途航行-就结论上看，如果仅仅是为了满足你的个人想法的话: 比起说服我，想要说服我的船员们更加困难-除非一些幸苦费。比如1000chronoton...啊不，看在你是我妈朋友的份上，500chronoton就行。",color:"dark_aqua"}]}]
+tellraw @s[scores={LANGUAGE=11}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzUwYmQyMjIzNWYyYmMzNmRhZDFkYWE4MDUwNDAwNTI4M2IxMzdiZjQxZGQ3NjZiMzg1YzYyYjllNDBlOWIwOCJ9fX0="}]}},{text:" °-° Syri Lorth : ",color:"green",extra:[{text:"我妈？哦...你就是我妈所说的，那个想追求刺激的旅行者！很可惜，每年这时候的海况都很差，而且我们刚结束一次长途航行-就结论上看，如果仅仅是为了满足你的个人想法的话: 比起说服我，想要说服我的船员们更加困难-除非一些辛苦费。比如1000chronoton...啊不，看在你是我妈朋友的份上，500chronoton就行。",color:"dark_aqua"}]}]
 
 function att2:voice/syri/syri2
 

@@ -46,4 +46,4 @@ tellraw @s[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,co
 tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Eu pensei que finalmente tinha me livrado disso ... Não tenho escolha senão continuar ou vou acabar aqui para a eternidade!",color:"aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"我还以为我终于摆脱那玩意了...好吧，现在我没有选择，我得继续这么做，否则我将永葬于此！ ",color:"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"我还以为我终于摆脱那玩意了...好吧，现在我没有选择，只能继续前进，否则我将永葬于此！ ",color:"aqua"}]}

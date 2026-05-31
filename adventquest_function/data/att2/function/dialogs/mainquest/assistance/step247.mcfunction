@@ -46,4 +46,4 @@ tellraw @s[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,co
 tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Deve haver um mecanismo no porão para desativar as portas principais de entrada. Tenho que prestar atenção à temporalidade em que me encontro...",color:"aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"地下室肯定有一个机关是用来开关主入口门的。我必须注意一下在不同时间中观察这里能否给我一些提示...",color:"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"地下室肯定有一个机关是用来开关主入口门的。或许在不同时间线的这里能给我一些提示...",color:"aqua"}]}

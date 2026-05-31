@@ -5,6 +5,7 @@
 
 #reset
 function att2:gameplay/dahal/data_cal/initialize
+scoreboard players set #DATA_CAL CAL 1
 #get lvl score
 scoreboard players set SPELL_LVL1 SPELL_DATA 1
 scoreboard players set SPELL_LVL2 SPELL_DATA 2
@@ -68,16 +69,16 @@ scoreboard players set DISTANCE_LVL8 SPELL_DATA 8
 scoreboard players set DISTANCE_LVL9 SPELL_DATA 9
 scoreboard players set DISTANCE_LVL10 SPELL_DATA 10
 ##HEALING cal
-scoreboard players operation COUNT_LVL1 SPELL_DATA = SP42_HP_LVL1 SPELL_DATA
-scoreboard players operation COUNT_LVL2 SPELL_DATA = SP42_HP_LVL2 SPELL_DATA
-scoreboard players operation COUNT_LVL3 SPELL_DATA = SP42_HP_LVL3 SPELL_DATA
-scoreboard players operation COUNT_LVL4 SPELL_DATA = SP42_HP_LVL4 SPELL_DATA
-scoreboard players operation COUNT_LVL5 SPELL_DATA = SP42_HP_LVL5 SPELL_DATA
-scoreboard players operation COUNT_LVL6 SPELL_DATA = SP42_HP_LVL6 SPELL_DATA
-scoreboard players operation COUNT_LVL7 SPELL_DATA = SP42_HP_LVL7 SPELL_DATA
-scoreboard players operation COUNT_LVL8 SPELL_DATA = SP42_HP_LVL8 SPELL_DATA
-scoreboard players operation COUNT_LVL9 SPELL_DATA = SP42_HP_LVL9 SPELL_DATA
-scoreboard players operation COUNT_LVL10 SPELL_DATA = SP42_HP_LVL10 SPELL_DATA
+scoreboard players operation COUNT_LVL1 SPELL_DATA = SP42_HP_LVL1 DAHAL_COST
+scoreboard players operation COUNT_LVL2 SPELL_DATA = SP42_HP_LVL2 DAHAL_COST
+scoreboard players operation COUNT_LVL3 SPELL_DATA = SP42_HP_LVL3 DAHAL_COST
+scoreboard players operation COUNT_LVL4 SPELL_DATA = SP42_HP_LVL4 DAHAL_COST
+scoreboard players operation COUNT_LVL5 SPELL_DATA = SP42_HP_LVL5 DAHAL_COST
+scoreboard players operation COUNT_LVL6 SPELL_DATA = SP42_HP_LVL6 DAHAL_COST
+scoreboard players operation COUNT_LVL7 SPELL_DATA = SP42_HP_LVL7 DAHAL_COST
+scoreboard players operation COUNT_LVL8 SPELL_DATA = SP42_HP_LVL8 DAHAL_COST
+scoreboard players operation COUNT_LVL9 SPELL_DATA = SP42_HP_LVL9 DAHAL_COST
+scoreboard players operation COUNT_LVL10 SPELL_DATA = SP42_HP_LVL10 DAHAL_COST
 ##time cal
 scoreboard players operation TIMER_LVL1 SPELL_DATA = lvl1 SPELL42_TIMER
 scoreboard players operation TIMER_LVL1 SPELL_DATA /= 20 CAL
@@ -110,3 +111,6 @@ scoreboard players operation RES_LVL7 SPELL_DATA = lvl7 SPELL42_RES
 scoreboard players operation RES_LVL8 SPELL_DATA = lvl8 SPELL42_RES
 scoreboard players operation RES_LVL9 SPELL_DATA = lvl9 SPELL42_RES
 scoreboard players operation RES_LVL10 SPELL_DATA = lvl10 SPELL42_RES
+
+##reset
+scoreboard players set #DATA_CAL CAL 0

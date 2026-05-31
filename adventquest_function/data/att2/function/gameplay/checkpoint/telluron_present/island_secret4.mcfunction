@@ -5,11 +5,11 @@
 
 ##This command ensures main/side quests properly trigger respawn points.
 function att2:gameplay/checkpoint/effect
-execute in minecraft:overworld run spawnpoint @s -3986 30 -4279
+execute in minecraft:overworld run spawnpoint @s -3986 29 -4279
 
 ## This command ensures that when a player manually triggers a respawn point, nearby players' respawn points are also reset.
-execute in minecraft:overworld positioned -3986 30 -4279 as @a[distance=..40] run function att2:gameplay/checkpoint/effect
-execute in minecraft:overworld positioned -3986 30 -4279 as @a[distance=..40] run spawnpoint @s -3986 30 -4279
+execute in minecraft:overworld positioned -3986 29 -4279 as @a[distance=..40] run function att2:gameplay/checkpoint/effect
+execute in minecraft:overworld positioned -3986 29 -4279 as @a[distance=..40] run spawnpoint @s -3986 29 -4279
 
 execute if score Lost_island4 CHECKPOINT matches 0 run scoreboard players add All CHECKPOINT 1
 ##test all checkpoint
@@ -20,7 +20,7 @@ execute if score Lost_island4 CHECKPOINT matches 0 run scoreboard players add Lo
 execute if score Lost_island CHECKPOINT matches 5 run advancement grant @a only att2:journey/checkpoint_lost_island
 
 ##show count
-execute unless score Lost_island CHECKPOINT matches 5 positioned -3986 30 -4279 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_lost_island,color:red},{text:":",color:gray},{score:{name:"Lost_island",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"5",color:dark_red},{text:"~",color:dark_red}]
+execute unless score Lost_island CHECKPOINT matches 5 positioned -3986 29 -4279 run tellraw @a[distance=..40] [{text:"~",color:dark_red},{translate:att2.advancement.journey.title.checkpoint_lost_island,color:red},{text:":",color:gray},{score:{name:"Lost_island",objective:"CHECKPOINT"},color:red},{text:"/",color:gray},{text:"5",color:dark_red},{text:"~",color:dark_red}]
 
-execute unless score Lost_island4 CHECKPOINT matches 1 positioned -3986 30 -4279 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
+execute unless score Lost_island4 CHECKPOINT matches 1 positioned -3986 29 -4279 run tellraw @a[distance=..40] [{translate:att2.checkpoint.trigger.new,color:green}]
 scoreboard players set Lost_island4 CHECKPOINT 1

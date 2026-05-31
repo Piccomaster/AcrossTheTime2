@@ -62,4 +62,4 @@ tellraw @a[scores={LANGUAGE=9}] [{object:atlas,sprite:"item/custom/head/relgon_f
 tellraw @a[scores={LANGUAGE=10}] [{object:atlas,sprite:"item/custom/head/relgon_front"},{text:" °-° Relgon : ",color:"red",extra:[{text:"De Tellurön?..... Apresento a você Etotsira, sábio e guerreiro que vem do mesmo mundo. Ainda não conheço sua ascendência, mas se for semelhante à dele, sua ajuda será muito valiosa.",color:"dark_aqua"}]}]
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/relgon_front"},{text:" °-° Relgon : ",color:"red",extra:[{text:"从Tellurön来的，对吗?...这位是Etotsira—他是一位智者，也是一名战士。他和你来自同一个维度。我不知道阁下的祖先是谁，但如果和他的祖先相似，那么您的帮助可能不会有多大。",color:"dark_aqua"}]}]
+tellraw @a[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/relgon_front"},{text:" °-° Relgon : ",color:"red",extra:[{text:"从Tellurön来的，对吗?...这位是Etotsira—他是一位智者，也是一名战士。他和你来自同一个维度。我不知道阁下的祖先是谁，但如果和他同出一源，那么您可能无法提供更多帮助。",color:"dark_aqua"}]}]

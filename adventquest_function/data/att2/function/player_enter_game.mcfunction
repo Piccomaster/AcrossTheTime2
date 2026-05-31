@@ -21,8 +21,8 @@ scoreboard objectives add SIDEQUEST dummy
 execute unless score Mainquest SIDEQUEST matches 1.. run return fail
 
 function att2:advancement/enter_game_test
-
-
+function att2:advancement/test_all/adventure/house
+team join ally @s
 
 
 ##α update score

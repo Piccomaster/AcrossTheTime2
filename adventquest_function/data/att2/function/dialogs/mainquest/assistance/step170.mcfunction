@@ -54,4 +54,4 @@ tellraw @s[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,co
 tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Finalmente ... Todos os esmeraldas estão no lugar. Posso ir para o centro do calabouço subindo diretamente pela torre sul. O mecanismo de segurança central parece estar desativado, com certeza poderei descer de cima.",color:"aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"终于...所有的绿宝石块都已到位。我可以从南翼塔楼直接到达遗迹的中央塔楼。中央塔楼的保护机制好像失效了，我敢肯定，中央塔楼楼顶的平台能载着我往塔楼底部移动。",color:"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"终于...所有的绿宝石块都已到位。我可以从南翼塔楼直达遗迹的中央塔楼。中央塔楼的保护机制好像失效了，我敢肯定，中央塔楼楼顶的平台能载着我往塔楼底部移动。",color:"aqua"}]}

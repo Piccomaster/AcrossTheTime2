@@ -6,7 +6,7 @@
 #Kortaek House opening
 setblock -5426 58 -4634 minecraft:white_wool
 scoreboard players set Kortaek HOUSE 1
-
+function att2:advancement/test_all/adventure/house
 scoreboard players set move_linda SQ43 -1
 execute positioned -5439 61 -4633 run function att2:summon/pnj/linda_shelly
 execute as 00000000-0000-139a-0000-00000000139a at @s run tp @s ~ ~ ~ 180 0

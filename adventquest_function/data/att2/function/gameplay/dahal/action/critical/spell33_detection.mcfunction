@@ -5,6 +5,7 @@
 
 #limit
 execute if score #TEST CAL matches 1 run return fail
+execute if score #DATA_CAL CAL matches 1 run return fail
 ##get temp CriticalGuarantee
 #RNG
 execute store result score #RNG CAL run random value 1..100

@@ -57,6 +57,6 @@ tellraw @a[scores={LANGUAGE=9}] [{object:player,player:{properties:[{name:"textu
 tellraw @a[scores={LANGUAGE=10}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTEyNjI3NjFhZmNhMjNhMjk0MGU4MjY2OTNlZGE0NjkyMGVhZTRkN2M4YmFkZjQwOWMzZGIxNmQ3OWU5MjEifX19"}]}},{text:" °-° Ragnar Lorth : ",color:"green",extra:[{text:"E não te ver causará ainda menos! Boa sorte na sua busca....",color:"dark_aqua"}]}]
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTEyNjI3NjFhZmNhMjNhMjk0MGU4MjY2OTNlZGE0NjkyMGVhZTRkN2M4YmFkZjQwOWMzZGIxNmQ3OWU5MjEifX19"}]}},{text:" °-° Ragnar Lorth : ",color:"green",extra:[{text:"然而她见不到你就更不会有什么影响！祝你好运...",color:"dark_aqua"}]}]
+tellraw @a[scores={LANGUAGE=11}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTEyNjI3NjFhZmNhMjNhMjk0MGU4MjY2OTNlZGE0NjkyMGVhZTRkN2M4YmFkZjQwOWMzZGIxNmQ3OWU5MjEifX19"}]}},{text:" °-° Ragnar Lorth : ",color:"green",extra:[{text:"然而她见不到你就更不会有什么影响！好自为之...",color:"dark_aqua"}]}]
 
 function att2:voice/ragnar/ragnar5

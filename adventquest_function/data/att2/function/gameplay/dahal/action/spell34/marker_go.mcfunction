@@ -21,8 +21,8 @@ scoreboard players add @s LIFETIME 1
 
 execute if score @s LIFETIME < #time CAL run return fail
 
-effect clear @s glowing
+effect clear @s
 data modify entity @s Glowing set value 0
 ##clear
-tp @s ~ -50 ~
+tp @s ~ -100 ~
 kill @s[type=shulker]

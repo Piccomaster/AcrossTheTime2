@@ -23,5 +23,5 @@ tag @s add SPOT_SELECT
 
 ##clear nearly
 tag @s add TEMP
-execute at @s run kill @e[distance=..5,tag=FISH_SPOT,type=item_display,tag=!TEMP]
+execute at @s run kill @e[distance=..8,tag=FISH_SPOT,type=item_display,tag=!TEMP]
 tag @s remove TEMP

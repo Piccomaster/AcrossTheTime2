@@ -6,7 +6,7 @@
 ##clear
 execute at @s positioned ~-5 ~-5 ~-5 unless entity @n[dx=10,dy=10,dz=10,team=hostile,type=!bat,scores={GAMELEVEL=0..}] run return fail
 ##rotate nearly enemy
-function att2:gameplay/bow/special_arrow/tracking_arrow/tracking_1
+function att2:gameplay/bow/special_arrow/tracking_arrow/tracking_2
 execute at @s on vehicle as @s[type=#minecraft:arrows] run data modify entity @s Rotation set from entity @n[distance=..0,type=armor_stand,tag=TrackingArrow]
 ##get lvl
 scoreboard players operation #speed CAL = @s SPECIALARROW

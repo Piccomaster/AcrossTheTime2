@@ -21,3 +21,6 @@ execute if score @s AUTO_PATH matches 1.. run function att2:gameplay/misc/map/au
 #reset score
 ##hores_set ->1
 scoreboard players set @s[scores={HORSE=0}] HORSE 1
+
+##use count
+scoreboard players add @s HORSE_USE_COUNT 1

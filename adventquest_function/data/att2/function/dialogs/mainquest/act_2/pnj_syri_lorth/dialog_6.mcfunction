@@ -60,7 +60,7 @@ tellraw @s[scores={LANGUAGE=9}] [{object:player,player:{properties:[{name:"textu
 tellraw @s[scores={LANGUAGE=10}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzUwYmQyMjIzNWYyYmMzNmRhZDFkYWE4MDUwNDAwNTI4M2IxMzdiZjQxZGQ3NjZiMzg1YzYyYjllNDBlOWIwOCJ9fX0="}]}},{text:" °-° Syri Lorth : ",color:"green",extra:[{text:"Pronto para ir a Asunark?",color:"dark_aqua"}]}]
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzUwYmQyMjIzNWYyYmMzNmRhZDFkYWE4MDUwNDAwNTI4M2IxMzdiZjQxZGQ3NjZiMzg1YzYyYjllNDBlOWIwOCJ9fX0="}]}},{text:" °-° Syri Lorth : ",color:"green",extra:[{text:"准备好前往Asunark岛屿了吗？",color:"dark_aqua"}]}]
+tellraw @s[scores={LANGUAGE=11}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzUwYmQyMjIzNWYyYmMzNmRhZDFkYWE4MDUwNDAwNTI4M2IxMzdiZjQxZGQ3NjZiMzg1YzYyYjllNDBlOWIwOCJ9fX0="}]}},{text:" °-° Syri Lorth : ",color:"green",extra:[{text:"准备好前往Asunark岛了吗？",color:"dark_aqua"}]}]
 
 function att2:voice/syri/syri_dialogue3
 function att2:dialogs/mainquest/act_2/pnj_syri_lorth/player_answer_proposal_2

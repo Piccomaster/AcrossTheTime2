@@ -71,7 +71,7 @@ tellraw @a[scores={LANGUAGE=9}] {text:" °-° Ouran : ",color:"gold",extra:[{tex
 tellraw @a[scores={LANGUAGE=10}] {text:" °-° Ouran : ",color:"gold",extra:[{text:"Nesse caso, pegue a gema, ela é sua. Mas não ouse voltar aqui sem a cabeça dessa princesa...",color:"dark_aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {text:" °-° Ouran : ",color:"gold",extra:[{text:"这样的话，拿着宝石，它是你的了。不过你最好带着这位王女的脑袋回来...",color:"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {text:" °-° Ouran : ",color:"gold",extra:[{text:"这样的话，拿着宝石，它是你的了。不过你最好带着那位王女的脑袋回来...",color:"dark_aqua"}]}
 
 function att2:voice/stopsound
 function att2:voice/aoran/aoran26

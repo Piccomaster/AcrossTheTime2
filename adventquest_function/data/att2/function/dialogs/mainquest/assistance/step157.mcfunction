@@ -54,4 +54,4 @@ tellraw @s[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,co
 tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Aqui estou, desci até o fundo da torre sudeste. Tenho que encontrar um meio de subir, vamos começar encontrando a saída deste labirinto de vidro...",color:"aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"我已经来到了东南翼塔楼的地处，现在得想办法爬上去。先从寻找这个玻璃迷宫的出口开始吧...",color:"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"我已经来到了东南翼塔楼的底层，现在得想办法爬上去。先从寻找这个玻璃迷宫的出口开始吧...",color:"aqua"}]}

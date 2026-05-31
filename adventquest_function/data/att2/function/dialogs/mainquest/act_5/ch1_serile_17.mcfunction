@@ -61,6 +61,6 @@ tellraw @a[scores={LANGUAGE=9}] [{object:atlas,sprite:"item/custom/head/serile_f
 tellraw @a[scores={LANGUAGE=10}] [{object:atlas,sprite:"item/custom/head/serile_front_old"},{text:" °-° Sérile : ",color:"gray",extra:[{text:"Relgon, você que me privou do meu poder, você que me tirou do lugar que era meu por direito de nascimento. Eu vou te matar. Então, minha linhagem retomará as rédeas de Angband, como Irilion desejou desde o início dos tempos, após o abandono e a morte de meu pai!",color:"yellow","italic":true}]}]
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/serile_front_old"},{text:" °-° Serile : ",color:"gray",extra:[{text:"Relgon，你这个剥夺我力量、夺走我与生俱来地位的人，我要杀了你。继我父亲被遗弃和去世后，我的血脉将夺回Angband的统治权，就像Irilion所希望的那样！ ",color:"yellow","italic":true}]}]
+tellraw @a[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/serile_front_old"},{text:" °-° Serile : ",color:"gray",extra:[{text:"Relgon，你这个剥夺我力量、夺走我与生俱来地位的人，我要杀了你。继我父亲被遗弃后，我的血脉将夺回Angband的统治权，就像Irilion所希望的那样！ ",color:"yellow","italic":true}]}]
 
 function att2:voice/serile/serile60

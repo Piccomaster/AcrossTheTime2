@@ -35,4 +35,4 @@ scoreboard players reset DAHAL_TEST CAL
 scoreboard players reset Spell_Bundle_Slot_Test CAL
 
 # Retrieving The lvl up (cap) value to compare it to current xp level
-function att2:gameplay/dahal/action/spell1/xp_cal
+function att2:gameplay/dahal/action/spell2/xp_cal

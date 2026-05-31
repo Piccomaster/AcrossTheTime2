@@ -78,7 +78,7 @@ tellraw @a[scores={LANGUAGE=10}] {text:" °-° Guardas : ",color:"green",extra:[
 tellraw @a[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Ok, eu te sigo, mas não vamos perder tempo...",color:"aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {text:" °-° 警卫 : ",color:"green",extra:[{text:"你喜欢打架？哦，bolïn！您可以获得踏入我们领土的权利。嘉奖英勇的战士是我们的传统！你知道如何战斗并会在竞技场上证明这些，我来带你去找solomba吧！",color:"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {text:" °-° 警卫 : ",color:"green",extra:[{text:"你喜欢打架？哦，bolïn！只要战胜对手，您可以获得踏入我们领土的权利。嘉奖英勇的战士是我们的传统！你若有实力在角斗场中证明自己，便能进入solomba！",color:"dark_aqua"}]}
 tellraw @a[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"好吧，我跟着你，但我们不要浪费时间...",color:"aqua"}]}
 
 function att2:voice/guard/guard14

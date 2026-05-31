@@ -5,6 +5,7 @@
 
 #reset
 function att2:gameplay/dahal/data_cal/initialize
+scoreboard players set #DATA_CAL CAL 1
 #get lvl score
 scoreboard players set SPELL_LVL1 SPELL_DATA 1
 scoreboard players set SPELL_LVL2 SPELL_DATA 2
@@ -88,3 +89,6 @@ scoreboard players operation TIMER_LVL9 SPELL_DATA = timer_lvl9 SPELL24_DATA
 scoreboard players operation TIMER_LVL9 SPELL_DATA /= 20 CAL
 scoreboard players operation TIMER_LVL10 SPELL_DATA = timer_lvl10 SPELL24_DATA
 scoreboard players operation TIMER_LVL10 SPELL_DATA /= 20 CAL
+
+##reset
+scoreboard players set #DATA_CAL CAL 0

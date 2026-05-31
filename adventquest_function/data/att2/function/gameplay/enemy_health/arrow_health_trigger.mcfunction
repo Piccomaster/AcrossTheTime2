@@ -17,6 +17,8 @@ execute store result score #max_health CAL run attribute @s max_health get
 ##get reduce Health
 scoreboard players operation #reduce_health CAL = #DMG CAL
 
+##limit
+execute if score @s SPECIAL_ELITE matches 2 run function att2:gameplay/enveffect/elite/mechanic/fb_arrow/atk_feedback
 ##back damage
 execute on attacker run function att2:gameplay/enemy_health/data/arrow_trigger
 ##absorption_health

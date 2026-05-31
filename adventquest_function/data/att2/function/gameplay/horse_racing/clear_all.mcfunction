@@ -8,6 +8,7 @@
 #############################################################
 
 ##clear all racing
+execute as @e[type=#minecraft:horse_racing,tag=HorseRace,tag=!RIDE] at @s if block ~ ~ ~ light[level=15] run setblock ~ ~ ~ air
 execute as @e[type=#minecraft:horse_racing,tag=HorseRace,tag=!RIDE] at @s if block ~ ~1 ~ light[level=15] run setblock ~ ~1 ~ air
 execute as @e[type=#minecraft:horse_racing,tag=HorseRace,tag=!RIDE] at @s run tp @s ~ -10 ~
 kill @e[type=#minecraft:horse_racing,tag=HorseRace,tag=!RIDE]

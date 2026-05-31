@@ -1097,3 +1097,7 @@ execute in minecraft:overworld positioned -4643 70 -5615 run setblock -4643 70 -
 execute in minecraft:overworld positioned -5132 113 -5811 run setblock -5132 113 -5811 minecraft:chest[facing=west,type=single,waterlogged=false]{Items:[],components:{}} destroy
 execute in minecraft:overworld positioned 7021 51 7001 run setblock 7021 51 7001 minecraft:magenta_stained_glass destroy
 execute in minecraft:overworld positioned 7021 207 7001 run setblock 7021 207 7001 minecraft:magenta_stained_glass destroy
+
+execute in minecraft:overworld positioned -5375 81 -4437 run setblock -5375 81 -4437 minecraft:command_block[conditional=false,facing=up]{Command:"/setblock -5371 84 -4437 rail destroy",CustomName:"@",LastExecution:3007836022L,LastOutput:{extra:[{translate:"commands.setblock.success",with:[-5371,84,-4437]}],text:"[20:29:23] "},SuccessCount:1,TrackOutput:1b,UpdateLastExecution:1b,auto:0b,components:{},conditionMet:1b,powered:0b}
+
+execute in minecraft:overworld positioned -5186 119 -5790 run setblock -5186 119 -5790 air

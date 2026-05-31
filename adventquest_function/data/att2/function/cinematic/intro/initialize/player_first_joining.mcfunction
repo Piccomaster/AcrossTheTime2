@@ -33,8 +33,11 @@ execute unless score Mainquest SIDEQUEST matches 1.. if score update INTRO match
 
 execute if score Mainquest SIDEQUEST matches 0 if score update INTRO matches -2 in minecraft:overworld run tp @s 1993 113 2062
 execute if score Mainquest SIDEQUEST matches 1 in minecraft:overworld run tp @s -5253 71 -5405
+execute if score Mainquest SIDEQUEST matches 1 in minecraft:overworld run spawnpoint @s -5192 73 -5342
 execute if score Mainquest SIDEQUEST matches 2 in minecraft:overworld run tp @s -5192 73 -5342
+execute if score Mainquest SIDEQUEST matches 2 in minecraft:overworld run spawnpoint @s -5192 73 -5342
 execute if score Mainquest SIDEQUEST matches 3.. in minecraft:overworld run tp @s -5030 75 -5080 0 0
+execute if score Mainquest SIDEQUEST matches 3.. in minecraft:overworld run function att2:gameplay/checkpoint/telluron_present/ryliath_town0
 
 ##dahal show
 ##initialize player score

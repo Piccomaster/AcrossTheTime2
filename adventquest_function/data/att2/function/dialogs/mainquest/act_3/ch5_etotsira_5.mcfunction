@@ -61,4 +61,4 @@ tellraw @a[scores={LANGUAGE=9}] {text:" °-° Etotsira : ",color:"blue",extra:[{
 tellraw @a[scores={LANGUAGE=10}] {text:" °-° Etotsira : ",color:"blue",extra:[{text:"Não posso trazer os mortos de volta, especialmente porque ele já não tinha vontade de viver...",color:"dark_aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {text:" °-° Etotsira : ",color:"blue",extra:[{text:"我没有死而复生的权柄。而且，他已经没有活下去的念头了...",color:"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {text:" °-° Etotsira : ",color:"blue",extra:[{text:"我没有死而复生的权柄。而且他已经没有活下去的念头了...",color:"dark_aqua"}]}

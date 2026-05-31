@@ -82,4 +82,4 @@ tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,e
 
 #Simplified Chinese LANGUAGE
 tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,extra:[{text:" : "},{text:"[等等，好像有些误会。我来这里不是为了伤害谁的。恰恰相反，如果没有这颗宝石那我就没办法纠正某个错误，毕竟我是Tellurön的英雄。-->]",color:"gray",click_event:{action:run_command,command:"/trigger ScoreTrigger set 686"},hover_event:{action:show_text,value:"点击这里 - 回答 1"}}]}
-tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,extra:[{text:" : "},{text:"[你好像有些不识趣啊，大贤者。我为何会在Tellurön被称为英雄？ 如果你想尝尝我的力量，就继续这么做。-->]",color:"gray",click_event:{action:run_command,command:"/trigger ScoreTrigger set 689"},hover_event:{action:show_text,value:"点击这里 - 回答 2"}}]}
+tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,extra:[{text:" : "},{text:"[你好像有些不识趣啊，大贤者。想知道我为何会在Tellurön被称为英雄吗？ 如果你想尝尝我的力量，就继续这么做。-->]",color:"gray",click_event:{action:run_command,command:"/trigger ScoreTrigger set 689"},hover_event:{action:show_text,value:"点击这里 - 回答 2"}}]}

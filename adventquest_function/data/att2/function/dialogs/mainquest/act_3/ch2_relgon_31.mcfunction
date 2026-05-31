@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] [{object:atlas,sprite:"item/custom/head/relgon_f
 tellraw @a[scores={LANGUAGE=10}] [{object:atlas,sprite:"item/custom/head/relgon_front"},{text:" °-° Relgon : ",color:"red",extra:[{text:"Além disso, recentemente concluiu-se o treinamento de Namrïn e Sérile. Agora que possuem capacidades S, são um ativo para nossas forças.",color:"dark_aqua"}]}]
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/relgon_front"},{text:" °-° Relgon : ",color:"red",extra:[{text:"除此之外，我们刚结束Namrïn和Sérile的特训。现在，他们都具备了S的能力，是我们阵营的精锐力量。",color:"dark_aqua"}]}]
+tellraw @a[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/relgon_front"},{text:" °-° Relgon : ",color:"red",extra:[{text:"除此之外，我们刚结束Namrïn和Sérile的特训。现在，他们都具备了S等阶的能力，是我们阵营的精锐力量。",color:"dark_aqua"}]}]

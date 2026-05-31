@@ -55,4 +55,4 @@ tellraw @a[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,co
 tellraw @a[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Agora tenho que atravessar uma ponte desabada... Aquela estalactite acima dela é enorme! É tão larga que poderia criar uma passagem para mim ou até mesmo preencher o buraco ao cair. Não vejo outras alternativas senão o caminho difícil, vamos subir e tentar derreter sua base! Não parece que vá arrastar o resto da ponte na queda e destruir toda a caverna...",color:"aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"我现在得跨过一座坍塌的桥……它上方的钟乳石好大啊！这么宽，落下来的话应该可以给我铺条路，甚至能把洞填满。除了硬来我想不到其他办法，也许我们可以爬上去试着把它的底部融化掉！它落下来应该不会把剩下的桥也带倒，把整个洞穴都毁掉吧……",color:"aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"我现在得跨过一座坍塌的桥……它上方的钟乳石好大啊！这么宽，落下来的话应该可以给我铺条路，甚至能把洞填满。除了硬来我想不到其他办法，也许我们可以爬上去试着把它的底座融化掉！它落下来应该不会把剩下的桥也带倒，把整个洞穴都毁掉吧……",color:"aqua"}]}

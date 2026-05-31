@@ -10,3 +10,5 @@ advancement grant @s only att2:adventure/myt
 
 ##reset
 function att2:items/legendary/interfacer
+
+function att2:dialogs/gameplay/legendary/interfacer_taken

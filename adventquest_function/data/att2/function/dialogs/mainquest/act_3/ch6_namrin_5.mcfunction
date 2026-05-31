@@ -46,4 +46,4 @@ tellraw @a[scores={LANGUAGE=9}] [{object:atlas,sprite:"item/custom/head/namrin_f
 tellraw @a[scores={LANGUAGE=10}] [{object:atlas,sprite:"item/custom/head/namrin_front"},{text:" °-° Namrïn : ",color:"dark_purple",extra:[{text:"Ainda não encontrei um nome para isso, mas... Este feitiço aumentará sua força, velocidade e vitalidade em dez vezes.",color:"dark_aqua"}]}]
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/namrin_front"},{text:" °-° Namrïn : ",color:"dark_purple",extra:[{text:"我还没想好它应该要叫什么，但是...这个法术可以将你的力量、速度和愈合力提高许多",color:"dark_aqua"}]}]
+tellraw @a[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/namrin_front"},{text:" °-° Namrïn : ",color:"dark_purple",extra:[{text:"我还没想好它应该要叫什么，但是...这个法术可以将你的力量、速度与愈合力提高许多",color:"dark_aqua"}]}]
