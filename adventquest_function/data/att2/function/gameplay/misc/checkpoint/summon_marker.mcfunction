@@ -17,5 +17,8 @@ execute as @e[type=#minecraft:rideable,predicate=att2_pre:score/owner,distance=.
 execute at @s as @p[distance=..10,predicate=att2_pre:score/player] at @s run tp @s @s
 execute at @s run spectate @s @p[distance=..10,predicate=att2_pre:score/player]
 
+
+execute at @s run tp @s ~ ~-0.5 ~
+
 ##set owner
 scoreboard players operation @s OWNER = #player CAL

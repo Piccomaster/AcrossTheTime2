@@ -14,10 +14,17 @@
   },
   "slots": [
     "hand",
-    
     "head"
   ],
   "effects": {
+    "minecraft:projectile_spread": [
+      {
+        "effect": {
+          "type": "minecraft:set",
+          "value": 0
+        }
+      }
+    ],
     "projectile_spawned": [
       {
         "effect": {

@@ -8,6 +8,7 @@ execute if score @s HORSE matches -777.. run return fail
 scoreboard players set @s HORSE 0
 
 
+scoreboard objectives add HORSE_USE_COUNT dummy
 scoreboard objectives add JAPPELOUP dummy
 
 scoreboard objectives add BLAZEHORSE dummy

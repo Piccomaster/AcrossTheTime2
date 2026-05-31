@@ -6,8 +6,8 @@
 scoreboard objectives add ENCHANTMENT_DATA dummy
 
 #1000slay
-scoreboard players set 1000slay_esc_1 ENCHANTMENT_DATA 4
-scoreboard players set 1000slay_rune_1 ENCHANTMENT_DATA 500
+scoreboard players set 1000slay_esc_1 ENCHANTMENT_DATA 7
+scoreboard players set 1000slay_rune_1 ENCHANTMENT_DATA 700
 #abyssdiver
 scoreboard players set abyssdiver_esc_1 ENCHANTMENT_DATA 1
 scoreboard players set abyssdiver_rune_1 ENCHANTMENT_DATA 50
@@ -27,23 +27,25 @@ scoreboard players set anchorshot_rune_4 ENCHANTMENT_DATA 400
 scoreboard players set anchorshot_esc_5 ENCHANTMENT_DATA 6
 scoreboard players set anchorshot_rune_5 ENCHANTMENT_DATA 500
 #arcanedrive
-scoreboard players set arcanedrive_esc_1 ENCHANTMENT_DATA 3
-scoreboard players set arcanedrive_rune_1 ENCHANTMENT_DATA 300
-scoreboard players set arcanedrive_esc_2 ENCHANTMENT_DATA 6
-scoreboard players set arcanedrive_rune_2 ENCHANTMENT_DATA 600
-scoreboard players set arcanedrive_esc_3 ENCHANTMENT_DATA 9
-scoreboard players set arcanedrive_rune_3 ENCHANTMENT_DATA 900
+scoreboard players set arcanedrive_esc_1 ENCHANTMENT_DATA 2
+scoreboard players set arcanedrive_rune_1 ENCHANTMENT_DATA 200
+scoreboard players set arcanedrive_esc_2 ENCHANTMENT_DATA 4
+scoreboard players set arcanedrive_rune_2 ENCHANTMENT_DATA 400
+scoreboard players set arcanedrive_esc_3 ENCHANTMENT_DATA 8
+scoreboard players set arcanedrive_rune_3 ENCHANTMENT_DATA 800
+scoreboard players set arcanedrive_esc_4 ENCHANTMENT_DATA 16
+scoreboard players set arcanedrive_rune_4 ENCHANTMENT_DATA 1600
 #armorbreak
 scoreboard players set armorbreak_esc_1 ENCHANTMENT_DATA 1
 scoreboard players set armorbreak_rune_1 ENCHANTMENT_DATA 100
 scoreboard players set armorbreak_esc_2 ENCHANTMENT_DATA 3
-scoreboard players set armorbreak_rune_2 ENCHANTMENT_DATA 200
-scoreboard players set armorbreak_esc_3 ENCHANTMENT_DATA 5
-scoreboard players set armorbreak_rune_3 ENCHANTMENT_DATA 300
-scoreboard players set armorbreak_esc_4 ENCHANTMENT_DATA 7
-scoreboard players set armorbreak_rune_4 ENCHANTMENT_DATA 400
-scoreboard players set armorbreak_esc_5 ENCHANTMENT_DATA 9
-scoreboard players set armorbreak_rune_5 ENCHANTMENT_DATA 500
+scoreboard players set armorbreak_rune_2 ENCHANTMENT_DATA 300
+scoreboard players set armorbreak_esc_3 ENCHANTMENT_DATA 6
+scoreboard players set armorbreak_rune_3 ENCHANTMENT_DATA 600
+scoreboard players set armorbreak_esc_4 ENCHANTMENT_DATA 10
+scoreboard players set armorbreak_rune_4 ENCHANTMENT_DATA 1000
+scoreboard players set armorbreak_esc_5 ENCHANTMENT_DATA 15
+scoreboard players set armorbreak_rune_5 ENCHANTMENT_DATA 1500
 #auto_mending
 scoreboard players set auto_mending_esc_1 ENCHANTMENT_DATA 3
 scoreboard players set auto_mending_rune_1 ENCHANTMENT_DATA 200

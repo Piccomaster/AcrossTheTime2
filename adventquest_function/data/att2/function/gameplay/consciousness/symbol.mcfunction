@@ -19,7 +19,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Academy_present SYMBOL
 data modify storage att2:dialog total_count set value 34
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 34.. run data modify storage att2:dialog color set value "green"
+execute if score Academy_present SYMBOL matches 34.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "academy_present"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -28,7 +28,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Adanoi SYMBOL
 data modify storage att2:dialog total_count set value 24
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 24.. run data modify storage att2:dialog color set value "green"
+execute if score Adanoi SYMBOL matches 24.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "adanoi"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -37,7 +37,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Angband_road SYMBOL
 data modify storage att2:dialog total_count set value 16
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 16.. run data modify storage att2:dialog color set value "green"
+execute if score Angband_road SYMBOL matches 16.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "angband_road"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -46,7 +46,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Angor_north SYMBOL
 data modify storage att2:dialog total_count set value 84
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 84.. run data modify storage att2:dialog color set value "green"
+execute if score Angor_north SYMBOL matches 84.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "angor_north"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -55,7 +55,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Angor_palace SYMBOL
 data modify storage att2:dialog total_count set value 45
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 45.. run data modify storage att2:dialog color set value "green"
+execute if score Angor_palace SYMBOL matches 45.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "angor_palace"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -64,7 +64,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Angor_south SYMBOL
 data modify storage att2:dialog total_count set value 67
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 67.. run data modify storage att2:dialog color set value "green"
+execute if score Angor_south SYMBOL matches 67.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "angor_south"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -73,7 +73,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Asunark SYMBOL
 data modify storage att2:dialog total_count set value 28
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 28.. run data modify storage att2:dialog color set value "green"
+execute if score Asunark SYMBOL matches 28.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "asunark"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -82,7 +82,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Beach SYMBOL
 data modify storage att2:dialog total_count set value 21
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 21.. run data modify storage att2:dialog color set value "green"
+execute if score Beach SYMBOL matches 21.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "beach"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -91,7 +91,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Billgart_dungeon SYMBOL
 data modify storage att2:dialog total_count set value 94
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 94.. run data modify storage att2:dialog color set value "green"
+execute if score Billgart_dungeon SYMBOL matches 94.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "billgart_dungeon"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -100,7 +100,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Billgart_road SYMBOL
 data modify storage att2:dialog total_count set value 21
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 21.. run data modify storage att2:dialog color set value "green"
+execute if score Billgart_road SYMBOL matches 21.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "billgart_road"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -109,7 +109,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Black SYMBOL
 data modify storage att2:dialog total_count set value 34
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 34.. run data modify storage att2:dialog color set value "green"
+execute if score Black SYMBOL matches 34.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "black"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -118,7 +118,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Cave SYMBOL
 data modify storage att2:dialog total_count set value 16
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 16.. run data modify storage att2:dialog color set value "green"
+execute if score Cave SYMBOL matches 16.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "cave"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -127,7 +127,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Earndhel SYMBOL
 data modify storage att2:dialog total_count set value 18
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 18.. run data modify storage att2:dialog color set value "green"
+execute if score Earndhel SYMBOL matches 18.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "earndhel"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -136,7 +136,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Elcheol SYMBOL
 data modify storage att2:dialog total_count set value 23
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 23.. run data modify storage att2:dialog color set value "green"
+execute if score Elcheol SYMBOL matches 23.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "elcheol"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -145,7 +145,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Elvetta SYMBOL
 data modify storage att2:dialog total_count set value 13
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 13.. run data modify storage att2:dialog color set value "green"
+execute if score Elvetta SYMBOL matches 13.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "elvetta"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -154,7 +154,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Eol SYMBOL
 data modify storage att2:dialog total_count set value 20
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 20.. run data modify storage att2:dialog color set value "green"
+execute if score Eol SYMBOL matches 20.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "eol"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -163,7 +163,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Eolorion SYMBOL
 data modify storage att2:dialog total_count set value 48
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 48.. run data modify storage att2:dialog color set value "green"
+execute if score Eolorion SYMBOL matches 48.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "eolorion"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -172,7 +172,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Exiles_camp SYMBOL
 data modify storage att2:dialog total_count set value 12
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 12.. run data modify storage att2:dialog color set value "green"
+execute if score Exiles_camp SYMBOL matches 12.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "exiles_camp"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -181,7 +181,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Jarat SYMBOL
 data modify storage att2:dialog total_count set value 14
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 14.. run data modify storage att2:dialog color set value "green"
+execute if score Jarat SYMBOL matches 14.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "jarat"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -190,7 +190,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Kert_mine SYMBOL
 data modify storage att2:dialog total_count set value 21
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 21.. run data modify storage att2:dialog color set value "green"
+execute if score Kert_mine SYMBOL matches 21.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "kert_mine"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -199,7 +199,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Kert SYMBOL
 data modify storage att2:dialog total_count set value 24
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 24.. run data modify storage att2:dialog color set value "green"
+execute if score Kert SYMBOL matches 24.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "kert"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -208,7 +208,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Kortaek SYMBOL
 data modify storage att2:dialog total_count set value 18
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 18.. run data modify storage att2:dialog color set value "green"
+execute if score Kortaek SYMBOL matches 18.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "kortaek"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -217,7 +217,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Lost_island SYMBOL
 data modify storage att2:dialog total_count set value 14
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 14.. run data modify storage att2:dialog color set value "green"
+execute if score Lost_island SYMBOL matches 14.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "lost_island"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -226,7 +226,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Mangroove SYMBOL
 data modify storage att2:dialog total_count set value 10
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 10.. run data modify storage att2:dialog color set value "green"
+execute if score Mangroove SYMBOL matches 10.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "mangroove"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -235,7 +235,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Meleim SYMBOL
 data modify storage att2:dialog total_count set value 30
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 30.. run data modify storage att2:dialog color set value "green"
+execute if score Meleim SYMBOL matches 30.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "meleim"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -244,7 +244,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Nojelanth_desert SYMBOL
 data modify storage att2:dialog total_count set value 12
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 12.. run data modify storage att2:dialog color set value "green"
+execute if score Nojelanth_desert SYMBOL matches 12.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "nojelanth_desert"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -253,7 +253,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Nojelanth_forest SYMBOL
 data modify storage att2:dialog total_count set value 24
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 24.. run data modify storage att2:dialog color set value "green"
+execute if score Nojelanth_forest SYMBOL matches 24.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "nojelanth_forest"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -262,7 +262,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Ouranos_road SYMBOL
 data modify storage att2:dialog total_count set value 62
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 62.. run data modify storage att2:dialog color set value "green"
+execute if score Ouranos_road SYMBOL matches 62.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "ouranos_road"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -271,7 +271,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Ouranos_tower SYMBOL
 data modify storage att2:dialog total_count set value 15
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 15.. run data modify storage att2:dialog color set value "green"
+execute if score Ouranos_tower SYMBOL matches 15.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "ouranos_tower"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -280,7 +280,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Owsastr SYMBOL
 data modify storage att2:dialog total_count set value 44
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 44.. run data modify storage att2:dialog color set value "green"
+execute if score Owsastr SYMBOL matches 44.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "owsastr"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -289,7 +289,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Phoenix SYMBOL
 data modify storage att2:dialog total_count set value 13
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 13.. run data modify storage att2:dialog color set value "green"
+execute if score Phoenix SYMBOL matches 13.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "phoenix"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -298,7 +298,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Plain SYMBOL
 data modify storage att2:dialog total_count set value 24
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 24.. run data modify storage att2:dialog color set value "green"
+execute if score Plain SYMBOL matches 24.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "plain"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -307,7 +307,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Ryliath SYMBOL
 data modify storage att2:dialog total_count set value 63
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 63.. run data modify storage att2:dialog color set value "green"
+execute if score Ryliath SYMBOL matches 63.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "ryliath"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -316,7 +316,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Sathnok SYMBOL
 data modify storage att2:dialog total_count set value 18
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 18.. run data modify storage att2:dialog color set value "green"
+execute if score Sathnok SYMBOL matches 18.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "sathnok"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -325,7 +325,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Schestrown SYMBOL
 data modify storage att2:dialog total_count set value 44
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 44.. run data modify storage att2:dialog color set value "green"
+execute if score Schestrown SYMBOL matches 44.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "schestrown"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -334,7 +334,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Secret_dungeon SYMBOL
 data modify storage att2:dialog total_count set value 34
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 34.. run data modify storage att2:dialog color set value "green"
+execute if score Secret_dungeon SYMBOL matches 34.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "secret_dungeon"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -343,7 +343,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Soquai SYMBOL
 data modify storage att2:dialog total_count set value 35
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 35.. run data modify storage att2:dialog color set value "green"
+execute if score Soquai SYMBOL matches 35.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "soquai"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -352,7 +352,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Volcano SYMBOL
 data modify storage att2:dialog total_count set value 12
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 12.. run data modify storage att2:dialog color set value "green"
+execute if score Volcano SYMBOL matches 12.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "volcano"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -361,7 +361,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Vonaheim SYMBOL
 data modify storage att2:dialog total_count set value 41
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 41.. run data modify storage att2:dialog color set value "green"
+execute if score Vonaheim SYMBOL matches 41.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "vonaheim"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -370,7 +370,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Worlest_mine SYMBOL
 data modify storage att2:dialog total_count set value 14
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 14.. run data modify storage att2:dialog color set value "green"
+execute if score Worlest_mine SYMBOL matches 14.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "worlest_mine"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -379,7 +379,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Worlest SYMBOL
 data modify storage att2:dialog total_count set value 40
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 40.. run data modify storage att2:dialog color set value "green"
+execute if score Worlest SYMBOL matches 40.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "worlest"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
@@ -388,7 +388,7 @@ function att2:gameplay/consciousness/insert/symbol with storage att2:dialog
 execute store result storage att2:dialog now_count int 1 run scoreboard players get Zirthion SYMBOL
 data modify storage att2:dialog total_count set value 30
 data modify storage att2:dialog color set value "yellow"
-execute if score Academy_past SYMBOL matches 30.. run data modify storage att2:dialog color set value "green"
+execute if score Zirthion SYMBOL matches 30.. run data modify storage att2:dialog color set value "green"
 data modify storage att2:dialog id set value "zirthion"
 data modify storage att2:dialog executeid set value 2320
 function att2:gameplay/consciousness/insert/symbol with storage att2:dialog

@@ -4,6 +4,7 @@
 #################################################################
 
 ##limit
+execute if data entity @s {PickupDelay:40s} run data modify entity @s PickupDelay set value 25
 ##store data
 data modify storage att2:item data set from entity @s
 #quickslot

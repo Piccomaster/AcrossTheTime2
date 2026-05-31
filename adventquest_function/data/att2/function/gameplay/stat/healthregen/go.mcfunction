@@ -15,6 +15,7 @@ scoreboard players operation #count CAL = @s HER_TOT
 scoreboard players operation #count CAL *= 50 CAL
 scoreboard players add #count CAL 50
 ##min
+#tellraw @a ["减少",{score:{name:"#count",objective:"CAL"}}]
 scoreboard players operation @s HER_VALUE += #count CAL
 execute if score @s HER_VALUE matches 10000.. run function att2:gameplay/stat/healthregen/bonus
 execute if score @s HER_VALUE matches ..-10000 run function att2:gameplay/stat/healthregen/malus

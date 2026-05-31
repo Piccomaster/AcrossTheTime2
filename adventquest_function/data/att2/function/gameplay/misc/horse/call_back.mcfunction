@@ -27,3 +27,6 @@ item modify entity @n[distance=..5,type=#minecraft:rideable,tag=Store] saddle {f
 tag @n[type=#minecraft:rideable,tag=Store] remove Store
 ##reset
 scoreboard players set @s[scores={HORSE=1}] HORSE 100
+
+##use count
+scoreboard players add @s HORSE_USE_COUNT 1

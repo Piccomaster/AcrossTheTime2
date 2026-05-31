@@ -36,3 +36,12 @@ tag @s add killed
 data remove entity @s equipment.head.components."minecraft:enchantments"
 ##health 0
 data modify entity @s Health set value 0
+
+########clear
+##particle
+particle minecraft:poof ~ ~ ~ 0.5 1 0.5 0 40 normal
+playsound block.wool.break ambient @a ~ ~ ~ 1 0.6
+effect clear @s
+effect give @s minecraft:invisibility infinite 0 true
+# tp
+tp @s ~ -50 ~

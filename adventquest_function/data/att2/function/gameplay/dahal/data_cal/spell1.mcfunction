@@ -5,6 +5,7 @@
 
 #reset
 function att2:gameplay/dahal/data_cal/initialize
+scoreboard players set #DATA_CAL CAL 1
 #get lvl score
 scoreboard players set SPELL_LVL1 SPELL_DATA 1
 scoreboard players set SPELL_LVL2 SPELL_DATA 2
@@ -113,10 +114,11 @@ scoreboard players operation DAMAGE_LVL10 SPELL_DATA = finalDG SPDG
 #reset
 scoreboard players operation @s SPELL1_SLCT = TEMP_LVL SPELL_DATA
 
-
-
 ##cal critical
 scoreboard players operation #Critical SPELL_DATA = SPELL1_CRITICAL Critical
 scoreboard players operation #Critical SPELL_DATA *= @s CRT_TOT
 scoreboard players operation #CriticalDamage SPELL_DATA = #Critical SPELL_DATA
 scoreboard players add #CriticalDamage SPELL_DATA 100
+
+##reset
+scoreboard players set #DATA_CAL CAL 0

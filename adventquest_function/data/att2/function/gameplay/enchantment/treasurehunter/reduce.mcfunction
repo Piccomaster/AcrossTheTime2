@@ -5,6 +5,7 @@
 
 #reduce count
 scoreboard players remove @s TREASUREHUNTER 1
+#tellraw @a ["剩余次数",{score:{name:"@s",objective:"TREASUREHUNTER"}}]
 #remove effect
 execute if score @s TREASUREHUNTER matches ..0 run effect clear @s hero_of_the_village
 
