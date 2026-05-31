@@ -20,6 +20,16 @@ scoreboard players set section7 TRIAL_DUNGEON 0
 scoreboard players set section8 TRIAL_DUNGEON 0
 scoreboard players set section9 TRIAL_DUNGEON 0
 scoreboard players set section10 TRIAL_DUNGEON 0
+scoreboard players set section11 TRIAL_DUNGEON 0
+scoreboard players set section12 TRIAL_DUNGEON 0
+scoreboard players set section13 TRIAL_DUNGEON 0
+scoreboard players set section14 TRIAL_DUNGEON 0
+scoreboard players set section15 TRIAL_DUNGEON 0
+scoreboard players set section16 TRIAL_DUNGEON 0
+scoreboard players set section17 TRIAL_DUNGEON 0
+scoreboard players set section18 TRIAL_DUNGEON 0
+scoreboard players set section19 TRIAL_DUNGEON 0
+scoreboard players set section20 TRIAL_DUNGEON 0
 
 #return 1->make command block runing
 return 1
