@@ -46,4 +46,4 @@ tellraw @a[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,co
 tellraw @a[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"...Ele me reconheceu como 'amigo' quando eu o derrotei, é por isso... Mas como ele se transformou em um monstro assim? No entanto, ele parecia ser calmo, ponderado e sensível por natureza...",color:"aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"...当我打倒他的时候，他认出了我，说我是他的“朋友”，所以...但是，他怎么就变成了怪物？以前的他是那么的冷静、深思熟虑、警觉敏感...",color:"aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"原来如此...所以当我打倒他的时候他认出了我，说我是他的“朋友”...但是，他怎么就变成了怪物？以前的他是那么的冷静、深思熟虑、警觉敏感...",color:"aqua"}]}

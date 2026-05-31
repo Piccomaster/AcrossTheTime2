@@ -54,4 +54,4 @@ tellraw @s[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,co
 tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Devo me informar com um responsável da academia de Dahäl. O guarda confirmou para mim que esta academia está localizada no outro extremo da cidade, encostada à montanha.",color:"aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"我应该从Dahäl学院的教职员那儿打听信息。如果守卫说得没错的话，这所学院就在城市的另一端，依山而建。",color:"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"我应该从Dahäl学院的教职人员那儿打听信息。如果守卫说得没错的话，这所学院就在城市的另一端，依山而建。",color:"aqua"}]}

@@ -62,7 +62,7 @@ tellraw @a[scores={LANGUAGE=9}] {text:" °-° Ouran : ",color:"gold",extra:[{tex
 tellraw @a[scores={LANGUAGE=10}] {text:" °-° Ouran : ",color:"gold",extra:[{text:"Uma princesa de Angband? Problemas, que tipo de problemas?",color:"dark_aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {text:" °-° Ouran : ",color:"gold",extra:[{text:"一位Andbang的王女？问题？什么类型的问题？",color:"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {text:" °-° Ouran : ",color:"gold",extra:[{text:"Andbang的王女？问题？什么类型的问题？",color:"dark_aqua"}]}
 
 function att2:voice/stopsound
 function att2:voice/aoran/aoran24

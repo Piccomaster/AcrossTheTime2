@@ -54,7 +54,7 @@ tellraw @a[scores={LANGUAGE=9}] [{object:player,player:{properties:[{name:"textu
 tellraw @a[scores={LANGUAGE=10}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTEyNjI3NjFhZmNhMjNhMjk0MGU4MjY2OTNlZGE0NjkyMGVhZTRkN2M4YmFkZjQwOWMzZGIxNmQ3OWU5MjEifX19"}]}},{text:" °-° Ragnar Lorth : ",color:"green",extra:[{text:"Você é um aventureiro, eu acho? Olha, ela não é tão jovem quanto você, e acho que você deveria deixá-la fora de suas histórias.",color:"dark_aqua"}]}]
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTEyNjI3NjFhZmNhMjNhMjk0MGU4MjY2OTNlZGE0NjkyMGVhZTRkN2M4YmFkZjQwOWMzZGIxNmQ3OWU5MjEifX19"}]}},{text:" °-° Ragnar Lorth : ",color:"green",extra:[{text:"我猜，你是一名冒险家吧？听着，她已经上了岁数了，我觉得她不该参与你的胡闹。",color:"dark_aqua"}]}]
+tellraw @a[scores={LANGUAGE=11}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTEyNjI3NjFhZmNhMjNhMjk0MGU4MjY2OTNlZGE0NjkyMGVhZTRkN2M4YmFkZjQwOWMzZGIxNmQ3OWU5MjEifX19"}]}},{text:" °-° Ragnar Lorth : ",color:"green",extra:[{text:"我猜你是一名冒险家吧？听着，她已经上了岁数了，我觉得她不该参与你的胡闹。",color:"dark_aqua"}]}]
 
 function att2:voice/ragnar/ragnar3
 execute as @a run function att2:dialogs/mainquest/act_2/pnj_ragnar_lorth/player_answer_proposal_2

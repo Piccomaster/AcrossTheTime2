@@ -61,4 +61,4 @@ tellraw @a[scores={LANGUAGE=9}] {text:" °-° Indra Lorth : ",color:"green",extr
 tellraw @a[scores={LANGUAGE=10}] {text:" °-° Indra Lorth : ",color:"green",extra:[{text:"Ah... Um amigo de Wirth, você diz? Surpreendente que esse cabeça-dura ainda tenha algo? Mas vindo de um novato como ele, não me surpreende que ele tenha te enviado para mim! Então, qual é esse objeto que você está procurando?",color:"dark_aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {text:" °-° Indra Lorth : ",color:"green",extra:[{text:"噢...你说，你是Wirth的朋友？他那榆木脑袋居然还记得我？嘛，就他那副新手的样子，他让你来找我也不是什么出乎意料的事情。那么，你要找的东西是？",color:"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {text:" °-° Indra Lorth : ",color:"green",extra:[{text:"噢...你说，你是Wirth的朋友？他那榆木脑袋居然还记得我？嘛，就他那副初出茅庐的样子，让你来找我也不是什么出乎意料的事情。那么，你要找的东西是？",color:"dark_aqua"}]}

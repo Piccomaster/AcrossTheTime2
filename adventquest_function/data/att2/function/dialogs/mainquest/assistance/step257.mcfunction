@@ -46,4 +46,4 @@ tellraw @s[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,co
 tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Aqui estou na outra ala da academia. Deve haver uma maneira de subir mais alto no período de tempo em que os sistemas funcionam. Um mecanismo de segurança com cores pode ser ativado.",color:"aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"我现在位于学院的另一侧。肯定有一种方法可以在这个体系工作的时间范围内爬得更高。也许我该激活带有颜色的安全机制。",color:"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"我现在到了学院的另一侧翼楼。在那些设施还能运转的时间线里一定有办法爬得更高。我依稀记得地下室里有一组类似颜色密码的东西。",color:"aqua"}]}

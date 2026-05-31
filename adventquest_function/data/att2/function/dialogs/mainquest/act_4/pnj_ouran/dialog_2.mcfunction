@@ -62,7 +62,7 @@ tellraw @a[scores={LANGUAGE=9}] {text:" °-° Ouran : ",color:"gold",extra:[{tex
 tellraw @a[scores={LANGUAGE=10}] {text:" °-° Ouran : ",color:"gold",extra:[{text:"Você acha isso? E por que razão absurda eu deveria perdoar o insulto que um ninguém me fez?",color:"dark_aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {text:" °-° Ouran : ",color:"gold",extra:[{text:"你是这么想的么？我为什么要因为某个无足轻重的人对我的轻视而愚蠢地原谅他呢？",color:"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {text:" °-° Ouran : ",color:"gold",extra:[{text:"你是这么想的么？我这么伟大的存在为什么要愚蠢地原谅某个无足轻重的人对我的轻视？",color:"dark_aqua"}]}
 
 function att2:voice/stopsound
 function att2:voice/aoran/aoran10

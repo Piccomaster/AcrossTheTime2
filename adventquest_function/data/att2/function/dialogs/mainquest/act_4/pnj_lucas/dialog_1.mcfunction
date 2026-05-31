@@ -59,6 +59,6 @@ tellraw @s[scores={LANGUAGE=9}] [{object:player,player:{properties:[{name:"textu
 tellraw @s[scores={LANGUAGE=10}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q4MzRhNWMwZjE5MWJhYTI5MTVlZDM1NTE4NzY4YThlNTIyY2RjNzAxYTUxMGU5MjU5MzdkMGUxNmQ2NGZiNSJ9fX0="}]}},{text:" °-° Lucas : ",color:"green",extra:[{text:"Minha mente vazia se perde em sonhos fascinantes quando a brisa suave dos confins do poente finalmente me traz alguns sinais dela...",color:"dark_aqua"}]}]
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q4MzRhNWMwZjE5MWJhYTI5MTVlZDM1NTE4NzY4YThlNTIyY2RjNzAxYTUxMGU5MjU5MzdkMGUxNmQ2NGZiNSJ9fX0="}]}},{text:" °-° Lucas : ",color:"green",extra:[{text:"当来自南方边界的微风将我那空虚的心灵吹拂到足以令人迷失的梦境中后，我终于意识到了一些不寻常的迹象...",color:"dark_aqua"}]}]
+tellraw @s[scores={LANGUAGE=11}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q4MzRhNWMwZjE5MWJhYTI5MTVlZDM1NTE4NzY4YThlNTIyY2RjNzAxYTUxMGU5MjU5MzdkMGUxNmQ2NGZiNSJ9fX0="}]}},{text:" °-° Lucas : ",color:"green",extra:[{text:"当来自南风将我那空虚的心灵吹拂到足以令人迷失的梦境中后，我终于意识到了一些不寻常的迹象...",color:"dark_aqua"}]}]
 
 function att2:voice/lucas/lucas_dialogue1

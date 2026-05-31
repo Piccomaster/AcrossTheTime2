@@ -46,4 +46,4 @@ tellraw @s[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,co
 tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Evidentemente, fui transportado para esta temporalidade de um futuro que me parece extremamente distante. Tenho que sair de lá pelos corredores, não tenho escolha...",color:"aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"显然，我被带入了一个在我看来极其遥远的未来时间段。我必须通过通道离开那里，我别无选择...",color:"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"显然，我被带入了一个与我而言极其遥远的未来时间段。我必须通过通道离开这里，别无选择...",color:"aqua"}]}

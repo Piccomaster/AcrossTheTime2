@@ -61,4 +61,4 @@ tellraw @a[scores={LANGUAGE=9}] {text:" °-° Gaya : ",color:"dark_green",extra:
 tellraw @a[scores={LANGUAGE=10}] {text:" °-° Gaya : ",color:"dark_green",extra:[{text:"Sim, eu posso fazer isso. Relgon voltará um dia, e no meu mundo. No entanto, então não será o mesmo que você conheceu. Ele não vai saber quem ele é...",color:"dark_aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {text:" °-° Gaya : ",color:"dark_green",extra:[{text:"不，我能做得到。但Relgon终有一天会转世到我的世界，但是他不再是你们认识的那个Relgon。他不会知道自己以前是谁...",color:"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {text:" °-° Gaya : ",color:"dark_green",extra:[{text:"不，我能做得到。但Relgon终有一天会转世到我的维度，但是他不再是你们认识的那个Relgon。他不会知道自己以前是谁...",color:"dark_aqua"}]}

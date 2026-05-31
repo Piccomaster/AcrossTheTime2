@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] [{object:atlas,sprite:"item/custom/head/serile_f
 tellraw @a[scores={LANGUAGE=10}] [{object:atlas,sprite:"item/custom/head/serile_front_old"},{text:" °-° Sérile : ",color:"yellow",extra:[{text:"*Raiva, decepção* COMO VOCÊ SE ATREVE A FAZER ISSO COMIGO, SÉRILE, ÚNICA HERDEIRA DE AZAZEL, REI ORIGINAL DE ANGBAND!",color:"dark_aqua","italic":true}]}]
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/serile_front_old"},{text:" °-° Sérile : ",color:"yellow",extra:[{text:"*愤怒、失望地*你怎能这样对我，我可是Angband的旧日君主，Azazel的唯一血脉！",color:"dark_aqua","italic":true}]}]
+tellraw @a[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/serile_front_old"},{text:" °-° Sérile : ",color:"yellow",extra:[{text:"*愤怒、失望地*你怎能这样对我，我可是Angband旧日君主Azazel的唯一血脉！",color:"dark_aqua","italic":true}]}]

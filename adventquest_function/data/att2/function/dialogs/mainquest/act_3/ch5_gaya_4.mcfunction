@@ -62,4 +62,4 @@ tellraw @a[scores={LANGUAGE=10,limit=1}] {text:" °-° Gaya : ",color:"dark_gree
 
 #Simplified Chinese LANGUAGE
 
-tellraw @a[scores={LANGUAGE=11,limit=1}] {text:" °-° Gaya : ",color:"dark_green",extra:[{text:"不要担心，你还是你，你无需担负Relgon的使命，也不用替他受苦",color:"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=11,limit=1}] {text:" °-° Gaya : ",color:"dark_green",extra:[{text:"*似乎在自言自语*不要担心，你还是你，你无需担负Relgon的使命，也不用替他受苦",color:"dark_aqua"}]}

@@ -61,4 +61,4 @@ tellraw @a[scores={LANGUAGE=9}] [{object:atlas,sprite:"item/custom/head/relgon_f
 tellraw @a[scores={LANGUAGE=10}] [{object:atlas,sprite:"item/custom/head/relgon_front"},{text:" °-° Relgon : ",color:"red",extra:[{text:"Durante vários ciclos, o povo mortal, leal ao rei Azazel, veio em nosso auxílio. Mas depois de muitas derrotas e a morte de muitos dos seus, ele nos virou as costas.",color:"dark_aqua"}]}]
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/relgon_front"},{text:" °-° Relgon : ",color:"red",extra:[{text:"在之后的几个轮回中，那些忠于国王Azazel的势力前来协助们。但在历经数次伤亡惨重的失败后，他们也四散而去。",color:"dark_aqua"}]}]
+tellraw @a[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/relgon_front"},{text:" °-° Relgon : ",color:"red",extra:[{text:"在之后的几个轮回中，那些忠于国王Azazel的势力前来协助我们。但在历经数次伤亡惨重的失败后，他们也四散而去。",color:"dark_aqua"}]}]

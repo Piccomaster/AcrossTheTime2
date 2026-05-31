@@ -54,4 +54,4 @@ tellraw @s[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,co
 tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Eu tenho que encontrar uma chave de esmeralda, mas para isso tenho que ativar um mecanismo e preciso de três engrenagens. Elas devem estar na própria sala.",color:"aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"我必须找到一把翡翠钥匙，但在此之前，我得先激活一个缺了三个齿轮的装置。他们肯定就在这房间里。",color:"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"我必须找到一把翡翠钥匙，但在此之前，我得先激活一个缺了三个齿轮的装置。它们肯定就在这房间里。",color:"aqua"}]}

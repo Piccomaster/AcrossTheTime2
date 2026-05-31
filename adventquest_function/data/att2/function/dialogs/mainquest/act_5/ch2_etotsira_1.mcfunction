@@ -61,6 +61,6 @@ tellraw @a[scores={LANGUAGE=9}] {text:" °-° Etotsira : ",color:"blue",extra:[{
 tellraw @a[scores={LANGUAGE=10}] {text:" °-° Etotsira : ",color:"blue",extra:[{text:"Parabéns, ",color:"dark_aqua"},{nbt:"set",storage:"att2:id","interpret":true},{text:"! Você não poderia ter feito melhor, pois ao libertar Sérile de sua maldição e fazer renascer a esperança nela, você salvou muito mais do que apenas ela, você e Tellurön.",color:"dark_aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {text:" °-° Etotsira : ",color:"blue",extra:[{text:"真是天大的喜事， ",color:"dark_aqua"},{nbt:"set",storage:"att2:id","interpret":true},{text:"！ 你所行之事空前绝后：你解开了Sérile的心结，让她重燃希望。你所拯救的不仅仅是她，你还拯救了Tellurön，以及你自己。",color:"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {text:" °-° Etotsira : ",color:"blue",extra:[{text:"真是天大的喜事，",color:"dark_aqua"},{nbt:"set",storage:"att2:id","interpret":true},{text:"！ 你所行之事空前绝后：你解开了Sérile的心结，让她重燃希望。你所拯救的不仅仅是她，你还拯救了Tellurön，以及你自己。",color:"dark_aqua"}]}
 
 function att2:voice/etotsira/etotsira57

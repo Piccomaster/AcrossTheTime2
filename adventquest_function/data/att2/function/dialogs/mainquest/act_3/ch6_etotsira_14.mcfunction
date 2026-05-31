@@ -46,4 +46,4 @@ tellraw @a[scores={LANGUAGE=9}] {text:" °-° Etotsira : ",color:"blue",extra:[{
 tellraw @a[scores={LANGUAGE=10}] {text:" °-° Etotsira : ",color:"blue",extra:[{text:"Você terá que encontrar alguns. Conheço um lugar em Sylberländ onde você poderia conseguir muitos, mas... não vou te enviar lá; é um lugar cheio de perigos além da compreensão... Outras gemas do tempo estão espalhadas em Sylberländ, vá ver a família real de Ryliath e eles vão te ajudar a localizá-las.",color:"dark_aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] {text:" °-° Etotsira : ",color:"blue",extra:[{text:"那你需要先找到几颗时间宝石。我知道Sylberländ的某处有不少时间宝石，但...我不会把你送去那里，那个地方危险程度超出了你的认识...其它的时间宝石散落在Sylberländ各地。去谒见Ryliath的王室成员吧，他们会帮助你找到这些时间宝石。",color:"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=11}] {text:" °-° Etotsira : ",color:"blue",extra:[{text:"那你需要先找到几颗时间宝石。我知道Sylberländ的某处有不少时间宝石，但...我不会把你送去那里，那个地方危险程度超出了你的认知...其它的时间宝石散落在Sylberländ各地。去谒见Ryliath的王室成员吧，他们会帮助你找到这些时间宝石。",color:"dark_aqua"}]}

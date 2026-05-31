@@ -46,4 +46,4 @@ tellraw @a[scores={LANGUAGE=9}] [{object:atlas,sprite:"item/custom/head/namrin_f
 tellraw @a[scores={LANGUAGE=10}] [{object:atlas,sprite:"item/custom/head/namrin_front"},{text:" °-° Namrïn : ",color:"dark_purple",extra:[{text:"Aqui, eu queria te dar um presente. Eu notei que você usa o Dahäl de uma maneira muito especial. Acho que você precisa de um livro, então eu experimentei usando o poder da fonte e acho que cheguei a um resultado que vai te interessar:",color:"dark_aqua"}]}]
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/namrin_front"},{text:" °-° Namrïn : ",color:"dark_purple",extra:[{text:"我想送给您一份礼物。我注意到您使用Dahäl的方式非常特殊，所以我认为您需要一本法术书，所以我试着利用了使用泉源的力量，然后收获了一个您可能感兴趣的结果：",color:"dark_aqua"}]}]
+tellraw @a[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/namrin_front"},{text:" °-° Namrïn : ",color:"dark_purple",extra:[{text:"我想送给您一份礼物。我注意到您使用Dahäl的方式非常特殊，所以我认为您需要一种与之相对的法术，所以我试着利用了使用泉源的力量，然后收获了一个您可能感兴趣的结果：",color:"dark_aqua"}]}]

@@ -46,4 +46,4 @@ tellraw @s[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,co
 tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Aqui estou finalmente de volta em casa, justo quando pulei da sacada lá em cima. Vejo Sérile, vamos conversar com ele!",color:"aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"我终于回到家了，就在我从阳台上跳下来的时候。我看到了Serile，让我们来谈谈吧！ ",color:"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"我终于回到家了，回到了我从上面阳台跳下去的那个瞬间。我看到了Sérile，我们得好好谈谈！ ",color:"aqua"}]}

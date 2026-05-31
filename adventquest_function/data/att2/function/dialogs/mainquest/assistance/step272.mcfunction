@@ -46,4 +46,4 @@ tellraw @s[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,co
 tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Outro mecanismo bloqueia meu progresso. E para facilitar meu trabalho, este monstro ainda está me perseguindo. Aparentemente, devo ativar interruptores para carregar a porta e abri-la.",color:"aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"另一个机制阻碍了我的进步。而且为了让我的处境雪上加霜-这个怪物还在追我。我显然必须激活开关才能给门充电并打开它。",color:"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"又一个机关挡住了我的去路。更糟的是，那只怪物还在一直追着我。看来我必须启动开关来给门充能才能打开它。",color:"aqua"}]}

@@ -46,4 +46,4 @@ tellraw @s[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,co
 tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Tenho que procurar para alcançar os pisos superiores. Deve haver mecanismos abrindo portas na temporalidade onde tudo parece intacto.",color:"aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"我必须通过探索才能到达较高楼层。肯定有机关能在一切都生机盎然的时间段中打开大门。",color:"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"我必须通过探索才能到达较高楼层。肯定有机关能在那个一切都完好无损的时间线中打开大门。",color:"aqua"}]}

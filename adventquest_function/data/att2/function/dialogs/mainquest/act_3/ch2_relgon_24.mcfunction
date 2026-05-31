@@ -61,4 +61,4 @@ tellraw @a[scores={LANGUAGE=9}] [{object:atlas,sprite:"item/custom/head/relgon_f
 tellraw @a[scores={LANGUAGE=10}] [{object:atlas,sprite:"item/custom/head/relgon_front"},{text:" °-° Relgon : ",color:"red",extra:[{text:"Desesperados, os mortais então adulteraram La Flamme Noire, fazendo sacrifícios e oferendas em seu nome. E ela os ouviu. Assim, em troca do sangue derramado, ela não atacou mais as cidades mortais.",color:"dark_aqua"}]}]
 
 #Simplified Chinese LANGUAGE
-tellraw @a[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/relgon_front"},{text:" °-° Relgon : ",color:"red",extra:[{text:"绝望的凡人们转而信奉La_Flamme_Noire，甚至不惜献出生命祭祀她。她听到了那些呼唤。于是，作为对血祭的回应，她不再攻击其他城市。",color:"dark_aqua"}]}]
+tellraw @a[scores={LANGUAGE=11}] [{object:atlas,sprite:"item/custom/head/relgon_front"},{text:" °-° Relgon : ",color:"red",extra:[{text:"绝望的凡人们转而信奉La_Flamme_Noire，甚至不惜献出生命祭祀她。她听到了那些呼唤。于是作为对血祭的回应，她不再攻击其他城市。",color:"dark_aqua"}]}]

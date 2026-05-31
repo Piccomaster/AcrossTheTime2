@@ -46,4 +46,4 @@ tellraw @s[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,co
 tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"Certamente há um mecanismo que ativa a abertura do baú no centro da sala. Tenho que encontrar um e desbloquear os acessos para as diferentes salas.",color:"aqua"}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"房间中央肯定有一种装置可以打开箱子。我必须找到并解锁一个通往不同房间的通道。",color:"aqua"}]}
+tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"大厅中央肯定有一个能开启宝箱的机关。我得找到它，然后解锁通往各个房间的通道。",color:"aqua"}]}

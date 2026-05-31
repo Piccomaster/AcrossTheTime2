@@ -52,4 +52,4 @@ tellraw @s[scores={LANGUAGE=9}] {nbt:"set",storage:"att2:id","interpret":true,ex
 tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,extra:[{text:" : "},{text:"[Recebi muitos nomes em minha jornada... -->]",color:"gray",click_event:{action:run_command,command:"/trigger ScoreTrigger set 718"},hover_event:{action:show_text,value:"Clique aqui - resposta 2"}}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,extra:[{text:" : "},{text:"[在我的旅途中，我被赋予了许多名字... -->]",color:"gray",click_event:{action:run_command,command:"/trigger ScoreTrigger set 718"},hover_event:{action:show_text,value:"点击这里 - 回答 2"}}]}
+tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,extra:[{text:" : "},{text:"[在我的旅途中，我被赋予了许多头衔... -->]",color:"gray",click_event:{action:run_command,command:"/trigger ScoreTrigger set 718"},hover_event:{action:show_text,value:"点击这里 - 回答 2"}}]}
