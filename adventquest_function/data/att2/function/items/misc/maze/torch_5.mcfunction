@@ -3,7 +3,7 @@
 #Obtain maze_torch         					 	 #
 ##################################################
 
-execute store result score maze_torch CAL run clear @s redstone_torch[custom_name={translate:'att2.misc.maze_torch.name'}]
+execute store result score maze_torch CAL run clear @s *[custom_name={translate:'att2.misc.maze_torch.name'}]
 #5
 execute store result storage att2:temp value int 1 run scoreboard players add maze_torch CAL 5
 

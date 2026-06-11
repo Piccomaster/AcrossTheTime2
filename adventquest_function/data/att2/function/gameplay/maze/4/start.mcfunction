@@ -2,6 +2,15 @@
 #Made by Adventquest                                #
 #Start maze 4			                            #
 #####################################################
+##limit
+##start point -9914 81 -10329
+##end point -9722 80 -10101
+fill -9853 120 -10329 -9722 120 -10181 smooth_stone
+fill -9917 120 -10180 -9722 120 -10101 smooth_stone
+##load maze1
+execute if score #count MAZE matches 0.. run return run function att2:gameplay/maze/loading
+execute unless loaded -9914 81 -10329 run return run function att2:gameplay/maze/load_error
+execute unless loaded -9722 80 -10101 run return run function att2:gameplay/maze/load_error
 
 function att2:gameplay/maze/score/reset
 

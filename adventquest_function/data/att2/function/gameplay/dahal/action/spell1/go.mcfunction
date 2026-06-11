@@ -35,7 +35,7 @@ scoreboard players reset DAHAL_TEST CAL
 scoreboard players reset Spell_Bundle_Slot_Test CAL
 
 # Retrieving The lvl up (cap) value to compare it to current xp level
-function att2:gameplay/dahal/action/spell32/xp_cal
+function att2:gameplay/dahal/action/spell31/xp_cal
 
 #no fire ability
 execute unless score true Fire_Melting matches 1 at @e[type=minecraft:fireball] run function att2:gameplay/dahal/action/spell1/ice_test

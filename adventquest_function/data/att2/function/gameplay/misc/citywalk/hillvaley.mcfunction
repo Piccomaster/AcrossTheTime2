@@ -15,3 +15,4 @@ effect give @s speed 1 1 true
 scoreboard players set @s TEMPERATURE 0
 
 effect give @s minecraft:saturation 1 0 true
+attribute @s minecraft:gravity base reset

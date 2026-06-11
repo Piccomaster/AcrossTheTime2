@@ -4,8 +4,8 @@
 #################################################################
 
 ##gamerule
-gamerule max_command_forks 77777
-gamerule max_command_sequence_length 77777
+gamerule max_command_forks 100000
+gamerule max_command_sequence_length 100000
 
 scoreboard objectives add EXPLOIT dummy
 scoreboard objectives add LEAVEGAME minecraft.custom:minecraft.leave_game
@@ -137,3 +137,8 @@ function att2:cinematic/dailyquest/long_animation/zirthion/dq9/initialize
 execute in overworld run setblock -5107 160 -6750 minecraft:air destroy
 
 scoreboard objectives add HORSE_USE_COUNT dummy
+
+
+gamerule max_block_modifications 77777
+
+function att2:gameplay/maze/map/initialize

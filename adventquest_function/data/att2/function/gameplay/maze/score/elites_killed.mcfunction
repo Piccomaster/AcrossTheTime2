@@ -13,7 +13,13 @@ effect give @a[scores={DIMENSION=-3}] saturation 1 1 true
 effect give @a[scores={DIMENSION=-3}] instant_health 1 4 true
 effect give @a[distance=..5] speed 30 0 true
 #give torch
-execute as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_8
+execute if score achieved MAZE matches 1 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:8}
+execute if score achieved MAZE matches 2 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:9}
+execute if score achieved MAZE matches 3 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:10}
+execute if score achieved MAZE matches 4 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:11}
+execute if score achieved MAZE matches 5 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:12}
+execute if score achieved MAZE matches 6 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:13}
+execute if score achieved MAZE matches 7 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:14}
 #if angband
 execute if score number MAZE matches 4 run effect give @a[scores={DIMENSION=-3}] fire_resistance 60 0 true
 

@@ -10,3 +10,4 @@ execute unless score @s[tag=!ElytraRace] CITYWALK matches 10 run function att2:d
 scoreboard players set @s CITYWALK 10
 #effect @s speed
 effect give @s night_vision 15 0 true
+attribute @s minecraft:gravity base set 0.04

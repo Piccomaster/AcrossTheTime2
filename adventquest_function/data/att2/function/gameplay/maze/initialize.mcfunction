@@ -82,3 +82,5 @@ scoreboard players set 250 MAZE 250
 scoreboard players set 500 MAZE 500
 scoreboard players set 750 MAZE 750
 scoreboard players set 1000 MAZE 1000
+
+function att2:gameplay/maze/map/initialize

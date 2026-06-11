@@ -1101,3 +1101,26 @@ execute in minecraft:overworld positioned 7021 207 7001 run setblock 7021 207 70
 execute in minecraft:overworld positioned -5375 81 -4437 run setblock -5375 81 -4437 minecraft:command_block[conditional=false,facing=up]{Command:"/setblock -5371 84 -4437 rail destroy",CustomName:"@",LastExecution:3007836022L,LastOutput:{extra:[{translate:"commands.setblock.success",with:[-5371,84,-4437]}],text:"[20:29:23] "},SuccessCount:1,TrackOutput:1b,UpdateLastExecution:1b,auto:0b,components:{},conditionMet:1b,powered:0b}
 
 execute in minecraft:overworld positioned -5186 119 -5790 run setblock -5186 119 -5790 air
+
+
+##maze1
+execute in minecraft:overworld positioned -9998 75 -10005 run fill -9998 75 -10005 -10000 75 -10005 minecraft:target
+execute in minecraft:overworld positioned -10020 75 -10079 run fill -10020 75 -10079 -10018 75 -10079 minecraft:respawn_anchor
+##maze2
+execute in minecraft:overworld positioned -10018 76 -10095 run fill -10018 76 -10095 -10020 76 -10095 minecraft:target
+execute in minecraft:overworld positioned -9962 76 -1018 run fill -9962 76 -10180 -9964 76 -10180 minecraft:respawn_anchor
+##maze3
+execute in minecraft:overworld positioned -9964 77 -10196 run fill -9964 77 -10196 -9962 77 -10196 minecraft:target
+execute in minecraft:overworld positioned -9869 77 -10240 run fill -9869 77 -10240 -9869 77 -10238 minecraft:respawn_anchor
+##maze4
+execute in minecraft:overworld positioned -9853 80 -10240 run fill -9853 80 -10240 -9853 80 -10238 minecraft:target
+execute in minecraft:overworld positioned -9829 80 -10101 run fill -9829 80 -10101 -9827 80 -10101 minecraft:respawn_anchor
+##maze5
+execute in minecraft:overworld positioned -9827 79 -10085 run fill -9827 79 -10085 -9829 79 -10085 minecraft:target
+execute in minecraft:overworld positioned -9699 79 -9953 run fill -9699 79 -9953 -9699 79 -9955 minecraft:respawn_anchor
+##maze6
+execute in minecraft:overworld positioned -9683 80 -9955 run fill -9683 80 -9955 -9683 80 -9953 minecraft:target
+execute in minecraft:overworld positioned -9568 80 -10163 run fill -9568 80 -10163 -9570 80 -10163 minecraft:respawn_anchor
+##maze7
+execute in minecraft:overworld positioned -9570 76 -10179 run fill -9570 76 -10179 -9568 76 -10179 minecraft:target
+execute in minecraft:overworld positioned -9546 76 -10439 run fill -9546 76 -10439 -9544 76 -10439 minecraft:respawn_anchor

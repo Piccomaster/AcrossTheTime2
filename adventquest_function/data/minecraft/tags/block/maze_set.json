@@ -33,6 +33,8 @@
     "minecraft:stone_bricks",
     "minecraft:cracked_stone_bricks",
     "minecraft:chiseled_stone_bricks",
-    "minecraft:mossy_stone_bricks"
+    "minecraft:mossy_stone_bricks",
+    "minecraft:magma_block",
+    "minecraft:honey_block"
   ]
 }
