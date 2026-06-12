@@ -3,6 +3,15 @@
 #Start maze 2			                            #
 #####################################################
 
+##limit
+##start point -10085 76 -10180
+##end point -9932 76 -10095
+fill -10085 120 -10180 -9932 120 -10095 smooth_stone
+##load maze1
+execute if score #count MAZE matches 0.. run return run function att2:gameplay/maze/loading
+execute unless loaded -10085 76 -10180 run return run function att2:gameplay/maze/load_error
+execute unless loaded -9932 76 -10095 run return run function att2:gameplay/maze/load_error
+
 function att2:gameplay/maze/score/reset
 
 # Doors processing

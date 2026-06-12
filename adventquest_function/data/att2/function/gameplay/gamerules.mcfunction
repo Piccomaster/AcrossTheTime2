@@ -26,6 +26,7 @@ gamerule raids true
 gamerule forgive_dead_players false
 gamerule spectators_generate_chunks true
 gamerule fire_spread_radius_around_player 0
+gamerule max_block_modifications 77777
 #gamerule spawnRadius 14
 gamerule max_entity_cramming 50
 

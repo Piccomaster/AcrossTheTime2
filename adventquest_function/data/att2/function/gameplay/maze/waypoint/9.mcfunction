@@ -8,7 +8,7 @@ scoreboard players set waypoint MAZE 9
 execute unless score waypoint9_trigger MAZE matches 1 run scoreboard players add waypoint_found MAZE 1
 
 #give torch
-execute unless score waypoint9_trigger MAZE matches 1 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_8
+execute unless score waypoint9_trigger MAZE matches 1 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:24}
 
 scoreboard players set waypoint9_trigger MAZE 1
 

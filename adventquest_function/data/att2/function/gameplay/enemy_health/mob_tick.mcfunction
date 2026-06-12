@@ -19,6 +19,8 @@ execute as @s[type=#minecraft:spiders,tag=!UmbraMinion] at @s run function att2:
 ##test health reduce
 execute unless score tic TIMECOUNTER matches 1 unless score tic TIMECOUNTER matches 11 run return fail
 
+##
+execute as @s[x=-9800,y=70,z=-10100,distance=..500] run return fail
 ##void
 execute if block ~ ~-1 ~ minecraft:black_wool run tp @s[tag=!Boss] ~ 0 ~
 

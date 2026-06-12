@@ -32,7 +32,10 @@ execute if score #Q CAL matches -100 run function att2:gameplay/maze/score/norma
 ##get Dimension
 execute store result score #Dimension CAL run data get entity @s data.Dimension
 ##update player dropchance
+scoreboard players reset #Rolls DropRolls
 execute as @p[distance=..20,predicate=att2_pre:score/player] run function att2:gameplay/misc/chesteffect/update_dropchance
+##error -> reset
+execute unless score #Rolls DropRolls matches 1.. run function att2:gameplay/misc/chesteffect/other_dropchance
 ##update loot
 ##clear
 data remove block ~ ~ ~ Items

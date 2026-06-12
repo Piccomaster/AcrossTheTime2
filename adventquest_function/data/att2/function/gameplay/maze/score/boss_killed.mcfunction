@@ -16,10 +16,13 @@ effect give @a[distance=..5] speed 60 1 true
 execute if score number MAZE matches 4 run effect give @a[scores={DIMENSION=-3}] fire_resistance 120 0 true
 
 #give torch
-execute as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_8
-execute as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_8
-execute as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_8
-execute as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_8
+execute if score achieved MAZE matches 1 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:16}
+execute if score achieved MAZE matches 2 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:32}
+execute if score achieved MAZE matches 3 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:48}
+execute if score achieved MAZE matches 4 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:64}
+execute if score achieved MAZE matches 5 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:80}
+execute if score achieved MAZE matches 6 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:96}
+execute if score achieved MAZE matches 7 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:112}
 
 
 #dialogs

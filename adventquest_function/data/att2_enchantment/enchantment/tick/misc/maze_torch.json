@@ -1,0 +1,30 @@
+{
+  "anvil_cost": 7,
+  "description": {
+    "translate": " "
+  },
+  "max_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": "minecraft:redstone_torch",
+  "effects": {
+    "hit_block": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "att2:gameplay/maze/map/torch/reset_trigger"
+        }
+      }
+    ]
+  },
+  "weight": 1
+}

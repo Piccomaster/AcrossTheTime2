@@ -21,6 +21,7 @@ execute store result storage att2:score count int 1 run scoreboard players get #
 
 scoreboard players operation #LEVELMASTER CAL *= 4 CAL
 scoreboard players operation @s DAMAGEREDUCE = #LEVELMASTER CAL
+scoreboard players operation @s DAMAGEREDUCE < 80 CAL
 
 item modify entity @s armor.head {function:set_enchantments,enchantments:{"att2_enchantment:tick/elite/death_protect":1}}
 
