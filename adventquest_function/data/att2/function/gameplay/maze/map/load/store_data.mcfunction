@@ -3,6 +3,7 @@
 #Initialize maze             									#
 #################################################################
 
+execute in minecraft:overworld positioned -9447 76 -10215 run setblock -9447 76 -10215 minecraft:blue_wool
 ##maze1
 execute in minecraft:overworld positioned -9998 75 -10005 run fill -9998 75 -10005 -10000 75 -10005 minecraft:target
 execute in minecraft:overworld positioned -10020 75 -10079 run fill -10020 75 -10079 -10018 75 -10079 minecraft:respawn_anchor
