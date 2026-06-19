@@ -30,6 +30,8 @@ execute if score section11 TRIAL_DUNGEON matches 0 run function att2:gameplay/ci
 execute if score section12 TRIAL_DUNGEON matches 0 run function att2:gameplay/cinematic/misc/trial_dungeon/12/trigger
 # Section 13 : 35
 execute if score section13 TRIAL_DUNGEON matches 0 run function att2:gameplay/cinematic/misc/trial_dungeon/13/trigger
+# Section 14 : 24
+execute if score section14 TRIAL_DUNGEON matches 0 run function att2:gameplay/cinematic/misc/trial_dungeon/14/trigger
 
 # trigger total
 execute if score lit_candle_total TRIAL_DUNGEON matches 250.. run function att2:gameplay/cinematic/misc/trial_dungeon/end

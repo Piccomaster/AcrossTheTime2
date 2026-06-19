@@ -1,8 +1,7 @@
 #########################################################################
 #Made by Adventquest													#
-#Process section 14 opening	                                            #
+#Process section 15 opening	                                            #
 #########################################################################
 
-fill -5137 119 -4815 -5137 121 -4813 minecraft:air
-scoreboard players set section14 TRIAL_DUNGEON 1
+scoreboard players set section15 TRIAL_DUNGEON 1
 function att2:gameplay/cinematic/misc/trial_dungeon/section_opening
