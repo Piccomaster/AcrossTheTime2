@@ -4,5 +4,4 @@
 #########################################################################
 
 fill -5124 111 -4752 -5124 113 -4754 minecraft:air
-scoreboard players set section12 TRIAL_DUNGEON 1
 function att2:gameplay/cinematic/misc/trial_dungeon/section_opening

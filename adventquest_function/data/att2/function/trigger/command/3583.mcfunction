@@ -1,0 +1,1 @@
+function att2:gameplay/cinematic/misc/trial_dungeon/trigger_entrance

@@ -4,5 +4,4 @@
 #########################################################################
 
 fill -5257 71 -4859 -5259 69 -4859 minecraft:water
-scoreboard players set section6 TRIAL_DUNGEON 1
 function att2:gameplay/cinematic/misc/trial_dungeon/section_opening
