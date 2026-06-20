@@ -18,5 +18,3 @@ execute if score Real3 TIMER matches 100 as @a[gamemode=spectator,scores={Perfor
 
 execute if score Real3 TIMER matches 101.. run scoreboard players set section1 TRIAL_DUNGEON -1
 execute if score Real3 TIMER matches ..100 run function att2:cinematic/real3_iteration
-#return 1->make command block runing
-return 1
