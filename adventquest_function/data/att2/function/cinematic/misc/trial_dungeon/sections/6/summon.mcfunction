@@ -4,29 +4,26 @@
 ##################################################
 
 # Minions
-execute positioned -5235 87 -4835 run function att2:summon/reg_1/trialdungeonminion1_classx {class:CLASS17}
-execute positioned -5235 87 -4846 run function att2:summon/reg_1/trialdungeonminion1_classx {class:CLASS18}
-execute positioned -5204 96 -4854 run function att2:summon/reg_1/trialdungeonminion1_classx {class:CLASS19}
-execute positioned -5204 96 -4829 run function att2:summon/reg_1/trialdungeonminion1_classx {class:CLASS17}
-execute positioned -5211 102 -4825 run function att2:summon/reg_1/trialdungeonminion1_classx {class:CLASS18}
-execute positioned -5198 102 -4825 run function att2:summon/reg_1/trialdungeonminion1_classx {class:CLASS19}
+execute positioned -5257 74 -4934 run function att2:summon/reg_1/trialdungeonminion1_classx {class:CLASS17}
+execute positioned -5260 74 -4939 run function att2:summon/reg_1/trialdungeonminion1_classx {class:CLASS18}
+execute positioned -5260 74 -4903 run function att2:summon/reg_1/trialdungeonminion1_classx {class:CLASS19}
+execute positioned -5256 74 -4906 run function att2:summon/reg_1/trialdungeonminion1_classx {class:CLASS17}
+execute positioned -5244 74 -4863 run function att2:summon/reg_1/trialdungeonminion1_classx {class:CLASS18}
+execute positioned -5252 74 -4863 run function att2:summon/reg_1/trialdungeonminion1_classx {class:CLASS19}
 
-execute positioned -5231 87 -4847 run function att2:summon/reg_1/trialdungeonminion2_classx {class:CLASS17}
-execute positioned -5231 87 -4832 run function att2:summon/reg_1/trialdungeonminion2_classx {class:CLASS18}
-execute positioned -5188 102 -4846 run function att2:summon/reg_1/trialdungeonminion2_classx {class:CLASS19}
-execute positioned -5188 102 -4839 run function att2:summon/reg_1/trialdungeonminion2_classx {class:CLASS17}
-execute positioned -5188 102 -4830 run function att2:summon/reg_1/trialdungeonminion2_classx {class:CLASS18}
-execute positioned -5220 102 -4839 run function att2:summon/reg_1/trialdungeonminion2_classx {class:CLASS19}
+execute positioned -5258 74 -4921 run function att2:summon/reg_1/trialdungeonminion2_classx {class:CLASS17}
+execute positioned -5257 74 -4918 run function att2:summon/reg_1/trialdungeonminion2_classx {class:CLASS18}
+execute positioned -5260 74 -4919 run function att2:summon/reg_1/trialdungeonminion2_classx {class:CLASS19}
+execute positioned -5260 74 -4884 run function att2:summon/reg_1/trialdungeonminion2_classx {class:CLASS17}
+execute positioned -5256 74 -4885 run function att2:summon/reg_1/trialdungeonminion2_classx {class:CLASS18}
+execute positioned -5259 74 -4891 run function att2:summon/reg_1/trialdungeonminion2_classx {class:CLASS19}
 
-execute positioned -5194 88 -4851 run function att2:summon/reg_1/trialdungeonminion3_classx {class:CLASS17}
-execute positioned -5214 88 -4850 run function att2:summon/reg_1/trialdungeonminion3_classx {class:CLASS18}
-execute positioned -5214 88 -4827 run function att2:summon/reg_1/trialdungeonminion3_classx {class:CLASS19}
-execute positioned -5193 88 -4827 run function att2:summon/reg_1/trialdungeonminion3_classx {class:CLASS17}
-execute positioned -5220 102 -4834 run function att2:summon/reg_1/trialdungeonminion3_classx {class:CLASS18}
-execute positioned -5220 102 -4844 run function att2:summon/reg_1/trialdungeonminion3_classx {class:CLASS19}
-
-execute positioned -5246 76 -4836 run function att2:summon/reg_1/trialdungeonminion4_classx {class:CLASS17}
-execute positioned -5246 76 -4842 run function att2:summon/reg_1/trialdungeonminion4_classx {class:CLASS17}
+execute positioned -5249 76 -4936 run function att2:summon/reg_1/trialdungeonminion3_classx {class:CLASS17}
+execute positioned -5264 75 -4937 run function att2:summon/reg_1/trialdungeonminion3_classx {class:CLASS18}
+execute positioned -5249 76 -4914 run function att2:summon/reg_1/trialdungeonminion3_classx {class:CLASS19}
+execute positioned -5267 76 -4916 run function att2:summon/reg_1/trialdungeonminion3_classx {class:CLASS17}
+execute positioned -5272 74 -4862 run function att2:summon/reg_1/trialdungeonminion3_classx {class:CLASS18}
+execute positioned -5264 74 -4862 run function att2:summon/reg_1/trialdungeonminion3_classx {class:CLASS19}
 
 # Elites
-execute positioned -5208 96 -4839 run function att2:summon/reg_1/trialdungeonelite1_classx {class:CLASS20}
+execute positioned -5258 74 -4886 run function att2:summon/reg_1/trialdungeonelite1_classx {class:CLASS20}
