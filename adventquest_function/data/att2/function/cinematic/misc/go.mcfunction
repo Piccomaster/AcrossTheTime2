@@ -35,6 +35,8 @@ execute if score Mainquest SIDEQUEST matches 282..285 run function att2:gameplay
 
 ### Process Secret dungeon
 function att2:cinematic/misc/secret_dungeon/go
+### Process Trial dungeon
+function att2:cinematic/misc/trial_dungeon/go
 
 ### Main Quest Bug Safety Valve
 #Gestrom Security

@@ -1,7 +1,7 @@
 #########################################################################
 #Made by Adventquest													#
-#Process ending dungeon	                                                #
+#Process section 17 opening	                                            #
 #########################################################################
 
-function att2:sound/misc/mission_progress
-scoreboard players set starting TRIAL_DUNGEON -1
+fill  minecraft:air
+function att2:gameplay/cinematic/misc/trial_dungeon/section_opening

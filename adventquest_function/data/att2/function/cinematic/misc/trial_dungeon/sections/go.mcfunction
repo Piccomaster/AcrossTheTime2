@@ -50,6 +50,15 @@ execute if score section13 TRIAL_DUNGEON matches 1 run function att2:gameplay/ci
 # Section 14 : 24
 execute if score section14 TRIAL_DUNGEON matches 0 run function att2:gameplay/cinematic/misc/trial_dungeon/sections/14/trigger
 execute if score section14 TRIAL_DUNGEON matches 1 run function att2:gameplay/cinematic/misc/trial_dungeon/sections/14/cinematic
+# Section 15 : 20
+execute if score section15 TRIAL_DUNGEON matches 0 run function att2:gameplay/cinematic/misc/trial_dungeon/sections/15/trigger
+execute if score section15 TRIAL_DUNGEON matches 1 run function att2:gameplay/cinematic/misc/trial_dungeon/sections/15/cinematic
+# Section 16 : Killing Breeze
+execute if score section16 TRIAL_DUNGEON matches 0..1 run function att2:gameplay/cinematic/misc/trial_dungeon/sections/16/trigger
+execute if score section16 TRIAL_DUNGEON matches 2 run function att2:gameplay/cinematic/misc/trial_dungeon/sections/16/cinematic
+# Section 17 : 
+execute if score section17 TRIAL_DUNGEON matches 0 run function att2:gameplay/cinematic/misc/trial_dungeon/sections/17/trigger
+execute if score section17 TRIAL_DUNGEON matches 1 run function att2:gameplay/cinematic/misc/trial_dungeon/sections/17/cinematic
 
 # trigger total
-execute if score lit_candle_total TRIAL_DUNGEON matches 250.. run function att2:gameplay/cinematic/misc/trial_dungeon/end
+execute if score lit_candle_total TRIAL_DUNGEON matches 500.. run function att2:gameplay/cinematic/misc/trial_dungeon/end
