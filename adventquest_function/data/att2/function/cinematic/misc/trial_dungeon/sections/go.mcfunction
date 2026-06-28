@@ -7,6 +7,9 @@
 # -1 - Previous section ENDING (Cinematic OFF)							#
 #########################################################################
 
+# Creaking effect
+execute as @e[type=minecraft:creaking,tag=TrialMinion] at @s if entity @a[distance=..25] run function att2:cinematic/misc/trial_dungeon/creaking_effect
+
 ### trigger sections : candles
 # Section 1 : 8
 execute if score section1 TRIAL_DUNGEON matches 0 run function att2:gameplay/cinematic/misc/trial_dungeon/sections/1/trigger
@@ -56,7 +59,7 @@ execute if score section15 TRIAL_DUNGEON matches 1 run function att2:gameplay/ci
 # Section 16 : Killing Breeze
 execute if score section16 TRIAL_DUNGEON matches 0..1 run function att2:gameplay/cinematic/misc/trial_dungeon/sections/16/trigger
 execute if score section16 TRIAL_DUNGEON matches 2 run function att2:gameplay/cinematic/misc/trial_dungeon/sections/16/cinematic
-# Section 17 : 
+# Section 17 : 36
 execute if score section17 TRIAL_DUNGEON matches 0 run function att2:gameplay/cinematic/misc/trial_dungeon/sections/17/trigger
 execute if score section17 TRIAL_DUNGEON matches 1 run function att2:gameplay/cinematic/misc/trial_dungeon/sections/17/cinematic
 
