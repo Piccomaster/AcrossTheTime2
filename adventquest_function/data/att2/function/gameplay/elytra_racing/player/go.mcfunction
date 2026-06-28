@@ -3,6 +3,7 @@
 #function att2:gameplay/elytra_racing/player/go                 
 #################################################################
 
+scoreboard players set @s tp_spell32_timer 10
 ##edit routing
 execute as @s[tag=EditRoute] run return run function att2:gameplay/elytra_racing/edit_route/go
 ##safe
