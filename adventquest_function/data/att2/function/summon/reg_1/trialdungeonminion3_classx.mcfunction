@@ -1,0 +1,10 @@
+##################################################
+#Made by Adventquest                             #
+#Summon dungeon trial pillager minion 3    		 #
+##################################################
+
+$execute if score level DIFFICULTY matches -1 run summon minecraft:bogged ~ ~ ~ {PersistenceRequired:1b,Tags:["LVL0","$(class)","Reg1","Undead","TrialMinion"],attributes:[{id:scale,base:1.25},{id:movement_speed,base:0.2}],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{mainhand:{id:"minecraft:bow",count:1,components:{enchantments:{"minecraft:power":3}}},feet:{id:"minecraft:leather_boots",count:1},legs:{},chest:{},head:{id:"minecraft:leather_helmet",count:1,components:{enchantments:{"att2_enchantment:tick/mob_initialize":1}}}}}
+
+$execute if score level DIFFICULTY matches 0 run summon minecraft:bogged ~ ~ ~ {PersistenceRequired:1b,Tags:["LVL0","$(class)","Reg1","Undead","TrialMinion"],attributes:[{id:scale,base:1.25},{id:movement_speed,base:0.225}],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{mainhand:{id:"minecraft:bow",count:1,components:{enchantments:{"minecraft:power":5}}},feet:{id:"minecraft:chainmail_boots",count:1},legs:{},chest:{},head:{id:"minecraft:chainmail_helmet",count:1,components:{enchantments:{"att2_enchantment:tick/mob_initialize":1}}}}}
+
+$execute if score level DIFFICULTY matches 1.. run summon minecraft:bogged ~ ~ ~ {PersistenceRequired:1b,Tags:["LVL0","$(class)","Reg1","Undead","TrialMinion"],attributes:[{id:scale,base:1.25},{id:movement_speed,base:0.25}],drop_chances:{mainhand:0,offhand:0,feet:0,legs:0,chest:0,head:0,body:0,saddle:0},equipment:{mainhand:{id:"minecraft:bow",count:1,components:{enchantments:{"minecraft:power":7}}},feet:{id:"minecraft:copper_boots",count:1},legs:{},chest:{},head:{id:"minecraft:copper_head",count:1,components:{enchantments:{"att2_enchantment:tick/mob_initialize":1}}}}}

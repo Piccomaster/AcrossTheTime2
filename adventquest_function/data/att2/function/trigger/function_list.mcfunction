@@ -3684,3 +3684,6 @@ execute if score @s ScoreTrigger matches 3579 run function att2:gameplay/shop/pr
 execute if score @s ScoreTrigger matches 3580 run function att2:gameplay/shop/prisoner/random_exchange/trigger_8
 execute if score @s ScoreTrigger matches 3581 run function att2:gameplay/shop/prisoner/random_exchange/trigger_9
 execute if score @s ScoreTrigger matches 3582 run function att2:gameplay/shop/prisoner/random_exchange/trigger_10
+
+
+execute if score @s ScoreTrigger matches 3583 run function att2:gameplay/cinematic/misc/trial_dungeon/trigger_entrance

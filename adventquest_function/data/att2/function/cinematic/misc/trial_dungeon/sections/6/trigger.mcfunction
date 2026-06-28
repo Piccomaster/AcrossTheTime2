@@ -1,0 +1,7 @@
+#########################################################################
+#Made by Adventquest													#
+#Process section 6 trigger	                                            #
+#########################################################################
+
+execute positioned -5258 70 -4859 run function att2:cinematic/misc/trial_dungeon/doors_effect
+execute if block -5274 75 -4873 minecraft:orange_candle[lit=true] if block -5271 77 -4858 minecraft:orange_candle[lit=true] if block -5264 77 -4858 minecraft:orange_candle[lit=true] if block -5252 77 -4858 minecraft:orange_candle[lit=true] if block -5245 77 -4858 minecraft:orange_candle[lit=true] if block -5242 75 -4873 minecraft:orange_candle[lit=true] if block -5267 78 -4897 minecraft:orange_candle[lit=true] if block -5258 78 -4895 minecraft:orange_candle[lit=true] if block -5249 78 -4897 minecraft:orange_candle[lit=true] if block -5258 78 -4899 minecraft:orange_candle[lit=true] if block -5250 78 -4910 minecraft:orange_candle[lit=true] if block -5266 78 -4910 minecraft:orange_candle[lit=true] if block -5251 78 -4913 minecraft:orange_candle[lit=true] if block -5265 78 -4913 minecraft:orange_candle[lit=true] if block -5267 78 -4927 minecraft:orange_candle[lit=true] if block -5258 78 -4925 minecraft:orange_candle[lit=true] if block -5249 78 -4927 minecraft:orange_candle[lit=true] if block -5258 78 -4929 minecraft:orange_candle[lit=true] run function att2:gameplay/cinematic/misc/trial_dungeon/sections/6/cinematic_start
