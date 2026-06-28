@@ -16,13 +16,13 @@ playsound minecraft:block.vault.insert_item ambient @a ~ ~ ~ 5 1
 effect give @a[scores={DIMENSION=-3}] saturation 1 0 true
 effect give @a[distance=..5] speed 20 0 true
 #give torch
-execute if score achieved MAZE matches 1 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:4}
-execute if score achieved MAZE matches 2 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:5}
-execute if score achieved MAZE matches 3 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:6}
-execute if score achieved MAZE matches 4 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:7}
-execute if score achieved MAZE matches 5 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:8}
-execute if score achieved MAZE matches 6 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:9}
-execute if score achieved MAZE matches 7 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:10}
+execute if score achieved MAZE matches 1 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:3}
+execute if score achieved MAZE matches 2 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:3}
+execute if score achieved MAZE matches 3 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:4}
+execute if score achieved MAZE matches 4 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:4}
+execute if score achieved MAZE matches 5 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:5}
+execute if score achieved MAZE matches 6 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:5}
+execute if score achieved MAZE matches 7 as @a[scores={DIMENSION=-3}] at @s run function att2:items/misc/maze/torch_maco {count:6}
 #if angband
 execute if score number MAZE matches 4 run effect give @a[scores={DIMENSION=-3}] fire_resistance 10 0 true
 
@@ -37,3 +37,15 @@ execute if score number MAZE matches 7 as @a[scores={DIMENSION=-3}] at @s run fu
 
 ##test normal_chest_opened
 function att2:advancement/test_all/challenge/maze/normal_chest
+
+##update 5x5 map
+
+##get chest pos
+execute store result score #x CAL run data get entity @s Pos[0]
+execute store result score #z CAL run data get entity @s Pos[2]
+
+####get data
+function att2:gameplay/maze/map/get_data/get_maze_data
+##update 5x5
+execute summon marker run function att2:gameplay/maze/map/update/update_5x5
+execute as @p[distance=..20,predicate=att2_pre:score/player] run function att2:gameplay/maze/map/show_title with storage att2:temp temp

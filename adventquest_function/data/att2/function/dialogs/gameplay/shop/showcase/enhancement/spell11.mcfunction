@@ -13,7 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"nbt":"temp","storage":"att2:temp","interpret":
 tellraw @s[scores={LANGUAGE=1}] {"nbt":"temp","storage":"att2:temp","interpret":true,extra:[{object:atlas,sprite:"item/custom/spell_book/spell11",color:"white",shadow_color:0},{text:"<Nova>",color:"red",bold:false,extra:[{text:" [200 Runic Powders]",color:"yellow",click_event:{action:run_command,command:"/trigger ScoreTrigger set 425"},hover_event:{action:show_text,value:"Click here to purchase an enhancement level! (+10% DMG)"}}]}]}
 
 #CHINESE LANGUAGE
-tellraw @s {"nbt":"temp","storage":"att2:temp","interpret":true,extra:[{object:atlas,sprite:"item/custom/spell_book/spell11",color:"white",shadow_color:0},{text:"<新星>",color:"red",bold:false,extra:[{text:" [200 符文粉末]",color:"yellow",click_event:{action:run_command,command:"/trigger ScoreTrigger set 425"},hover_event:{action:show_text,value:"點擊此處購買一個增強等級！ (+10% DMG)"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"nbt":"temp","storage":"att2:temp","interpret":true,extra:[{object:atlas,sprite:"item/custom/spell_book/spell11",color:"white",shadow_color:0},{text:"<新星>",color:"red",bold:false,extra:[{text:" [200 符文粉末]",color:"yellow",click_event:{action:run_command,command:"/trigger ScoreTrigger set 425"},hover_event:{action:show_text,value:"點擊此處購買一個增強等級！ (+10% DMG)"}}]}]}
 
 #JAPANESE LANGUAGE
 tellraw @s[scores={LANGUAGE=3}] {"nbt":"temp","storage":"att2:temp","interpret":true,extra:[{object:atlas,sprite:"item/custom/spell_book/spell11",color:"white",shadow_color:0},{text:"<ノヴァ>",color:"red",bold:false,extra:[{text:" [200 ルーン粉末]",color:"yellow",click_event:{action:run_command,command:"/trigger ScoreTrigger set 425"},hover_event:{action:show_text,value:"ここをクリックして強化レベルを購入！ (+10% DMG)"}}]}]}

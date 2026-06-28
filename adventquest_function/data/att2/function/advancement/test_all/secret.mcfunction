@@ -35,4 +35,4 @@ execute if score shulker SECRET matches 20.. run advancement grant @a only att2:
 execute if score shulker SECRET matches 35.. run advancement grant @a only att2:secret/shulker_35
 execute if score shulker SECRET matches 50.. run advancement grant @a only att2:secret/shulker_50
 execute if score shulker SECRET matches 75.. run advancement grant @a only att2:secret/shulker_75
-execute if score shulker SECRET matches 93 run advancement grant @a only att2:secret/shulker_93
+execute if score shulker SECRET matches 95 run advancement grant @a only att2:secret/shulker_93

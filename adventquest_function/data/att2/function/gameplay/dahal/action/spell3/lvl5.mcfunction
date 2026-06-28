@@ -3,7 +3,8 @@
 #Inferno lvl5													#
 #################################################################
 
-execute at @s align xyz positioned ~-4.5 ~-4.5 ~-4.5 as @e[dx=10,dy=10,dz=10,scores={GAMELEVEL=0..},team=hostile,tag=!FB_DAHAL] run data merge entity @s {Fire:300}
+execute at @s align xyz positioned ~-4.5 ~-4.5 ~-4.5 as @e[dx=10,dy=10,dz=10,scores={GAMELEVEL=0..},team=hostile] run data merge entity @s {Fire:300}
+execute at @s align xyz positioned ~-4.5 ~-4.5 ~-4.5 as @e[dx=10,dy=10,dz=10,scores={GAMELEVEL=0..},team=hostile] run effect give @s wither 3 2 true
 #damage cal
 execute as @s run function att2:gameplay/dahal/action/spell3/damage_cal
 execute at @s align xyz positioned ~-4.5 ~-4.5 ~-4.5 as @e[dx=10,dy=10,dz=10,scores={GAMELEVEL=0..},team=hostile,tag=!FB_DAHAL] run function att2:gameplay/dahal/action/spell3/damage

@@ -2,7 +2,7 @@
     "display": {
         "icon": {
             "id": "minecraft:white_banner",
-            "components":{"patterns":[{"color":"light_gray","banner_patterns":"minecraft:half_horizontal"},{"color":"yellow","pattern":"minecraft:triangle_top"},{"color":"white","pattern":"minecraft:gradient"},{"color":"orange","pattern":"minecraft:stripe_middle"},{"color":"orange","pattern":"minecraft:flower"},{"color":"yellow","pattern":"minecraft:flower"},{"color":"orange","pattern":"minecraft:circle"},{"color":"yellow","pattern":"minecraft:circle"},{"color":"blue","pattern":"minecraft:half_horizontal_bottom"},{"color":"light_blue","pattern":"minecraft:stripe_bottom"},{"color":"black","pattern":"minecraft:triangles_bottom"},{"color":"light_blue","pattern":"minecraft:triangles_bottom"}]}
+            "components":{"minecraft:base_color":"white","minecraft:banner_patterns":[{"color":"light_gray","pattern":"minecraft:half_horizontal"},{"color":"yellow","pattern":"minecraft:triangle_top"},{"color":"white","pattern":"minecraft:gradient"},{"color":"orange","pattern":"minecraft:stripe_middle"},{"color":"orange","pattern":"minecraft:flower"},{"color":"yellow","pattern":"minecraft:flower"},{"color":"orange","pattern":"minecraft:circle"},{"color":"yellow","pattern":"minecraft:circle"},{"color":"blue","pattern":"minecraft:half_horizontal_bottom"},{"color":"light_blue","pattern":"minecraft:stripe_bottom"},{"color":"black","pattern":"minecraft:triangles_bottom"},{"color":"light_blue","pattern":"minecraft:triangles_bottom"}]}
         },
         "title": {
             "translate": "att2.advancement.quest.dailyquest.meleim.title.root"

@@ -6,8 +6,10 @@
 #################################################################
 
 #x20 add dahal
-scoreboard players operation #dahal_add CAL = @s OP_DAHAL
 scoreboard players operation @s DAHAL_TICK += @s OP_DAHAL
+scoreboard players operation @s[tag=Nova,gamemode=adventure] DAHAL_TICK -= @s SPELL11_COST
+scoreboard players operation @s[tag=Corrupted,gamemode=adventure] DAHAL_TICK -= @s SPELL40_COST
+
 ##max
 scoreboard players operation #dahalmax CAL = @s DAHALMAX
 scoreboard players operation #dahalmax CAL *= 20 CAL

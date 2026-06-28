@@ -27,27 +27,27 @@ scoreboard players set cap10 SPELL45_LVL 750
 
 #dahal score set
 #remove health
-scoreboard players set lvl1_remove SPELL45_HER 40000
-scoreboard players set lvl2_remove SPELL45_HER 30000
-scoreboard players set lvl3_remove SPELL45_HER 50000
-scoreboard players set lvl4_remove SPELL45_HER 40000
-scoreboard players set lvl5_remove SPELL45_HER 50000
-scoreboard players set lvl6_remove SPELL45_HER 40000
-scoreboard players set lvl7_remove SPELL45_HER 50000
-scoreboard players set lvl8_remove SPELL45_HER 40000
-scoreboard players set lvl9_remove SPELL45_HER 30000
-scoreboard players set lvl10_remove SPELL45_HER 20000
+scoreboard players set lvl1_remove SPELL45_HER 20000
+scoreboard players set lvl2_remove SPELL45_HER 20000
+scoreboard players set lvl3_remove SPELL45_HER 25000
+scoreboard players set lvl4_remove SPELL45_HER 25000
+scoreboard players set lvl5_remove SPELL45_HER 30000
+scoreboard players set lvl6_remove SPELL45_HER 30000
+scoreboard players set lvl7_remove SPELL45_HER 35000
+scoreboard players set lvl8_remove SPELL45_HER 35000
+scoreboard players set lvl9_remove SPELL45_HER 40000
+scoreboard players set lvl10_remove SPELL45_HER 40000
 
 #HER
-scoreboard players set lvl1 SPELL45_HER -4
-scoreboard players set lvl2 SPELL45_HER -3
-scoreboard players set lvl3 SPELL45_HER -5
-scoreboard players set lvl4 SPELL45_HER -4
-scoreboard players set lvl5 SPELL45_HER -5
-scoreboard players set lvl6 SPELL45_HER -4
-scoreboard players set lvl7 SPELL45_HER -5
-scoreboard players set lvl8 SPELL45_HER -4
-scoreboard players set lvl9 SPELL45_HER -3
+scoreboard players set lvl1 SPELL45_HER -3
+scoreboard players set lvl2 SPELL45_HER -2
+scoreboard players set lvl3 SPELL45_HER -4
+scoreboard players set lvl4 SPELL45_HER -3
+scoreboard players set lvl5 SPELL45_HER -4
+scoreboard players set lvl6 SPELL45_HER -3
+scoreboard players set lvl7 SPELL45_HER -4
+scoreboard players set lvl8 SPELL45_HER -3
+scoreboard players set lvl9 SPELL45_HER -2
 scoreboard players set lvl10 SPELL45_HER -2
 #STR
 scoreboard players set lvl1 SPELL45_STR 1

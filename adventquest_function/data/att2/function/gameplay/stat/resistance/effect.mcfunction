@@ -19,6 +19,7 @@ scoreboard players operation @s RES_DATA *= 5 CAL
 #scoreboard players set @s[scores={RES_DATA=80..}] RES_DATA 80
 
 #effect assignement
+return fail
 effect clear @s health_boost
 effect give @s[scores={RES_TOT=1..}] minecraft:health_boost infinite 0 true
 effect give @s[scores={RES_TOT=2..}] minecraft:health_boost infinite 1 true

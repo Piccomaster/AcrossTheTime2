@@ -13,7 +13,7 @@ function att2:gameplay/stat/healthregen/sum
 scoreboard players operation #count CAL = @s HER_TOT
 ##normal
 scoreboard players operation #count CAL *= 50 CAL
-scoreboard players add #count CAL 50
+#scoreboard players add #count CAL 50
 ##min
 #tellraw @a ["减少",{score:{name:"#count",objective:"CAL"}}]
 scoreboard players operation @s HER_VALUE += #count CAL
@@ -22,6 +22,7 @@ execute if score @s HER_VALUE matches ..-10000 run function att2:gameplay/stat/h
 #execute if score tic TIMECOUNTER matches 11 if score @s HER_VALUE matches ..-10000 run function att2:gameplay/stat/healthregen/malus
 
 ##cal health/s
+execute if score #count CAL matches ..-1 run scoreboard players operation #count CAL *= -1 CAL
 scoreboard players operation #count CAL *= 20 CAL
 scoreboard players operation #count CAL /= 100 CAL
 scoreboard players operation @s HER_DATA = #count CAL
@@ -37,6 +38,7 @@ scoreboard players operation @s HER_DATA_DEC_2 %= 10 CAL
 #int
 scoreboard players operation @s HER_DATA_INT = #count CAL
 scoreboard players operation @s HER_DATA_INT /= 100 CAL
+#execute if score @s HER_TOT matches ..-1 run scoreboard players operation @s HER_DATA *= -1 CAL
 #scoreboard players operation @s HER_DATA /= 10000 CAL
 
 ##storage

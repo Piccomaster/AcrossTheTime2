@@ -9,7 +9,7 @@
         "description": {
             "translate": "att2.advancement.treasure.description.amethyst"
         },
-        "frame": "goal"
+        "frame": "challenge"
     },
     "parent": "att2:treasure/diamond",
     "rewards": {

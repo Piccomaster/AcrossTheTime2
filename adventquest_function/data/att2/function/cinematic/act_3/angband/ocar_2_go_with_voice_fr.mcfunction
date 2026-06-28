@@ -6,6 +6,9 @@
 ### Initialize cinematic
 execute if score Real0 TIMER matches 0 run function att2:voice/lock_voice
 
+execute if score Neth0 TIMER matches 0 run scoreboard players set 00000000-0000-001a-0000-00000000001a TALKING_LIMIT -1
+execute if score Neth0 TIMER matches 0 run scoreboard players set 00000000-0000-006a-0000-00000000006a TALKING_LIMIT -1
+
 execute if score Neth0 TIMER matches 0 run scoreboard players set Mainquest SIDEQUEST 55
 execute if score Neth0 TIMER matches 0 in minecraft:the_nether as @a run tp @s 3755 80 3760
 execute if score Neth0 TIMER matches 0 as @a[scores={DIMENSION=6},x=3755,y=80,z=3765,distance=..100] run function att2:gameplay/checkpoint/angband/portal1

@@ -11,7 +11,7 @@ scoreboard players set ryliath_dailyquest_13_timer DAILYQUEST 36000
 
 scoreboard players set ryliath_dailyquest_13_rewards_chronoton DAILYQUEST 2000
 scoreboard players set ryliath_dailyquest_13_rewards_xp DAILYQUEST 10000
-scoreboard players set ryliath_dailyquest_13_rewards_reputation DAILYQUEST 10
+scoreboard players set ryliath_dailyquest_13_rewards_reputation DAILYQUEST 3
 scoreboard players set ryliath_dailyquest_13_rewards_city_donation DAILYQUEST 50
 
 scoreboard players set ryliath_dailyquest_13_fail_chronoton DAILYQUEST 200

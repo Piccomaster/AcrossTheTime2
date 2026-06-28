@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/potion/ult/potion_85"
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "att2:item_data/potion/ult/potion_86"
+                }
+            ]
+        }
+    ]
+}

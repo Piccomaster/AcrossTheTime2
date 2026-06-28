@@ -20,7 +20,9 @@ scoreboard players operation #DropChanceRuneA DropChanceRuneA = @s DropChanceRun
 scoreboard players operation #DIMENSION CAL = @s DIMENSION
 
 ##cal BonusRolls
-execute on attacker store result score #luck CAL run attribute @s luck get
+scoreboard players set #luck CAL 0
+execute on attacker as @s[type=player] store result score #luck CAL run attribute @s luck get
+execute on attacker as @s[type=#att2_entity:sp_follow_pet_all] at @s as @a[distance=..100] if score @s NUMEROJOUEUR = @n[distance=..0] OWNER store result score #luck CAL run attribute @s luck get
 
 ##cal chronotons rolls
 execute store result score #ChronotonsRolls DropRolls run random value 100..300

@@ -12,7 +12,7 @@ scoreboard players set kortaek_dailyquest_9_timer DAILYQUEST 36000
 
 scoreboard players set kortaek_dailyquest_9_rewards_chronoton DAILYQUEST 10000
 scoreboard players set kortaek_dailyquest_9_rewards_xp DAILYQUEST 20000
-scoreboard players set kortaek_dailyquest_9_rewards_reputation DAILYQUEST 5
+scoreboard players set kortaek_dailyquest_9_rewards_reputation DAILYQUEST 3
 scoreboard players set kortaek_dailyquest_9_rewards_city_donation DAILYQUEST 30
 
 scoreboard players set kortaek_dailyquest_9_fail_chronoton DAILYQUEST 100

@@ -13,6 +13,10 @@ function att2:gameplay/misc/pot/summon_loot
 
 ##advancement
 #execute on origin at @s run function att2:advancement/test_all/
+
+##spell34 clear
+function att2:gameplay/dahal/action/spell34/clear_pot_marker
+
 ##
 playsound block.decorated_pot.shatter block @a ~ ~ ~ 1 1
 ##life time

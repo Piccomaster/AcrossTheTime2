@@ -45,8 +45,9 @@ scoreboard players operation @s ARR_POWER /= 100 CAL
 
 ##spectral_arrow
 scoreboard players set #spectral_arrow CAL 100
-execute if data storage att2:bow data.item{id:"minecraft:spectral_arrow"} on origin run clear @s arrow[item_model="spectral_arrow"] 1
-execute if data storage att2:bow data.item{id:"minecraft:spectral_arrow"} run scoreboard players set #spectral_arrow CAL 125
+execute if data storage att2:bow data.item{components:{"minecraft:item_model":"minecraft:spectral_arrow"}} run scoreboard players set #spectral_arrow CAL 125
+execute if score #spectral_arrow CAL matches 125.. on origin run clear @s arrow[item_model="spectral_arrow"] 1
+execute if score #spectral_arrow CAL matches 125.. run tag @s add SpectralArrow
 scoreboard players operation @s ARR_POWER *= #spectral_arrow CAL
 scoreboard players operation @s ARR_POWER /= 100 CAL
 
@@ -80,7 +81,7 @@ execute if data storage att2:bow data.weapon{id:"minecraft:bow"} on origin run f
 execute if data storage att2:bow data.weapon{id:"minecraft:crossbow"} on origin run function att2:gameplay/stat/hunger/consume/crossbow
 
 ##test infinite -> clear
-execute if data storage att2:bow data.weapon.components."minecraft:enchantments"."minecraft:infinity" run data modify entity @n[distance=..0,type=#minecraft:arrows] life set value 1100
+execute if data storage att2:bow data.weapon.components."minecraft:enchantments"."minecraft:infinity" run data modify entity @n[distance=..0,type=#minecraft:arrows] life set value 500
 ##initialize owner
 execute at @s on origin run scoreboard players operation @n[distance=..0,type=#minecraft:arrows] OWNER = @s NUMEROJOUEUR
 ##legendary

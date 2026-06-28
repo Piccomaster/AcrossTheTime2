@@ -41,7 +41,7 @@ item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_ench
 #sound
 playsound minecraft:block.respawn_anchor.deplete ambient @s ~ ~ ~ 150 2
 ##remove tag
-tag @s remove ElytraRace
+tag @s remove ElytraRacing
 
 ##clear boss bar
 function att2:gameplay/elytra_racing/bossbar/clear with storage att2:score

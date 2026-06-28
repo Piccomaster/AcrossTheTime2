@@ -40,4 +40,4 @@ tellraw @a[x=-9545,y=72,z=-10447,distance=..12,gamemode=adventure,scores={LANGUA
 tellraw @a[x=-9545,y=72,z=-10447,distance=..12,gamemode=adventure,scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,extra:[{text:" : "},{text:"[Sair da prova... -->]",color:"gray",click_event:{action:run_command,command:"/trigger ScoreTrigger set 275"},hover_event:{action:show_text,value:"Clique aqui - resposta 1"}}]}
 
 #Simplified Chinese LANGUAGE
-tellraw @a[x=-9545,y=72,z=-10447,distance=..12,gamemode=adventure,scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,extra:[{text:" : "},{text:"[离开无限迷宫... -->]",color:"gray",click_event:{action:run_command,command:"/trigger ScoreTrigger set 275"},hover_event:{action:show_text,value:"点击这里离开无限迷宫"}}]}
+tellraw @a[x=-9545,y=72,z=-10447,distance=..12,gamemode=adventure,scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,extra:[{text:" : "},{text:"[离开无尽迷宫... -->]",color:"gray",click_event:{action:run_command,command:"/trigger ScoreTrigger set 275"},hover_event:{action:show_text,value:"点击这里离开无尽迷宫"}}]}

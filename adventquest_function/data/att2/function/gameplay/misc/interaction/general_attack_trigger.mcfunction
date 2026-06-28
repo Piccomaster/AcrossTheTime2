@@ -7,7 +7,7 @@
 tag @e[distance=..20,type=interaction,tag=General,tag=TempSelect] remove TempSelect
 
 ##get target interaction score
-execute as @e[distance=..10,type=interaction,tag=General,nbt={attack:{}}] at @s on attacker if entity @s[advancements={att2_test:test_interacted/general_attack_trigger=true}] run tag @n[distance=..0,type=interaction,tag=General,nbt={attack:{}}] add TempSelect
+execute as @e[distance=..10,type=interaction,tag=General,nbt={attack:{}}] at @s on attacker if entity @s[advancements={att2_test:test_interacted/general_attack_trigger=true}] run tag @n[distance=..1,type=interaction,tag=General,nbt={attack:{}}] add TempSelect
 
 ##clear nearly interaction data
 execute as @e[distance=..20,type=interaction,tag=General] run data remove entity @s attack

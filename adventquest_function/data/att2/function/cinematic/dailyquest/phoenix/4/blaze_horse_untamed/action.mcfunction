@@ -31,16 +31,16 @@ execute if score @s BLAZEHORSE matches 330..380 at @s positioned ^ ^ ^7 run part
 execute if score @s BLAZEHORSE matches 325..380 at @s positioned ^ ^ ^8 run particle minecraft:lava ~ ~1 ~ 0.1 0.23 0.1 0 1 normal
 execute if score @s BLAZEHORSE matches 320..380 at @s positioned ^ ^ ^9 run particle minecraft:lava ~ ~1 ~ 0.1 0.25 0.1 0 1 normal
 
-execute if score @s BLAZEHORSE matches 360..380 at @s positioned ^ ^ ^1 as @a[distance=..1.5] run damage @s 1 minecraft:lava by @n[type=skeleton_horse,tag=BlazeHorse]
-execute if score @s BLAZEHORSE matches 355..380 at @s positioned ^ ^ ^2 as @a[distance=..1.5] run damage @s 1 minecraft:lava by @n[type=skeleton_horse,tag=BlazeHorse]
-execute if score @s BLAZEHORSE matches 350..380 at @s positioned ^ ^ ^3 as @a[distance=..1.5] run damage @s 2 minecraft:lava by @n[type=skeleton_horse,tag=BlazeHorse]
-execute if score @s BLAZEHORSE matches 345..380 at @s positioned ^ ^ ^4 as @a[distance=..1.5] run damage @s 2 minecraft:lava by @n[type=skeleton_horse,tag=BlazeHorse]
-execute if score @s BLAZEHORSE matches 340..380 at @s positioned ^ ^ ^5 as @a[distance=..1.5] run damage @s 3 minecraft:lava by @n[type=skeleton_horse,tag=BlazeHorse]
-execute if score @s BLAZEHORSE matches 335..380 at @s positioned ^ ^ ^6 as @a[distance=..1.5] run damage @s 3 minecraft:lava by @n[type=skeleton_horse,tag=BlazeHorse]
-execute if score @s BLAZEHORSE matches 330..380 at @s positioned ^ ^ ^7 as @a[distance=..1.5] run damage @s 4 minecraft:lava by @n[type=skeleton_horse,tag=BlazeHorse]
-execute if score @s BLAZEHORSE matches 325..380 at @s positioned ^ ^ ^8 as @a[distance=..1.5] run damage @s 4 minecraft:lava by @n[type=skeleton_horse,tag=BlazeHorse]
-execute if score @s BLAZEHORSE matches 320..380 at @s positioned ^ ^ ^9 as @a[distance=..1.5] run damage @s 5 minecraft:lava by @n[type=skeleton_horse,tag=BlazeHorse]
-execute if score @s BLAZEHORSE matches 320..380 at @s positioned ^ ^ ^9 as @a[distance=..1.5] run damage @s 5 minecraft:lava by @n[type=skeleton_horse,tag=BlazeHorse]
+execute if score @s BLAZEHORSE matches 360..380 at @s positioned ^ ^ ^1 as @a[distance=..1.5] run damage @s 1 att2_damage:real_fire by @n[type=skeleton_horse,tag=BlazeHorse]
+execute if score @s BLAZEHORSE matches 355..380 at @s positioned ^ ^ ^2 as @a[distance=..1.5] run damage @s 1 att2_damage:real_fire by @n[type=skeleton_horse,tag=BlazeHorse]
+execute if score @s BLAZEHORSE matches 350..380 at @s positioned ^ ^ ^3 as @a[distance=..1.5] run damage @s 2 att2_damage:real_fire by @n[type=skeleton_horse,tag=BlazeHorse]
+execute if score @s BLAZEHORSE matches 345..380 at @s positioned ^ ^ ^4 as @a[distance=..1.5] run damage @s 2 att2_damage:real_fire by @n[type=skeleton_horse,tag=BlazeHorse]
+execute if score @s BLAZEHORSE matches 340..380 at @s positioned ^ ^ ^5 as @a[distance=..1.5] run damage @s 3 att2_damage:real_fire by @n[type=skeleton_horse,tag=BlazeHorse]
+execute if score @s BLAZEHORSE matches 335..380 at @s positioned ^ ^ ^6 as @a[distance=..1.5] run damage @s 3 att2_damage:real_fire by @n[type=skeleton_horse,tag=BlazeHorse]
+execute if score @s BLAZEHORSE matches 330..380 at @s positioned ^ ^ ^7 as @a[distance=..1.5] run damage @s 4 att2_damage:real_fire by @n[type=skeleton_horse,tag=BlazeHorse]
+execute if score @s BLAZEHORSE matches 325..380 at @s positioned ^ ^ ^8 as @a[distance=..1.5] run damage @s 4 att2_damage:real_fire by @n[type=skeleton_horse,tag=BlazeHorse]
+execute if score @s BLAZEHORSE matches 320..380 at @s positioned ^ ^ ^9 as @a[distance=..1.5] run damage @s 5 att2_damage:real_fire by @n[type=skeleton_horse,tag=BlazeHorse]
+execute if score @s BLAZEHORSE matches 320..380 at @s positioned ^ ^ ^9 as @a[distance=..1.5] run damage @s 5 att2_damage:real_fire by @n[type=skeleton_horse,tag=BlazeHorse]
 
 
 ##sprint
@@ -50,7 +50,7 @@ execute if score @s BLAZEHORSE matches 300..320 run data modify entity @s Motion
 ##reset
 execute if score @s BLAZEHORSE matches 300..320 run execute in overworld run tp 00000001-0000-006f-0000-00010000006f 0.0 0.0 0.0
 
-execute if score @s BLAZEHORSE matches ..300 as @a[distance=..3] run damage @s 2 minecraft:lava by @n[type=skeleton_horse,tag=BlazeHorse]
+execute if score @s BLAZEHORSE matches ..300 as @a[distance=..3] run damage @s 2 att2_damage:real_fire by @n[type=skeleton_horse,tag=BlazeHorse]
 
 execute if score @s BLAZEHORSE matches 180..300 run particle minecraft:lava ~ ~1 ~ 0.25 0.25 0.25 0 1 normal
 

@@ -15,5 +15,6 @@ scoreboard players remove display_count ENEMYHEALTH 1
 execute on vehicle on vehicle run kill @s[type=item]
 execute on vehicle run kill @s[type=item_display]
 execute on vehicle run kill @s[type=text_display]
-kill @e[type=text_display,tag=HPDISPLAY,predicate=!att2_pre:has_passenger]
+kill @e[distance=..10,type=text_display,tag=HPDISPLAY,predicate=!att2_pre:has_passenger]
+kill @e[distance=..10,type=item,tag=HPDISPLAY,predicate=!att2_pre:has_passenger]
 kill @s[type=armor_stand]

@@ -4,7 +4,8 @@
 #################################################################
 
 ##score set
-
+##set loot
+data modify block ~ ~ ~ LootTable set value "att2:item_data/misc/player_head"
 ##get c/t
 execute store result score #C CAL run data get entity @s data.C
 #tellraw @a ["C:",{score:{name:"#C",objective:"CAL"}}]

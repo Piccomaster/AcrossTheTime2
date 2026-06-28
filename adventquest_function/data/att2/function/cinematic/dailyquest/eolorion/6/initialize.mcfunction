@@ -11,7 +11,7 @@ scoreboard players set eolorion_dailyquest_6_timer DAILYQUEST 48000
 
 scoreboard players set eolorion_dailyquest_6_rewards_chronoton DAILYQUEST 500
 scoreboard players set eolorion_dailyquest_6_rewards_xp DAILYQUEST 5000
-scoreboard players set eolorion_dailyquest_6_rewards_reputation DAILYQUEST 5
+scoreboard players set eolorion_dailyquest_6_rewards_reputation DAILYQUEST 3
 scoreboard players set eolorion_dailyquest_6_rewards_city_donation DAILYQUEST 20
 
 scoreboard players set eolorion_dailyquest_6_fail_chronoton DAILYQUEST 100

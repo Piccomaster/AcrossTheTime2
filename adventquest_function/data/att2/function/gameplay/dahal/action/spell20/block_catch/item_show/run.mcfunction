@@ -25,3 +25,6 @@ execute store result score Stock_Slot CAL run data get storage att2:temp temp_da
 execute store result storage att2:spell20 slot_count int 1 run scoreboard players remove Stock_Slot CAL 1
 ##Traversal Acquiredtemp_data,Override it on the generated display entity
 function att2:gameplay/dahal/action/spell20/block_catch/item_show/iteration with storage att2:spell20
+
+
+tag @e[type=item_display,distance=..5,tag=New] remove New

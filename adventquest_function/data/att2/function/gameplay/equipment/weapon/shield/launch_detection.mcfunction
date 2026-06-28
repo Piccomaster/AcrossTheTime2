@@ -4,6 +4,7 @@
 #############################################################
 
 ##limit
+execute if items entity @s weapon.* minecraft:shield[custom_data~{Rarity:myt}] run return fail
 ##
 execute if items entity @s weapon.mainhand #minecraft:pickaxes run return run function att2:gameplay/equipment/weapon/shield/launch/pickaxe
 execute if items entity @s weapon.mainhand #minecraft:swords run return run function att2:gameplay/equipment/weapon/shield/launch/sword

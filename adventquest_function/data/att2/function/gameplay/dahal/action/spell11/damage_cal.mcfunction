@@ -10,13 +10,13 @@ function att2:gameplay/score/player
 scoreboard players set minDG SPDG 25
 scoreboard players set maxDG SPDG 100
 #difficult damage
-execute if score level DIFFICULTY matches 0.. run scoreboard players add maxDG SPDG 20
-execute if score level DIFFICULTY matches 1.. run scoreboard players add maxDG SPDG 20
-execute if score level DIFFICULTY matches 2.. run scoreboard players add maxDG SPDG 20
+execute if score level DIFFICULTY matches 0.. run scoreboard players add maxDG SPDG 10
+execute if score level DIFFICULTY matches 1.. run scoreboard players add maxDG SPDG 10
+execute if score level DIFFICULTY matches 2.. run scoreboard players add maxDG SPDG 10
 #max-min
 scoreboard players operation maxDG SPDG -= minDG SPDG
 #cal  (SLCT_LVL-1)
-scoreboard players operation slctlvl SPDG = @s SPELL11_SLCT
+scoreboard players operation slctlvl SPDG = @s SPELL11_CAP
 execute unless score slctlvl SPDG matches 1.. run scoreboard players set slctlvl SPDG 1
 scoreboard players remove slctlvl SPDG 1
 #cal  (MAX_LVL-1)
@@ -43,6 +43,9 @@ scoreboard players operation dahalburstBONUS SPDG = @s[scores={DAHALBURST=1..}] 
 scoreboard players operation dahalburstBONUS SPDG += 100 ENHANCEMENT
 scoreboard players operation finalDG SPDG *= dahalburstBONUS SPDG
 scoreboard players operation finalDG SPDG /= 100 ENHANCEMENT
+##critical detection
+scoreboard players set #TEST CAL 0
+function att2:gameplay/dahal/action/critical/spell11_detection
 #storage spell damage
 execute store result storage att2:sp_dmg SP11 int 1 run scoreboard players get finalDG SPDG
 #reset

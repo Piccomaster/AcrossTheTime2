@@ -67,16 +67,20 @@ execute if entity @s[advancements={att2:dahal/spell25_loot=true}] run summon mar
 execute if entity @s[advancements={att2:dahal/spell26_loot=true}] run summon marker ~ ~ ~ {Tags:["RNG_TEMP","SpellId_26"],data:{function:["scoreboard players add @a SPELL26_LVL 100","tellraw @a [{translate:att2.spell26.name},{translate:matching_game.rewards.spellxp_add,with:[\"100\"]}]"]}}
 execute if entity @s[advancements={att2:dahal/spell27_loot=true}] run summon marker ~ ~ ~ {Tags:["RNG_TEMP","SpellId_27"],data:{function:["scoreboard players add @a SPELL27_LVL 100","tellraw @a [{translate:att2.spell27.name},{translate:matching_game.rewards.spellxp_add,with:[\"100\"]}]"]}}
 execute if entity @s[advancements={att2:dahal/spell28_loot=true}] run summon marker ~ ~ ~ {Tags:["RNG_TEMP","SpellId_28"],data:{function:["scoreboard players add @a SPELL28_LVL 100","tellraw @a [{translate:att2.spell28.name},{translate:matching_game.rewards.spellxp_add,with:[\"100\"]}]"]}}
+execute if entity @s[advancements={att2:dahal/spell29_loot=true}] run summon marker ~ ~ ~ {Tags:["RNG_TEMP","SpellId_29"],data:{function:["scoreboard players add @a SPELL29_LVL 100","tellraw @a [{translate:att2.spell29.name},{translate:matching_game.rewards.spellxp_add,with:[\"100\"]}]"]}}
 execute if entity @s[advancements={att2:dahal/spell30_loot=true}] run summon marker ~ ~ ~ {Tags:["RNG_TEMP","SpellId_30"],data:{function:["scoreboard players add @a SPELL30_LVL 100","tellraw @a [{translate:att2.spell30.name},{translate:matching_game.rewards.spellxp_add,with:[\"100\"]}]"]}}
 execute if entity @s[advancements={att2:dahal/spell31_loot=true}] run summon marker ~ ~ ~ {Tags:["RNG_TEMP","SpellId_31"],data:{function:["scoreboard players add @a SPELL31_LVL 100","tellraw @a [{translate:att2.spell31.name},{translate:matching_game.rewards.spellxp_add,with:[\"100\"]}]"]}}
 execute if entity @s[advancements={att2:dahal/spell32_loot=true}] run summon marker ~ ~ ~ {Tags:["RNG_TEMP","SpellId_32"],data:{function:["scoreboard players add @a SPELL32_LVL 100","tellraw @a [{translate:att2.spell32.name},{translate:matching_game.rewards.spellxp_add,with:[\"100\"]}]"]}}
+execute if entity @s[advancements={att2:dahal/spell33_loot=true}] run summon marker ~ ~ ~ {Tags:["RNG_TEMP","SpellId_33"],data:{function:["scoreboard players add @a SPELL33_LVL 100","tellraw @a [{translate:att2.spell33.name},{translate:matching_game.rewards.spellxp_add,with:[\"100\"]}]"]}}
 execute if entity @s[advancements={att2:dahal/spell34_loot=true}] run summon marker ~ ~ ~ {Tags:["RNG_TEMP","SpellId_34"],data:{function:["scoreboard players add @a SPELL34_LVL 100","tellraw @a [{translate:att2.spell34.name},{translate:matching_game.rewards.spellxp_add,with:[\"100\"]}]"]}}
+execute if entity @s[advancements={att2:dahal/spell35_loot=true}] run summon marker ~ ~ ~ {Tags:["RNG_TEMP","SpellId_35"],data:{function:["scoreboard players add @a SPELL35_LVL 100","tellraw @a [{translate:att2.spell35.name},{translate:matching_game.rewards.spellxp_add,with:[\"100\"]}]"]}}
 execute if entity @s[advancements={att2:dahal/spell40_loot=true}] run summon marker ~ ~ ~ {Tags:["RNG_TEMP","SpellId_40"],data:{function:["scoreboard players add @a SPELL40_LVL 100","tellraw @a [{translate:att2.spell40.name},{translate:matching_game.rewards.spellxp_add,with:[\"100\"]}]"]}}
 execute if entity @s[advancements={att2:dahal/spell41_loot=true}] run summon marker ~ ~ ~ {Tags:["RNG_TEMP","SpellId_41"],data:{function:["scoreboard players add @a SPELL41_LVL 100","tellraw @a [{translate:att2.spell41.name},{translate:matching_game.rewards.spellxp_add,with:[\"100\"]}]"]}}
 execute if entity @s[advancements={att2:dahal/spell42_loot=true}] run summon marker ~ ~ ~ {Tags:["RNG_TEMP","SpellId_42"],data:{function:["scoreboard players add @a SPELL42_LVL 100","tellraw @a [{translate:att2.spell42.name},{translate:matching_game.rewards.spellxp_add,with:[\"100\"]}]"]}}
 execute if entity @s[advancements={att2:dahal/spell43_loot=true}] run summon marker ~ ~ ~ {Tags:["RNG_TEMP","SpellId_43"],data:{function:["scoreboard players add @a SPELL43_LVL 100","tellraw @a [{translate:att2.spell43.name},{translate:matching_game.rewards.spellxp_add,with:[\"100\"]}]"]}}
 execute if entity @s[advancements={att2:dahal/spell44_loot=true}] run summon marker ~ ~ ~ {Tags:["RNG_TEMP","SpellId_44"],data:{function:["scoreboard players add @a SPELL44_LVL 100","tellraw @a [{translate:att2.spell44.name},{translate:matching_game.rewards.spellxp_add,with:[\"100\"]}]"]}}
 execute if entity @s[advancements={att2:dahal/spell45_loot=true}] run summon marker ~ ~ ~ {Tags:["RNG_TEMP","SpellId_45"],data:{function:["scoreboard players add @a SPELL45_LVL 100","tellraw @a [{translate:att2.spell45.name},{translate:matching_game.rewards.spellxp_add,with:[\"100\"]}]"]}}
+execute if entity @s[advancements={att2:dahal/spell46_loot=true}] run summon marker ~ ~ ~ {Tags:["RNG_TEMP","SpellId_46"],data:{function:["scoreboard players add @a SPELL46_LVL 100","tellraw @a [{translate:att2.spell46.name},{translate:matching_game.rewards.spellxp_add,with:[\"100\"]}]"]}}
 
 execute if score @s SPELL1_CAP matches 10 run kill @e[type=marker,tag=SpellId_1,distance=..5]
 execute if score @s SPELL2_CAP matches 10 run kill @e[type=marker,tag=SpellId_2,distance=..5]
@@ -97,16 +101,20 @@ execute if score @s SPELL25_CAP matches 10 run kill @e[type=marker,tag=SpellId_2
 execute if score @s SPELL26_CAP matches 10 run kill @e[type=marker,tag=SpellId_26,distance=..5]
 execute if score @s SPELL27_CAP matches 10 run kill @e[type=marker,tag=SpellId_27,distance=..5]
 execute if score @s SPELL28_CAP matches 10 run kill @e[type=marker,tag=SpellId_28,distance=..5]
+execute if score @s SPELL29_CAP matches 10 run kill @e[type=marker,tag=SpellId_29,distance=..5]
 execute if score @s SPELL30_CAP matches 10 run kill @e[type=marker,tag=SpellId_30,distance=..5]
 execute if score @s SPELL31_CAP matches 10 run kill @e[type=marker,tag=SpellId_31,distance=..5]
 execute if score @s SPELL32_CAP matches 5 run kill @e[type=marker,tag=SpellId_32,distance=..5]
+execute if score @s SPELL33_CAP matches 5 run kill @e[type=marker,tag=SpellId_33,distance=..5]
 execute if score @s SPELL34_CAP matches 10 run kill @e[type=marker,tag=SpellId_34,distance=..5]
+execute if score @s SPELL35_CAP matches 10 run kill @e[type=marker,tag=SpellId_35,distance=..5]
 execute if score @s SPELL40_CAP matches 10 run kill @e[type=marker,tag=SpellId_40,distance=..5]
 execute if score @s SPELL41_CAP matches 10 run kill @e[type=marker,tag=SpellId_41,distance=..5]
 execute if score @s SPELL42_CAP matches 10 run kill @e[type=marker,tag=SpellId_42,distance=..5]
 execute if score @s SPELL43_CAP matches 10 run kill @e[type=marker,tag=SpellId_43,distance=..5]
 execute if score @s SPELL44_CAP matches 10 run kill @e[type=marker,tag=SpellId_44,distance=..5]
 execute if score @s SPELL45_CAP matches 10 run kill @e[type=marker,tag=SpellId_45,distance=..5]
+execute if score @s SPELL46_CAP matches 10 run kill @e[type=marker,tag=SpellId_46,distance=..5]
 
 ##random select
 execute as @e[distance=..10,type=marker,tag=RNG_TEMP,limit=1,sort=random] at @s run function att2:any_function/execute with entity @s data

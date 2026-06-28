@@ -39,7 +39,7 @@ execute if score Phase3 SERILE matches 1.. as @a[scores={MUSIC_BOSS=1..}] run sc
 # Enable Bossbar storing health of Serile
 execute if score Phase3 SERILE matches 1.. if entity @a[x=1543.0,y=25,z=1495.0,distance=..35,gamemode=adventure] store result bossbar minecraft:serile value run scoreboard players get 00000000-0000-022b-0000-00000000022b ENEMYHEALTH
 execute if score Phase3 SERILE matches 1.. if entity @a[x=1543.0,y=25,z=1495.0,distance=..35,gamemode=adventure] store result bossbar minecraft:serile max run attribute 00000000-0000-022b-0000-00000000022b max_health get
-execute if score Phase3 SERILE matches 1.. store result score 00000000-0000-022b-0000-00000000022b SERILE run data get entity 00000000-0000-022b-0000-00000000022b Health 1
+execute if score Phase3 SERILE matches 1.. store result score 00000000-0000-022b-0000-00000000022b SERILE run scoreboard players get 00000000-0000-022b-0000-00000000010b ENEMYHEALTH
 
 # Make challengers enters the arena
 execute if score Mainquest SIDEQUEST matches 285 if entity @a[x=1579,y=20,z=1496,dx=0,dy=3,dz=-3,gamemode=adventure] unless entity @a[x=1543.0,y=25,z=1495.0,distance=..35,gamemode=adventure,tag=!Dead] as @a[distance=..100] run function att2:gameplay/boss/serile/display_title

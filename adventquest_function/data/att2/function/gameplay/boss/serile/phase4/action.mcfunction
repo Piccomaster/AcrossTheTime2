@@ -13,7 +13,7 @@ execute if score Timer1 SERILE matches 400 as @p[x=1543.0,y=25,z=1495.0] run fun
 
 # End timing
 execute if score Timer2 SERILE matches 0..15 run scoreboard players add Timer2 SERILE 1
-execute if score Timer2 SERILE matches 10 if score 00000000-0000-022b-0000-00000000010b SERILE matches 10.. as 00000000-0000-022b-0000-00000000010b at @s run effect give @s minecraft:instant_damage 1 0 true
+execute if score Timer2 SERILE matches 10 if score 00000000-0000-022b-0000-00000000010b SERILE matches 10.. as 00000000-0000-022b-0000-00000000010b at @s run scoreboard players remove @s ENEMYHEALTH 6
 execute if score Timer2 SERILE matches 15.. run scoreboard players set Timer2 SERILE 0
 
 # Particle

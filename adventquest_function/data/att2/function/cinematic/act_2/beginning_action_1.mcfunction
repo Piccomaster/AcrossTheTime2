@@ -10,6 +10,7 @@ stopsound @a
 tag @a remove NoAutoMusic
 scoreboard players set Mainquest SIDEQUEST 1
 scoreboard players set Timer ASSIST 1
+datapack enable "file/adventquest_dialog"
 
 execute as @a[scores={TUTORIAL=1..}] at @s run function att2:gameplay/tutorial/delay/consciousness
 execute as @a at @s run function att2:gameplay/tutorial/trigger/consciousness

@@ -11,7 +11,7 @@ scoreboard players set eolorion_dailyquest_8_timer DAILYQUEST 24000
 
 scoreboard players set eolorion_dailyquest_8_rewards_chronoton DAILYQUEST 0
 scoreboard players set eolorion_dailyquest_8_rewards_xp DAILYQUEST 8000
-scoreboard players set eolorion_dailyquest_8_rewards_reputation DAILYQUEST 5
+scoreboard players set eolorion_dailyquest_8_rewards_reputation DAILYQUEST 3
 scoreboard players set eolorion_dailyquest_8_rewards_city_donation DAILYQUEST 20
 
 scoreboard players set eolorion_dailyquest_8_fail_chronoton DAILYQUEST 200

@@ -76,7 +76,7 @@ tellraw @s[scores={LANGUAGE=10}] {nbt:"set",storage:"att2:id","interpret":true,c
 
 #Simplified Chinese
 tellraw @s[scores={LANGUAGE=11}] [{object:player,player:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGYyMGM1YTZhODExNTlkZjRlNTkzNjY1OGU0OGZkMmM2OTk5MjIzMzcwMzFkNTU4OTJiZGRiZDFjYjE3YiJ9fX0="}]}},{text:" °-° Alyia Lana : ",color:"green",extra:[{text:"你好， 你想不想尝尝一个南瓜派？ 或者别的什么， 我这里有很多吃的...",color:"dark_aqua"}]}]
-tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"[让我看看你有什么。-->]",color:"yellow",click_event:{action:run_command,command:"/trigger ScoreTrigger set 1016"},hover_event:{action:show_text,value:"单击此处查看 Alyia 的销售情况。"}}]}
+tellraw @s[scores={LANGUAGE=11}] {nbt:"set",storage:"att2:id","interpret":true,color:"dark_red",extra:[{text:" : "},{text:"[让我看看你卖什么。-->]",color:"yellow",click_event:{action:run_command,command:"/trigger ScoreTrigger set 1016"},hover_event:{action:show_text,value:"单击此处查看 Alyia 的销售情况。"}}]}
 
 execute if score SQ5 SIDEQUEST matches 1 run function att2:dialogs/sidequest/sq5/alyia_lana/player_proposal_1/choice_1
 execute if score SQ5 SIDEQUEST matches 1 run function att2:dialogs/sidequest/sq5/alyia_lana/player_proposal_1/choice_2

@@ -7,7 +7,11 @@
 execute store result score #Rotation0 CAL run data get entity @s Rotation[0]
 execute store result score #Rotation1 CAL run data get entity @s Rotation[1]
 
+
+##update player count
+execute as @p[distance=..10,predicate=att2_pre:score/player] run function att2:gameplay/maze/map/torch/remove_torch_score
 ##fail
+execute if score #Rotation1 CAL matches 90 run return run execute as @p[distance=..10,predicate=att2_pre:score/player] run function att2:items/misc/maze/torch_1
 execute unless block ~ ~ ~ light unless block ~ ~ ~ air run return run execute as @p[distance=..10,predicate=att2_pre:score/player] run function att2:items/misc/maze/torch_1
 execute if block ~ ~ ~ #minecraft:redstone_torch run return run execute as @p[distance=..10,predicate=att2_pre:score/player] run function att2:items/misc/maze/torch_1
 execute if score #Rotation1 CAL matches -90 unless block ~ ~-1 ~ #minecraft:maze_set run return run execute as @p[distance=..10,predicate=att2_pre:score/player] run function att2:items/misc/maze/torch_1

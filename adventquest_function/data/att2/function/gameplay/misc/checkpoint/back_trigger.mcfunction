@@ -3,9 +3,10 @@
 #Use function to activate the checkpoint effect	#
 #################################################
 
-
 ##clear dialog
 dialog clear @s
+##elytra_racing return
+execute as @s[tag=ElytraRacing] run return run function att2:gameplay/elytra_racing/player/reset
 
 #detection
 execute as @s[gamemode=!adventure] run return fail

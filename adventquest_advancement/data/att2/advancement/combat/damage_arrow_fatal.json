@@ -11,7 +11,7 @@
         },
         "frame": "challenge"
     },
-    "parent": "att2:combat/damage_arrow_10000",
+    "parent": "att2:combat/damage_arrow_100000",
     "rewards": {
         "experience": 100000
     },

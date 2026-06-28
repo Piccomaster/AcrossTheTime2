@@ -11,6 +11,8 @@
 ##test speed
 ##clear
 #execute on vehicle if predicate {condition:entity_properties,entity:this,predicate:{movement:{speed:{max:0.05}}}} run say 我不行了
+##limit
+execute as @s[tag=ENCHANTMENT] run return fail
 execute on vehicle if predicate {condition:entity_properties,entity:this,predicate:{movement:{speed:{max:5.5}}}} run data modify entity @s NoGravity set value 0
 execute unless predicate att2_pre:has_vehicle run scoreboard players set @s LIFETIME 0
 ##remove score

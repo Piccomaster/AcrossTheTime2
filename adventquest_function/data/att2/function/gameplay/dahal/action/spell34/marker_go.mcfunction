@@ -3,6 +3,7 @@
 #test chest             						#
 #################################################
 
+execute as @s[tag=potmarker] unless block ~ ~ ~ decorated_pot run scoreboard players set @s LIFETIME 0
 ##limit
 execute as @s[tag=fishingmarker] run return fail
 ##
@@ -17,7 +18,7 @@ scoreboard players operation #time CAL = @s SPELL34_SLCT
 scoreboard players remove #time CAL 1
 scoreboard players operation #time CAL *= 2 CAL
 scoreboard players add #time CAL 5
-scoreboard players add @s LIFETIME 1 
+scoreboard players add @s LIFETIME 1
 
 execute if score @s LIFETIME < #time CAL run return fail
 

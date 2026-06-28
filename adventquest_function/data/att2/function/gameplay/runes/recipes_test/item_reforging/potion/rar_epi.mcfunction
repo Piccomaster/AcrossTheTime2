@@ -16,5 +16,6 @@ execute if score #equipment_id CAL matches 44 run scoreboard players set #test C
 execute if score #equipment_id CAL matches 54 run scoreboard players set #test CAL 1
 execute if score #equipment_id CAL matches 58 run scoreboard players set #test CAL 1
 execute if score #equipment_id CAL matches 62 run scoreboard players set #test CAL 1
+execute if score #equipment_id CAL matches 79..80 run scoreboard players set #test CAL 1
 execute if score #test CAL matches 1 run function att2:gameplay/runes/recipe_done
 execute if score #test CAL matches 1 run return run loot spawn -5029 91 -4958 loot att2:item_data/random_item/potion/epi

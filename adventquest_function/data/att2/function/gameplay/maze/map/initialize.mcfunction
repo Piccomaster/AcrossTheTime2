@@ -6,6 +6,7 @@
 scoreboard objectives add MazeMapListId dummy
 scoreboard objectives add MazeMapBlockId dummy
 scoreboard objectives add MazeMapRotation dummy
+scoreboard objectives add MazeMapTorch dummy
 scoreboard players reset #maze1_load MAZE
 scoreboard players reset #maze2_load MAZE
 scoreboard players reset #maze3_load MAZE

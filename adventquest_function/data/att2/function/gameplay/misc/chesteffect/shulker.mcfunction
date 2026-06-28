@@ -7,12 +7,13 @@
 tag @s add Select
 tag @s add Show
 
-##test open
-execute unless data block ~ ~ ~ LootTable run function att2:gameplay/misc/chesteffect/show_chest/open_effect
-execute unless data block ~ ~ ~ LootTable run function att2:advancement/test_all/secret/shulker_test
-execute unless data block ~ ~ ~ LootTable run return run scoreboard players set @s CHESTEFFECT -100
 ##initialize score
 execute unless score @s CHESTEFFECT matches 1.. run return run function att2:gameplay/misc/chesteffect/score_set
+
+##test open
+#execute unless data block ~ ~ ~ LootTable run function att2:gameplay/misc/chesteffect/show_chest/open_effect
+execute unless data block ~ ~ ~ LootTable run function att2:advancement/test_all/secret/shulker_test
+execute unless data block ~ ~ ~ LootTable run return run scoreboard players set @s CHESTEFFECT -100
 
 ##normal chest
 execute if score @s CHESTEFFECT matches 1 align xyz positioned ~0.5 ~0.5 ~0.5 run return run particle minecraft:dust{color:[0.5,0.5,0.5],scale:0.5} ~ ~ ~ 0.25 0.25 0.25 0 20 normal

@@ -3,6 +3,9 @@
 #Process bossbar_trigger                			       			#
 #####################################################################
 
+execute if score OnceHealth SERILE matches 0 run scoreboard players set 00000000-0000-022b-0000-00000000009b ENEMYHEALTH 100
+scoreboard players set OnceHealth SERILE 1
+
 # Enable Bossbar storing health of all spheres
 execute if score Sphere1 SERILE matches 1 store result bossbar minecraft:sphere1 value run scoreboard players get 00000000-0000-022b-0000-00000000001b ENEMYHEALTH
 execute if score Sphere1 SERILE matches 1 store result bossbar minecraft:sphere1 max run attribute 00000000-0000-022b-0000-00000000001b max_health get
@@ -38,7 +41,7 @@ execute if score Sphere8 SERILE matches 1 run bossbar set minecraft:sphere8 visi
 execute if score Sphere8 SERILE matches 1 run bossbar set minecraft:sphere8 visible true
 execute store result bossbar minecraft:sphere9 value run scoreboard players get 00000000-0000-022b-0000-00000000009b ENEMYHEALTH
 execute store result bossbar minecraft:sphere9 max run attribute 00000000-0000-022b-0000-00000000009b max_health get
-execute store result score 00000000-0000-022b-0000-00000000009b SERILE run data get entity 00000000-0000-022b-0000-00000000009b Health 1
+scoreboard players operation 00000000-0000-022b-0000-00000000009b SERILE = 00000000-0000-022b-0000-00000000009b ENEMYHEALTH
 bossbar set minecraft:sphere9 visible false
 bossbar set minecraft:sphere9 visible true
 # Enable Bossbar storing health of Serile chargement

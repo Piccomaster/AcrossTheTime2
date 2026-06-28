@@ -17,5 +17,7 @@ scoreboard players operation @s RES_EH += #res CAL
 ##set time
 scoreboard players set @s TIMER_RES_EH 1
 
+##limit
+execute as @s[gamemode=!adventure] run return fail
 ##particle
 execute positioned ~ ~-0.2 ~ run particle infested ~ ~ ~ 0.5 -0.1 0.5 0.01 10

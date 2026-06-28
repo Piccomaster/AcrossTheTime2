@@ -50,7 +50,7 @@ scoreboard players set meleim_dailyquest_8_completed DAILYQUEST 1
 
 ##rewards other
 scoreboard players add points RECYCLER 200
-function att2:items/chronoton/esc_give_maco {count:15}
+function att2:items/chronoton/esc_give_maco {count:20}
 
 ##trigger adv
 function att2:advancement/test_all/dailyquest/meleim

@@ -1098,7 +1098,7 @@ execute in minecraft:overworld positioned -5132 113 -5811 run setblock -5132 113
 execute in minecraft:overworld positioned 7021 51 7001 run setblock 7021 51 7001 minecraft:magenta_stained_glass destroy
 execute in minecraft:overworld positioned 7021 207 7001 run setblock 7021 207 7001 minecraft:magenta_stained_glass destroy
 
-execute in minecraft:overworld positioned -5375 81 -4437 run setblock -5375 81 -4437 minecraft:command_block[conditional=false,facing=up]{Command:"/setblock -5371 84 -4437 rail destroy",CustomName:"@",LastExecution:3007836022L,LastOutput:{extra:[{translate:"commands.setblock.success",with:[-5371,84,-4437]}],text:"[20:29:23] "},SuccessCount:1,TrackOutput:1b,UpdateLastExecution:1b,auto:0b,components:{},conditionMet:1b,powered:0b}
+execute in minecraft:overworld positioned -5375 81 -4437 run setblock -5375 81 -4437 minecraft:command_block[conditional=false,facing=up]{Command:"/setblock -5371 84 -4437 rail destroy",TrackOutput:1b,auto:0b,components:{},conditionMet:1b,powered:0b}
 
 execute in minecraft:overworld positioned -5186 119 -5790 run setblock -5186 119 -5790 air
 
@@ -1124,3 +1124,13 @@ execute in minecraft:overworld positioned -9568 80 -10163 run fill -9568 80 -101
 ##maze7
 execute in minecraft:overworld positioned -9570 76 -10179 run fill -9570 76 -10179 -9568 76 -10179 minecraft:target
 execute in minecraft:overworld positioned -9546 76 -10439 run fill -9546 76 -10439 -9544 76 -10439 minecraft:respawn_anchor
+
+
+##fix block
+execute in minecraft:overworld positioned -4428 70 -5152 run setblock -4428 70 -5152 grass_block
+
+execute in minecraft:overworld positioned -4410 68 -5468 run setblock -4410 68 -5468 minecraft:stone
+execute in minecraft:overworld positioned -4410 68 -5467 run setblock -4410 68 -5467 minecraft:stone
+
+
+execute in minecraft:overworld positioned -7448 156 -5979 run kill @e[distance=..10,type=armor_stand]

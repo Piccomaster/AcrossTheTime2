@@ -4,8 +4,8 @@
 #############################################
 
 execute at @a run function att2:sound/dialogs/simple
-
-
+scoreboard players set ouran_PNJ statDIALOG 1
+function att2:advancement/test_all/journey/pnj
 #FRENCH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=0}] {text:" °-° Ouran : ",color:"gold",extra:[{text:"Qui ose interrompre mon sommeil...",color:"dark_aqua"}]}

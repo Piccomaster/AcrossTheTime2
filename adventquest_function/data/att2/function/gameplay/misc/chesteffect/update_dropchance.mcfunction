@@ -36,9 +36,8 @@ scoreboard players operation #ChronotonsRolls DropRolls *= #T CAL
 
 execute store result score #BonusRolls CAL run random value 10..15
 scoreboard players operation #BonusRolls CAL *= #luck CAL
-
+#tellraw @a ["§6luck:",{score:{name:"#BonusRolls",objective:"CAL"}}]
 scoreboard players operation #ChronotonsRolls DropRolls += #BonusRolls CAL 
-#tellraw @a ["§6Chronotons:",{score:{name:"#ChronotonsRolls",objective:"DropRolls"}},"  ","§6Consumables:",{score:{name:"#ConsumablesRolls",objective:"DropRolls"}},"  ","§6Equipment:",{score:{name:"#EquipmentsRolls",objective:"DropRolls"}},"  ","§6Runes:",{score:{name:"#RunesRolls",objective:"DropRolls"}}]
 ##cal Consumable DropBonusRolls
 execute store result score #ConsumablesRolls DropRolls run random value 14..28
 scoreboard players operation #ConsumablesRolls DropRolls *= #T CAL
@@ -65,6 +64,8 @@ execute store result score #BonusRolls CAL run random value 0..20
 scoreboard players operation #BonusRolls CAL *= #luck CAL
 
 scoreboard players operation #RunesRolls DropRolls += #BonusRolls CAL
+
+#tellraw @a ["§6Chronotons:",{score:{name:"#ChronotonsRolls",objective:"DropRolls"}},"  ","§6Consumables:",{score:{name:"#ConsumablesRolls",objective:"DropRolls"}},"  ","§6Equipment:",{score:{name:"#EquipmentsRolls",objective:"DropRolls"}},"  ","§6Runes:",{score:{name:"#RunesRolls",objective:"DropRolls"}}]
 #Clamp range
 
 #luck effect

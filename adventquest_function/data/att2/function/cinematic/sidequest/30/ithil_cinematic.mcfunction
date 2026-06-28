@@ -3,6 +3,10 @@
 #Process ithil_cinematic 									#
 #############################################################
 
+##set score
+execute if score Real2 TIMER matches 1..1401 run scoreboard players set 00000000-0000-094a-0000-00000000094a TALKING_LIMIT -1
+execute if score Real2 TIMER matches 1..1401 run scoreboard players set 00000000-0000-099a-0000-00000000099a TALKING_LIMIT -1
+
 execute if score Real2 TIMER matches 1..350 run function att2:gameplay/speceffect/disincarnate/keep/real2
 execute if score Real2 TIMER matches 1 run data modify storage att2:performance rotation set value [90,0]
 
@@ -37,7 +41,9 @@ execute if score Real2 TIMER matches 1200..1250 as 00000000-0000-094a-0000-00000
 execute if score Real2 TIMER matches 1250..1300 as 00000000-0000-099a-0000-00000000099a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Real2 TIMER matches 1400 as @a[gamemode=spectator,scores={Performance=2}] run function att2:gameplay/speceffect/disincarnate/end/real2
 execute if score Real2 TIMER matches 1401 as @a[x=-4950,y=145,z=-4915,distance=..50] run tp @s -4954 145 -4916 65 0
-
+##set score
+execute if score Real2 TIMER matches 1401 run scoreboard players set 00000000-0000-094a-0000-00000000094a TALKING_LIMIT 1
+execute if score Real2 TIMER matches 1401 run scoreboard players set 00000000-0000-099a-0000-00000000099a TALKING_LIMIT 1
 
 #=======================#
 #end of the cinematic	#
