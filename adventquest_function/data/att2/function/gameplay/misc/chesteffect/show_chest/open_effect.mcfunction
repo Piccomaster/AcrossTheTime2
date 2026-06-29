@@ -19,7 +19,7 @@ scoreboard players set #Temp DropQuestItemId 0
 ##get player id
 execute store result score #player CAL run data get block ~ ~ ~ Items[0].components."minecraft:custom_model_data".floats
 ##get c/t
-
+#tellraw @a ["玩家:",{score:{name:"#player",objective:"CAL"}}]
 execute store result score #C CAL run data get entity @s data.C
 #tellraw @a ["C:",{score:{name:"#C",objective:"CAL"}},"  ","T:",{score:{name:"#T",objective:"CAL"}},"  ","Q:",{score:{name:"#Q",objective:"CAL"}}]
 execute store result score #T CAL run data get entity @s data.T
@@ -40,48 +40,19 @@ execute unless score #Rolls DropRolls matches 1.. run function att2:gameplay/mis
 ##clear
 data remove block ~ ~ ~ Items
 #loot insert entity ~ ~ ~ container.0 loot att2:chest/reg1
-execute if score #Dimension CAL matches 1 run data modify block ~ ~ ~ LootTable set value "att2:chest/reg1"
-execute if score #Dimension CAL matches 2 run data modify block ~ ~ ~ LootTable set value "att2:chest/reg2"
-execute if score #Dimension CAL matches 3 run data modify block ~ ~ ~ LootTable set value "att2:chest/reg3"
-execute if score #Dimension CAL matches 4 run data modify block ~ ~ ~ LootTable set value "att2:chest/reg4"
+#execute if score #Dimension CAL matches 1 run data modify block ~ ~ ~ LootTable set value "att2:chest/reg1"
+#execute if score #Dimension CAL matches 2 run data modify block ~ ~ ~ LootTable set value "att2:chest/reg2"
+#execute if score #Dimension CAL matches 3 run data modify block ~ ~ ~ LootTable set value "att2:chest/reg3"
+#execute if score #Dimension CAL matches 4 run data modify block ~ ~ ~ LootTable set value "att2:chest/reg4"
+##Throw all
+scoreboard players set #TEST CAL 0
+execute if items entity @p[distance=..10,predicate=att2_pre:score/player] armor.legs *[enchantments~[{"enchantments":"att2_enchantment:treasurehunter"}]] run function att2:gameplay/misc/chesteffect/show_chest/throw_all_loot
+##normal loot
+execute if score #TEST CAL matches 0 run function att2:gameplay/misc/chesteffect/show_chest/normal_loot
 
 ##insert quick pick-up trigger
 #execute if block ~ ~ ~ #minecraft:chest[type=left] run item replace block ~ ~ ~ container.26 with minecraft:player_head
 #execute if block ~ ~ ~ #minecraft:chest[type=left] as @p[distance=..20,predicate=att2_pre:score/player] run item modify block ~ ~ ~ container.26 att2:qucik_pick_up
-
-##test item rarity -> sound tip
-execute if items block ~ ~ ~ container.* gold_nugget[custom_data~{Rarity:cur}] run playsound minecraft:piece1 block @a ~ ~ ~ 1 1.6
-execute if items block ~ ~ ~ container.* gold_ingot[custom_data~{Rarity:cur}] run playsound minecraft:piece1 block @a ~ ~ ~ 1 1
-execute if items block ~ ~ ~ container.* diamond[custom_data~{Rarity:cur}] run playsound minecraft:piece1 block @a ~ ~ ~ 1 0.8
-execute if items block ~ ~ ~ container.* glow_ink_sac[custom_data~{Rarity:cur}] run playsound minecraft:piece1 block @a ~ ~ ~ 1 0.6
-execute if items block ~ ~ ~ container.* copper_ingot[custom_data~{Rarity:cur}] run playsound minecraft:piece1 block @a ~ ~ ~ 1 0.4
-execute if items block ~ ~ ~ container.* quartz[custom_data~{Rarity:unk}] run playsound minecraft:piece2 block @a ~ ~ ~ 1 0.8
-
-execute if items block ~ ~ ~ container.* #minecraft:chainmail run playsound item.armor.equip_chain block @a ~ ~ ~ 1 1
-execute if items block ~ ~ ~ container.* #minecraft:golden run playsound item.armor.equip_gold block @a ~ ~ ~ 1 1
-execute if items block ~ ~ ~ container.* #minecraft:leather run playsound item.armor.equip_leather block @a ~ ~ ~ 1 1
-execute if items block ~ ~ ~ container.* #minecraft:diamond run playsound item.armor.equip_diamond block @a ~ ~ ~ 1 1
-execute if items block ~ ~ ~ container.* #minecraft:netherite run playsound item.armor.equip_netherite block @a ~ ~ ~ 1 1
-execute if items block ~ ~ ~ container.* #minecraft:potion run playsound item.bottle.fill block @a ~ ~ ~ 1 1.5
-
-execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:epi}|custom_data~{Rarity:epi_set}|custom_data~{Rarity:leg}|custom_data~{Rarity:leg_armset}|custom_data~{Rarity:ult}] run playsound minecraft:entity.villager.celebrate block @a ~ ~ ~ 2 1.25
-##particle tip
-#com
-execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:com}] run particle minecraft:dust{color:[0.5,0.5,0.5],scale:1} ~ ~ ~ 0.25 0.5 0.25 0 40 normal
-#unc
-execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:unc}] run particle minecraft:dust{color:[0.0,0.6,0.0],scale:1} ~ ~ ~ 0.25 0.5 0.25 0 40 normal
-#rar    
-execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:rar}] run particle minecraft:dust{color:[0.0,0.5,1.0],scale:1} ~ ~ ~ 0.25 0.5 0.25 0 40 normal
-#epi
-execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:epi}] run particle minecraft:dust{color:[0.65,0.05,1.0],scale:1} ~ ~ ~ 0.25 0.5 0.25 0 40 normal
-#epi_set
-execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:epi_set}] run particle minecraft:dust{color:[0.45,0.0,0.55],scale:1} ~ ~ ~ 0.25 0.5 0.25 0 40 normal
-#leg
-execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:leg}] run particle minecraft:dust{color:[1,0.45,0.1],scale:1} ~ ~ ~ 0.25 0.5 0.25 0 40 normal
-#leg_armset
-execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:leg_armset}] run particle minecraft:dust{color:[0.75,0.25,0.0],scale:1} ~ ~ ~ 0.25 0.5 0.25 0 40 normal
-#ult
-execute if items block ~ ~ ~ container.* *[custom_data~{Rarity:ult}] run particle minecraft:dust{color:[0.25,1.0,0.0],scale:0.6} ~ ~ ~ 0.25 0.5 0.25 0 40 normal
 
 function att2:gameplay/dahal/action/spell34/clear_chest_marker
 

@@ -4,10 +4,7 @@
 #################################################################
 
 ##dahal_cost
-scoreboard players operation @s DAHAL -= SP11_4 DAHAL_COST
-scoreboard players operation #DAHAL_TICK_COST CAL = SP11_4 DAHAL_COST
-scoreboard players operation #DAHAL_TICK_COST CAL *= 20 CAL
-scoreboard players operation @s DAHAL_TICK -= #DAHAL_TICK_COST CAL
+scoreboard players operation @s SPELL11_COST = SP11_4 DAHAL_COST
 
 scoreboard players add @s SPELL11_LVL 1
 function att2:gameplay/dahal/bonus_xp

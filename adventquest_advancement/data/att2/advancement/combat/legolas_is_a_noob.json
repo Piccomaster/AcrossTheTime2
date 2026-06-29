@@ -3,24 +3,30 @@
         "icon": {
             "id": "minecraft:arrow"
         },
-        "title": {"translate":"att2.advancement.combat.title.legolas_is_a_noob"},
-        "description": {"translate":"att2.advancement.combat.description.legolas_is_a_noob"},
+        "title": {
+            "translate": "att2.advancement.combat.title.legolas_is_a_noob"
+        },
+        "description": {
+            "translate": "att2.advancement.combat.description.legolas_is_a_noob"
+        },
         "frame": "challenge"
     },
     "parent": "att2:combat/hunter",
     "rewards": {
         "function": "att2:advancement/exploit_75",
         "experience": 50000
-                },
+    },
     "criteria": {
         "minecraft:polar_bear": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:polar_bear"
@@ -31,10 +37,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:wolf"
@@ -45,10 +53,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:cave_spider"
@@ -59,10 +69,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:spider"
@@ -73,10 +85,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:zombified_piglin"
@@ -87,10 +101,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:zombie"
@@ -101,10 +117,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:blaze"
@@ -115,10 +133,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:creeper"
@@ -129,10 +149,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:guardian"
@@ -143,10 +165,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:ghast"
@@ -157,10 +181,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:husk"
@@ -171,10 +197,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:magma_cube"
@@ -185,10 +213,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:silverfish"
@@ -199,10 +229,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:skeleton"
@@ -213,10 +245,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:wither_skeleton"
@@ -227,10 +261,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:stray"
@@ -241,10 +277,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:slime"
@@ -255,10 +293,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:vindicator"
@@ -269,10 +309,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:vex"
@@ -283,10 +325,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:witch"
@@ -297,10 +341,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:phantom"
@@ -311,10 +357,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:pillager"
@@ -325,10 +373,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:hoglin"
@@ -339,10 +389,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:bee"
@@ -353,10 +405,12 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:arrow"
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
                         }
+                    ]
                 },
                 "entity": {
                     "type": "minecraft:drowned"

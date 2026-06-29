@@ -7,12 +7,12 @@
 #get owner
 function att2:gameplay/score/owner
 #set  MinDamage | (MaxDamage−MinDamage)[]
-scoreboard players set minDG SPDG 4
-scoreboard players set maxDG SPDG 60
+scoreboard players set minDG SPDG 5
+scoreboard players set maxDG SPDG 30
 #difficult damage
-execute if score level DIFFICULTY matches 0.. run scoreboard players add maxDG SPDG 10
-execute if score level DIFFICULTY matches 1.. run scoreboard players add maxDG SPDG 10
-execute if score level DIFFICULTY matches 2.. run scoreboard players add maxDG SPDG 10
+execute if score level DIFFICULTY matches 0.. run scoreboard players add maxDG SPDG 5
+execute if score level DIFFICULTY matches 1.. run scoreboard players add maxDG SPDG 5
+execute if score level DIFFICULTY matches 2.. run scoreboard players add maxDG SPDG 5
 #max-min
 scoreboard players operation maxDG SPDG -= minDG SPDG
 #cal  (SLCT_LVL-1)
@@ -53,6 +53,7 @@ scoreboard players set #TEST CAL 0
 function att2:gameplay/dahal/action/critical/spell7_detection
 #storage spell damage
 execute store result storage att2:sp_dmg SP7 int 1 run scoreboard players get finalDG SPDG
+#tellraw @a ["SPELL7伤害",{score:{name:"finalDG",objective:"SPDG"}}]
 #reset
 #scoreboard players reset slctlvl SPDG
 #scoreboard players reset finalDG SPDG

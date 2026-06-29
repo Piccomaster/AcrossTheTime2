@@ -7,6 +7,7 @@ execute if score Real0 TIMER matches 0 run function att2:voice/lock_voice
 
 execute if score Real0 TIMER matches 0 run tag @a remove skipDeathMalus
 execute if score Real0 TIMER matches 50 positioned 29999 73 29967 run function att2:summon/pnj/etotsira_old
+execute if score Real0 TIMER matches 50 run tp 00000000-0000-008b-0000-00000000008a 29999 73 29967 -30 0
 execute if score Real0 TIMER matches 80 run function att2:dialogs/mainquest/act_3/ch1_player_6
 execute if score Real0 TIMER matches 120 run scoreboard players set 00000000-0000-008b-0000-00000000008a TALKING 201
 execute if score Real0 TIMER matches 120 run scoreboard players set 00000000-0000-008b-0000-00000000008a TALKING_TIMER 900

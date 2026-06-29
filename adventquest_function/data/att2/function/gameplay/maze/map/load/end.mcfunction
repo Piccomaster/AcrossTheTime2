@@ -4,7 +4,7 @@
 #################################################################
 
 ##
-tellraw @a ["总计循环次数:",{score:{name:"#count",objective:"MAZE"}}]
+#tellraw @a ["总计循环次数:",{score:{name:"#count",objective:"MAZE"}}]
 execute if score #id MAZE matches 1 run data modify storage att2:maze_map maze1_data set from storage att2:maze_map temp_data
 execute if score #id MAZE matches 2 run data modify storage att2:maze_map maze2_data set from storage att2:maze_map temp_data
 execute if score #id MAZE matches 3 run data modify storage att2:maze_map maze3_data set from storage att2:maze_map temp_data

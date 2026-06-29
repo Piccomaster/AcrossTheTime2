@@ -19,4 +19,4 @@ execute if score @s MazeMapBlockId = #MazeMapBlockId MAZE run function att2:game
 #fill ~-6 ~-6 ~-6 ~6 ~6 ~6
 advancement revoke @s only att2_test:maze/set_torch
 
-execute store result score maze_torch CAL run clear @s *[custom_name={translate:'att2.misc.maze_torch.name'}] 0
+#execute store result score maze_torch CAL run clear @s *[custom_name={translate:'att2.misc.maze_torch.name'}] 0

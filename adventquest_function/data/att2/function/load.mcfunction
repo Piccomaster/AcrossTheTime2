@@ -3,6 +3,8 @@
 #load function use "/reload" to trigger                         #
 #################################################################
 
+##update datapacks
+execute unless score Mainquest SIDEQUEST matches 1.. run datapack disable "file/adventquest_dialog"
 ##gamerule
 gamerule max_command_forks 100000
 gamerule max_command_sequence_length 100000
@@ -97,6 +99,27 @@ scoreboard players set lvl8 SPELL41_HER 8
 scoreboard players set lvl9 SPELL41_HER 9
 scoreboard players set lvl10 SPELL41_HER 10
 
+scoreboard players set lvl1_remove SPELL45_HER 20000
+scoreboard players set lvl2_remove SPELL45_HER 20000
+scoreboard players set lvl3_remove SPELL45_HER 25000
+scoreboard players set lvl4_remove SPELL45_HER 25000
+scoreboard players set lvl5_remove SPELL45_HER 30000
+scoreboard players set lvl6_remove SPELL45_HER 30000
+scoreboard players set lvl7_remove SPELL45_HER 35000
+scoreboard players set lvl8_remove SPELL45_HER 35000
+scoreboard players set lvl9_remove SPELL45_HER 40000
+scoreboard players set lvl10_remove SPELL45_HER 40000
+
+scoreboard players set lvl1 SPELL45_HER -3
+scoreboard players set lvl2 SPELL45_HER -2
+scoreboard players set lvl3 SPELL45_HER -4
+scoreboard players set lvl4 SPELL45_HER -3
+scoreboard players set lvl5 SPELL45_HER -4
+scoreboard players set lvl6 SPELL45_HER -3
+scoreboard players set lvl7 SPELL45_HER -4
+scoreboard players set lvl8 SPELL45_HER -3
+scoreboard players set lvl9 SPELL45_HER -2
+scoreboard players set lvl10 SPELL45_HER -2
 
 ##cal all dailyquest
 scoreboard players operation dailyquest_completed_count DAILYQUEST = eolorion_dailyquest_completed_count DAILYQUEST
@@ -142,3 +165,8 @@ scoreboard objectives add HORSE_USE_COUNT dummy
 gamerule max_block_modifications 77777
 
 function att2:gameplay/maze/map/initialize
+
+effect clear @a health_boost
+
+team add black
+team modify black color black

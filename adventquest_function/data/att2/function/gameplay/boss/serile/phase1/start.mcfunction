@@ -13,6 +13,7 @@ kill 00000000-0000-001a-0000-00000000001a
 execute positioned 2112 85 1944 run function att2:summon/reg_1/serile_boss
 execute positioned 2112 85 1944 run function att2:summon/reg_1/serile_sphere9
 execute as 00000000-0000-022b-0000-00000000009b at @s run data merge entity @s {Invulnerable:1b}
+scoreboard players set OnceHealth SERILE 0
 scoreboard players set @a MUSIC_BOSS 0
 scoreboard players set Phase1 SERILE 0
 scoreboard players set Sphere_pos SERILE 20

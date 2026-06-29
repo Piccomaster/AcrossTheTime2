@@ -3,6 +3,7 @@
 #damage go          											#
 #################################################################
 
+scoreboard players set #TEST CAL 1
 #damage
 damage @s 0 att2_damage:magic by @p[predicate=att2_pre:score/player]
 
@@ -10,8 +11,6 @@ damage @s 0 att2_damage:magic by @p[predicate=att2_pre:score/player]
 execute as @s[tag=FB_DAHAL] run return fail
 
 function att2:gameplay/dahal/action/spell11/damage_effect
-#reset dahal burst score
-scoreboard players set @p[scores={DAHALBURST=1..},predicate=att2_pre:score/player] DAHALBURST -1
 
 ##detection health
 function att2:gameplay/enemy_health/spell_health_trigger

@@ -11,7 +11,7 @@ scoreboard players set meleim_dailyquest_4_timer DAILYQUEST 72000
 
 scoreboard players set meleim_dailyquest_4_rewards_chronoton DAILYQUEST 500
 scoreboard players set meleim_dailyquest_4_rewards_xp DAILYQUEST 2000
-scoreboard players set meleim_dailyquest_4_rewards_reputation DAILYQUEST 5
+scoreboard players set meleim_dailyquest_4_rewards_reputation DAILYQUEST 3
 scoreboard players set meleim_dailyquest_4_rewards_city_donation DAILYQUEST 20
 
 scoreboard players set meleim_dailyquest_4_fail_chronoton DAILYQUEST 100

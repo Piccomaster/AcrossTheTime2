@@ -4,4 +4,5 @@
 #############################################
 
 
+title @a times 10 40t 10
 title @a title {text:"_.-*° ",color:"dark_red",extra:[{text:"Act 3",color:"gray","underlined":true},{text:" | ",color:"dark_red","bold":true},{text:"Chp 1",color:"gray","underlined":true},{text:" °*-._",color:"dark_red"}]}

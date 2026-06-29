@@ -60,6 +60,12 @@ execute if score #total_item RUNECOUNT matches 5 \
 if score #epi_potion CAL matches 4 \
 if score #leg_potion RUNECOUNT matches 1 \
 run return run function att2:gameplay/runes/recipes_test/item_reforging/potion/epi_leg
+##leg_ult
+#get all epi
+execute if score #total_item RUNECOUNT matches 5 \
+if score #leg_potion CAL matches 4 \
+if score #ult_potion RUNECOUNT matches 1 \
+run return run function att2:gameplay/runes/recipes_test/item_reforging/potion/leg_ult
 
 ####equipment reforging
 #get all epi

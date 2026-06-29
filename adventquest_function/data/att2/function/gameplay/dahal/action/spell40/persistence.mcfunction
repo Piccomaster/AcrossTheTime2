@@ -15,34 +15,34 @@ scoreboard players operation @s[scores={SPELL40_CAP=8}] SPELL40_COST = SP11_8 DA
 scoreboard players operation @s[scores={SPELL40_CAP=9}] SPELL40_COST = SP11_9 DAHAL_COST
 scoreboard players operation @s[scores={SPELL40_CAP=10}] SPELL40_COST = SP11_10 DAHAL_COST
 
-execute as @s[scores={SPELL40_CAP=1,DAHAL=..34}] run function att2:gameplay/dahal/action/spell40/stop
+execute as @s[scores={SPELL40_CAP=1..,DAHAL=..1}] run function att2:gameplay/dahal/action/spell40/stop
 execute as @s[scores={SPELL40_CAP=1,DAHAL=35..}] run function att2:gameplay/dahal/action/spell40/lvl1
 
-execute as @s[scores={SPELL40_CAP=2,DAHAL=..33}] run function att2:gameplay/dahal/action/spell40/stop
+#execute as @s[scores={SPELL40_CAP=2,DAHAL=..33}] run function att2:gameplay/dahal/action/spell40/stop
 execute as @s[scores={SPELL40_CAP=2,DAHAL=34..}] run function att2:gameplay/dahal/action/spell40/lvl2
 
-execute as @s[scores={SPELL40_CAP=3,DAHAL=..32}] run function att2:gameplay/dahal/action/spell40/stop
+#execute as @s[scores={SPELL40_CAP=3,DAHAL=..32}] run function att2:gameplay/dahal/action/spell40/stop
 execute as @s[scores={SPELL40_CAP=3,DAHAL=33..}] run function att2:gameplay/dahal/action/spell40/lvl3
 
-execute as @s[scores={SPELL40_CAP=4,DAHAL=..30}] run function att2:gameplay/dahal/action/spell40/stop
+#execute as @s[scores={SPELL40_CAP=4,DAHAL=..30}] run function att2:gameplay/dahal/action/spell40/stop
 execute as @s[scores={SPELL40_CAP=4,DAHAL=31..}] run function att2:gameplay/dahal/action/spell40/lvl4
 
-execute as @s[scores={SPELL40_CAP=5,DAHAL=..29}] run function att2:gameplay/dahal/action/spell40/stop
+#execute as @s[scores={SPELL40_CAP=5,DAHAL=..29}] run function att2:gameplay/dahal/action/spell40/stop
 execute as @s[scores={SPELL40_CAP=5,DAHAL=30..}] run function att2:gameplay/dahal/action/spell40/lvl5
 
-execute as @s[scores={SPELL40_CAP=6,DAHAL=..27}] run function att2:gameplay/dahal/action/spell40/stop
+#execute as @s[scores={SPELL40_CAP=6,DAHAL=..27}] run function att2:gameplay/dahal/action/spell40/stop
 execute as @s[scores={SPELL40_CAP=6,DAHAL=28..}] run function att2:gameplay/dahal/action/spell40/lvl6
 
-execute as @s[scores={SPELL40_CAP=7,DAHAL=..26}] run function att2:gameplay/dahal/action/spell40/stop
+#execute as @s[scores={SPELL40_CAP=7,DAHAL=..26}] run function att2:gameplay/dahal/action/spell40/stop
 execute as @s[scores={SPELL40_CAP=7,DAHAL=27..}] run function att2:gameplay/dahal/action/spell40/lvl7
 
-execute as @s[scores={SPELL40_CAP=8,DAHAL=..24}] run function att2:gameplay/dahal/action/spell40/stop
+#execute as @s[scores={SPELL40_CAP=8,DAHAL=..24}] run function att2:gameplay/dahal/action/spell40/stop
 execute as @s[scores={SPELL40_CAP=8,DAHAL=25..}] run function att2:gameplay/dahal/action/spell40/lvl8
 
-execute as @s[scores={SPELL40_CAP=9,DAHAL=..22}] run function att2:gameplay/dahal/action/spell40/stop
+#execute as @s[scores={SPELL40_CAP=9,DAHAL=..22}] run function att2:gameplay/dahal/action/spell40/stop
 execute as @s[scores={SPELL40_CAP=9,DAHAL=23..}] run function att2:gameplay/dahal/action/spell40/lvl9
 
-execute as @s[scores={SPELL40_CAP=10,DAHAL=..20}] run function att2:gameplay/dahal/action/spell40/stop
+#execute as @s[scores={SPELL40_CAP=10,DAHAL=..20}] run function att2:gameplay/dahal/action/spell40/stop
 execute as @s[scores={SPELL40_CAP=10,DAHAL=21..}] run function att2:gameplay/dahal/action/spell40/lvl10
 
 #xp-cal

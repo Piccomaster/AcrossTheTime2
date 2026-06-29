@@ -28,9 +28,5 @@ execute positioned -5602 80.5 -4952 as @e[type=minecraft:marker,tag=RunicTrial,d
 function att2:gameplay/runictrials/23/end_door_opened
 
 # dark resin spawned
+scoreboard players set #C CAL 10
 execute positioned -5602 40 -5122 run function att2:gameplay/runictrials/dark_resin_spawned
-
-##more reward
-execute positioned -5602 40 -5122 run function att2:summon/bat_chest_loot_experience_bottle {C:8,T:8,Reg:Reg1,Time:40}
-execute positioned -5602 40 -5122 run function att2:summon/bat_chest_loot_experience_bottle {C:8,T:8,Reg:Reg1,Time:40}
-execute positioned -5602 40 -5122 run function att2:summon/bat_chest_loot_experience_bottle {C:8,T:8,Reg:Reg1,Time:40}

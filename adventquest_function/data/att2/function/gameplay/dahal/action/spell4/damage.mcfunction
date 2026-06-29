@@ -5,7 +5,7 @@
 
 #small particle
 execute at @s run particle minecraft:end_rod ~ ~1 ~ 0 0 0 0.1 5 normal
-
+execute at @s run particle minecraft:flash{color:[1,1,1,1]} ~ ~ ~ 0 0 0 0.1 1 normal
 #damage
 tag @s add SP4_ATKED
 

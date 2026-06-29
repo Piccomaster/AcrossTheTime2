@@ -58,16 +58,16 @@ scoreboard players operation @s remain_time = lvl10 COOLDOWN28
 function att2:gameplay/dahal/action/cooldown_cal_remain
 scoreboard players operation COOLDOWN_LVL10 SPELL_DATA = @s remain_time
 #power cal
-scoreboard players set DAMAGE_LVL1 SPELL_DATA 2
-scoreboard players set DAMAGE_LVL2 SPELL_DATA 4
-scoreboard players set DAMAGE_LVL3 SPELL_DATA 6
-scoreboard players set DAMAGE_LVL4 SPELL_DATA 8
-scoreboard players set DAMAGE_LVL5 SPELL_DATA 10
-scoreboard players set DAMAGE_LVL6 SPELL_DATA 12
-scoreboard players set DAMAGE_LVL7 SPELL_DATA 14
-scoreboard players set DAMAGE_LVL8 SPELL_DATA 16
-scoreboard players set DAMAGE_LVL9 SPELL_DATA 18
-scoreboard players set DAMAGE_LVL10 SPELL_DATA 20
+scoreboard players set DAMAGE_LVL1 SPELL_DATA 1
+scoreboard players set DAMAGE_LVL2 SPELL_DATA 2
+scoreboard players set DAMAGE_LVL3 SPELL_DATA 3
+scoreboard players set DAMAGE_LVL4 SPELL_DATA 4
+scoreboard players set DAMAGE_LVL5 SPELL_DATA 5
+scoreboard players set DAMAGE_LVL6 SPELL_DATA 6
+scoreboard players set DAMAGE_LVL7 SPELL_DATA 7
+scoreboard players set DAMAGE_LVL8 SPELL_DATA 8
+scoreboard players set DAMAGE_LVL9 SPELL_DATA 9
+scoreboard players set DAMAGE_LVL10 SPELL_DATA 10
 
 ##reset
 scoreboard players set #DATA_CAL CAL 0

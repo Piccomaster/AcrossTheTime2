@@ -4,7 +4,7 @@
 #################################################################
 
 ##limit
-execute positioned ~ ~-1 ~ if entity @e[distance=..1,type=shulker,tag=elytra_racing_marker,scores={LIFETIME=100..}] run return fail
+execute if entity @e[distance=..5,type=shulker,tag=elytra_racing_marker,scores={LIFETIME=100..}] run return fail
 
 execute if score @s SPELL34_SLCT matches 1 unless score @s LIMIT77 matches 7.. as @s[distance=..10] run summon minecraft:shulker ~ ~-1 ~ {Tags:["New","elytra_racing_marker"],NoAI:1,Silent:1,PersistenceRequired:1,attributes:[{id:attack_damage,base:0.0},{id:max_health,base:10.0}],Health:10,active_effects:[{id:invisibility,amplifier:1,duration:-1,show_particles:false},{id:glowing,amplifier:0,duration:-1,show_particles:false}],DeathLootTable:"att2:empty",equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/dahal/spell34":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}}}
 execute if score @s SPELL34_SLCT matches 1 unless score @s LIMIT77 matches 8.. as @s[distance=..10] run scoreboard players add @s LIMIT77 1

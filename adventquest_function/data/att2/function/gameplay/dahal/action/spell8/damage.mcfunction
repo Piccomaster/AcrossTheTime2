@@ -5,7 +5,8 @@
 
 #damage
 damage @s 0 att2_damage:magic by @p[predicate=att2_pre:score/player]
-
+particle minecraft:explosion ~ ~1 ~ 0.1 0.1 0.1 0.1 3 normal
+particle minecraft:flash{color:[1,1,1,1]} ~ ~1 ~ 0.1 0.1 0.1 0.1 1 normal
 ##limit
 execute as @s[tag=FB_DAHAL] run return fail
 

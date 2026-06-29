@@ -49,7 +49,7 @@ execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {
 #19 Mot Syl Kan Xul Zen
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {equipment:{mainhand:{id:"minecraft:snort_pottery_sherd",components:{"minecraft:custom_name":{translate:'item.runeword.19.name'}}}}} run function att2:gameplay/runes/runicwords_name/19_mot_syl_kan_xul_zen
 #mot
-execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {equipment:{mainhand:{id:"minecraft:glowstone_dust",components:{EquipmentType:"runic_word"}}}} run function att2:gameplay/runes/runicwords_name/incompleted
+execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if items entity @s weapon.mainhand glowstone_dust[custom_name={translate:item.runeword.empty.name}] run function att2:gameplay/runes/runicwords_name/incompleted
 #re cal
 
 scoreboard players operation @s MAX_HEALTH = #BonusHealthMax RUNE

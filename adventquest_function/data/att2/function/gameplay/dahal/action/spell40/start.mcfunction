@@ -9,6 +9,7 @@ scoreboard players set DAHAL_TEST CAL 1
 function att2:gameplay/dahal/action/spell40/cooldown
 tag @s add Corrupted
 scoreboard players remove @s DAHAL 100
+scoreboard players remove @s DAHAL_TICK 2000
 
 stopsound @s[tag=Corrupted,scores={MUSIC_BOSS=0},tag=!SPELL40_MUSIC_LIMIT] music
 ##re start MUSIC

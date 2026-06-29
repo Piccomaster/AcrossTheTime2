@@ -12,10 +12,10 @@ execute if score @s SUMMON_TIMER matches 60 at @s run summon minecraft:ender_pea
 execute if score @s SUMMON_TIMER matches 40 unless entity @s[tag=KeepOriginalData] unless entity @s[tag=RecyclerSpell] run effect give @s minecraft:glowing 2 1 true
 execute if score @s SUMMON_TIMER matches 1..5 at @s positioned ~ ~1 ~ run kill @e[type=ender_pearl,distance=..5]
 execute if score @s SUMMON_TIMER matches 1 unless entity @s[tag=KeepOriginalData] run data merge entity @s {NoAI:0b,Invulnerable:0b}
-
+scoreboard players set @s DAMAGEREDUCE 100
 ##remove score
 execute unless score @s SUMMON_TIMER matches ..0 run return run scoreboard players remove @s SUMMON_TIMER 1
-
+scoreboard players set @s DAMAGEREDUCE 0
 ##clear enchantment tick
 ##add enchantment tick
 item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/misc/summon":0}}

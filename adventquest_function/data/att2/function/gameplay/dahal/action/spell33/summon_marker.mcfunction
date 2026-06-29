@@ -8,5 +8,5 @@ summon minecraft:armor_stand ~ ~2 ~ {Marker:1,Invisible:1b,Tags:["Spell33","Mark
 
 scoreboard players operation @n[distance=..10,type=armor_stand,tag=NewInvo,tag=Spell33,tag=Marker] CRT_TOT = @s CRT_TOT
 scoreboard players operation @n[distance=..10,type=armor_stand,tag=NewInvo,tag=Spell33,tag=Marker] SPELL33_SLCT = @s SPELL33_SLCT
-scoreboard players operation @n[distance=..10,type=armor_stand,tag=NewInvo,tag=Spell33,tag=Marker] SPELL33_CAP = @s SPELL33_CAP
+#scoreboard players operation @n[distance=..10,type=armor_stand,tag=NewInvo,tag=Spell33,tag=Marker] SPELL33_CAP = @s SPELL33_CAP
 scoreboard players operation @n[distance=..10,type=armor_stand,tag=NewInvo,tag=Spell33,tag=Marker] OWNER = @s NUMEROJOUEUR

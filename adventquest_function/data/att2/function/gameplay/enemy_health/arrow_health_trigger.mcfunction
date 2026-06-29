@@ -37,6 +37,6 @@ execute as @s[type=!bat] at @s run function att2:gameplay/enemy_health/show_heal
 ##update healthbar
 function att2:gameplay/healthbar/detection_enemy
 execute if score @s ENEMYHEALTH matches ..0 run function att2:gameplay/enemy_health/kill_trigger/arrow
-execute if score @s ENEMYHEALTH matches ..0 run function att2:gameplay/enemy_health/kill
+#execute if score @s ENEMYHEALTH matches ..0 run function att2:gameplay/enemy_health/kill
 ##sync health
 #execute store result entity @s Health int 1 run scoreboard players get @s ENEMYHEALTH

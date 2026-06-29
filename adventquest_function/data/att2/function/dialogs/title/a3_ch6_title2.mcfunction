@@ -4,6 +4,7 @@
 #############################################
 
 
+title @a times 10 40t 10
 #FRENCH LANGUAGE
 
 title @a[scores={LANGUAGE=0}] title {text:"_ ","italic":true,color:"dark_red","obfuscated":true,extra:[{text:"Le lendemain","obfuscated":false,color:"gray"},{text:" _",color:"dark_red"}]}

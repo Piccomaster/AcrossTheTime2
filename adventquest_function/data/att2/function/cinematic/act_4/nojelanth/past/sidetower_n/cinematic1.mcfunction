@@ -4,6 +4,7 @@
 #####################################################
 
 execute if score Real0 TIMER matches 1..180 run function att2:gameplay/speceffect/disincarnate/keep/real0
+execute if score Real0 TIMER matches 1 run function att2:cinematic/act_4/nojelanth/past/sidetower_n/secret
 execute if score Real0 TIMER matches 1 run data modify storage att2:performance rotation set value [-90,45]
 
 execute if score Real0 TIMER matches 1 positioned -7544 145 -4317 as @a[x=-7544,y=143,z=-4317,distance=..100] run function att2:gameplay/speceffect/disincarnate/start/real0

@@ -6,7 +6,6 @@
 ##tpTo the Void
 #execute as @e[type=chest_minecart,tag=Stock,predicate=att2_pre:score/owner] run tellraw @a ["SILE",{score:{name:"@s",objective:"OWNER"}}]
 data remove entity @n[type=chest_minecart,tag=Stock,predicate=att2_pre:score/owner] Items
-tp @e[type=chest_minecart,tag=Stock,predicate=att2_pre:score/owner] ~ 0 ~
 ##killInteractive Entity
 kill @e[type=interaction,tag=Stock,predicate=att2_pre:score/owner]
 ##killRansel

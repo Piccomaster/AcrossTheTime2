@@ -4,7 +4,7 @@
 #############################################
 
 execute as @a run function att2:sound/misc/title
-
+title @a times 10 40t 10
 
 #FRENCH LANGUAGE
 

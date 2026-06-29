@@ -13,9 +13,9 @@ scoreboard players set #test CAL 0
 execute if score #equipment_id CAL matches 11..18 run scoreboard players set #test CAL 1
 execute if score #equipment_id CAL matches 34..35 run scoreboard players set #test CAL 1
 execute if score #equipment_id CAL matches 40..41 run scoreboard players set #test CAL 1
-execute if score #equipment_id CAL matches 46 run scoreboard players set #test CAL 1
 execute if score #equipment_id CAL matches 50..51 run scoreboard players set #test CAL 1
 execute if score #equipment_id CAL matches 56 run scoreboard players set #test CAL 1
 execute if score #equipment_id CAL matches 60 run scoreboard players set #test CAL 1
+execute if score #equipment_id CAL matches 70..75 run scoreboard players set #test CAL 1
 execute if score #test CAL matches 1 run function att2:gameplay/runes/recipe_done
 execute if score #test CAL matches 1 run return run loot spawn -5029 91 -4958 loot att2:item_data/random_item/potion/unc

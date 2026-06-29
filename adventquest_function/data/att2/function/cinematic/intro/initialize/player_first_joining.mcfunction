@@ -5,7 +5,7 @@
 
 ##limit
 execute if score @s NUMEROJOUEUR matches 1.. run return fail
-
+xp add @s -10000    
 ##set base checkpoint
 spawnpoint @s 794 80 900 180 0
 
@@ -28,6 +28,8 @@ advancement revoke @s only att2_test:score_trigger
 
 ##tp
 
+##dialog limit
+execute unless score Mainquest SIDEQUEST matches 1.. run datapack disable "file/adventquest_dialog"
 ##mainquest
 execute unless score Mainquest SIDEQUEST matches 1.. if score update INTRO matches 1.. run tp @s 795 81 927 180 0
 

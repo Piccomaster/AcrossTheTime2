@@ -34,10 +34,10 @@ execute if score Real2 TIMER matches 200..253 run particle minecraft:dust{color:
 execute if score Real2 TIMER matches 200..253 run particle minecraft:dust{color:[0.05,0,0.2],scale:1.3} -4361 75 -5115 5 4 0 0 15 normal
 execute if score Real2 TIMER matches 200..253 run particle minecraft:dust{color:[0.15,0.1,0.4],scale:1.3} -4361 75 -5115 5 4 0 0 15 normal
 execute if score Real2 TIMER matches 250 run function att2:cinematic/act_2/corruption/schestrown_ruin/action_2
+execute if score Real2 TIMER matches 252.. unless entity @a[x=-4371,y=71,z=-5115,dx=21,dy=10,dz=31] run function att2:cinematic/act_2/corruption/schestrown_ruin/action_3
 execute if score Real2 TIMER matches 252.. if entity @a[x=-4371,y=71,z=-5115,dx=21,dy=10,dz=31] unless entity @e[x=-4371,y=71,z=-5115,dx=21,dy=10,dz=31,type=minecraft:zombified_piglin] run function att2:cinematic/act_2/corruption/schestrown_ruin/action_3
 execute if score Real2 TIMER matches 350 run function att2:dialogs/mainquest/act_2/corruption/schestrown_player_2
 execute if score Real2 TIMER matches 400 as @a[tag=CorruptionEffect] at @s run function att2:gameplay/speceffect/corruption/end
-execute if score Real2 TIMER matches 500 run function att2:cinematic/act_2/corruption/schestrown_ruin/action_3
 execute if score Real2 TIMER matches 253..501 run function att2:cinematic/real2_iteration
 
 #=======================#

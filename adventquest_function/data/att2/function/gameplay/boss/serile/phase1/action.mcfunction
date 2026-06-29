@@ -97,5 +97,5 @@ execute if score Timer2 SERILE matches 400 as 00000000-0000-022b-0000-0000000002
 execute if score Timer2 SERILE matches 500.. as 00000000-0000-022b-0000-00000000022b at @s run function att2:gameplay/boss/serile/phase1/events/ambush_ending
 
 execute if score Timer3 SERILE matches 0..99 run scoreboard players add Timer3 SERILE 1
-execute if score Timer3 SERILE matches 50 as 00000000-0000-022b-0000-00000000009b at @s run effect give @s minecraft:instant_health 1 0 true
+execute if score Timer3 SERILE matches 50 as 00000000-0000-022b-0000-00000000009b at @s run scoreboard players add @s ENEMYHEALTH 6
 execute if score Timer3 SERILE matches 100.. run scoreboard players set Timer3 SERILE 0

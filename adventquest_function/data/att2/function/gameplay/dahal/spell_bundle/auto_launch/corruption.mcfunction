@@ -7,8 +7,8 @@
 execute as @s[tag=Corrupted] at @s run return run scoreboard players add @s Spell_Bundle 1
 
 ##test if dahal max not enough -> skip
-scoreboard players set #Dahal_Max_test CAL 100
-scoreboard players operation #Dahal_Max_test CAL += @s SPELL40_COST
+scoreboard players set #Dahal_Max_test CAL 150
+#scoreboard players operation #Dahal_Max_test CAL += @s SPELL40_COST
 
 ##test if success
 execute if score @s DAHAL >= #Dahal_Max_test CAL run scoreboard players add @s Spell_Bundle 1

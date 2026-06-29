@@ -35,7 +35,7 @@ execute if entity @a[x=1543.0,y=25,z=1495.0,distance=..35,gamemode=adventure] st
 # Enable Bossbar storing Timer
 execute if entity @a[x=1543.0,y=25,z=1495.0,distance=..35,gamemode=adventure] store result bossbar minecraft:serile_timer value run scoreboard players get 00000000-0000-022b-0000-00000000010b ENEMYHEALTH
 execute if entity @a[x=1543.0,y=25,z=1495.0,distance=..35,gamemode=adventure] store result bossbar minecraft:serile_timer max run attribute 00000000-0000-022b-0000-00000000010b max_health get
-execute if entity @a[x=1543.0,y=25,z=1495.0,distance=..35,gamemode=adventure] store result score 00000000-0000-022b-0000-00000000010b SERILE run data get entity 00000000-0000-022b-0000-00000000010b Health 1
+execute if entity @a[x=1543.0,y=25,z=1495.0,distance=..35,gamemode=adventure] store result score 00000000-0000-022b-0000-00000000010b SERILE run scoreboard players get 00000000-0000-022b-0000-00000000010b ENEMYHEALTH
 bossbar set minecraft:serile_timer visible false
 bossbar set minecraft:serile_timer visible true
 

@@ -8,11 +8,11 @@
 function att2:gameplay/score/owner
 #set  MinDamage | (MaxDamage−MinDamage)[]
 scoreboard players set minDG SPDG 40
-scoreboard players set maxDG SPDG 120
+scoreboard players set maxDG SPDG 140
 #difficult damage
-execute if score level DIFFICULTY matches 0.. run scoreboard players add maxDG SPDG 20
-execute if score level DIFFICULTY matches 1.. run scoreboard players add maxDG SPDG 20
-execute if score level DIFFICULTY matches 2.. run scoreboard players add maxDG SPDG 20
+execute if score level DIFFICULTY matches 0.. run scoreboard players add maxDG SPDG 10
+execute if score level DIFFICULTY matches 1.. run scoreboard players add maxDG SPDG 10
+execute if score level DIFFICULTY matches 2.. run scoreboard players add maxDG SPDG 10
 #max-min
 scoreboard players operation maxDG SPDG -= minDG SPDG
 #cal  (SLCT_LVL-1)

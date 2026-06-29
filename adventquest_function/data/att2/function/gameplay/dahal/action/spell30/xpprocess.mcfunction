@@ -16,7 +16,7 @@ scoreboard players operation total SPELL30 += ult SPELL30
 
 ##cal xp add
 scoreboard players operation #Spell30_xp CAL = total SPELL30
-scoreboard players operation #Spell30_xp CAL /= 1000 CAL
+scoreboard players operation #Spell30_xp CAL /= 500 CAL
 scoreboard players operation @s SPELL30_LVL += #Spell30_xp CAL
 
 execute if score @s SURVIVEBONUS matches 1 run scoreboard players operation total SPELL30 *= 5 CAL

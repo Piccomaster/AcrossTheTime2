@@ -1,0 +1,48 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.minecraft.flame"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected":"victim",
+        "enchanted":"attacker",
+        "effect": {
+          "type": "minecraft:ignite",
+          "duration": {
+            "type": "linear",
+            "base": 5,
+            "per_level_above_first": 5
+          }
+        }
+      }
+    ],
+    "minecraft:projectile_spawned": [
+      {
+        "effect": {
+          "type": "minecraft:ignite",
+          "duration": {
+            "type": "linear",
+            "base": 100,
+            "per_level_above_first": 100
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "max_level": 200,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/bow",
+  "weight": 2
+}

@@ -21,16 +21,16 @@ execute unless entity @p[distance=..50] as @s[tag=Show] run function att2:gamepl
 
 
 ##update light
-execute if score @s SPELL33_CAP matches 1 run function att2:gameplay/dahal/action/spell33/light/lvl1
-execute if score @s SPELL33_CAP matches 2 run function att2:gameplay/dahal/action/spell33/light/lvl2
-execute if score @s SPELL33_CAP matches 3 run function att2:gameplay/dahal/action/spell33/light/lvl3
-execute if score @s SPELL33_CAP matches 4 run function att2:gameplay/dahal/action/spell33/light/lvl4
-execute if score @s SPELL33_CAP matches 5 run function att2:gameplay/dahal/action/spell33/light/lvl5
-execute if score @s SPELL33_CAP matches 6 run function att2:gameplay/dahal/action/spell33/light/lvl6
-execute if score @s SPELL33_CAP matches 7 run function att2:gameplay/dahal/action/spell33/light/lvl7
-execute if score @s SPELL33_CAP matches 8 run function att2:gameplay/dahal/action/spell33/light/lvl8
-execute if score @s SPELL33_CAP matches 9 run function att2:gameplay/dahal/action/spell33/light/lvl9
-execute if score @s SPELL33_CAP matches 10 run function att2:gameplay/dahal/action/spell33/light/lvl10
+execute if score @s SPELL33_SLCT matches 1 run function att2:gameplay/dahal/action/spell33/light/lvl1
+execute if score @s SPELL33_SLCT matches 2 run function att2:gameplay/dahal/action/spell33/light/lvl2
+execute if score @s SPELL33_SLCT matches 3 run function att2:gameplay/dahal/action/spell33/light/lvl3
+execute if score @s SPELL33_SLCT matches 4 run function att2:gameplay/dahal/action/spell33/light/lvl4
+execute if score @s SPELL33_SLCT matches 5 run function att2:gameplay/dahal/action/spell33/light/lvl5
+execute if score @s SPELL33_SLCT matches 6 run function att2:gameplay/dahal/action/spell33/light/lvl6
+execute if score @s SPELL33_SLCT matches 7 run function att2:gameplay/dahal/action/spell33/light/lvl7
+execute if score @s SPELL33_SLCT matches 8 run function att2:gameplay/dahal/action/spell33/light/lvl8
+execute if score @s SPELL33_SLCT matches 9 run function att2:gameplay/dahal/action/spell33/light/lvl9
+execute if score @s SPELL33_SLCT matches 10 run function att2:gameplay/dahal/action/spell33/light/lvl10
 
 ##attack effect
 execute unless score tic TIMECOUNTER matches 1 run return fail
@@ -53,7 +53,7 @@ execute unless function att2:gameplay/dahal/action/spell33/detection_dahal run r
 summon armor_stand ~ ~0.5 ~ {Tags:["New","Spell33","ATK"],Marker:true,Invisible:true,equipment:{head:{id:"diamond_helmet",components:{enchantments:{"att2_enchantment:tick/dahal/spell33":1},attribute_modifiers:[],unbreakable:{},item_model:"nothing",equippable:{slot:head}}}},attributes:[{id:scale,base:0.01}]}
 
 ##sync cap
-scoreboard players operation @n[distance=..2,type=armor_stand,tag=New,tag=Spell33,tag=ATK] SPELL33_SLCT = @s SPELL33_CAP
+scoreboard players operation @n[distance=..2,type=armor_stand,tag=New,tag=Spell33,tag=ATK] SPELL33_SLCT = @s SPELL33_SLCT
 scoreboard players operation @n[distance=..2,type=armor_stand,tag=New,tag=Spell33,tag=ATK] CRT_TOT = @s CRT_TOT
 scoreboard players operation @n[distance=..2,type=armor_stand,tag=New,tag=Spell33,tag=ATK] OWNER = @s OWNER
 ##remove tag

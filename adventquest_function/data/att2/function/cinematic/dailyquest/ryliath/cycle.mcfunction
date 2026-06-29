@@ -9,7 +9,7 @@ execute if score ryliath_cycle_time DAILYQUEST matches 1.. run scoreboard player
 execute unless score ryliath_cycle_time DAILYQUEST matches 1.. run function att2:cinematic/dailyquest/ryliath/update_score
 ##if player nearly -> update
 execute unless entity @a[distance=..20] run return 0
-
+execute if score tic TIMECOUNTER matches 1 positioned -4936.97 78.50 -5026.50 run kill @e[distance=..5,type=painting]
 ##reward limit
 execute if score ffffecb5-0000-0050-ffff-ec5c00000001 DAILYQUEST matches 1.. run function att2:cinematic/dailyquest/ryliath/summon_reward_block
 execute if score ryliath_city_donation_accumulated_value DAILYQUEST matches 1.. positioned -4939 77 -5031 unless block ~ ~ ~ minecraft:decorated_pot run function att2:cinematic/dailyquest/ryliath/reward_trigger

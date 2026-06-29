@@ -28,6 +28,8 @@ execute if items entity @s container.0 shulker_shell[!custom_data] run return ru
 #modify Invulnerable
 data modify entity @s Invulnerable set value true
 
+##tag add
+tag @s add Done
 ####item rarity set
 
 #set item name

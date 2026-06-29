@@ -18,7 +18,7 @@ scoreboard players operation #xp CAL += #LEVELMASTER CAL
 scoreboard players operation #xp CAL += #LEVELETERNAN CAL
 execute store result storage att2:score xp int 1 run scoreboard players get #xp CAL
 ##reward xp
-execute as @p[distance=..5] at @s run function att2:items/xp/xp_add_maco_recipe with storage att2:score
+execute as @p[distance=..5] at @s run function att2:items/xp/xp_add_maco with storage att2:score
 ##reward esc/chronotons
 execute as @p[distance=..5,scores={GAMELEVEL=0..}] run function att2:summon/chronoton/small
 execute as @p[distance=..5,scores={GAMELEVEL=0..}] run function att2:summon/chronoton/small

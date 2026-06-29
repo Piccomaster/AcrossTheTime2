@@ -37,6 +37,7 @@ team add detect_secret
 team add detect_symbol
 team add detect_chest
 team add detect_minerals_runes
+team add black
 team modify detect_quest color dark_red
 team modify detect_npc color red
 team modify detect_panorama color dark_blue
@@ -45,6 +46,7 @@ team modify detect_secret color dark_purple
 team modify detect_symbol color light_purple
 team modify detect_chest color gray
 team modify detect_minerals_runes color yellow
+team modify black color black
 
 #set cooldown score | cooldown/200 -> second
 scoreboard players set lvl1 COOLDOWN34 2000
