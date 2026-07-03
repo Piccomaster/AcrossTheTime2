@@ -1,7 +1,7 @@
 #########################################################################
 #Made by Adventquest													#
-#Process section 18 opening	                                            #
+#Process section 19 opening	                                            #
 #########################################################################
 
-fill -5015 154 -4754 -5015 156 -4752 minecraft:air
+fill  minecraft:air
 function att2:gameplay/cinematic/misc/trial_dungeon/section_opening
