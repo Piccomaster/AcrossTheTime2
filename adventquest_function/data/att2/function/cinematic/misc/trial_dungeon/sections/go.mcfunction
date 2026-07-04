@@ -66,6 +66,9 @@ execute if score section17 TRIAL_DUNGEON matches 1 run function att2:gameplay/ci
 execute if score section18 TRIAL_DUNGEON matches 0 run function att2:gameplay/cinematic/misc/trial_dungeon/sections/18/trigger
 execute if score section18 TRIAL_DUNGEON matches 0 if score targets TRIAL_DUNGEON matches 5.. run function att2:gameplay/cinematic/misc/trial_dungeon/sections/18/targets_end
 execute if score section18 TRIAL_DUNGEON matches 1 run function att2:gameplay/cinematic/misc/trial_dungeon/sections/18/cinematic
+# Section 19 : 10
+execute if score section19 TRIAL_DUNGEON matches 0 run function att2:gameplay/cinematic/misc/trial_dungeon/sections/19/trigger
+execute if score section19 TRIAL_DUNGEON matches 1 run function att2:gameplay/cinematic/misc/trial_dungeon/sections/19/cinematic
 
 # trigger total
 execute if score lit_candle_total TRIAL_DUNGEON matches 500.. run function att2:gameplay/cinematic/misc/trial_dungeon/end
