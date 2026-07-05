@@ -44,6 +44,7 @@ function att2:gameplay/boss/nojelanth/hive/initialize
 function att2:gameplay/boss/ithax/guardian/initialize
 function att2:gameplay/boss/silberland/extratellur/initialize
 function att2:gameplay/boss/silberland/illusions/initialize
+function att2:gameplay/boss/silberland/ravagers/initialize
 function att2:gameplay/boss/schestrown/shadow/initialize
 function att2:gameplay/boss/serile/initialize
 function att2:gameplay/boss/ether/umbratyanth/initialize

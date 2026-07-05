@@ -39,7 +39,7 @@ execute if score EnterArena SQ55 matches 1.. run scoreboard players remove Enter
 # Start the boss fight (summoning Ted)
 execute if score Ted SQ55 matches -1 if entity @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,gamemode=adventure] run function att2:gameplay/boss/elcheol/ted/start
 
-# Process action of Doom
+# Process action of Ted
 execute if score Ted SQ55 matches 0.. if entity @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,gamemode=adventure] run function att2:gameplay/boss/elcheol/ted/action
 
 # Player failed destroying Ted and died

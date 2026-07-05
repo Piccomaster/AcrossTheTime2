@@ -45,6 +45,7 @@ function att2:gameplay/boss/schestrown/shadow/time/initialize
 #sylberland
 function att2:gameplay/boss/silberland/extratellur/time/initialize
 function att2:gameplay/boss/silberland/illusions/time/initialize
+function att2:gameplay/boss/silberland/ravagers/time/initialize
 #worlest
 function att2:gameplay/boss/worlest/blobby/time/initialize
 function att2:gameplay/boss/worlest/felroth/time/initialize

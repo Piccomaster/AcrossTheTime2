@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "id": [627577865,-736934166,-1512506370,1270622978],
+                    "name": "",
+                    "properties": [
+                        {
+                            "name": "textures",
+                            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVkMTQ5NDkzYTQ0NzY1MjkxYjNmMDVlYTc3MjA3NDg0YjQ1OGI4NDFlYjFkZjNhOWMzMmQyYTNjNzg1ZDAxYSJ9fX0="
+                        }
+                    ]
+                }
+            }
+        },
+        "title": {"translate":"att2.advancement.hunting.title.ravagers_master_timerecord"},
+        "description": {"translate":"att2.advancement.hunting.description.ravagers_master_timerecord"},
+        "frame": "challenge",
+        "hidden": false
+    },
+    "parent": "att2:hunting/ravagers_master",
+    "rewards": {
+        "function": "att2:advancement/exploit_30",
+        "experience": 30000
+    },
+    "criteria": {
+        "ravagers_master_timerecord": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

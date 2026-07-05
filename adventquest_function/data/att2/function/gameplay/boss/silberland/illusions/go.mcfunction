@@ -19,15 +19,15 @@ execute if score Illusions SILBERLAND matches 0.. as @a[x=-4217,y=9,z=-5652,dx=-
 execute if score Illusions SILBERLAND matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Illusions
-# Subject0135
+# Illusion1
 execute if score Illusions SILBERLAND matches 0.. if entity @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,gamemode=adventure] store result bossbar minecraft:illusion1 value run scoreboard players get 00000000-0000-005c-0000-00000000005c ENEMYHEALTH
 execute if score Illusions SILBERLAND matches 0.. unless entity 00000000-0000-005c-0000-00000000005c run bossbar remove minecraft:illusion1
 execute if score Illusions SILBERLAND matches 0.. if entity @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,gamemode=adventure] store result bossbar minecraft:illusion1 max run attribute 00000000-0000-005c-0000-00000000005c max_health get
-# Subject0257
+# Illusion2
 execute if score Illusions SILBERLAND matches 0.. if entity @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,gamemode=adventure] store result bossbar minecraft:illusion2 value run scoreboard players get 00000000-0000-006c-0000-00000000006c ENEMYHEALTH
 execute if score Illusions SILBERLAND matches 0.. unless entity 00000000-0000-006c-0000-00000000006c run bossbar remove minecraft:illusion2
 execute if score Illusions SILBERLAND matches 0.. if entity @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,gamemode=adventure] store result bossbar minecraft:illusion2 max run attribute 00000000-0000-006c-0000-00000000006c max_health get
-# Subject0312
+# Illusion3
 execute if score Illusions SILBERLAND matches 0.. if entity @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,gamemode=adventure] store result bossbar minecraft:illusion3 value run scoreboard players get 00000000-0000-007c-0000-00000000007c ENEMYHEALTH
 execute if score Illusions SILBERLAND matches 0.. unless entity 00000000-0000-007c-0000-00000000007c run bossbar remove minecraft:illusion3
 execute if score Illusions SILBERLAND matches 0.. if entity @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,gamemode=adventure] store result bossbar minecraft:illusion3 max run attribute 00000000-0000-007c-0000-00000000007c max_health get
