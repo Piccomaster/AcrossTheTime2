@@ -1,6 +1,7 @@
 #####################################################################
 #Made by Adventquest												#
-#Manage Ravagers                                                 	#
+#Manage Ravagers from after Section 19 completed in :               #
+#cinematic\misc\trial_dungeon\sections\go                           #
 #Ravagers can have multiple state stored in the SILBERLAND score  	#
 #   -1 Ravagers didn't appear yet                                	#
 #   0 Ravagers is fighting                                       	#
