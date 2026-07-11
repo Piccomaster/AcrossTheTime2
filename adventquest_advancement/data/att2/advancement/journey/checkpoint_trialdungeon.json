@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:redstone_ore"
         },
-        "title": {"translate":"att2.advancement.journey.title.checkpoint_runictrial"},
-        "description": {"translate":"att2.advancement.journey.description.checkpoint_runictrial"},
+        "title": {"translate":"att2.advancement.journey.title.checkpoint_trialdungeon"},
+        "description": {"translate":"att2.advancement.journey.description.checkpoint_trialdungeon"},
         "frame": "goal"
     },
     "parent": "att2:journey/root",
@@ -13,7 +13,7 @@
         "experience": 2500
                 },
     "criteria": {
-        "checkpoint_runictrial": {
+        "checkpoint_trialdungeon": {
             "trigger": "minecraft:impossible"
         }
     }

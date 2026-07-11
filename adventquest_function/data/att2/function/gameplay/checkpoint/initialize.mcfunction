@@ -370,6 +370,28 @@ scoreboard players set Runictrial25 CHECKPOINT 0
 scoreboard players set Runictrial26 CHECKPOINT 0
 scoreboard players set Runictrial27 CHECKPOINT 0
 
+scoreboard players set Trialdungeon CHECKPOINT 0
+scoreboard players set Trialdungeon1 CHECKPOINT 0
+scoreboard players set Trialdungeon2 CHECKPOINT 0
+scoreboard players set Trialdungeon3 CHECKPOINT 0
+scoreboard players set Trialdungeon4 CHECKPOINT 0
+scoreboard players set Trialdungeon5 CHECKPOINT 0
+scoreboard players set Trialdungeon6 CHECKPOINT 0
+scoreboard players set Trialdungeon7 CHECKPOINT 0
+scoreboard players set Trialdungeon8 CHECKPOINT 0
+scoreboard players set Trialdungeon9 CHECKPOINT 0
+scoreboard players set Trialdungeon10 CHECKPOINT 0
+scoreboard players set Trialdungeon11 CHECKPOINT 0
+scoreboard players set Trialdungeon12 CHECKPOINT 0
+scoreboard players set Trialdungeon13 CHECKPOINT 0
+scoreboard players set Trialdungeon14 CHECKPOINT 0
+scoreboard players set Trialdungeon15 CHECKPOINT 0
+scoreboard players set Trialdungeon16 CHECKPOINT 0
+scoreboard players set Trialdungeon17 CHECKPOINT 0
+scoreboard players set Trialdungeon18 CHECKPOINT 0
+scoreboard players set Trialdungeon19 CHECKPOINT 0
+scoreboard players set Trialdungeon20 CHECKPOINT 0
+
 scoreboard players set Ryliath CHECKPOINT 0
 scoreboard players set Ryliath0 CHECKPOINT 0
 scoreboard players set Ryliath1 CHECKPOINT 0

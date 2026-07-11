@@ -12,7 +12,7 @@ scoreboard players set Game_percentage_progress EXPLOIT 0
 scoreboard players set Points_completion EXPLOIT 100
 # SQ 60 + MAINQUEST 300
 scoreboard players set Total_objectives EXPLOIT 359
-scoreboard players set Total_point EXPLOIT 21415
+scoreboard players set Total_point EXPLOIT 21420
 
 function att2:advancement/initialize_secret_chest
 function att2:advancement/exploit_rewards/initialize

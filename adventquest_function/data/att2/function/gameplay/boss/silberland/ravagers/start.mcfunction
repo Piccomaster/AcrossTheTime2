@@ -18,7 +18,6 @@ execute as @e[x=-4897,y=54,z=-4718,dx=-70,dy=54,dz=-70,type=minecraft:ravager] r
 function att2:gameplay/boss/silberland/ravagers/ladder_closing
 function att2:gameplay/boss/silberland/ravagers/summon_minions_1
 function att2:gameplay/boss/silberland/ravagers/init_bossbar
-#TODO checkpoints
-function att2:gameplay/checkpoint/trial_dungeon/xxx
+function att2:gameplay/checkpoint/telluron_present/trialdungeon/19
 ##boss_timer Start
 function att2:gameplay/boss/silberland/ravagers/time/start

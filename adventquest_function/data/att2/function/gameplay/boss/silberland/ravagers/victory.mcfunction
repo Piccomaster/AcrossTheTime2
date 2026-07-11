@@ -7,6 +7,7 @@ scoreboard players add total_killed BOSS 1
 ##revoke test
 scoreboard players reset ravagers_test BOSS
 scoreboard players set Ravagers SILBERLAND -2
+function att2:gameplay/checkpoint/telluron_present/trialdungeon/20
 execute as @a run function att2:gameplay/boss/silberland/ravagers/stop
 execute positioned -4932 84 -4753 run function att2:gameplay/boss/rewards_start
 execute positioned -4932 84 -4753 run function att2:gameplay/boss/silberland/ravagers/rewards
