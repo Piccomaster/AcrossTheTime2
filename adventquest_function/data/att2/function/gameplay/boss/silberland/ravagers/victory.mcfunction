@@ -22,3 +22,8 @@ execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2
 function att2:advancement/test_all/mobskilled/boss
 ##boss_time over
 function att2:gameplay/boss/silberland/ravagers/time/time_over
+
+# Next trial dungeon rooms
+execute if score section20 TRIAL_DUNGEON matches 0 run function att2:gameplay/cinematic/misc/trial_dungeon/sections/20/summon
+# TODO de-comment for the full trial dungeon
+#execute if score section21 TRIAL_DUNGEON matches 0 run function att2:gameplay/cinematic/misc/trial_dungeon/sections/21/summon

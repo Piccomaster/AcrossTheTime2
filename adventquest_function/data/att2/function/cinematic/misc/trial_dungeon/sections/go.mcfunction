@@ -70,6 +70,9 @@ execute if score section18 TRIAL_DUNGEON matches 1 run function att2:gameplay/ci
 execute if score section19 TRIAL_DUNGEON matches -1 run function att2:gameplay/boss/silberland/ravagers/go
 execute if score section19 TRIAL_DUNGEON matches 0 run function att2:gameplay/cinematic/misc/trial_dungeon/sections/19/trigger
 execute if score section19 TRIAL_DUNGEON matches 1 run function att2:gameplay/cinematic/misc/trial_dungeon/sections/19/cinematic
+# Section 20 : 13
+execute if score section20 TRIAL_DUNGEON matches 0 run function att2:gameplay/cinematic/misc/trial_dungeon/sections/20/trigger
+execute if score section20 TRIAL_DUNGEON matches 1 run function att2:gameplay/cinematic/misc/trial_dungeon/sections/20/cinematic
 
 # trigger total
-execute if score lit_candle_total TRIAL_DUNGEON matches 500.. run function att2:gameplay/cinematic/misc/trial_dungeon/end
+execute if score lit_candle_total TRIAL_DUNGEON matches 1000.. run function att2:gameplay/cinematic/misc/trial_dungeon/end

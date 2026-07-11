@@ -1,0 +1,7 @@
+#########################################################################
+#Made by Adventquest													#
+#Process section 20 trigger	                                            #
+#########################################################################
+
+execute positioned -4932 91 -4833 run function att2:cinematic/misc/trial_dungeon/doors_effect
+execute if block -4932 81 -4808 minecraft:orange_candle[lit=true] if block -4922 80 -4795 minecraft:orange_candle[lit=true] if block -4942 80 -4795 minecraft:orange_candle[lit=true] if block -4938 80 -4827 minecraft:orange_candle[lit=true] if block -4926 80 -4827 minecraft:orange_candle[lit=true] if block -4922 86 -4823 minecraft:orange_candle[lit=true] if block -4942 86 -4823 minecraft:orange_candle[lit=true] if block -4932 87 -4818 minecraft:orange_candle[lit=true] if block -4923 85 -4809 minecraft:orange_candle[lit=true] if block -4941 85 -4809 minecraft:orange_candle[lit=true] if block -4942 86 -4795 minecraft:orange_candle[lit=true] if block -4932 88 -4792 minecraft:orange_candle[lit=true] if block -4922 86 -4795 minecraft:orange_candle[lit=true] run function att2:gameplay/cinematic/misc/trial_dungeon/sections/20/cinematic_start
