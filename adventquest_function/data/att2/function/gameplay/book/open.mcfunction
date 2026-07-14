@@ -13,8 +13,8 @@ execute unless items entity @s weapon.mainhand minecraft:book[use_cooldown={seco
 
 
 # consciousness limit
-execute if items entity @s weapon.mainhand book[custom_name={translate:att2.book.consciousness.name}] run return run execute as @s[gamemode=adventure,predicate=att2_pre:test_hold/conscience,scores={Stock_Open=0}] at @s run function att2:gameplay/dahal/action/spell20/summon/trigger
-execute if items entity @s weapon.offhand book[custom_name={translate:att2.book.consciousness.name}] unless items entity @s weapon.mainhand book[custom_name={translate:att2.book.consciousness.name}] run return run execute as @s[gamemode=adventure,predicate=att2_pre:test_hold/conscience,scores={Stock_Open=0}] at @s run function att2:gameplay/dahal/action/spell20/summon/trigger
+#execute if items entity @s weapon.mainhand book[custom_name={translate:att2.book.consciousness.name}] run return run execute as @s[gamemode=adventure,predicate=att2_pre:test_hold/conscience,scores={Stock_Open=0}] at @s run function att2:gameplay/dahal/action/spell20/summon/trigger
+#execute if items entity @s weapon.offhand book[custom_name={translate:att2.book.consciousness.name}] unless items entity @s weapon.mainhand book[custom_name={translate:att2.book.consciousness.name}] run return run execute as @s[gamemode=adventure,predicate=att2_pre:test_hold/conscience,scores={Stock_Open=0}] at @s run function att2:gameplay/dahal/action/spell20/summon/trigger
 
 ##show dialog
 function att2:gameplay/book/select with storage att2:book
