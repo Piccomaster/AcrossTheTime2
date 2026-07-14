@@ -12,8 +12,8 @@ execute if score @s LEAVEGAME matches 0 run return fail
 scoreboard players set @s LEAVEGAME 0
 
 ##tip
-tellraw @s [{translate:att2.alpha_test.enter_tip,color:"dark_green"}]
-playsound minecraft:entity.player.levelup block @s ~ ~ ~ 150 1.5
+# tellraw @s [{translate:att2.alpha_test.enter_tip,color:"dark_green"}]
+# playsound minecraft:entity.player.levelup block @s ~ ~ ~ 150 1.5
 
 #say 进入游戏
 ##update advancement

@@ -216,3 +216,10 @@ scoreboard players remove 0606d154-05e8-3565-0001-c1ac000000cf ENDERCHEST_CD 1
 scoreboard players remove 0606d154-05e8-3565-0001-c1ac000000d0 ENDERCHEST_CD 1
 scoreboard players remove 0606d154-05e8-3565-0001-c1ac000000d1 ENDERCHEST_CD 1
 scoreboard players remove 0606d154-05e8-3565-0001-c1ac000000d2 ENDERCHEST_CD 1
+scoreboard players remove 0606d154-05e8-3565-0001-c1ac000000d3 ENDERCHEST_CD 1
+scoreboard players remove 0606d154-05e8-3565-0001-c1ac000000d4 ENDERCHEST_CD 1
+scoreboard players remove 0606d154-05e8-3565-0001-c1ac000000d5 ENDERCHEST_CD 1
+scoreboard players remove 0606d154-05e8-3565-0001-c1ac000000d6 ENDERCHEST_CD 1
+scoreboard players remove 0606d154-05e8-3565-0001-c1ac000000d7 ENDERCHEST_CD 1
+scoreboard players remove 0606d154-05e8-3565-0001-c1ac000000d8 ENDERCHEST_CD 1
+scoreboard players remove 0606d154-05e8-3565-0001-c1ac000000d9 ENDERCHEST_CD 1

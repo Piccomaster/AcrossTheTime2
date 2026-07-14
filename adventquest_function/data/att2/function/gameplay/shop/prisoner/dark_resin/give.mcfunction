@@ -18,6 +18,8 @@ function att2:sound/misc/mission_progress
 execute if score Eldric DARK_RESIN matches 1 run function att2:dialogs/others/eldric/dialog_4
 execute if score Eldric DARK_RESIN matches 2..26 run function att2:dialogs/others/eldric/dialog_5
 execute if score Eldric DARK_RESIN matches 27.. run function att2:dialogs/others/eldric/dialog_6
+execute if score Eldric DARK_RESIN matches 27.. run setblock -5049 108 -4890 minecraft:redstone_torch
+execute if score Eldric DARK_RESIN matches 27.. run function att2:sound/misc/resolution
 
 ##total show
 function att2:gameplay/shop/prisoner/random_exchange/random_list

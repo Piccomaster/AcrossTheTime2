@@ -292,11 +292,18 @@
 
 <br>
 
-### **Runic Trials**
+### **New content**
 
-#### **New Trial Rooms**
+#### **Runic Trials Rooms**
 - 27 new runic trials spread throughout the **Sylberländ** region.
-- Each challenge consists of two puzzle/parkour rooms to solve in order to obtain a unique dark resin at the end.
+- Each challenge consists of two puzzle/parkour rooms to solve in order to obtain a unique *dark resin* at the end.
+
+#### **Trial dungeon**
+- New trial dungeon accessible in the **Sylberländ** region.
+- Can only be opened after bringing back all *27 dark resins* at **Eldric NPC**, and offering a certain amount of rune powder.
+- The final reward is the legendary weapon: **Kur-Hul Ud-Kud**.
+
+<br>
 
 ### **NPC**
 
