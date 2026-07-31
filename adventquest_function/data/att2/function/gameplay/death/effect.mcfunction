@@ -8,10 +8,12 @@ function att2:gameplay/stat/hunger/apply_effect
 
 scoreboard players set @s JUMP_SAFE 40
 
-execute if score level DIFFICULTY matches -1 run effect give @s minecraft:resistance 6 10 true
-execute if score level DIFFICULTY matches 0 run effect give @s minecraft:resistance 5 10 true
-execute if score level DIFFICULTY matches 1 run effect give @s minecraft:resistance 4 10 true
-execute if score level DIFFICULTY matches 2 run effect give @s minecraft:resistance 3 10 true
+##invulnerable
+item modify entity @s saddle {function:set_enchantments,enchantments:{"att2_enchantment:tick/misc/invulnerable":1}}
+execute if score level DIFFICULTY matches -1 run scoreboard players set @s Invulnerable 200
+execute if score level DIFFICULTY matches 0 run scoreboard players set @s Invulnerable 160
+execute if score level DIFFICULTY matches 1 run scoreboard players set @s Invulnerable 120
+execute if score level DIFFICULTY matches 2 run scoreboard players set @s Invulnerable 80
 
 execute if score level DIFFICULTY matches -1 run xp add @s -1 levels
 execute if score level DIFFICULTY matches 0 run xp add @s -3 levels
